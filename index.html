@@ -258,12 +258,42 @@
     max-width: 900px;
   }
 
-  .hero-logo {
-    width: clamp(340px, 65vw, 720px);
-    height: auto;
-    margin: 0 auto 28px;
-    display: block;
-    filter: drop-shadow(0 4px 16px rgba(0, 0, 0, 0.4));
+  .hero-logo-text {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .hero-logo-title {
+    font-size: clamp(52px, 10vw, 100px);
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    background: linear-gradient(180deg, #e8e0d0 0%, #c8a44e 35%, #a88a3a 65%, #c8a44e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
+  }
+
+  .hero-logo-title span {
+    background: linear-gradient(180deg, #ffffff 0%, #d4d0c8 40%, #b0aaa0 70%, #d4d0c8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero-logo-tagline {
+    display: inline-block;
+    margin-top: 4px;
+    padding: 6px 28px;
+    background: linear-gradient(135deg, #c8a44e 0%, #a88a3a 50%, #c8a44e 100%);
+    border-radius: 4px;
+    font-size: clamp(12px, 2vw, 18px);
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--navy-dark);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
   }
 
   .hero-crest {
@@ -972,11 +1002,10 @@
   <!-- ========== HERO ========== -->
   <section class="hero" id="hero">
     <div class="hero-content">
-      <img
-        src="assets/rosterwise-banner.png"
-        alt="RosterWise — Find Your Fit"
-        class="hero-logo"
-      >
+      <div class="hero-logo-text">
+        <div class="hero-logo-title"><span>ROSTER</span>WISE</div>
+        <div class="hero-logo-tagline">Find Your Fit.</div>
+      </div>
       <p class="hero-tagline">
         <em>Recruiting intelligence</em> for the families<br>who take it seriously.
       </p>
