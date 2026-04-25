@@ -46,9 +46,9 @@
   "operatingSystem": "iOS, Android",
   "offers": {
     "@type": "Offer",
-    "price": "20",
+    "price": "30",
     "priceCurrency": "USD",
-    "description": "$20 one-time purchase, no subscription required"
+    "description": "$30 one-time purchase, no subscription required"
   },
   "creator": {
     "@type": "Organization",
@@ -295,6 +295,25 @@
     text-transform: uppercase;
     color: var(--navy-dark);
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  }
+
+  .hero-price-badge {
+    display: inline-block;
+    margin: 0 auto 24px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    background: rgba(200, 164, 78, 0.12);
+    border: 1px solid rgba(200, 164, 78, 0.3);
+    font-size: clamp(12px, 1.5vw, 14px);
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+  }
+
+  .hero-price-badge span {
+    font-weight: 800;
+    color: var(--gold);
+    font-size: 1.1em;
   }
 
   .hero-crest {
@@ -940,6 +959,7 @@
   .hero-content > *:nth-child(3) { animation-delay: 0.45s; }
   .hero-content > *:nth-child(4) { animation-delay: 0.6s; }
   .hero-content > *:nth-child(5) { animation-delay: 0.75s; }
+  .hero-content > *:nth-child(6) { animation-delay: 0.9s; }
 
   @keyframes heroFadeUp {
     from { opacity: 0; transform: translateY(20px); }
@@ -1016,6 +1036,9 @@
         fit &mdash; so you can see exactly where your athlete belongs before
         you ever email a coach. For less than the cost of a single training session.
       </p>
+      <div class="hero-price-badge">
+        <span>$30 one-time</span> &mdash; No subscriptions &middot; No ads &middot; Access for your entire recruiting journey
+      </div>
       <img
         src="assets/rosterwise-soccer-crest.png"
         alt="RosterWise™ Soccer — College Recruiting Intelligence"
@@ -1134,10 +1157,10 @@
         </div>
         <div class="solution-card fade-in">
           <div class="solution-card-icon">&#128176;</div>
-          <h3>Affordable &amp; Accessible</h3>
-          <p>Just $20 &mdash; a one-time purchase with no subscriptions. That's less
-            than a single training session for intelligence on
-            every program in the country.</p>
+          <h3>No Subscriptions. No Ads. Ever.</h3>
+          <p>Just $30 &mdash; one payment, lifetime access for your entire
+            recruiting journey. No recurring charges, no ads, no upsells.
+            That's less than a single training session.</p>
         </div>
       </div>
     </div>
@@ -1216,10 +1239,11 @@
       </p>
       <div class="value-grid fade-in">
         <div class="value-card">
-          <div class="value-stat">$20</div>
-          <h3>Affordable for Every Family</h3>
-          <p>One-time purchase. No subscriptions, no recurring fees. Premium recruiting
-            intelligence shouldn't require a premium budget.</p>
+          <div class="value-stat">$30</div>
+          <h3>One Payment. No Subscriptions. No Ads.</h3>
+          <p>Pay once, use it for your entire recruiting journey. No monthly
+            fees, no annual renewals, no advertisements. Just the intelligence
+            you need, when you need it.</p>
         </div>
         <div class="value-card">
           <div class="value-stat">2,200+</div>
@@ -1295,7 +1319,8 @@
       <h2 class="section-title">Ready to find your fit?</h2>
       <p class="section-subtitle" style="color: rgba(255,255,255,0.6); margin: 0 auto;">
         Download RosterWise&trade; Soccer and start exploring 2,200+ programs
-        across D1, D2, D3, and NAIA today. Just $20 &mdash; no subscription required.
+        across D1, D2, D3, and NAIA. One payment of $30 &mdash; no subscriptions,
+        no ads, and ongoing access for your entire recruiting journey.
       </p>
       <div class="cta-stores">
         <a href="#" class="store-btn" aria-label="Download on the App Store">
