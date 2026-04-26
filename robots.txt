@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+# Block crawling of any admin or build artifacts if they ever exist
+Disallow: /admin/
+Disallow: /_build/
+
 Sitemap: https://rosterwise.app/sitemap.xml
