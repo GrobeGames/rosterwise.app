@@ -16,11 +16,31 @@ children:
   - title: "How Men's College Soccer Scholarships Actually Work"
     url: /soccer/mens/guide/scholarships/
     summary: "Equivalency vs. head count, the House settlement impact, roster limits, and what families should realistically expect."
-    status: coming-soon
+    status: live
   - title: "MLS Next, ECNL Boys, and the Men's College Recruiting Pathway"
     url: /soccer/mens/guide/club-pathways/
     summary: "How club pathway affects recruiting, what coaches look for, and why pathway alone doesn't determine outcomes."
-    status: coming-soon
+    status: live
+  - title: "Men's College Soccer ID Camps: When They're Worth It"
+    url: /soccer/mens/guide/id-camps/
+    summary: "What ID camps are, when they're worth attending, what they cost, and the questions families should ask before signing up."
+    status: live
+  - title: "How to Make a Men's College Soccer Recruiting Video Coaches Actually Watch"
+    url: /soccer/mens/guide/recruiting-video/
+    summary: "Length, format, what to include, position-specific advice, and distribution strategy for men's soccer recruiting video."
+    status: live
+  - title: "What Men's College Soccer Coaches Look for by Position"
+    url: /soccer/mens/guide/what-coaches-look-for/
+    summary: "Technical, tactical, physical, and mental attributes coaches evaluate for goalkeepers, defenders, midfielders, and forwards."
+    status: live
+  - title: "Men's College Soccer Goalkeeper Recruiting"
+    url: /soccer/mens/guide/goalkeeper-recruiting/
+    summary: "GK-specific timeline, evaluation criteria, film considerations, and roster dynamics — most programs carry only 3-4 goalkeepers."
+    status: live
+  - title: "International Recruiting for Men's College Soccer"
+    url: /soccer/mens/guide/international-recruiting/
+    summary: "How international players are recruited differently, impact on domestic recruits, and what families should know about roster composition."
+    status: live
   - title: "How to Build a Men's Soccer Recruiting List"
     url: /soccer/mens/guide/building-your-list/
     summary: "A practical guide to identifying target programs across divisions using roster data, academic fit, and geographic preferences."
