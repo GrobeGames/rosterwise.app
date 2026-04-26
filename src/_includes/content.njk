@@ -6,61 +6,7 @@ structured_data_type: article
 {% block content %}
 <div class="content-layout">
 
-  <!-- Guide sidebar navigation -->
-  <aside class="guide-sidebar" id="guideSidebar">
-    <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle guide navigation">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
-      <span>Guide Navigation</span>
-    </button>
-    <nav class="sidebar-nav" id="sidebarNav">
-      <div class="sidebar-section">
-        <h4><a href="/guide/">Recruiting Guides</a></h4>
-        <p class="sidebar-hint">Universal guides for all sports</p>
-      </div>
-      <div class="sidebar-section">
-        <h4><a href="/soccer/">Soccer</a></h4>
-        <ul>
-          <li class="sidebar-group" data-sidebar-group="mens">
-            <button class="sidebar-group-toggle" aria-expanded="false">
-              <span>Men's Soccer</span>
-              <span class="sidebar-chevron">&#9654;</span>
-            </button>
-            <ul>
-              <li><a href="/soccer/mens/">Overview</a></li>
-              <li><a href="/soccer/mens/guide/recruiting-timeline/">Recruiting Timeline</a></li>
-              <li class="sidebar-soon">Club Pathways</li>
-              <li class="sidebar-soon">Scholarships</li>
-              <li class="sidebar-soon">ID Camps</li>
-              <li class="sidebar-soon">Recruiting Video</li>
-              <li class="sidebar-soon">What Coaches Look For</li>
-              <li class="sidebar-soon">Goalkeeper Recruiting</li>
-              <li class="sidebar-soon">International Recruiting</li>
-            </ul>
-          </li>
-          <li class="sidebar-group" data-sidebar-group="womens">
-            <button class="sidebar-group-toggle" aria-expanded="false">
-              <span>Women's Soccer</span>
-              <span class="sidebar-chevron">&#9654;</span>
-            </button>
-            <ul>
-              <li><a href="/soccer/womens/">Overview</a></li>
-              <li class="sidebar-soon">Recruiting Timeline</li>
-              <li class="sidebar-soon">Club Pathways</li>
-              <li class="sidebar-soon">Scholarships</li>
-              <li class="sidebar-soon">ID Camps</li>
-              <li class="sidebar-soon">Recruiting Video</li>
-              <li class="sidebar-soon">What Coaches Look For</li>
-              <li class="sidebar-soon">Goalkeeper Recruiting</li>
-              <li class="sidebar-soon">International Recruiting</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="sidebar-cta">
-        <a href="/#download">Get RosterWise&trade; &rarr;</a>
-      </div>
-    </nav>
-  </aside>
+  {% include "sidebar.njk" %}
 
 <article class="content-page">
 
@@ -120,7 +66,7 @@ structured_data_type: article
     <h2>{{ cta.heading }}</h2>
     <p>{{ cta.text }}</p>
     {% if cta.price %}<p class="content-cta-price">{{ cta.price }}</p>{% endif %}
-    <a href="{{ cta.button_url | default('/app/') }}" class="content-cta-btn">{{ cta.button_text | default('Learn more about RosterWise →') }}</a>
+    <a href="{{ cta.button_url | default('/#download') }}" class="content-cta-btn">{{ cta.button_text | default('Learn more about RosterWise →') }}</a>
   </section>
   {% endif %}
 
@@ -141,41 +87,4 @@ structured_data_type: article
 
 </article>
 </div><!-- .content-layout -->
-
-<script>
-  // Sidebar toggle for mobile
-  const sidebarToggle = document.getElementById('sidebarToggle');
-  const sidebarNav = document.getElementById('sidebarNav');
-  if (sidebarToggle && sidebarNav) {
-    sidebarToggle.addEventListener('click', () => {
-      sidebarNav.classList.toggle('open');
-      sidebarToggle.classList.toggle('open');
-    });
-  }
-
-  // Expand/collapse sidebar groups
-  document.querySelectorAll('.sidebar-group-toggle').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const group = btn.closest('.sidebar-group');
-      const isExpanded = group.classList.contains('expanded');
-      group.classList.toggle('expanded');
-      btn.setAttribute('aria-expanded', !isExpanded);
-    });
-  });
-
-  // Highlight current page and auto-expand its section
-  const currentPath = window.location.pathname;
-  document.querySelectorAll('.sidebar-nav a').forEach(link => {
-    if (link.getAttribute('href') === currentPath) {
-      link.classList.add('active');
-      // Auto-expand parent group
-      const group = link.closest('.sidebar-group');
-      if (group) {
-        group.classList.add('expanded');
-        const toggle = group.querySelector('.sidebar-group-toggle');
-        if (toggle) toggle.setAttribute('aria-expanded', 'true');
-      }
-    }
-  });
-</script>
 {% endblock %}

@@ -1,6 +1,10 @@
 {% extends "base.njk" %}
 
 {% block content %}
+<div class="content-layout">
+
+  {% include "sidebar.njk" %}
+
 <div class="hub-page">
 
   {% if breadcrumbs %}
@@ -46,9 +50,10 @@
 
   <section class="hub-cta">
     <h2>Find your athlete&rsquo;s best-fit programs</h2>
-    <p>RosterWise analyzes every roster at every NCAA and NAIA program &mdash; position depth, recruiting patterns, international composition, and more &mdash; so families can target the right schools with confidence.</p>
-    <a href="/app/" class="hub-cta-btn">See how RosterWise helps &rarr;</a>
+    <p>RosterWise&trade; analyzes every roster at every NCAA and NAIA program &mdash; position depth, recruiting patterns, international composition, and more &mdash; so families can target the right schools with confidence.</p>
+    <a href="/#download" class="hub-cta-btn">Get RosterWise&trade; &rarr;</a>
   </section>
 
 </div>
+</div><!-- .content-layout -->
 {% endblock %}

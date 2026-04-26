@@ -1,0 +1,121 @@
+<!-- Guide sidebar navigation -->
+<aside class="guide-sidebar" id="guideSidebar">
+  <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle guide navigation">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+    <span>Guide Navigation</span>
+  </button>
+  <nav class="sidebar-nav" id="sidebarNav">
+
+    <div class="sidebar-section">
+      <div class="sidebar-group" data-sidebar-group="guides">
+        <button class="sidebar-group-toggle" aria-expanded="false">
+          <span>Recruiting Guides</span>
+          <span class="sidebar-chevron">&#9654;</span>
+        </button>
+        <ul>
+          <li><a href="/guide/">All Guides</a></li>
+          <li class="sidebar-soon">Recruiting Timeline</li>
+          <li class="sidebar-soon">Division Differences</li>
+          <li class="sidebar-soon">NCAA Recruiting Rules</li>
+          <li class="sidebar-soon">Verbal Commitment vs. NLI</li>
+          <li class="sidebar-soon">NCAA Eligibility Center</li>
+          <li class="sidebar-soon">Transfer Portal</li>
+          <li class="sidebar-soon">Walk-On Types</li>
+          <li class="sidebar-soon">Athletic Scholarships</li>
+          <li class="sidebar-soon">International Athletes</li>
+          <li class="sidebar-soon">Official vs. Unofficial Visits</li>
+          <li class="sidebar-soon">Questions for Coaches</li>
+          <li class="sidebar-soon">Recruiting Red Flags</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-group" data-sidebar-group="soccer">
+        <button class="sidebar-group-toggle" aria-expanded="false">
+          <span>Soccer</span>
+          <span class="sidebar-chevron">&#9654;</span>
+        </button>
+        <ul>
+          <li><a href="/soccer/">Soccer Overview</a></li>
+          <li class="sidebar-group" data-sidebar-group="mens">
+            <button class="sidebar-group-toggle" aria-expanded="false">
+              <span>Men's Soccer</span>
+              <span class="sidebar-chevron">&#9654;</span>
+            </button>
+            <ul>
+              <li><a href="/soccer/mens/">Overview</a></li>
+              <li><a href="/soccer/mens/guide/recruiting-timeline/">Recruiting Timeline</a></li>
+              <li class="sidebar-soon">Club Pathways</li>
+              <li class="sidebar-soon">Scholarships</li>
+              <li class="sidebar-soon">ID Camps</li>
+              <li class="sidebar-soon">Recruiting Video</li>
+              <li class="sidebar-soon">What Coaches Look For</li>
+              <li class="sidebar-soon">Goalkeeper Recruiting</li>
+              <li class="sidebar-soon">International Recruiting</li>
+            </ul>
+          </li>
+          <li class="sidebar-group" data-sidebar-group="womens">
+            <button class="sidebar-group-toggle" aria-expanded="false">
+              <span>Women's Soccer</span>
+              <span class="sidebar-chevron">&#9654;</span>
+            </button>
+            <ul>
+              <li><a href="/soccer/womens/">Overview</a></li>
+              <li class="sidebar-soon">Recruiting Timeline</li>
+              <li class="sidebar-soon">Club Pathways</li>
+              <li class="sidebar-soon">Scholarships</li>
+              <li class="sidebar-soon">ID Camps</li>
+              <li class="sidebar-soon">Recruiting Video</li>
+              <li class="sidebar-soon">What Coaches Look For</li>
+              <li class="sidebar-soon">Goalkeeper Recruiting</li>
+              <li class="sidebar-soon">International Recruiting</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sidebar-cta">
+      <a href="/#download">Get RosterWise&trade; &rarr;</a>
+    </div>
+  </nav>
+</aside>
+
+<script>
+  // Sidebar toggle for mobile
+  const sidebarToggle = document.getElementById('sidebarToggle');
+  const sidebarNav = document.getElementById('sidebarNav');
+  if (sidebarToggle && sidebarNav) {
+    sidebarToggle.addEventListener('click', () => {
+      sidebarNav.classList.toggle('open');
+      sidebarToggle.classList.toggle('open');
+    });
+  }
+
+  // Expand/collapse all sidebar groups
+  document.querySelectorAll('.sidebar-group-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const group = btn.closest('.sidebar-group');
+      const isExpanded = group.classList.contains('expanded');
+      group.classList.toggle('expanded');
+      btn.setAttribute('aria-expanded', !isExpanded);
+    });
+  });
+
+  // Highlight current page and auto-expand its parent sections
+  const currentPath = window.location.pathname;
+  document.querySelectorAll('.sidebar-nav a').forEach(link => {
+    if (link.getAttribute('href') === currentPath) {
+      link.classList.add('active');
+      // Walk up and expand all parent groups
+      let el = link.closest('.sidebar-group');
+      while (el) {
+        el.classList.add('expanded');
+        const toggle = el.querySelector(':scope > .sidebar-group-toggle');
+        if (toggle) toggle.setAttribute('aria-expanded', 'true');
+        el = el.parentElement ? el.parentElement.closest('.sidebar-group') : null;
+      }
+    }
+  });
+</script>
