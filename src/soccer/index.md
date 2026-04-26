@@ -24,9 +24,28 @@ children:
     summary: "A transparent look at our data sources, analysis methods, and what RosterFit scores actually measure."
     status: live
   - title: "College Soccer Insights & Trends"
-    url: /soccer/insights/
+    url: /soccer/insights/mens-roster-size/
     summary: "Data-driven analysis of roster composition trends, recruiting patterns, and conference-level intelligence."
-    status: coming-soon
+    status: live
+    children:
+      - title: "Men's Soccer Roster Sizes"
+        url: /soccer/insights/mens-roster-size/
+        status: live
+      - title: "Women's Soccer Roster Sizes"
+        url: /soccer/insights/womens-roster-size/
+        status: live
+      - title: "Men's International Conferences"
+        url: /soccer/insights/mens-international-conferences/
+        status: live
+      - title: "Women's International Conferences"
+        url: /soccer/insights/womens-international-conferences/
+        status: live
+      - title: "Men's vs. Women's Comparison"
+        url: /soccer/insights/mens-vs-womens-comparison/
+        status: live
+      - title: "Divisions by the Numbers"
+        url: /soccer/insights/division-by-numbers/
+        status: live
 ---
 
 College soccer recruiting is a process that rewards preparation, realistic self-assessment, and knowing where to look. RosterWise exists to give families the intelligence they need to navigate it with confidence.
