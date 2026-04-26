@@ -12,15 +12,35 @@ children:
   - title: "Women's College Soccer Recruiting Timeline"
     url: /soccer/womens/guide/recruiting-timeline/
     summary: "When commitments actually happen — NCAA contact rules, typical timelines by division, and the new House settlement landscape."
-    status: coming-soon
-  - title: "How Women's College Soccer Scholarships Actually Work"
+    status: live
+  - title: "How Women's College Soccer Scholarships Work"
     url: /soccer/womens/guide/scholarships/
     summary: "Head count scholarships, the House settlement impact, roster limits, and what families should realistically expect."
-    status: coming-soon
-  - title: "GA, ECNL Girls, and the Women's College Recruiting Pathway"
+    status: live
+  - title: "ECNL Girls, GA, and the Women's College Recruiting Pathway"
     url: /soccer/womens/guide/club-pathways/
     summary: "How club pathway affects recruiting, what coaches look for, and why pathway alone doesn't determine outcomes."
-    status: coming-soon
+    status: live
+  - title: "Women's College Soccer ID Camps"
+    url: /soccer/womens/guide/id-camps/
+    summary: "When ID camps are worth attending, what they cost, and the questions families should ask before signing up."
+    status: live
+  - title: "How to Make a Women's College Soccer Recruiting Video"
+    url: /soccer/womens/guide/recruiting-video/
+    summary: "What coaches actually watch, how to structure a highlight video, and position-specific considerations for women's recruits."
+    status: live
+  - title: "What Women's College Soccer Coaches Look for by Position"
+    url: /soccer/womens/guide/what-coaches-look-for/
+    summary: "Position-by-position breakdown of what coaches evaluate — technical, tactical, physical, and mental attributes."
+    status: live
+  - title: "Women's College Soccer Goalkeeper Recruiting"
+    url: /soccer/womens/guide/goalkeeper-recruiting/
+    summary: "GK-specific guidance — evaluation criteria, roster dynamics, film considerations, and what families of goalkeepers need to know."
+    status: live
+  - title: "International Recruiting for Women's College Soccer"
+    url: /soccer/womens/guide/international-recruiting/
+    summary: "How international recruiting affects domestic recruits, patterns by division, and what families should know about roster composition."
+    status: live
   - title: "How to Build a Women's Soccer Recruiting List"
     url: /soccer/womens/guide/building-your-list/
     summary: "A practical guide to identifying target programs across divisions using roster data, academic fit, and geographic preferences."
@@ -65,8 +85,8 @@ While women's soccer recruiting does tend to happen earlier, the social media po
 
 Families who feel behind should know that programs across all divisions are actively recruiting through senior year and beyond. D2, D3, and NAIA programs often have later timelines and can be outstanding fits for athletes who develop on a different schedule.
 
-## Coming soon
+## Explore our women's soccer guides
 
-Women's soccer recruiting guides are currently in development. Check back soon for detailed content on recruiting timelines, scholarship structures, club pathways, and data-driven roster insights.
+Our women's soccer recruiting guides cover the topics families care about most — timelines, scholarships, club pathways, what coaches evaluate, goalkeeper-specific guidance, and more. Each guide is written specifically for women's recruiting, with honest acknowledgment that experiences vary.
 
-In the meantime, many of the universal principles in our [Guide](/guide/) section apply to women's soccer recruiting as well.
+Still have questions? Many of the universal principles in our [Guide](/guide/) section apply to women's soccer recruiting as well.
