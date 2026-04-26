@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ title | default("RosterWise™ — College Sports Recruiting Intelligence") }}</title>
+<meta name="description" content="{{ description | default('RosterWise™ helps high school recruits and families find the right college sports program. Deep roster analysis, fit scoring, and recruiting intelligence.') }}">
+<meta name="keywords" content="{{ keywords | default('college recruiting, soccer recruiting, roster analysis, NCAA recruiting, recruiting intelligence') }}">
+<meta name="author" content="Grobe Games LLC">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://rosterwise.app{{ page.url | default('/') }}">
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ og_title | default(title) | default('RosterWise™') }}">
+<meta property="og:description" content="{{ og_description | default(description) | default('College sports recruiting intelligence.') }}">
+<meta property="og:type" content="{{ og_type | default('website') }}">
+<meta property="og:url" content="https://rosterwise.app{{ page.url | default('/') }}">
+<meta property="og:image" content="https://rosterwise.app/assets/rosterwise-shield-logo.png">
+<meta property="og:site_name" content="RosterWise™">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ title | default('RosterWise™') }}">
+<meta name="twitter:description" content="{{ description | default('College sports recruiting intelligence.') }}">
+<meta name="twitter:image" content="https://rosterwise.app/assets/rosterwise-shield-logo.png">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="64x64" href="/assets/favicon-64.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+
+<!-- Structured Data: Organization (always present) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Grobe Games LLC",
+  "url": "https://grobegames.com",
+  "logo": "https://rosterwise.app/assets/rosterwise-shield-logo.png",
+  "brand": {
+    "@type": "Brand",
+    "name": "RosterWise™"
+  }
+}
+</script>
+
+{% if structured_data_type == "article" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ title }}",
+  "description": "{{ description }}",
+  "datePublished": "{{ date | dateISO }}",
+  "dateModified": "{{ date | dateISO }}",
+  "author": {
+    "@type": "Organization",
+    "name": "Grobe Games LLC",
+    "url": "https://grobegames.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Grobe Games LLC",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://rosterwise.app/assets/rosterwise-shield-logo.png"
+    }
+  },
+  "mainEntityOfPage": "https://rosterwise.app{{ page.url }}"
+}
+</script>
+{% endif %}
+
+{% if breadcrumbs %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {% for crumb in breadcrumbs %}
+    {
+      "@type": "ListItem",
+      "position": {{ loop.index }},
+      "name": "{{ crumb.text }}"{% if crumb.url %},
+      "item": "https://rosterwise.app{{ crumb.url }}"{% endif %}
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+
+{% if faq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in faq %}
+    {
+      "@type": "Question",
+      "name": "{{ item.q }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ item.a }}"
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+
+<link rel="stylesheet" href="/assets/content.css">
+{% block head %}{% endblock %}
+
+<style>
+  /* Shared base reset and nav/footer styles */
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --navy: #1a2744;
+    --navy-dark: #0f1a2e;
+    --navy-light: #243352;
+    --gold: #c8a44e;
+    --gold-light: #dabb6a;
+    --gold-dark: #a88a3a;
+    --cream: #f8f6f0;
+    --white: #ffffff;
+    --text-dark: #1a1a2e;
+    --text-muted: #5a6178;
+    --text-light: rgba(255, 255, 255, 0.85);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    color: var(--text-dark);
+    background: var(--cream);
+    line-height: 1.6;
+  }
+
+  /* Navigation */
+  .nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 16px 0;
+    background: rgba(26, 39, 68, 0.97);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(200, 164, 78, 0.2);
+    transition: padding 0.3s ease;
+  }
+
+  .nav.scrolled {
+    padding: 10px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 clamp(20px, 5vw, 40px);
+  }
+
+  .nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--white);
+  }
+
+  .nav-brand-text {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    color: var(--gold);
+  }
+
+  .nav-brand-text span { color: var(--white); }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    list-style: none;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    transition: color 0.3s ease;
+  }
+
+  .nav-links a:hover { color: var(--gold); }
+
+  .nav-cta {
+    display: inline-block;
+    padding: 8px 20px;
+    background: var(--gold);
+    color: var(--navy-dark) !important;
+    font-weight: 700 !important;
+    border-radius: 6px;
+    transition: background 0.3s ease, transform 0.2s ease !important;
+  }
+
+  .nav-cta:hover {
+    background: var(--gold-light) !important;
+    transform: translateY(-1px);
+  }
+
+  .nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+  }
+
+  .nav-toggle span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--white);
+    margin: 5px 0;
+    transition: 0.3s;
+  }
+
+  /* Footer */
+  .footer {
+    background: var(--navy-dark);
+    padding: 60px 0 30px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .footer-inner {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 clamp(20px, 5vw, 40px);
+  }
+
+  .footer-brand h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+
+  .footer-brand h3 span { color: var(--white); }
+
+  .footer-brand p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.4);
+    max-width: 280px;
+  }
+
+  .footer-col h4 {
+    font-size: 13px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  .footer-col ul { list-style: none; }
+  .footer-col li { margin-bottom: 10px; }
+
+  .footer-col a {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.45);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer-col a:hover { color: var(--gold); }
+
+  .footer-bottom {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: clamp(20px, 5vw, 40px);
+    padding-right: clamp(20px, 5vw, 40px);
+  }
+
+  .footer-bottom p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.25);
+  }
+
+  .footer-bottom a {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.25);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer-bottom a:hover { color: var(--gold); }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .nav-links { display: none; }
+    .nav-links.open {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: var(--navy-dark);
+      padding: 20px;
+      gap: 16px;
+      border-bottom: 1px solid rgba(200, 164, 78, 0.2);
+    }
+    .nav-toggle { display: block; }
+    .footer-inner {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+    .footer-bottom {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+</style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">
+        <span class="nav-brand-text"><span>Roster</span>Wise&trade;</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/#features">Features</a></li>
+        <li><a href="/#story">Our Story</a></li>
+        <li><a href="/#sports">Sports</a></li>
+        <li><a href="/guide/">Guide</a></li>
+        <li><a href="/app/" class="nav-cta">Download</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <main>
+    {% block content %}{{ content | safe }}{% endblock %}
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <h3><span>Roster</span>Wise&trade;</h3>
+        <p>Recruiting intelligence for college sports. Deep roster analysis
+          to help high school athletes and families find the right program.</p>
+        <p style="margin-top: 12px;">
+          A product of <a href="https://grobegames.com" style="color: var(--gold); text-decoration: none;">Grobe Games LLC</a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="/#features">Features</a></li>
+          <li><a href="/#sports">Sports</a></li>
+          <li><a href="/app/">Download</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="/guide/">Recruiting Guide</a></li>
+          <li><a href="/soccer/">Soccer</a></li>
+          <li><a href="/soccer/mens/">Men&rsquo;s Soccer</a></li>
+          <li><a href="/soccer/womens/">Women&rsquo;s Soccer</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/privacy">Privacy Policy</a></li>
+          <li><a href="/takedown">Takedown Policy</a></li>
+          <li><a href="/disclaimer">Disclaimer</a></li>
+          <li><a href="/support">Support</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Grobe Games LLC. All rights reserved. RosterWise&trade; is a trademark of Grobe Games LLC.</p>
+      <p>
+        <a href="/privacy">Privacy</a> &middot;
+        <a href="/takedown">Takedown</a> &middot;
+        <a href="/disclaimer">Disclaimer</a> &middot;
+        <a href="/support">Support</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Nav scroll effect
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Mobile nav toggle
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      links.classList.toggle('open');
+    });
+
+    // Close mobile nav on link click
+    links.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => links.classList.remove('open'));
+    });
+  </script>
+</body>
+</html>

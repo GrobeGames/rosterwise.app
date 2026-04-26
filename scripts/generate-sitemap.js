@@ -8,8 +8,8 @@
  * Usage:
  *   node scripts/generate-sitemap.js
  *
- * The script reads from the repo root (one level up from scripts/) and
- * writes sitemap.xml to the same directory.
+ * The script reads from the _site build directory and writes sitemap.xml
+ * into _site so it's deployed with the rest of the site.
  *
  * To add priority/changefreq rules for new page types, edit the
  * PATH_CONFIG array below.
@@ -24,8 +24,8 @@ const path = require("path");
 
 const BASE_URL = "https://rosterwise.app";
 
-// Site root directory (repo root, one level up from scripts/)
-const SITE_ROOT = path.resolve(__dirname, "..");
+// Site root directory (Eleventy output: _site)
+const SITE_ROOT = path.resolve(__dirname, "..", "_site");
 
 // Output path for generated sitemap
 const OUTPUT_PATH = path.join(SITE_ROOT, "sitemap.xml");
@@ -43,14 +43,21 @@ const PATH_CONFIG = [
   { pattern: /^\/$/, priority: "1.0", changefreq: "monthly" },
 
   // Support page (updated more often than legal pages)
-  { pattern: /^\/support$/, priority: "0.5", changefreq: "monthly" },
+  { pattern: /^\/support\/?$/, priority: "0.5", changefreq: "monthly" },
 
   // Legal / policy pages
-  { pattern: /^\/(privacy|takedown|disclaimer|terms)$/, priority: "0.3", changefreq: "yearly" },
+  { pattern: /^\/(privacy|takedown|disclaimer|terms)\/?$/, priority: "0.3", changefreq: "yearly" },
 
-  // Future: sport program pages  (example — uncomment when pages exist)
-  // { pattern: /^\/soccer\/programs\/.+$/, priority: "0.7", changefreq: "weekly" },
-  // { pattern: /^\/soccer\/conferences\/.+$/, priority: "0.5", changefreq: "monthly" },
+  // App / product page
+  { pattern: /^\/app\/$/, priority: "0.9", changefreq: "monthly" },
+
+  // Guide content pages
+  { pattern: /\/guide\//, priority: "0.8", changefreq: "monthly" },
+
+  // Sport hub and content pages
+  { pattern: /^\/soccer\/mens\/guide\//, priority: "0.8", changefreq: "monthly" },
+  { pattern: /^\/soccer\/womens\/guide\//, priority: "0.8", changefreq: "monthly" },
+  { pattern: /^\/soccer\//, priority: "0.7", changefreq: "monthly" },
 
   // Catch-all default
   { pattern: /.*/, priority: "0.5", changefreq: "monthly" },
@@ -109,6 +116,9 @@ function fileToUrlPath(relPath) {
 
   // /index becomes /
   if (urlPath === "/index") return "/";
+
+  // /foo/index becomes /foo/ (clean URLs from Eleventy)
+  urlPath = urlPath.replace(/\/index$/, "/");
 
   return urlPath;
 }

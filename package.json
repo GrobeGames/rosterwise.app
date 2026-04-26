@@ -6,6 +6,11 @@
   "scripts": {
     "generate-sitemap": "node scripts/generate-sitemap.js",
     "check-seo": "node scripts/check-seo.js",
-    "build": "npm run generate-sitemap && npm run check-seo"
+    "build": "npx @11ty/eleventy && node scripts/generate-sitemap.js && node scripts/check-seo.js"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "markdown-it-anchor": "^9.2.0",
+    "markdown-it-toc-done-right": "^4.2.0"
   }
 }

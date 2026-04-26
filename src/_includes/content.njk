@@ -1,0 +1,85 @@
+---
+structured_data_type: article
+---
+{% extends "base.njk" %}
+
+{% block content %}
+<article class="content-page">
+
+  {% if breadcrumbs %}
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <ol>
+      {% for crumb in breadcrumbs %}
+      <li>
+        {% if crumb.url %}<a href="{{ crumb.url }}">{{ crumb.text }}</a>
+        {% else %}<span aria-current="page">{{ crumb.text }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </nav>
+  {% endif %}
+
+  <header class="content-header">
+    <h1>{{ title }}</h1>
+    {% if date %}
+    <p class="content-meta">
+      Last updated <time datetime="{{ date | dateISO }}">{{ date | dateDisplay }}</time>
+      &middot; {{ content | readingTime }}
+    </p>
+    {% endif %}
+  </header>
+
+  {% if summary %}
+  <div class="summary-box">
+    <p>{{ summary }}</p>
+  </div>
+  {% endif %}
+
+  <div class="content-body">
+    {{ content | safe }}
+  </div>
+
+  {% if related %}
+  <section class="related-guides">
+    <h2>Related Guides</h2>
+    <div class="related-grid">
+      {% for item in related %}
+      <div class="related-card{% if item.status == 'coming-soon' %} coming-soon{% endif %}">
+        {% if item.status == 'coming-soon' %}
+        <span class="related-badge">Coming Soon</span>
+        <span class="related-title">{{ item.title }}</span>
+        {% else %}
+        <a href="{{ item.url }}" class="related-link">{{ item.title }}</a>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if cta %}
+  <section class="content-cta">
+    <h2>{{ cta.heading }}</h2>
+    <p>{{ cta.text }}</p>
+    {% if cta.price %}<p class="content-cta-price">{{ cta.price }}</p>{% endif %}
+    <a href="{{ cta.button_url | default('/app/') }}" class="content-cta-btn">{{ cta.button_text | default('Learn more about RosterWise →') }}</a>
+  </section>
+  {% endif %}
+
+  {% if sources %}
+  <section class="sources-section">
+    <h3>Sources &amp; References</h3>
+    <ol class="sources-list">
+      {% for source in sources %}
+      <li>{{ source }}</li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+
+  <div class="content-byline">
+    <p>RosterWise &mdash; Grobe Games LLC</p>
+  </div>
+
+</article>
+{% endblock %}

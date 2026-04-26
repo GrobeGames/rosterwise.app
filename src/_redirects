@@ -1,0 +1,6 @@
+# Cloudflare Pages handles clean URLs natively:
+# /privacy/ serves /privacy/index.html automatically.
+# These redirects handle legacy paths.
+
+/terms      /privacy/    301
+/terms/     /privacy/    301

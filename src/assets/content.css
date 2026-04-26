@@ -1,0 +1,963 @@
+/* ==========================================
+   CONTENT PAGE STYLES — RosterWise™
+   Shared styles for guide, hub, and product pages.
+   Does NOT affect index.html (homepage has inline styles).
+   ========================================== */
+
+/* --- Breadcrumbs --- */
+.breadcrumbs {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px clamp(20px, 5vw, 40px) 0;
+}
+
+.breadcrumbs ol {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.breadcrumbs li::after {
+  content: "/";
+  margin-left: 6px;
+  color: #c0bdb5;
+}
+
+.breadcrumbs li:last-child::after { content: ""; }
+
+.breadcrumbs a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumbs a:hover { color: var(--gold); }
+
+.breadcrumbs span[aria-current] {
+  color: var(--navy);
+  font-weight: 500;
+}
+
+/* --- Content Article Layout --- */
+.content-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 clamp(20px, 5vw, 40px) 60px;
+}
+
+.content-header {
+  padding-top: 32px;
+  margin-bottom: 24px;
+}
+
+.content-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 800;
+  color: var(--navy);
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.content-meta {
+  font-size: 13px;
+  color: var(--text-muted);
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* --- Summary Box --- */
+.summary-box {
+  background: var(--white);
+  border: 1px solid #e0dcd4;
+  border-left: 4px solid var(--gold);
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin-bottom: 36px;
+  margin-top: 24px;
+}
+
+.summary-box p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+/* --- Table of Contents --- */
+.toc {
+  background: var(--white);
+  border: 1px solid #e0dcd4;
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin-bottom: 36px;
+}
+
+.toc::before {
+  content: "On this page";
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.toc ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.toc > ul > li { margin-bottom: 6px; }
+
+.toc ul ul {
+  padding-left: 16px;
+  margin-top: 4px;
+}
+
+.toc a {
+  font-size: 14px;
+  color: var(--navy);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.toc a:hover { color: var(--gold); }
+
+/* --- Content Body --- */
+.content-body {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-dark);
+}
+
+.content-body h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(22px, 3vw, 28px);
+  font-weight: 800;
+  color: var(--navy);
+  margin: 48px 0 16px;
+  line-height: 1.3;
+}
+
+.content-body h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--navy-light);
+  margin: 32px 0 10px;
+}
+
+.content-body p {
+  margin-bottom: 16px;
+}
+
+.content-body ul, .content-body ol {
+  margin: 12px 0 20px 24px;
+  line-height: 1.8;
+}
+
+.content-body li { margin-bottom: 6px; }
+
+.content-body a {
+  color: var(--gold-dark);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
+}
+
+.content-body a:hover { color: var(--navy); }
+
+.content-body strong { color: var(--navy); }
+
+.content-body em { font-style: italic; }
+
+.content-body blockquote {
+  border-left: 4px solid var(--gold);
+  background: var(--white);
+  margin: 24px 0;
+  padding: 16px 20px;
+  border-radius: 0 8px 8px 0;
+  font-size: 15px;
+  color: var(--text-dark);
+}
+
+.content-body blockquote p:last-child { margin-bottom: 0; }
+
+.content-body hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 40px 0;
+}
+
+/* Header anchor links */
+.content-body h2 a.header-anchor,
+.content-body h3 a.header-anchor {
+  text-decoration: none;
+  color: inherit;
+}
+
+.content-body h2 a.header-anchor:hover,
+.content-body h3 a.header-anchor:hover {
+  color: var(--gold);
+}
+
+/* --- Callout Boxes --- */
+.callout {
+  background: var(--white);
+  border: 1px solid #e0dcd4;
+  border-left: 4px solid var(--gold);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 24px 0;
+}
+
+.callout p:last-child { margin-bottom: 0; }
+
+/* --- Checklist --- */
+.content-body ul.checklist {
+  list-style: none;
+  padding-left: 0;
+}
+
+.content-body ul.checklist li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 10px;
+}
+
+.content-body ul.checklist li::before {
+  content: "\2610";
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+  font-size: 18px;
+}
+
+/* --- Related Guides --- */
+.related-guides {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid #ddd;
+}
+
+.related-guides h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--navy);
+  margin-bottom: 20px;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.related-card {
+  background: var(--white);
+  border: 1px solid #e0dcd4;
+  border-radius: 10px;
+  padding: 16px 20px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+}
+
+.related-card:not(.coming-soon):hover {
+  border-color: var(--gold);
+  box-shadow: 0 2px 12px rgba(200, 164, 78, 0.15);
+}
+
+.related-card.coming-soon {
+  opacity: 0.6;
+}
+
+.related-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  background: #eee;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+
+.related-title {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.related-link {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--navy);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.related-link:hover { color: var(--gold); }
+
+.related-link::after {
+  content: " \2192";
+  font-size: 14px;
+}
+
+/* --- CTA Block --- */
+.content-cta {
+  background: var(--navy);
+  color: var(--white);
+  border-radius: 12px;
+  padding: 40px 32px;
+  margin-top: 48px;
+  text-align: center;
+}
+
+.content-cta h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 12px;
+}
+
+.content-cta p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto 12px;
+}
+
+.content-cta-price {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--gold) !important;
+  margin-bottom: 20px !important;
+}
+
+.content-cta-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: var(--gold);
+  color: var(--navy-dark);
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+  margin-top: 8px;
+}
+
+.content-cta-btn:hover {
+  background: var(--gold-light);
+  transform: translateY(-1px);
+}
+
+/* --- Sources --- */
+.sources-section {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #ddd;
+}
+
+.sources-section h3 {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.sources-list {
+  margin-left: 20px;
+}
+
+.sources-list li {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 4px;
+}
+
+/* --- Byline --- */
+.content-byline {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.content-byline p {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* ==========================================
+   HUB PAGE STYLES
+   ========================================== */
+
+.hub-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 clamp(20px, 5vw, 40px) 60px;
+}
+
+.hub-header {
+  padding-top: 32px;
+  margin-bottom: 24px;
+}
+
+.hub-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 800;
+  color: var(--navy);
+  line-height: 1.2;
+}
+
+.hub-intro {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-dark);
+  margin-bottom: 40px;
+}
+
+.hub-intro p { margin-bottom: 16px; }
+
+.hub-intro a {
+  color: var(--gold-dark);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.hub-intro a:hover { color: var(--navy); }
+
+/* Hub child cards */
+.hub-children {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.hub-card {
+  background: var(--white);
+  border: 1px solid #e0dcd4;
+  border-radius: 10px;
+  padding: 20px 24px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+}
+
+.hub-card:not(.hub-card--coming):hover {
+  border-color: var(--gold);
+  box-shadow: 0 2px 12px rgba(200, 164, 78, 0.15);
+}
+
+.hub-card--coming {
+  opacity: 0.6;
+}
+
+.hub-card-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  background: #eee;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+
+.hub-card h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+
+.hub-card h3 a {
+  color: var(--navy);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.hub-card h3 a:hover { color: var(--gold); }
+
+.hub-card h3 a::after {
+  content: " \2192";
+  font-size: 14px;
+  color: var(--gold);
+}
+
+.hub-card p {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* Hub CTA */
+.hub-cta {
+  background: var(--navy);
+  color: var(--white);
+  border-radius: 12px;
+  padding: 40px 32px;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.hub-cta h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 12px;
+}
+
+.hub-cta p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.hub-cta-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: var(--gold);
+  color: var(--navy-dark);
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.hub-cta-btn:hover {
+  background: var(--gold-light);
+  transform: translateY(-1px);
+}
+
+/* ==========================================
+   PRODUCT PAGE STYLES
+   ========================================== */
+
+.product-page {
+  /* Resets — product page has its own full-width sections */
+}
+
+.product-section {
+  padding: clamp(60px, 8vw, 100px) clamp(20px, 5vw, 40px);
+}
+
+.product-section .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.product-section--navy {
+  background: linear-gradient(165deg, var(--navy-dark) 0%, var(--navy) 40%, var(--navy-light) 100%);
+  color: var(--white);
+}
+
+.product-section--cream {
+  background: var(--cream);
+}
+
+.product-section--white {
+  background: var(--white);
+}
+
+.product-section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(26px, 4vw, 36px);
+  font-weight: 800;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.product-section--navy h2 { color: var(--white); }
+.product-section--cream h2,
+.product-section--white h2 { color: var(--navy); }
+
+.product-section p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.product-section--navy p { color: rgba(255, 255, 255, 0.8); }
+
+/* Product Hero */
+.product-hero {
+  text-align: center;
+  padding: clamp(80px, 10vw, 120px) clamp(20px, 5vw, 40px) clamp(60px, 8vw, 100px);
+  background: linear-gradient(165deg, var(--navy-dark) 0%, var(--navy) 40%, var(--navy-light) 100%);
+  color: var(--white);
+  position: relative;
+  overflow: hidden;
+}
+
+.product-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 30% 80%, rgba(200, 164, 78, 0.08) 0%, transparent 60%),
+    radial-gradient(ellipse at 70% 20%, rgba(200, 164, 78, 0.05) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.product-hero-inner {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.product-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(32px, 5vw, 52px);
+  font-weight: 900;
+  color: var(--white);
+  margin-bottom: 16px;
+  line-height: 1.15;
+}
+
+.product-hero h1 em {
+  font-style: normal;
+  background: linear-gradient(180deg, #e8e0d0, #c8a44e 35%, #a88a3a 65%, #c8a44e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.product-hero .tagline {
+  font-size: clamp(18px, 2.5vw, 22px);
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 24px;
+}
+
+.product-price-badge {
+  display: inline-block;
+  background: rgba(200, 164, 78, 0.15);
+  border: 1px solid rgba(200, 164, 78, 0.3);
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--gold-light);
+  margin-bottom: 32px;
+}
+
+.product-price-badge strong {
+  color: var(--gold);
+}
+
+.product-store-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.store-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 28px;
+  border-radius: 10px;
+  background: var(--white);
+  color: var(--navy-dark);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.store-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.store-btn svg {
+  width: 24px;
+  height: 24px;
+}
+
+.store-btn .coming-label {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--text-muted);
+  display: block;
+}
+
+/* Problem cards */
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.problem-card {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 28px 24px;
+  border: 1px solid #e0dcd4;
+  text-align: center;
+}
+
+.problem-card h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--navy);
+  margin: 12px 0 8px;
+}
+
+.problem-card p {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* Feature cards */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(200, 164, 78, 0.15);
+  border-radius: 12px;
+  padding: 28px 24px;
+}
+
+.feature-card h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 8px;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.screenshot-placeholder {
+  background: rgba(200, 164, 78, 0.08);
+  border: 2px dashed rgba(200, 164, 78, 0.3);
+  border-radius: 12px;
+  padding: 40px 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+/* Sport availability cards */
+.sport-avail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 20px;
+  margin-top: 32px;
+}
+
+.sport-avail-card {
+  background: var(--white);
+  border: 1px solid #e0dcd4;
+  border-radius: 12px;
+  padding: 24px 16px;
+  text-align: center;
+  position: relative;
+}
+
+.sport-avail-card.available {
+  border-color: var(--gold);
+  background: #fdfcf8;
+}
+
+.sport-avail-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.sport-avail-badge.live {
+  background: var(--gold);
+  color: var(--navy-dark);
+}
+
+.sport-avail-badge.coming {
+  background: #eee;
+  color: var(--text-muted);
+}
+
+.sport-avail-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 4px;
+}
+
+.sport-avail-card p {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 0;
+}
+
+/* FAQ */
+.faq-list {
+  max-width: 700px;
+  margin: 32px auto 0;
+}
+
+.faq-item {
+  border-bottom: 1px solid #e0dcd4;
+  padding: 20px 0;
+}
+
+.faq-item:first-child { border-top: 1px solid #e0dcd4; }
+
+.faq-item summary {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--navy);
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.faq-item summary::after {
+  content: "+";
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--gold);
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.faq-item[open] summary::after {
+  content: "\2212";
+}
+
+.faq-item summary::-webkit-details-marker { display: none; }
+
+.faq-item .faq-answer {
+  font-size: 15px;
+  color: var(--text-dark);
+  line-height: 1.7;
+  margin-top: 12px;
+  padding-right: 32px;
+}
+
+.faq-item .faq-answer p { margin-bottom: 10px; }
+.faq-item .faq-answer p:last-child { margin-bottom: 0; }
+
+/* Founder story */
+.founder-section {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.founder-section .founder-text { flex: 1; }
+
+@media (max-width: 600px) {
+  .founder-section { flex-direction: column; }
+}
+
+/* Final CTA (navy) */
+.product-final-cta {
+  text-align: center;
+  padding: clamp(60px, 8vw, 100px) clamp(20px, 5vw, 40px);
+  background: linear-gradient(165deg, var(--navy) 0%, var(--navy-dark) 100%);
+  color: var(--white);
+  position: relative;
+}
+
+.product-final-cta::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(200, 164, 78, 0.08) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.product-final-cta .inner {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.product-final-cta h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 12px;
+}
+
+.product-final-cta p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.7;
+}
+
+/* --- Mobile Responsive --- */
+@media (max-width: 768px) {
+  .content-page,
+  .hub-page {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .breadcrumbs {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .related-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .content-cta,
+  .hub-cta {
+    padding: 28px 20px;
+  }
+
+  .product-store-btns {
+    flex-direction: column;
+  }
+}

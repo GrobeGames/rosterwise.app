@@ -9,7 +9,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const SITE_ROOT = path.resolve(__dirname, "..");
+const SITE_ROOT = path.resolve(__dirname, "..", "_site");
 const BASE_URL = "https://rosterwise.app";
 
 let errors = 0;
