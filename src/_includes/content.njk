@@ -4,6 +4,56 @@ structured_data_type: article
 {% extends "base.njk" %}
 
 {% block content %}
+<div class="content-layout">
+
+  <!-- Guide sidebar navigation -->
+  <aside class="guide-sidebar" id="guideSidebar">
+    <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle guide navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      <span>Guide Navigation</span>
+    </button>
+    <nav class="sidebar-nav" id="sidebarNav">
+      <div class="sidebar-section">
+        <h4><a href="/guide/">Recruiting Guides</a></h4>
+        <p class="sidebar-hint">Universal guides for all sports</p>
+      </div>
+      <div class="sidebar-section">
+        <h4><a href="/soccer/">Soccer</a></h4>
+        <ul>
+          <li class="sidebar-group">
+            <a href="/soccer/mens/">Men's Soccer</a>
+            <ul>
+              <li><a href="/soccer/mens/guide/recruiting-timeline/">Recruiting Timeline</a></li>
+              <li class="sidebar-soon">Club Pathways</li>
+              <li class="sidebar-soon">Scholarships</li>
+              <li class="sidebar-soon">ID Camps</li>
+              <li class="sidebar-soon">Recruiting Video</li>
+              <li class="sidebar-soon">What Coaches Look For</li>
+              <li class="sidebar-soon">Goalkeeper Recruiting</li>
+              <li class="sidebar-soon">International Recruiting</li>
+            </ul>
+          </li>
+          <li class="sidebar-group">
+            <a href="/soccer/womens/">Women's Soccer</a>
+            <ul>
+              <li class="sidebar-soon">Recruiting Timeline</li>
+              <li class="sidebar-soon">Club Pathways</li>
+              <li class="sidebar-soon">Scholarships</li>
+              <li class="sidebar-soon">ID Camps</li>
+              <li class="sidebar-soon">Recruiting Video</li>
+              <li class="sidebar-soon">What Coaches Look For</li>
+              <li class="sidebar-soon">Goalkeeper Recruiting</li>
+              <li class="sidebar-soon">International Recruiting</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar-cta">
+        <a href="/#download">Get RosterWise&trade; &rarr;</a>
+      </div>
+    </nav>
+  </aside>
+
 <article class="content-page">
 
   {% if breadcrumbs %}
@@ -82,4 +132,24 @@ structured_data_type: article
   </div>
 
 </article>
+</div><!-- .content-layout -->
+
+<script>
+  // Sidebar toggle for mobile
+  const sidebarToggle = document.getElementById('sidebarToggle');
+  const sidebarNav = document.getElementById('sidebarNav');
+  if (sidebarToggle && sidebarNav) {
+    sidebarToggle.addEventListener('click', () => {
+      sidebarNav.classList.toggle('open');
+      sidebarToggle.classList.toggle('open');
+    });
+  }
+  // Highlight current page in sidebar
+  const currentPath = window.location.pathname;
+  document.querySelectorAll('.sidebar-nav a').forEach(link => {
+    if (link.getAttribute('href') === currentPath) {
+      link.classList.add('active');
+    }
+  });
+</script>
 {% endblock %}
