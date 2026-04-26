@@ -44,22 +44,23 @@
 /* --- Content Layout (sidebar + article) --- */
 .content-layout {
   display: flex;
+  flex-direction: row;
   max-width: 1200px;
   margin: 0 auto;
-  gap: 0;
+  min-height: calc(100vh - 64px);
 }
 
 /* --- Guide Sidebar --- */
 .guide-sidebar {
-  width: 260px;
-  min-width: 260px;
-  border-right: 1px solid #e0dcd4;
-  padding: 24px 0 60px 0;
+  flex: 0 0 270px;
+  width: 270px;
+  border-right: 1px solid rgba(26, 39, 68, 0.08);
+  padding: 0;
   position: sticky;
   top: 64px;
   height: calc(100vh - 64px);
   overflow-y: auto;
-  background: var(--cream, #f8f6f0);
+  background: #f5f3ee;
 }
 
 .sidebar-toggle {
@@ -67,18 +68,23 @@
 }
 
 .sidebar-nav {
-  padding: 0 20px;
+  padding: 28px 24px 40px 28px;
 }
 
+/* Section headers */
 .sidebar-section {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .sidebar-section h4 {
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 700;
-  color: var(--navy, #1a2744);
-  margin-bottom: 4px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold, #c8a44e);
+  margin-bottom: 6px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(200, 164, 78, 0.2);
 }
 
 .sidebar-section h4 a {
@@ -87,12 +93,19 @@
 }
 
 .sidebar-section h4 a:hover {
-  color: var(--gold, #c8a44e);
+  color: var(--navy, #1a2744);
 }
 
 .sidebar-hint {
   font-size: 11px;
-  color: var(--text-muted, #5a6178);
+  color: #999;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.sidebar-nav > .sidebar-section > ul {
+  list-style: none;
+  padding: 0;
   margin: 0;
 }
 
@@ -102,27 +115,60 @@
   margin: 0;
 }
 
+/* Expandable group (Men's Soccer, Women's Soccer) */
 .sidebar-group {
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
-.sidebar-group > a {
+.sidebar-group > a,
+.sidebar-group > .sidebar-group-toggle {
   font-size: 13px;
   font-weight: 600;
   color: var(--navy, #1a2744);
   text-decoration: none;
-  display: block;
-  padding: 4px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  border: none;
+  background: none;
+  width: 100%;
+  font-family: inherit;
 }
 
-.sidebar-group > a:hover {
+.sidebar-group > a:hover,
+.sidebar-group > .sidebar-group-toggle:hover {
+  background: rgba(200, 164, 78, 0.1);
   color: var(--gold, #c8a44e);
 }
 
+/* Chevron for expandable sections */
+.sidebar-chevron {
+  font-size: 10px;
+  color: #aaa;
+  transition: transform 0.2s;
+}
+
+.sidebar-group.expanded > .sidebar-group-toggle .sidebar-chevron,
+.sidebar-group.expanded > a .sidebar-chevron {
+  transform: rotate(90deg);
+}
+
+/* Child links (nested under a group) */
 .sidebar-group > ul {
-  padding-left: 14px;
-  border-left: 2px solid #e0dcd4;
-  margin: 4px 0 12px 6px;
+  padding-left: 16px;
+  margin: 2px 0 8px 10px;
+  border-left: 2px solid rgba(200, 164, 78, 0.15);
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
+
+.sidebar-group.expanded > ul {
+  max-height: 500px;
 }
 
 .sidebar-group > ul li {
@@ -130,42 +176,46 @@
 }
 
 .sidebar-group > ul a {
-  font-size: 12px;
-  color: var(--text-muted, #5a6178);
+  font-size: 12.5px;
+  color: #5a6178;
   text-decoration: none;
   display: block;
-  padding: 3px 0;
-  transition: color 0.2s;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background 0.15s, color 0.15s;
 }
 
-.sidebar-group > ul a:hover,
-.sidebar-group > ul a.active {
-  color: var(--gold, #c8a44e);
+.sidebar-group > ul a:hover {
+  background: rgba(200, 164, 78, 0.08);
+  color: var(--navy, #1a2744);
 }
 
 .sidebar-group > ul a.active {
   font-weight: 700;
+  color: var(--gold, #c8a44e);
+  background: rgba(200, 164, 78, 0.1);
 }
 
 .sidebar-soon {
   font-size: 12px;
-  color: #b0aaa0;
-  padding: 3px 0;
-  font-style: italic;
+  color: #c0b9ad;
+  padding: 4px 10px;
+  display: block;
 }
 
+/* Sidebar CTA button */
 .sidebar-cta {
-  margin-top: 24px;
-  padding-top: 16px;
-  border-top: 1px solid #e0dcd4;
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(26, 39, 68, 0.08);
 }
 
 .sidebar-cta a {
   display: block;
   text-align: center;
-  padding: 8px 16px;
-  background: var(--gold, #c8a44e);
-  color: var(--navy-dark, #0f1a2e);
+  padding: 10px 16px;
+  background: var(--navy, #1a2744);
+  color: var(--gold, #c8a44e);
   font-size: 13px;
   font-weight: 700;
   border-radius: 6px;
@@ -174,15 +224,16 @@
 }
 
 .sidebar-cta a:hover {
-  background: #dabb6a;
+  background: var(--navy-light, #243352);
 }
 
 /* --- Content Article Layout --- */
 .content-page {
   flex: 1;
+  min-width: 0;
   max-width: 800px;
   margin: 0;
-  padding: 0 clamp(20px, 5vw, 40px) 60px;
+  padding: 0 clamp(24px, 5vw, 48px) 60px;
 }
 
 .content-header {
@@ -1073,40 +1124,42 @@
 }
 
 /* --- Mobile Responsive --- */
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   .content-layout {
     flex-direction: column;
   }
 
   .guide-sidebar {
+    flex: none;
     width: 100%;
-    min-width: 100%;
     position: relative;
     top: 0;
     height: auto;
     border-right: none;
-    border-bottom: 1px solid #e0dcd4;
+    border-bottom: 1px solid rgba(26, 39, 68, 0.08);
     padding: 0;
+    background: #f5f3ee;
   }
 
   .sidebar-toggle {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     width: 100%;
-    padding: 12px 20px;
-    background: var(--cream, #f8f6f0);
+    padding: 14px 24px;
+    background: #f5f3ee;
     border: none;
-    border-bottom: 1px solid #e0dcd4;
+    border-bottom: 1px solid rgba(26, 39, 68, 0.08);
     cursor: pointer;
     font-family: 'Outfit', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--navy, #1a2744);
   }
 
   .sidebar-toggle svg {
     color: var(--gold, #c8a44e);
+    transition: transform 0.2s;
   }
 
   .sidebar-toggle.open svg {
@@ -1115,11 +1168,16 @@
 
   .sidebar-nav {
     display: none;
-    padding: 12px 20px 16px;
+    padding: 16px 24px 20px;
   }
 
   .sidebar-nav.open {
     display: block;
+  }
+
+  /* On mobile, expand all groups by default when nav is open */
+  .sidebar-nav.open .sidebar-group > ul {
+    max-height: 500px;
   }
 }
 

@@ -20,9 +20,13 @@ structured_data_type: article
       <div class="sidebar-section">
         <h4><a href="/soccer/">Soccer</a></h4>
         <ul>
-          <li class="sidebar-group">
-            <a href="/soccer/mens/">Men's Soccer</a>
+          <li class="sidebar-group" data-sidebar-group="mens">
+            <button class="sidebar-group-toggle" aria-expanded="false">
+              <span>Men's Soccer</span>
+              <span class="sidebar-chevron">&#9654;</span>
+            </button>
             <ul>
+              <li><a href="/soccer/mens/">Overview</a></li>
               <li><a href="/soccer/mens/guide/recruiting-timeline/">Recruiting Timeline</a></li>
               <li class="sidebar-soon">Club Pathways</li>
               <li class="sidebar-soon">Scholarships</li>
@@ -33,9 +37,13 @@ structured_data_type: article
               <li class="sidebar-soon">International Recruiting</li>
             </ul>
           </li>
-          <li class="sidebar-group">
-            <a href="/soccer/womens/">Women's Soccer</a>
+          <li class="sidebar-group" data-sidebar-group="womens">
+            <button class="sidebar-group-toggle" aria-expanded="false">
+              <span>Women's Soccer</span>
+              <span class="sidebar-chevron">&#9654;</span>
+            </button>
             <ul>
+              <li><a href="/soccer/womens/">Overview</a></li>
               <li class="sidebar-soon">Recruiting Timeline</li>
               <li class="sidebar-soon">Club Pathways</li>
               <li class="sidebar-soon">Scholarships</li>
@@ -144,11 +152,29 @@ structured_data_type: article
       sidebarToggle.classList.toggle('open');
     });
   }
-  // Highlight current page in sidebar
+
+  // Expand/collapse sidebar groups
+  document.querySelectorAll('.sidebar-group-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const group = btn.closest('.sidebar-group');
+      const isExpanded = group.classList.contains('expanded');
+      group.classList.toggle('expanded');
+      btn.setAttribute('aria-expanded', !isExpanded);
+    });
+  });
+
+  // Highlight current page and auto-expand its section
   const currentPath = window.location.pathname;
   document.querySelectorAll('.sidebar-nav a').forEach(link => {
     if (link.getAttribute('href') === currentPath) {
       link.classList.add('active');
+      // Auto-expand parent group
+      const group = link.closest('.sidebar-group');
+      if (group) {
+        group.classList.add('expanded');
+        const toggle = group.querySelector('.sidebar-group-toggle');
+        if (toggle) toggle.setAttribute('aria-expanded', 'true');
+      }
     }
   });
 </script>
