@@ -162,13 +162,11 @@
   padding-left: 16px;
   margin: 2px 0 8px 10px;
   border-left: 2px solid rgba(200, 164, 78, 0.15);
-  overflow: hidden;
-  max-height: 0;
-  transition: max-height 0.3s ease;
+  display: none;
 }
 
 .sidebar-group.expanded > ul {
-  max-height: 500px;
+  display: block;
 }
 
 .sidebar-group > ul li {
@@ -1179,7 +1177,7 @@
 
   /* On mobile, expand all groups by default when nav is open */
   .sidebar-nav.open .sidebar-group > ul {
-    max-height: 500px;
+    display: block;
   }
 }
 

@@ -49,6 +49,7 @@
               <li><a href="/soccer/guide/reading-rosters/">Reading Rosters</a></li>
               <li><a href="/soccer/guide/d3-recruiting-reality/">D3 Recruiting Reality</a></li>
               <li><a href="/soccer/guide/walk-on-pathways/">Walk-On Pathways</a></li>
+              <li><a href="/soccer/guide/odp/">ODP Explained</a></li>
             </ul>
           </li>
           <li class="sidebar-group" data-sidebar-group="methodology">
@@ -133,11 +134,29 @@
     });
   }
 
-  // Expand/collapse all sidebar groups
+  // Sport-level groups that should accordion (collapse siblings when one opens)
+  const sportGroups = ['soccer', 'lacrosse', 'volleyball', 'softball'];
+
   document.querySelectorAll('.sidebar-group-toggle').forEach(btn => {
     btn.addEventListener('click', () => {
       const group = btn.closest('.sidebar-group');
+      const groupId = group.dataset.sidebarGroup;
       const isExpanded = group.classList.contains('expanded');
+
+      // If this is a top-level sport group, collapse other sport groups
+      if (sportGroups.includes(groupId) && !isExpanded) {
+        sportGroups.forEach(id => {
+          if (id !== groupId) {
+            const other = document.querySelector(`[data-sidebar-group="${id}"]`);
+            if (other) {
+              other.classList.remove('expanded');
+              const otherToggle = other.querySelector(':scope > .sidebar-group-toggle');
+              if (otherToggle) otherToggle.setAttribute('aria-expanded', 'false');
+            }
+          }
+        });
+      }
+
       group.classList.toggle('expanded');
       btn.setAttribute('aria-expanded', !isExpanded);
     });
