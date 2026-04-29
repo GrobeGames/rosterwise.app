@@ -16,22 +16,16 @@ summary: "For most NCAA Division I men's soccer recruits, verbal commitments clu
 related:
   - title: "The College Recruiting Timeline (Universal)"
     url: /guide/recruiting-timeline/
-    status: coming-soon
   - title: "Women's College Soccer Recruiting Timeline"
     url: /soccer/womens/guide/recruiting-timeline/
-    status: coming-soon
   - title: "MLS Next, ECNL Boys, and the Men's College Recruiting Pathway"
     url: /soccer/mens/guide/club-pathways/
-    status: coming-soon
   - title: "How Men's College Soccer Scholarships Actually Work"
     url: /soccer/mens/guide/scholarships/
-    status: coming-soon
-  - title: "The Transfer Portal Explained"
-    url: /guide/transfer-portal/
-    status: coming-soon
+  - title: "9 Common Soccer Recruiting Myths"
+    url: /soccer/guide/recruiting-myths/
   - title: "NCAA Recruiting Rules Explained"
     url: /guide/ncaa-recruiting-rules/
-    status: coming-soon
 sources:
   - "NCAA Division I Other Sports Recruiting Calendar, 2025-26 — official NCAA document"
   - "NCAA.org, Recruiting Calendars and Guides"

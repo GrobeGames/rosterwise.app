@@ -25,10 +25,10 @@ related:
     status: live
   - title: "The Transfer Portal Explained"
     url: /guide/transfer-portal/
-    status: coming-soon
+  - title: "9 Common Soccer Recruiting Myths"
+    url: /soccer/guide/recruiting-myths/
   - title: "NCAA Recruiting Rules Explained"
     url: /guide/ncaa-recruiting-rules/
-    status: coming-soon
 sources:
   - "NCAA Division I Other Sports Recruiting Calendar, 2025-26 — official NCAA document"
   - "NCAA.org, Recruiting Calendars and Guides"

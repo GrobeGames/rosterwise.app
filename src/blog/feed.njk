@@ -1,0 +1,25 @@
+---
+permalink: /blog/feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RosterWise Blog</title>
+    <link>https://rosterwise.app/blog/</link>
+    <description>Recruiting insights, roster analysis, and practical advice for college sports recruiting families.</description>
+    <language>en-us</language>
+    <atom:link href="https://rosterwise.app/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    {% set blogPosts = collections.blog | reverse %}
+    {%- for post in blogPosts %}
+    <item>
+      <title>{{ post.data.title }}</title>
+      <link>https://rosterwise.app{{ post.url }}</link>
+      <guid isPermaLink="true">https://rosterwise.app{{ post.url }}</guid>
+      <pubDate>{{ post.date.toUTCString() }}</pubDate>
+      {% if post.data.author %}<author>support@grobegames.com ({{ post.data.author }})</author>{% endif %}
+      <description>{{ post.data.description | default(post.data.excerpt) }}</description>
+    </item>
+    {%- endfor %}
+  </channel>
+</rss>

@@ -1,0 +1,99 @@
+---
+structured_data_type: article
+---
+{% extends "base.njk" %}
+
+{% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ title }}",
+  "description": "{{ description }}",
+  "datePublished": "{{ date | dateISO }}",
+  "dateModified": "{{ date | dateISO }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ author | default('Scott Springman') }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Grobe Games LLC",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://rosterwise.app/assets/rosterwise-shield-logo.png"
+    }
+  },
+  "mainEntityOfPage": "https://rosterwise.app{{ page.url }}",
+  "image": "https://rosterwise.app/assets/rosterwise-shield-logo.png"
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="content-layout">
+
+  {% include "sidebar.njk" %}
+
+<article class="content-page">
+
+  {% if breadcrumbs %}
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <ol>
+      {% for crumb in breadcrumbs %}
+      <li>
+        {% if crumb.url %}<a href="{{ crumb.url }}">{{ crumb.text }}</a>
+        {% else %}<span aria-current="page">{{ crumb.text }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </nav>
+  {% endif %}
+
+  <header class="content-header">
+    <h1>{{ title }}</h1>
+    <p class="content-meta">
+      {% if author %}By {{ author }} &middot; {% endif %}
+      <time datetime="{{ date | dateISO }}">{{ date | dateDisplay }}</time>
+      &middot; {{ content | readingTime }}
+    </p>
+  </header>
+
+  <div class="content-body">
+    {{ content | safe }}
+  </div>
+
+  {% if related %}
+  <section class="related-guides">
+    <h2>Related Posts &amp; Guides</h2>
+    <div class="related-grid">
+      {% for item in related %}
+      <div class="related-card{% if item.status == 'coming-soon' %} coming-soon{% endif %}">
+        {% if item.status == 'coming-soon' %}
+        <span class="related-badge">Coming Soon</span>
+        <span class="related-title">{{ item.title }}</span>
+        {% else %}
+        <a href="{{ item.url }}" class="related-link">{{ item.title }}</a>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if cta %}
+  <section class="content-cta">
+    <h2>{{ cta.heading }}</h2>
+    <p>{{ cta.text }}</p>
+    {% if cta.price %}<p class="content-cta-price">{{ cta.price }}</p>{% endif %}
+    <a href="{{ cta.button_url | default('/#download') }}" class="content-cta-btn">{{ cta.button_text | default('Learn more about RosterWise →') }}</a>
+  </section>
+  {% endif %}
+
+  <div class="content-byline">
+    <p>Written by {{ author | default('the RosterWise team') }} &mdash; Grobe Games LLC</p>
+  </div>
+
+</article>
+</div>
+{% endblock %}
