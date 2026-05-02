@@ -103,6 +103,8 @@ This is where families most often have misconceptions. A few important realities
 
 **NAIA scholarships are real and meaningful.** NAIA schools have scholarship budgets that can be competitive with NCAA D2 programs. Don't overlook NAIA because of name recognition.
 
+**Volleyball is one of the sports most reshaped by the House settlement.** Women's volleyball was previously a headcount sport with 12 full scholarships — one of the few women's sports with that designation. The settlement reclassified it as an equivalency sport with a roster cap of 18, fundamentally changing how scholarship money is distributed. For volleyball families, understanding whether a specific program has opted in to the settlement is critical to evaluating any scholarship offer. For more detail, see our volleyball scholarships guide (coming soon: [/volleyball/womens/guide/scholarships/](/volleyball/womens/guide/scholarships/)).
+
 For a deeper dive, see our [athletic scholarships guide](/guide/athletic-scholarships/).
 
 ## Recruiting rules: a quick comparison

@@ -69,6 +69,8 @@ For example, D1 men's soccer had a limit of 9.9 equivalencies. A coach could giv
 
 Most college sports were equivalency sports. This is why most college athletes received partial, not full, scholarships.
 
+Women's volleyball provides a useful contrast. As a headcount sport, D1 volleyball programs had exactly 12 full scholarships — every scholarship athlete received a full ride, and the coach could not split them. Under the House settlement, women's volleyball was reclassified as an equivalency sport at opt-in schools, with a roster cap of 18. This means programs can now spread scholarship money across up to 18 athletes as partial awards, rather than giving 12 athletes full rides. Whether that's better or worse for a given recruit depends on the program: some opt-in schools may offer more athletes partial funding, while others may concentrate money on fewer players. Schools choose whether to opt in, and most have not publicly disclosed their status — families must ask programs directly how the settlement affects their specific scholarship offer.
+
 ## The new system: House settlement changes
 
 The House v. NCAA settlement (approved June 2025) fundamentally restructured D1 scholarship economics for schools that opted in. Here's what changed:

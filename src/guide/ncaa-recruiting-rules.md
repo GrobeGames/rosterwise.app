@@ -177,6 +177,7 @@ Because D3 recruiting is less structured by NCAA rules, it often hinges more on 
 
 The House v. NCAA settlement (approved June 2025) primarily changed financial structures — scholarship caps, roster limits, revenue sharing — rather than recruiting calendars. However, some recruiting implications follow:
 
+- **Sport reclassifications:** The settlement specifically reclassified D1 women's volleyball from a headcount sport to an equivalency sport with a roster cap of 18, replacing the prior structure of 12 full scholarships (source: [NCAA.org House Settlement Q&A](https://www.ncaa.org))
 - **Roster limits at opt-in D1 schools** mean fewer total spots, which can affect recruiting strategy
 - **More scholarship money per athlete** at some programs changes the financial conversation
 - **Walk-on opportunities are reduced** at opt-in schools, which affects families planning a walk-on path

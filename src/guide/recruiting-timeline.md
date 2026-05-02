@@ -53,7 +53,7 @@ Even within the same sport and division, individual experiences vary enormously 
 - **Position** — some positions recruit earlier or later depending on the sport
 - **Family circumstances** — finances, geography, and priorities shape everything
 
-**If your family's timeline doesn't match a friend's, that is normal.** The framework below is a general guide, not a schedule to follow rigidly.
+**If your family's timeline doesn't match a friend's, that is normal.** Some sports move faster than others — women's volleyball recruiting, for example, historically operates on an even more compressed timeline than women's soccer, with sophomore-year offers being relatively common at the D1 level. For a volleyball-specific breakdown, see our volleyball recruiting timeline (coming soon: [/volleyball/womens/guide/recruiting-timeline/](/volleyball/womens/guide/recruiting-timeline/)). The framework below is a general guide, not a schedule to follow rigidly.
 
 ## 9th grade (freshman year): foundation, not outreach
 
