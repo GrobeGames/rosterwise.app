@@ -54,10 +54,16 @@ const PATH_CONFIG = [
   // Guide content pages
   { pattern: /\/guide\//, priority: "0.8", changefreq: "monthly" },
 
-  // Sport hub and content pages
+  // Sport hub and content pages — Soccer
   { pattern: /^\/soccer\/mens\/guide\//, priority: "0.8", changefreq: "monthly" },
   { pattern: /^\/soccer\/womens\/guide\//, priority: "0.8", changefreq: "monthly" },
   { pattern: /^\/soccer\//, priority: "0.7", changefreq: "monthly" },
+
+  // Sport hub and content pages — Volleyball
+  { pattern: /^\/volleyball\/womens\/guide\//, priority: "0.8", changefreq: "monthly" },
+  { pattern: /^\/volleyball\/guide\//, priority: "0.8", changefreq: "monthly" },
+  { pattern: /^\/volleyball\/methodology\//, priority: "0.7", changefreq: "monthly" },
+  { pattern: /^\/volleyball\//, priority: "0.7", changefreq: "monthly" },
 
   // Catch-all default
   { pattern: /.*/, priority: "0.5", changefreq: "monthly" },

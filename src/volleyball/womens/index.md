@@ -24,23 +24,23 @@ children:
   - title: "Women's College Volleyball ID Camps"
     url: /volleyball/womens/guide/id-camps/
     summary: "When volleyball ID camps are worth attending, what they cost, and the questions families should ask before signing up."
-    status: coming-soon
+    status: live
   - title: "How to Make a Women's College Volleyball Recruiting Video"
     url: /volleyball/womens/guide/recruiting-video/
     summary: "What coaches actually watch, how to structure a highlight video, and position-specific considerations for women's volleyball recruits."
-    status: coming-soon
+    status: live
   - title: "What Women's College Volleyball Coaches Look for by Position"
     url: /volleyball/womens/guide/what-coaches-look-for/
     summary: "Position-by-position breakdown of what coaches evaluate — technical ability, physical measurables, volleyball IQ, and coachability."
-    status: coming-soon
+    status: live
   - title: "Position-Specific Recruiting in Women's College Volleyball"
     url: /volleyball/womens/guide/position-specific-recruiting/
     summary: "How recruiting dynamics differ for setters, outside hitters, middles, liberos, and opposites — roster needs, measurables, and what coaches prioritize."
-    status: coming-soon
+    status: live
   - title: "International Recruiting in Women's College Volleyball"
     url: /volleyball/womens/guide/international-recruiting/
     summary: "How international recruiting affects domestic recruits, patterns by division, and what families should know about roster composition."
-    status: coming-soon
+    status: live
 ---
 
 Women's college volleyball recruiting has its own rhythm, its own rules, and its own competitive dynamics. This section covers what families of women's volleyball recruits need to know — written honestly, backed by data, and organized for clarity.

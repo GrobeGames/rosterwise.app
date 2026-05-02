@@ -11,6 +11,14 @@ children:
     url: /volleyball/womens/
     summary: "Guides, timelines, and resources for women's indoor volleyball recruiting"
     status: live
+  - title: "Volleyball Guides"
+    url: /volleyball/guide/evaluating-programs/
+    summary: "How to evaluate programs, read rosters, debunk recruiting myths, and understand the junior college and walk-on pathways"
+    status: live
+  - title: "Volleyball Methodology"
+    url: /volleyball/methodology/roster-composition/
+    summary: "How RosterWise analyzes volleyball rosters — composition, position depth, class-year gaps, and coaching tenure"
+    status: live
 ---
 
 College volleyball recruiting is fast-moving, club-driven, and deeply competitive. RosterWise exists to give families the intelligence they need to navigate it with clarity and confidence.
