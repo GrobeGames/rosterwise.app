@@ -103,6 +103,29 @@
   line-height: 1.4;
 }
 
+/* Standalone sidebar links (FAQ, etc.) */
+.sidebar-standalone-link {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--navy, #1a2744);
+  text-decoration: none;
+  display: block;
+  padding: 7px 10px;
+  border-radius: 6px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.sidebar-standalone-link:hover {
+  background: rgba(200, 164, 78, 0.1);
+  color: var(--gold, #c8a44e);
+}
+
+.sidebar-standalone-link.active {
+  font-weight: 700;
+  color: var(--gold, #c8a44e);
+  background: rgba(200, 164, 78, 0.1);
+}
+
 .sidebar-nav > .sidebar-section > ul {
   list-style: none;
   padding: 0;
