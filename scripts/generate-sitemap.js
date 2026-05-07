@@ -79,6 +79,12 @@ const EXCLUDE_PATTERNS = [
   /^admin$/,
 ];
 
+// Files to exclude from sitemap (non-page files like RSS feeds)
+const EXCLUDE_FILES = [
+  /feed\.xml$/,
+  /feed\.json$/,
+];
+
 // ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------

@@ -1,8 +1,13 @@
 User-agent: *
 Allow: /
 
-# Block crawling of any admin or build artifacts if they ever exist
+# Block crawling of admin, build artifacts, and redirect-source URLs
 Disallow: /admin/
 Disallow: /_build/
+Disallow: /terms
+Disallow: /terms/
+
+# RSS feed should not be indexed as a page
+Disallow: /blog/feed.xml
 
 Sitemap: https://rosterwise.app/sitemap.xml
