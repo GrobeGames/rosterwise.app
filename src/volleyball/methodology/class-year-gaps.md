@@ -28,7 +28,7 @@ cta:
   text: "Class-year gap analysis across every D1, D2, D3, and NAIA women's volleyball program — see exactly where the roster gaps are, by position and by class year, so your family can target programs with genuine need."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

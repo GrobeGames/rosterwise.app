@@ -32,7 +32,7 @@ cta:
   text: "Meeting eligibility requirements is the foundation. Understanding which programs your athlete fits — by roster composition, position depth, and playing-time opportunity — is what turns eligibility into a real plan."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

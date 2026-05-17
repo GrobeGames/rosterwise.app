@@ -36,7 +36,7 @@ cta:
   text: "Whether your athlete is heading to a four-year school or considering the junior college route first, RosterWise analyzes every D1, D2, D3, and NAIA soccer program in the country — roster composition, position depth, class-year gaps, and more. So when it's time to transfer or commit, you'll know exactly where the opportunities are."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

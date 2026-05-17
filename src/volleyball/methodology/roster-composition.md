@@ -29,7 +29,7 @@ cta:
   text: "Roster composition analysis across every D1, D2, D3, and NAIA women's volleyball program — position depth, class-year gaps, roster size, and more. The data coaches use to build their rosters, now available to families."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

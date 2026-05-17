@@ -27,7 +27,7 @@ cta:
   text: "Position depth, class-year gaps, roster composition, and coaching tenure for every D1, D2, D3, and NAIA women's volleyball program. The intelligence that used to require hours of manual research, available in seconds."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 When most families visit a college volleyball program's website, they look at the roster the way you'd look at a team photo: names, hometowns, maybe jersey numbers. They skim, nod, and move on to the next school.

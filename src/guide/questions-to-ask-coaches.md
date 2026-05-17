@@ -29,7 +29,7 @@ cta:
   text: "Walk into every coach conversation with a clear picture of the program's roster — position depth, class-year gaps, international composition, and where your athlete fits. RosterWise gives families that intelligence."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

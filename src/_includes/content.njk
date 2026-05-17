@@ -66,7 +66,8 @@ structured_data_type: article
     <h2>{{ cta.heading }}</h2>
     <p>{{ cta.text }}</p>
     {% if cta.price %}<p class="content-cta-price">{{ cta.price }}</p>{% endif %}
-    <a href="{{ cta.button_url | default('/#download') }}" class="content-cta-btn">{{ cta.button_text | default('Learn more about RosterWise →') }}</a>
+    <a href="{{ cta.button_url | default('/app/') }}" class="content-cta-btn">{{ cta.button_text | default('Learn more about RosterWise →') }}</a>
+    <p style="margin-top: 12px; font-size: 13px; color: rgba(0,0,0,0.5);">Learn more about our <a href="/roster-intelligence/" style="color: var(--gold-dark);">roster intelligence methodology</a>.</p>
   </section>
   {% endif %}
 

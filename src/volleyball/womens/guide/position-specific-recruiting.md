@@ -31,7 +31,7 @@ cta:
   text: "RosterWise analyzes position depth and class-year gaps at every women's volleyball program — so whether your athlete is a setter, an outside hitter, a middle, a libero, or a right-side hitter, you can see exactly which programs have genuine needs at their specific position."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

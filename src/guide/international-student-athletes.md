@@ -33,7 +33,7 @@ cta:
   text: "RosterWise tracks international composition on every D1, D2, D3, and NAIA roster. For international families, that means understanding which programs actively recruit internationally — and where roster composition suggests opportunity."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

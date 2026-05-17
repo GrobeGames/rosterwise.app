@@ -31,7 +31,7 @@ cta:
   text: "Club pathway is one piece of the puzzle. RosterWise analyzes roster composition, position depth, class-year gaps, and recruiting patterns at every D1, D2, D3, and NAIA women's volleyball program — so families can build a target list based on fit, not assumptions."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

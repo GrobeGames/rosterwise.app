@@ -33,7 +33,7 @@ cta:
   text: "RosterWise analyzes every D3 soccer program alongside D1, D2, and NAIA — roster composition, position depth, class-year gaps, and more. Because finding the right D3 fit requires the same level of intelligence as any other division."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

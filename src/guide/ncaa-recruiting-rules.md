@@ -32,7 +32,7 @@ cta:
   text: "Understanding recruiting rules is essential. Understanding which programs your athlete fits is what turns knowledge into action. RosterWise analyzes every D1, D2, D3, and NAIA roster so families can identify opportunities with confidence."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

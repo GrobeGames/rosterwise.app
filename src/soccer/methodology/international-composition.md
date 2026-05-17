@@ -32,7 +32,7 @@ cta:
   text: "See the international composition of every college soccer program — percentage, countries represented, and how it affects opportunity for domestic and international recruits."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

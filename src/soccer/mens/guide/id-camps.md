@@ -31,7 +31,7 @@ cta:
   text: "ID camps work best when you already know a program fits. RosterWise shows you roster depth, positional needs, and class-year gaps at every men's soccer program — so you can target camps where the opportunity is real."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

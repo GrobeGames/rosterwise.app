@@ -29,7 +29,7 @@ cta:
   text: "The best defense against recruiting pressure is information. RosterWise gives families independent, data-driven intelligence about every program's roster — so you can verify what coaches tell you and make decisions with confidence."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

@@ -32,7 +32,7 @@ cta:
   text: "Reading rosters manually is time-consuming and easy to get wrong. RosterWise analyzes every D1, D2, D3, and NAIA soccer roster in the country — class-year gaps, position depth, international composition, height profiles, and more — so families can see where their athlete fits without spending hundreds of hours on athletics websites."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

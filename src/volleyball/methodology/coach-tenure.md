@@ -29,7 +29,7 @@ cta:
   text: "Coaching tenure data for every D1, D2, D3, and NAIA women's volleyball program — alongside roster composition, position depth, and class-year gaps. The full picture of program direction, in one place."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

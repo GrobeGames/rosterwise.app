@@ -32,7 +32,7 @@ cta:
   text: "Head coach tenure, roster composition, class-year gaps, and more — for every college soccer program in the country. Know the program before you commit."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

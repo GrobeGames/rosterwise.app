@@ -30,7 +30,7 @@ cta:
   text: "Once your athlete has quality recruiting film, the next question is: which programs should see it? RosterWise helps you identify programs with genuine needs at your athlete's position, so your outreach is targeted and your film reaches the coaches who are actually looking for a player like yours."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

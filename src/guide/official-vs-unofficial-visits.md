@@ -30,7 +30,7 @@ cta:
   text: "A campus visit is more valuable when you already understand the program's roster composition — position depth, class-year gaps, and where you might fit. RosterWise gives families that intelligence before they set foot on campus."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

@@ -30,7 +30,7 @@ cta:
   text: "Whether your athlete is headed directly to a four-year program or considering the junior college route first, RosterWise helps you understand roster composition, position depth, and recruiting opportunity at every NCAA and NAIA women's volleyball program in the country."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}

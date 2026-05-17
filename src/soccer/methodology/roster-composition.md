@@ -32,7 +32,7 @@ cta:
   text: "Roster composition analysis across every college soccer program in the country — position depth, class-year gaps, international composition, height profiles, and more. One app. Every program."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise helps →"
-  button_url: /#download
+  button_url: /app/
 ---
 
 ${toc}
