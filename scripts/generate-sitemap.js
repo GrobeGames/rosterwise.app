@@ -54,6 +54,9 @@ const PATH_CONFIG = [
   // Roster intelligence methodology page
   { pattern: /^\/roster-intelligence\/$/, priority: "0.8", changefreq: "monthly" },
 
+  // Data methodology page
+  { pattern: /^\/methodology\/data-and-analysis\/$/, priority: "0.7", changefreq: "monthly" },
+
   // Guide content pages
   { pattern: /\/guide\//, priority: "0.8", changefreq: "monthly" },
 
