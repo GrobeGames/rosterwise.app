@@ -85,4 +85,10 @@ RosterWise tracks international player composition at every program as part of o
 
 ## Where to start
 
+Every recruit's timeline is different. Late bloomers are common in men's soccer, development curves vary, and the right program depends on factors that no timeline can predict. Use these guides as context — not a checklist.
+
 If you're new to men's college soccer recruiting, start with the **[Recruiting Timeline](/soccer/mens/guide/recruiting-timeline/)** — it covers NCAA contact rules, typical commitment windows by division, and the latest rule changes affecting the 2025-26 cycle.
+
+**Researching women's soccer?** See the [Women's College Soccer Recruiting](/soccer/womens/) section for women's-specific guides and timelines.
+
+**Ready to go deeper?** [RosterWise Soccer](/app/) analyzes every program's roster — position depth, class-year gaps, geographic patterns, and personalized fit scoring — for $40, one time.

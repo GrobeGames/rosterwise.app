@@ -89,4 +89,8 @@ Families who feel behind should know that programs across all divisions are acti
 
 Our women's soccer recruiting guides cover the topics families care about most — timelines, scholarships, club pathways, what coaches evaluate, goalkeeper-specific guidance, and more. Each guide is written specifically for women's recruiting, with honest acknowledgment that experiences vary.
 
+**Researching men's soccer?** See the [Men's College Soccer Recruiting](/soccer/mens/) section for men's-specific guides and timelines.
+
 Still have questions? Many of the universal principles in our [Guide](/guide/) section apply to women's soccer recruiting as well.
+
+**Ready to go deeper?** [RosterWise Soccer](/app/) analyzes every program's roster — position depth, class-year gaps, geographic patterns, and personalized fit scoring — for $40, one time.

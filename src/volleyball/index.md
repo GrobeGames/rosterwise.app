@@ -41,4 +41,8 @@ RosterWise is not a recruiting service. We don't broker introductions, sell matc
 
 **Our volleyball coverage focuses on women's indoor volleyball.** Beach volleyball, men's volleyball, and NJCAA are not covered at this time.
 
+Every family's recruiting journey is different — timelines vary, club experiences differ, and what matters most to one family may not apply to another. Use these resources as a guide, not a guarantee.
+
 **New here?** Start with [Women's College Volleyball Recruiting](/volleyball/womens/) for guides, timelines, and resources specific to women's indoor volleyball.
+
+**RosterWise Volleyball is coming.** [RosterWise Soccer](/app/) launches first (May 2026), with volleyball as the next sport. The same roster intelligence methodology — position depth, class-year gaps, geographic patterns, and personalized fit scoring — will apply to volleyball.

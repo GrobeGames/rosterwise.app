@@ -66,4 +66,8 @@ Each section includes recruiting timelines, scholarship breakdowns, club pathway
 
 RosterWise is not a recruiting service. We don't broker introductions, sell match lists, or take a cut of anything. We apply [college sports roster intelligence](/roster-intelligence/) — systematic analysis of every roster at every program — and give families the data to make informed decisions.
 
+Every family's recruiting journey is different. Timelines vary, priorities differ, and what works for one athlete may not apply to another. Use these resources as a starting point — not a script.
+
 **New here?** Start with [Men's College Soccer Recruiting](/soccer/mens/) or [Women's College Soccer Recruiting](/soccer/womens/) depending on your athlete.
+
+**Ready to go deeper?** [RosterWise Soccer](/app/) analyzes every program's roster — position depth, class-year gaps, geographic patterns, and personalized fit scoring — for $40, one time.

@@ -77,6 +77,8 @@ Topics range from NCAA recruiting rules and scholarship structures to practical 
 
 ## Our approach
 
-RosterWise is not a recruiting service. We don't broker introductions, sell match lists, or take a percentage of anything. We analyze publicly available data and give families the intelligence to make informed decisions. These guides are a free extension of that mission — real information, no sales pitch.
+RosterWise is not a recruiting service. We don't broker introductions, sell match lists, or take a percentage of anything. We apply [roster intelligence](/roster-intelligence/) — systematic analysis of every roster at every program — and give families the data to make informed decisions. These guides are a free extension of that mission — real information, no sales pitch.
 
 Start with any guide that matches your family's current questions, or begin with the [recruiting timeline](/guide/recruiting-timeline/) for a big-picture overview. For sport-specific depth, see our [men's soccer recruiting timeline](/soccer/mens/guide/recruiting-timeline/).
+
+**Ready to go deeper?** [RosterWise Soccer](/app/) analyzes every program's roster — position depth, class-year gaps, geographic patterns, and personalized fit scoring — for $40, one time.
