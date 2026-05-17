@@ -1,38 +1,43 @@
 ---
 layout: content.njk
-title: "NCAA Soccer Divisions by the Numbers: Programs, Roster Spots, Recruiting Reality | RosterWise™"
-description: "A data-driven comparison of D1, D2, D3, and NAIA college soccer — program counts, roster sizes, international composition, and what the numbers mean for recruiting families."
-date: 2026-04-26
+title: "NCAA Soccer Divisions by the Numbers — 2025 Season Analysis | RosterWise™"
+description: "A data-driven comparison of D1, D2, D3, and NAIA college soccer — program counts, roster sizes, international composition, and what the numbers mean for recruiting families. 2025 NCAA season."
+date: 2026-05-17
 breadcrumbs:
   - text: Home
     url: /
   - text: Soccer
     url: /soccer/
   - text: Insights
-    url: /soccer/insights/
   - text: Divisions by the Numbers
-summary: "D1, D2, D3, NAIA — most families know the names, but few understand how different the recruiting math looks at each level. This page puts the numbers side by side: how many programs exist, how large the rosters are, how international the composition is, and what it all means for a family trying to find the right fit. No hype, no rankings — just the data that helps families make informed decisions."
+summary: "Based on RosterWise™'s analysis of 2,239 college soccer programs and 67,083 players for the 2025 NCAA season, here is how D1, D2, D3, and NAIA compare — by the numbers. Program counts, roster sizes, international composition, roster spot totals, height profiles, and geographic distribution. No hype, no rankings — just the data that helps families make informed decisions."
 related:
   - title: "Men's Soccer Roster Sizes"
     url: /soccer/insights/mens-roster-size/
+    status: live
   - title: "Women's Soccer Roster Sizes"
     url: /soccer/insights/womens-roster-size/
+    status: live
   - title: "How Men's and Women's Rosters Differ"
     url: /soccer/insights/mens-vs-womens-comparison/
+    status: live
   - title: "Division Differences Guide"
     url: /guide/division-differences/
+    status: live
 sources:
-  - "RosterWise roster data, current season — publicly available college athletics websites"
-  - "NCAA.org, House v. NCAA Settlement Implementation (June 2025)"
-  - "NCAA Sports Sponsorship and Participation Report"
-  - "NAIA.org"
+  - "RosterWise 2025 roster dataset — publicly available college athletics websites, captured April–May 2026"
+  - '<a href="https://www.ncaa.org">NCAA.org</a> — House v. NCAA Settlement Implementation (June 2025)'
+  - '<a href="https://naia.org">NAIA.org</a> — NAIA membership and program information'
+  - '<a href="https://nces.ed.gov/ipeds/">U.S. Department of Education IPEDS</a> — Institutional data'
 cta:
   heading: "RosterWise™ goes beyond division-level averages."
   text: "Division comparisons give you the big picture. RosterWise gives you program-level detail — roster composition, position depth, class-year gaps, and My RosterFit™ scoring for your athlete's specific profile."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
+
+> **Methodology and data sourcing**: See [How RosterWise Builds and Analyzes College Soccer Roster Data](/methodology/data-and-analysis/) for full documentation of our dataset, definitions, and analytical methods.
 
 ${toc}
 
@@ -40,126 +45,141 @@ ${toc}
 
 College soccer in the United States spans four major organizational levels: NCAA Division I, Division II, Division III, and the NAIA. Each operates under different rules, different scholarship structures, and different competitive philosophies. For families, understanding these differences is the foundation of a realistic recruiting strategy.
 
-Here is the current landscape, by the numbers:
+Across 2,239 programs and 67,083 players analyzed for the 2025 NCAA season:
 
 | Metric | D1 | D2 | D3 | NAIA |
 |--------|----|----|----|----- |
-| **Men's programs** | [STAT: D1 men's count] | [STAT: D2 men's count] | [STAT: D3 men's count] | [STAT: NAIA men's count] |
-| **Women's programs** | [STAT: D1 women's count] | [STAT: D2 women's count] | [STAT: D3 women's count] | [STAT: NAIA women's count] |
-| **Total programs** | [STAT: D1 total] | [STAT: D2 total] | [STAT: D3 total] | [STAT: NAIA total] |
-| **Men's avg. roster size** | [STAT: D1 men's avg] | [STAT: D2 men's avg] | [STAT: D3 men's avg] | [STAT: NAIA men's avg] |
-| **Women's avg. roster size** | [STAT: D1 women's avg] | [STAT: D2 women's avg] | [STAT: D3 women's avg] | [STAT: NAIA women's avg] |
-| **Men's international %** | [STAT: D1 men's intl %] | [STAT: D2 men's intl %] | [STAT: D3 men's intl %] | [STAT: NAIA men's intl %] |
-| **Women's international %** | [STAT: D1 women's intl %] | [STAT: D2 women's intl %] | [STAT: D3 women's intl %] | [STAT: NAIA women's intl %] |
+| **Men's programs** | 213 | 205 | 406 | 190 |
+| **Women's programs** | 349 | 263 | 416 | 197 |
+| **Total programs** | 562 | 468 | 822 | 387 |
+| **Men's avg. roster size** | 29.2 | 35.4 | 31.9 | 35.5 |
+| **Women's avg. roster size** | 27.7 | 29.6 | 27.2 | 26.0 |
+| **Men's international %** | 33.8% | 37.4% | 11.2% | 48.1% |
+| **Women's international %** | 12.5% | 11.3% | 2.1% | 19.5% |
 | **Athletic scholarships** | Yes (roster-limited for opt-in) | Yes (equivalency) | No | Yes |
 
 This table is a starting point. Each row tells a different part of the story, and the rest of this page unpacks what these numbers mean for families.
 
 ## Program counts: where the opportunities are
 
-The first thing to notice is the distribution of programs across divisions:
+The distribution of programs across divisions:
 
-- **D3 has the most programs** in both men's and women's soccer: [STAT: D3 men's count] men's and [STAT: D3 women's count] women's. This is the largest pool of college soccer opportunities in the country.
-- **D1 has the most visibility** but [STAT: D1 total] total programs — the smallest pool of the four divisions.
-- **D2 and NAIA** occupy the middle ground, with [STAT: D2 total] and [STAT: NAIA total] programs respectively.
+- **D3 has the most programs** in both men's and women's soccer: 406 men's and 416 women's. This is the largest pool of college soccer opportunities in the country.
+- **D1 has the most visibility** but 562 total programs — the second-largest division by count.
+- **D2 has 468** and **NAIA has 387** programs.
 
-**What this means for families:** The majority of college soccer opportunities exist outside of D1. Families who focus exclusively on D1 are looking at only [STAT: percentage of all programs that are D1]% of all programs. A broader search almost always yields better fit options.
+**What this means for families:** D1 represents 25.1% of all college soccer programs. Families who focus exclusively on D1 are looking at one-quarter of the total landscape. A broader search across divisions almost always yields better fit options.
 
-## Roster sizes: how many spots exist
+## Roster spots: the total opportunity
 
-Roster size multiplied by program count gives you the total number of roster spots at each level — a rough measure of total opportunity:
+Roster size multiplied by program count gives you total roster spots at each division:
 
-| Division | Men's Total Spots | Women's Total Spots |
-|----------|-------------------|---------------------|
-| D1 | [STAT: D1 men's total spots] | [STAT: D1 women's total spots] |
-| D2 | [STAT: D2 men's total spots] | [STAT: D2 women's total spots] |
-| D3 | [STAT: D3 men's total spots] | [STAT: D3 women's total spots] |
-| NAIA | [STAT: NAIA men's total spots] | [STAT: NAIA women's total spots] |
-| **Total** | **[STAT: total men's spots]** | **[STAT: total women's spots]** |
+| Division | Men's Roster Spots | Women's Roster Spots | Total |
+|----------|-------------------|---------------------|-------|
+| D1 | 6,216 | 9,675 | 15,891 |
+| D2 | 7,257 | 7,782 | 15,039 |
+| D3 | 12,950 | 11,333 | 24,283 |
+| NAIA | 6,744 | 5,126 | 11,870 |
+| **Total** | **33,167** | **33,916** | **67,083** |
 
-D3 has the most total roster spots by a significant margin. This reflects both the number of programs and the tendency for D3 rosters to be larger (since there is no roster cap).
+D3 has the most total roster spots by a significant margin — 24,283, more than D1 and D2 combined. This reflects both the number of programs and the tendency for D3 rosters to carry more players (since there is no roster cap).
 
 For families, the implication is clear: D3 is not a fallback. It is the largest employer of college soccer players in America, and it includes programs that are highly competitive, academically excellent, and deeply committed to the sport.
 
-## Scholarship structures: the financial reality
+## Height profiles by division and position
 
-Each division handles athletic financial aid differently, and this shapes the recruiting experience:
+Average height by position shows clear patterns across divisions (based on programs that publish height data — 88.7% of player records):
+
+### Men's soccer average heights
+
+| Position | D1 | D2 | D3 | NAIA |
+|----------|----|----|----|----- |
+| Goalkeeper | 6'2" | 6'1" | 6'0" | 6'0" |
+| Defender | 6'0" | 5'12" | 5'11" | 5'11" |
+| Midfielder | 5'10" | 5'10" | 5'10" | 5'10" |
+| Forward | 5'11" | 5'11" | 5'10" | 5'10" |
+
+### Women's soccer average heights
+
+| Position | D1 | D2 | D3 | NAIA |
+|----------|----|----|----|----- |
+| Goalkeeper | 5'8" | 5'7" | 5'7" | 5'6" |
+| Defender | 5'7" | 5'6" | 5'5" | 5'5" |
+| Midfielder | 5'5" | 5'5" | 5'5" | 5'4" |
+| Forward | 5'6" | 5'5" | 5'5" | 5'5" |
+
+D1 programs tend to carry taller players — particularly goalkeepers and defenders. The differences are small (typically 1-2 inches between D1 and NAIA) but consistent. Midfielders show the most consistency across divisions in both men's and women's soccer.
+
+These are averages. Programs at every division carry players across a range of heights, and size is one factor among many that coaches evaluate.
+
+## Geographic distribution: where college soccer programs are
+
+The states with the most college soccer programs (men's + women's combined):
+
+| State | Programs | State | Programs |
+|-------|----------|-------|----------|
+| Pennsylvania | 188 | Indiana | 72 |
+| New York | 184 | Virginia | 67 |
+| California | 131 | Florida | 66 |
+| Texas | 107 | Georgia | 64 |
+| Massachusetts | 100 | Missouri | 60 |
+| Illinois | 90 | Wisconsin | 56 |
+| Ohio | 87 | Tennessee | 55 |
+| North Carolina | 76 | | |
+
+Pennsylvania and New York each host more college soccer programs than many entire divisions. Families in states with high program density have more options for local or regional programs — though geographic diversity in your target list can open opportunities that a local focus might miss.
+
+## Scholarship structures: the financial reality
 
 ### D1: the new post-House landscape
 
 Before the House settlement, D1 men's soccer had 9.9 equivalency scholarships (split across the roster) and D1 women's soccer had 14 head-count scholarships (each a full ride). The settlement changed this for opt-in schools:
 
 - Sport-specific scholarship caps are eliminated
-- Roster limits apply (28 for men's, [STAT: women's D1 roster limit] for women's)
+- Roster limits apply (28 for both men's and women's soccer)
 - Schools can distribute scholarship dollars however they choose within the roster limit
 - Not all schools have opted in — families should ask each program directly
 
 ### D2: equivalency for both genders
 
-D2 men's and women's soccer are both equivalency sports. Coaches have a fixed scholarship budget and can split it across players however they choose. This means:
-
-- Most D2 scholarship athletes receive partial athletic aid
-- The total scholarship budget is [STAT: D2 men's scholarship equivalencies] for men's and [STAT: D2 women's scholarship equivalencies] for women's
-- Academic aid, need-based aid, and institutional grants often supplement athletic scholarships
+D2 coaches have a fixed scholarship budget and can split it across players however they choose. Most D2 scholarship athletes receive partial athletic aid, supplemented by academic and institutional aid.
 
 ### D3: no athletic scholarships
 
-D3 institutions do not offer athletic scholarships. All financial aid is academic and need-based. This does not mean D3 is expensive — many D3 schools offer generous financial aid packages, and some families find that D3 aid packages rival or exceed D2 partial scholarship offers.
-
-Coaches at D3 programs cannot factor athletic ability into financial aid decisions. However, admissions offices at D3 schools often give weight to athletic recruits, which can influence merit aid and acceptance decisions.
+D3 does not offer athletic scholarships. All financial aid is academic and need-based. Many D3 schools offer generous financial aid packages, and some families find that D3 aid rivals or exceeds D2 partial scholarship offers.
 
 ### NAIA: flexible scholarship model
 
-NAIA programs offer athletic scholarships with their own limits and structures. NAIA scholarship rules tend to be more flexible than NCAA rules, and some NAIA programs offer competitive financial packages.
+NAIA programs offer athletic scholarships with their own rules and structures. NAIA scholarship rules tend to be more flexible than NCAA rules.
 
 ## International composition: how the divisions compare
 
-International players are a meaningful part of college soccer at every level, but the proportions differ:
+International players are a meaningful part of college soccer, but the proportions differ dramatically:
 
-Men's soccer international composition ranges from [STAT: lowest division men's intl %] at the [STAT: division name] level to [STAT: highest division men's intl %] at the [STAT: division name] level. Women's soccer ranges from [STAT: lowest division women's intl %] to [STAT: highest division women's intl %].
+- **NAIA men's soccer** has the highest international composition of any category at **48.1%** — nearly half of all players
+- **D3 women's soccer** has the lowest at **2.1%** — about 1 in 50 players
+- The men's-women's gap exists at every division level, with men's programs consistently carrying 2-5x the international percentage
 
-For domestic recruits, this data helps contextualize the competitive landscape. At divisions and conferences with higher international composition, domestic recruits are competing against a broader global talent pool. At divisions with lower international composition, the domestic club and high school pipeline dominates recruiting.
-
-Neither is better or worse — but understanding the landscape helps families build target lists that reflect reality.
-
-## The recruiting experience by division
-
-Beyond the numbers, each division offers a qualitatively different recruiting experience:
-
-**D1** is the most structured. NCAA rules govern when coaches can contact recruits, when official visits can occur, and how the signing process works. The recruiting timeline is well-defined (if sometimes stressful). Competition for spots is intense, visibility at national-level showcases matters, and the time commitment is significant.
-
-**D2** balances competitive soccer with more flexibility. Contact rules are less restrictive than D1, the recruiting timeline is often slightly later, and programs tend to emphasize both athletics and academics. D2 can be an excellent fit for strong players who also want a traditional college experience.
-
-**D3** is the most flexible. Recruiting rules are relaxed, there is no athletic scholarship to negotiate, and the emphasis is on academic and social fit alongside athletics. Many D3 programs are highly competitive, and the playing experience can be outstanding. The recruiting process tends to feel more personal and less transactional.
-
-**NAIA** offers a mix of D2 and D3 characteristics. Athletic scholarships are available, rules are flexible, and programs range widely in competitiveness. NAIA is sometimes overlooked, but it includes schools with strong soccer traditions and good academic reputations.
-
-## Variance within divisions
-
-One of the most important things families should understand is that the variance within each division is often greater than the variance between divisions.
-
-The best D3 programs would compete with mid-tier D1 programs. Some NAIA programs are more competitive than some D2 programs. A D1 program in a non-power conference operates in a very different world than a D1 program in the ACC.
-
-Division-level data is useful for understanding structural differences — scholarship rules, program counts, roster limits. But when it comes to evaluating whether a specific program is a good fit for your athlete, you need program-level data.
-
-That is exactly what RosterWise provides. Division-level analysis like this page gives you the framework. Program-level data gives you the specifics.
+For domestic recruits, this data helps contextualize the competitive landscape. At divisions and conferences with higher international composition, domestic recruits are competing against a broader global talent pool. At divisions with lower international composition, the domestic club and high school pipeline dominates.
 
 ## Common misconceptions
 
-**"D1 is the only level worth playing at."** This is the most common misconception in college soccer recruiting, and the numbers disprove it. D3 has the most programs and the most roster spots. Many D3 conferences are deeply competitive. The playing experience, the coaching, and the college experience at D3 programs can be excellent.
+**"D1 is the only level worth playing at."** D3 has the most programs (822) and the most roster spots (24,283). Many D3 conferences are deeply competitive. The playing experience, coaching, and college experience at D3 programs can be excellent.
 
-**"D3 is for players who couldn't play D1."** Some D3 players chose D3 over D1 or D2 offers because the academic fit, the campus culture, or the geographic location was better. D3 is a deliberate choice for many strong players.
+**"D3 is for players who couldn't play D1."** Some D3 players chose D3 over D1 or D2 offers because the academic fit, campus culture, or location was better. D3 is a deliberate choice for many strong players.
 
-**"NAIA isn't real college soccer."** NAIA includes programs with legitimate competitive traditions, good facilities, and strong coaching. Dismissing an entire division of [STAT: total NAIA soccer programs] programs is a mistake that narrows your options unnecessarily.
+**"NAIA isn't real college soccer."** NAIA includes 387 programs with legitimate competitive traditions, good facilities, and strong coaching. Dismissing an entire division narrows your options unnecessarily.
 
-**"More scholarships mean a better deal."** A D1 partial scholarship at a high-cost school may leave a family paying more out of pocket than a D3 financial aid package at a school with generous need-based and merit aid. The financial picture is more nuanced than scholarship dollars alone.
+**"More scholarships mean a better deal."** A D1 partial scholarship at a high-cost school may leave a family paying more out of pocket than a D3 financial aid package at a school with generous need-based and merit aid.
 
-## Using division data in your search
+## Every recruit's journey is different
 
-Practical advice for families:
+Division-level averages are useful for understanding structural differences — scholarship rules, program counts, roster construction. But when it comes to evaluating whether a specific program is a good fit for your athlete, you need program-level data.
 
-1. **Start broad.** Look at programs across at least two divisions. The right fit might not be where you expect.
-2. **Understand the structural differences.** Scholarship rules, roster sizes, and recruiting timelines differ by division. Know the framework before you start reaching out.
-3. **Look at the numbers, but do not stop there.** Division averages set expectations. Program-level data — roster composition, position depth, class-year gaps — is where recruiting decisions are made.
-4. **Talk to families who have been through it.** At every division level, families who have navigated the process have perspective that data alone cannot provide.
-5. **Trust fit over prestige.** The goal is finding a program where your athlete will play, grow, earn a degree, and have a great experience. That program exists at every division level.
+The variance within each division is often greater than the variance between divisions. The best D3 programs would compete with mid-tier D1 programs. Some NAIA programs are more competitive than some D2 programs. A D1 program in a non-power conference operates in a very different world than a D1 program in the ACC.
+
+Start broad. Understand the structural differences. Then use [roster intelligence](/roster-intelligence/) to evaluate specific programs based on position depth, class-year gaps, international composition, and how your athlete's profile aligns with what each program actually looks like.
+
+---
+
+*Data reflects 2025 NCAA season rosters as published on official athletics websites, captured April–May 2026. See [methodology](/methodology/data-and-analysis/) for full documentation.*

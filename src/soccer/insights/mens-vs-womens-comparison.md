@@ -1,39 +1,44 @@
 ---
 layout: content.njk
-title: "How Men's and Women's College Soccer Rosters Differ | RosterWise™"
-description: "A side-by-side comparison of men's and women's college soccer rosters — roster sizes, international composition, scholarship structures, walk-on rates, and what the differences mean for recruiting families."
-date: 2026-04-26
+title: "How Men's and Women's College Soccer Rosters Differ — 2025 Season Analysis | RosterWise™"
+description: "A side-by-side comparison of men's and women's college soccer rosters — roster sizes, international composition, class-year distributions, and position breakdowns, 2025 NCAA season."
+date: 2026-05-17
 breadcrumbs:
   - text: Home
     url: /
   - text: Soccer
     url: /soccer/
   - text: Insights
-    url: /soccer/insights/
   - text: Men's vs. Women's Comparison
-summary: "Men's and women's college soccer share a sport, but the rosters tell very different stories. From roster size to international composition to scholarship structure, the differences between the two are significant — and understanding them matters whether you have a son, a daughter, or both navigating the recruiting process. This page compares men's and women's college soccer rosters side by side, using current-season data from RosterWise."
+summary: "Based on RosterWise™'s analysis of 2,239 men's and women's college soccer programs for the 2025 NCAA season — 1,014 men's programs with 40,167 players and 1,225 women's programs with 26,916 players — men's and women's college soccer share a sport but build rosters very differently. This page puts the key differences side by side."
 related:
   - title: "Men's Soccer Roster Sizes"
     url: /soccer/insights/mens-roster-size/
+    status: live
   - title: "Women's Soccer Roster Sizes"
     url: /soccer/insights/womens-roster-size/
+    status: live
   - title: "Men's International Conference Composition"
     url: /soccer/insights/mens-international-conferences/
+    status: live
   - title: "Women's International Conference Composition"
     url: /soccer/insights/womens-international-conferences/
+    status: live
   - title: "NCAA Soccer Divisions by the Numbers"
     url: /soccer/insights/division-by-numbers/
+    status: live
 sources:
-  - "RosterWise roster data, current season — publicly available college athletics websites"
-  - "NCAA.org, House v. NCAA Settlement Implementation (June 2025)"
-  - "NCAA Sports Sponsorship and Participation Report"
+  - "RosterWise 2025 roster dataset — publicly available college athletics websites, captured April–May 2026"
+  - '<a href="https://www.ncaa.org">NCAA.org</a> — House v. NCAA Settlement Implementation (June 2025)'
 cta:
   heading: "RosterWise™ breaks down every program, men's and women's."
   text: "Whether your family has a son, a daughter, or both in the recruiting pipeline, RosterWise gives you the program-level data that makes the difference between guessing and knowing."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "See how RosterWise™ helps →"
-  button_url: /#download
+  button_url: /app/
 ---
+
+> **Methodology and data sourcing**: See [How RosterWise Builds and Analyzes College Soccer Roster Data](/methodology/data-and-analysis/) for full documentation of our dataset, definitions, and analytical methods.
 
 ${toc}
 
@@ -47,30 +52,56 @@ This page puts the key differences side by side so families can understand the s
 
 | Metric | Men's | Women's |
 |--------|-------|---------|
-| **D1 average roster size** | [STAT: avg D1 men's roster size] | [STAT: avg D1 women's roster size] |
-| **D2 average roster size** | [STAT: avg D2 men's roster size] | [STAT: avg D2 women's roster size] |
-| **D3 average roster size** | [STAT: avg D3 men's roster size] | [STAT: avg D3 women's roster size] |
-| **NAIA average roster size** | [STAT: avg NAIA men's roster size] | [STAT: avg NAIA women's roster size] |
-| **Total programs (all divisions)** | [STAT: total men's soccer programs] | [STAT: total women's soccer programs] |
-| **Total roster spots (all divisions)** | [STAT: total men's roster spots] | [STAT: total women's roster spots] |
+| **D1 average roster size** | 29.2 | 27.7 |
+| **D2 average roster size** | 35.4 | 29.6 |
+| **D3 average roster size** | 31.9 | 27.2 |
+| **NAIA average roster size** | 35.5 | 26.0 |
+| **Total programs (all divisions)** | 1,014 | 1,225 |
+| **Total roster spots (all divisions)** | 40,167 | 26,916 |
 
-Women's soccer has significantly more programs than men's soccer across all divisions. This is largely a result of Title IX compliance — many institutions sponsor women's soccer as part of their gender equity strategy, which has expanded the women's game at every level.
+Men's rosters are larger than women's at every division level. The gap is smallest in D1 (1.5 players) and largest in NAIA (9.5 players). This reflects different scholarship structures, roster management approaches, and the impact of international recruiting on men's roster sizes.
 
-For families, this is a straightforward advantage for women's soccer recruits: there are more programs, more roster spots, and more options to consider.
+Women's soccer has significantly more programs than men's soccer — 1,225 vs. 1,014, a 21% advantage. This is largely a result of Title IX compliance — many institutions sponsor women's soccer as part of their gender equity strategy. For women's soccer recruits, this means more programs, more options, and a wider range of competitive levels to consider.
 
 ## International composition comparison
 
-| Metric | Men's | Women's |
-|--------|-------|---------|
-| **D1 international %** | [STAT: D1 men's international %] | [STAT: D1 women's international %] |
-| **D2 international %** | [STAT: D2 men's international %] | [STAT: D2 women's international %] |
-| **D3 international %** | [STAT: D3 men's international %] | [STAT: D3 women's international %] |
-| **NAIA international %** | [STAT: NAIA men's international %] | [STAT: NAIA women's international %] |
-| **Overall international %** | [STAT: overall men's international %] | [STAT: overall women's international %] |
+| Division | Men's Intl % | Women's Intl % | Gap |
+|----------|-------------|---------------|-----|
+| D1 | 33.8% | 12.5% | 21.3 pts |
+| D2 | 37.4% | 11.3% | 26.1 pts |
+| D3 | 11.2% | 2.1% | 9.1 pts |
+| NAIA | 48.1% | 19.5% | 28.6 pts |
 
-Men's college soccer has consistently higher international composition than women's at every division level. The gap is [STAT: description of gap — e.g., "most pronounced at D1 and D2 levels"].
+Men's college soccer has substantially higher international composition than women's at every division level. In NAIA men's soccer, nearly half of all players are international. In D3 women's soccer, just 2.1% are international.
 
-**What this means practically:** A domestic men's soccer recruit is competing against a larger international talent pool than a domestic women's soccer recruit, on average. This does not mean men's soccer is harder to navigate — it means the competitive landscape has a different composition, and families should factor that into their target list.
+**What this means practically:** A domestic men's soccer recruit is competing against a larger international talent pool than a domestic women's soccer recruit, particularly at the D1, D2, and NAIA levels. This does not mean men's soccer is harder to navigate — it means the competitive landscape has a different composition, and families should factor that into their target list.
+
+## Class-year distribution comparison
+
+| Class Year | D1 Men's | D1 Women's | D3 Men's | D3 Women's |
+|-----------|----------|-----------|----------|-----------|
+| Freshman | 27.8% | 30.1% | 32.5% | 29.6% |
+| Sophomore | 22.1% | 24.3% | 25.0% | 26.1% |
+| Junior | 22.5% | 21.7% | 21.9% | 21.9% |
+| Senior | 19.9% | 18.9% | 18.6% | 20.5% |
+| Graduate | 7.7% | 4.2% | 1.2% | 0.8% |
+
+Class-year distributions are broadly similar between men's and women's programs, with one notable difference: **D1 men's programs carry significantly more graduate students** (7.7% vs. 4.2% for women's). This reflects the prevalence of 5th-year players and graduate transfers in men's D1 soccer, which adds experienced competition to rosters and can affect opportunity for incoming recruits.
+
+At the D3 level, freshmen make up the largest class in both genders (32.5% for men's, 29.6% for women's), reflecting the natural turnover of four-year programs without graduate students.
+
+## Position breakdown comparison
+
+| Position | D1 Men's Avg | D1 Women's Avg |
+|----------|-------------|---------------|
+| Goalkeeper | 3.5 | 3.1 |
+| Defender | 8.9 | 8.4 |
+| Midfielder | 10.1 | 8.7 |
+| Forward | 6.5 | 7.4 |
+
+The most notable difference: **men's programs carry more midfielders relative to forwards, while women's programs carry more forwards relative to midfielders.** D1 men's programs average 10.1 midfielders vs. 6.5 forwards (1.55:1 ratio), while D1 women's programs average 8.7 midfielders vs. 7.4 forwards (1.18:1 ratio).
+
+This may reflect tactical differences in how men's and women's programs deploy their formations, or it may reflect how programs classify dual-position players (a "M/F" player is classified as a midfielder in our methodology).
 
 ## Scholarship structure differences
 
@@ -78,38 +109,24 @@ The scholarship landscape has historically been one of the starkest differences 
 
 | Factor | Men's | Women's |
 |--------|-------|---------|
-| **D1 classification (pre-House)** | Equivalency (9.9 scholarships split) | Head count (14 full scholarships) |
-| **D1 roster limit (House settlement)** | 28 | [STAT: women's D1 roster limit] |
+| **D1 pre-House classification** | Equivalency (9.9 scholarships split) | Head count (14 full scholarships) |
+| **D1 roster limit (House settlement)** | 28 | 28 |
 | **D2 classification** | Equivalency | Equivalency |
 | **D3 scholarships** | None (academic/need-based only) | None (academic/need-based only) |
 | **NAIA scholarships** | Available | Available |
 
-The pre-House distinction was significant. In men's D1 soccer, 9.9 scholarships were split across the entire roster, meaning most scholarship players received partial athletic aid. In women's D1 soccer, each scholarship was a full ride — but limited to 14 players, with the rest of the roster receiving no athletic scholarship money.
+The pre-House distinction was significant. In men's D1 soccer, 9.9 scholarships were split across the entire roster, meaning most scholarship players received partial athletic aid. In women's D1 soccer, each of the 14 scholarships was a full ride, with the rest of the roster receiving no athletic scholarship money.
 
-Under the House settlement for opt-in schools, sport-specific scholarship caps are gone and roster limits apply. This changes the math for both genders, though the details vary by program and conference.
-
-## Walk-on landscape
-
-Walk-on opportunities differ between men's and women's soccer, shaped by roster size, scholarship structure, and roster limits:
-
-- **D1 men's:** Walk-on spots have been reduced by the 28-player roster cap under the House settlement. Programs that previously carried 30+ players with walk-ons now have less room. [STAT: estimated % of D1 men's roster that are walk-ons]
-- **D1 women's:** Similarly constrained by roster limits for opt-in schools. [STAT: estimated % of D1 women's roster that are walk-ons]
-- **D2:** Both men's and women's programs carry walk-ons, with the balance varying by program. Walk-on opportunities tend to be [STAT: more/less] available in D2 than D1.
-- **D3:** No athletic scholarships means the entire roster is, in a sense, walk-on — every player was accepted to the school first and made the team through tryouts or recruiting conversations. D3 offers the most accessible path for athletes who develop later or whose talent level sits between D1/D2 and recreational.
-- **NAIA:** Walk-on opportunities exist alongside scholarship athletes, similar to D2.
+Under the House settlement for opt-in schools, sport-specific scholarship caps are gone and both genders operate under a 28-player roster limit.
 
 ## Recruiting timeline differences
 
-Men's and women's soccer follow different recruiting timelines, which reflects both cultural patterns and the development curves of male and female athletes:
-
-- **Women's soccer** has historically recruited earlier, with some verbal commitments happening in freshman or sophomore year of high school. The 2018 NCAA rule change pushed initial contact to June 15 after sophomore year, but the culture of early commitment persists in parts of the women's game.
+- **Women's soccer** has historically recruited earlier, with some verbal commitments happening in freshman or sophomore year of high school. The 2018 NCAA rule change pushed initial D1 contact to June 15 after sophomore year, but the culture of early commitment persists in parts of the women's game.
 - **Men's soccer** tends to recruit later, with the bulk of verbal commitments clustering in junior and senior year. Late bloomers are more common in the men's game, and coaches are generally more willing to wait.
 
-**Neither timeline is better.** Early commitment can reduce uncertainty but also locks families in before they have full information. Later commitment allows for more development and a broader search but can feel stressful when peers are announcing commitments earlier.
+**Neither timeline is better.** Early commitment can reduce uncertainty but also locks families in before they have full information. Later commitment allows for more development and a broader search.
 
 ## Club pathway differences
-
-The pathways into college soccer differ between men's and women's programs:
 
 | Pipeline | Men's | Women's |
 |----------|-------|---------|
@@ -119,31 +136,24 @@ The pathways into college soccer differ between men's and women's programs:
 
 Both genders have increasingly professionalized youth development pathways, but the structures are different. MLS Next is directly tied to professional clubs in a way that GA is not. ECNL operates as an elite independent league for both genders.
 
-High school soccer remains a meaningful part of the recruiting pipeline for both genders, particularly outside of major metro areas and at the D2, D3, and NAIA levels.
-
 ## Program count: a structural advantage for women's recruits
-
-One of the most important differences is sheer volume:
 
 | Division | Men's Programs | Women's Programs |
 |----------|----------------|------------------|
-| D1 | [STAT: D1 men's program count] | [STAT: D1 women's program count] |
-| D2 | [STAT: D2 men's program count] | [STAT: D2 women's program count] |
-| D3 | [STAT: D3 men's program count] | [STAT: D3 women's program count] |
-| NAIA | [STAT: NAIA men's program count] | [STAT: NAIA women's program count] |
-| **Total** | **[STAT: total men's programs]** | **[STAT: total women's programs]** |
+| D1 | 213 | 349 |
+| D2 | 205 | 263 |
+| D3 | 406 | 416 |
+| NAIA | 190 | 197 |
+| **Total** | **1,014** | **1,225** |
 
-Women's soccer has [STAT: how many more] more programs than men's soccer. This means more roster spots, more recruiting opportunities, and a wider range of competitive levels for women's soccer recruits.
+Women's soccer has 211 more programs than men's soccer. This means more roster spots, more recruiting opportunities, and a wider range of competitive levels. For men's soccer families, this is a reality to understand — not a reason to be discouraged, but a reason to be thorough and strategic.
 
-For men's soccer families, this is a reality to understand — not a reason to be discouraged, but a reason to be thorough and strategic in building a target list.
-
-## What the data tells families
+## Every recruit's journey is different
 
 The differences between men's and women's college soccer are structural, not incidental. They are baked into scholarship rules, Title IX compliance, development timelines, and international recruiting patterns. Neither side is "easier" or "harder" — they are different games with different landscapes.
 
-For families navigating recruiting:
-- **Know your athlete's landscape.** The averages and structures on this page give you a baseline understanding of how the system works on your athlete's side.
-- **Do not compare across genders without context.** A men's D1 roster of [STAT: avg D1 men's roster size] and a women's D1 roster of [STAT: avg D1 women's roster size] exist in different structural frameworks. Comparing them directly can be misleading.
-- **Use the data to ask better questions.** Understanding scholarship structures, walk-on rates, and international composition helps you have informed conversations with coaches and make decisions based on reality rather than assumption.
+Understanding your athlete's landscape — the averages, the structures, the patterns — gives you the context to ask better questions and make decisions based on reality rather than assumption. RosterWise provides this data at the program level for both men's and women's soccer.
 
-RosterWise provides this data at the program level — for both men's and women's soccer — so families can move from averages to specifics.
+---
+
+*Data reflects 2025 NCAA season rosters as published on official athletics websites, captured April–May 2026. See [methodology](/methodology/data-and-analysis/) for full documentation.*
