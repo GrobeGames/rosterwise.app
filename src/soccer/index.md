@@ -64,6 +64,6 @@ International recruiting patterns also differ significantly between men's and wo
 
 Each section includes recruiting timelines, scholarship breakdowns, club pathway guides, and data-driven insights — written for families, not for industry insiders. We aim to be accurate, honest, and useful. Where we don't have a definitive answer, we say so.
 
-RosterWise is not a recruiting service. We don't broker introductions, sell match lists, or take a cut of anything. We analyze publicly available roster data and give families the intelligence to make informed decisions.
+RosterWise is not a recruiting service. We don't broker introductions, sell match lists, or take a cut of anything. We apply [college sports roster intelligence](/roster-intelligence/) — systematic analysis of every roster at every program — and give families the data to make informed decisions.
 
 **New here?** Start with [Men's College Soccer Recruiting](/soccer/mens/) or [Women's College Soccer Recruiting](/soccer/womens/) depending on your athlete.

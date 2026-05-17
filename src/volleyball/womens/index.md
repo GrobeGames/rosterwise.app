@@ -71,4 +71,4 @@ Unlike soccer (which has competing national platforms), women's volleyball recru
 
 ## Explore our women's volleyball guides
 
-Our women's volleyball recruiting guides cover the topics families care about most — timelines, scholarships, the club pathway, and more. Each guide is written specifically for women's indoor volleyball recruiting, with honest acknowledgment that experiences vary.
+Our women's volleyball recruiting guides cover the topics families care about most — timelines, scholarships, the club pathway, and more. Each guide is written specifically for women's indoor volleyball recruiting, with honest acknowledgment that experiences vary. Learn more about our [roster intelligence methodology](/roster-intelligence/) and how it applies across sports.

@@ -77,7 +77,7 @@ Understanding this distinction matters because it affects how coaches build rost
 
 ## International recruiting in women's soccer
 
-International recruiting is a factor in women's college soccer, though generally less prominent than in the men's game. Some D1 programs recruit internationally to fill specific roster needs; others build almost entirely from domestic talent. These patterns vary by conference and by program, and RosterWise tracks them at every school.
+International recruiting is a factor in women's college soccer, though generally less prominent than in the men's game. Some D1 programs recruit internationally to fill specific roster needs; others build almost entirely from domestic talent. These patterns vary by conference and by program, and RosterWise tracks them at every school through our [roster intelligence](/roster-intelligence/) methodology.
 
 ## The earlier timeline: context and perspective
 

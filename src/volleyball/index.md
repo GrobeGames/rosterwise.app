@@ -37,7 +37,7 @@ The 2025 House v. NCAA settlement has added new complexity. Women's volleyball w
 
 Our volleyball resources cover recruiting timelines, scholarship structures, the club volleyball pathway, and data-driven roster analysis — written for families, not for industry insiders. We aim to be accurate, honest, and useful. Where we don't have a definitive answer, we say so.
 
-RosterWise is not a recruiting service. We don't broker introductions, sell match lists, or take a cut of anything. We analyze publicly available roster data and give families the intelligence to make informed decisions.
+RosterWise is not a recruiting service. We don't broker introductions, sell match lists, or take a cut of anything. We apply [college sports roster intelligence](/roster-intelligence/) — systematic analysis of every roster at every program — and give families the data to make informed decisions.
 
 **Our volleyball coverage focuses on women's indoor volleyball.** Beach volleyball, men's volleyball, and NJCAA are not covered at this time.
 

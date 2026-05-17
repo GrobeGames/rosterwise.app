@@ -81,7 +81,7 @@ D2, D3, and NAIA programs operate under different rules. D2 and D3 have more fle
 
 International recruiting is a larger factor in men's college soccer than in women's. Some D1 programs carry 30-40% international players; others build rosters almost entirely from domestic recruits. This composition matters for families trying to assess opportunity and fit.
 
-RosterWise tracks international player composition at every program, so families can see these patterns and factor them into their target list.
+RosterWise tracks international player composition at every program as part of our [roster intelligence](/roster-intelligence/) methodology, so families can see these patterns and factor them into their target list.
 
 ## Where to start
 
