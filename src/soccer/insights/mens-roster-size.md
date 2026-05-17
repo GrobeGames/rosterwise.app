@@ -10,7 +10,7 @@ breadcrumbs:
     url: /soccer/
   - text: Insights
   - text: Men's Roster Size
-summary: "Based on RosterWise™'s analysis of every published 2025 NCAA season men's college soccer roster across D1, D2, D3, and NAIA — 1,012 programs and 40,063 players — here is what the data shows about how programs build their rosters. Roster size is one of the most useful signals for recruiting families, and understanding the patterns by division helps calibrate expectations before reaching out to coaches."
+summary: "Based on RosterWise™'s analysis of every published 2025 NCAA season men's college soccer roster across D1, D2, D3, and NAIA — 1,012 programs and 33,057 players — here is what the data shows about how programs build their rosters. Roster size is one of the most useful signals for recruiting families, and understanding the patterns by division helps calibrate expectations before reaching out to coaches."
 related:
   - title: "Women's Soccer Roster Sizes"
     url: /soccer/insights/womens-roster-size/
@@ -54,7 +54,7 @@ Across 1,012 men's soccer programs analyzed for the 2025 NCAA season:
 
 | Division | Programs | Avg. Roster Size | Median | Min | Max |
 |----------|----------|-------------------|--------|-----|-----|
-| D1 | 211 | 29.0 | 28 | 15 | 44 |
+| D1 | 211 | 28.9 | 28 | 15 | 42 |
 | D2 | 205 | 35.4 | 33 | 16 | 76 |
 | D3 | 406 | 31.9 | 31 | 16 | 58 |
 | NAIA | 190 | 35.5 | 33 | 14 | 82 |
@@ -80,7 +80,7 @@ Midfielders make up the largest position group at every division. Goalkeeper cou
 
 The 2025 House v. NCAA settlement introduced a roster limit of 28 for D1 men's soccer programs that opted into the new framework. Before the settlement, many D1 programs carried 30 or more players, including walk-ons.
 
-This is a meaningful shift. The 2025 data shows D1 men's programs averaging 29.0 players with a median of 28 — right at the new roster limit. Fewer total roster spots means:
+This is a meaningful shift. The 2025 data shows D1 men's programs averaging 28.9 players with a median of 28 — right at the new roster limit. Fewer total roster spots means:
 
 - **Walk-on opportunities are reduced.** Programs that used to carry extra players beyond their scholarship allotment now have a hard cap.
 - **Every spot is more valuable.** Coaches are making sharper decisions about who makes the roster.

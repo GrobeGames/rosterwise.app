@@ -113,7 +113,7 @@ Conference assignments reflect 2025 NCAA season membership as published by NCAA.
 
 ## Coverage and completeness
 
-RosterWise's 2025 soccer dataset includes **2,235 programs** out of 2,246 total — a **99.5% coverage rate** across all divisions and genders. The dataset contains **66,894 players**.
+RosterWise's 2025 soccer dataset includes **2,235 programs** out of 2,246 total — a **99.5% coverage rate** across all divisions and genders. The dataset contains **66,888 players**.
 
 ### Coverage by division and gender
 
@@ -145,12 +145,12 @@ Not every program publishes every data point for every player. Here's how comple
 
 | Field | Records with Valid Data | Coverage |
 |-------|----------------------|----------|
-| Player name | 66,894 | 100% |
+| Player name | 66,888 | 100% |
 | Position | 66,136 | 98.6% |
 | Height | 59,516 | 88.7% |
 | Class year | 66,453 | 99.1% |
 | Hometown | 66,387 | 99.0% |
-| International classification | 66,894 | 100% |
+| International classification | 66,888 | 100% |
 | Previous school / club | 59,272 | 88.3% |
 
 Height and previous school coverage are lower because some programs simply don't publish these fields on their roster pages. Aggregate statistics involving height are computed only from programs that publish height data and are labeled accordingly.
