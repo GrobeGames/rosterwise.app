@@ -16,15 +16,15 @@ children:
     summary: "Guides, timelines, and resources specific to women's college soccer recruiting — NCAA D1, D2, D3, and NAIA."
     status: live
   - title: "Soccer Recruiting Guides"
-    url: /soccer/guide/junior-college/
+    url: /soccer/guide/
     summary: "Gender-agnostic guides that apply to both men's and women's college soccer — JUCO pathways, evaluating programs, reading rosters, D3 recruiting, and walk-on reality."
     status: live
   - title: "How RosterWise Analyzes College Soccer Rosters"
-    url: /soccer/methodology/roster-composition/
+    url: /soccer/methodology/
     summary: "A transparent look at our data sources, analysis methods, and what RosterFit scores actually measure."
     status: live
   - title: "College Soccer Insights & Trends"
-    url: /soccer/insights/mens-roster-size/
+    url: /soccer/insights/
     summary: "Data-driven analysis of roster composition trends, recruiting patterns, and conference-level intelligence."
     status: live
     children:

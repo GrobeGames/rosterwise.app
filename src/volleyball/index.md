@@ -12,11 +12,11 @@ children:
     summary: "Guides, timelines, and resources for women's indoor volleyball recruiting"
     status: live
   - title: "Volleyball Guides"
-    url: /volleyball/guide/evaluating-programs/
+    url: /volleyball/guide/
     summary: "How to evaluate programs, read rosters, debunk recruiting myths, and understand the junior college and walk-on pathways"
     status: live
   - title: "Volleyball Methodology"
-    url: /volleyball/methodology/roster-composition/
+    url: /volleyball/methodology/
     summary: "How RosterWise analyzes volleyball rosters — composition, position depth, class-year gaps, and coaching tenure"
     status: live
 ---
