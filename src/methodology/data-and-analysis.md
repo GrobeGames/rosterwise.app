@@ -32,7 +32,7 @@ sources:
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Division membership, program listings, and eligibility rules'
   - '<a href="https://naia.org">NAIA.org</a> — NAIA membership and program information'
   - '<a href="https://nces.ed.gov/ipeds/">U.S. Department of Education IPEDS</a> — Institutional data (enrollment, location, academic profiles)'
-  - "Official athletics websites for 2,239 college soccer programs — the primary source for all roster data"
+  - "Official athletics websites for 2,235 college soccer programs — the primary source for all roster data"
 cta:
   heading: "See this analysis for every program — in the app"
   text: "RosterWise Soccer gives you program-by-program roster intelligence across every D1, D2, D3, and NAIA men's and women's program. Position depth, class-year gaps, international composition, recruiting pathways, coach tenure, and personalized My RosterFit scoring."
@@ -113,29 +113,31 @@ Conference assignments reflect 2025 NCAA season membership as published by NCAA.
 
 ## Coverage and completeness
 
-RosterWise's 2025 soccer dataset includes **2,239 programs** out of 2,246 total — a **99.7% coverage rate** across all divisions and genders. The dataset contains **67,083 players**.
+RosterWise's 2025 soccer dataset includes **2,235 programs** out of 2,246 total — a **99.5% coverage rate** across all divisions and genders. The dataset contains **66,894 players**.
 
 ### Coverage by division and gender
 
 | Division | Men's Programs | Women's Programs | Total |
 |----------|---------------|-----------------|-------|
-| D1 | 213 (100%) | 349 (100%) | 562 |
+| D1 | 211 (98.1%) | 347 (99.1%) | 558 |
 | D2 | 205 (100%) | 263 (100%) | 468 |
 | D3 | 406 (99.8%) | 416 (99.5%) | 822 |
 | NAIA | 190 (99.5%) | 197 (99.0%) | 387 |
-| **Total** | **1,014** | **1,225** | **2,239** |
+| **Total** | **1,012** | **1,223** | **2,235** |
 
 ### Excluded programs
 
-Seven programs are excluded from the dataset:
+Eleven programs are excluded from the dataset:
 
 - **Rosemont College** (D3, men's and women's) — program discontinued, transitioning to club status
 - **Alverno College** (D3, women's) — program paused for the 2025 season; did not compete
 - **Medgar Evers College** (D3, women's) — 2025 season cancelled; all games cancelled
 - **Jarvis Christian University** (NAIA, men's and women's) — no roster data available on athletics site
 - **Mission University** (NAIA, women's) — roster page published only coaching staff information
+- **Mercyhurst University** (D1, men's and women's) — mid-transition from D2 to D1 (NEC); roster sizes of 58 (men's) and 49 (women's) are not representative of established D1 programs
+- **University of New Haven** (D1, men's and women's) — mid-transition from D2 to D1 (NEC); roster sizes of 46 (men's) and 36 (women's) are not representative of established D1 programs
 
-No division/gender combination falls below 99% coverage.
+No division/gender combination falls below 98% coverage.
 
 ### Data completeness per field
 
@@ -143,12 +145,12 @@ Not every program publishes every data point for every player. Here's how comple
 
 | Field | Records with Valid Data | Coverage |
 |-------|----------------------|----------|
-| Player name | 67,083 | 100% |
+| Player name | 66,894 | 100% |
 | Position | 66,136 | 98.6% |
 | Height | 59,516 | 88.7% |
 | Class year | 66,453 | 99.1% |
 | Hometown | 66,387 | 99.0% |
-| International classification | 67,083 | 100% |
+| International classification | 66,894 | 100% |
 | Previous school / club | 59,272 | 88.3% |
 
 Height and previous school coverage are lower because some programs simply don't publish these fields on their roster pages. Aggregate statistics involving height are computed only from programs that publish height data and are labeled accordingly.
@@ -157,7 +159,7 @@ Height and previous school coverage are lower because some programs simply don't
 
 RosterWise computes aggregate statistics through a three-step process designed for accuracy and reproducibility.
 
-**Step 1: Program-level aggregates.** For each of the 2,239 programs in the dataset, we compute roster size, international count and percentage, class-year distribution, position distribution, average heights by position, and geographic diversity. These program-level aggregates are the building blocks for everything else.
+**Step 1: Program-level aggregates.** For each of the 2,235 programs in the dataset, we compute roster size, international count and percentage, class-year distribution, position distribution, average heights by position, and geographic diversity. These program-level aggregates are the building blocks for everything else.
 
 **Step 2: Division-level and conference-level aggregates.** We roll up program-level data into division × gender combinations (e.g., "D1 men's") and conference × division × gender combinations (e.g., "Big Ten D1 men's"). Division-level statistics include averages, medians, minimums, and maximums. Conference-level statistics include averages and totals.
 

@@ -10,7 +10,7 @@ breadcrumbs:
     url: /soccer/
   - text: Insights
   - text: Men's vs. Women's Comparison
-summary: "Based on RosterWise™'s analysis of 2,239 men's and women's college soccer programs for the 2025 NCAA season — 1,014 men's programs with 40,167 players and 1,225 women's programs with 26,916 players — men's and women's college soccer share a sport but build rosters very differently. This page puts the key differences side by side."
+summary: "Based on RosterWise™'s analysis of 2,235 men's and women's college soccer programs for the 2025 NCAA season — 1,012 men's programs with 40,063 players and 1,223 women's programs with 26,831 players — men's and women's college soccer share a sport but build rosters very differently. This page puts the key differences side by side."
 related:
   - title: "Men's Soccer Roster Sizes"
     url: /soccer/insights/mens-roster-size/
@@ -52,22 +52,22 @@ This page puts the key differences side by side so families can understand the s
 
 | Metric | Men's | Women's |
 |--------|-------|---------|
-| **D1 average roster size** | 29.2 | 27.7 |
+| **D1 average roster size** | 29.0 | 27.6 |
 | **D2 average roster size** | 35.4 | 29.6 |
 | **D3 average roster size** | 31.9 | 27.2 |
 | **NAIA average roster size** | 35.5 | 26.0 |
-| **Total programs (all divisions)** | 1,014 | 1,225 |
-| **Total roster spots (all divisions)** | 40,167 | 26,916 |
+| **Total programs (all divisions)** | 1,012 | 1,223 |
+| **Total roster spots (all divisions)** | 40,063 | 26,831 |
 
 Men's rosters are larger than women's at every division level. The gap is smallest in D1 (1.5 players) and largest in NAIA (9.5 players). This reflects different scholarship structures, roster management approaches, and the impact of international recruiting on men's roster sizes.
 
-Women's soccer has significantly more programs than men's soccer — 1,225 vs. 1,014, a 21% advantage. This is largely a result of Title IX compliance — many institutions sponsor women's soccer as part of their gender equity strategy. For women's soccer recruits, this means more programs, more options, and a wider range of competitive levels to consider.
+Women's soccer has significantly more programs than men's soccer — 1,223 vs. 1,012, a 21% advantage. This is largely a result of Title IX compliance — many institutions sponsor women's soccer as part of their gender equity strategy. For women's soccer recruits, this means more programs, more options, and a wider range of competitive levels to consider.
 
 ## International composition comparison
 
 | Division | Men's Intl % | Women's Intl % | Gap |
 |----------|-------------|---------------|-----|
-| D1 | 33.8% | 12.5% | 21.3 pts |
+| D1 | 33.6% | 12.5% | 21.1 pts |
 | D2 | 37.4% | 11.3% | 26.1 pts |
 | D3 | 11.2% | 2.1% | 9.1 pts |
 | NAIA | 48.1% | 19.5% | 28.6 pts |
@@ -140,11 +140,11 @@ Both genders have increasingly professionalized youth development pathways, but 
 
 | Division | Men's Programs | Women's Programs |
 |----------|----------------|------------------|
-| D1 | 213 | 349 |
+| D1 | 211 | 347 |
 | D2 | 205 | 263 |
 | D3 | 406 | 416 |
 | NAIA | 190 | 197 |
-| **Total** | **1,014** | **1,225** |
+| **Total** | **1,012** | **1,223** |
 
 Women's soccer has 211 more programs than men's soccer. This means more roster spots, more recruiting opportunities, and a wider range of competitive levels. For men's soccer families, this is a reality to understand — not a reason to be discouraged, but a reason to be thorough and strategic.
 

@@ -42,13 +42,13 @@ ${toc}
 
 ## International recruiting in women's soccer: a different picture than men's
 
-Women's college soccer has historically had lower international roster composition than men's — and the 2025 data confirms this pattern persists across every division. Across all 1,225 women's programs, 3,337 players are classified as international (9.8% overall), compared to 33.8% in D1 men's soccer and 48.1% in NAIA men's soccer.
+Women's college soccer has historically had lower international roster composition than men's — and the 2025 data confirms this pattern persists across every division. Across all 1,223 women's programs, 3,337 players are classified as international (9.8% overall), compared to 33.6% in D1 men's soccer and 48.1% in NAIA men's soccer.
 
 But division-level averages mask significant conference-by-conference variation. Some D1 women's conferences carry international percentages above 20%, while others are below 5%. For domestic recruits and their families, understanding these patterns helps build a smarter target list.
 
 ## D1 women's soccer: conference-level international composition
 
-Across 349 D1 women's soccer programs, international players make up **12.5%** of all roster spots. The conference-by-conference variation ranges from 2.5% to 33.4%.
+Across 347 D1 women's soccer programs, international players make up **12.5%** of all roster spots. The conference-by-conference variation ranges from 2.5% to 33.4%.
 
 Many conferences in women's soccer are separated by fewer than two percentage points, so we group them into tiers rather than strict rankings.
 
@@ -114,7 +114,7 @@ Women's soccer international composition is lower than men's at every division l
 
 | Division | Women's Intl % | Men's Intl % | Gap |
 |----------|---------------|-------------|-----|
-| D1 | 12.5% | 33.8% | 21.3 pts |
+| D1 | 12.5% | 33.6% | 21.1 pts |
 | D2 | 11.3% | 37.4% | 26.1 pts |
 | D3 | 2.1% | 11.2% | 9.1 pts |
 | NAIA | 19.5% | 48.1% | 28.6 pts |

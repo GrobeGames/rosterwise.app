@@ -10,7 +10,7 @@ breadcrumbs:
     url: /soccer/
   - text: Insights
   - text: Divisions by the Numbers
-summary: "Based on RosterWise™'s analysis of 2,239 college soccer programs and 67,083 players for the 2025 NCAA season, here is how D1, D2, D3, and NAIA compare — by the numbers. Program counts, roster sizes, international composition, roster spot totals, height profiles, and geographic distribution. No hype, no rankings — just the data that helps families make informed decisions."
+summary: "Based on RosterWise™'s analysis of 2,235 college soccer programs and 66,894 players for the 2025 NCAA season, here is how D1, D2, D3, and NAIA compare — by the numbers. Program counts, roster sizes, international composition, roster spot totals, height profiles, and geographic distribution. No hype, no rankings — just the data that helps families make informed decisions."
 related:
   - title: "Men's Soccer Roster Sizes"
     url: /soccer/insights/mens-roster-size/
@@ -45,18 +45,20 @@ ${toc}
 
 College soccer in the United States spans four major organizational levels: NCAA Division I, Division II, Division III, and the NAIA. Each operates under different rules, different scholarship structures, and different competitive philosophies. For families, understanding these differences is the foundation of a realistic recruiting strategy.
 
-Across 2,239 programs and 67,083 players analyzed for the 2025 NCAA season:
+Across 2,235 programs and 66,894 players analyzed for the 2025 NCAA season:
 
 | Metric | D1 | D2 | D3 | NAIA |
 |--------|----|----|----|----- |
-| **Men's programs** | 213 | 205 | 406 | 190 |
-| **Women's programs** | 349 | 263 | 416 | 197 |
-| **Total programs** | 562 | 468 | 822 | 387 |
-| **Men's avg. roster size** | 29.2 | 35.4 | 31.9 | 35.5 |
-| **Women's avg. roster size** | 27.7 | 29.6 | 27.2 | 26.0 |
-| **Men's international %** | 33.8% | 37.4% | 11.2% | 48.1% |
+| **Men's programs** | 211 | 205 | 406 | 190 |
+| **Women's programs** | 347 | 263 | 416 | 197 |
+| **Total programs** | 558 | 468 | 822 | 387 |
+| **Men's avg. roster size** | 29.0 | 35.4 | 31.9 | 35.5 |
+| **Women's avg. roster size** | 27.6 | 29.6 | 27.2 | 26.0 |
+| **Men's international %** | 33.6% | 37.4% | 11.2% | 48.1% |
 | **Women's international %** | 12.5% | 11.3% | 2.1% | 19.5% |
 | **Athletic scholarships** | Yes (roster-limited for opt-in) | Yes (equivalency) | No | Yes |
+
+*Note: Two D1 programs — Mercyhurst University and the University of New Haven — are excluded from D1 aggregates because they are mid-transition from D2 to D1 (NEC) and carry rosters of 58 and 46 (men's) / 49 and 36 (women's) players respectively, which is not representative of established D1 programs.*
 
 This table is a starting point. Each row tells a different part of the story, and the rest of this page unpacks what these numbers mean for families.
 
@@ -65,10 +67,10 @@ This table is a starting point. Each row tells a different part of the story, an
 The distribution of programs across divisions:
 
 - **D3 has the most programs** in both men's and women's soccer: 406 men's and 416 women's. This is the largest pool of college soccer opportunities in the country.
-- **D1 has the most visibility** but 562 total programs — the second-largest division by count.
+- **D1 has the most visibility** but 558 total programs — the second-largest division by count.
 - **D2 has 468** and **NAIA has 387** programs.
 
-**What this means for families:** D1 represents 25.1% of all college soccer programs. Families who focus exclusively on D1 are looking at one-quarter of the total landscape. A broader search across divisions almost always yields better fit options.
+**What this means for families:** D1 represents 25.0% of all college soccer programs. Families who focus exclusively on D1 are looking at one-quarter of the total landscape. A broader search across divisions almost always yields better fit options.
 
 ## Roster spots: the total opportunity
 
@@ -76,11 +78,11 @@ Roster size multiplied by program count gives you total roster spots at each div
 
 | Division | Men's Roster Spots | Women's Roster Spots | Total |
 |----------|-------------------|---------------------|-------|
-| D1 | 6,216 | 9,675 | 15,891 |
+| D1 | 6,112 | 9,590 | 15,702 |
 | D2 | 7,257 | 7,782 | 15,039 |
 | D3 | 12,950 | 11,333 | 24,283 |
 | NAIA | 6,744 | 5,126 | 11,870 |
-| **Total** | **33,167** | **33,916** | **67,083** |
+| **Total** | **33,063** | **33,831** | **66,894** |
 
 D3 has the most total roster spots by a significant margin — 24,283, more than D1 and D2 combined. This reflects both the number of programs and the tendency for D3 rosters to carry more players (since there is no roster cap).
 

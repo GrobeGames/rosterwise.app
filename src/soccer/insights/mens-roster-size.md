@@ -1,7 +1,7 @@
 ---
 layout: content.njk
 title: "Average Roster Size in D1, D2, D3, and NAIA Men's College Soccer — 2025 Season Analysis | RosterWise™"
-description: "How many players are on a men's college soccer roster? Average roster sizes for NCAA D1, D2, D3, and NAIA programs based on RosterWise's analysis of 1,014 men's soccer programs, 2025 NCAA season."
+description: "How many players are on a men's college soccer roster? Average roster sizes for NCAA D1, D2, D3, and NAIA programs based on RosterWise's analysis of 1,012 men's soccer programs, 2025 NCAA season."
 date: 2026-05-17
 breadcrumbs:
   - text: Home
@@ -10,7 +10,7 @@ breadcrumbs:
     url: /soccer/
   - text: Insights
   - text: Men's Roster Size
-summary: "Based on RosterWise™'s analysis of every published 2025 NCAA season men's college soccer roster across D1, D2, D3, and NAIA — 1,014 programs and 40,167 players — here is what the data shows about how programs build their rosters. Roster size is one of the most useful signals for recruiting families, and understanding the patterns by division helps calibrate expectations before reaching out to coaches."
+summary: "Based on RosterWise™'s analysis of every published 2025 NCAA season men's college soccer roster across D1, D2, D3, and NAIA — 1,012 programs and 40,063 players — here is what the data shows about how programs build their rosters. Roster size is one of the most useful signals for recruiting families, and understanding the patterns by division helps calibrate expectations before reaching out to coaches."
 related:
   - title: "Women's Soccer Roster Sizes"
     url: /soccer/insights/womens-roster-size/
@@ -50,14 +50,16 @@ Neither is inherently better. What matters is whether your athlete's profile —
 
 ## Average roster sizes by division
 
-Across 1,014 men's soccer programs analyzed for the 2025 NCAA season:
+Across 1,012 men's soccer programs analyzed for the 2025 NCAA season:
 
 | Division | Programs | Avg. Roster Size | Median | Min | Max |
 |----------|----------|-------------------|--------|-----|-----|
-| D1 | 213 | 29.2 | 28 | 15 | 58 |
+| D1 | 211 | 29.0 | 28 | 15 | 44 |
 | D2 | 205 | 35.4 | 33 | 16 | 76 |
 | D3 | 406 | 31.9 | 31 | 16 | 58 |
 | NAIA | 190 | 35.5 | 33 | 14 | 82 |
+
+*Note: Two D1 programs — Mercyhurst University and the University of New Haven — are excluded from D1 aggregates because they are mid-transition from D2 to D1 (NEC) and carry rosters of 58 and 46 (men's) / 49 and 36 (women's) players respectively, which is not representative of established D1 programs.*
 
 The range within each division is wide. Some D1 programs carry close to their roster limit; others sit well below it. D2, D3, and NAIA programs show even wider spreads, reflecting different institutional philosophies about roster construction.
 
@@ -78,7 +80,7 @@ Midfielders make up the largest position group at every division. Goalkeeper cou
 
 The 2025 House v. NCAA settlement introduced a roster limit of 28 for D1 men's soccer programs that opted into the new framework. Before the settlement, many D1 programs carried 30 or more players, including walk-ons.
 
-This is a meaningful shift. The 2025 data shows D1 men's programs averaging 29.2 players with a median of 28 — right at the new roster limit. Fewer total roster spots means:
+This is a meaningful shift. The 2025 data shows D1 men's programs averaging 29.0 players with a median of 28 — right at the new roster limit. Fewer total roster spots means:
 
 - **Walk-on opportunities are reduced.** Programs that used to carry extra players beyond their scholarship allotment now have a hard cap.
 - **Every spot is more valuable.** Coaches are making sharper decisions about who makes the roster.
@@ -129,7 +131,7 @@ A practical approach for families:
 
 ## Every recruit's journey is different
 
-These are averages across 1,014 programs. Individual programs vary significantly — the difference between the smallest and largest D1 men's soccer rosters is 43 players. In NAIA, the range is 68 players.
+These are averages across 1,012 programs. Individual programs vary significantly — the difference between the smallest and largest D1 men's soccer rosters is 29 players. In NAIA, the range is 68 players.
 
 Families should treat these averages as a starting point, not a conclusion. Every program's roster tells its own story — and reading that story is exactly what RosterWise is built to help with.
 

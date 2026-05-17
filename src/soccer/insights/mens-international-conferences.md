@@ -10,7 +10,7 @@ breadcrumbs:
     url: /soccer/
   - text: Insights
   - text: Men's International Conferences
-summary: "Based on RosterWise™'s analysis of every published 2025 NCAA season men's college soccer roster, international players make up 33.8% of D1 men's soccer rosters, 37.4% of D2, 11.2% of D3, and 48.1% of NAIA. But these division-level averages mask enormous conference-by-conference variation. This page breaks down international composition by conference to help families understand the competitive landscape."
+summary: "Based on RosterWise™'s analysis of every published 2025 NCAA season men's college soccer roster, international players make up 33.6% of D1 men's soccer rosters, 37.4% of D2, 11.2% of D3, and 48.1% of NAIA. But these division-level averages mask enormous conference-by-conference variation. This page breaks down international composition by conference to help families understand the competitive landscape."
 related:
   - title: "Women's International Conference Composition"
     url: /soccer/insights/womens-international-conferences/
@@ -42,7 +42,7 @@ ${toc}
 
 ## Why international composition matters for domestic recruits
 
-International recruiting is one of the most significant factors shaping men's college soccer rosters — and one of the least discussed in recruiting circles. Across all 1,014 men's programs in the 2025 dataset, 12,838 players are classified as international — 19.1% overall, but significantly higher in D1, D2, and NAIA.
+International recruiting is one of the most significant factors shaping men's college soccer rosters — and one of the least discussed in recruiting circles. Across all 1,012 men's programs in the 2025 dataset, 12,838 players are classified as international — 19.1% overall, but significantly higher in D1, D2, and NAIA.
 
 For families with a domestic recruit, understanding how many roster spots go to international players is not about objecting to their presence. It is about understanding the competitive landscape honestly.
 
@@ -52,7 +52,7 @@ RosterWise tracks [roster intelligence](/roster-intelligence/) at the program le
 
 ## D1 men's soccer: conference-level international composition
 
-Across 213 D1 men's soccer programs, international players make up **33.8%** of all roster spots — roughly one in three players. But the conference-by-conference variation is dramatic, ranging from 11.3% to 58.8%.
+Across 211 D1 men's soccer programs, international players make up **33.6%** of all roster spots — roughly one in three players. But the conference-by-conference variation is dramatic, ranging from 11.3% to 58.8%.
 
 Because many conferences are separated by fewer than two percentage points, we group them into tiers rather than publishing strict 1-2-3 rankings. A 0.5% gap between conferences does not indicate a meaningful difference in recruiting approach.
 
