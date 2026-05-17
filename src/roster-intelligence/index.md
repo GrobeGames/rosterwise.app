@@ -1,7 +1,7 @@
 ---
 layout: content.njk
-title: "What Is College Sports Roster Intelligence?"
-description: "Roster intelligence analyzes every college sports program — position depth, class-year gaps, international composition, recruiting pathways, and personalized fit scoring. Learn how RosterWise applies this methodology across D1, D2, D3, and NAIA programs."
+title: "What Is College Sports Roster Intelligence? | RosterWise™ Methodology"
+description: "Roster intelligence analyzes every college sports program — position depth, class-year gaps, international composition, pathways, and fit scoring."
 date: 2026-05-17
 breadcrumbs:
   - text: Home
@@ -72,7 +72,7 @@ This isn't about limiting options. It's about understanding where an athlete's p
 
 ### International vs. domestic composition
 
-International recruiting has reshaped college sports. In men's college soccer, some D1 programs have rosters where more than 50% of players come from outside the United States. In women's soccer, international composition varies dramatically by division and conference.
+International recruiting has reshaped college sports. Some men's college soccer programs have rosters where more than 50% of players come from outside the United States. In women's soccer, international composition varies dramatically by division and conference.
 
 This matters for domestic recruits because international players occupy roster spots. A program that fills half its roster internationally has fundamentally different opportunity dynamics than one that recruits primarily from domestic club systems.
 
