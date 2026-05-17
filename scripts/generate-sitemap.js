@@ -51,6 +51,9 @@ const PATH_CONFIG = [
   // App / product page
   { pattern: /^\/app\/$/, priority: "0.9", changefreq: "monthly" },
 
+  // Roster intelligence methodology page
+  { pattern: /^\/roster-intelligence\/$/, priority: "0.8", changefreq: "monthly" },
+
   // Guide content pages
   { pattern: /\/guide\//, priority: "0.8", changefreq: "monthly" },
 
