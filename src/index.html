@@ -3,16 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RosterWise&trade; — Find Your Fit | College Sports Recruiting Intelligence</title>
-<meta name="description" content="RosterWise™ helps high school recruits and families find the right college sports program. Deep roster analysis, fit scoring, and recruiting intelligence for soccer, lacrosse, volleyball, and more.">
-<meta name="keywords" content="college recruiting, soccer recruiting, lacrosse recruiting, volleyball recruiting, college sports recruiting tool, roster analysis, recruiting research, college athletic recruiting, find your fit, NCAA recruiting, D1 soccer recruiting, D2 soccer recruiting, D3 soccer recruiting, NAIA soccer recruiting, college roster intelligence, college recruiting help, affordable recruiting tool, academic fit college sports, college search sports, softball recruiting, recruiting intelligence app, college program finder">
+<title>College Sports Recruiting Intelligence &mdash; Roster Analysis for D1, D2, D3, NAIA Programs | RosterWise&trade;</title>
+<meta name="description" content="RosterWise™ analyzes every college sports program — position depth, class year gaps, international composition, and personalized fit scores for recruiting families. Soccer available May 2026; volleyball and more coming. $40 one-time, no subscriptions.">
 <meta name="author" content="Grobe Games LLC">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://rosterwise.app">
 
 <!-- Open Graph -->
-<meta property="og:title" content="RosterWise™ — Find Your Fit">
-<meta property="og:description" content="The recruiting intelligence tool that helps high school athletes find the right college program. Deep roster analysis for soccer, lacrosse, volleyball, and more.">
+<meta property="og:title" content="College Sports Recruiting Intelligence | RosterWise™">
+<meta property="og:description" content="RosterWise™ analyzes every college sports program — position depth, class year gaps, international composition, and personalized fit scores for recruiting families. $40 one-time, no subscriptions.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://rosterwise.app">
 <meta property="og:image" content="https://rosterwise.app/assets/rosterwise-shield-logo.png">
@@ -20,8 +19,8 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="RosterWise™ — Find Your Fit">
-<meta name="twitter:description" content="College sports recruiting intelligence. Deep roster analysis to help recruits find their perfect fit.">
+<meta name="twitter:title" content="College Sports Recruiting Intelligence | RosterWise™">
+<meta name="twitter:description" content="RosterWise™ analyzes every college sports program — position depth, class year gaps, international composition, and personalized fit scores. $40 one-time.">
 <meta name="twitter:image" content="https://rosterwise.app/assets/rosterwise-shield-logo.png">
 
 <!-- Favicon -->
@@ -282,14 +281,24 @@
     background-clip: text;
   }
 
-  .hero-logo-tagline {
+  .hero-h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(22px, 3.5vw, 36px);
+    font-weight: 800;
+    color: var(--white);
+    margin-top: 16px;
+    margin-bottom: 8px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+  }
+
+  .hero-brand-tagline {
     display: inline-block;
-    margin-top: 4px;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
     padding: 6px 28px;
     background: linear-gradient(135deg, #c8a44e 0%, #a88a3a 50%, #c8a44e 100%);
     border-radius: 4px;
-    font-size: clamp(12px, 2vw, 18px);
+    font-size: clamp(12px, 2vw, 16px);
     font-weight: 800;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -458,6 +467,56 @@
 
   .section-dark .section-subtitle {
     color: rgba(255, 255, 255, 0.6);
+  }
+
+  /* ==========================================
+     ROSTER INTELLIGENCE CONTENT
+     ========================================== */
+  .ri-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .ri-content p {
+    font-size: clamp(15px, 1.8vw, 17px);
+    color: var(--text-muted);
+    line-height: 1.8;
+    margin-bottom: 16px;
+  }
+
+  .ri-content h3 {
+    font-size: clamp(20px, 2.5vw, 24px);
+    font-weight: 700;
+    color: var(--navy);
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+
+  .ri-dimensions {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0 24px;
+  }
+
+  .ri-dimensions li {
+    font-size: clamp(14px, 1.6vw, 16px);
+    color: var(--text-muted);
+    line-height: 1.7;
+    padding: 10px 0 10px 24px;
+    border-left: 3px solid var(--gold);
+    margin-bottom: 12px;
+    background: var(--cream);
+    padding: 12px 16px 12px 20px;
+    border-radius: 0 8px 8px 0;
+  }
+
+  .ri-dimensions li strong {
+    color: var(--navy);
+  }
+
+  .ri-cta {
+    margin-top: 32px;
+    text-align: center;
   }
 
   /* ==========================================
@@ -955,11 +1014,13 @@
     animation: heroFadeUp 0.8s ease-out forwards;
   }
   .hero-content > *:nth-child(1) { animation-delay: 0.15s; }
-  .hero-content > *:nth-child(2) { animation-delay: 0.3s; }
-  .hero-content > *:nth-child(3) { animation-delay: 0.45s; }
-  .hero-content > *:nth-child(4) { animation-delay: 0.6s; }
-  .hero-content > *:nth-child(5) { animation-delay: 0.75s; }
-  .hero-content > *:nth-child(6) { animation-delay: 0.9s; }
+  .hero-content > *:nth-child(2) { animation-delay: 0.25s; }
+  .hero-content > *:nth-child(3) { animation-delay: 0.35s; }
+  .hero-content > *:nth-child(4) { animation-delay: 0.45s; }
+  .hero-content > *:nth-child(5) { animation-delay: 0.55s; }
+  .hero-content > *:nth-child(6) { animation-delay: 0.65s; }
+  .hero-content > *:nth-child(7) { animation-delay: 0.75s; }
+  .hero-content > *:nth-child(8) { animation-delay: 0.85s; }
 
   @keyframes heroFadeUp {
     from { opacity: 0; transform: translateY(20px); }
@@ -1027,10 +1088,11 @@
     <div class="hero-content">
       <div class="hero-logo-text">
         <div class="hero-logo-title"><span>ROSTER</span>WISE<sup style="font-size: 0.2em; -webkit-text-fill-color: rgba(200,164,78,0.7); vertical-align: top; position: relative; top: -0.05em; line-height: 1;">TM</sup></div>
-        <div class="hero-logo-tagline">Find Your Fit.</div>
       </div>
+      <h1 class="hero-h1">College Sports Recruiting Intelligence</h1>
+      <p class="hero-brand-tagline">Find Your Fit.</p>
       <p class="hero-tagline">
-        <em>Recruiting intelligence</em> for the families<br>who take it seriously.
+        Deep <em>roster analysis</em> for the families<br>who take recruiting seriously.
       </p>
       <p class="hero-subtitle">
         RosterWise&trade; analyzes every roster and every school &mdash; from
@@ -1059,6 +1121,42 @@
     </div>
   </section>
 
+  <!-- ========== WHAT IS ROSTER INTELLIGENCE ========== -->
+  <section class="section section-white" id="roster-intelligence">
+    <div class="container">
+      <div class="ri-content fade-in">
+        <h2 class="section-title">Where Does Your Athlete Actually Fit in College Sports?</h2>
+        <p>Every recruiting family hits the same wall. Your son or daughter has talent, drive, and dreams of playing college sports &mdash; but when you sit down to figure out which programs to target, the process feels impossible.</p>
+        <p>There are more than 2,200 college soccer programs alone across NCAA D1, D2, D3, and NAIA. Each one has a roster with different position needs, class-year openings, height profiles, international mixes, and recruiting pathways. Multiply that by volleyball, lacrosse, softball, and other sports, and the scale of college recruiting research becomes overwhelming.</p>
+        <p>Most families do what they can: build a spreadsheet, visit school websites one by one, attend showcases, and hope they're finding the right college sports programs for their athlete. But none of that answers the question that actually matters: <strong>where does my athlete fit?</strong></p>
+
+        <h3>What College Sports Roster Intelligence Really Means</h3>
+        <p><a href="/roster-intelligence/" style="color: var(--gold-dark); font-weight: 600;">Roster intelligence</a> is the systematic analysis of every roster at every program &mdash; not just who's on the team, but what the roster tells you about opportunity. It's a fundamentally different approach to recruiting research.</p>
+        <p>When you look at a college program through the lens of roster intelligence, you're asking deeper questions:</p>
+        <ul class="ri-dimensions">
+          <li><strong>Position depth and class-year gaps.</strong> How many players are at your athlete's position? How many are seniors who will graduate? Where are the openings that create real opportunity?</li>
+          <li><strong>Height and physical profiles.</strong> How does your athlete's size compare to the players already on the roster at their position? Are there programs where they'd be a physical match?</li>
+          <li><strong>International vs. domestic composition.</strong> Some programs recruit heavily from overseas. Others prioritize domestic talent. Knowing the mix helps you understand where your recruit is most likely to earn a spot.</li>
+          <li><strong>Recruiting pathway patterns.</strong> Where do current players come from &mdash; which high schools, club teams, and academies? If your athlete's pathway aligns with a program's tendencies, that's a signal worth paying attention to.</li>
+          <li><strong>Coach tenure and program stability.</strong> A coach who's been building a program for 15 years recruits differently than one who arrived last season. Tenure shapes culture, roster construction, and recruiting priorities.</li>
+          <li><strong>Personalized fit scoring.</strong> Combine all of these dimensions against your athlete's specific profile &mdash; position, height, graduation year, academic profile &mdash; and you get a clear, personalized picture of fit at every program in the country.</li>
+        </ul>
+
+        <h3>A Methodology That Works Across Sports</h3>
+        <p>RosterWise&trade; applies this <a href="/roster-intelligence/" style="color: var(--gold-dark); font-weight: 600;">college sports roster intelligence</a> methodology across multiple sports. The analysis dimensions are universal: every sport has positions, class years, physical profiles, and recruiting pathways. What changes is the sport-specific context &mdash; the position taxonomy, the recruiting timeline, the scholarship structure.</p>
+        <p>Soccer is the first sport where RosterWise applies this analysis, covering every men's and women's program across D1, D2, D3, and NAIA &mdash; more than 2,200 programs analyzed. Women's volleyball is next, with <a href="/volleyball/" style="color: var(--gold-dark); font-weight: 600;">guides and methodology already published</a> and app data in development. Lacrosse, softball, and additional sports will follow.</p>
+
+        <h3>Every Recruiting Journey Is Different</h3>
+        <p>No two athletes follow the same path. A goalkeeper's recruiting timeline looks nothing like a striker's. A D3 walk-on opportunity may be a better fit than a D1 partial scholarship. The right program for your family depends on athletic ability, academic goals, location preferences, campus culture, financial situation, and dozens of other factors that only you can weigh.</p>
+        <p>Roster intelligence doesn't make decisions for your family &mdash; it gives you the information to make better ones. Start by understanding which programs align with your athlete's profile, then do the deeper research that only you can do: campus visits, conversations with coaches, and honest assessment of fit.</p>
+        <p class="ri-cta">
+          <a href="/roster-intelligence/" class="btn btn-primary" style="margin-right: 12px;">Learn About Our Methodology</a>
+          <a href="/app/" class="btn btn-outline" style="border-color: var(--navy); color: var(--navy);">See RosterWise Soccer</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
   <!-- ========== THE PROBLEM ========== -->
   <section class="section section-cream problem" id="problem">
     <div class="container">
@@ -1072,22 +1170,22 @@
       <div class="problem-grid fade-in">
         <div class="problem-card">
           <div class="problem-card-icon">&#128269;</div>
-          <h3>Rosters Are Scattered</h3>
+          <h3>Why College Sports Rosters Are So Hard to Research</h3>
           <p>You'd have to manually visit hundreds of college athletics websites
             and comb through roster pages one by one. Nobody has time for that.</p>
         </div>
         <div class="problem-card">
           <div class="problem-card-icon">&#128200;</div>
-          <h3>No Real Analysis</h3>
+          <h3>Why Generic Match Lists Don't Help</h3>
           <p>Existing tools list schools but don't tell you anything about
             roster composition, playing time opportunity, or how you compare
             to who's already there.</p>
         </div>
         <div class="problem-card">
           <div class="problem-card-icon">&#128176;</div>
-          <h3>Expensive &amp; Shallow</h3>
-          <p>Services charge hundreds of dollars for generic "match lists"
-            that any Google search could produce. Real intelligence is
+          <h3>Why Recruiting Services Cost Too Much for Too Little</h3>
+          <p>Services charge hundreds of dollars for generic lists
+            that any Google search could produce. Real roster intelligence is
             nowhere to be found.</p>
         </div>
       </div>
@@ -1283,32 +1381,32 @@
         apps. Each sport gets its own dedicated app with tailored analysis.
       </p>
       <div class="sports-grid">
-        <div class="sport-card available fade-in">
-          <span class="sport-card-badge live">Available</span>
+        <a href="/soccer/" class="sport-card available fade-in" style="text-decoration: none; color: inherit;">
+          <span class="sport-card-badge live">May 2026</span>
           <span class="sport-card-emoji">&#9917;</span>
           <h3>RosterWise&trade; Soccer</h3>
           <p>Men's &amp; Women's &middot; D1, D2, D3, NAIA</p>
-        </div>
-        <div class="sport-card fade-in">
-          <span class="sport-card-badge coming">Coming Soon</span>
-          <span class="sport-card-emoji">&#129357;</span>
-          <h3>RosterWise&trade; Lacrosse</h3>
-          <p>Men's &amp; Women's</p>
-        </div>
+        </a>
         <a href="/volleyball/" class="sport-card available fade-in" style="text-decoration: none; color: inherit;">
           <span class="sport-card-badge live">Guides Live</span>
           <span class="sport-card-emoji">&#127952;</span>
           <h3>RosterWise&trade; Volleyball</h3>
-          <p>Women's &middot; Guides &amp; Methodology</p>
+          <p>Women's &middot; All Divisions &middot; App After Soccer</p>
         </a>
         <div class="sport-card fade-in">
-          <span class="sport-card-badge coming">Coming Soon</span>
+          <span class="sport-card-badge coming">Planned</span>
+          <span class="sport-card-emoji">&#129357;</span>
+          <h3>RosterWise&trade; Lacrosse</h3>
+          <p>Men's &amp; Women's</p>
+        </div>
+        <div class="sport-card fade-in">
+          <span class="sport-card-badge coming">Planned</span>
           <span class="sport-card-emoji">&#129358;</span>
           <h3>RosterWise&trade; Softball</h3>
           <p>Women's</p>
         </div>
         <div class="sport-card fade-in">
-          <span class="sport-card-badge coming">Coming Soon</span>
+          <span class="sport-card-badge coming">Planned</span>
           <span class="sport-card-emoji" style="font-size: 36px;">&#43;</span>
           <h3>More Sports</h3>
           <p>Field Hockey, Baseball &amp; more</p>
@@ -1357,10 +1455,10 @@
       <div class="footer-col">
         <h4>Resources</h4>
         <ul>
+          <li><a href="/roster-intelligence/">Roster Intelligence</a></li>
           <li><a href="/guide/">Recruiting Guides</a></li>
           <li><a href="/soccer/">Soccer Recruiting</a></li>
-          <li><a href="/soccer/mens/">Men's Soccer</a></li>
-          <li><a href="/soccer/womens/">Women's Soccer</a></li>
+          <li><a href="/volleyball/">Volleyball Recruiting</a></li>
         </ul>
       </div>
       <div class="footer-col">
