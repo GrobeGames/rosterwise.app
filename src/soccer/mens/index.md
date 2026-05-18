@@ -9,6 +9,10 @@ breadcrumbs:
     url: /soccer/
   - text: Men's
 children:
+  - title: "Browse All Men's Soccer Programs"
+    url: /soccer/mens/programs/
+    summary: "Complete directory of every NCAA and NAIA men's soccer program. Filter by division, conference, and state."
+    status: live
   - title: "Men's College Soccer Recruiting Timeline"
     url: /soccer/mens/guide/recruiting-timeline/
     summary: "When commitments actually happen — NCAA contact rules, typical timelines by division, and the new House settlement landscape."

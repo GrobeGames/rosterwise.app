@@ -1,0 +1,264 @@
+/* Program Hub/Directory Pages — listing all programs with filters */
+
+.program-hub {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px clamp(16px, 4vw, 48px) 64px;
+}
+
+.program-hub .breadcrumbs {
+  margin-bottom: 24px;
+}
+
+.program-hub .breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  gap: 4px;
+}
+
+.program-hub .breadcrumbs li + li::before {
+  content: "/";
+  margin-right: 4px;
+  color: var(--text-muted);
+}
+
+.program-hub .breadcrumbs a {
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.program-hub .breadcrumbs a:hover {
+  color: var(--gold);
+}
+
+.program-hub .breadcrumbs span[aria-current] {
+  color: var(--navy);
+  font-weight: 500;
+}
+
+/* Header */
+.program-hub-header {
+  margin-bottom: 32px;
+}
+
+.program-hub-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 800;
+  color: var(--navy);
+  margin: 0 0 12px;
+}
+
+.program-hub-subtitle {
+  font-size: 16px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Filters */
+.program-hub-filters {
+  margin-bottom: 24px;
+  padding: 16px 20px;
+  background: var(--cream, #f8f6f0);
+  border-radius: 10px;
+  border: 1px solid #e8e4dc;
+}
+
+.program-hub-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.program-hub-search {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px 14px;
+  border: 1px solid #d4d0c8;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.program-hub-search:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(200, 164, 78, 0.15);
+}
+
+.program-hub-select {
+  padding: 10px 32px 10px 14px;
+  border: 1px solid #d4d0c8;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  background: white;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%235a6178' stroke-width='2' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  cursor: pointer;
+  outline: none;
+}
+
+.program-hub-select:focus {
+  border-color: var(--gold);
+}
+
+.program-hub-count {
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* Grid */
+.program-hub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.program-hub-card {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+  background: white;
+  border: 1px solid #e8e4dc;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.program-hub-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-color: var(--gold);
+}
+
+.program-hub-card-color {
+  width: 6px;
+  flex-shrink: 0;
+}
+
+.program-hub-card-body {
+  padding: 14px 16px;
+  min-width: 0;
+}
+
+.program-hub-card-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.program-hub-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.program-hub-pill {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: var(--navy);
+  color: white;
+  border-radius: 4px;
+}
+
+.program-hub-conf {
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.program-hub-card-loc {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* Empty state */
+.program-hub-empty {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--text-muted);
+  font-size: 15px;
+}
+
+/* CTA */
+.program-hub-cta {
+  background: var(--navy);
+  border-radius: 12px;
+  padding: 40px 32px;
+  text-align: center;
+  margin-top: 48px;
+}
+
+.program-hub-cta h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  margin: 0 0 12px;
+}
+
+.program-hub-cta p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0 0 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.program-hub-cta-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: var(--gold);
+  color: var(--navy);
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.program-hub-cta-btn:hover {
+  background: var(--gold-light);
+  transform: translateY(-1px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .program-hub-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .program-hub-filter-row {
+    flex-direction: column;
+  }
+
+  .program-hub-search,
+  .program-hub-select {
+    width: 100%;
+  }
+}

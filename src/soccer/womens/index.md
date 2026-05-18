@@ -9,6 +9,10 @@ breadcrumbs:
     url: /soccer/
   - text: Women's
 children:
+  - title: "Browse All Women's Soccer Programs"
+    url: /soccer/womens/programs/
+    summary: "Complete directory of every NCAA and NAIA women's soccer program. Filter by division, conference, and state."
+    status: live
   - title: "Women's College Soccer Recruiting Timeline"
     url: /soccer/womens/guide/recruiting-timeline/
     summary: "When commitments actually happen — NCAA contact rules, typical timelines by division, and the new House settlement landscape."

@@ -1,0 +1,500 @@
+---
+pagination:
+  data: programs
+  size: 1
+  alias: program
+permalink: "{{ program.page_url }}"
+eleventyComputed:
+  title: "{{ program.title_tag | safe }}"
+  description: "{{ program.meta_description | safe }}"
+eleventyExcludeFromCollections: true
+---
+{% extends "base.njk" %}
+
+{% block head %}
+<link rel="stylesheet" href="/assets/program.css?v=6">
+
+{# --- Article JSON-LD --- #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ program.h1 }}",
+  "datePublished": "2026-05-17",
+  "dateModified": "2026-05-17",
+  "author": {
+    "@type": "Organization",
+    "name": "Grobe Games LLC",
+    "url": "https://grobegames.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Grobe Games LLC",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://rosterwise.app/assets/rosterwise-shield-logo.png"
+    }
+  },
+  "description": "{{ program.meta_description }}",
+  "mainEntityOfPage": "https://rosterwise.app{{ program.page_url }}"
+}
+</script>
+
+{# --- BreadcrumbList JSON-LD --- #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {% for crumb in program.breadcrumbs %}
+    {
+      "@type": "ListItem",
+      "position": {{ loop.index }},
+      "name": "{{ crumb.text }}"{% if crumb.url %},
+      "item": "https://rosterwise.app{{ crumb.url }}"{% endif %}
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+
+{% if program.status == "active" or program.status == "new" %}
+{# --- SportsTeam JSON-LD (active programs only) --- #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsTeam",
+  "name": "{{ program.school_name }} {{ program.display_name }} {{ program.gender_display }} {{ program.sport_display }}",
+  "sport": "{{ program.sport_display }}",
+  {% if program.conference %}
+  "memberOf": {
+    "@type": "SportsOrganization",
+    "name": "{{ program.conference }}"
+  },
+  {% endif %}
+  "location": {
+    "@type": "Place",
+    "name": "{{ program.city }}, {{ program.state_full_name }}",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": {{ program.latitude }},
+      "longitude": {{ program.longitude }}
+    }
+  }
+}
+</script>
+{% endif %}
+
+{# --- Place JSON-LD --- #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": "{{ program.school_name }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "{{ program.city }}",
+    "addressRegion": "{{ program.state }}",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ program.latitude }},
+    "longitude": {{ program.longitude }}
+  }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+
+{# Set school color CSS custom properties for the entire page #}
+<div style="--school-primary: {{ program.primary_color | default('#c8a44e') }}; --school-secondary: {{ program.secondary_color | default('#c8a44e') }};{% if program.pill_text_color %} --school-pill-text: {{ program.pill_text_color }};{% endif %}">
+
+{% if program.status == "active" or program.status == "new" %}
+{# ============================================================
+   HERO SECTION — school-colored background with identity pills
+   ============================================================ #}
+<section class="program-hero">
+  <div class="program-hero-inner">
+    <nav class="program-breadcrumbs" aria-label="Breadcrumb">
+      <ol>
+        {% for crumb in program.breadcrumbs %}
+        <li>
+          {% if crumb.url %}<a href="{{ crumb.url }}">{{ crumb.text }}</a>
+          {% else %}<span aria-current="page">{{ crumb.text }}</span>{% endif %}
+        </li>
+        {% endfor %}
+      </ol>
+    </nav>
+
+    {% if program.status == "new" %}
+    <div class="program-status-badge program-status-badge--new" role="status">
+      NEW PROGRAM{% if program.new_program_year %} — First Season {{ program.new_program_year }}{% endif %}
+    </div>
+    {% endif %}
+
+    <div class="program-hero-pills">
+      <span class="program-pill program-pill--division">NCAA {{ program.division }}</span>
+      <span class="program-pill program-pill--school">{{ program.display_name }}</span>
+      {% if program.conference %}
+      <span class="program-pill program-pill--conference">{{ program.conference }}</span>
+      {% endif %}
+    </div>
+
+    <h1>{{ program.school_name }}<br><span class="program-hero-sport">{{ program.gender_display }} {{ program.sport_display }}</span></h1>
+    <p class="program-hero-school-name">{{ program.city }}, {{ program.state_full_name }}{% if program.first_season_year %} &middot; Est. {{ program.first_season_year }}{% endif %}{% if program.ncaa_championships_count and program.ncaa_championships_count > 0 %} &middot; {{ program.ncaa_championships_count }}× NCAA Champion{{ "s" if program.ncaa_championships_count > 1 else "" }}{% endif %}</p>
+
+    <p class="program-hero-summary">
+      {% if program.status == "new" %}
+      {{ program.school_name }} is launching a new {{ program.gender_display | lower }} {{ program.sport_display | lower }} program{% if program.new_program_year %} beginning in {{ program.new_program_year }}{% endif %}. The program will compete in NCAA {{ program.division }} as part of the {{ program.conference | default("their conference") }}.
+      {% else %}
+      The {{ program.school_name }} {{ program.display_name }} compete in NCAA {{ program.division }} {{ program.gender_display | lower }} {{ program.sport_display | lower }} as members of the {{ program.conference | default("their conference") }}. {{ program.school_name }} is a {{ program.control | lower }}{% if program.carnegie_classification %} {{ program.carnegie_classification }}{% endif %} research university founded in {{ program.year_established }}.
+      {% endif %}
+    </p>
+  </div>
+</section>
+
+{% elif program.status == "discontinued" %}
+{# Discontinued: hero with prominent badge #}
+<section class="program-hero program-hero--discontinued">
+  <div class="program-hero-inner">
+    <nav class="program-breadcrumbs" aria-label="Breadcrumb">
+      <ol>
+        {% for crumb in program.breadcrumbs %}
+        <li>
+          {% if crumb.url %}<a href="{{ crumb.url }}">{{ crumb.text }}</a>
+          {% else %}<span aria-current="page">{{ crumb.text }}</span>{% endif %}
+        </li>
+        {% endfor %}
+      </ol>
+    </nav>
+
+    <div class="program-status-badge program-status-badge--discontinued" role="status">
+      PROGRAM DISCONTINUED{% if program.discontinuation_date %} ({{ program.discontinuation_date }}){% endif %}
+    </div>
+
+    <h1>{{ program.school_name }}<br><span class="program-hero-sport">{{ program.gender_display }} {{ program.sport_display }}</span></h1>
+
+    <div class="program-discontinued-notice">
+      <p>{{ program.school_name }} discontinued its {{ program.gender_display | lower }} {{ program.sport_display | lower }} program{% if program.discontinuation_date %} in {{ program.discontinuation_date }}{% endif %}. This page is preserved because families researching this program — including those who may have seen older recruiting information online — deserve accurate, current context about what happened and what it means for their recruiting search.</p>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{# ============================================================
+   Section 3: Quick Facts panel (Component B)
+   ============================================================ #}
+<section class="program-facts" aria-label="Quick Facts">
+  <div class="program-facts-card">
+    <div class="program-facts-grid">
+
+      {% if program.division %}
+      <div class="program-fact">
+        <svg class="program-fact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+        <div>
+          <div class="program-fact-label">Division</div>
+          <div class="program-fact-value">NCAA {{ program.division }}</div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if program.conference and (program.status == "active" or program.status == "new") %}
+      <div class="program-fact">
+        <svg class="program-fact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <div>
+          <div class="program-fact-label">Conference</div>
+          <div class="program-fact-value">{{ program.conference }}</div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if program.city and program.state_full_name %}
+      <div class="program-fact">
+        <svg class="program-fact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <div>
+          <div class="program-fact-label">Location</div>
+          <div class="program-fact-value">{{ program.city }}, {{ program.state_full_name }}</div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if program.control %}
+      <div class="program-fact">
+        <svg class="program-fact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01"/><path d="M16 6h.01"/><path d="M12 6h.01"/><path d="M12 10h.01"/><path d="M12 14h.01"/><path d="M16 10h.01"/><path d="M16 14h.01"/><path d="M8 10h.01"/><path d="M8 14h.01"/></svg>
+        <div>
+          <div class="program-fact-label">School Type</div>
+          <div class="program-fact-value">{{ program.control }}</div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if program.ug_enrollment %}
+      <div class="program-fact">
+        <svg class="program-fact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        <div>
+          <div class="program-fact-label">Undergrad Enrollment</div>
+          <div class="program-fact-value">{{ program.ug_enrollment | commaNumber }}</div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if program.acceptance_rate %}
+      <div class="program-fact">
+        <svg class="program-fact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        <div>
+          <div class="program-fact-label">Acceptance Rate</div>
+          <div class="program-fact-value">{{ (program.acceptance_rate * 100) | round(1) }}%</div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if program.in_state_tuition %}
+      <div class="program-fact">
+        <svg class="program-fact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        <div>
+          <div class="program-fact-label">Tuition</div>
+          {% if program.in_state_tuition == program.out_state_tuition %}
+          <div class="program-fact-value">${{ program.in_state_tuition | commaNumber }}</div>
+          {% else %}
+          <div class="program-fact-value">${{ program.in_state_tuition | commaNumber }} in-state<br>${{ program.out_state_tuition | commaNumber }} out-of-state</div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if program.home_venue and (program.status == "active" or program.status == "new") %}
+      <div class="program-fact">
+        <svg class="program-fact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" x2="21" y1="22" y2="22"/><line x1="6" x2="6" y1="18" y2="11"/><line x1="10" x2="10" y1="18" y2="11"/><line x1="14" x2="14" y1="18" y2="11"/><line x1="18" x2="18" y1="18" y2="11"/><polygon points="12 2 20 7 4 7"/></svg>
+        <div>
+          <div class="program-fact-label">Home Venue</div>
+          <div class="program-fact-value">{{ program.home_venue }}</div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if program.first_season_year %}
+      <div class="program-fact">
+        <svg class="program-fact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+        <div>
+          <div class="program-fact-label">First Season</div>
+          <div class="program-fact-value">{{ program.first_season_year }}</div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if program.ncaa_championships_count and program.ncaa_championships_count > 0 %}
+      <div class="program-fact">
+        <svg class="program-fact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+        <div>
+          <div class="program-fact-label">NCAA Championships</div>
+          <div class="program-fact-value">{{ program.ncaa_championships_count }} ({{ program.ncaa_championship_years | join(", ") }})</div>
+        </div>
+      </div>
+      {% endif %}
+
+    </div>
+  </div>
+</section>
+
+{# ============================================================
+   Section 4: US Map with school location (Component C)
+   Full 50-state SVG with highlighted state and location pin.
+   Pin position computed from lat/long in export script.
+   ============================================================ #}
+{% if program.latitude and program.longitude %}
+<section class="program-map" aria-label="Location map">
+  <div class="program-map-card">
+    <div class="program-map-header">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+      <span>Campus Location</span>
+    </div>
+    <div class="program-map-container" role="img" aria-label="Map of the United States showing {{ program.school_name }} in {{ program.city }}, {{ program.state_full_name }}">
+      {# US Map SVG — MIT licensed, WebsiteBeaver/interactive-svg-map #}
+      {% include "us-map.njk" %}
+      {# Location pin overlay — positioned via inline style from lat/long data
+         Pin position is computed as percentage of the map container.
+         The SVG viewBox is 174 100 959 593, so we convert SVG coords to %.
+         Notre Dame: SVG x≈821, y≈321 → left: (821-174)/959 = 67.5%, top: (321-100)/593 = 37.3% #}
+      <div class="program-map-pin" style="left: {{ program.map_pin_left | default('67.5') }}%; top: {{ program.map_pin_top | default('37.3') }}%;">
+        <div class="program-map-pin-label">{{ program.city }}, {{ program.state }}</div>
+        <div class="program-map-pin-dot"></div>
+      </div>
+    </div>
+    <p class="program-map-caption"><strong>{{ program.city }}, {{ program.state_full_name }}</strong> &middot; {{ program.region | default("") }}{% if program.locale_desc %} &middot; {{ program.locale_desc }}{% endif %}</p>
+  </div>
+</section>
+{% endif %}
+
+{# ============================================================
+   Active program content sections
+   ============================================================ #}
+{% if program.status == "active" or program.status == "new" %}
+
+<div class="program-content">
+
+  {# Section 5: About the Program #}
+  {% if program.notable_history %}
+  <section class="program-section">
+    <h2>About the Program</h2>
+    <p>{{ program.notable_history }}</p>
+    {% if program.conference_history_note %}
+    <p><strong>Conference history:</strong> {{ program.conference_history_note }}</p>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {# Section 5b: Notable Alumni #}
+  {% if program.notable_alumni and program.notable_alumni.length > 0 %}
+  <section class="program-section">
+    <h2>Notable Alumni</h2>
+    <ul class="program-alumni-list">
+      {% for alum in program.notable_alumni %}
+      <li>{{ alum }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {# Section 6: Academic and Institutional Profile #}
+  <section class="program-section">
+    <h2>Academic and Institutional Profile</h2>
+    <p>{{ program.school_name }} is a {{ program.control | lower }} institution{% if program.carnegie_classification %} classified as an {{ program.carnegie_classification }} research university{% endif %}, founded in {{ program.year_established }}. The university is categorized as a {{ program.school_size_category | lower }}-sized institution{% if program.locale_desc %} in a {{ program.locale_desc | lower }} setting{% endif %}.</p>
+    <p>Families considering {{ program.display_name }} {{ program.gender_display | lower }} {{ program.sport_display | lower }} should weigh the academic environment alongside the athletic program. The academic profile, campus culture, and institutional resources all factor into the overall recruiting decision — and these are dimensions where every family's priorities differ.</p>
+  </section>
+
+  {# Section 7: Location and Campus Context #}
+  <section class="program-section">
+    <h2>Location and Campus Context</h2>
+    <p>{{ program.school_name }} is located in {{ program.city }}, {{ program.state_full_name }}{% if program.region %}, in the {{ program.region }} region of the United States{% endif %}. The {{ program.locale_desc | default("campus") | lower }} setting shapes the day-to-day experience for student-athletes, from training conditions and travel schedules to the social environment outside of competition.</p>
+    <p>Geography matters in college recruiting. Travel distances to conference opponents, proximity to home, climate considerations for training, and the local community all influence how a program fits a particular athlete's needs and preferences.</p>
+  </section>
+
+  {# Section 8: How RosterWise Analyzes [Program] — polished pitch card #}
+  <div class="program-analysis-card">
+    <h2>How RosterWise Analyzes {{ program.display_name }} {{ program.gender_display }} {{ program.sport_display }}</h2>
+    <p>Public information about a program — its location, conference, and history — only gets a recruiting family so far. The questions that matter for an actual recruiting decision require current, dynamic analysis:</p>
+    <ul class="program-analysis-list">
+      <li>Who is the current head coach, and how long has he been building this program?</li>
+      <li>How is the current roster composed at your athlete's position, and when are slots opening over the next two recruiting cycles?</li>
+      <li>Where does this program recruit from geographically — what states and regions are represented, and how heavily does it recruit internationally?</li>
+      <li>What club, academy, and high school pathways did current players come from? Does this program favor MLS Next, ECNL, particular clubs, or specific regions?</li>
+      <li>How significant a role does the transfer portal play in this program? Does it build through high-school recruiting, through the portal, or both — and what does that mean for a high-school recruit's odds?</li>
+      <li>How does your athlete's specific profile — position, height, GPA, test scores, club, graduation year — fit this program's typical recruit?</li>
+    </ul>
+    <div class="program-analysis-footer">
+      <p>Inside the RosterWise&trade; Soccer app, we analyze {{ program.display_name }} {{ program.gender_display }} {{ program.sport_display }} across these dimensions and more, with data refreshed regularly so the analysis reflects the current state of the program. The {{ program.display_name }} analysis is one of more than {% if program.gender == "M" %}1,000 men's{% else %}1,200 women's{% endif %} soccer programs included in RosterWise&trade; Soccer. One payment of $40 — no subscriptions — gives you the full analysis for every D1, D2, D3, and NAIA {{ program.gender_display | lower }} soccer program in the country.</p>
+    </div>
+  </div>
+
+  {# Section 9: Every Recruiting Journey Is Different #}
+  <section class="program-section">
+    <h2>Every Recruiting Journey Is Different</h2>
+    <p>Recruiting is not one-size-fits-all. The information on this page is publicly available context about {{ program.display_name }} {{ program.gender_display }} {{ program.sport_display }}, but every recruit's path looks different — based on club pathway, position, region, development trajectory, and individual circumstance. A program that looks like a great fit on paper may not match your athlete's actual recruiting reality, and a program you hadn't considered may be the right answer. RosterWise&trade; exists to help families do their own research with better information — but the right decision still depends on your specific situation, conversations with coaches, and honest self-assessment.</p>
+  </section>
+
+  {# Section 10: Related Resources #}
+  <section class="program-section">
+    <h2>Related Resources</h2>
+    <div class="program-related">
+      {% if program.sport_code == "soccer" %}
+        {% if program.gender == "M" %}
+      <a href="/soccer/mens/guide/recruiting-timeline/" class="program-related-link">Men's College Soccer Recruiting Timeline</a>
+      <a href="/soccer/guide/evaluating-programs/" class="program-related-link">How to Evaluate a College Soccer Program</a>
+      <a href="/soccer/guide/reading-rosters/" class="program-related-link">How to Read a College Soccer Roster</a>
+      <a href="/soccer/mens/guide/scholarships/" class="program-related-link">Men's Soccer Scholarship Guide</a>
+        {% else %}
+      <a href="/soccer/guide/evaluating-programs/" class="program-related-link">How to Evaluate a College Soccer Program</a>
+      <a href="/soccer/guide/reading-rosters/" class="program-related-link">How to Read a College Soccer Roster</a>
+      <a href="/soccer/guide/d3-recruiting-reality/" class="program-related-link">D3 Soccer Recruiting Reality</a>
+      <a href="/soccer/guide/walk-on-pathways/" class="program-related-link">Walk-On Pathways in College Soccer</a>
+        {% endif %}
+      {% endif %}
+    </div>
+  </section>
+
+</div>
+
+{# ============================================================
+   Discontinued program content sections
+   ============================================================ #}
+{% else %}
+
+<div class="program-content">
+
+  {# Section 5: About this discontinuation #}
+  <section class="program-section">
+    <h2>About This Discontinuation</h2>
+    {% if program.discontinuation_context %}
+    <p>{{ program.discontinuation_context }}</p>
+    {% else %}
+    <p>{{ program.school_name }} discontinued its {{ program.gender_display | lower }} {{ program.sport_display | lower }} program{% if program.discontinuation_date %} effective {{ program.discontinuation_date }}{% endif %}. The RosterWise&trade; app's Program Changes section tracks these transitions so families always have accurate information.</p>
+    {% endif %}
+  </section>
+
+  {# Section 6: For families researching this program #}
+  <section class="program-section">
+    <h2>For Families Researching This Program</h2>
+    <p>If you or your athlete were considering {{ program.school_name }} for {{ program.gender_display | lower }} {{ program.sport_display | lower }}, here's what you need to know:</p>
+    <ul>
+      <li>{{ program.school_name }} is no longer recruiting for {{ program.gender_display | lower }} {{ program.sport_display | lower }}.</li>
+      <li>Communication with coaches at this program for this sport is no longer relevant.</li>
+      <li>Families should redirect their research to active programs that match their athlete's profile and preferences.</li>
+    </ul>
+  </section>
+
+  {# Section 8: How RosterWise Tracks Program Changes #}
+  <section class="program-section">
+    <h2>How RosterWise Tracks Program Changes</h2>
+    <p>Programs are discontinued, added, or move between divisions every year. RosterWise&trade; tracks these changes in its Program Changes section, so families always have accurate information about which programs are currently active. The full Program Changes history is available in the RosterWise&trade; Soccer app.</p>
+  </section>
+
+  {# Section 9: Every Recruiting Journey Is Different #}
+  <section class="program-section">
+    <h2>Every Recruiting Journey Is Different</h2>
+    <p>Recruiting is not one-size-fits-all. Every recruit's path looks different — based on club pathway, position, region, development trajectory, and individual circumstance. A program that looks like a great fit on paper may not match your athlete's actual recruiting reality, and a program you hadn't considered may be the right answer. RosterWise&trade; exists to help families do their own research with better information — but the right decision still depends on your specific situation, conversations with coaches, and honest self-assessment.</p>
+  </section>
+
+</div>
+
+{% endif %}
+
+{# ============================================================
+   Section 11: CTA Block (shared for active/discontinued)
+   ============================================================ #}
+<section class="program-cta">
+  <div class="program-cta-card">
+    {% if program.status == "active" or program.status == "new" %}
+    <h2>Make a smart decision about {{ program.display_name }} — and every other program.</h2>
+    <p>RosterWise&trade; Soccer gives you the full analysis for {{ program.display_name }} and every other D1, D2, D3, and NAIA {{ program.gender_display | lower }} program in the country. Position depth, class year gaps, geography, pathways, transfer portal patterns, and your athlete's personalized fit score. One payment of $40. No subscriptions. Lifetime access.</p>
+    {% else %}
+    <h2>Find the programs that are actively recruiting your athlete.</h2>
+    <p>RosterWise&trade; Soccer tracks every active D1, D2, D3, and NAIA {{ program.gender_display | lower }} program in the country — and tracks program changes (discontinuations, additions, division moves) so families always have current information. One payment of $40. No subscriptions. Lifetime access.</p>
+    {% endif %}
+    <a href="/app/" class="program-cta-btn">See how RosterWise helps &rarr;</a>
+  </div>
+</section>
+
+{# ============================================================
+   Section 12: Sources Cited
+   Section 13: Last Updated and Author
+   ============================================================ #}
+<div class="program-footer-meta">
+  <div class="program-sources">
+    <h3>Sources Cited</h3>
+    <ul>
+      <li><a href="https://www.ncaa.org" rel="noopener noreferrer" target="_blank">NCAA.org</a></li>
+      {% if program.athletics_domain %}
+      <li><a href="{{ program.athletics_domain }}" rel="noopener noreferrer" target="_blank">{{ program.school_name }} Athletics</a></li>
+      {% endif %}
+      <li><a href="https://nces.ed.gov/ipeds/" rel="noopener noreferrer" target="_blank">U.S. Department of Education IPEDS</a></li>
+    </ul>
+  </div>
+  <p class="program-last-updated">
+    Last verified: May 2026. Author: RosterWise (Grobe Games LLC).
+  </p>
+</div>
+
+</div>{# close school-color CSS custom property wrapper #}
+{% endblock %}

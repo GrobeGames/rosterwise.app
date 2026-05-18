@@ -1,0 +1,148 @@
+---
+layout: base.njk
+title: "Men's College Soccer Programs — Complete Directory | RosterWise™"
+description: "Browse all NCAA D1, D2, D3, and NAIA men's college soccer programs. Filter by division, conference, and state. Recruiting profiles for every program."
+---
+
+{% set genderCode = "M" %}
+{% set genderDisplay = "Men's" %}
+{% set genderSlug = "mens" %}
+
+<link rel="stylesheet" href="/assets/program-hub.css?v=1">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://rosterwise.app/" },
+    { "@type": "ListItem", "position": 2, "name": "Soccer", "item": "https://rosterwise.app/soccer/" },
+    { "@type": "ListItem", "position": 3, "name": "{{ genderDisplay }}", "item": "https://rosterwise.app/soccer/{{ genderSlug }}/" },
+    { "@type": "ListItem", "position": 4, "name": "Programs" }
+  ]
+}
+</script>
+
+<div class="program-hub">
+
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li><a href="/soccer/">Soccer</a></li>
+      <li><a href="/soccer/{{ genderSlug }}/">{{ genderDisplay }}</a></li>
+      <li><span aria-current="page">Programs</span></li>
+    </ol>
+  </nav>
+
+  <header class="program-hub-header">
+    <h1>{{ genderDisplay }} College Soccer Programs</h1>
+    <p class="program-hub-subtitle">
+      Browse every NCAA and NAIA {{ genderDisplay | lower }} college soccer program in the country.
+      Click any program for its full recruiting profile.
+    </p>
+  </header>
+
+  {# Filter controls #}
+  <div class="program-hub-filters" role="search" aria-label="Filter programs">
+    <div class="program-hub-filter-row">
+      <input type="text" id="program-search" class="program-hub-search"
+             placeholder="Search by school name..." aria-label="Search programs">
+      <select id="filter-division" class="program-hub-select" aria-label="Filter by division">
+        <option value="">All Divisions</option>
+        <option value="D1">D1</option>
+        <option value="D2">D2</option>
+        <option value="D3">D3</option>
+        <option value="NAIA">NAIA</option>
+      </select>
+      <select id="filter-state" class="program-hub-select" aria-label="Filter by state">
+        <option value="">All States</option>
+      </select>
+    </div>
+    <div class="program-hub-count" aria-live="polite">
+      <span id="program-count">0</span> programs
+    </div>
+  </div>
+
+  {# Program grid — rendered from data #}
+  <div id="program-grid" class="program-hub-grid">
+    {% for program in programs %}
+    {% if program.gender == genderCode and program.status == "active" %}
+    <a href="{{ program.page_url }}" class="program-hub-card"
+       data-division="{{ program.division }}"
+       data-state="{{ program.state }}"
+       data-conference="{{ program.conference }}"
+       data-name="{{ program.school_name | lower }}">
+      <div class="program-hub-card-color" style="background: {{ program.primary_color | default('#1a2744') }}"></div>
+      <div class="program-hub-card-body">
+        <div class="program-hub-card-name">{{ program.school_name }}</div>
+        <div class="program-hub-card-meta">
+          <span class="program-hub-pill">{{ program.division }}</span>
+          {% if program.conference %}<span class="program-hub-conf">{{ program.conference }}</span>{% endif %}
+        </div>
+        <div class="program-hub-card-loc">{{ program.city }}, {{ program.state }}</div>
+      </div>
+    </a>
+    {% endif %}
+    {% endfor %}
+  </div>
+
+  <div id="no-results" class="program-hub-empty" hidden>
+    No programs match your filters. Try adjusting your search.
+  </div>
+
+  {# CTA #}
+  <section class="program-hub-cta">
+    <h2>Go deeper than a directory.</h2>
+    <p>RosterWise&trade; analyzes every {{ genderDisplay | lower }} soccer program's roster — position depth, class-year gaps, geographic recruiting patterns, and personalized fit scoring. One payment of $40. No subscriptions.</p>
+    <a href="/app/" class="program-hub-cta-btn">See how RosterWise helps &rarr;</a>
+  </section>
+
+</div>
+
+<script>
+(function() {
+  const search = document.getElementById('program-search');
+  const divFilter = document.getElementById('filter-division');
+  const stateFilter = document.getElementById('filter-state');
+  const grid = document.getElementById('program-grid');
+  const countEl = document.getElementById('program-count');
+  const noResults = document.getElementById('no-results');
+  const cards = Array.from(grid.querySelectorAll('.program-hub-card'));
+
+  // Populate state filter from data
+  const states = [...new Set(cards.map(c => c.dataset.state).filter(Boolean))].sort();
+  states.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s;
+    opt.textContent = s;
+    stateFilter.appendChild(opt);
+  });
+
+  function applyFilters() {
+    const q = search.value.toLowerCase().trim();
+    const div = divFilter.value;
+    const state = stateFilter.value;
+    let visible = 0;
+
+    cards.forEach(card => {
+      const matchName = !q || card.dataset.name.includes(q) ||
+        (card.dataset.conference && card.dataset.conference.toLowerCase().includes(q));
+      const matchDiv = !div || card.dataset.division === div;
+      const matchState = !state || card.dataset.state === state;
+      const show = matchName && matchDiv && matchState;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+
+    countEl.textContent = visible;
+    noResults.hidden = visible > 0;
+  }
+
+  search.addEventListener('input', applyFilters);
+  divFilter.addEventListener('change', applyFilters);
+  stateFilter.addEventListener('change', applyFilters);
+
+  // Initial count
+  applyFilters();
+})();
+</script>

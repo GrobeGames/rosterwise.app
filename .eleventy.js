@@ -41,6 +41,12 @@ module.exports = function (eleventyConfig) {
 
   // --- Filters ---
 
+  // Format numbers with commas (e.g., 13174 → "13,174")
+  eleventyConfig.addFilter("commaNumber", (num) => {
+    if (num === null || num === undefined) return "—";
+    return Number(num).toLocaleString("en-US");
+  });
+
   // Reading time (words / 230 wpm, minimum 1 min)
   eleventyConfig.addFilter("readingTime", (content) => {
     if (!content) return "1 min";

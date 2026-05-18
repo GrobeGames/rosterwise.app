@@ -60,6 +60,9 @@ const PATH_CONFIG = [
   // Guide content pages
   { pattern: /\/guide\//, priority: "0.8", changefreq: "monthly" },
 
+  // Program pages (SEO Phase 4) — must be before generic sport patterns
+  { pattern: /\/programs\//, priority: "0.6", changefreq: "monthly" },
+
   // Sport hub and content pages — Soccer
   { pattern: /^\/soccer\/mens\/guide\//, priority: "0.8", changefreq: "monthly" },
   { pattern: /^\/soccer\/womens\/guide\//, priority: "0.8", changefreq: "monthly" },
