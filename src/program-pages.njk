@@ -466,13 +466,14 @@ eleventyExcludeFromCollections: true
 <section class="program-cta">
   <div class="program-cta-card">
     {% if program.status == "active" or program.status == "new" %}
-    <h2>Make a smart decision about {{ program.display_name }} — and every other program.</h2>
-    <p>RosterWise&trade; Soccer gives you the full analysis for {{ program.display_name }} and every other D1, D2, D3, and NAIA {{ program.gender_display | lower }} program in the country. Position depth, class year gaps, geography, pathways, transfer portal patterns, and your athlete's personalized fit score. One payment of $40. No subscriptions. Lifetime access.</p>
+    <h2>Go deeper than a directory.</h2>
+    <p>This page is just the starting point. RosterWise&trade; Soccer gives you the <strong>comprehensive roster analysis</strong> for {{ program.display_name }} and 2,200+ other programs — position depth charts, class-year gap opportunities, geographic recruiting patterns, transfer portal trends, academic fit, and a <strong>personalized RosterFit&trade; score</strong> matched to your athlete's specific profile.</p>
+    <p>See which programs are actually recruiting players like yours. One payment of $40. No subscriptions. Lifetime access to every program.</p>
     {% else %}
     <h2>Find the programs that are actively recruiting your athlete.</h2>
-    <p>RosterWise&trade; Soccer tracks every active D1, D2, D3, and NAIA {{ program.gender_display | lower }} program in the country — and tracks program changes (discontinuations, additions, division moves) so families always have current information. One payment of $40. No subscriptions. Lifetime access.</p>
+    <p>This program is no longer active, but 2,200+ others are. RosterWise&trade; Soccer gives you <strong>comprehensive roster analysis</strong> for every D1, D2, D3, and NAIA {{ program.gender_display | lower }} program — plus a <strong>personalized RosterFit&trade; score</strong> that shows which programs match your athlete's position, size, pathway, and academic profile. One payment of $40. No subscriptions. Lifetime access.</p>
     {% endif %}
-    <a href="/app/" class="program-cta-btn">See how RosterWise helps &rarr;</a>
+    <a href="/app/" class="program-cta-btn">Get the full analysis &rarr;</a>
   </div>
 </section>
 

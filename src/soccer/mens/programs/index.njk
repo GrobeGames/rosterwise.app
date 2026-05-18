@@ -90,11 +90,46 @@ description: "Browse all NCAA D1, D2, D3, and NAIA men's college soccer programs
     No programs match your filters. Try adjusting your search.
   </div>
 
+  {# Discontinued Programs Section #}
+  {% set discontinuedPrograms = [] %}
+  {% for program in programs %}
+    {% if program.gender == genderCode and program.status == "discontinued" %}
+      {% set discontinuedPrograms = (discontinuedPrograms.push(program), discontinuedPrograms) %}
+    {% endif %}
+  {% endfor %}
+  {% if discontinuedPrograms.length > 0 %}
+  <section class="program-hub-discontinued">
+    <h2>Discontinued Programs</h2>
+    <p class="program-hub-discontinued-intro">
+      These {{ genderDisplay | lower }} soccer programs have been permanently discontinued.
+      Pages are maintained for historical reference and to help families who may still be researching these schools.
+    </p>
+    <div class="program-hub-discontinued-grid">
+      {% for program in programs %}
+      {% if program.gender == genderCode and program.status == "discontinued" %}
+      <a href="{{ program.page_url }}" class="program-hub-card program-hub-card--discontinued">
+        <div class="program-hub-card-color" style="background: #6b7280"></div>
+        <div class="program-hub-card-body">
+          <div class="program-hub-card-name">{{ program.school_name }}</div>
+          <div class="program-hub-card-meta">
+            <span class="program-hub-pill program-hub-pill--discontinued">Discontinued {{ program.discontinuation_date }}</span>
+          </div>
+          {% if program.city and program.state %}
+          <div class="program-hub-card-loc">{{ program.city }}, {{ program.state }}</div>
+          {% endif %}
+        </div>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
   {# CTA #}
   <section class="program-hub-cta">
     <h2>Go deeper than a directory.</h2>
-    <p>RosterWise&trade; analyzes every {{ genderDisplay | lower }} soccer program's roster — position depth, class-year gaps, geographic recruiting patterns, and personalized fit scoring. One payment of $40. No subscriptions.</p>
-    <a href="/app/" class="program-hub-cta-btn">See how RosterWise helps &rarr;</a>
+    <p>A list of programs isn't enough. RosterWise&trade; gives you the <strong>comprehensive roster analysis</strong> for every {{ genderDisplay | lower }} soccer program — position depth charts, class-year gaps, geographic recruiting patterns, transfer portal trends, academic fit, and a <strong>personalized RosterFit&trade; score</strong> matched to your athlete. One payment of $40. No subscriptions. Lifetime access.</p>
+    <a href="/app/" class="program-hub-cta-btn">Get the full analysis &rarr;</a>
   </section>
 
 </div>

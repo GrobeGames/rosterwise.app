@@ -247,9 +247,51 @@
   transform: translateY(-1px);
 }
 
+/* Discontinued Programs Section */
+.program-hub-discontinued {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.program-hub-discontinued h2 {
+  font-size: 1.25rem;
+  color: #4b5563;
+  margin: 0 0 8px;
+}
+
+.program-hub-discontinued-intro {
+  color: #6b7280;
+  font-size: 14px;
+  margin: 0 0 20px;
+}
+
+.program-hub-discontinued-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+.program-hub-card--discontinued {
+  opacity: 0.75;
+}
+
+.program-hub-card--discontinued:hover {
+  opacity: 1;
+}
+
+.program-hub-pill--discontinued {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .program-hub-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .program-hub-discontinued-grid {
     grid-template-columns: 1fr;
   }
 
