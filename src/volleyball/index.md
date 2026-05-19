@@ -1,7 +1,7 @@
 ---
 layout: hub.njk
 title: "College Volleyball Recruiting — RosterWise™"
-description: "Everything families need to know about women's college volleyball recruiting. Guides, timelines, scholarships, and club pathways for NCAA D1, D2, D3, and NAIA programs."
+description: "Everything families need to know about women's college volleyball recruiting. Guides, timelines, scholarships, and club pathways for D1–NAIA programs."
 breadcrumbs:
   - text: Home
     url: /

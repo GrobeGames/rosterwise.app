@@ -1,7 +1,7 @@
 ---
 layout: content.njk
 title: "The College Recruiting Timeline: What to Do in 9th, 10th, 11th, and 12th Grade | RosterWise™"
-description: "A clear, sport-agnostic guide to the college recruiting timeline — what families should focus on in each year of high school, NCAA contact rules, and realistic expectations."
+description: "A guide to the college recruiting timeline — what families should focus on in each year of high school, NCAA contact rules, and expectations."
 date: 2026-04-26
 breadcrumbs:
   - text: Home
