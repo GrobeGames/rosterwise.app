@@ -50,8 +50,8 @@ eleventyExcludeFromCollections: true
     {
       "@type": "ListItem",
       "position": {{ loop.index }},
-      "name": "{{ crumb.text }}"{% if crumb.url %},
-      "item": "https://rosterwise.app{{ crumb.url }}"{% endif %}
+      "name": "{{ crumb.text }}",
+      "item": "https://rosterwise.app{{ crumb.url | default(program.page_url) }}"
     }{% if not loop.last %},{% endif %}
     {% endfor %}
   ]
