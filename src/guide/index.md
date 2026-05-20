@@ -46,23 +46,18 @@ children:
   - title: "How to Communicate with College Coaches"
     url: /guide/contacting-coaches/
     summary: "What to say in that first email, how to follow up, what coaches actually care about, and common mistakes families make."
-    status: coming-soon
   - title: "Building Your Recruiting List"
     url: /guide/building-your-list/
     summary: "A practical framework for identifying target programs across divisions — academic fit, roster fit, geographic preferences, and realistic self-assessment."
-    status: coming-soon
   - title: "Understanding the House v. NCAA Settlement"
     url: /guide/house-settlement/
     summary: "What the 2025 settlement actually changed — roster limits, scholarship structures, revenue sharing, and what it means for recruits."
-    status: coming-soon
   - title: "How to Make a Recruiting Highlight Video"
     url: /guide/highlight-video/
     summary: "What coaches want to see, how long it should be, technical tips, and common mistakes that get your video ignored."
-    status: coming-soon
   - title: "The Recruiting Process for Late Bloomers"
     url: /guide/late-bloomers/
     summary: "It's not too late. A guide for athletes whose development timeline doesn't match the early-commitment trend."
-    status: coming-soon
 ---
 
 College recruiting is a process with real rules, real timelines, and real consequences for families who go in unprepared. It doesn't have to be complicated, but it does require honest information.
