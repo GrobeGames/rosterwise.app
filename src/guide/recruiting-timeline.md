@@ -85,7 +85,7 @@ Sophomore year is when families should start getting organized.
 For many Division I sports, junior year is when the most recruiting activity happens. But "most" is not "all," and families should resist the pressure to treat junior year as a deadline.
 
 - **Official visits become available.** In most D1 sports, recruits can begin taking official visits starting August 1 before junior year. Unofficial visits can happen at any time. See our [visits guide](/guide/official-vs-unofficial-visits/) for the difference.
-- **Communication accelerates.** Once NCAA contact dates pass, expect (or initiate) more substantive conversations with coaches. Ask real questions about roster plans, scholarship availability, and academic support. Our [questions for coaches guide](/guide/questions-to-ask-coaches/) covers what to ask.
+- **Communication accelerates.** Once NCAA contact dates pass, expect (or initiate) more substantive conversations with coaches. Ask real questions about roster plans, scholarship availability, and academic support. Our [contacting coaches guide](/guide/contacting-coaches/) covers what to discuss and how to approach conversations with coaching staff.
 - **Verbal offers may come.** Some athletes receive verbal offers during junior year. A verbal commitment is not binding for either party — see our [verbal commitment guide](/guide/verbal-commitment-vs-nli/) for what this actually means.
 - **Keep your options open.** Even if you have a strong front-runner, continue communicating with multiple programs. Coaching changes, roster shifts, and changed circumstances are all common.
 - **Academics continue to matter.** Junior-year grades are the last full-year grades that will appear on your transcript before many signing periods. Keep them strong.

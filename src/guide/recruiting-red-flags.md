@@ -11,8 +11,8 @@ breadcrumbs:
   - text: Recruiting Red Flags
 summary: "Most college coaches are honest professionals who genuinely care about their athletes. But the recruiting process can involve high-pressure situations, and not every program operates with the same integrity. This guide covers warning signs that families should watch for — not to create paranoia, but to help families trust their instincts when something doesn't feel right. Every family's experience is different, and a single red flag doesn't necessarily mean a program is bad. But patterns matter."
 related:
-  - title: "10 Questions Every Family Should Ask a College Coach"
-    url: /guide/questions-to-ask-coaches/
+  - title: "How to Communicate with College Coaches"
+    url: /guide/contacting-coaches/
   - title: "Verbal Commitment vs. NLI"
     url: /guide/verbal-commitment-vs-nli/
   - title: "Official Visits vs. Unofficial Visits"
@@ -180,7 +180,7 @@ College is, first and foremost, an educational experience. A program that treats
 
 ### What to do
 
-Ask about specific academic support structures (see our [questions for coaches guide](/guide/questions-to-ask-coaches/)). Ask about graduation rates and team GPA. Talk to current players about the academic experience. If a program can't demonstrate genuine investment in academic success, weigh that heavily in your decision.
+Ask about specific academic support structures. Ask about graduation rates and team GPA. Talk to current players about the academic experience. If a program can't demonstrate genuine investment in academic success, weigh that heavily in your decision.
 
 ## Negative talk about other programs
 

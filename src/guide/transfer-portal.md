@@ -111,7 +111,7 @@ When evaluating programs, ask the coaching staff:
 - What is the coach's general approach to the transfer portal?
 - Has the coaching staff been stable?
 
-The answers to these questions tell you a lot about program culture, coaching relationships, and roster stability. See our [questions for coaches guide](/guide/questions-to-ask-coaches/) for more on this.
+The answers to these questions tell you a lot about program culture, coaching relationships, and roster stability. See our [contacting coaches guide](/guide/contacting-coaches/) for more on communicating with coaching staff.
 
 ### Roster composition analysis helps
 

@@ -23,9 +23,6 @@ childGroups:
       - title: "Building Your Recruiting List"
         url: /guide/building-your-list/
         summary: "A practical framework for identifying target programs across divisions — academic fit, roster fit, geographic preferences, and realistic self-assessment."
-      - title: "10 Questions Every Family Should Ask a College Coach"
-        url: /guide/questions-to-ask-coaches/
-        summary: "Practical, specific questions with brief explanation of why each one matters — so families walk into coach meetings prepared."
       - title: "Official Visits vs. Unofficial Visits"
         url: /guide/official-vs-unofficial-visits/
         summary: "The rules, the limits, the timing, and what to look for when you're on campus evaluating a program."

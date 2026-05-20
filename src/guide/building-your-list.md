@@ -15,8 +15,8 @@ related:
     url: /guide/recruiting-timeline/
   - title: "D1 vs. D2 vs. D3 vs. NAIA"
     url: /guide/division-differences/
-  - title: "10 Questions Every Family Should Ask a College Coach"
-    url: /guide/questions-to-ask-coaches/
+  - title: "How to Communicate with College Coaches"
+    url: /guide/contacting-coaches/
   - title: "Athletic Scholarships"
     url: /guide/athletic-scholarships/
   - title: "How to Communicate with College Coaches"

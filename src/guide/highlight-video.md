@@ -13,8 +13,8 @@ summary: "Your highlight video is often the first impression a college coach has
 related:
   - title: "The College Recruiting Timeline"
     url: /guide/recruiting-timeline/
-  - title: "10 Questions Every Family Should Ask a College Coach"
-    url: /guide/questions-to-ask-coaches/
+  - title: "How to Communicate with College Coaches"
+    url: /guide/contacting-coaches/
   - title: "NCAA Recruiting Rules Explained"
     url: /guide/ncaa-recruiting-rules/
   - title: "D1 vs. D2 vs. D3 vs. NAIA"

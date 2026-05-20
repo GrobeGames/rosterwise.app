@@ -192,7 +192,7 @@ If your athlete is in high school and being recruited for college athletics, her
 
 **Walk-on paths are narrower.** If your athlete was planning to walk on at a D1 program, understand that this path is significantly harder than it was two years ago. Consider D2, D3, and NAIA programs where walk-on opportunities remain more available.
 
-**Ask more questions.** Families who were already asking good questions about roster composition, scholarship terms, and playing-time expectations are in the best position. The settlement has made those questions more important, not less. See our [questions to ask coaches guide](/guide/questions-to-ask-coaches/) for a starting point.
+**Ask more questions.** Families who were already asking good questions about roster composition, scholarship terms, and playing-time expectations are in the best position. The settlement has made those questions more important, not less. See our [contacting coaches guide](/guide/contacting-coaches/) for advice on communicating with coaching staff.
 
 ## What this means for D2, D3, and NAIA
 

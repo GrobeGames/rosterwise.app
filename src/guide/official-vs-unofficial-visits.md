@@ -15,8 +15,8 @@ related:
     url: /guide/recruiting-timeline/
   - title: "NCAA Recruiting Rules Explained"
     url: /guide/ncaa-recruiting-rules/
-  - title: "10 Questions Every Family Should Ask a College Coach"
-    url: /guide/questions-to-ask-coaches/
+  - title: "How to Communicate with College Coaches"
+    url: /guide/contacting-coaches/
   - title: "Red Flags to Watch for During Recruiting"
     url: /guide/recruiting-red-flags/
   - title: "D1 vs. D2 vs. D3 vs. NAIA"
@@ -125,7 +125,7 @@ Whether official or unofficial, every campus visit is an opportunity to evaluate
 - Do they seem genuinely interested in the athlete as a person, not just a player?
 - How long has the coaching staff been in place? Staff turnover is a real factor in the recruiting experience.
 
-See our [questions for coaches guide](/guide/questions-to-ask-coaches/) for specific questions to ask.
+See our [contacting coaches guide](/guide/contacting-coaches/) for more on what to discuss with coaching staff.
 
 ### Academics
 
@@ -154,7 +154,7 @@ See our [questions for coaches guide](/guide/questions-to-ask-coaches/) for spec
 
 - Research the program thoroughly: roster, recent results, coaching staff, conference
 - Use [RosterWise](/app/) to understand the roster composition — position depth, class-year distribution, and where your athlete might fit
-- Prepare a list of questions (see our [questions for coaches guide](/guide/questions-to-ask-coaches/))
+- Prepare a list of questions about roster plans, scholarship availability, academics, and program culture
 - Bring your academic transcript, test scores, and recruiting resume
 - Bring appropriate athletic gear in case the coaching staff wants to see you in a practice or workout setting
 

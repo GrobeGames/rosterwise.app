@@ -13,8 +13,6 @@ summary: "Reaching out to college coaches is one of the most important — and m
 related:
   - title: "The College Recruiting Timeline"
     url: /guide/recruiting-timeline/
-  - title: "10 Questions Every Family Should Ask a College Coach"
-    url: /guide/questions-to-ask-coaches/
   - title: "NCAA Recruiting Rules Explained"
     url: /guide/ncaa-recruiting-rules/
   - title: "How to Make a Recruiting Highlight Video"
@@ -80,12 +78,12 @@ Include the graduation year, position, and something that makes the coach want t
 
 Timing depends on the division. The NCAA restricts when coaches can initiate contact, but **athletes can contact coaches at any time.** The rules govern what coaches can do in response, not what athletes can send.
 
-- **Division I:** Athletes can email coaches starting in 9th grade. Coaches can respond with general program information but cannot make recruiting calls or send recruiting materials until specific dates (which vary by sport — typically June 15 after sophomore year or September 1 of junior year for most sports). See our [NCAA recruiting rules guide](/guide/ncaa-recruiting-rules/) for sport-specific dates.
-- **Division II:** Coaches can contact athletes at any time via phone, text, or email. There are fewer restrictions on when communication can happen.
-- **Division III:** D3 coaches also have more flexible communication rules. There are no official "dead periods" in the same way D1 has them.
-- **NAIA:** NAIA coaches can contact athletes at any time during high school.
+- **Division I:** Athletes can email coaches starting in 9th grade — and should. However, NCAA rules prohibit D1 coaches from responding with personalized recruiting communication until specific dates that vary by sport (typically June 15 after sophomore year for soccer, volleyball, and most sports). Before that date, coaches can send general program information (camp brochures, questionnaire links) but cannot have recruiting conversations, make recruiting calls, or send personalized recruiting emails. **This is critical to understand:** a D1 coach who doesn't respond to your emails before the contact date is following the rules, not ignoring you. They are reading your emails, filing them, and building a list of recruits to contact when the window opens. The families who have been consistently reaching out are the ones who get called first. See our [NCAA recruiting rules guide](/guide/ncaa-recruiting-rules/) for sport-specific dates.
+- **Division II:** D2 coaches have more flexibility. They can contact athletes via phone, text, or email starting June 15 after sophomore year for most sports, but the restrictions are generally less rigid than D1.
+- **Division III:** D3 coaches have the fewest communication restrictions. There are no NCAA-mandated "dead periods" or "quiet periods" for D3 recruiting. Coaches can respond to athletes at any time.
+- **NAIA:** NAIA coaches can contact athletes at any time during high school. There are no contact restrictions.
 
-**The practical advice:** Start reaching out to coaches during sophomore year for most sports. Even if a D1 coach can't respond with recruiting communication yet, they will see your email, file it, and know your name when the contact window opens.
+**The practical advice:** Start reaching out to coaches during sophomore year for most sports — or earlier if your athlete is developing ahead of schedule. Even when a D1 coach cannot respond yet, they will see your email, file it, and know your name. Consistent, professional communication over time builds familiarity and demonstrates genuine interest.
 
 ## How to follow up without being annoying
 
@@ -98,7 +96,8 @@ You emailed a coach three weeks ago and haven't heard back. What now?
 - **Wait 2-3 weeks** before following up on an initial email. Less than that feels impatient.
 - **Add new information** in the follow-up. Don't just resend the same email. Mention a recent performance, an updated highlight video, improved test scores, or an upcoming tournament where the coach could see your athlete.
 - **Keep it brief.** "Hi Coach [Name], I wanted to follow up on my email from [date] and share an updated highlight video from [tournament]. I'm still very interested in [school name] and would love the opportunity to discuss the program. [Video link]."
-- **Two or three follow-ups is reasonable.** After three unanswered emails over 6-8 weeks, it's fair to conclude that the coach is not currently interested. That doesn't mean they never will be — circumstances change — but continued emailing at that point becomes counterproductive.
+- **Be persistent — coaches are busy.** College coaches manage recruiting alongside practices, games, travel, and administrative responsibilities. They may receive hundreds of emails per month. No response does not mean "not interested" — it often means "haven't had time" or "need to see more." Keep following up every 3-4 weeks with new information (updated video, recent results, academic updates, tournament schedule). Persistence is expected and appreciated — coaches notice the athletes who consistently demonstrate genuine interest over time.
+- **Understand D1 contact restrictions.** If you're emailing a D1 coach before the NCAA contact date for your sport (typically June 15 after sophomore year for most sports), the coach *can read your email* but *cannot respond with recruiting communication.* They may send general program information, but a lack of personal response before the contact window opens is not a lack of interest — it's a rules restriction. Keep emailing anyway. When the window opens, coaches reach out to the athletes they've been hearing from. See our [NCAA recruiting rules guide](/guide/ncaa-recruiting-rules/) for sport-specific contact dates.
 - **Respond promptly when coaches do reply.** If a coach emails you back, respond within 24 hours. Timeliness signals genuine interest.
 
 ## What coaches actually care about
@@ -169,7 +168,7 @@ Coaches evaluate many athletes at camps. A prompt follow-up email reminds them w
 
 **Exaggerating or inflating credentials.** Coaches will verify what you tell them. Inflated GPAs, exaggerated playing-time descriptions, or misleading highlight videos will damage credibility permanently.
 
-**Not following up.** Many families send one email and give up. The recruiting process requires persistence. Two or three well-timed follow-ups are expected and appropriate.
+**Not following up.** Many families send one email and give up. The recruiting process requires sustained persistence. College coaches are managing rosters, practice, travel, and hundreds of other recruiting emails. Follow up regularly — every 3-4 weeks — with new information each time. Coaches notice the athletes who stay consistent.
 
 **Contacting only "dream schools."** Families who email only five D1 programs and ignore everything else are limiting their options unnecessarily. Cast a wider net — especially across divisions. See our [building your list guide](/guide/building-your-list/) for a practical framework.
 

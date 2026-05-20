@@ -21,8 +21,8 @@ related:
     url: /guide/walk-on-types/
   - title: "Athletic Scholarships"
     url: /guide/athletic-scholarships/
-  - title: "Questions to Ask College Coaches"
-    url: /guide/questions-to-ask-coaches/
+  - title: "How to Communicate with College Coaches"
+    url: /guide/contacting-coaches/
 sources:
   - "NCAA.org, Recruiting Calendars and Guides"
   - "NCAA.org, Division I, II, and III Manuals (2025-26)"
