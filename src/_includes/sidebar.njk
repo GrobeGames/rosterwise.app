@@ -6,23 +6,7 @@
   </button>
   <nav class="sidebar-nav" id="sidebarNav">
 
-    <div class="sidebar-section">
-      <a href="/faq/" class="sidebar-standalone-link">FAQ</a>
-    </div>
-
-    <div class="sidebar-section">
-      <div class="sidebar-group" data-sidebar-group="blog">
-        <button class="sidebar-group-toggle" aria-expanded="false">
-          <span>Blog</span>
-          <span class="sidebar-chevron">&#9654;</span>
-        </button>
-        <ul>
-          <li><a href="/blog/">All Posts</a></li>
-          <li><a href="/blog/how-to-read-a-college-soccer-roster/">How to Read a Roster</a></li>
-        </ul>
-      </div>
-    </div>
-
+    <!-- ===== RECRUITING GUIDES (grouped by topic) ===== -->
     <div class="sidebar-section">
       <div class="sidebar-group" data-sidebar-group="guides">
         <button class="sidebar-group-toggle" aria-expanded="false">
@@ -31,22 +15,33 @@
         </button>
         <ul>
           <li><a href="/guide/">All Guides</a></li>
+
+          <li class="sidebar-subheader">Getting Started</li>
           <li><a href="/guide/recruiting-timeline/">Recruiting Timeline</a></li>
           <li><a href="/guide/division-differences/">Division Differences</a></li>
           <li><a href="/guide/ncaa-recruiting-rules/">NCAA Recruiting Rules</a></li>
+
+          <li class="sidebar-subheader">Evaluating Programs</li>
+          <li><a href="/guide/questions-to-ask-coaches/">Questions for Coaches</a></li>
+          <li><a href="/guide/official-vs-unofficial-visits/">Official vs. Unofficial Visits</a></li>
+          <li><a href="/guide/recruiting-red-flags/">Recruiting Red Flags</a></li>
+
+          <li class="sidebar-subheader">Commitments &amp; Eligibility</li>
           <li><a href="/guide/verbal-commitment-vs-nli/">Verbal Commitment vs. NLI</a></li>
           <li><a href="/guide/ncaa-eligibility-center/">NCAA Eligibility Center</a></li>
-          <li><a href="/guide/transfer-portal/">Transfer Portal</a></li>
-          <li><a href="/guide/walk-on-types/">Walk-On Types</a></li>
           <li><a href="/guide/athletic-scholarships/">Athletic Scholarships</a></li>
+          <li><a href="/guide/walk-on-types/">Walk-On Types</a></li>
+
+          <li class="sidebar-subheader">Special Situations</li>
+          <li><a href="/guide/transfer-portal/">Transfer Portal</a></li>
           <li><a href="/guide/international-student-athletes/">International Athletes</a></li>
-          <li><a href="/guide/official-vs-unofficial-visits/">Official vs. Unofficial Visits</a></li>
-          <li><a href="/guide/questions-to-ask-coaches/">Questions for Coaches</a></li>
-          <li><a href="/guide/recruiting-red-flags/">Recruiting Red Flags</a></li>
         </ul>
       </div>
     </div>
 
+    <div class="sidebar-divider"></div>
+
+    <!-- ===== SOCCER ===== -->
     <div class="sidebar-section">
       <div class="sidebar-group" data-sidebar-group="soccer">
         <button class="sidebar-group-toggle" aria-expanded="false">
@@ -137,6 +132,9 @@
       </div>
     </div>
 
+    <div class="sidebar-divider"></div>
+
+    <!-- ===== VOLLEYBALL ===== -->
     <div class="sidebar-section">
       <div class="sidebar-group" data-sidebar-group="volleyball">
         <button class="sidebar-group-toggle" aria-expanded="false">
@@ -191,8 +189,25 @@
       </div>
     </div>
 
+    <div class="sidebar-divider"></div>
+
+    <!-- ===== FAQ & BLOG (bottom) ===== -->
+    <div class="sidebar-section sidebar-section--secondary">
+      <a href="/faq/" class="sidebar-standalone-link">FAQ</a>
+      <div class="sidebar-group" data-sidebar-group="blog">
+        <button class="sidebar-group-toggle" aria-expanded="false">
+          <span>Blog</span>
+          <span class="sidebar-chevron">&#9654;</span>
+        </button>
+        <ul>
+          <li><a href="/blog/">All Posts</a></li>
+          <li><a href="/blog/how-to-read-a-college-soccer-roster/">How to Read a Roster</a></li>
+        </ul>
+      </div>
+    </div>
+
     <div class="sidebar-cta">
-      <a href="/#download">Get RosterWise&trade; &rarr;</a>
+      <a href="/app/">Get RosterWise&trade; &rarr;</a>
     </div>
   </nav>
 </aside>

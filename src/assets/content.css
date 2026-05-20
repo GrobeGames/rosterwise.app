@@ -52,8 +52,8 @@
 
 /* --- Guide Sidebar --- */
 .guide-sidebar {
-  flex: 0 0 270px;
-  width: 270px;
+  flex: 0 0 280px;
+  width: 280px;
   border-right: 1px solid rgba(26, 39, 68, 0.08);
   padding: 0;
   position: sticky;
@@ -61,6 +61,8 @@
   height: calc(100vh - 64px);
   overflow-y: auto;
   background: #f5f3ee;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar-toggle {
@@ -68,12 +70,15 @@
 }
 
 .sidebar-nav {
-  padding: 28px 24px 40px 28px;
+  padding: 24px 20px 20px 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Section headers */
 .sidebar-section {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 
 .sidebar-section h4 {
@@ -96,6 +101,19 @@
   color: var(--navy, #1a2744);
 }
 
+/* Section dividers between major nav groups */
+.sidebar-divider {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(200, 164, 78, 0.25) 0%, rgba(200, 164, 78, 0.08) 100%);
+  margin: 8px 10px 12px;
+}
+
+/* Secondary section (FAQ, Blog at bottom) */
+.sidebar-section--secondary {
+  margin-top: auto;
+  padding-top: 4px;
+}
+
 .sidebar-hint {
   font-size: 11px;
   color: #999;
@@ -112,18 +130,18 @@
   display: block;
   padding: 7px 10px;
   border-radius: 6px;
-  transition: background 0.15s, color 0.15s;
+  transition: background 0.2s, color 0.2s;
 }
 
 .sidebar-standalone-link:hover {
-  background: rgba(200, 164, 78, 0.1);
+  background: rgba(200, 164, 78, 0.12);
   color: var(--gold, #c8a44e);
 }
 
 .sidebar-standalone-link.active {
   font-weight: 700;
   color: var(--gold, #c8a44e);
-  background: rgba(200, 164, 78, 0.1);
+  background: rgba(200, 164, 78, 0.12);
 }
 
 .sidebar-nav > .sidebar-section > ul {
@@ -140,7 +158,7 @@
 
 /* Expandable group (Men's Soccer, Women's Soccer) */
 .sidebar-group {
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 .sidebar-group > a,
@@ -155,7 +173,7 @@
   padding: 7px 10px;
   border-radius: 6px;
   cursor: pointer;
-  transition: background 0.15s, color 0.15s;
+  transition: background 0.2s, color 0.2s;
   border: none;
   background: none;
   width: 100%;
@@ -164,27 +182,28 @@
 
 .sidebar-group > a:hover,
 .sidebar-group > .sidebar-group-toggle:hover {
-  background: rgba(200, 164, 78, 0.1);
+  background: rgba(200, 164, 78, 0.12);
   color: var(--gold, #c8a44e);
 }
 
 /* Chevron for expandable sections */
 .sidebar-chevron {
   font-size: 10px;
-  color: #aaa;
-  transition: transform 0.2s;
+  color: #b0a898;
+  transition: transform 0.25s ease;
 }
 
 .sidebar-group.expanded > .sidebar-group-toggle .sidebar-chevron,
 .sidebar-group.expanded > a .sidebar-chevron {
   transform: rotate(90deg);
+  color: var(--gold, #c8a44e);
 }
 
 /* Child links (nested under a group) */
 .sidebar-group > ul {
-  padding-left: 16px;
-  margin: 2px 0 8px 10px;
-  border-left: 2px solid rgba(200, 164, 78, 0.15);
+  padding-left: 14px;
+  margin: 2px 0 6px 10px;
+  border-left: 2px solid rgba(200, 164, 78, 0.2);
   display: none;
 }
 
@@ -196,6 +215,22 @@
   margin: 0;
 }
 
+/* Subheader labels within grouped guides */
+.sidebar-subheader {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold, #c8a44e);
+  padding: 10px 10px 3px;
+  display: block;
+}
+
+.sidebar-subheader:first-child,
+li:first-child + .sidebar-subheader {
+  padding-top: 6px;
+}
+
 .sidebar-group > ul a {
   font-size: 12.5px;
   color: #5a6178;
@@ -203,18 +238,30 @@
   display: block;
   padding: 5px 10px;
   border-radius: 4px;
-  transition: background 0.15s, color 0.15s;
+  transition: background 0.2s, color 0.2s, border-left-color 0.2s;
 }
 
 .sidebar-group > ul a:hover {
-  background: rgba(200, 164, 78, 0.08);
+  background: rgba(200, 164, 78, 0.1);
   color: var(--navy, #1a2744);
 }
 
 .sidebar-group > ul a.active {
   font-weight: 700;
   color: var(--gold, #c8a44e);
-  background: rgba(200, 164, 78, 0.1);
+  background: rgba(200, 164, 78, 0.12);
+  position: relative;
+}
+
+.sidebar-group > ul a.active::before {
+  content: '';
+  position: absolute;
+  left: -16px;
+  top: 4px;
+  bottom: 4px;
+  width: 3px;
+  background: var(--gold, #c8a44e);
+  border-radius: 2px;
 }
 
 .sidebar-soon {
@@ -226,9 +273,11 @@
 
 /* Sidebar CTA button */
 .sidebar-cta {
-  margin-top: 28px;
-  padding-top: 20px;
-  border-top: 1px solid rgba(26, 39, 68, 0.08);
+  margin-top: 16px;
+  padding: 16px 20px 20px 24px;
+  position: sticky;
+  bottom: 0;
+  background: linear-gradient(180deg, transparent 0%, #f5f3ee 20%);
 }
 
 .sidebar-cta a {
@@ -241,11 +290,14 @@
   font-weight: 700;
   border-radius: 6px;
   text-decoration: none;
-  transition: background 0.2s;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(26, 39, 68, 0.15);
 }
 
 .sidebar-cta a:hover {
   background: var(--navy-light, #243352);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(26, 39, 68, 0.2);
 }
 
 /* --- Content Article Layout --- */
@@ -1222,6 +1274,7 @@
     border-bottom: 1px solid rgba(26, 39, 68, 0.08);
     padding: 0;
     background: #f5f3ee;
+    display: block;
   }
 
   .sidebar-toggle {
