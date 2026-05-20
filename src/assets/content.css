@@ -767,11 +767,26 @@ li:first-child + .sidebar-subheader {
 
 .hub-intro a:hover { color: var(--navy); }
 
+/* Hub child groups */
+.hub-children-group {
+  margin-bottom: 36px;
+}
+
+.hub-group-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--navy);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid rgba(200, 164, 78, 0.3);
+}
+
 /* Hub child cards */
 .hub-children {
   display: grid;
   gap: 16px;
-  margin-bottom: 48px;
+  margin-bottom: 16px;
 }
 
 .hub-card {

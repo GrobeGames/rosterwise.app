@@ -28,7 +28,30 @@
     {{ content | safe }}
   </div>
 
-  {% if children %}
+  {% if childGroups %}
+  {% for group in childGroups %}
+  <section class="hub-children-group">
+    <h2 class="hub-group-heading">{{ group.heading }}</h2>
+    <div class="hub-children">
+      {% for child in group.children %}
+      <div class="hub-card{% if child.status == 'coming-soon' %} hub-card--coming{% endif %}">
+        {% if child.status == 'coming-soon' %}
+        <span class="hub-card-badge">Coming Soon</span>
+        {% endif %}
+        <h3>
+          {% if child.status != 'coming-soon' %}
+          <a href="{{ child.url }}">{{ child.title }}</a>
+          {% else %}
+          {{ child.title }}
+          {% endif %}
+        </h3>
+        {% if child.summary %}<p>{{ child.summary }}</p>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+  {% elif children %}
   <section class="hub-children">
     {% for child in children %}
     <div class="hub-card{% if child.status == 'coming-soon' %} hub-card--coming{% endif %}">
