@@ -98,6 +98,12 @@ The transfer portal has fundamentally changed roster dynamics in college sports.
 
 While transfer portal data is dynamic and changes rapidly, understanding a program's general relationship with the portal — whether they tend to add or lose players through transfers — provides context for evaluating recruiting opportunity.
 
+### Academic fit and institutional profile
+
+Athletics is only part of the college decision. A program might be a perfect athletic fit — but if the school doesn't offer your athlete's intended major, or the academic profile doesn't align with their GPA and test scores, it's not the right fit.
+
+Roster intelligence incorporates institutional data — school size, academic strength, available programs of study, graduation rates, and campus setting — so families can evaluate the full picture. A D3 school with a strong engineering program might matter more than a D1 school that doesn't offer the major your athlete wants. Understanding academic fit alongside athletic fit helps families build a recruiting list that makes sense for their athlete's life during and after college.
+
 ### Personalized fit scoring
 
 All of the dimensions above become most powerful when they're combined against a specific athlete's profile.
