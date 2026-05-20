@@ -3,7 +3,7 @@ layout: blog-post.njk
 title: "How to Read a College Volleyball Roster (What Coaches Don't Tell You)"
 description: "A college volleyball roster is a recruiting blueprint. Here's how to read one for the signals that tell you whether a program is targeting players like yours."
 date: 2026-05-02
-author: Scott Springman
+author: RosterWise Team
 tags: blog
 excerpt: "A college volleyball roster is more than a list of names — it's a recruiting blueprint. Here's how to read one for the signals that matter."
 breadcrumbs:

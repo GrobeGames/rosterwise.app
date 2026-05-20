@@ -3,7 +3,7 @@ layout: blog-post.njk
 title: "How to Read a College Soccer Roster (What Coaches Don't Tell You)"
 description: "A college soccer roster is more than a list of names — it's a recruiting blueprint. Here's how to read one for the signals that matter."
 date: 2026-04-29
-author: Scott Springman
+author: RosterWise Team
 tags: blog
 excerpt: "A college soccer roster is more than a list of names — it's a recruiting blueprint. Here's how to read one for the signals that tell you whether the program is actually targeting players like yours."
 breadcrumbs:
