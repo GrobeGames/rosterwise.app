@@ -68,7 +68,7 @@ Before the NCAA imposed the June 15 contact rule, it was not uncommon for volley
 
 **Initial contact rule:** D1 coaches cannot initiate off-campus communication, calls, texts, or social media DMs with a prospect until **June 15 after the prospect's sophomore year of high school.** Before this date, athletes may contact coaches, but coaches' responses are limited to camp/clinic information and generic materials.
 
-**Important clarification:** Athletes can reach out to college coaches at any time. NCAA rules limit when the *coach* can respond with recruiting communication, not when the prospect can initiate.
+**Important clarification:** Athletes can reach out to college coaches at any time. NCAA rules limit when the *coach* can respond with recruiting communication, not when the prospect can initiate. Filling out a program's [recruiting questionnaire](/guide/recruiting-questionnaires/) is one of the most effective ways to get on a coach's radar before the contact window opens — questionnaires are exempt from contact-date restrictions.
 
 **Verbal offers:** Coaches can extend verbal offers starting June 15 after sophomore year. Verbal offers are not binding for either party.
 

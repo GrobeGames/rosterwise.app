@@ -43,6 +43,8 @@ Here's what coaches will tell you: **the content of the email matters far more t
 
 A concise, well-organized email with the right information will always outperform a three-paragraph essay about your athlete's passion for the sport.
 
+Before you send that first email, make sure you've already filled out the program's [recruiting questionnaire](/guide/recruiting-questionnaires/). The questionnaire puts you in the coach's database; the email puts a face and a voice to your submission. The combination is significantly more effective than either alone.
+
 ## What to include in the first email
 
 Keep it short. Five to eight sentences plus your athlete's key information. Here's what a coach needs:

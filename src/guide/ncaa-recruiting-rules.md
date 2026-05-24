@@ -124,6 +124,8 @@ Before the initial contact date, coaches cannot:
 
 After the initial contact date, coaches can engage in full recruiting communication, extend verbal offers, and begin substantive recruiting conversations.
 
+**Important exception: recruiting questionnaires.** Questionnaires are classified by the NCAA as non-recruiting materials and are exempt from contact-date restrictions. Athletes can fill out program questionnaires at any age, and coaches can collect this data at any time — making questionnaires one of the few ways to engage with D1 programs before the formal contact window opens. See our [recruiting questionnaires guide](/guide/recruiting-questionnaires/) for more on how to use them effectively.
+
 ### Official visits
 
 - Recruits may begin taking official visits **August 1 before junior year** in most sports (some sports have different dates)

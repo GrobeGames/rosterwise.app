@@ -31,6 +31,9 @@ childGroups:
         summary: "Pressure tactics, vague financial information, coaching turnover, and other warning signs that a program may not be the right fit."
   - heading: "Taking Action"
     children:
+      - title: "Recruiting Questionnaires: Why You Should Fill Them Out"
+        url: /guide/recruiting-questionnaires/
+        summary: "What recruiting questionnaires are, why they matter, when to fill them out, what happens after you submit, and common misunderstandings families have about them."
       - title: "How to Communicate with College Coaches"
         url: /guide/contacting-coaches/
         summary: "What to say in that first email, how to follow up, what coaches actually care about, and common mistakes families make."
