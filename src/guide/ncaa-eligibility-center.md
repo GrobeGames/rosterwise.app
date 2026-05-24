@@ -50,6 +50,8 @@ ${toc}
 
 **If your athlete is considering schools across multiple divisions**, register with the NCAA Eligibility Center regardless. It's better to have it done and not need it than to need it and not have it done.
 
+**Important:** NCAA eligibility is separate from financial aid. Understanding eligibility requirements is one part of the puzzle; understanding how athletic, merit, need-based, and outside aid actually stack is another. See our [stacking financial aid guide](/guide/stacking-financial-aid/) for how the four layers of aid work together.
+
 ## When to register
 
 Families can register at any time, but **by the end of sophomore year** is a good target. Registration involves creating an account, providing academic information, and eventually having your high school send a transcript.

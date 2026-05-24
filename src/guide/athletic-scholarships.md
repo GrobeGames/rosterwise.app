@@ -138,7 +138,7 @@ The exact scholarship amount your athlete might receive depends on many variable
 
 - **Ask directly.** When a coach expresses interest, ask what scholarship amount is being discussed. "We'll take care of you" is not a number.
 - **Compare total cost of attendance.** A 50% scholarship at an expensive private school may leave a larger bill than a 25% scholarship at a public university.
-- **Factor in all aid.** Athletic scholarship + academic merit aid + need-based aid = total financial aid package. Look at the complete picture. Note that NIL and revenue sharing are separate compensation pathways from scholarships — see our [NIL and revenue sharing guide](/guide/nil-and-revenue-sharing/) for what non-revenue sport families should realistically expect.
+- **Factor in all aid.** Athletic scholarship + academic merit aid + need-based aid = total financial aid package. Look at the complete picture. See our [guide to stacking financial aid](/guide/stacking-financial-aid/) for how these layers interact and where the ceiling sits. NIL and revenue sharing are separate compensation pathways — see our [NIL guide](/guide/nil-and-revenue-sharing/) for what non-revenue sport families should realistically expect.
 - **Understand renewal terms.** Most athletic scholarships are awarded annually. Multi-year scholarships are increasingly common but not universal. Ask whether the scholarship is guaranteed for multiple years or renewed annually.
 
 ### Scholarship negotiation

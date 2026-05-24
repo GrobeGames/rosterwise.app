@@ -161,7 +161,7 @@ At D3 schools outside the most academically selective tier, coach influence vari
 
 NAIA schools follow their own eligibility requirements and typically use standard institutional admissions processes. NAIA recruiting timelines and rules differ from NCAA — see our [NCAA recruiting rules guide](/guide/ncaa-recruiting-rules/) for comparisons.
 
-**The common thread across all divisions:** Recruited athletes still need to meet eligibility requirements with the relevant governing body, complete a standard college application, submit required materials (transcripts, test scores where required, essays), and meet financial aid deadlines (FAFSA, CSS Profile where applicable).
+**The common thread across all divisions:** Recruited athletes still need to meet eligibility requirements with the relevant governing body, complete a standard college application, submit required materials (transcripts, test scores where required, essays), and meet financial aid deadlines (FAFSA, CSS Profile where applicable). Understanding how athletic, merit, need-based, and outside aid stack together is critical to making smart financial decisions — see our [stacking financial aid guide](/guide/stacking-financial-aid/) for the full picture.
 
 ## What "coach support" actually means
 

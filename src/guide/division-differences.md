@@ -64,7 +64,7 @@ The answer might be a D1 program. It might be a D3 school with exceptional acade
 ### NCAA Division II
 
 - **Number of schools:** Approximately 300 active member institutions
-- **Scholarships:** Athletic scholarships available, traditionally structured as equivalency (partial scholarships divided across the roster). Scholarship limits are sport-specific.
+- **Scholarships:** Athletic scholarships available, traditionally structured as equivalency (partial scholarships divided across the roster). Scholarship limits are sport-specific. Many D2 schools pair partial athletic aid with academic merit and need-based aid — see our [stacking financial aid guide](/guide/stacking-financial-aid/) for how these layers work together.
 - **Roster sizes:** Generally not subject to the same House settlement roster limits as D1 (unless the institution opts in for a D1 sport)
 - **Recruiting rules:** Less restrictive than D1. Coaches can contact prospects at any time via phone, text, or email — there is no "June 15" or "September 1" restriction.
 - **Competitive level:** Strong. Many D2 programs compete at a level comparable to mid-major D1. The gap between top D2 and mid-level D1 is often smaller than families expect.

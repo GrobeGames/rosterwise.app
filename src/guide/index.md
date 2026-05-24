@@ -63,6 +63,9 @@ childGroups:
       - title: "How College Admissions Actually Works for Recruited Athletes"
         url: /guide/recruited-athlete-admissions/
         summary: "An honest, division-by-division explanation — Ivy League pre-reads, Power Five processes, NESCAC slots, and what coach support actually means for your athlete's application."
+      - title: "How Athletic, Academic, Need-Based, and Outside Aid Actually Stack"
+        url: /guide/stacking-financial-aid/
+        summary: "Athletic scholarships are only one of four layers. Understanding how athletic, merit, need-based, and outside aid stack — and where the ceiling sits — often changes which schools make financial sense."
   - heading: "Special Situations"
     children:
       - title: "The Transfer Portal Explained"
