@@ -60,6 +60,9 @@ childGroups:
       - title: "NIL and Revenue Sharing: An Honest Look for Soccer and Volleyball Families"
         url: /guide/nil-and-revenue-sharing/
         summary: "What NIL and revenue sharing actually mean for non-revenue sport families — verified data on real earnings, the international athlete reality, and what should genuinely factor into recruiting decisions."
+      - title: "How College Admissions Actually Works for Recruited Athletes"
+        url: /guide/recruited-athlete-admissions/
+        summary: "An honest, division-by-division explanation — Ivy League pre-reads, Power Five processes, NESCAC slots, and what coach support actually means for your athlete's application."
   - heading: "Special Situations"
     children:
       - title: "The Transfer Portal Explained"

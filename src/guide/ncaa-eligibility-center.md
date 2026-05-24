@@ -126,7 +126,7 @@ D2 requirements have been updated in recent years. Families should verify curren
 
 ## Division III, NAIA, and NJCAA
 
-**Division III:** No centralized NCAA eligibility requirements. Each D3 school sets its own admissions and academic eligibility standards. Athletes must be admitted to the institution through the regular admissions process.
+**Division III:** No centralized NCAA eligibility requirements. Each D3 school sets its own admissions and academic eligibility standards. Athletes must be admitted to the institution through the regular admissions process. Note that NCAA eligibility and college admissions are separate processes — meeting eligibility requirements does not guarantee admission, especially at selective schools. See our [recruited athlete admissions guide](/guide/recruited-athlete-admissions/) for how admissions works across divisions.
 
 **NAIA:** Uses its own eligibility center at [play.mynaia.org](https://play.mynaia.org). NAIA eligibility requires meeting **two of three criteria:**
 1. Minimum overall GPA of 2.3

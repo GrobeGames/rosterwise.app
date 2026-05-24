@@ -58,7 +58,7 @@ The answer might be a D1 program. It might be a D3 school with exceptional acade
 - **Roster sizes:** Subject to sport-specific roster limits under the House settlement for opt-in schools
 - **Recruiting rules:** Most restrictive. Contact dates, dead periods, quiet periods, and evaluation periods are all regulated by sport-specific calendars. See our [recruiting rules guide](/guide/ncaa-recruiting-rules/).
 - **Competitive level:** Generally the highest level of college athletics, but with enormous variation. A mid-major D1 program and a Power Five D1 program can be worlds apart in resources, competition, and visibility.
-- **Academic range:** D1 schools range from open-enrollment state universities to highly selective private institutions. There is no single "D1 academic profile."
+- **Academic range:** D1 schools range from open-enrollment state universities to highly selective private institutions. There is no single "D1 academic profile." The admissions process for recruited athletes also varies dramatically — from formal pre-read systems at Ivy League schools to standard admissions at large state flagships. See our [recruited athlete admissions guide](/guide/recruited-athlete-admissions/) for how this works across divisions.
 - **Time commitment:** High. NCAA surveys consistently show D1 athletes spend 30+ hours per week on their sport during the competitive season.
 
 ### NCAA Division II

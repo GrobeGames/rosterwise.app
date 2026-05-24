@@ -75,7 +75,7 @@ A verbal commitment is when an athlete publicly or privately tells a program the
 - The school has not guaranteed anything in writing
 - Either party can change their mind
 
-**Verbal commitments fall through.** This is not rare. Coaching changes, roster composition shifts, academic issues, personal circumstances, and changed priorities all cause decommitments. It is important for families to understand this reality — and to not treat a verbal commitment as a done deal until paperwork is signed.
+**Verbal commitments fall through.** This is not rare. Coaching changes, roster composition shifts, academic issues, personal circumstances, and changed priorities all cause decommitments. It is important for families to understand this reality — and to not treat a verbal commitment as a done deal until paperwork is signed. Remember that a verbal commitment from a coach is separate from an admissions decision — see our [recruited athlete admissions guide](/guide/recruited-athlete-admissions/) for how admissions actually works at each division.
 
 **There is also no standard timeline for how long a verbal commitment lasts before signing.** Some athletes verbally commit years before the signing period. Others commit days before signing. Both are normal.
 
