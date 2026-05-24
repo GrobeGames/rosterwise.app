@@ -194,6 +194,8 @@ If your athlete is in high school and being recruited for college athletics, her
 
 **Ask more questions.** Families who were already asking good questions about roster composition, scholarship terms, and playing-time expectations are in the best position. The settlement has made those questions more important, not less. See our [contacting coaches guide](/guide/contacting-coaches/) for advice on communicating with coaching staff.
 
+**Understand NIL and revenue sharing honestly.** For soccer, volleyball, and most non-revenue sports, the revenue-sharing and NIL numbers are much smaller than the headlines suggest. See our [NIL and revenue sharing guide](/guide/nil-and-revenue-sharing/) for the verified data on what non-revenue sport athletes actually earn.
+
 ## What this means for D2, D3, and NAIA
 
 The House settlement is a Division I settlement. D2, D3, and NAIA schools were not parties to the lawsuit and are not directly bound by its terms. However, the trickle-down effects are real.

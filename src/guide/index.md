@@ -57,6 +57,9 @@ childGroups:
       - title: "Understanding the House v. NCAA Settlement"
         url: /guide/house-settlement/
         summary: "What the 2025 settlement actually changed — roster limits, scholarship structures, revenue sharing, and what it means for recruits."
+      - title: "NIL and Revenue Sharing: An Honest Look for Soccer and Volleyball Families"
+        url: /guide/nil-and-revenue-sharing/
+        summary: "What NIL and revenue sharing actually mean for non-revenue sport families — verified data on real earnings, the international athlete reality, and what should genuinely factor into recruiting decisions."
   - heading: "Special Situations"
     children:
       - title: "The Transfer Portal Explained"

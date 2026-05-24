@@ -92,6 +92,7 @@ The F-1 is the standard student visa for academic studies in the US. Most intern
 - The I-20 process typically begins after the student is admitted and financial aid is finalized
 - F-1 visa holders can participate in college athletics as part of their educational program
 - Employment restrictions apply — F-1 students have limited work authorization outside of athletics
+- **NIL restrictions:** F-1 visa employment restrictions also affect NIL eligibility. Most NIL activities are classified as employment under federal regulations, which means most international student-athletes on F-1 visas cannot legally participate in NIL deals. See our [NIL and revenue sharing guide](/guide/nil-and-revenue-sharing/) for detailed information on this important restriction
 
 ### J-1 exchange visitor visa
 

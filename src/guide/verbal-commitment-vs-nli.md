@@ -145,7 +145,7 @@ A typical (but far from universal) progression:
 ## What families should watch for
 
 - **Pressure to commit immediately.** A coach who says "I need an answer by Friday" may have legitimate roster constraints — or may be using pressure tactics. It is reasonable to ask for time to consider an offer. See our [red flags guide](/guide/recruiting-red-flags/).
-- **Vague financial details.** Before committing verbally, understand what scholarship amount (if any) is being discussed. "We'll take care of you" is not a specific offer.
+- **Vague financial details.** Before committing verbally, understand what scholarship amount (if any) is being discussed. "We'll take care of you" is not a specific offer. Note that NIL and revenue sharing are separate from scholarship offers — see our [NIL guide](/guide/nil-and-revenue-sharing/) for what non-revenue sport families should realistically expect from these newer compensation pathways.
 - **Coaching changes.** A verbal commitment is to a coaching staff, not just to a school. If the head coach leaves, the new staff is under no obligation to honor previous verbal offers. This is one of the biggest risks in early verbal commitments.
 - **Read before you sign.** When the Written Offer of Athletics Aid arrives, read every line. Understand renewal terms, conditions, and what happens if circumstances change. Ask the school's compliance office to explain anything you don't understand.
 
