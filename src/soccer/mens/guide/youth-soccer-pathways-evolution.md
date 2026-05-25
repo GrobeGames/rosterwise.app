@@ -108,11 +108,29 @@ Per the MLS NEXT Allstate Homegrown Division page, this is the top competitive t
 
 **MLS NEXT Academy Division** (new in 2025-26):
 
-Per the MLS NEXT Academy Division official page and the MLS NEXT Academy Division Technical Standards 2025-26, this tier launched in September 2025 with approximately 230 clubs and 25,000 players. More than 100 newly admitted clubs joined for 2025-26, plus additional teams from existing MLS NEXT clubs. The Academy Division's regular season is regionally focused and built around high school calendars. Players are permitted to participate in high school soccer — a significant distinction from the Allstate Homegrown Division.
+The Academy Division is one of the most significant structural changes in U.S. youth soccer since MLS NEXT's founding. Per the MLS NEXT Academy Division official page and the MLS NEXT Academy Division Technical Standards 2025-26, this tier launched in September 2025 and fundamentally expanded MLS NEXT's reach.
 
-The Academy Division is managed by partner operators under MLS NEXT's technical standards: National Academy League (NAL) by 3Step Soccer, Elite Academy League (EAL), Sporting Development League (SDL), Cobalt Sports, and Cal North Soccer Association. Eight regional MLS NEXT Cup Qualifiers determine which Academy Division teams advance to MLS NEXT Cup, and two marquee national events — MLS NEXT Fest and MLS NEXT Cup — provide talent identification opportunities for college, professional, and national team scouts.
+**The scale of the expansion:** Before the Academy Division, MLS NEXT consisted solely of what is now the Allstate Homegrown Division — roughly 100 clubs including all MLS academies and select elite non-MLS clubs. The Academy Division added approximately 230 clubs and 25,000 players in its inaugural season. More than 100 were entirely new clubs admitted to MLS NEXT for 2025-26, plus additional teams from clubs already in the Allstate Homegrown Division that chose to also enter teams in the Academy Division tier. This effectively more than doubled MLS NEXT's total footprint in a single year.
 
-**The key insight**: When a family says "my son is in MLS NEXT Academy Division," that doesn't mean he's at an MLS professional club's academy. He's at a club that competes within MLS NEXT's broader Academy Division tier, run by one of the partner operators above, under MLS NEXT's technical standards.
+**What types of clubs are in the Academy Division:** The Academy Division includes a wide range of club types — strong regional clubs that previously competed in state leagues or other national platforms, some former ECNL clubs that switched affiliations, clubs that had been on MLS NEXT's waitlist, and second teams from established MLS NEXT Allstate Homegrown Division clubs. The common thread is that each club meets MLS NEXT's Academy Division Technical Standards, which include coaching requirements, training environment standards, and competitive scheduling commitments. These are legitimate, well-run programs — not a developmental afterthought.
+
+**How the Academy Division operates:** The regular season is regionally focused and built around high school calendars — a deliberate design choice that reflects one of the Academy Division's core principles. Players are explicitly permitted to participate in high school soccer, which is a significant distinction from the Allstate Homegrown Division where high school play is restricted. This addresses one of the most common family complaints from the USDA era: that elite club soccer required choosing between club and high school.
+
+**Partner operators manage the day-to-day competition.** Unlike the Allstate Homegrown Division, which MLS NEXT administers directly, the Academy Division is managed by partner operators under MLS NEXT's technical standards and brand:
+
+- **National Academy League (NAL)** by 3Step Soccer
+- **Elite Academy League (EAL)**
+- **Sporting Development League (SDL)**
+- **Cobalt Sports**
+- **Cal North Soccer Association**
+
+Each partner operator manages regional conferences, schedules, and competition within their territory, while MLS NEXT sets the overall technical standards and administers the national events.
+
+**National exposure and advancement:** Eight regional MLS NEXT Cup Qualifiers determine which Academy Division teams advance to MLS NEXT Cup — the same championship event where Allstate Homegrown Division teams compete. Two marquee national events — MLS NEXT Fest and MLS NEXT Cup — provide talent identification opportunities for college, professional, and national team scouts. This means Academy Division players have a clear, merit-based pathway to the same national stage as Allstate Homegrown Division players.
+
+**Why the Academy Division matters for families:** The Academy Division created a legitimate MLS NEXT pathway for thousands of players who previously had no access to this level of organized national competition. A talented player at a strong regional club that would never have been admitted to the original MLS NEXT can now compete under the MLS NEXT umbrella, attend national events, and be seen by the same scouts — while also playing high school soccer.
+
+**The key insight**: When a family says "my son is in MLS NEXT Academy Division," that doesn't mean he's at an MLS professional club's academy. He's at a club that competes within MLS NEXT's broader Academy Division tier, run by one of the partner operators above, under MLS NEXT's technical standards. It's a different experience from the Allstate Homegrown Division — but it's a legitimate, structured, and increasingly important part of the youth soccer landscape.
 
 **ECNL Boys** (founded 2017 within ECNL):
 
