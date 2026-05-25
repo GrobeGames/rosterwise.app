@@ -111,6 +111,8 @@ When evaluating programs, ask the coaching staff:
 - What is the coach's general approach to the transfer portal?
 - Has the coaching staff been stable?
 
+Note that JUCO (junior college) transfers operate under different rules than four-year-to-four-year transfers. NJCAA and 3C2A athletes have their own transfer eligibility requirements — see our [JUCO volleyball pathway guide](/volleyball/guide/juco-pathway/) for how the two-year transfer process works.
+
 The answers to these questions tell you a lot about program culture, coaching relationships, and roster stability. See our [contacting coaches guide](/guide/contacting-coaches/) for more on communicating with coaching staff.
 
 ### Roster composition analysis helps

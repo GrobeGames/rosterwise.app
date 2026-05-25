@@ -25,6 +25,10 @@ children:
     url: /volleyball/guide/recruiting-myths/
     summary: "Separating fact from fiction — myths about commitment timelines, club size, D3, the transfer portal, height requirements, and more."
     status: live
+  - title: "JUCO Volleyball Recruiting: A Real Pathway Most Families Misunderstand"
+    url: /volleyball/guide/juco-pathway/
+    summary: "NJCAA divisions, California's 3C2A, transfer rules to NCAA D-I/D-II, and how the 2025 House settlement changes affect the JUCO opportunity for volleyball families."
+    status: live
   - title: "Walking On to College Volleyball"
     url: /volleyball/guide/walk-on-pathways/
     summary: "The post-House settlement reality, division differences, how tryouts work, and honest expectations for families considering the walk-on path."

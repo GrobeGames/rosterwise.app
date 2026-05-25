@@ -177,6 +177,10 @@ When a program presents a financial package:
 
 A program that costs $30,000/year after aid is not necessarily a better deal than one that costs $35,000/year — if the more expensive school is a dramatically better fit academically, athletically, and personally.
 
+## NJCAA scholarships
+
+Beyond the NCAA and NAIA, the NJCAA (National Junior College Athletic Association) offers its own scholarship structure across three divisions: D-I programs can offer full athletic scholarships, D-II covers tuition, fees, and books, and D-III offers no athletic scholarships. California community colleges under the 3C2A cannot offer athletic scholarships at all. See our [JUCO volleyball pathway guide](/volleyball/guide/juco-pathway/) for a detailed breakdown.
+
 ## Every family's financial picture is different
 
 Scholarship amounts vary. Family finances vary. Priorities vary. A family that can comfortably pay full price has different options than a family that needs a near-full scholarship to make college athletics work. Both families deserve honest information.

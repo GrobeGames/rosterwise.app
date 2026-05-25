@@ -158,6 +158,8 @@ Stacking athletic aid with academic merit aid and need-based aid is broadly perm
 
 The same principle applies: compare the full package, not just the athletic portion.
 
+**JUCO financial aid:** NJCAA institutions follow a different aid structure than NCAA or NAIA schools. NJCAA D-I can offer full athletic scholarships; D-II covers tuition, fees, and books; D-III offers no athletic scholarships. California's 3C2A prohibits athletic scholarships entirely but offers very low tuition for residents. See our [JUCO pathway guide](/volleyball/guide/juco-pathway/) for a detailed comparison.
+
 ## Outside scholarships and how they fit
 
 Outside scholarships — from non-college sources — add another layer. They generally do not count against team athletic aid limits at the institutional level, but they DO count toward the athlete's total Cost of Attendance ceiling.

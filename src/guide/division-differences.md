@@ -71,6 +71,8 @@ The answer might be a D1 program. It might be a D3 school with exceptional acade
 - **Academic range:** Wide. D2 includes public and private institutions of various sizes and selectivity.
 - **Time commitment:** Significant, but NCAA D2 explicitly emphasizes balance between athletics, academics, and campus life.
 
+Beyond these four divisions, **junior college (JUCO)** programs offer another legitimate pathway — particularly for volleyball, where NJCAA divisions offer varying scholarship levels and California's 3C2A system operates under entirely different rules. See our [JUCO volleyball pathway guide](/volleyball/guide/juco-pathway/) for details.
+
 ### NCAA Division III
 
 - **Number of schools:** Approximately 450 active member institutions — the largest NCAA division

@@ -159,7 +159,9 @@ At Division II schools, recruited athletes typically apply through the standard 
 
 At D3 schools outside the most academically selective tier, coach influence varies widely. Many D3 schools admit recruited athletes through the standard admissions process. Some may have informal arrangements where coach support carries weight, but the formal slot systems of elite NESCAC schools are not universal.
 
-NAIA schools follow their own eligibility requirements and typically use standard institutional admissions processes. NAIA recruiting timelines and rules differ from NCAA — see our [NCAA recruiting rules guide](/guide/ncaa-recruiting-rules/) for comparisons.
+NAIA schools follow their own eligibility requirements and typically use standard institutional admissions processes.
+
+**JUCO as an alternative admissions pathway:** For athletes whose academic profile doesn't meet four-year admissions standards, junior college (JUCO) offers a path to develop academically while competing at a high level — then transfer to a four-year program. See our [JUCO volleyball pathway guide](/volleyball/guide/juco-pathway/) for how this works. NAIA recruiting timelines and rules differ from NCAA — see our [NCAA recruiting rules guide](/guide/ncaa-recruiting-rules/) for comparisons.
 
 **The common thread across all divisions:** Recruited athletes still need to meet eligibility requirements with the relevant governing body, complete a standard college application, submit required materials (transcripts, test scores where required, essays), and meet financial aid deadlines (FAFSA, CSS Profile where applicable). Understanding how athletic, merit, need-based, and outside aid stack together is critical to making smart financial decisions — see our [stacking financial aid guide](/guide/stacking-financial-aid/) for the full picture.
 
