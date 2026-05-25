@@ -32,8 +32,8 @@ cta:
   heading: "Know where the opportunities are before you walk on."
   text: "RosterWise shows you roster composition, position depth, and class-year gaps for every D1, D2, D3, and NAIA soccer program. If you're considering a walk-on, knowing which programs have thin rosters at your position is the difference between a realistic shot and a long shot."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

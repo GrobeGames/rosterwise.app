@@ -28,8 +28,8 @@ cta:
   heading: "Show coaches you've done your homework."
   text: "A strong highlight video gets a coach's attention. Knowing which programs actually need a player at your athlete's position keeps that attention. RosterWise shows families roster composition, position depth, and class-year gaps at every D1, D2, D3, and NAIA program — so your outreach targets the right schools."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise™ helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

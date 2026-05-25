@@ -29,8 +29,8 @@ cta:
   heading: "Know where the opportunity is before you try out."
   text: "RosterWise shows you roster composition, position depth, and class-year gaps at every women's volleyball program — so if you're considering a walk-on path, you can target programs where there's genuine need at your athlete's position."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise™ helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

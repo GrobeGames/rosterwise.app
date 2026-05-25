@@ -28,8 +28,8 @@ cta:
   heading: "Make decisions based on data, not pressure."
   text: "The best defense against recruiting pressure is information. RosterWise gives families independent, data-driven intelligence about every program's roster — so you can verify what coaches tell you and make decisions with confidence."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise™ helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

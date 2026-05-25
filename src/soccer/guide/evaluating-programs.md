@@ -32,8 +32,8 @@ cta:
   heading: "Stop guessing. Start analyzing."
   text: "RosterWise gives you roster composition, coaching tenure, class-year gaps, international composition, and position depth for every D1, D2, D3, and NAIA soccer program — the data you need to evaluate programs on the factors that actually matter."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

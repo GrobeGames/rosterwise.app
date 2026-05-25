@@ -30,8 +30,8 @@ cta:
   heading: "Know where the opportunities are — scholarship or walk-on."
   text: "Whether your athlete is pursuing a scholarship or a walk-on spot, understanding roster composition matters. RosterWise shows position depth, class-year gaps, and roster size at every program — so families can identify where real opportunity exists."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise™ helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

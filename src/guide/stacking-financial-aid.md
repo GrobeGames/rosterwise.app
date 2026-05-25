@@ -58,8 +58,8 @@ cta:
   heading: "Find programs where the full financial picture actually works for your family."
   text: "Athletic aid is only part of the equation. The full cost depends on academic merit aid, need-based aid, outside scholarships, packaging policies, and dozens of school-specific factors. RosterWise helps families identify where their athlete fits athletically AND academically — across every D1, D2, D3, and NAIA program. Position depth, class-year gaps, recruiting geography, and personalized fit scoring."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise™ helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

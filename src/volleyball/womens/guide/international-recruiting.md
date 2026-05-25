@@ -30,8 +30,8 @@ cta:
   heading: "Understand the full roster picture."
   text: "RosterWise analyzes international composition alongside position depth, class-year gaps, and coaching tenure for every women's volleyball program. See how international recruiting affects domestic roster spots at the programs your family is targeting."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise™ helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

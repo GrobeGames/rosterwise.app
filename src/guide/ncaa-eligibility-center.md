@@ -31,8 +31,8 @@ cta:
   heading: "Academics open the door. RosterWise™ shows you what's behind it."
   text: "Meeting eligibility requirements is the foundation. Understanding which programs your athlete fits — by roster composition, position depth, and playing-time opportunity — is what turns eligibility into a real plan."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise™ helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

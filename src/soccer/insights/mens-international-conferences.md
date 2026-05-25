@@ -32,8 +32,8 @@ cta:
   heading: "RosterWise™ shows you international composition for every program."
   text: "See exactly how many international players each program carries, which countries they come from, and what that means for domestic recruits targeting those programs. Conference-level patterns are a starting point — program-level data is where the real insight lives."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise™ helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 > **Methodology and data sourcing**: See [How RosterWise Builds and Analyzes College Soccer Roster Data](/methodology/data-and-analysis/) for full documentation of our dataset, definitions, and analytical methods.

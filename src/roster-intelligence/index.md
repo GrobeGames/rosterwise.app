@@ -30,8 +30,8 @@ cta:
   heading: "See roster intelligence in action"
   text: "RosterWise Soccer analyzes every men's and women's program across D1, D2, D3, and NAIA — position depth, class-year gaps, international composition, recruiting pathways, coach tenure, and personalized My RosterFit scores. One app. Every program."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Learn more about RosterWise Soccer →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}
@@ -124,7 +124,7 @@ This isn't a sample. It's every program. And the analysis is delivered through a
 
 ## Currently available: RosterWise Soccer
 
-[RosterWise Soccer](/soccer/) is the first sport where this methodology is fully applied. Launching May 2026, it covers every men's and women's college soccer program across all four divisions — more than 2,200 programs analyzed.
+[RosterWise Soccer](/soccer/) is the first sport where this methodology is fully applied. Available now on the App Store, it covers every men's and women's college soccer program across all four divisions — more than 2,200 programs analyzed.
 
 The soccer app includes:
 

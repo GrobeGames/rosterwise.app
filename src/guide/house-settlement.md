@@ -33,8 +33,8 @@ cta:
   heading: "Navigate the new landscape with real data."
   text: "The House settlement changed roster sizes, scholarship structures, and the math behind every recruiting decision. RosterWise analyzes current roster composition at every program — so families can see where opportunities exist under the new rules, not the old ones."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise™ helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

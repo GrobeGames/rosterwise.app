@@ -44,8 +44,8 @@ cta:
   heading: "You filled out the questionnaire. Now make sure you're targeting the right programs."
   text: "Filling out a questionnaire gets you on a program's radar. But the deeper question — is this program actually a fit for your athlete? — requires real roster intelligence. RosterWise analyzes every D1, D2, D3, and NAIA program: position depth, class-year gaps, geographic recruiting patterns, transfer portal activity, and personalized fit scoring."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise™ helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

@@ -45,4 +45,4 @@ Every family's recruiting journey is different — timelines vary, club experien
 
 **New here?** Start with [Women's College Volleyball Recruiting](/volleyball/womens/) for guides, timelines, and resources specific to women's indoor volleyball.
 
-**RosterWise Volleyball is coming.** [RosterWise Soccer](/app/) launches first (May 2026), with volleyball as the next sport. The same roster intelligence methodology — position depth, class-year gaps, geographic patterns, and personalized fit scoring — will apply to volleyball.
+**RosterWise Volleyball is coming.** [RosterWise Soccer](/app/) launches first ([available now on the App Store](https://apps.apple.com/us/app/rosterwise-soccer/id6763959341)), with volleyball as the next sport. The same roster intelligence methodology — position depth, class-year gaps, geographic patterns, and personalized fit scoring — will apply to volleyball.

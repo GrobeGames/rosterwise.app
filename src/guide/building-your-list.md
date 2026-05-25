@@ -31,8 +31,8 @@ cta:
   heading: "Build your list with real roster data."
   text: "Stop guessing which programs might be a fit. RosterWise analyzes roster composition, position depth, class-year gaps, and academic profile at every D1, D2, D3, and NAIA program — so your recruiting list is built on data, not hope."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise™ helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

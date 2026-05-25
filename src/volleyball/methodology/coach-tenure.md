@@ -28,8 +28,8 @@ cta:
   heading: "RosterWise gives you this analysis for every program."
   text: "Coaching tenure data for every D1, D2, D3, and NAIA women's volleyball program — alongside roster composition, position depth, and class-year gaps. The full picture of program direction, in one place."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise™ helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

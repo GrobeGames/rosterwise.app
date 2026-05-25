@@ -32,8 +32,8 @@ cta:
   heading: "Great film gets attention. Roster data shows you where to send it."
   text: "A strong recruiting video gets a coach to watch. But sending it to the right programs — ones with positional needs, class-year openings, and a roster profile that matches your player — is what turns film into conversations. RosterWise helps families identify those programs."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise™ helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

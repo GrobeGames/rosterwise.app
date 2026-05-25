@@ -36,8 +36,8 @@ cta:
   heading: "See exactly how international each program's roster is."
   text: "RosterWise tracks international player composition at every D1, D2, D3, and NAIA men's soccer program — so families can see which programs recruit heavily internationally, which build primarily from domestic talent, and what that means for roster opportunities at each school."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise™ helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

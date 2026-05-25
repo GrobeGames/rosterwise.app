@@ -33,8 +33,8 @@ cta:
   heading: "Find the right division. Find the right program."
   text: "Division labels don't tell you how well your athlete fits a specific roster. RosterWise analyzes every D1, D2, D3, and NAIA program — roster composition, position depth, class-year gaps, international players — so families can see where the real opportunities are, regardless of division."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise™ helps →"
-  button_url: /app/
+  button_text: "Download RosterWise Soccer on the App Store →"
+  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}
