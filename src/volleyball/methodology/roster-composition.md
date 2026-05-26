@@ -26,7 +26,7 @@ sources:
   - "NCAA.org — Division membership and program listings"
 cta:
   heading: "RosterWise gives you this analysis for every program."
-  text: "Roster composition analysis across every D1, D2, D3, and NAIA women's volleyball program — position depth, class-year gaps, roster size, and more. The data coaches use to build their rosters, now available to families."
+  text: "Roster composition analysis across every D1, D2, D3, NAIA, and NJCAA men's and women's volleyball program — position depth, class-year gaps, roster size, and more. The data coaches use to build their rosters, now available to families."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "Download RosterWise Soccer on the App Store →"
   button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
@@ -97,7 +97,7 @@ Rosters are not static. They tell a story about where a program has been, where 
 
 ## What RosterWise analyzes
 
-RosterWise performs roster composition analysis across every D1, D2, D3, and NAIA women's volleyball program. For each program, the analysis includes:
+RosterWise performs roster composition analysis across every D1, D2, D3, NAIA, and NJCAA men's and women's volleyball program. For each program, the analysis includes:
 
 - **Position depth at every position** — How many players at each position, with class-year breakdowns
 - **Class-year distribution** — Visualized to show where the roster is aging and where gaps will emerge

@@ -26,7 +26,7 @@ sources:
   - "NCAA.org — Division membership and program listings"
 cta:
   heading: "RosterWise gives you this analysis for every program."
-  text: "Coaching tenure data for every D1, D2, D3, and NAIA women's volleyball program — alongside roster composition, position depth, and class-year gaps. The full picture of program direction, in one place."
+  text: "Coaching tenure data for every D1, D2, D3, NAIA, and NJCAA men's and women's volleyball program — alongside roster composition, position depth, and class-year gaps. The full picture of program direction, in one place."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "Download RosterWise Soccer on the App Store →"
   button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
@@ -103,6 +103,6 @@ Coaching tenure is one factor in a comprehensive evaluation — not the only fac
 
 ## How RosterWise helps
 
-RosterWise tracks coaching tenure for every D1, D2, D3, and NAIA women's volleyball program. Alongside roster composition, position depth, and class-year gap analysis, coaching tenure data gives families a complete picture of program direction and stability.
+RosterWise tracks coaching tenure for every D1, D2, D3, NAIA, and NJCAA men's and women's volleyball program. Alongside roster composition, position depth, and class-year gap analysis, coaching tenure data gives families a complete picture of program direction and stability.
 
 **RosterWise gives you this analysis for every program.**

@@ -25,7 +25,7 @@ sources:
   - "Publicly available college volleyball rosters from institutional athletics websites"
 cta:
   heading: "RosterWise gives you this analysis for every program."
-  text: "Class-year gap analysis across every D1, D2, D3, and NAIA women's volleyball program — see exactly where the roster gaps are, by position and by class year, so your family can target programs with genuine need."
+  text: "Class-year gap analysis across every D1, D2, D3, NAIA, and NJCAA men's and women's volleyball program — see exactly where the roster gaps are, by position and by class year, so your family can target programs with genuine need."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "Download RosterWise Soccer on the App Store →"
   button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
@@ -100,7 +100,7 @@ A gap is a strong signal of likely need. It is not a contract. Families should u
 
 ## How RosterWise helps
 
-RosterWise analyzes class-year gaps across every D1, D2, D3, and NAIA women's volleyball program. For each program, you can see:
+RosterWise analyzes class-year gaps across every D1, D2, D3, NAIA, and NJCAA men's and women's volleyball program. For each program, you can see:
 
 - Which positions have gaps in which class years
 - Which programs are about to lose depth at your athlete's position

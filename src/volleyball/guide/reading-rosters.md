@@ -26,7 +26,7 @@ sources:
   - "NCAA.org — Division membership and program listings"
 cta:
   heading: "RosterWise reads every roster so you don't have to."
-  text: "RosterWise analyzes roster composition, position depth, class-year gaps, and coaching tenure across every D1, D2, D3, and NAIA women's volleyball program. The intelligence that used to take hours of manual research, delivered in seconds."
+  text: "RosterWise analyzes roster composition, position depth, class-year gaps, and coaching tenure across every D1, D2, D3, NAIA, and NJCAA men's and women's volleyball program. The intelligence that used to take hours of manual research, delivered in seconds."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
   button_text: "Download RosterWise Soccer on the App Store →"
   button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
@@ -113,6 +113,6 @@ The best use of a roster is as a starting point for deeper research — not as t
 
 Reading one roster takes a few minutes. Reading 50 rosters and comparing position depth, class-year patterns, and transfer activity across programs takes hours — or days.
 
-RosterWise does this analysis across every D1, D2, D3, and NAIA women's volleyball program, automatically. Position depth, class-year gaps, roster composition, coaching tenure, and more — organized so families can identify which programs have a genuine need for a player with their athlete's profile.
+RosterWise does this analysis across every D1, D2, D3, NAIA, and NJCAA men's and women's volleyball program, automatically. Position depth, class-year gaps, roster composition, coaching tenure, and more — organized so families can identify which programs have a genuine need for a player with their athlete's profile.
 
 **The roster is a recruiting document. RosterWise helps you read all of them.**

@@ -39,10 +39,10 @@ Our volleyball resources cover recruiting timelines, scholarship structures, the
 
 RosterWise is not a recruiting service. We don't broker introductions, sell match lists, or take a cut of anything. We apply [college sports roster intelligence](/roster-intelligence/) — systematic analysis of every roster at every program — and give families the data to make informed decisions.
 
-**Our volleyball coverage focuses on women's indoor volleyball.** Beach volleyball, men's volleyball, and NJCAA are not covered at this time.
+**RosterWise Volleyball will cover men's and women's indoor volleyball across D1, D2, D3, NAIA, and NJCAA.** Beach volleyball is not covered at this time.
 
 Every family's recruiting journey is different — timelines vary, club experiences differ, and what matters most to one family may not apply to another. Use these resources as a guide, not a guarantee.
 
-**New here?** Start with [Women's College Volleyball Recruiting](/volleyball/womens/) for guides, timelines, and resources specific to women's indoor volleyball.
+**New here?** Start with [Women's College Volleyball Recruiting](/volleyball/womens/) for guides, timelines, and resources specific to women's volleyball.
 
 **RosterWise Volleyball is coming.** [RosterWise Soccer](/app/) launches first ([available now on the App Store](https://apps.apple.com/us/app/rosterwise-soccer/id6763959341)), with volleyball as the next sport. The same roster intelligence methodology — position depth, class-year gaps, geographic patterns, and personalized fit scoring — will apply to volleyball.

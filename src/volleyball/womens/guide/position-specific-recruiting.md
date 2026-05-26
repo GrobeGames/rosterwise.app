@@ -124,6 +124,6 @@ Position changes that cross major categories — setter to hitter, middle to lib
 
 Because volleyball recruiting is inherently position-specific, the most valuable information for families is position-level roster data: how many players at each position, in each class year, at each target program.
 
-RosterWise provides this analysis across every D1, D2, D3, and NAIA women's volleyball program. Whether your athlete is a setter looking for programs that need a setter in two years, or a middle blocker looking for programs with a senior-heavy middle group, the data is there.
+RosterWise provides this analysis across every D1, D2, D3, NAIA, and NJCAA men's and women's volleyball program. Whether your athlete is a setter looking for programs that need a setter in two years, or a middle blocker looking for programs with a senior-heavy middle group, the data is there.
 
 Position shapes the recruiting path. RosterWise helps you navigate it.
