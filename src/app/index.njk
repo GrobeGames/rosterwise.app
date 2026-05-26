@@ -126,17 +126,27 @@ faq:
   <div class="container" style="text-align: center;">
     <h2>Available Sports</h2>
     <p>Each sport ships as its own app with sport-specific <a href="/roster-intelligence/">roster intelligence</a>, position taxonomies, and recruiting analysis.</p>
-    <div class="sport-avail-grid">
-      <a href="/soccer/" class="sport-avail-card available" style="text-decoration: none; color: inherit;">
-        <span class="sport-avail-badge live">Available Now</span>
-        <h3>Soccer</h3>
-        <p>Men&rsquo;s &amp; Women&rsquo;s &middot; D1, D2, D3, NAIA</p>
+
+    <!-- Featured App Logos -->
+    <div style="display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; margin: 40px auto 32px; max-width: 700px;">
+      <a href="https://apps.apple.com/us/app/rosterwise-soccer/id6763959341" target="_blank" rel="noopener" style="text-decoration: none; text-align: center;">
+        <img src="/assets/rosterwise-soccer-app-logo.png" alt="RosterWise Soccer App" width="260" height="260" style="border-radius: 24px; box-shadow: 0 8px 32px rgba(0,0,0,0.15); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 12px 40px rgba(0,0,0,0.2)';" onmouseout="this.style.transform='';this.style.boxShadow='0 8px 32px rgba(0,0,0,0.15)';" loading="lazy">
+        <div style="margin-top: 16px;">
+          <span style="display: inline-block; background: var(--gold); color: var(--navy-dark); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 14px; border-radius: 12px;">Available Now</span>
+        </div>
+        <p style="margin-top: 8px; font-size: 14px; color: var(--text-muted);">Men&rsquo;s &amp; Women&rsquo;s &middot; D1, D2, D3, NAIA</p>
       </a>
-      <a href="/volleyball/" class="sport-avail-card available" style="text-decoration: none; color: inherit;">
-        <span class="sport-avail-badge coming">Coming Next</span>
-        <h3>Volleyball</h3>
-        <p>Women&rsquo;s &middot; All Divisions</p>
+      <a href="/volleyball/" style="text-decoration: none; text-align: center;">
+        <img src="/assets/rosterwise-volleyball-app-logo.png" alt="RosterWise Volleyball App" width="260" height="260" style="border-radius: 24px; box-shadow: 0 8px 32px rgba(0,0,0,0.15); opacity: 0.85; transition: transform 0.3s ease;" loading="lazy">
+        <div style="margin-top: 16px;">
+          <span style="display: inline-block; background: #eee; color: var(--text-muted); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 14px; border-radius: 12px;">Coming Next</span>
+        </div>
+        <p style="margin-top: 8px; font-size: 14px; color: var(--text-muted);">Women&rsquo;s &middot; All Divisions</p>
       </a>
+    </div>
+
+    <!-- Additional Planned Sports -->
+    <div class="sport-avail-grid" style="max-width: 600px; margin: 0 auto;">
       <div class="sport-avail-card">
         <span class="sport-avail-badge coming">Planned</span>
         <h3>Lacrosse</h3>
