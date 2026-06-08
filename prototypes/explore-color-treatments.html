@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RosterWise — Explore Tab Color & Formatting Treatments</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Outfit',sans-serif;background:#eceef3;color:#0e1726;padding:48px 24px 80px;-webkit-font-smoothing:antialiased}
+  .page-head{max-width:1180px;margin:0 auto 40px}
+  .page-head .eyebrow{font-size:12px;font-weight:800;letter-spacing:.18em;color:#1565C0;text-transform:uppercase}
+  .page-head h1{font-family:'Playfair Display',serif;font-size:34px;color:#0D2240;margin-top:6px}
+  .page-head p{max-width:780px;color:#52596b;font-size:15px;line-height:1.6;margin-top:10px}
+  .gallery{max-width:1180px;margin:0 auto;display:flex;flex-wrap:wrap;gap:40px;justify-content:center}
+  .concept{width:380px}
+  .cmeta{margin-bottom:14px}
+  .cmeta .num{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:8px;background:#0D2240;color:#fff;font-weight:800;font-size:13px;margin-right:8px}
+  .cmeta h2{display:inline;font-size:19px;font-weight:800;color:#0D2240}
+  .cmeta .tag{display:inline-block;margin-left:8px;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#1565C0;background:#E7F0FB;padding:3px 8px;border-radius:999px;vertical-align:middle}
+  .cmeta p{font-size:12.5px;color:#525a6c;line-height:1.55;margin-top:8px}
+  .swatches{display:flex;gap:6px;margin-top:10px}
+  .sw{width:26px;height:26px;border-radius:7px;border:1px solid rgba(0,0,0,.08)}
+
+  .phone{width:380px;height:740px;border-radius:42px;background:#0a0f1a;padding:11px;box-shadow:0 30px 60px -18px rgba(13,34,64,.45),0 4px 12px rgba(0,0,0,.15)}
+  .screen{width:100%;height:100%;border-radius:32px;overflow:hidden;position:relative}
+  .status{height:42px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 22px 5px;font-size:13px;font-weight:700}
+  .body-scroll{height:calc(100% - 42px - 60px);overflow:hidden;position:relative;padding:14px 16px}
+
+  /* ===== IDENTICAL LAYOUT (themed via CSS vars) ===== */
+  .topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+  .brand{font-weight:900;font-size:18px;letter-spacing:-.3px;color:var(--brand)}
+  .brand span{color:var(--accent)}
+  .gpill{font-size:11px;font-weight:700;color:var(--muted);border:1px solid var(--hair);padding:5px 12px;border-radius:999px}
+
+  .stats{display:flex;justify-content:space-between;background:var(--statbg);border:1px solid var(--hair);border-radius:var(--rad);padding:14px 6px;margin-bottom:16px}
+  .stat{flex:1;text-align:center;border-right:1px solid var(--hair)}
+  .stat:last-child{border-right:none}
+  .stat .v{font-size:18px;font-weight:800;color:var(--text);font-family:var(--numfont)}
+  .stat .v b{color:var(--accent);font-weight:800}
+  .stat .l{font-size:9px;color:var(--muted);margin-top:3px;text-transform:uppercase;letter-spacing:.06em}
+
+  .hero{position:relative;height:160px;border-radius:var(--rad);overflow:hidden;margin-bottom:12px;background:var(--herobg);box-shadow:var(--heroshadow)}
+  .hero .court{position:absolute;inset:0;opacity:var(--courtop)}
+  .hero .veil{position:absolute;inset:0;background:var(--herofade)}
+  .hero .inner{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:16px}
+  .hero .eye{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--eyebrow)}
+  .hero h3{font-size:25px;font-weight:900;color:var(--heroink);margin:3px 0 10px}
+  .hero .search{display:flex;align-items:center;gap:8px;width:fit-content;padding:9px 14px;border-radius:999px;font-size:13px;font-weight:500;
+    background:var(--searchbg);border:1px solid var(--searchborder);color:var(--searchink)}
+
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+  .card{position:relative;border-radius:var(--rad);padding:15px;min-height:96px;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;
+    background:var(--cardbg);border:1px solid var(--cardborder);box-shadow:var(--cardshadow)}
+  .card .ic{width:30px;height:30px;border-radius:9px;display:flex;align-items:center;justify-content:center;background:var(--icbg)}
+  .card .lab{font-size:9px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--eyebrow);margin-bottom:3px}
+  .card h4{font-size:15px;font-weight:800;color:var(--cardink)}
+  .card p{font-size:11px;color:var(--cardmuted);margin-top:1px}
+
+  .tabbar{position:absolute;bottom:0;left:0;right:0;height:60px;display:flex;align-items:center;justify-content:space-around;background:var(--tabbg);border-top:1px solid var(--hair);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+  .ti{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:9px;font-weight:600;color:var(--muted);opacity:.7}
+  .ti.on{color:var(--accent);opacity:1}
+  .ti .d{width:18px;height:18px;border-radius:6px;border:2px solid currentColor}
+  .ti.on .d{background:currentColor}
+  svg{display:block}
+
+  /* ============ THEME 1 — MIDNIGHT & GOLD ============ */
+  .t1{--brand:#fff;--accent:#D9B25A;--muted:#9fb0c6;--hair:rgba(255,255,255,.12);--text:#fff;--rad:18px;--numfont:'Outfit';
+    --statbg:rgba(255,255,255,.05);--herobg:linear-gradient(135deg,#16335f,#0c1c38);--heroshadow:0 14px 30px -16px rgba(0,0,0,.6);
+    --courtop:.16;--herofade:linear-gradient(180deg,transparent,rgba(8,18,38,.7));--eyebrow:#E7C877;--heroink:#fff;
+    --searchbg:rgba(255,255,255,.1);--searchborder:rgba(255,255,255,.18);--searchink:#cdd9ea;
+    --cardbg:linear-gradient(160deg,#13294d,#0d1d38);--cardborder:rgba(217,178,90,.18);--cardshadow:none;--icbg:rgba(217,178,90,.16);
+    --cardink:#fff;--cardmuted:#9fb0c6;--tabbg:rgba(8,16,30,.75);background:#0a1832}
+  .t1 .ic svg{stroke:#E7C877}
+
+  /* ============ THEME 2 — PAPER / CLEAN LIGHT ============ */
+  .t2{--brand:#0D2240;--accent:#1565C0;--muted:#7c8498;--hair:#E6E9F0;--text:#0D2240;--rad:18px;--numfont:'Outfit';
+    --statbg:#fff;--herobg:linear-gradient(135deg,#1565C0,#0D2240);--heroshadow:0 14px 28px -16px rgba(21,101,192,.5);
+    --courtop:.2;--herofade:linear-gradient(180deg,transparent,rgba(13,34,64,.55));--eyebrow:#F2CD6B;--heroink:#fff;
+    --searchbg:rgba(255,255,255,.16);--searchborder:rgba(255,255,255,.28);--searchink:#eaf1fb;
+    --cardbg:#fff;--cardborder:#E6E9F0;--cardshadow:0 8px 20px -14px rgba(13,34,64,.35);--icbg:#EAF1FB;
+    --cardink:#0D2240;--cardmuted:#7c8498;--tabbg:rgba(255,255,255,.9);background:#F6F7FB}
+  .t2 .stat .v{color:#0D2240}
+  .t2 .ic svg{stroke:#1565C0}
+  .t2 .card .lab{color:#1565C0}
+
+  /* ============ THEME 3 — DUOTONE BLUE ============ */
+  .t3{--brand:#fff;--accent:#7FC4FF;--muted:#9cc0e6;--hair:rgba(255,255,255,.14);--text:#fff;--rad:20px;--numfont:'Outfit';
+    --statbg:rgba(255,255,255,.07);--herobg:linear-gradient(140deg,#2E7BD6,#0E3A78);--heroshadow:0 14px 30px -16px rgba(10,40,90,.7);
+    --courtop:.18;--herofade:linear-gradient(180deg,transparent,rgba(8,40,86,.6));--eyebrow:#BFE0FF;--heroink:#fff;
+    --searchbg:rgba(255,255,255,.14);--searchborder:rgba(255,255,255,.22);--searchink:#dcebfb;--searchink:#dcebff;
+    --cardbg:linear-gradient(160deg,#154488,#0e3068);--cardborder:rgba(127,196,255,.22);--cardshadow:none;--icbg:rgba(127,196,255,.18);
+    --cardink:#fff;--cardmuted:#9cc0e6;--tabbg:rgba(10,32,68,.8);background:#0B2A5A}
+  .t3 .ic svg{stroke:#BFE0FF}
+
+  /* ============ THEME 4 — HIGH-CONTRAST COURT ============ */
+  .t4{--brand:#fff;--accent:#FFC436;--muted:#8a8f99;--hair:#22252c;--text:#fff;--rad:14px;--numfont:'IBM Plex Mono';
+    --statbg:#121419;--herobg:#FFC436;--heroshadow:0 12px 26px -14px rgba(255,196,54,.5);
+    --courtop:.16;--herofade:linear-gradient(180deg,transparent 30%,rgba(20,16,0,.18));--eyebrow:#1b1b1b;--heroink:#141414;
+    --searchbg:rgba(0,0,0,.14);--searchborder:rgba(0,0,0,.2);--searchink:#241f00;
+    --cardbg:#121419;--cardborder:#22252c;--cardshadow:none;--icbg:#1d2027;
+    --cardink:#fff;--cardmuted:#8a8f99;--tabbg:rgba(8,9,12,.85);background:#0A0B0E}
+  .t4 .ic svg{stroke:#FFC436}
+  .t4 .hero .court line,.t4 .hero .court rect{stroke:#141414 !important}
+  .t4 .card .lab{color:#FFC436}
+
+  /* ============ THEME 5 — WARM EDITORIAL ============ */
+  .t5{--brand:#2A2118;--accent:#C2693C;--muted:#8a7f72;--hair:#E7DFD3;--text:#2A2118;--rad:16px;--numfont:'Playfair Display';
+    --statbg:#FBF8F2;--herobg:linear-gradient(135deg,#2A2118,#473522);--heroshadow:0 14px 28px -16px rgba(42,33,24,.45);
+    --courtop:.16;--herofade:linear-gradient(180deg,transparent,rgba(28,22,14,.55));--eyebrow:#E0A872;--heroink:#FBF8F2;
+    --searchbg:rgba(255,255,255,.14);--searchborder:rgba(255,255,255,.26);--searchink:#f3e9da;
+    --cardbg:#FBF8F2;--cardborder:#E7DFD3;--cardshadow:0 8px 18px -14px rgba(42,33,24,.3);--icbg:#F1E7D8;
+    --cardink:#2A2118;--cardmuted:#8a7f72;--tabbg:rgba(247,243,235,.92);background:#F2ECE1}
+  .t5 .hero h3,.t5 .card h4,.t5 .stat .v{font-family:'Playfair Display',serif}
+  .t5 .ic svg{stroke:#C2693C}
+  .t5 .card .lab{color:#C2693C}
+  .t5 .stat .v{color:#2A2118}
+</style>
+</head>
+<body>
+
+<div class="page-head">
+  <div class="eyebrow">RosterWise · Volleyball</div>
+  <h1>Explore Tab — Color &amp; Formatting Treatments</h1>
+  <p>Same layout as today (stat row → Search Programs hero → Divisions/Conferences → Connections/Program&nbsp;Intel → tab bar). Only the <b>palette, typography, depth, and card formatting</b> change. The court line-art stays in the hero across all five; no emoji anywhere. Each treatment is a complete, swappable theme.</p>
+</div>
+
+<div class="gallery">
+
+  <!-- macro: one phone per theme -->
+  <!-- THEME 1 -->
+  <div class="concept">
+    <div class="cmeta"><span class="num">1</span><h2>Midnight &amp; Gold</h2><span class="tag">Premium dark</span>
+      <p>Deep navy with a restrained gold accent and hairline gold card borders. The most &ldquo;premium product&rdquo; read — reframes the current dark cards as luxe rather than flat. Gold is used sparingly (eyebrows, accents, numerals) so it never tips into gaudy.</p>
+      <div class="swatches"><div class="sw" style="background:#0a1832"></div><div class="sw" style="background:#13294d"></div><div class="sw" style="background:#1565C0"></div><div class="sw" style="background:#D9B25A"></div><div class="sw" style="background:#fff"></div></div>
+    </div>
+    <div class="phone"><div class="screen t1">
+      <div class="status" style="color:#fff;background:#0a1832"><span>9:41</span><span>RosterWise</span></div>
+      <div class="body-scroll">
+        <div class="topbar"><div class="brand">Roster<span>Wise</span></div><div class="gpill">Women&rsquo;s &#9662;</div></div>
+        <div class="stats">
+          <div class="stat"><div class="v">1,613</div><div class="l">Programs</div></div>
+          <div class="stat"><div class="v">26<b>K</b></div><div class="l">Players</div></div>
+          <div class="stat"><div class="v">107</div><div class="l">Confs</div></div>
+          <div class="stat"><div class="v">72</div><div class="l">Countries</div></div>
+        </div>
+        <div class="hero">
+          <svg class="court" viewBox="0 0 348 160" preserveAspectRatio="xMidYMid slice"><g class="cc" fill="none" stroke="#ffffff" stroke-width="1.4"><rect x="30" y="-30" width="288" height="220" rx="2"/><line x1="30" y1="64" x2="318" y2="64" stroke-width="2"/><line x1="30" y1="112" x2="318" y2="112"/></g></svg>
+          <div class="veil"></div>
+          <div class="inner"><div class="eye">Roster Intelligence</div><h3>Search Programs</h3>
+            <div class="search"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>Browse 1,613 programs</div></div>
+        </div>
+        <div class="grid">
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M6 9V4h12v5a6 6 0 01-12 0z"/><path d="M9 20h6M12 15v5"/></svg></div><div><div class="lab">Browse</div><h4>Divisions</h4><p>D1 → NJCAA</p></div></div>
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V6z"/></svg></div><div><div class="lab">Browse</div><h4>Conferences</h4><p>107 leagues</p></div></div>
+        </div>
+        <div class="grid">
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="11" r="2.4"/><path d="M4 19c0-3 2.5-5 5-5s5 2 5 5"/></svg></div><div><div class="lab">Your Network</div><h4>Connections</h4><p>Club &amp; hometown</p></div></div>
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M4 10a8 8 0 0114-5l2 2M20 14a8 8 0 01-14 5l-2-2"/></svg></div><div><div class="lab">Program Intel</div><h4>Changes</h4><p>Moves &amp; updates</p></div></div>
+        </div>
+      </div>
+      <div class="tabbar"><div class="ti on"><div class="d"></div>Explore</div><div class="ti"><div class="d"></div>Match</div><div class="ti"><div class="d"></div>My Fit</div><div class="ti"><div class="d"></div>Saved</div><div class="ti"><div class="d"></div>More</div></div>
+    </div></div>
+  </div>
+
+  <!-- THEME 2 -->
+  <div class="concept">
+    <div class="cmeta"><span class="num">2</span><h2>Paper</h2><span class="tag">Clean light</span>
+      <p>Flips to a light background with white bordered cards, soft shadows, and the brand blue reserved for the hero and accents. Bright, trustworthy, and the most App-Store-screenshot-friendly. Best legibility in daylight use at tournaments.</p>
+      <div class="swatches"><div class="sw" style="background:#F6F7FB"></div><div class="sw" style="background:#fff"></div><div class="sw" style="background:#1565C0"></div><div class="sw" style="background:#0D2240"></div><div class="sw" style="background:#F2CD6B"></div></div>
+    </div>
+    <div class="phone"><div class="screen t2">
+      <div class="status" style="color:#0D2240;background:#F6F7FB"><span>9:41</span><span>RosterWise</span></div>
+      <div class="body-scroll">
+        <div class="topbar"><div class="brand">Roster<span>Wise</span></div><div class="gpill">Women&rsquo;s &#9662;</div></div>
+        <div class="stats">
+          <div class="stat"><div class="v">1,613</div><div class="l">Programs</div></div>
+          <div class="stat"><div class="v">26<b>K</b></div><div class="l">Players</div></div>
+          <div class="stat"><div class="v">107</div><div class="l">Confs</div></div>
+          <div class="stat"><div class="v">72</div><div class="l">Countries</div></div>
+        </div>
+        <div class="hero">
+          <svg class="court" viewBox="0 0 348 160" preserveAspectRatio="xMidYMid slice"><g fill="none" stroke="#ffffff" stroke-width="1.4"><rect x="30" y="-30" width="288" height="220" rx="2"/><line x1="30" y1="64" x2="318" y2="64" stroke-width="2"/><line x1="30" y1="112" x2="318" y2="112"/></g></svg>
+          <div class="veil"></div>
+          <div class="inner"><div class="eye">Roster Intelligence</div><h3>Search Programs</h3>
+            <div class="search"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>Browse 1,613 programs</div></div>
+        </div>
+        <div class="grid">
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M6 9V4h12v5a6 6 0 01-12 0z"/><path d="M9 20h6M12 15v5"/></svg></div><div><div class="lab">Browse</div><h4>Divisions</h4><p>D1 → NJCAA</p></div></div>
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V6z"/></svg></div><div><div class="lab">Browse</div><h4>Conferences</h4><p>107 leagues</p></div></div>
+        </div>
+        <div class="grid">
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="11" r="2.4"/><path d="M4 19c0-3 2.5-5 5-5s5 2 5 5"/></svg></div><div><div class="lab">Your Network</div><h4>Connections</h4><p>Club &amp; hometown</p></div></div>
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M4 10a8 8 0 0114-5l2 2M20 14a8 8 0 01-14 5l-2-2"/></svg></div><div><div class="lab">Program Intel</div><h4>Changes</h4><p>Moves &amp; updates</p></div></div>
+        </div>
+      </div>
+      <div class="tabbar"><div class="ti on"><div class="d"></div>Explore</div><div class="ti"><div class="d"></div>Match</div><div class="ti"><div class="d"></div>My Fit</div><div class="ti"><div class="d"></div>Saved</div><div class="ti"><div class="d"></div>More</div></div>
+    </div></div>
+  </div>
+
+  <!-- THEME 3 -->
+  <div class="concept">
+    <div class="cmeta"><span class="num">3</span><h2>Duotone Blue</h2><span class="tag">Tonal / cohesive</span>
+      <p>A single blue family from deep navy to sky, with a light-blue accent. Highly cohesive and calm — no competing colors. Keeps the current blue brand but makes it feel intentional and modern through tonal layering rather than gradients-on-gradients.</p>
+      <div class="swatches"><div class="sw" style="background:#0B2A5A"></div><div class="sw" style="background:#154488"></div><div class="sw" style="background:#2E7BD6"></div><div class="sw" style="background:#7FC4FF"></div><div class="sw" style="background:#BFE0FF"></div></div>
+    </div>
+    <div class="phone"><div class="screen t3">
+      <div class="status" style="color:#fff;background:#0B2A5A"><span>9:41</span><span>RosterWise</span></div>
+      <div class="body-scroll">
+        <div class="topbar"><div class="brand">Roster<span>Wise</span></div><div class="gpill">Women&rsquo;s &#9662;</div></div>
+        <div class="stats">
+          <div class="stat"><div class="v">1,613</div><div class="l">Programs</div></div>
+          <div class="stat"><div class="v">26<b>K</b></div><div class="l">Players</div></div>
+          <div class="stat"><div class="v">107</div><div class="l">Confs</div></div>
+          <div class="stat"><div class="v">72</div><div class="l">Countries</div></div>
+        </div>
+        <div class="hero">
+          <svg class="court" viewBox="0 0 348 160" preserveAspectRatio="xMidYMid slice"><g fill="none" stroke="#ffffff" stroke-width="1.4"><rect x="30" y="-30" width="288" height="220" rx="2"/><line x1="30" y1="64" x2="318" y2="64" stroke-width="2"/><line x1="30" y1="112" x2="318" y2="112"/></g></svg>
+          <div class="veil"></div>
+          <div class="inner"><div class="eye">Roster Intelligence</div><h3>Search Programs</h3>
+            <div class="search"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>Browse 1,613 programs</div></div>
+        </div>
+        <div class="grid">
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M6 9V4h12v5a6 6 0 01-12 0z"/><path d="M9 20h6M12 15v5"/></svg></div><div><div class="lab">Browse</div><h4>Divisions</h4><p>D1 → NJCAA</p></div></div>
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V6z"/></svg></div><div><div class="lab">Browse</div><h4>Conferences</h4><p>107 leagues</p></div></div>
+        </div>
+        <div class="grid">
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="11" r="2.4"/><path d="M4 19c0-3 2.5-5 5-5s5 2 5 5"/></svg></div><div><div class="lab">Your Network</div><h4>Connections</h4><p>Club &amp; hometown</p></div></div>
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M4 10a8 8 0 0114-5l2 2M20 14a8 8 0 01-14 5l-2-2"/></svg></div><div><div class="lab">Program Intel</div><h4>Changes</h4><p>Moves &amp; updates</p></div></div>
+        </div>
+      </div>
+      <div class="tabbar"><div class="ti on"><div class="d"></div>Explore</div><div class="ti"><div class="d"></div>Match</div><div class="ti"><div class="d"></div>My Fit</div><div class="ti"><div class="d"></div>Saved</div><div class="ti"><div class="d"></div>More</div></div>
+    </div></div>
+  </div>
+
+  <!-- THEME 4 -->
+  <div class="concept">
+    <div class="cmeta"><span class="num">4</span><h2>Blackout</h2><span class="tag">High contrast</span>
+      <p>Near-black canvas, one electric gold accent, monospaced numerals, and a bold gold hero block. Sporty and energetic with maximum contrast — punchy on OLED. The tighter 14px radius and mono digits give it a confident, athletic edge.</p>
+      <div class="swatches"><div class="sw" style="background:#0A0B0E"></div><div class="sw" style="background:#121419"></div><div class="sw" style="background:#FFC436"></div><div class="sw" style="background:#fff"></div><div class="sw" style="background:#8a8f99"></div></div>
+    </div>
+    <div class="phone"><div class="screen t4">
+      <div class="status" style="color:#fff;background:#0A0B0E"><span>9:41</span><span>RosterWise</span></div>
+      <div class="body-scroll">
+        <div class="topbar"><div class="brand">Roster<span>Wise</span></div><div class="gpill">Women&rsquo;s &#9662;</div></div>
+        <div class="stats">
+          <div class="stat"><div class="v">1,613</div><div class="l">Programs</div></div>
+          <div class="stat"><div class="v">26<b>K</b></div><div class="l">Players</div></div>
+          <div class="stat"><div class="v">107</div><div class="l">Confs</div></div>
+          <div class="stat"><div class="v">72</div><div class="l">Countries</div></div>
+        </div>
+        <div class="hero">
+          <svg class="court" viewBox="0 0 348 160" preserveAspectRatio="xMidYMid slice"><g fill="none" stroke="#141414" stroke-width="1.4"><rect x="30" y="-30" width="288" height="220" rx="2"/><line x1="30" y1="64" x2="318" y2="64" stroke-width="2"/><line x1="30" y1="112" x2="318" y2="112"/></g></svg>
+          <div class="veil"></div>
+          <div class="inner"><div class="eye">Roster Intelligence</div><h3>Search Programs</h3>
+            <div class="search"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>Browse 1,613 programs</div></div>
+        </div>
+        <div class="grid">
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M6 9V4h12v5a6 6 0 01-12 0z"/><path d="M9 20h6M12 15v5"/></svg></div><div><div class="lab">Browse</div><h4>Divisions</h4><p>D1 → NJCAA</p></div></div>
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V6z"/></svg></div><div><div class="lab">Browse</div><h4>Conferences</h4><p>107 leagues</p></div></div>
+        </div>
+        <div class="grid">
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="11" r="2.4"/><path d="M4 19c0-3 2.5-5 5-5s5 2 5 5"/></svg></div><div><div class="lab">Your Network</div><h4>Connections</h4><p>Club &amp; hometown</p></div></div>
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M4 10a8 8 0 0114-5l2 2M20 14a8 8 0 01-14 5l-2-2"/></svg></div><div><div class="lab">Program Intel</div><h4>Changes</h4><p>Moves &amp; updates</p></div></div>
+        </div>
+      </div>
+      <div class="tabbar"><div class="ti on"><div class="d"></div>Explore</div><div class="ti"><div class="d"></div>Match</div><div class="ti"><div class="d"></div>My Fit</div><div class="ti"><div class="d"></div>Saved</div><div class="ti"><div class="d"></div>More</div></div>
+    </div></div>
+  </div>
+
+  <!-- THEME 5 -->
+  <div class="concept">
+    <div class="cmeta"><span class="num">5</span><h2>Warm Editorial</h2><span class="tag">Cream + serif</span>
+      <p>Cream canvas, ink-brown text, a terracotta accent, and Playfair serif for titles and numerals. Sophisticated and distinctly un-sporty — positions RosterWise as a considered, editorial guide rather than a stats app. Warm and approachable for parents.</p>
+      <div class="swatches"><div class="sw" style="background:#F2ECE1"></div><div class="sw" style="background:#FBF8F2"></div><div class="sw" style="background:#2A2118"></div><div class="sw" style="background:#C2693C"></div><div class="sw" style="background:#E0A872"></div></div>
+    </div>
+    <div class="phone"><div class="screen t5">
+      <div class="status" style="color:#2A2118;background:#F2ECE1"><span>9:41</span><span>RosterWise</span></div>
+      <div class="body-scroll">
+        <div class="topbar"><div class="brand">Roster<span>Wise</span></div><div class="gpill">Women&rsquo;s &#9662;</div></div>
+        <div class="stats">
+          <div class="stat"><div class="v">1,613</div><div class="l">Programs</div></div>
+          <div class="stat"><div class="v">26K</div><div class="l">Players</div></div>
+          <div class="stat"><div class="v">107</div><div class="l">Confs</div></div>
+          <div class="stat"><div class="v">72</div><div class="l">Countries</div></div>
+        </div>
+        <div class="hero">
+          <svg class="court" viewBox="0 0 348 160" preserveAspectRatio="xMidYMid slice"><g fill="none" stroke="#ffffff" stroke-width="1.4"><rect x="30" y="-30" width="288" height="220" rx="2"/><line x1="30" y1="64" x2="318" y2="64" stroke-width="2"/><line x1="30" y1="112" x2="318" y2="112"/></g></svg>
+          <div class="veil"></div>
+          <div class="inner"><div class="eye">Roster Intelligence</div><h3>Search Programs</h3>
+            <div class="search"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>Browse 1,613 programs</div></div>
+        </div>
+        <div class="grid">
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M6 9V4h12v5a6 6 0 01-12 0z"/><path d="M9 20h6M12 15v5"/></svg></div><div><div class="lab">Browse</div><h4>Divisions</h4><p>D1 → NJCAA</p></div></div>
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V6z"/></svg></div><div><div class="lab">Browse</div><h4>Conferences</h4><p>107 leagues</p></div></div>
+        </div>
+        <div class="grid">
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="11" r="2.4"/><path d="M4 19c0-3 2.5-5 5-5s5 2 5 5"/></svg></div><div><div class="lab">Your Network</div><h4>Connections</h4><p>Club &amp; hometown</p></div></div>
+          <div class="card"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M4 10a8 8 0 0114-5l2 2M20 14a8 8 0 01-14 5l-2-2"/></svg></div><div><div class="lab">Program Intel</div><h4>Changes</h4><p>Moves &amp; updates</p></div></div>
+        </div>
+      </div>
+      <div class="tabbar"><div class="ti on"><div class="d"></div>Explore</div><div class="ti"><div class="d"></div>Match</div><div class="ti"><div class="d"></div>My Fit</div><div class="ti"><div class="d"></div>Saved</div><div class="ti"><div class="d"></div>More</div></div>
+    </div></div>
+  </div>
+
+</div>
+
+<div class="footnote" style="max-width:1180px;margin:48px auto 0;padding-top:24px;border-top:1px solid #d8dce4;color:#5b6173;font-size:13px;line-height:1.6">
+  <p style="margin:0"><b>Quick take:</b> <b>1 (Midnight &amp; Gold)</b> is the most premium evolution of today&rsquo;s dark look. <b>2 (Paper)</b> is the boldest, most differentiated move and best for App Store screenshots. <b>3 (Duotone Blue)</b> is the safest refinement of the current brand. <b>4 (Blackout)</b> is the most athletic/energetic. <b>5 (Warm Editorial)</b> is the most distinctive repositioning. All keep today&rsquo;s exact layout — only color, type, and depth change.</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Concept C-V1 — Spreadsheet Chaos Flip</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #1a2744; --navy-dark: #0f1a2e; --gold: #c8a44e; --gold-light: #dabb6a;
+    --cream: #f8f6f0; --white: #ffffff; --red: #e74c3c; --green: #27ae60;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Outfit', sans-serif; background: var(--cream); display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; padding: 40px 20px; gap: 20px; }
+  .concept-label { font-size: 13px; font-weight: 700; color: var(--gold); letter-spacing: 0.1em; text-transform: uppercase; }
+  h1 { font-family: 'Playfair Display', serif; font-size: 24px; color: var(--navy); text-align: center; }
+  .description { max-width: 640px; text-align: center; font-size: 13px; color: #5a6178; line-height: 1.6; }
+
+  .flip-container { max-width: 780px; width: 100%; perspective: 2000px; }
+  .flipper { position: relative; width: 100%; height: 560px; transform-style: preserve-3d; animation: autoFlip 16s ease-in-out infinite; }
+  @keyframes autoFlip { 0%, 45% { transform: rotateY(0deg); } 50%, 95% { transform: rotateY(180deg); } 100% { transform: rotateY(360deg); } }
+  .flip-front, .flip-back { position: absolute; inset: 0; backface-visibility: hidden; border-radius: 16px; overflow: hidden; box-shadow: 0 8px 40px rgba(26,39,68,0.15); }
+  .flip-back { transform: rotateY(180deg); }
+
+  /* ===== BEFORE SIDE ===== */
+  .before { background: linear-gradient(170deg, #1a1a1a 0%, #2d1f1f 100%); padding: 36px 40px; display: flex; flex-direction: column; }
+  .before-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+  .phase-badge { font-size: 10px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; padding: 5px 16px; border-radius: 20px; }
+  .badge-old { background: rgba(231,76,60,0.12); color: var(--red); border: 1px solid rgba(231,76,60,0.25); }
+  .badge-new { background: rgba(39,174,96,0.12); color: var(--green); border: 1px solid rgba(39,174,96,0.25); }
+  .before-clock { display: flex; align-items: center; gap: 8px; font-size: 12px; color: rgba(255,255,255,0.3); }
+  .clock-icon { font-size: 16px; animation: spin 2s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .before-headline { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 800; color: var(--white); margin-bottom: 6px; line-height: 1.15; }
+  .before-sub { font-size: 14px; color: rgba(255,255,255,0.4); margin-bottom: 20px; line-height: 1.5; }
+
+  /* Spreadsheet mockup */
+  .spreadsheet { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; overflow: hidden; margin-bottom: 20px; }
+  .ss-toolbar { background: rgba(255,255,255,0.03); padding: 6px 12px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid rgba(255,255,255,0.06); }
+  .ss-toolbar-icon { width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,0.08); }
+  .ss-toolbar-name { font-size: 10px; color: rgba(255,255,255,0.25); margin-left: 8px; font-style: italic; }
+  .ss-grid { display: grid; grid-template-columns: 1.4fr 0.6fr 0.6fr 0.6fr 0.8fr; font-size: 10px; }
+  .ss-cell { padding: 8px 10px; border-right: 1px solid rgba(255,255,255,0.04); border-bottom: 1px solid rgba(255,255,255,0.04); color: rgba(255,255,255,0.3); }
+  .ss-cell.hd { background: rgba(255,255,255,0.04); color: rgba(255,255,255,0.5); font-weight: 700; font-size: 9px; letter-spacing: 0.04em; text-transform: uppercase; }
+  .ss-cell.err { color: var(--red); font-weight: 600; }
+  .ss-cell.empty { color: rgba(255,255,255,0.12); font-style: italic; }
+  .ss-cell.typing { position: relative; }
+  .ss-cell.typing::after { content: ''; display: inline-block; width: 1px; height: 11px; background: var(--white); margin-left: 1px; animation: blink 0.7s step-end infinite; vertical-align: text-bottom; }
+  @keyframes blink { 50% { opacity: 0; } }
+
+  /* Stats bar */
+  .pain-stats { display: flex; gap: 16px; margin-bottom: 16px; }
+  .pain-stat { flex: 1; text-align: center; background: rgba(231,76,60,0.06); border: 1px solid rgba(231,76,60,0.12); border-radius: 8px; padding: 12px 8px; }
+  .pain-stat .val { font-size: 22px; font-weight: 800; color: var(--red); }
+  .pain-stat .lbl { font-size: 9px; color: rgba(255,255,255,0.3); margin-top: 2px; }
+
+  /* Frustrated parent */
+  .parent-row { display: flex; align-items: center; gap: 16px; background: rgba(255,255,255,0.03); border-radius: 10px; padding: 14px 18px; border: 1px solid rgba(255,255,255,0.06); }
+  .parent-emoji { font-size: 36px; animation: headDrop 4s ease-in-out infinite; }
+  @keyframes headDrop { 0%,100% { transform: rotate(0deg); } 50% { transform: rotate(-12deg) translateY(4px); } }
+  .parent-thought { font-size: 13px; color: rgba(255,255,255,0.35); font-style: italic; line-height: 1.5; }
+  .parent-thought strong { color: var(--red); font-style: normal; }
+
+  /* ===== AFTER SIDE ===== */
+  .after { background: linear-gradient(165deg, var(--navy-dark) 0%, var(--navy) 40%, #243352 100%); padding: 36px 40px; display: flex; flex-direction: column; position: relative; }
+  .after::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 30% 80%, rgba(200,164,78,0.06) 0%, transparent 60%), radial-gradient(ellipse at 70% 20%, rgba(200,164,78,0.04) 0%, transparent 50%); pointer-events: none; }
+  .after > * { position: relative; z-index: 1; }
+
+  .after-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+  .after-logo { font-size: 16px; font-weight: 900; color: var(--gold); letter-spacing: 0.03em; }
+  .after-logo span { color: var(--white); }
+
+  .after-headline { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 800; color: var(--white); margin-bottom: 6px; line-height: 1.15; }
+  .after-sub { font-size: 14px; color: rgba(255,255,255,0.45); margin-bottom: 20px; line-height: 1.5; }
+
+  /* App mockup */
+  .app { background: var(--white); border-radius: 14px; overflow: hidden; box-shadow: 0 6px 24px rgba(0,0,0,0.25); margin-bottom: 16px; }
+  .app-bar { background: var(--navy-dark); padding: 10px 16px; display: flex; align-items: center; justify-content: space-between; }
+  .app-bar-logo { font-size: 12px; font-weight: 800; color: var(--gold); }
+  .app-bar-logo span { color: var(--white); }
+  .app-bar-tabs { display: flex; gap: 12px; font-size: 9px; color: rgba(255,255,255,0.4); }
+  .app-bar-tabs .active-tab { color: var(--gold); font-weight: 700; }
+  .app-body { padding: 12px; }
+
+  .prog { display: flex; align-items: center; gap: 10px; padding: 10px 12px; background: var(--cream); border-radius: 8px; margin-bottom: 6px; }
+  .prog-bar { width: 5px; height: 36px; border-radius: 3px; flex-shrink: 0; }
+  .prog-info { flex: 1; }
+  .prog-name { font-size: 12px; font-weight: 700; color: var(--navy); }
+  .prog-meta { font-size: 9px; color: #888; margin-top: 1px; }
+  .prog-score { font-size: 20px; font-weight: 800; flex-shrink: 0; }
+  .score-g { color: #16a34a; }
+  .score-y { color: var(--gold); }
+
+  /* Win stats */
+  .win-stats { display: flex; gap: 10px; margin-bottom: 14px; }
+  .win-stat { flex: 1; background: rgba(200,164,78,0.06); border: 1px solid rgba(200,164,78,0.15); border-radius: 8px; padding: 10px 8px; text-align: center; }
+  .win-stat .val { font-size: 18px; font-weight: 800; color: var(--gold); }
+  .win-stat .lbl { font-size: 8px; color: rgba(255,255,255,0.4); margin-top: 2px; }
+
+  /* Happy parent */
+  .happy-row { display: flex; align-items: center; gap: 16px; background: rgba(39,174,96,0.08); border-radius: 10px; padding: 14px 18px; border: 1px solid rgba(39,174,96,0.15); }
+  .happy-emoji { font-size: 36px; }
+  .happy-text { font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.5; }
+  .happy-text strong { color: var(--gold); font-weight: 700; }
+
+  @media (max-width: 640px) { .flipper { height: 620px; } .before, .after { padding: 24px 20px; } }
+</style>
+</head>
+<body>
+<p class="concept-label">Concept C — Variation 1</p>
+<h1>Spreadsheet Chaos vs. Instant Intelligence</h1>
+<p class="description">Longer hold time (8s per side). Before side emphasizes the messy spreadsheet and frustrating stats. After side shows the clean app experience with fit scores and real data.</p>
+
+<div class="flip-container"><div class="flipper">
+
+  <!-- BEFORE -->
+  <div class="flip-front before">
+    <div class="before-top">
+      <span class="phase-badge badge-old">The Old Way</span>
+      <div class="before-clock"><span class="clock-icon">⏱️</span> Week 3 of research</div>
+    </div>
+    <div class="before-headline">Hours. Weeks. Still guessing.</div>
+    <div class="before-sub">Copy data from one website. Paste into spreadsheet. Repeat 200 times. Hope you didn't miss anything.</div>
+
+    <div class="spreadsheet">
+      <div class="ss-toolbar">
+        <span class="ss-toolbar-icon"></span><span class="ss-toolbar-icon"></span><span class="ss-toolbar-icon"></span>
+        <span class="ss-toolbar-name">my_recruiting_research.xlsx</span>
+      </div>
+      <div class="ss-grid">
+        <div class="ss-cell hd">School</div><div class="ss-cell hd">Pos.</div><div class="ss-cell hd">Ht Avg</div><div class="ss-cell hd">Int'l</div><div class="ss-cell hd">Sr. Gaps</div>
+        <div class="ss-cell">Ohio State</div><div class="ss-cell">MF: 8</div><div class="ss-cell">5'10"</div><div class="ss-cell">22%</div><div class="ss-cell">3 graduating</div>
+        <div class="ss-cell">Michigan</div><div class="ss-cell err">???</div><div class="ss-cell empty">no data</div><div class="ss-cell">18%</div><div class="ss-cell empty">—</div>
+        <div class="ss-cell">Penn State</div><div class="ss-cell">MF: 6</div><div class="ss-cell">5'9"</div><div class="ss-cell err">check site</div><div class="ss-cell">2?</div>
+        <div class="ss-cell typing">UNC</div><div class="ss-cell empty">—</div><div class="ss-cell empty">—</div><div class="ss-cell empty">—</div><div class="ss-cell empty">—</div>
+      </div>
+    </div>
+
+    <div class="pain-stats">
+      <div class="pain-stat"><div class="val">47</div><div class="lbl">Websites Visited</div></div>
+      <div class="pain-stat"><div class="val">12+</div><div class="lbl">Hours Spent</div></div>
+      <div class="pain-stat"><div class="val">4</div><div class="lbl">Schools Finished</div></div>
+      <div class="pain-stat"><div class="val">0</div><div class="lbl">Fit Answers</div></div>
+    </div>
+
+    <div class="parent-row">
+      <div class="parent-emoji">😩</div>
+      <div class="parent-thought">"I've been at this for three weeks and I <strong>still</strong> can't tell where my kid actually fits."</div>
+    </div>
+  </div>
+
+  <!-- AFTER -->
+  <div class="flip-back after">
+    <div class="after-top">
+      <span class="phase-badge badge-new">With RosterWise</span>
+      <div class="after-logo"><span>Roster</span>Wise&trade;</div>
+    </div>
+    <div class="after-headline">Every program. Personalized fit. Minutes.</div>
+    <div class="after-sub">One app. 2,235 programs analyzed. Your athlete's profile matched against every roster in the country.</div>
+
+    <div class="app">
+      <div class="app-bar">
+        <div class="app-bar-logo"><span>Roster</span>Wise</div>
+        <div class="app-bar-tabs"><span>Programs</span><span class="active-tab">My RosterFit</span><span>Filters</span></div>
+      </div>
+      <div class="app-body">
+        <div class="prog"><div class="prog-bar" style="background:#CC0000"></div><div class="prog-info"><div class="prog-name">Ohio State Buckeyes</div><div class="prog-meta">D1 Big Ten · 4 Sr MF graduating · Height match: 96%</div></div><div class="prog-score score-g">94</div></div>
+        <div class="prog"><div class="prog-bar" style="background:#1a5632"></div><div class="prog-info"><div class="prog-name">Michigan State Spartans</div><div class="prog-meta">D1 Big Ten · 3 Sr MF graduating · Pathway match</div></div><div class="prog-score score-g">92</div></div>
+        <div class="prog"><div class="prog-bar" style="background:#861F41"></div><div class="prog-info"><div class="prog-name">Virginia Tech Hokies</div><div class="prog-meta">D1 ACC · 2 Sr MF graduating · Academic fit: 91%</div></div><div class="prog-score score-g">87</div></div>
+        <div class="prog"><div class="prog-bar" style="background:#003366"></div><div class="prog-info"><div class="prog-name">Villanova Wildcats</div><div class="prog-meta">D1 Big East · Height match: 98% · GPA match</div></div><div class="prog-score score-y">79</div></div>
+      </div>
+    </div>
+
+    <div class="win-stats">
+      <div class="win-stat"><div class="val">2,235</div><div class="lbl">Programs Analyzed</div></div>
+      <div class="win-stat"><div class="val">66,888</div><div class="lbl">Players in Dataset</div></div>
+      <div class="win-stat"><div class="val">$40</div><div class="lbl">One-Time Price</div></div>
+      <div class="win-stat"><div class="val">5 min</div><div class="lbl">To Your List</div></div>
+    </div>
+
+    <div class="happy-row">
+      <div class="happy-emoji">😌</div>
+      <div class="happy-text"><strong>Finally, clarity.</strong> Every program scored for your athlete — position depth, academic fit, recruiting pathways — in one place.</div>
+    </div>
+  </div>
+
+</div></div>
+</body>
+</html>

@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RosterWise Animation Concept B — Cinematic Storytelling Sequence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #1a2744;
+    --navy-dark: #0f1a2e;
+    --gold: #c8a44e;
+    --gold-light: #dabb6a;
+    --cream: #f8f6f0;
+    --white: #ffffff;
+    --red: #e74c3c;
+    --green: #27ae60;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--cream);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    gap: 24px;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: var(--navy);
+    text-align: center;
+  }
+
+  .concept-label {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--gold);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .description {
+    max-width: 700px;
+    text-align: center;
+    font-size: 14px;
+    color: #5a6178;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  /* ===== THEATER CONTAINER ===== */
+  .theater {
+    max-width: 720px;
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(26, 39, 68, 0.15);
+    position: relative;
+    background: var(--navy-dark);
+    height: 440px;
+  }
+
+  /* Each scene is absolutely positioned and fades in/out */
+  .scene {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    opacity: 0;
+    animation-fill-mode: both;
+    animation-duration: 3s;
+  }
+
+  /* Scene timing: 16s total loop, 4 scenes × 3s visible + 1s transition */
+  .scene-1 { animation: scene 20s ease-in-out infinite; animation-delay: 0s; }
+  .scene-2 { animation: scene 20s ease-in-out infinite; animation-delay: 5s; }
+  .scene-3 { animation: scene 20s ease-in-out infinite; animation-delay: 10s; }
+  .scene-4 { animation: scene 20s ease-in-out infinite; animation-delay: 15s; }
+
+  @keyframes scene {
+    0% { opacity: 0; transform: scale(0.95); }
+    5% { opacity: 1; transform: scale(1); }
+    20% { opacity: 1; transform: scale(1); }
+    25% { opacity: 0; transform: scale(1.02); }
+    100% { opacity: 0; }
+  }
+
+  /* Scene phase indicator */
+  .phase-badge {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 4px 16px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+  }
+
+  .phase-old {
+    background: rgba(231, 76, 60, 0.15);
+    color: var(--red);
+    border: 1px solid rgba(231, 76, 60, 0.3);
+  }
+
+  .phase-new {
+    background: rgba(39, 174, 96, 0.15);
+    color: var(--green);
+    border: 1px solid rgba(39, 174, 96, 0.3);
+  }
+
+  .scene-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 16px;
+    line-height: 1.2;
+  }
+
+  .scene-subtitle {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    max-width: 480px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+
+  /* --- Scene 1: Searching --- */
+  .search-animation {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .search-tab {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .search-tab .tab-icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.1);
+    flex-shrink: 0;
+  }
+
+  .search-tab .tab-text {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.4);
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .search-tab .tab-x {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .search-tab:nth-child(1) { animation: tabAppear 20s ease infinite; animation-delay: 0.3s; }
+  .search-tab:nth-child(2) { animation: tabAppear 20s ease infinite; animation-delay: 0.6s; }
+  .search-tab:nth-child(3) { animation: tabAppear 20s ease infinite; animation-delay: 0.9s; }
+  .search-tab:nth-child(4) { animation: tabAppear 20s ease infinite; animation-delay: 1.2s; }
+  .search-tab:nth-child(5) { animation: tabAppear 20s ease infinite; animation-delay: 1.5s; }
+
+  @keyframes tabAppear {
+    0% { opacity: 0; transform: translateY(8px); }
+    3% { opacity: 1; transform: translateY(0); }
+    20% { opacity: 1; }
+    25% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+
+  /* --- Scene 2: Spreadsheet chaos --- */
+  .spreadsheet-chaos {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .chaos-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .chaos-cell {
+    padding: 8px 6px;
+    font-size: 9px;
+    border-right: 1px solid rgba(255, 255, 255, 0.06);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+  }
+
+  .chaos-cell.head {
+    background: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 700;
+    font-size: 8px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .chaos-cell.error {
+    color: var(--red);
+    font-weight: 600;
+  }
+
+  .chaos-cell.empty {
+    color: rgba(255, 255, 255, 0.1);
+    font-style: italic;
+  }
+
+  .typing-cursor {
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: var(--white);
+    margin-left: 2px;
+    animation: blink 0.8s step-end infinite;
+  }
+
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+
+  /* --- Scene 3: Exhaustion --- */
+  .exhaustion {
+    text-align: center;
+  }
+
+  .big-emoji {
+    font-size: 80px;
+    margin-bottom: 16px;
+    animation: tired 3s ease-in-out infinite;
+  }
+
+  @keyframes tired {
+    0%, 100% { transform: rotate(0deg) scale(1); }
+    25% { transform: rotate(-8deg) scale(0.95); }
+    50% { transform: rotate(0deg) scale(1.05); }
+    75% { transform: rotate(8deg) scale(0.95); }
+  }
+
+  .exhaustion-stats {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .exhaustion-stat {
+    text-align: center;
+  }
+
+  .exhaustion-stat .val {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--red);
+  }
+
+  .exhaustion-stat .lbl {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 4px;
+  }
+
+  /* --- Scene 4: RosterWise solution --- */
+  .solution-reveal {
+    text-align: center;
+  }
+
+  .rw-logo-big {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+
+  .rw-logo-big span { color: var(--white); }
+
+  .solution-features {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .solution-feature {
+    background: rgba(200, 164, 78, 0.08);
+    border: 1px solid rgba(200, 164, 78, 0.2);
+    border-radius: 10px;
+    padding: 16px;
+    width: 140px;
+    text-align: center;
+  }
+
+  .solution-feature .sf-icon {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+
+  .solution-feature .sf-label {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 600;
+  }
+
+  .solution-price {
+    margin-top: 24px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .solution-price strong {
+    color: var(--gold);
+    font-size: 24px;
+  }
+
+  /* Scene dots indicator */
+  .scene-dots {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+  }
+
+  .scene-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ddd;
+  }
+
+  .scene-dot.active {
+    background: var(--gold);
+    width: 24px;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+
+<p class="concept-label">Concept B</p>
+<h1>Cinematic Storytelling Sequence</h1>
+<p class="description">A looping 4-scene animation that tells the recruiting research story: endless searching, spreadsheet chaos, parental exhaustion, then the RosterWise reveal. Each scene fades in and out like a short film.</p>
+
+<div class="theater">
+
+  <!-- Scene 1: Endless Searching -->
+  <div class="scene scene-1">
+    <span class="phase-badge phase-old">The Old Way</span>
+    <div class="scene-title">Tab after tab after tab...</div>
+    <div class="scene-subtitle">Visiting hundreds of athletics websites, one roster at a time, trying to piece together information that should already be organized.</div>
+    <div class="search-animation">
+      <div class="search-tab"><div class="tab-icon"></div><span class="tab-text">ohiostate.edu/sports/m-soccer/roster</span><span class="tab-x">×</span></div>
+      <div class="search-tab"><div class="tab-icon"></div><span class="tab-text">athletics.umich.edu/roster/msoc</span><span class="tab-x">×</span></div>
+      <div class="search-tab"><div class="tab-icon"></div><span class="tab-text">pennstateathletics.com/roster/msoc</span><span class="tab-x">×</span></div>
+      <div class="search-tab"><div class="tab-icon"></div><span class="tab-text">goheels.com/sports/mens-soccer/roster</span><span class="tab-x">×</span></div>
+      <div class="search-tab"><div class="tab-icon"></div><span class="tab-text">hokiesports.com/roster/msoccer</span><span class="tab-x">×</span></div>
+    </div>
+  </div>
+
+  <!-- Scene 2: Spreadsheet Chaos -->
+  <div class="scene scene-2">
+    <span class="phase-badge phase-old">The Old Way</span>
+    <div class="scene-title">The spreadsheet from hell.</div>
+    <div class="scene-subtitle">Manual data entry. Missing fields. Inconsistent formats. And it's already out of date.</div>
+    <div class="spreadsheet-chaos">
+      <div class="chaos-grid">
+        <div class="chaos-cell head">School</div>
+        <div class="chaos-cell head">MFs</div>
+        <div class="chaos-cell head">Avg Ht</div>
+        <div class="chaos-cell head">Int'l %</div>
+        <div class="chaos-cell">Ohio State</div>
+        <div class="chaos-cell">8</div>
+        <div class="chaos-cell">5'10"</div>
+        <div class="chaos-cell">22%</div>
+        <div class="chaos-cell">Michigan</div>
+        <div class="chaos-cell error">???</div>
+        <div class="chaos-cell empty">no data</div>
+        <div class="chaos-cell">18%</div>
+        <div class="chaos-cell">Penn State</div>
+        <div class="chaos-cell">6</div>
+        <div class="chaos-cell">5'9"</div>
+        <div class="chaos-cell error">check</div>
+        <div class="chaos-cell">UNC<span class="typing-cursor"></span></div>
+        <div class="chaos-cell empty">—</div>
+        <div class="chaos-cell empty">—</div>
+        <div class="chaos-cell empty">—</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scene 3: Exhaustion -->
+  <div class="scene scene-3">
+    <span class="phase-badge phase-old">The Old Way</span>
+    <div class="scene-title">Hours. Weeks. Still guessing.</div>
+    <div class="scene-subtitle">After all that work, you still don't know where your athlete actually fits.</div>
+    <div class="exhaustion">
+      <div class="big-emoji">😴</div>
+      <div class="exhaustion-stats">
+        <div class="exhaustion-stat">
+          <div class="val">47</div>
+          <div class="lbl">Websites Visited</div>
+        </div>
+        <div class="exhaustion-stat">
+          <div class="val">12+</div>
+          <div class="lbl">Hours Spent</div>
+        </div>
+        <div class="exhaustion-stat">
+          <div class="val">0</div>
+          <div class="lbl">Clear Answers</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scene 4: RosterWise Reveal -->
+  <div class="scene scene-4">
+    <span class="phase-badge phase-new">A Better Way</span>
+    <div class="rw-logo-big"><span>Roster</span>Wise&trade;</div>
+    <div class="scene-title" style="font-size: 24px;">Every program. Every roster. Your athlete's fit.</div>
+    <div class="solution-features">
+      <div class="solution-feature">
+        <div class="sf-icon">🎯</div>
+        <div class="sf-label">Position Depth</div>
+      </div>
+      <div class="solution-feature">
+        <div class="sf-icon">📊</div>
+        <div class="sf-label">Fit Scores</div>
+      </div>
+      <div class="solution-feature">
+        <div class="sf-icon">🎓</div>
+        <div class="sf-label">Academic Fit</div>
+      </div>
+      <div class="solution-feature">
+        <div class="sf-icon">🌍</div>
+        <div class="sf-label">2,235 Programs</div>
+      </div>
+    </div>
+    <div class="solution-price">
+      <strong>$40</strong> one-time &mdash; minutes, not weeks
+    </div>
+  </div>
+
+</div>
+
+<div class="scene-dots">
+  <div class="scene-dot" style="animation: dotPulse 20s infinite 0s;"></div>
+  <div class="scene-dot" style="animation: dotPulse 20s infinite 5s;"></div>
+  <div class="scene-dot" style="animation: dotPulse 20s infinite 10s;"></div>
+  <div class="scene-dot" style="animation: dotPulse 20s infinite 15s;"></div>
+</div>
+
+<style>
+  @keyframes dotPulse {
+    0%, 4% { background: #ddd; width: 8px; border-radius: 50%; }
+    5%, 24% { background: var(--gold); width: 24px; border-radius: 4px; }
+    25%, 100% { background: #ddd; width: 8px; border-radius: 50%; }
+  }
+</style>
+
+</body>
+</html>

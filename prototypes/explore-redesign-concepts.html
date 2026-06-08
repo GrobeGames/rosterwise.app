@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RosterWise — Explore Tab Redesign Concepts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800;900&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D2240; --navy2:#13315C; --blue:#1565C0; --blue2:#42A5F5;
+    --gold:#E2B33C; --gold2:#F2CD6B; --cream:#F7F5EF; --ink:#0E1726;
+    --line:#E4E7EE; --muted:#6B7385;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Outfit',sans-serif;background:#Eceef3;color:var(--ink);
+    padding:48px 24px 80px;-webkit-font-smoothing:antialiased}
+  .page-head{max-width:1180px;margin:0 auto 40px}
+  .page-head .eyebrow{font-size:12px;font-weight:800;letter-spacing:.18em;color:var(--blue);text-transform:uppercase}
+  .page-head h1{font-family:'Playfair Display',serif;font-size:34px;color:var(--navy);margin-top:6px}
+  .page-head p{max-width:760px;color:#52596b;font-size:15px;line-height:1.6;margin-top:10px}
+  .gallery{max-width:1180px;margin:0 auto;display:flex;flex-wrap:wrap;gap:40px;justify-content:center}
+  .concept{width:380px}
+  .concept-meta{margin-bottom:14px}
+  .concept-meta .num{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:8px;background:var(--navy);color:#fff;font-weight:800;font-size:13px;margin-right:8px}
+  .concept-meta h2{display:inline;font-size:19px;font-weight:800;color:var(--navy)}
+  .concept-meta .tag{display:inline-block;margin-left:8px;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);background:#E7F0FB;padding:3px 8px;border-radius:999px;vertical-align:middle}
+  .concept-meta p{font-size:13px;color:#5b6273;line-height:1.55;margin-top:8px}
+  .concept-meta .why{margin-top:8px;font-size:12.5px;color:#48506a}
+  .concept-meta .why b{color:var(--navy)}
+
+  /* Phone frame */
+  .phone{width:380px;height:760px;border-radius:42px;background:#0a0f1a;padding:11px;
+    box-shadow:0 30px 60px -18px rgba(13,34,64,.45),0 4px 12px rgba(0,0,0,.15)}
+  .screen{width:100%;height:100%;border-radius:32px;overflow:hidden;position:relative;background:#fff}
+  .status{height:44px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 24px 6px;font-size:13px;font-weight:700}
+  .scroll{height:calc(100% - 44px);overflow:hidden;position:relative}
+
+  /* shared tab bar */
+  .tabbar{position:absolute;bottom:0;left:0;right:0;height:64px;display:flex;align-items:center;justify-content:space-around;
+    backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-top:1px solid rgba(255,255,255,.08)}
+  .tabbar .ti{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:9px;font-weight:600;opacity:.55}
+  .tabbar .ti.on{opacity:1}
+  .tabbar .dot{width:20px;height:20px;border-radius:6px;border:2px solid currentColor}
+  .tabbar .ti.on .dot{background:currentColor}
+
+  svg{display:block}
+  .label{font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+  .mono{font-family:'IBM Plex Mono',monospace;font-variant-numeric:tabular-nums}
+
+  /* ---------- 1. CENTER COURT — BENTO ---------- */
+  .c1 .scroll{background:var(--navy)}
+  .c1 .court-bg{position:absolute;inset:0;opacity:.5}
+  .c1 .hdr{position:relative;padding:18px 20px 8px;display:flex;align-items:center;justify-content:space-between}
+  .c1 .brand{font-weight:900;font-size:18px;color:#fff;letter-spacing:-.3px}
+  .c1 .brand span{color:var(--gold)}
+  .c1 .gpill{font-size:11px;font-weight:700;color:#cdd7e6;border:1px solid rgba(255,255,255,.2);padding:5px 12px;border-radius:999px}
+  .c1 .bento{position:relative;padding:8px 16px;display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:minmax(64px,auto);gap:12px}
+  .c1 .tile{border-radius:20px;padding:16px;position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.08)}
+  .c1 .hero{grid-column:1 / -1;background:linear-gradient(135deg,var(--blue) 0%,var(--navy2) 100%);min-height:148px;display:flex;flex-direction:column;justify-content:flex-end}
+  .c1 .hero .eye{color:var(--gold2)}
+  .c1 .hero h3{color:#fff;font-size:26px;font-weight:900;margin:4px 0 10px}
+  .c1 .searchpill{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);
+    padding:9px 14px;border-radius:999px;color:#dbe6f5;font-size:13px;font-weight:500;width:fit-content}
+  .c1 .statband{grid-column:1 / -1;display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:14px 4px}
+  .c1 .stat{ text-align:center;border-right:1px solid rgba(255,255,255,.08)}
+  .c1 .stat:last-child{border-right:none}
+  .c1 .stat .v{font-size:18px;font-weight:800;color:#fff}
+  .c1 .stat .v span{color:var(--gold)}
+  .c1 .stat .l{font-size:9px;color:#93a0b5;margin-top:2px;text-transform:uppercase;letter-spacing:.05em}
+  .c1 .t-tall{min-height:118px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(160deg,#13315C,#0c1e3a)}
+  .c1 .t-wide{grid-column:1 / -1;min-height:74px;display:flex;align-items:center;justify-content:space-between;background:linear-gradient(135deg,#1A3A50,#0e2336)}
+  .c1 .tile .label{color:var(--gold2)}
+  .c1 .tile h4{color:#fff;font-size:16px;font-weight:800;margin-top:6px}
+  .c1 .tile p{color:#9fb0c6;font-size:11.5px;margin-top:2px}
+  .c1 .ic{width:30px;height:30px;border-radius:9px;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center}
+  .c1 .tabbar{background:rgba(8,16,30,.7);color:#fff}
+
+  /* ---------- 2. THE NET — EDITORIAL ---------- */
+  .c2 .scroll{background:var(--cream)}
+  .c2 .wrap{padding:22px 22px 90px}
+  .c2 .kicker{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--blue)}
+  .c2 h1{font-family:'Playfair Display',serif;font-size:38px;line-height:1.02;color:var(--navy);font-weight:800;margin-top:6px}
+  .c2 h1 em{font-style:italic;color:var(--gold)}
+  .c2 .lede{font-size:13.5px;color:#5b6172;line-height:1.5;margin-top:10px;max-width:280px}
+  .c2 .netrule{margin:20px 0;height:14px;position:relative}
+  .c2 .ticker{display:flex;justify-content:space-between;margin:18px 2px}
+  .c2 .ti .v{font-family:'Playfair Display',serif;font-size:24px;font-weight:800;color:var(--navy)}
+  .c2 .ti .l{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:1px}
+  .c2 .feature{display:block;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#fff;margin-bottom:14px;box-shadow:0 8px 20px -14px rgba(13,34,64,.3)}
+  .c2 .feature .top{height:96px;background:linear-gradient(120deg,var(--navy),var(--blue));position:relative;overflow:hidden}
+  .c2 .feature .body{padding:14px 16px}
+  .c2 .feature .label{color:var(--blue)}
+  .c2 .feature h3{font-size:18px;font-weight:800;color:var(--navy);margin-top:4px}
+  .c2 .feature p{font-size:12px;color:#6b7280;margin-top:2px}
+  .c2 .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .c2 .mini{border:1px solid var(--line);border-radius:16px;background:#fff;padding:14px}
+  .c2 .mini .num{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--gold);font-weight:700}
+  .c2 .mini h4{font-size:14.5px;font-weight:800;color:var(--navy);margin-top:8px}
+  .c2 .mini p{font-size:11px;color:#7a8195;margin-top:2px}
+  .c2 .arrow{margin-top:10px;font-size:12px;font-weight:800;color:var(--blue)}
+  .c2 .tabbar{background:rgba(247,245,239,.85);color:var(--navy)}
+
+  /* ---------- 3. COURT ZONES — SPATIAL ---------- */
+  .c3 .scroll{background:linear-gradient(180deg,#0b1f3a,#0D2240)}
+  .c3 .hdr{padding:18px 22px 4px;display:flex;align-items:center;justify-content:space-between}
+  .c3 .brand{font-weight:900;font-size:17px;color:#fff}
+  .c3 .brand span{color:var(--gold)}
+  .c3 .gpill{font-size:11px;font-weight:700;color:#cdd7e6;border:1px solid rgba(255,255,255,.2);padding:5px 12px;border-radius:999px}
+  .c3 .intro{padding:6px 22px 4px}
+  .c3 .intro .label{color:var(--gold2)}
+  .c3 .intro h2{color:#fff;font-size:22px;font-weight:800;margin-top:4px}
+  .c3 .intro p{color:#9db0c8;font-size:12px;margin-top:3px}
+  .c3 .courtwrap{padding:14px 18px 0;position:relative}
+  .c3 .zone-cap{display:flex;justify-content:space-between;padding:4px 24px 0;color:#7e91ab;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+  .c3 .tabbar{background:rgba(8,16,30,.7);color:#fff}
+
+  /* ---------- 4. STAT LINE — DASHBOARD ---------- */
+  .c4 .scroll{background:#0a1118}
+  .c4 .hdr{padding:18px 18px 10px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #18222e}
+  .c4 .brand{font-weight:900;font-size:16px;color:#fff}
+  .c4 .brand span{color:var(--blue2)}
+  .c4 .live{display:flex;align-items:center;gap:6px;font-size:10px;font-weight:700;color:#7fe0a8;letter-spacing:.08em}
+  .c4 .live .b{width:7px;height:7px;border-radius:50%;background:#34d27b;box-shadow:0 0 0 3px rgba(52,210,123,.2)}
+  .c4 .counters{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#18222e}
+  .c4 .cc{background:#0d1620;padding:16px 18px}
+  .c4 .cc .v{font-family:'IBM Plex Mono',monospace;font-size:26px;font-weight:700;color:#fff;letter-spacing:-1px}
+  .c4 .cc .v span{color:var(--blue2)}
+  .c4 .cc .l{font-size:10px;color:#5d6b7d;text-transform:uppercase;letter-spacing:.1em;margin-top:2px}
+  .c4 .cc .spark{margin-top:8px}
+  .c4 .sec-h{padding:18px 18px 8px;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#5d6b7d}
+  .c4 .feed{padding:0 14px}
+  .c4 .card{display:flex;align-items:center;gap:14px;background:#0f1a26;border:1px solid #1b2735;border-radius:14px;padding:14px;margin-bottom:10px}
+  .c4 .card .ic{width:40px;height:40px;border-radius:11px;background:#13243a;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .c4 .card h4{color:#fff;font-size:15px;font-weight:700}
+  .c4 .card p{color:#6d7c8f;font-size:11.5px;margin-top:1px}
+  .c4 .card .meta{margin-left:auto;text-align:right}
+  .c4 .card .meta .n{font-family:'IBM Plex Mono',monospace;color:var(--blue2);font-weight:700;font-size:15px}
+  .c4 .card .meta .t{font-size:9px;color:#566375;text-transform:uppercase;letter-spacing:.08em}
+  .c4 .tabbar{background:rgba(10,17,24,.8);color:#fff}
+
+  /* ---------- 5. TRAJECTORY — GLASS ---------- */
+  .c5 .scroll{position:relative;background:#0a1730;overflow:hidden}
+  .c5 .mesh{position:absolute;inset:-20% -20% auto -20%;height:120%;filter:blur(0px);opacity:1}
+  .c5 .blob{position:absolute;border-radius:50%;filter:blur(46px);opacity:.55}
+  .c5 .b1{width:260px;height:260px;background:#2563EB;top:-60px;left:-40px}
+  .c5 .b2{width:240px;height:240px;background:#7C3AED;top:120px;right:-80px}
+  .c5 .b3{width:220px;height:220px;background:#E2B33C;bottom:40px;left:-30px;opacity:.4}
+  .c5 .content{position:relative;padding:20px 18px 90px}
+  .c5 .brand{font-weight:900;font-size:18px;color:#fff;letter-spacing:-.3px}
+  .c5 .brand span{color:var(--gold2)}
+  .c5 .arc{position:absolute;top:80px;left:0;right:0;height:200px;pointer-events:none}
+  .c5 .glass{backdrop-filter:blur(20px) saturate(160%);-webkit-backdrop-filter:blur(20px) saturate(160%);
+    background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.18);border-radius:24px;
+    box-shadow:0 12px 40px -12px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.25)}
+  .c5 .hero{padding:18px;margin-top:64px}
+  .c5 .hero .label{color:var(--gold2)}
+  .c5 .hero h3{color:#fff;font-size:25px;font-weight:900;margin:6px 0 12px}
+  .c5 .hero .pill{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.2);
+    border-radius:999px;padding:9px 14px;color:#e3ecfb;font-size:13px;width:fit-content}
+  .c5 .stats{display:flex;justify-content:space-between;padding:16px 20px;margin-top:14px}
+  .c5 .stats .v{font-size:19px;font-weight:800;color:#fff}
+  .c5 .stats .v span{color:var(--gold2)}
+  .c5 .stats .l{font-size:9px;color:#aebfd8;text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
+  .c5 .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+  .c5 .gcard{padding:15px}
+  .c5 .gcard .ic{width:34px;height:34px;border-radius:10px;background:rgba(255,255,255,.16);display:flex;align-items:center;justify-content:center;margin-bottom:10px}
+  .c5 .gcard .label{color:var(--gold2)}
+  .c5 .gcard h4{color:#fff;font-size:15px;font-weight:800;margin-top:5px}
+  .c5 .gcard p{color:#c2cfe6;font-size:11px;margin-top:2px}
+  .c5 .tabbar{background:rgba(10,23,48,.55);color:#fff}
+
+  .footnote{max-width:1180px;margin:48px auto 0;padding-top:24px;border-top:1px solid #d8dce4;color:#5b6173;font-size:13px;line-height:1.6}
+  .footnote b{color:var(--navy)}
+</style>
+</head>
+<body>
+
+<div class="page-head">
+  <div class="eyebrow">RosterWise · Volleyball</div>
+  <h1>Explore Tab — Five Redesign Concepts</h1>
+  <p>Each concept keeps the existing information architecture (Search Programs, Divisions, Conferences, Connections, Program&nbsp;Intel, and the headline stats) but reaches for a more distinctive, premium feel. The volleyball identity is expressed through <b>geometry</b> — court lines, the net, serve trajectories, rotation zones, and a box-score data language — never through emoji. Navy + gold is treated as the premium brand pairing, with the existing blue as a secondary accent.</p>
+</div>
+
+<div class="gallery">
+
+  <!-- ============ CONCEPT 1: CENTER COURT (BENTO) ============ -->
+  <div class="concept c1">
+    <div class="concept-meta">
+      <span class="num">1</span><h2>Center Court</h2><span class="tag">Bento grid</span>
+      <p><b>Technique:</b> an asymmetric bento layout with tiles of varied size and weight, unified by a faint full-bleed court line-drawing that bleeds behind every tile — so the whole screen reads as one court.</p>
+      <p class="why"><b>Why it works:</b> bento is the current premium-app standard; the shared court substrate makes it unmistakably volleyball and ties otherwise-separate cards into a single composition. Navy/gold reads more upscale than the current flat gradient cards.</p>
+    </div>
+    <div class="phone"><div class="screen">
+      <div class="status" style="color:#fff;background:var(--navy)"><span>9:41</span><span>RosterWise</span></div>
+      <div class="scroll">
+        <!-- court substrate -->
+        <svg class="court-bg" viewBox="0 0 380 716" preserveAspectRatio="xMidYMid slice">
+          <g fill="none" stroke="#33507e" stroke-width="1.4" opacity=".5">
+            <rect x="40" y="70" width="300" height="580" rx="2"/>
+            <line x1="40" y1="360" x2="340" y2="360" stroke="#C9A24A" stroke-width="2.4"/>
+            <line x1="40" y1="260" x2="340" y2="260"/>
+            <line x1="40" y1="460" x2="340" y2="460"/>
+            <line x1="190" y1="70" x2="190" y2="650" opacity=".4"/>
+          </g>
+          <g fill="none" stroke="#C9A24A" stroke-width="1" opacity=".5">
+            <line x1="186" y1="352" x2="194" y2="352"/><line x1="190" y1="346" x2="190" y2="374"/>
+          </g>
+        </svg>
+        <div class="hdr"><div class="brand">Roster<span>Wise</span></div><div class="gpill">Women&rsquo;s ▾</div></div>
+        <div class="bento">
+          <div class="tile hero">
+            <div class="label eye">Roster Intelligence</div>
+            <h3>Search Programs</h3>
+            <div class="searchpill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#dbe6f5" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>Browse 1,907 women&rsquo;s programs</div>
+          </div>
+          <div class="statband">
+            <div class="stat"><div class="v">1,907</div><div class="l">Programs</div></div>
+            <div class="stat"><div class="v">31<span>K</span></div><div class="l">Players</div></div>
+            <div class="stat"><div class="v">107</div><div class="l">Confs</div></div>
+            <div class="stat"><div class="v">70<span>+</span></div><div class="l">Countries</div></div>
+          </div>
+          <div class="tile t-tall">
+            <div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E2B33C" stroke-width="2"><path d="M6 9V4h12v5a6 6 0 01-12 0z"/><path d="M9 20h6M12 15v5"/></svg></div>
+            <div><div class="label">Browse</div><h4>Divisions</h4><p>D1 · D2 · D3 · NAIA · NJCAA</p></div>
+          </div>
+          <div class="tile t-tall">
+            <div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E2B33C" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V6z"/></svg></div>
+            <div><div class="label">Browse</div><h4>Conferences</h4><p>107 conferences</p></div>
+          </div>
+          <div class="tile t-wide">
+            <div><div class="label">Your Network</div><h4>Connections</h4><p>Club &amp; hometown ties</p></div>
+            <div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E2B33C" stroke-width="2"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="11" r="2.4"/><path d="M4 19c0-3 2.5-5 5-5s5 2 5 5"/></svg></div>
+          </div>
+          <div class="tile t-wide">
+            <div><div class="label">Program Intel</div><h4>Changes</h4><p>Division moves &amp; updates</p></div>
+            <div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E2B33C" stroke-width="2"><path d="M4 10a8 8 0 0114-5l2 2M20 14a8 8 0 01-14 5l-2-2"/><path d="M20 4v4h-4M4 20v-4h4"/></svg></div>
+          </div>
+        </div>
+      </div>
+      <div class="tabbar">
+        <div class="ti on" style="color:var(--gold2)"><div class="dot"></div>Explore</div>
+        <div class="ti"><div class="dot"></div>Match</div>
+        <div class="ti"><div class="dot"></div>My Fit</div>
+        <div class="ti"><div class="dot"></div>Saved</div>
+        <div class="ti"><div class="dot"></div>More</div>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- ============ CONCEPT 2: THE NET (EDITORIAL) ============ -->
+  <div class="concept c2">
+    <div class="concept-meta">
+      <span class="num">2</span><h2>The Net</h2><span class="tag">Editorial</span>
+      <p><b>Technique:</b> a calm, magazine-style layout on cream — a large Playfair serif headline, generous whitespace, and a recurring <b>net-tape hairline</b> that divides each section the way the net divides a court.</p>
+      <p class="why"><b>Why it works:</b> it feels editorial and trustworthy rather than &ldquo;app-y,&rdquo; differentiating RosterWise from competitor dashboards. The net motif is subtle and structural, and the light palette photographs beautifully for the App Store.</p>
+    </div>
+    <div class="phone"><div class="screen">
+      <div class="status" style="color:var(--navy)"><span>9:41</span><span>RosterWise</span></div>
+      <div class="scroll"><div class="wrap">
+        <div class="kicker">Roster Intelligence</div>
+        <h1>Find your<br><em>fit.</em></h1>
+        <p class="lede">Every NCAA, NAIA &amp; NJCAA volleyball program — analyzed roster by roster.</p>
+
+        <!-- net rule -->
+        <div class="netrule"><svg width="100%" height="14" viewBox="0 0 336 14" preserveAspectRatio="none">
+          <line x1="0" y1="2" x2="336" y2="2" stroke="#0D2240" stroke-width="2"/>
+          <line x1="0" y1="12" x2="336" y2="12" stroke="#E4E7EE" stroke-width="1"/>
+          <g stroke="#cfd5e0" stroke-width="1">
+            <line x1="0" y1="2" x2="0" y2="12"/><line x1="24" y1="2" x2="24" y2="12"/><line x1="48" y1="2" x2="48" y2="12"/><line x1="72" y1="2" x2="72" y2="12"/><line x1="96" y1="2" x2="96" y2="12"/><line x1="120" y1="2" x2="120" y2="12"/><line x1="144" y1="2" x2="144" y2="12"/><line x1="168" y1="2" x2="168" y2="12"/><line x1="192" y1="2" x2="192" y2="12"/><line x1="216" y1="2" x2="216" y2="12"/><line x1="240" y1="2" x2="240" y2="12"/><line x1="264" y1="2" x2="264" y2="12"/><line x1="288" y1="2" x2="288" y2="12"/><line x1="312" y1="2" x2="312" y2="12"/><line x1="336" y1="2" x2="336" y2="12"/>
+          </g>
+        </svg></div>
+
+        <div class="ticker">
+          <div class="ti"><div class="v">1,907</div><div class="l">Programs</div></div>
+          <div class="ti"><div class="v">31,479</div><div class="l">Players</div></div>
+          <div class="ti"><div class="v">107</div><div class="l">Conferences</div></div>
+        </div>
+
+        <a class="feature">
+          <div class="top">
+            <svg width="100%" height="96" viewBox="0 0 336 96" preserveAspectRatio="xMidYMid slice">
+              <g fill="none" stroke="#ffffff" stroke-width="1.4" opacity=".22">
+                <rect x="40" y="-40" width="256" height="220" rx="2"/>
+                <line x1="40" y1="48" x2="296" y2="48" stroke="#F2CD6B" stroke-width="2" opacity=".9"/>
+              </g>
+            </svg>
+          </div>
+          <div class="body"><div class="label">Search</div><h3>Search Programs</h3><p>Browse 1,907 women&rsquo;s programs by name, state, or fit</p></div>
+        </a>
+
+        <div class="row2">
+          <div class="mini"><div class="num">05</div><h4>Divisions</h4><p>D1 → NJCAA</p><div class="arrow">Browse →</div></div>
+          <div class="mini"><div class="num">107</div><h4>Conferences</h4><p>All leagues</p><div class="arrow">Browse →</div></div>
+        </div>
+        <div style="height:12px"></div>
+        <div class="row2">
+          <div class="mini"><div class="num">NET</div><h4>Connections</h4><p>Club &amp; hometown</p><div class="arrow">Explore →</div></div>
+          <div class="mini"><div class="num">NEW</div><h4>Program Intel</h4><p>Changes &amp; moves</p><div class="arrow">View →</div></div>
+        </div>
+      </div></div>
+      <div class="tabbar">
+        <div class="ti on" style="color:var(--blue)"><div class="dot"></div>Explore</div>
+        <div class="ti"><div class="dot"></div>Match</div>
+        <div class="ti"><div class="dot"></div>My Fit</div>
+        <div class="ti"><div class="dot"></div>Saved</div>
+        <div class="ti"><div class="dot"></div>More</div>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- ============ CONCEPT 3: COURT ZONES (SPATIAL) ============ -->
+  <div class="concept c3">
+    <div class="concept-meta">
+      <span class="num">3</span><h2>Court Zones</h2><span class="tag">Spatial nav</span>
+      <p><b>Technique:</b> the six navigation destinations are laid out as the <b>six rotational zones</b> of a volleyball half-court. Tapping a zone navigates — the screen literally is a court.</p>
+      <p class="why"><b>Why it works:</b> nothing else on the App Store navigates like this; it&rsquo;s instantly volleyball and memorable. Best as a signature &ldquo;hero&rdquo; treatment — pair with a scrollable list below for power users. (Highest concept risk, highest distinctiveness.)</p>
+    </div>
+    <div class="phone"><div class="screen">
+      <div class="status" style="color:#fff;background:#0b1f3a"><span>9:41</span><span>RosterWise</span></div>
+      <div class="scroll">
+        <div class="hdr"><div class="brand">Roster<span>Wise</span></div><div class="gpill">Women&rsquo;s ▾</div></div>
+        <div class="intro"><div class="label">Roster Intelligence</div><h2>Take the court</h2><p>Each zone opens a way to explore.</p></div>
+        <div class="courtwrap">
+          <svg width="100%" viewBox="0 0 344 470">
+            <defs>
+              <linearGradient id="zg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16335c"/><stop offset="1" stop-color="#0e2444"/></linearGradient>
+            </defs>
+            <!-- court outline -->
+            <rect x="6" y="6" width="332" height="458" rx="10" fill="url(#zg)" stroke="#C9A24A" stroke-width="2"/>
+            <!-- net at top -->
+            <rect x="6" y="6" width="332" height="14" fill="#0a1a33"/>
+            <line x1="6" y1="20" x2="338" y2="20" stroke="#C9A24A" stroke-width="2"/>
+            <!-- attack line -->
+            <line x1="6" y1="172" x2="338" y2="172" stroke="#39527a" stroke-width="1.5" stroke-dasharray="5 5"/>
+            <!-- 6 zone cells -->
+            <g font-family="Outfit" >
+              <!-- front row: 4,3,2 -->
+              <g><rect x="16" y="30" width="100" height="130" rx="12" fill="#1b3a66" stroke="#2c4d80"/>
+                 <text x="30" y="52" fill="#7e93b3" font-size="11" font-weight="700">ZONE 4</text>
+                 <text x="30" y="92" fill="#fff" font-size="16" font-weight="800">Search</text>
+                 <text x="30" y="110" fill="#9fb2cd" font-size="10.5">1,907 programs</text></g>
+              <g><rect x="122" y="30" width="100" height="130" rx="12" fill="#22467c" stroke="#2c4d80"/>
+                 <text x="136" y="52" fill="#d9b75e" font-size="11" font-weight="700">ZONE 3</text>
+                 <text x="136" y="92" fill="#fff" font-size="16" font-weight="800">Divisions</text>
+                 <text x="136" y="110" fill="#9fb2cd" font-size="10.5">D1 → NJCAA</text></g>
+              <g><rect x="228" y="30" width="100" height="130" rx="12" fill="#1b3a66" stroke="#2c4d80"/>
+                 <text x="242" y="52" fill="#7e93b3" font-size="11" font-weight="700">ZONE 2</text>
+                 <text x="242" y="92" fill="#fff" font-size="16" font-weight="800">Confs</text>
+                 <text x="242" y="110" fill="#9fb2cd" font-size="10.5">107 leagues</text></g>
+              <!-- back row: 5,6,1 -->
+              <g><rect x="16" y="186" width="100" height="268" rx="12" fill="#15335c" stroke="#2c4d80"/>
+                 <text x="30" y="210" fill="#7e93b3" font-size="11" font-weight="700">ZONE 5</text>
+                 <text x="30" y="250" fill="#fff" font-size="16" font-weight="800">Connect</text>
+                 <text x="30" y="268" fill="#9fb2cd" font-size="10.5">Club &amp;</text>
+                 <text x="30" y="282" fill="#9fb2cd" font-size="10.5">hometown</text></g>
+              <g><rect x="122" y="186" width="100" height="268" rx="12" fill="#15335c" stroke="#2c4d80"/>
+                 <text x="136" y="210" fill="#7e93b3" font-size="11" font-weight="700">ZONE 6</text>
+                 <text x="136" y="250" fill="#fff" font-size="16" font-weight="800">Program</text>
+                 <text x="136" y="268" fill="#fff" font-size="16" font-weight="800">Intel</text>
+                 <text x="136" y="286" fill="#9fb2cd" font-size="10.5">Changes</text></g>
+              <g><rect x="228" y="186" width="100" height="268" rx="12" fill="#15335c" stroke="#2c4d80"/>
+                 <text x="242" y="210" fill="#7e93b3" font-size="11" font-weight="700">ZONE 1</text>
+                 <text x="242" y="250" fill="#fff" font-size="16" font-weight="800">My Fit</text>
+                 <text x="242" y="268" fill="#9fb2cd" font-size="10.5">Your</text>
+                 <text x="242" y="282" fill="#9fb2cd" font-size="10.5">profile</text></g>
+            </g>
+            <!-- serve trajectory accent -->
+            <path d="M40 440 Q172 300 320 70" fill="none" stroke="#E2B33C" stroke-width="2" stroke-dasharray="2 6" opacity=".7"/>
+            <circle cx="320" cy="70" r="4" fill="#F2CD6B"/>
+          </svg>
+        </div>
+      </div>
+      <div class="tabbar">
+        <div class="ti on" style="color:var(--gold2)"><div class="dot"></div>Explore</div>
+        <div class="ti"><div class="dot"></div>Match</div>
+        <div class="ti"><div class="dot"></div>My Fit</div>
+        <div class="ti"><div class="dot"></div>Saved</div>
+        <div class="ti"><div class="dot"></div>More</div>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- ============ CONCEPT 4: STAT LINE (DASHBOARD) ============ -->
+  <div class="concept c4">
+    <div class="concept-meta">
+      <span class="num">4</span><h2>Stat Line</h2><span class="tag">Data dashboard</span>
+      <p><b>Technique:</b> a data-forward, dark &ldquo;analyst terminal&rdquo; — monospaced tabular numerals, animated counters, sparkline trends, and a box-score visual language with each destination shown as a stat row.</p>
+      <p class="why"><b>Why it works:</b> RosterWise&rsquo;s wedge is depth of roster data — this leans all the way into that. It signals &ldquo;serious tool&rdquo; to recruiting families and reads very differently from soft marketing UIs. Sparklines hint at the trend analysis to come.</p>
+    </div>
+    <div class="phone"><div class="screen">
+      <div class="status" style="color:#fff;background:#0a1118"><span>9:41</span><span>RosterWise</span></div>
+      <div class="scroll">
+        <div class="hdr"><div class="brand">Roster<span>Wise</span> <span style="color:#3d4a5a;font-weight:600">/ explore</span></div>
+          <div class="live"><span class="b"></span>2025-26</div></div>
+        <div class="counters">
+          <div class="cc"><div class="v">1,907</div><div class="l">Programs</div>
+            <svg class="spark" width="100%" height="20" viewBox="0 0 120 20" preserveAspectRatio="none"><polyline points="0,16 20,14 40,15 60,9 80,10 100,5 120,6" fill="none" stroke="#42A5F5" stroke-width="2"/></svg></div>
+          <div class="cc"><div class="v">31,479</div><div class="l">Players</div>
+            <svg class="spark" width="100%" height="20" viewBox="0 0 120 20" preserveAspectRatio="none"><polyline points="0,15 20,16 40,11 60,12 80,7 100,8 120,4" fill="none" stroke="#42A5F5" stroke-width="2"/></svg></div>
+          <div class="cc"><div class="v">107</div><div class="l">Conferences</div>
+            <svg class="spark" width="100%" height="20" viewBox="0 0 120 20" preserveAspectRatio="none"><polyline points="0,12 20,12 40,10 60,11 80,9 100,9 120,8" fill="none" stroke="#42A5F5" stroke-width="2"/></svg></div>
+          <div class="cc"><div class="v">70<span>+</span></div><div class="l">Countries</div>
+            <svg class="spark" width="100%" height="20" viewBox="0 0 120 20" preserveAspectRatio="none"><polyline points="0,17 20,13 40,14 60,10 80,11 100,7 120,6" fill="none" stroke="#42A5F5" stroke-width="2"/></svg></div>
+        </div>
+        <div class="sec-h">Explore the dataset</div>
+        <div class="feed">
+          <div class="card"><div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#42A5F5" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg></div>
+            <div><h4>Search Programs</h4><p>Full-text + filters</p></div>
+            <div class="meta"><div class="n">1,907</div><div class="t">indexed</div></div></div>
+          <div class="card"><div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#42A5F5" stroke-width="2"><path d="M6 9V4h12v5a6 6 0 01-12 0z"/><path d="M9 20h6M12 15v5"/></svg></div>
+            <div><h4>Divisions</h4><p>D1 · D2 · D3 · NAIA · NJCAA</p></div>
+            <div class="meta"><div class="n">5</div><div class="t">levels</div></div></div>
+          <div class="card"><div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#42A5F5" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V6z"/></svg></div>
+            <div><h4>Conferences</h4><p>Standings &amp; members</p></div>
+            <div class="meta"><div class="n">107</div><div class="t">leagues</div></div></div>
+          <div class="card"><div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#42A5F5" stroke-width="2"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="11" r="2.4"/><path d="M4 19c0-3 2.5-5 5-5s5 2 5 5"/></svg></div>
+            <div><h4>Connections</h4><p>Club &amp; hometown graph</p></div>
+            <div class="meta"><div class="n">LIVE</div><div class="t">network</div></div></div>
+          <div class="card"><div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#42A5F5" stroke-width="2"><path d="M4 10a8 8 0 0114-5l2 2M20 14a8 8 0 01-14 5l-2-2"/></svg></div>
+            <div><h4>Program Intel</h4><p>Division moves &amp; changes</p></div>
+            <div class="meta"><div class="n">NEW</div><div class="t">feed</div></div></div>
+        </div>
+      </div>
+      <div class="tabbar">
+        <div class="ti on" style="color:var(--blue2)"><div class="dot"></div>Explore</div>
+        <div class="ti"><div class="dot"></div>Match</div>
+        <div class="ti"><div class="dot"></div>My Fit</div>
+        <div class="ti"><div class="dot"></div>Saved</div>
+        <div class="ti"><div class="dot"></div>More</div>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- ============ CONCEPT 5: TRAJECTORY (GLASS) ============ -->
+  <div class="concept c5">
+    <div class="concept-meta">
+      <span class="num">5</span><h2>Trajectory</h2><span class="tag">Glassmorphism</span>
+      <p><b>Technique:</b> frosted translucent cards float over a soft navy color-mesh, with a single gold <b>serve-arc</b> sweeping behind the hero. Depth comes from blur, layering, and inner highlights.</p>
+      <p class="why"><b>Why it works:</b> it&rsquo;s the most modern, &ldquo;iOS-native&rdquo; of the five and feels premium and energetic without emoji. The serve trajectory is the one literal volleyball cue, used as motion rather than decoration. Translates cleanly to soccer (swap arc for a pass line).</p>
+    </div>
+    <div class="phone"><div class="screen">
+      <div class="status" style="color:#fff;background:#0a1730"><span>9:41</span><span>RosterWise</span></div>
+      <div class="scroll">
+        <div class="mesh"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div>
+        <svg class="arc" viewBox="0 0 380 200" preserveAspectRatio="none">
+          <path d="M-10 190 Q160 -40 390 120" fill="none" stroke="#F2CD6B" stroke-width="2.5" opacity=".55" stroke-dasharray="1 7" stroke-linecap="round"/>
+          <circle cx="300" cy="78" r="5" fill="#F2CD6B" opacity=".9"/>
+        </svg>
+        <div class="content">
+          <div class="brand">Roster<span>Wise</span></div>
+
+          <div class="glass hero">
+            <div class="label">Roster Intelligence</div>
+            <h3>Search Programs</h3>
+            <div class="pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#e3ecfb" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>Browse 1,907 women&rsquo;s programs</div>
+          </div>
+
+          <div class="glass stats">
+            <div><div class="v">1,907</div><div class="l">Programs</div></div>
+            <div><div class="v">31<span>K</span></div><div class="l">Players</div></div>
+            <div><div class="v">107</div><div class="l">Confs</div></div>
+            <div><div class="v">70<span>+</span></div><div class="l">Countries</div></div>
+          </div>
+
+          <div class="grid">
+            <div class="glass gcard"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M6 9V4h12v5a6 6 0 01-12 0z"/><path d="M9 20h6M12 15v5"/></svg></div><div class="label">Browse</div><h4>Divisions</h4><p>D1 → NJCAA</p></div>
+            <div class="glass gcard"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V6z"/></svg></div><div class="label">Browse</div><h4>Conferences</h4><p>107 leagues</p></div>
+            <div class="glass gcard"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="11" r="2.4"/><path d="M4 19c0-3 2.5-5 5-5s5 2 5 5"/></svg></div><div class="label">Network</div><h4>Connections</h4><p>Club &amp; hometown</p></div>
+            <div class="glass gcard"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M4 10a8 8 0 0114-5l2 2M20 14a8 8 0 01-14 5l-2-2"/></svg></div><div class="label">Program Intel</div><h4>Changes</h4><p>Moves &amp; updates</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="tabbar">
+        <div class="ti on" style="color:var(--gold2)"><div class="dot"></div>Explore</div>
+        <div class="ti"><div class="dot"></div>Match</div>
+        <div class="ti"><div class="dot"></div>My Fit</div>
+        <div class="ti"><div class="dot"></div>Saved</div>
+        <div class="ti"><div class="dot"></div>More</div>
+      </div>
+    </div></div>
+  </div>
+
+</div>
+
+<div class="footnote">
+  <p><b>My recommendation:</b> <b>Concept 1 (Center Court / Bento)</b> is the safest high-impact upgrade — it keeps today&rsquo;s structure and tap targets but feels dramatically more premium, and the shared court substrate is a reusable brand device. <b>Concept 5 (Trajectory / Glass)</b> is the most contemporary and ports cleanly to the soccer app. <b>Concept 3 (Court Zones)</b> is the boldest brand statement if you want something no competitor has — best piloted as an A/B test. Concepts 2 and 4 are strong divergent directions (editorial vs. analyst) if you want to reposition tone. All five avoid emoji and express volleyball through geometry, not literal balls.</p>
+</div>
+
+</body>
+</html>

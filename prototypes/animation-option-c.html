@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RosterWise Animation Concept C — Before/After Flip</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #1a2744;
+    --navy-dark: #0f1a2e;
+    --gold: #c8a44e;
+    --gold-light: #dabb6a;
+    --cream: #f8f6f0;
+    --white: #ffffff;
+    --red: #e74c3c;
+    --green: #27ae60;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--cream);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    gap: 24px;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: var(--navy);
+    text-align: center;
+  }
+
+  .concept-label {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--gold);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .description {
+    max-width: 700px;
+    text-align: center;
+    font-size: 14px;
+    color: #5a6178;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  /* ===== CARD FLIP CONTAINER ===== */
+  .flip-container {
+    max-width: 720px;
+    width: 100%;
+    perspective: 2000px;
+  }
+
+  .flipper {
+    position: relative;
+    width: 100%;
+    height: 520px;
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-style: preserve-3d;
+    animation: autoFlip 10s ease-in-out infinite;
+  }
+
+  @keyframes autoFlip {
+    0%, 40% { transform: rotateY(0deg); }
+    50%, 90% { transform: rotateY(180deg); }
+    100% { transform: rotateY(360deg); }
+  }
+
+  .flip-front, .flip-back {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(26, 39, 68, 0.15);
+  }
+
+  .flip-back {
+    transform: rotateY(180deg);
+  }
+
+  /* --- FRONT: Before (Old Way) --- */
+  .before-card {
+    background: linear-gradient(165deg, #2d1f1f 0%, #1a1a1a 100%);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .before-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+
+  .before-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--red);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .before-label::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--red);
+    animation: pulse-dot 1.5s ease-in-out infinite;
+  }
+
+  @keyframes pulse-dot {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.8); }
+  }
+
+  .before-time {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .before-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+
+  .before-subtitle {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 24px;
+    line-height: 1.6;
+  }
+
+  /* Desktop scene */
+  .desktop-scene {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .monitor {
+    width: 280px;
+    background: #111;
+    border-radius: 8px;
+    border: 2px solid #333;
+    overflow: hidden;
+  }
+
+  .monitor-screen {
+    padding: 12px;
+    min-height: 100px;
+  }
+
+  .monitor-bar {
+    background: #222;
+    padding: 6px 10px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .monitor-bar-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #444;
+  }
+
+  .monitor-bar-url {
+    font-size: 8px;
+    color: #555;
+    margin-left: 6px;
+  }
+
+  /* Tab explosion effect */
+  .tab-explosion {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: center;
+  }
+
+  .mini-tab {
+    width: 36px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    font-size: 5px;
+    color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mini-tab:nth-child(odd) {
+    animation: tabFlicker 2s ease-in-out infinite;
+  }
+
+  .mini-tab:nth-child(even) {
+    animation: tabFlicker 2s ease-in-out infinite 0.5s;
+  }
+
+  @keyframes tabFlicker {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 1; }
+  }
+
+  .monitor-stand {
+    width: 80px;
+    height: 24px;
+    background: #333;
+    margin: 0 auto;
+    clip-path: polygon(20% 0, 80% 0, 100% 100%, 0% 100%);
+  }
+
+  /* Frustration indicators */
+  .frustration-row {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+  }
+
+  .frustration-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .frustration-icon {
+    font-size: 20px;
+  }
+
+  .frustration-val {
+    font-weight: 700;
+    color: var(--red);
+  }
+
+  /* Zzz animation */
+  .zzz {
+    position: absolute;
+    right: 40px;
+    bottom: 120px;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.15);
+    animation: zzz 3s ease-in-out infinite;
+  }
+
+  .zzz:nth-child(2) {
+    right: 60px;
+    bottom: 150px;
+    font-size: 18px;
+    animation-delay: 0.5s;
+  }
+
+  @keyframes zzz {
+    0%, 100% { opacity: 0; transform: translateY(0) rotate(-10deg); }
+    50% { opacity: 1; transform: translateY(-20px) rotate(10deg); }
+  }
+
+  /* Person emoji */
+  .tired-person {
+    position: absolute;
+    left: 40px;
+    bottom: 60px;
+    font-size: 48px;
+    animation: slump 4s ease-in-out infinite;
+  }
+
+  @keyframes slump {
+    0%, 100% { transform: rotate(0deg); }
+    50% { transform: rotate(-15deg) translateY(5px); }
+  }
+
+  /* --- BACK: After (RosterWise) --- */
+  .after-card {
+    background: linear-gradient(165deg, var(--navy-dark) 0%, var(--navy) 40%, #243352 100%);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .after-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 30% 80%, rgba(200, 164, 78, 0.06) 0%, transparent 60%),
+      radial-gradient(ellipse at 70% 20%, rgba(200, 164, 78, 0.04) 0%, transparent 50%);
+    pointer-events: none;
+  }
+
+  .after-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .after-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--green);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .after-label::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--green);
+  }
+
+  .after-logo {
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--gold);
+  }
+
+  .after-logo span { color: var(--white); }
+
+  .after-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 8px;
+    line-height: 1.2;
+    position: relative;
+    z-index: 1;
+  }
+
+  .after-subtitle {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 24px;
+    line-height: 1.6;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Phone mockup */
+  .phone-scene {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .phone {
+    width: 200px;
+    background: #111;
+    border-radius: 24px;
+    border: 3px solid #333;
+    padding: 12px 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  }
+
+  .phone-screen {
+    background: var(--white);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .phone-app-bar {
+    background: var(--navy-dark);
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .phone-app-logo {
+    font-size: 10px;
+    font-weight: 800;
+    color: var(--gold);
+  }
+
+  .phone-app-logo span { color: var(--white); }
+
+  .phone-fit-badge {
+    font-size: 8px;
+    font-weight: 700;
+    background: var(--gold);
+    color: var(--navy-dark);
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+
+  .phone-content {
+    padding: 10px;
+  }
+
+  .phone-program {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    background: var(--cream);
+    border-radius: 8px;
+    margin-bottom: 6px;
+  }
+
+  .phone-program-bar {
+    width: 4px;
+    height: 28px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  .phone-program-name {
+    font-size: 9px;
+    font-weight: 700;
+    color: var(--navy);
+  }
+
+  .phone-program-meta {
+    font-size: 7px;
+    color: #888;
+  }
+
+  .phone-program-score {
+    font-size: 14px;
+    font-weight: 800;
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+
+  .score-green { color: #16a34a; }
+  .score-gold { color: var(--gold); }
+
+  /* Benefits list */
+  .benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 220px;
+  }
+
+  .benefit {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .benefit-check {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(39, 174, 96, 0.15);
+    color: var(--green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .benefit-text {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.4;
+  }
+
+  .benefit-text strong {
+    color: var(--gold);
+  }
+
+  /* Happy person */
+  .happy-person {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    font-size: 40px;
+    animation: nod 2s ease-in-out infinite;
+  }
+
+  @keyframes nod {
+    0%, 100% { transform: rotate(0deg); }
+    50% { transform: rotate(5deg) scale(1.05); }
+  }
+
+  /* Flip hint */
+  .flip-hint {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+  }
+
+  .flip-icon {
+    animation: spin 3s linear infinite;
+  }
+
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  @media (max-width: 640px) {
+    .phone-scene { flex-direction: column; gap: 16px; }
+    .benefits { max-width: 100%; flex-direction: row; flex-wrap: wrap; }
+  }
+</style>
+</head>
+<body>
+
+<p class="concept-label">Concept C</p>
+<h1>Before/After Card Flip</h1>
+<p class="description">A 3D card that automatically flips between "Before" (dark, chaotic, exhausting) and "After" (polished, organized, RosterWise). The contrast is dramatic — same problem, completely different experience. The flip creates a satisfying "reveal" moment.</p>
+
+<div class="flip-container">
+  <div class="flipper">
+
+    <!-- FRONT: Before -->
+    <div class="flip-front before-card">
+      <div class="before-header">
+        <div class="before-label">Before RosterWise</div>
+        <div class="before-time">Week 3 of research...</div>
+      </div>
+      <div class="before-title">The recruiting research grind.</div>
+      <div class="before-subtitle">One website at a time. One roster at a time. One cell in the spreadsheet at a time.</div>
+
+      <div class="desktop-scene">
+        <div class="monitor">
+          <div class="monitor-bar">
+            <span class="monitor-bar-dot"></span>
+            <span class="monitor-bar-dot"></span>
+            <span class="monitor-bar-dot"></span>
+            <span class="monitor-bar-url">athletics.stateu.edu/sports/m-soccer/roster</span>
+          </div>
+          <div class="monitor-screen">
+            <div class="tab-explosion">
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+              <div class="mini-tab">tab</div>
+            </div>
+          </div>
+        </div>
+        <div class="monitor-stand"></div>
+
+        <div class="frustration-row">
+          <div class="frustration-item">
+            <span class="frustration-icon">🖥️</span>
+            <span><span class="frustration-val">47</span> sites visited</span>
+          </div>
+          <div class="frustration-item">
+            <span class="frustration-icon">⏰</span>
+            <span><span class="frustration-val">12+ hrs</span> spent</span>
+          </div>
+          <div class="frustration-item">
+            <span class="frustration-icon">😩</span>
+            <span><span class="frustration-val">Still</span> guessing</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tired-person">😫</div>
+      <div class="zzz" style="right: 50px; bottom: 130px;">💤</div>
+      <div class="zzz" style="right: 70px; bottom: 160px; font-size: 16px;">💤</div>
+    </div>
+
+    <!-- BACK: After -->
+    <div class="flip-back after-card">
+      <div class="after-header">
+        <div class="after-label">With RosterWise</div>
+        <div class="after-logo"><span>Roster</span>Wise&trade;</div>
+      </div>
+      <div class="after-title">The full picture. Instantly.</div>
+      <div class="after-subtitle">Every program. Every roster. Personalized fit scores. In minutes.</div>
+
+      <div class="phone-scene">
+        <div class="phone">
+          <div class="phone-screen">
+            <div class="phone-app-bar">
+              <div class="phone-app-logo"><span>Roster</span>Wise</div>
+              <div class="phone-fit-badge">My RosterFit</div>
+            </div>
+            <div class="phone-content">
+              <div class="phone-program">
+                <div class="phone-program-bar" style="background: #1a5632;"></div>
+                <div>
+                  <div class="phone-program-name">Michigan State</div>
+                  <div class="phone-program-meta">D1 Big Ten &middot; 3 Sr MF</div>
+                </div>
+                <div class="phone-program-score score-green">92</div>
+              </div>
+              <div class="phone-program">
+                <div class="phone-program-bar" style="background: #861F41;"></div>
+                <div>
+                  <div class="phone-program-name">Virginia Tech</div>
+                  <div class="phone-program-meta">D1 ACC &middot; 2 Sr MF</div>
+                </div>
+                <div class="phone-program-score score-green">87</div>
+              </div>
+              <div class="phone-program">
+                <div class="phone-program-bar" style="background: #003366;"></div>
+                <div>
+                  <div class="phone-program-name">Villanova</div>
+                  <div class="phone-program-meta">D1 Big East &middot; Height: 98%</div>
+                </div>
+                <div class="phone-program-score score-gold">79</div>
+              </div>
+              <div class="phone-program">
+                <div class="phone-program-bar" style="background: #CC0000;"></div>
+                <div>
+                  <div class="phone-program-name">Ohio State</div>
+                  <div class="phone-program-meta">D1 Big Ten &middot; 4 Sr MF</div>
+                </div>
+                <div class="phone-program-score score-green">94</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="benefits">
+          <div class="benefit">
+            <div class="benefit-check">✓</div>
+            <div class="benefit-text"><strong>2,235 programs</strong> analyzed instantly</div>
+          </div>
+          <div class="benefit">
+            <div class="benefit-check">✓</div>
+            <div class="benefit-text"><strong>Position depth</strong> and class-year gaps</div>
+          </div>
+          <div class="benefit">
+            <div class="benefit-check">✓</div>
+            <div class="benefit-text"><strong>Academic fit</strong> and school profiles</div>
+          </div>
+          <div class="benefit">
+            <div class="benefit-check">✓</div>
+            <div class="benefit-text"><strong>$40 one-time</strong> — no subscriptions</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="happy-person">😌</div>
+    </div>
+
+  </div>
+</div>
+
+<div class="flip-hint">
+  <span class="flip-icon">🔄</span> Auto-flips every 5 seconds — would be user-triggered on the actual site
+</div>
+
+</body>
+</html>
