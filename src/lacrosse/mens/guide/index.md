@@ -32,9 +32,9 @@ children:
     summary: "What coaches actually want to see — by position, including FOGO and LSM — with direct guidance from named D1 head coaches and the pre-September 1 reality."
     status: live
   - title: "What Men's College Lacrosse Coaches Look for by Position"
-    url: /lacrosse/mens/guide/what-coaches-look-for/
-    summary: "What coaches evaluate for Attack, Midfield, Defense, LSM, FOGO, and Goalie."
-    status: coming-soon
+    url: /lacrosse/mens/guide/coaches-look-for-by-position/
+    summary: "What coaches evaluate for Attack, Midfield, Defense, LSM, FOGO, and Goalie — with primary-source NCAA rules and named-coach guidance."
+    status: live
 ---
 
 Men's lacrosse-specific recruiting guides — covering timelines, scholarships, pathways, and position-specific evaluation. These guides are in development and will publish into this section as they're completed.
