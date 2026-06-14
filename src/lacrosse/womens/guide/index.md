@@ -29,8 +29,8 @@ children:
     status: live
   - title: "The Women's College Lacrosse Club & Showcase Pathway"
     url: /lacrosse/womens/guide/club-pathways/
-    summary: "How club lacrosse, the summer circuit, and showcases shape recruiting."
-    status: coming-soon
+    summary: "A family orientation to the IWLCA Tournament Series, USA Lacrosse, and the broader club ecosystem — plus the questions to ask local sources."
+    status: live
   - title: "Draw Control Recruiting in Women's College Lacrosse"
     url: /lacrosse/womens/guide/draw-control/
     summary: "Why the draw specialist is one of the most valued roles, and how coaches evaluate it."

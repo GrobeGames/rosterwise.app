@@ -21,8 +21,8 @@ children:
     status: live
   - title: "The Men's College Lacrosse Club & Showcase Pathway"
     url: /lacrosse/mens/guide/club-pathways/
-    summary: "How club lacrosse, the summer circuit, and showcases shape recruiting."
-    status: coming-soon
+    summary: "A family orientation to the National Lacrosse Federation, IMLCA Players Summit, USA Lacrosse, and the broader club ecosystem — plus the questions to ask local sources."
+    status: live
   - title: "International Recruiting in Men's College Lacrosse"
     url: /lacrosse/mens/guide/international-recruiting/
     summary: "The Canadian box-to-field pipeline (184 players at D1 in 2023), the Haudenosaunee Nationals, the F-1 visa/NIL reality, and the 2028 Olympics — what international families need to know."
