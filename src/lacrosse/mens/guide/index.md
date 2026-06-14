@@ -15,10 +15,10 @@ children:
     url: /lacrosse/mens/guide/recruiting-timeline/
     summary: "The September 1 contact rule, typical timelines by division, and the current recruiting landscape."
     status: live
-  - title: "How Men's College Lacrosse Scholarships Work"
-    url: /lacrosse/mens/guide/scholarships/
-    summary: "Equivalency scholarships, the House settlement impact, roster limits, and what families should expect."
-    status: coming-soon
+  - title: "Men's Lacrosse Scholarships After the House Settlement"
+    url: /lacrosse/mens/guide/scholarships-after-house-settlement/
+    summary: "The House settlement moved D1 men's lacrosse from 12.6 to up to 48 scholarships — but the reality varies dramatically by program. An honest, division-by-division family guide."
+    status: live
   - title: "The Men's College Lacrosse Club & Showcase Pathway"
     url: /lacrosse/mens/guide/club-pathways/
     summary: "How club lacrosse, the summer circuit, and showcases shape recruiting."

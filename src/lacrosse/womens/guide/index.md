@@ -15,10 +15,10 @@ children:
     url: /lacrosse/womens/guide/recruiting-timeline/
     summary: "The September 1 contact rule, typical timelines by division, and the current recruiting landscape."
     status: live
-  - title: "How Women's College Lacrosse Scholarships Work"
-    url: /lacrosse/womens/guide/scholarships/
-    summary: "Equivalency scholarships, the House settlement impact, roster limits, and what families should expect."
-    status: coming-soon
+  - title: "Women's Lacrosse Scholarships After the House Settlement"
+    url: /lacrosse/womens/guide/scholarships-after-house-settlement/
+    summary: "The House settlement moved D1 women's lacrosse from 12 to up to 38 scholarships — but the reality is more complex. An honest, division-by-division family guide."
+    status: live
   - title: "The Women's College Lacrosse Club & Showcase Pathway"
     url: /lacrosse/womens/guide/club-pathways/
     summary: "How club lacrosse, the summer circuit, and showcases shape recruiting."
