@@ -31,6 +31,10 @@ children:
     url: /lacrosse/womens/guide/club-pathways/
     summary: "A family orientation to the IWLCA Tournament Series, USA Lacrosse, and the broader club ecosystem — plus the questions to ask local sources."
     status: live
+  - title: "Women's Lacrosse ID Camps and Tournaments"
+    url: /lacrosse/womens/guide/id-camps-and-tournaments/
+    summary: "How college ID camps and tournaments differ, the lacrosse-specific NCAA camp bylaw, the major event operators, and how to time it all to the recruiting calendar."
+    status: live
   - title: "Draw Control Recruiting in Women's College Lacrosse"
     url: /lacrosse/womens/guide/draw-control/
     summary: "Why the draw specialist is one of the most valued roles, and how coaches evaluate it."

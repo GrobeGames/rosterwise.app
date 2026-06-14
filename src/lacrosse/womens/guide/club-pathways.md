@@ -180,7 +180,7 @@ Some general framework that holds across the landscape:
 3. College coaches evaluate athletes at tournaments and showcases — especially IWLCA Tournament Series events and other major events with strong coach attendance
 4. Communication between athletes and college coaches operates under [NCAA recruiting rules](/lacrosse/guide/september-1-junior-year-rule/), which restrict initial substantive communication until September 1 of junior year for D1
 5. Club coaches often play a significant role in college recruiting through their relationships and recommendations
-6. Athletes often participate in college ID camps and prospect days as supplementary evaluation opportunities (covered in our ID Camps and Tournaments guide when available)
+6. Athletes often participate in college ID camps and prospect days as supplementary evaluation opportunities (covered in our [ID Camps and Tournaments guide](/lacrosse/womens/guide/id-camps-and-tournaments/))
 
 **The honest reality**: While this general flow holds, the specific dynamics vary enormously by region, club, and family situation. A family in a major lacrosse hotbed (Maryland, Long Island, Pennsylvania, certain Connecticut and Massachusetts areas) faces a different ecosystem than a family in a region where women's lacrosse is still developing.
 
