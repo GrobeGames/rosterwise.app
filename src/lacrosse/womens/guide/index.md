@@ -23,6 +23,10 @@ children:
     url: /lacrosse/womens/guide/international-recruiting/
     summary: "The growing international landscape — Canada, England, Australia — plus the F-1 visa/NIL reality and the 2028 Olympics, the first to include women's lacrosse."
     status: live
+  - title: "Recruiting Video for Women's Lacrosse"
+    url: /lacrosse/womens/guide/recruiting-video/
+    summary: "What coaches actually want to see — by position, including draw control — with direct guidance from named D1 head coaches and the pre-September 1 reality."
+    status: live
   - title: "The Women's College Lacrosse Club & Showcase Pathway"
     url: /lacrosse/womens/guide/club-pathways/
     summary: "How club lacrosse, the summer circuit, and showcases shape recruiting."

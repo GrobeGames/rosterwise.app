@@ -27,6 +27,10 @@ children:
     url: /lacrosse/mens/guide/international-recruiting/
     summary: "The Canadian box-to-field pipeline (184 players at D1 in 2023), the Haudenosaunee Nationals, the F-1 visa/NIL reality, and the 2028 Olympics — what international families need to know."
     status: live
+  - title: "Recruiting Video for Men's Lacrosse"
+    url: /lacrosse/mens/guide/recruiting-video/
+    summary: "What coaches actually want to see — by position, including FOGO and LSM — with direct guidance from named D1 head coaches and the pre-September 1 reality."
+    status: live
   - title: "What Men's College Lacrosse Coaches Look for by Position"
     url: /lacrosse/mens/guide/what-coaches-look-for/
     summary: "What coaches evaluate for Attack, Midfield, Defense, LSM, FOGO, and Goalie."
