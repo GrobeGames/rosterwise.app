@@ -36,9 +36,9 @@ children:
     summary: "Why the draw specialist is one of the most valued roles, and how coaches evaluate it."
     status: coming-soon
   - title: "What Women's College Lacrosse Coaches Look for by Position"
-    url: /lacrosse/womens/guide/what-coaches-look-for/
-    summary: "What coaches evaluate for Attack, Midfield, Defense, Goalie, and draw control specialists."
-    status: coming-soon
+    url: /lacrosse/womens/guide/coaches-look-for-by-position/
+    summary: "What coaches evaluate for Attack, Midfield, Defense, Goalie, and draw control specialists — with primary-source NCAA rules and named-coach guidance."
+    status: live
 ---
 
 Women's lacrosse-specific recruiting guides — covering timelines, scholarships, pathways, and position-specific evaluation. These guides are in development and will publish into this section as they're completed.
