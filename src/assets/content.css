@@ -1171,6 +1171,29 @@ li:first-child + .sidebar-subheader {
   margin-bottom: 0;
 }
 
+/* Planned-sport pills (single line) */
+.planned-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--navy);
+  background: var(--white);
+  border: 1px solid #e0dcd4;
+  border-radius: 999px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 8px rgba(26, 39, 68, 0.06);
+  white-space: nowrap;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.planned-pill:hover {
+  transform: translateY(-2px);
+  border-color: var(--gold);
+  box-shadow: 0 4px 14px rgba(200, 164, 78, 0.18);
+}
+
 /* FAQ */
 .faq-list {
   max-width: 700px;
