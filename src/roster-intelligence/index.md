@@ -141,11 +141,11 @@ Recruiting families can browse, filter, and compare programs by division, confer
 
 Comprehensive [soccer recruiting guides](/soccer/) are already available on the website, covering topics from [recruiting timelines](/soccer/mens/guide/recruiting-timeline/) to [what coaches look for](/soccer/mens/guide/what-coaches-look-for/) to [scholarship realities](/soccer/mens/guide/scholarships/).
 
-## Coming next: RosterWise Volleyball and beyond
+## Coming this month: RosterWise Volleyball and Lacrosse
 
-[Women's volleyball](/volleyball/) is the next sport where RosterWise will apply full roster intelligence. Guides and methodology articles are already published, and app data development will begin after the soccer launch.
+[Volleyball](/volleyball/) and lacrosse are the next sports where RosterWise applies full roster intelligence. Both apps release this month, covering men's and women's programs across NCAA D1, D2, D3, NAIA, and NJCAA.
 
-The same core methodology — position depth, class-year gaps, physical profiles, international composition, recruiting pathways, coach tenure, and personalized fit scoring — applies to volleyball with sport-specific adaptations: volleyball positions, volleyball recruiting timelines, and volleyball scholarship structures.
+The same core methodology — position depth, class-year gaps, physical profiles, international composition, recruiting pathways, coach tenure, and personalized fit scoring — applies to each sport with tailored adaptations: sport-specific positions, recruiting timelines, and scholarship structures.
 
 After volleyball, additional sports are planned: lacrosse (men's and women's), softball, field hockey, baseball, and more. Each sport ships as a dedicated app with tailored analysis, built on the same roster intelligence foundation.
 
