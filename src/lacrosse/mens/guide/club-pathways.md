@@ -124,6 +124,19 @@ The NLF describes its events as designed to "consist of a small number of elite 
 
 A critical clarification: the NLF is a federation of specific clubs that runs specific events. It is NOT the only organizing structure in men's club lacrosse. Many strong club programs operate outside the NLF entirely. The NLF is one important entity in the landscape — not the entirety of it.
 
+### Regional coalitions and partnerships
+
+Beyond the NLF structure, **regional coalitions and partnerships between clubs in specific geographic areas** also operate at a national-recruiting level. These coalitions typically form when several established regional clubs partner together to combine their top players into elite teams that compete in selected national recruiting events and tournaments outside the NLF circuit.
+
+These coalitions exist in many regions of the country — Midwest, Mountain West, Southeast, Pacific Northwest, and others — and reflect the reality that strong club programs and elite recruits exist well beyond the NLF's founding-club and affiliate footprint. Some coalitions are operated by individual host clubs that partner with neighboring programs; others are more loosely organized confederations that come together specifically for major recruiting events.
+
+For families researching men's club lacrosse pathways, this matters because:
+- A region's "top" competitive structure may not be an NLF club at all — it may be a regional coalition or a strong independent club
+- Some of the most heavily-attended college recruiting events take place outside the NLF circuit
+- The right club for an athlete depends on the specific competitive structures operating in his region, not on whether those structures are NLF-affiliated
+
+This is another reason why the questions in the next section ("Questions families should ask local sources") matter so much. The structures we can verify from primary sources (NLF, IMLCA Players Summit, USA Lacrosse) are a starting framework — not a complete map.
+
 ## The IMLCA: the coaches' recruiting infrastructure
 
 The Intercollegiate Men's Lacrosse Coaches Association (IMLCA) operates recruiting infrastructure that connects college coaches with prospective student-athletes. Per the IMLCA's official site (imlcacoaches.com) and IMLCARecruits (imlcarecruits.org):

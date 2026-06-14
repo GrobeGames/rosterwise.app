@@ -105,6 +105,19 @@ The IWLCA Experience is open to all girls in specific grade-year ranges (per the
 
 A critical clarification: the IWLCA Tournament Series is one set of recruiting events. It is NOT a complete league structure. Athletes participate in IWLCA events through their club team affiliations — the IWLCA does not directly organize clubs or club-vs-club ongoing competition outside of these specific tournaments.
 
+### Regional coalitions and partnerships
+
+Beyond the IWLCA Tournament Series and the broader event landscape, **regional coalitions and partnerships between women's clubs in specific geographic areas** also operate at meaningful competitive levels. These coalitions typically form when several established regional clubs partner together to combine their top players into elite teams that compete in selected national recruiting events.
+
+These coalitions exist in many regions — Midwest, Mountain West, Southeast, Pacific Northwest, and others — and reflect the reality that strong club programs and elite recruits exist well beyond the established lacrosse hotbeds of the Mid-Atlantic and Northeast. Some coalitions are operated by individual host clubs that partner with neighboring programs; others are more loosely organized confederations that come together specifically for major events.
+
+For families researching women's club lacrosse pathways, this matters because:
+- A region's "top" competitive structure may operate entirely outside the IWLCA Tournament Series circuit
+- Some heavily-attended college recruiting events take place outside both the IWLCA Tournament Series and the major national tournament organizers
+- The right club for an athlete depends on the specific competitive structures operating in her region
+
+This is another reason why the questions in the next section ("Questions families should ask local sources") matter so much. The structures we can verify from primary sources are a starting framework — not a complete map.
+
 ## The broader club landscape: what we can and can't say
 
 The women's club lacrosse landscape has many other tournament organizers, club federations, and recruiting events beyond the IWLCA Tournament Series. Here's the honest picture:
