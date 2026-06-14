@@ -72,9 +72,14 @@
   {% endif %}
 
   <section class="hub-cta">
+    {% include "app-logos.njk" %}
     <h2>Find your athlete&rsquo;s best-fit programs</h2>
     <p>RosterWise&trade; analyzes every roster at every NCAA and NAIA program &mdash; position depth, recruiting patterns, international composition, and more &mdash; so families can target the right schools with confidence.</p>
-    <a href="https://apps.apple.com/us/app/rosterwise-soccer/id6763959341" class="hub-cta-btn">Get RosterWise&trade; &rarr;</a>
+    {% if page.url and '/soccer/' in page.url %}
+    <a href="https://apps.apple.com/us/app/rosterwise-soccer/id6763959341" class="hub-cta-btn" target="_blank" rel="noopener">Download RosterWise&trade; Soccer on the App Store &rarr;</a>
+    {% else %}
+    <a href="/app/" class="hub-cta-btn">See how RosterWise&trade; helps &rarr;</a>
+    {% endif %}
   </section>
 
 </div>

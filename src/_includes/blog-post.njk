@@ -83,10 +83,18 @@ structured_data_type: article
 
   {% if cta %}
   <section class="content-cta">
+    {% include "app-logos.njk" %}
     <h2>{{ cta.heading }}</h2>
     <p>{{ cta.text }}</p>
     {% if cta.price %}<p class="content-cta-price">{{ cta.price }}</p>{% endif %}
     <a href="{{ cta.button_url | default('/#download') }}" class="content-cta-btn">{{ cta.button_text | default('Learn more about RosterWise →') }}</a>
+  </section>
+  {% else %}
+  <section class="content-cta">
+    {% include "app-logos.njk" %}
+    <h2>See how RosterWise helps your family</h2>
+    <p>Deep roster analysis for every NCAA and NAIA program &mdash; position depth, class-year gaps, recruiting patterns, and personalized fit scoring.</p>
+    <a href="/app/" class="content-cta-btn">See how RosterWise&trade; helps &rarr;</a>
   </section>
   {% endif %}
 
