@@ -23,10 +23,10 @@ children:
     url: /lacrosse/mens/guide/club-pathways/
     summary: "How club lacrosse, the summer circuit, and showcases shape recruiting."
     status: coming-soon
-  - title: "Canadian Recruiting in Men's College Lacrosse"
-    url: /lacrosse/mens/guide/canadian-recruiting/
-    summary: "How Canadian players are recruited and what it means for roster composition."
-    status: coming-soon
+  - title: "International Recruiting in Men's College Lacrosse"
+    url: /lacrosse/mens/guide/international-recruiting/
+    summary: "The Canadian box-to-field pipeline (184 players at D1 in 2023), the Haudenosaunee Nationals, the F-1 visa/NIL reality, and the 2028 Olympics — what international families need to know."
+    status: live
   - title: "What Men's College Lacrosse Coaches Look for by Position"
     url: /lacrosse/mens/guide/what-coaches-look-for/
     summary: "What coaches evaluate for Attack, Midfield, Defense, LSM, FOGO, and Goalie."

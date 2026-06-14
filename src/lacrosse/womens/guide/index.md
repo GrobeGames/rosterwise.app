@@ -19,6 +19,10 @@ children:
     url: /lacrosse/womens/guide/scholarships-after-house-settlement/
     summary: "The House settlement moved D1 women's lacrosse from 12 to up to 38 scholarships — but the reality is more complex. An honest, division-by-division family guide."
     status: live
+  - title: "International Recruiting in Women's College Lacrosse"
+    url: /lacrosse/womens/guide/international-recruiting/
+    summary: "The growing international landscape — Canada, England, Australia — plus the F-1 visa/NIL reality and the 2028 Olympics, the first to include women's lacrosse."
+    status: live
   - title: "The Women's College Lacrosse Club & Showcase Pathway"
     url: /lacrosse/womens/guide/club-pathways/
     summary: "How club lacrosse, the summer circuit, and showcases shape recruiting."
