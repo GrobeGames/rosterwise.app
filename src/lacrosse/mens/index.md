@@ -12,7 +12,7 @@ children:
   - title: "Men's College Lacrosse Recruiting Timeline"
     url: /lacrosse/mens/guide/recruiting-timeline/
     summary: "When commitments actually happen — the September 1 contact rule, typical timelines by division, and the current recruiting landscape."
-    status: coming-soon
+    status: live
   - title: "How Men's College Lacrosse Scholarships Work"
     url: /lacrosse/mens/guide/scholarships/
     summary: "Equivalency scholarships, the House settlement impact, roster limits, and what families should realistically expect."

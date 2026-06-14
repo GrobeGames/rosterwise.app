@@ -8,6 +8,15 @@ breadcrumbs:
   - text: Lacrosse
     url: /lacrosse/
   - text: Guides
+children:
+  - title: "The House Settlement and Lacrosse: What Changed in 2025"
+    url: /lacrosse/guide/house-settlement-and-lacrosse/
+    summary: "How the 2025 House v. NCAA settlement reshaped college lacrosse — men's D1 scholarships jumped from 12.6 to 48, women's from 12 to 38 — and what it means for recruiting families."
+    status: live
+  - title: "The September 1 Junior Year Rule: Why Lacrosse Recruiting Is Different"
+    url: /lacrosse/guide/september-1-junior-year-rule/
+    summary: "Lacrosse is the rare NCAA sport that kept the September 1 junior-year initial contact date when most sports moved to June 15. Here's why — and what it means for families."
+    status: coming-soon
 ---
 
 These guides cover topics that apply to both men's and women's college lacrosse. Whether your athlete is just starting to think about recruiting or evaluating final options, this is practical, honest information for families.

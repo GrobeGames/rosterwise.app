@@ -12,7 +12,7 @@ children:
   - title: "Women's College Lacrosse Recruiting Timeline"
     url: /lacrosse/womens/guide/recruiting-timeline/
     summary: "When commitments actually happen — the September 1 contact rule, typical timelines by division, and the current recruiting landscape."
-    status: coming-soon
+    status: live
   - title: "How Women's College Lacrosse Scholarships Work"
     url: /lacrosse/womens/guide/scholarships/
     summary: "Equivalency scholarships, the House settlement impact, roster limits, and what families should realistically expect."

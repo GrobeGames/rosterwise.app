@@ -53,7 +53,7 @@ Even within the same sport and division, individual experiences vary enormously 
 - **Position** — some positions recruit earlier or later depending on the sport
 - **Family circumstances** — finances, geography, and priorities shape everything
 
-**If your family's timeline doesn't match a friend's, that is normal.** Some sports move faster than others — women's volleyball recruiting, for example, historically operates on an even more compressed timeline than women's soccer, with sophomore-year offers being relatively common at the D1 level. For a volleyball-specific breakdown, see our volleyball recruiting timeline (coming soon: [/volleyball/womens/guide/recruiting-timeline/](/volleyball/womens/guide/recruiting-timeline/)). The framework below is a general guide, not a schedule to follow rigidly.
+**If your family's timeline doesn't match a friend's, that is normal.** Some sports move faster than others — women's volleyball recruiting, for example, historically operates on an even more compressed timeline than women's soccer, with sophomore-year offers being relatively common at the D1 level. For a volleyball-specific breakdown, see our volleyball recruiting timeline (coming soon: [/volleyball/womens/guide/recruiting-timeline/](/volleyball/womens/guide/recruiting-timeline/)). Lacrosse runs on a different schedule still — it kept the later September 1 of junior year contact date when most sports moved to June 15 (see [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/)). The framework below is a general guide, not a schedule to follow rigidly.
 
 ## 9th grade (freshman year): foundation, not outreach
 

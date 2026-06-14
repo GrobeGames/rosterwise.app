@@ -113,9 +113,11 @@ D1 has the most complex and restrictive recruiting rules. Key elements:
 
 The date when D1 coaches can first initiate recruiting communication with a prospect varies by sport:
 
-- **June 15 after sophomore year:** Many sports including soccer, field hockey, volleyball, lacrosse, and others
-- **September 1 of junior year:** Some sports including football, basketball, and others
+- **June 15 after sophomore year:** Many sports including soccer, field hockey, volleyball, and others
+- **September 1 of junior year:** Men's and women's lacrosse, baseball, basketball, and others
 - **Other dates apply for some sports** — check the NCAA recruiting calendar for your specific sport
+
+Lacrosse is one of the sports that kept the later September 1 of junior year contact date when most sports moved to June 15 — see [The September 1 Junior Year Rule: Why Lacrosse Recruiting Is Different](/lacrosse/guide/september-1-junior-year-rule/) for why this matters for lacrosse families.
 
 Before the initial contact date, coaches cannot:
 - Call, text, or DM a prospect for recruiting purposes
