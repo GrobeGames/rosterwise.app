@@ -67,7 +67,13 @@ structured_data_type: article
     <h2>{{ cta.heading }}</h2>
     <p>{{ cta.text }}</p>
     {% if cta.price %}<p class="content-cta-price">{{ cta.price }}</p>{% endif %}
-    <a href="{{ cta.button_url | default('https://apps.apple.com/us/app/rosterwise-soccer/id6763959341') }}" class="content-cta-btn" {% if cta.button_url and 'apple.com' in cta.button_url %}target="_blank" rel="noopener"{% endif %}>{{ cta.button_text | default('Download RosterWise Soccer on the App Store →') }}</a>
+    {% set ctaUrl = cta.button_url | default('https://apps.apple.com/us/app/rosterwise-soccer/id6763959341') %}
+    {% set ctaText = cta.button_text | default('Download RosterWise Soccer on the App Store →') %}
+    {% if page.url and '/volleyball/' in page.url %}
+    {% set ctaUrl = 'https://apps.apple.com/us/app/rosterwise-volleyball/id6774745522' %}
+    {% set ctaText = 'Download RosterWise Volleyball on the App Store →' %}
+    {% endif %}
+    <a href="{{ ctaUrl }}" class="content-cta-btn" {% if 'apple.com' in ctaUrl %}target="_blank" rel="noopener"{% endif %}>{{ ctaText }}</a>
     <p style="margin-top: 12px; font-size: 13px; color: rgba(0,0,0,0.5);">Learn more about our <a href="/roster-intelligence/" style="color: var(--gold-dark);">roster intelligence methodology</a>.</p>
   </section>
   {% endif %}
