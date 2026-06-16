@@ -71,6 +71,14 @@ module.exports = function (eleventyConfig) {
     return date.toISOString().split("T")[0];
   });
 
+  // Absolute URL: ensure an external link has a scheme so it is never
+  // resolved relative to rosterwise.app (e.g. "hiuroyals.com" →
+  // "https://hiuroyals.com"). Prevents bogus same-site crawl URLs.
+  eleventyConfig.addFilter("absUrl", (url) => {
+    if (!url) return url;
+    return /^https?:\/\//i.test(url) ? url : "https://" + url;
+  });
+
   return {
     dir: {
       input: "src",

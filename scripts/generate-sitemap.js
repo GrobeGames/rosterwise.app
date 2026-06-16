@@ -88,10 +88,11 @@ const EXCLUDE_PATTERNS = [
   /^admin$/,
 ];
 
-// Files to exclude from sitemap (non-page files like RSS feeds)
+// Files to exclude from sitemap (non-page files like RSS feeds, error pages)
 const EXCLUDE_FILES = [
   /feed\.xml$/,
   /feed\.json$/,
+  /(^|[\\/])404\.html$/,
 ];
 
 // ---------------------------------------------------------------------------
@@ -117,6 +118,7 @@ function findHtmlFiles(dir, relativeTo = SITE_ROOT) {
     if (entry.isDirectory()) {
       results.push(...findHtmlFiles(fullPath, relativeTo));
     } else if (entry.isFile() && entry.name.endsWith(".html")) {
+      if (EXCLUDE_FILES.some((p) => p.test(relPath))) continue;
       results.push(relPath);
     }
   }
