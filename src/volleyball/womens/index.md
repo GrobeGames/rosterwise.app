@@ -73,4 +73,4 @@ Unlike soccer (which has competing national platforms), women's volleyball recru
 
 Our women's volleyball recruiting guides cover the topics families care about most — timelines, scholarships, the club pathway, and more. Each guide is written specifically for women's indoor volleyball recruiting, with honest acknowledgment that experiences vary. Learn more about our [roster intelligence methodology](/roster-intelligence/) and how it applies across sports.
 
-**RosterWise Volleyball releases this month** — covering men's and women's programs across NCAA D1, D2, D3, NAIA, and NJCAA. [RosterWise Soccer](/app/) is [available now on the App Store](https://apps.apple.com/us/app/rosterwise-soccer/id6763959341). The same roster intelligence methodology will apply to every volleyball program.
+**RosterWise Volleyball is now available** — covering men's and women's programs across NCAA D1, D2, D3, NAIA, and NJCAA. [Download it on the App Store](https://apps.apple.com/us/app/rosterwise-volleyball/id6774745522). The same roster intelligence methodology — position depth, class-year gaps, geographic patterns, and personalized fit scoring — applies to every volleyball program.
