@@ -141,9 +141,9 @@ Recruiting families can browse, filter, and compare programs by division, confer
 
 Comprehensive [soccer recruiting guides](/soccer/) are already available on the website, covering topics from [recruiting timelines](/soccer/mens/guide/recruiting-timeline/) to [what coaches look for](/soccer/mens/guide/what-coaches-look-for/) to [scholarship realities](/soccer/mens/guide/scholarships/).
 
-## RosterWise Volleyball is now available; Lacrosse coming this month
+## RosterWise Volleyball and Lacrosse are now available
 
-[RosterWise Volleyball](/volleyball/) is now available on the App Store, applying full roster intelligence to men's and women's programs across NCAA D1, D2, D3, NAIA, and NJCAA. RosterWise Lacrosse releases this month, covering men's and women's programs across the same divisions.
+[RosterWise Volleyball](/volleyball/) is now available on the App Store, applying full roster intelligence to men's and women's programs across NCAA D1, D2, D3, NAIA, and NJCAA. [RosterWise Lacrosse](https://apps.apple.com/us/app/rosterwise-lacrosse/id6778935432) is now available on the App Store, covering men's and women's programs across the same divisions.
 
 The same core methodology — position depth, class-year gaps, physical profiles, international composition, recruiting pathways, coach tenure, and personalized fit scoring — applies to each sport with tailored adaptations: sport-specific positions, recruiting timelines, and scholarship structures.
 

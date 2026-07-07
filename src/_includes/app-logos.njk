@@ -3,12 +3,13 @@
    Chooses which logo(s) to show based on page.url:
      - /soccer/      → Soccer logo only (live, App Store link)
      - /volleyball/  → Volleyball logo only (live, App Store link)
-     - /lacrosse/    → Lacrosse logo only (Coming This Month)
+     - /lacrosse/    → Lacrosse logo only (live, App Store link)
      - everything else (sport-agnostic /guide/, /faq/, /blog/, etc.)
                      → all three logos
    ============================================================ #}
 {% set soccerUrl = "https://apps.apple.com/us/app/rosterwise-soccer/id6763959341" %}
 {% set volleyballUrl = "https://apps.apple.com/us/app/rosterwise-volleyball/id6774745522" %}
+{% set lacrosseUrl = "https://apps.apple.com/us/app/rosterwise-lacrosse/id6778935432" %}
 {% if page.url and '/soccer/' in page.url %}
   {# --- Soccer pages: soccer logo, live, linked to App Store --- #}
   <div style="margin-bottom: 24px;">
@@ -28,13 +29,13 @@
     </a>
   </div>
 {% elif page.url and '/lacrosse/' in page.url %}
-  {# --- Lacrosse pages: lacrosse logo, coming soon --- #}
+  {# --- Lacrosse pages: lacrosse logo, live, linked to App Store --- #}
   <div style="margin-bottom: 24px;">
-    <div style="display: inline-block; text-align: center;">
-      <img src="/assets/rosterwise-lacrosse-app-logo.png" alt="RosterWise Lacrosse App" width="140" height="140" style="border-radius: 18px; box-shadow: 0 4px 16px rgba(0,0,0,0.25); opacity: 0.85;" loading="lazy">
-      <div style="margin-top: 10px; font-size: 10px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.6);">Coming This Month</div>
-      <div style="font-size: 10px; color: rgba(255,255,255,0.4); margin-top: 2px;">Men's &amp; Women's &middot; D1, D2, D3, NAIA, NJCAA</div>
-    </div>
+    <a href="{{ lacrosseUrl }}" target="_blank" rel="noopener" style="display: inline-block; text-align: center; text-decoration: none;">
+      <img src="/assets/rosterwise-lacrosse-app-logo.png" alt="RosterWise Lacrosse App" width="140" height="140" style="border-radius: 18px; box-shadow: 0 4px 16px rgba(0,0,0,0.25);" loading="lazy">
+      <div style="margin-top: 10px; font-size: 10px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold);">Available Now on the App Store</div>
+      <div style="font-size: 10px; color: rgba(255,255,255,0.5); margin-top: 2px;">Men's &amp; Women's &middot; D1, D2, D3, NAIA, NJCAA</div>
+    </a>
   </div>
 {% else %}
   {# --- Sport-agnostic pages: all three app logos --- #}
@@ -49,10 +50,10 @@
       <div style="margin-top: 8px; font-size: 9px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold);">Available Now</div>
       <div style="font-size: 9px; color: rgba(255,255,255,0.45); margin-top: 2px;">Men's &amp; Women's &middot; D1, D2, D3, NAIA, NJCAA</div>
     </a>
-    <div style="text-align: center;">
-      <img src="/assets/rosterwise-lacrosse-app-logo.png" alt="RosterWise Lacrosse" width="120" height="120" style="border-radius: 18px; box-shadow: 0 4px 16px rgba(0,0,0,0.25); opacity: 0.75;" loading="lazy">
-      <div style="margin-top: 8px; font-size: 9px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.5);">Coming This Month</div>
-      <div style="font-size: 9px; color: rgba(255,255,255,0.35); margin-top: 2px;">Men's &amp; Women's &middot; D1, D2, D3, NAIA, NJCAA</div>
-    </div>
+    <a href="{{ lacrosseUrl }}" target="_blank" rel="noopener" style="text-align: center; text-decoration: none;">
+      <img src="/assets/rosterwise-lacrosse-app-logo.png" alt="RosterWise Lacrosse" width="120" height="120" style="border-radius: 18px; box-shadow: 0 4px 16px rgba(0,0,0,0.25);" loading="lazy">
+      <div style="margin-top: 8px; font-size: 9px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold);">Available Now</div>
+      <div style="font-size: 9px; color: rgba(255,255,255,0.45); margin-top: 2px;">Men's &amp; Women's &middot; D1, D2, D3, NAIA, NJCAA</div>
+    </a>
   </div>
 {% endif %}
