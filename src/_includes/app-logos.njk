@@ -10,6 +10,8 @@
 {% set soccerUrl = "https://apps.apple.com/us/app/rosterwise-soccer/id6763959341" %}
 {% set volleyballUrl = "https://apps.apple.com/us/app/rosterwise-volleyball/id6774745522" %}
 {% set lacrosseUrl = "https://apps.apple.com/us/app/rosterwise-lacrosse/id6778935432" %}
+{# TODO(publish): replace the placeholder wrestling App Store id (id0000000000) with the real link once the app is live #}
+{% set wrestlingUrl = "https://apps.apple.com/us/app/rosterwise-wrestling/id0000000000" %}
 {% if page.url and '/soccer/' in page.url %}
   {# --- Soccer pages: soccer logo, live, linked to App Store --- #}
   <div style="margin-bottom: 24px;">
@@ -37,8 +39,17 @@
       <div style="font-size: 10px; color: rgba(255,255,255,0.5); margin-top: 2px;">Men's &amp; Women's &middot; D1, D2, D3, NAIA, NJCAA</div>
     </a>
   </div>
+{% elif page.url and '/wrestling/' in page.url %}
+  {# --- Wrestling pages: wrestling logo, live, linked to App Store --- #}
+  <div style="margin-bottom: 24px;">
+    <a href="{{ wrestlingUrl }}" target="_blank" rel="noopener" style="display: inline-block; text-align: center; text-decoration: none;">
+      <img src="/assets/rosterwise-wrestling-app-logo.png" alt="RosterWise Wrestling App" width="140" height="140" style="border-radius: 18px; box-shadow: 0 4px 16px rgba(0,0,0,0.25);" loading="lazy">
+      <div style="margin-top: 10px; font-size: 10px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold);">Available Now on the App Store</div>
+      <div style="font-size: 10px; color: rgba(255,255,255,0.5); margin-top: 2px;">Men's &amp; Women's &middot; D1, D2, D3, NAIA, NJCAA</div>
+    </a>
+  </div>
 {% else %}
-  {# --- Sport-agnostic pages: all three app logos --- #}
+  {# --- Sport-agnostic pages: all four app logos --- #}
   <div style="display: flex; justify-content: center; gap: 28px; margin-bottom: 24px; flex-wrap: wrap;">
     <a href="{{ soccerUrl }}" target="_blank" rel="noopener" style="text-align: center; text-decoration: none;">
       <img src="/assets/rosterwise-soccer-app-logo.png" alt="RosterWise Soccer" width="120" height="120" style="border-radius: 18px; box-shadow: 0 4px 16px rgba(0,0,0,0.25);" loading="lazy">
@@ -52,6 +63,11 @@
     </a>
     <a href="{{ lacrosseUrl }}" target="_blank" rel="noopener" style="text-align: center; text-decoration: none;">
       <img src="/assets/rosterwise-lacrosse-app-logo.png" alt="RosterWise Lacrosse" width="120" height="120" style="border-radius: 18px; box-shadow: 0 4px 16px rgba(0,0,0,0.25);" loading="lazy">
+      <div style="margin-top: 8px; font-size: 9px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold);">Available Now</div>
+      <div style="font-size: 9px; color: rgba(255,255,255,0.45); margin-top: 2px;">Men's &amp; Women's &middot; D1, D2, D3, NAIA, NJCAA</div>
+    </a>
+    <a href="{{ wrestlingUrl }}" target="_blank" rel="noopener" style="text-align: center; text-decoration: none;">
+      <img src="/assets/rosterwise-wrestling-app-logo.png" alt="RosterWise Wrestling" width="120" height="120" style="border-radius: 18px; box-shadow: 0 4px 16px rgba(0,0,0,0.25);" loading="lazy">
       <div style="margin-top: 8px; font-size: 9px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold);">Available Now</div>
       <div style="font-size: 9px; color: rgba(255,255,255,0.45); margin-top: 2px;">Men's &amp; Women's &middot; D1, D2, D3, NAIA, NJCAA</div>
     </a>

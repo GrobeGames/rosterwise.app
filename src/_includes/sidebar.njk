@@ -296,6 +296,78 @@
 
     <div class="sidebar-divider"></div>
 
+    <!-- ===== WRESTLING ===== -->
+    <div class="sidebar-section">
+      <div class="sidebar-group" data-sidebar-group="wrestling">
+        <button class="sidebar-group-toggle" aria-expanded="false">
+          <span>Wrestling</span>
+          <span class="sidebar-chevron">&#9654;</span>
+        </button>
+        <ul>
+          <li><a href="/wrestling/">Wrestling Overview</a></li>
+          <li class="sidebar-group" data-sidebar-group="wrestling-guides">
+            <button class="sidebar-group-toggle" aria-expanded="false">
+              <span>Wrestling Guides</span>
+              <span class="sidebar-chevron">&#9654;</span>
+            </button>
+            <ul>
+              <li><a href="/wrestling/guide/">All Guides</a></li>
+              <li><a href="/wrestling/guide/understanding-wrestling-weight-classes/">Weight Classes</a></li>
+              <li><a href="/wrestling/guide/recruiting-timeline/">Recruiting Timeline</a></li>
+              <li><a href="/wrestling/guide/weight-management-and-safety/">Weight Management &amp; Safety</a></li>
+              <li><a href="/wrestling/guide/scholarships-and-the-house-settlement/">Scholarships &amp; House</a></li>
+              <li><a href="/wrestling/guide/divisions-explained/">Divisions Explained</a></li>
+              <li><a href="/wrestling/guide/folkstyle-freestyle-and-greco/">Folkstyle, Freestyle &amp; Greco</a></li>
+              <li><a href="/wrestling/guide/what-college-coaches-evaluate/">What Coaches Evaluate</a></li>
+              <li><a href="/wrestling/guide/recruiting-video/">Recruiting Video</a></li>
+              <li><a href="/wrestling/guide/contacting-college-coaches/">Contacting Coaches</a></li>
+              <li><a href="/wrestling/guide/transfer-portal/">Transfer Portal</a></li>
+            </ul>
+          </li>
+          <li class="sidebar-group" data-sidebar-group="wrestling-methodology">
+            <button class="sidebar-group-toggle" aria-expanded="false">
+              <span>Methodology</span>
+              <span class="sidebar-chevron">&#9654;</span>
+            </button>
+            <ul>
+              <li><a href="/wrestling/methodology/">Overview</a></li>
+              <li><a href="/wrestling/methodology/roster-composition/">Roster Composition</a></li>
+              <li><a href="/wrestling/methodology/weight-class-depth/">Weight-Class Depth</a></li>
+              <li><a href="/wrestling/methodology/coach-tenure/">Coach Tenure</a></li>
+              <li><a href="/wrestling/methodology/recruiting-geography/">Recruiting Geography</a></li>
+              <li><a href="/wrestling/methodology/rosterfit-score/">RosterFit Score</a></li>
+            </ul>
+          </li>
+          <li class="sidebar-group" data-sidebar-group="wrestling-mens">
+            <button class="sidebar-group-toggle" aria-expanded="false">
+              <span>Men's Wrestling</span>
+              <span class="sidebar-chevron">&#9654;</span>
+            </button>
+            <ul>
+              <li><a href="/wrestling/mens/">Overview</a></li>
+              <li><a href="/wrestling/mens/guide/mens-college-wrestling-landscape/">The Men's Landscape</a></li>
+              <li><a href="/wrestling/mens/guide/freestyle-greco-offseason/">Freestyle, Greco &amp; Offseason</a></li>
+              <li><a href="/wrestling/mens/guide/">All Men's Guides</a></li>
+            </ul>
+          </li>
+          <li class="sidebar-group" data-sidebar-group="wrestling-womens">
+            <button class="sidebar-group-toggle" aria-expanded="false">
+              <span>Women's Wrestling</span>
+              <span class="sidebar-chevron">&#9654;</span>
+            </button>
+            <ul>
+              <li><a href="/wrestling/womens/">Overview</a></li>
+              <li><a href="/wrestling/womens/guide/ncaa-championship/">NCAA Championship</a></li>
+              <li><a href="/wrestling/womens/guide/freestyle-and-the-olympic-pathway/">Freestyle &amp; Olympic Pathway</a></li>
+              <li><a href="/wrestling/womens/guide/">All Women's Guides</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sidebar-divider"></div>
+
     <!-- ===== FAQ & BLOG (bottom) ===== -->
     <div class="sidebar-section sidebar-section--secondary">
       <a href="/faq/" class="sidebar-standalone-link">FAQ</a>
@@ -329,7 +401,7 @@
   }
 
   // Sport-level groups that should accordion (collapse siblings when one opens)
-  const sportGroups = ['soccer', 'lacrosse', 'volleyball', 'softball'];
+  const sportGroups = ['soccer', 'lacrosse', 'volleyball', 'softball', 'wrestling'];
 
   document.querySelectorAll('.sidebar-group-toggle').forEach(btn => {
     btn.addEventListener('click', () => {

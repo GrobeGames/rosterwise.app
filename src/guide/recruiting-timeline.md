@@ -80,6 +80,8 @@ Sophomore year is when families should start getting organized.
 
 **D2 and NAIA have different rules.** D2 coaches can contact prospects at any time via phone, text, or email. NAIA coaches can contact athletes at any time during high school. D3 coaches also have more flexible communication rules than D1.
 
+**Sport-specific timelines vary.** Wrestling, for example, uses the June 15 contact date, with official and unofficial visits opening August 1 before junior year — see the [wrestling recruiting timeline](/wrestling/guide/recruiting-timeline/). Lacrosse keeps the later September 1 date (see the [September 1 rule](/lacrosse/guide/september-1-junior-year-rule/)). Always confirm your sport's specific calendar.
+
 ## 11th grade (junior year): the peak recruiting window for many sports
 
 For many Division I sports, junior year is when the most recruiting activity happens. But "most" is not "all," and families should resist the pressure to treat junior year as a deadline.

@@ -119,6 +119,8 @@ The date when D1 coaches can first initiate recruiting communication with a pros
 
 Lacrosse is one of the sports that kept the later September 1 of junior year contact date when most sports moved to June 15 — see [The September 1 Junior Year Rule: Why Lacrosse Recruiting Is Different](/lacrosse/guide/september-1-junior-year-rule/) for why this matters for lacrosse families.
 
+Wrestling, by contrast, uses the **June 15 after sophomore year** contact date, with official and unofficial visits opening **August 1 before junior year** — see [The College Wrestling Recruiting Timeline & the June 15 Rule](/wrestling/guide/recruiting-timeline/). Note too that women's wrestling became an NCAA championship sport in 2026, which changes how "level" reads for women's recruits — see [Women's College Wrestling Is Now an NCAA Championship Sport](/wrestling/womens/guide/ncaa-championship/).
+
 Before the initial contact date, coaches cannot:
 - Call, text, or DM a prospect for recruiting purposes
 - Send personalized recruiting materials
