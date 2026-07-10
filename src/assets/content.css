@@ -271,6 +271,143 @@ li:first-child + .sidebar-subheader {
   display: block;
 }
 
+/* ===== Sidebar: "Start Here" onboarding pin ===== */
+.sidebar-start {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(120deg, rgba(200, 164, 78, 0.16), rgba(200, 164, 78, 0.05));
+  border: 1px solid rgba(200, 164, 78, 0.4);
+  border-radius: 9px;
+  padding: 9px 11px;
+  margin-bottom: 14px;
+  text-decoration: none;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.sidebar-start:hover {
+  border-color: var(--gold, #c8a44e);
+  background: rgba(200, 164, 78, 0.2);
+}
+
+.sidebar-start-ico {
+  color: var(--gold-dark, #a88a3a);
+  display: flex;
+  flex-shrink: 0;
+}
+
+.sidebar-start-ico svg { width: 16px; height: 16px; }
+
+.sidebar-start-txt b {
+  display: block;
+  font-size: 12.5px;
+  font-weight: 800;
+  color: var(--navy, #1a2744);
+  line-height: 1.2;
+}
+
+.sidebar-start-txt > span { font-size: 11px; color: #5a6178; }
+.sidebar-start.active b { color: var(--gold-dark, #a88a3a); }
+
+/* ===== Sidebar: group label with icon + descriptor (Recruiting Guides) ===== */
+.sidebar-grp-label {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+  text-align: left;
+}
+
+.sidebar-grp-ico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--navy, #1a2744);
+  flex-shrink: 0;
+}
+
+.sidebar-grp-ico svg { width: 16px; height: 16px; }
+
+.sidebar-grp-name { font-size: 13px; font-weight: 700; line-height: 1.15; }
+
+.sidebar-grp-name small {
+  display: block;
+  font-size: 10px;
+  font-weight: 500;
+  color: #5a6178;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* ===== Sidebar: sport header (logo chip + overview link + chevron) ===== */
+.sidebar-group-header {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.sidebar-sport-link {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+  padding: 7px 8px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--navy, #1a2744);
+  transition: background 0.2s, color 0.2s;
+}
+
+.sidebar-sport-link:hover { background: rgba(200, 164, 78, 0.12); }
+
+.sidebar-sport-ico {
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  flex-shrink: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+}
+
+.sidebar-sport-name {
+  font-size: 13.5px;
+  font-weight: 700;
+  line-height: 1.15;
+  min-width: 0;
+}
+
+.sidebar-sport-name small {
+  display: block;
+  font-size: 10px;
+  font-weight: 500;
+  color: #5a6178;
+}
+
+.sidebar-sport-link.active { background: rgba(200, 164, 78, 0.14); }
+.sidebar-sport-link.active .sidebar-sport-name { color: var(--gold-dark, #a88a3a); }
+
+.sidebar-chev-btn {
+  flex: 0 0 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 4px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.sidebar-chev-btn:hover { background: rgba(200, 164, 78, 0.12); }
+
+/* Rotate the sport-header chevron when its group is expanded */
+.sidebar-group.expanded > .sidebar-group-header .sidebar-chevron {
+  transform: rotate(90deg);
+  color: var(--gold, #c8a44e);
+}
+
 /* Sidebar CTA button */
 .sidebar-cta {
   margin-top: 16px;
