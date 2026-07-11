@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Start Here — RosterWise (prototype)</title>
+<!--
+  PROTOTYPE of the /start-here/ page (not wired into the build).
+  Real port target: content.njk body + new classes in content.css.
+  App is emphasized as the centerpiece (spotlight section); guides are the free companion.
+  App CTA shows only the 3 live apps (Soccer/Volleyball/Lacrosse); Wrestling/Softball = coming.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+  :root{
+    --navy:#1a2744;--navy-dark:#0f1a2e;--navy-light:#243352;
+    --gold:#c8a44e;--gold-light:#dabb6a;--gold-dark:#a88a3a;
+    --cream:#f8f6f0;--white:#fff;--text:#1a1a2e;--muted:#5a6178;--line:rgba(26,39,68,.1);
+    --soccer:#2f9e5c;--volleyball:#e08a2e;--lacrosse:#3f7fc4;--wrestling:#c0413b;
+  }
+  html{scroll-behavior:smooth}
+  body{font-family:'Outfit',sans-serif;color:var(--text);background:var(--cream);line-height:1.6}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 clamp(18px,4vw,40px)}
+
+  /* ===== TOP NAV (unified) ===== */
+  .nav{position:sticky;top:0;z-index:100;background:rgba(26,39,68,.98);backdrop-filter:blur(12px);border-bottom:1px solid rgba(200,164,78,.22)}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;max-width:1280px;margin:0 auto;padding:13px clamp(16px,4vw,36px)}
+  .brand{font-size:20px;font-weight:800;letter-spacing:.04em;color:var(--gold)}
+  .brand span{color:#fff}
+  .nav-links{display:flex;align-items:center;gap:20px;list-style:none}
+  .nav-links>li>a{font-size:14px;font-weight:500;color:rgba(255,255,255,.75);transition:color .2s;display:inline-flex;align-items:center;gap:5px}
+  .nav-links>li>a:hover{color:var(--gold)}
+  .nav-cta{padding:8px 18px;background:var(--gold);color:var(--navy-dark)!important;font-weight:700;border-radius:7px}
+  .dd{position:relative}
+  .dd-menu{position:absolute;top:100%;left:50%;transform:translateX(-50%);margin-top:12px;background:#fff;border-radius:12px;box-shadow:0 18px 50px rgba(0,0,0,.28);padding:12px;width:280px;display:none}
+  .dd-menu::before{content:"";position:absolute;left:0;right:0;top:-14px;height:14px}
+  .dd:hover .dd-menu{display:block}
+  .dd-head{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:8px 10px 4px}
+  .dd-menu a{display:block;padding:8px 10px;border-radius:8px;font-size:13.5px;color:var(--navy)!important}
+  .dd-menu a:hover{background:var(--cream);color:var(--gold-dark)!important}
+  .dd-menu a b{display:block;font-size:13.5px}
+  .dd-menu a small{color:var(--muted);font-size:11px}
+  .dd-menu .dd-sep{height:1px;background:var(--line);margin:8px 4px}
+  @media(max-width:760px){.nav-links{gap:12px}.nav-links li:nth-child(n+3):nth-child(-n+6){display:none}}
+
+  /* ===== HERO ===== */
+  .hero{background:radial-gradient(120% 140% at 50% -20%,var(--navy-light),var(--navy-dark));color:#fff;padding:54px 0 48px;text-align:center}
+  .kicker{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(200,164,78,.4);border-radius:100px;padding:6px 16px;margin-bottom:20px}
+  .hero h1{font-family:'Playfair Display',serif;font-weight:800;font-size:clamp(30px,5vw,46px);line-height:1.12;letter-spacing:-.01em;max-width:16ch;margin:0 auto 16px}
+  .hero h1 em{font-style:normal;color:var(--gold-light)}
+  .hero p{font-size:clamp(16px,2.1vw,18.5px);color:rgba(255,255,255,.82);max-width:62ch;margin:0 auto}
+  .hero p strong{color:#fff}
+  .hero .map-note{margin-top:22px;font-size:13.5px;color:rgba(255,255,255,.6)}
+  .hero .map-note b{color:#fff}
+
+  /* ===== SECTION SCAFFOLD ===== */
+  section{padding:52px 0}
+  .sec-tag{font-size:12px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:8px}
+  .sec-h{font-family:'Playfair Display',serif;font-weight:800;font-size:clamp(24px,3.4vw,32px);color:var(--navy);line-height:1.18;margin-bottom:10px}
+  .sec-sub{color:var(--muted);font-size:16px;max-width:66ch;margin-bottom:34px}
+
+  /* ===== 4-STEP JOURNEY ===== */
+  .steps{position:relative}
+  .step{display:grid;grid-template-columns:56px 1fr;gap:20px;padding:0 0 30px;position:relative}
+  .step:not(:last-child)::before{content:"";position:absolute;left:27px;top:52px;bottom:-4px;width:2px;background:linear-gradient(var(--gold),rgba(200,164,78,.15))}
+  .step-num{width:54px;height:54px;border-radius:50%;background:var(--navy);color:var(--gold);font-family:'Playfair Display',serif;font-weight:800;font-size:22px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(26,39,68,.25);z-index:1}
+  .step-body{padding-top:4px}
+  .step-body h3{font-size:19px;font-weight:800;color:var(--navy);margin-bottom:4px}
+  .step-body p{color:var(--muted);font-size:15px;margin-bottom:12px;max-width:62ch}
+  .glinks{display:flex;flex-wrap:wrap;gap:9px}
+  .glink{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;font-weight:600;color:var(--navy);background:#fff;border:1px solid var(--line);border-radius:100px;padding:7px 14px;transition:all .16s}
+  .glink:hover{border-color:var(--gold);color:var(--gold-dark);box-shadow:0 3px 10px rgba(26,39,68,.08)}
+  .glink.ghost{background:rgba(200,164,78,.12);border-color:rgba(200,164,78,.4);color:var(--gold-dark);font-weight:700}
+
+  /* ===== APP SPOTLIGHT (the centerpiece) ===== */
+  .spot{background:radial-gradient(130% 150% at 15% -10%,var(--navy-light),var(--navy-dark) 60%);color:#fff;position:relative;overflow:hidden}
+  .spot::after{content:"";position:absolute;right:-120px;top:-120px;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(200,164,78,.18),transparent 70%)}
+  .spot .sec-tag{color:var(--gold)}
+  .spot .sec-h{color:#fff;font-size:clamp(26px,3.8vw,38px);max-width:20ch}
+  .spot .lead{font-size:clamp(16px,2.1vw,18.5px);color:rgba(255,255,255,.85);max-width:64ch;margin-bottom:12px}
+  .spot .lead em{font-style:normal;color:var(--gold-light);font-weight:600}
+  .spot .unique{display:inline-flex;align-items:center;gap:9px;font-size:13px;font-weight:700;color:var(--gold-light);background:rgba(200,164,78,.12);border:1px solid rgba(200,164,78,.32);border-radius:100px;padding:7px 16px;margin-bottom:30px}
+  .spot-benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:38px;position:relative;z-index:1}
+  .benefit{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.11);border-radius:14px;padding:20px}
+  .benefit .b-ico{width:42px;height:42px;border-radius:11px;background:rgba(200,164,78,.16);color:var(--gold-light);display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+  .benefit .b-ico svg{width:22px;height:22px}
+  .benefit h4{font-size:16.5px;font-weight:800;margin-bottom:5px}
+  .benefit p{font-size:13.5px;color:rgba(255,255,255,.72);line-height:1.55}
+
+  .depth-wrap{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:26px clamp(20px,3vw,32px);position:relative;z-index:1}
+  .depth-head{text-align:center;font-size:14px;font-weight:700;letter-spacing:.04em;color:rgba(255,255,255,.9);margin-bottom:22px}
+  .depth-head b{color:var(--gold-light)}
+  .depth{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+  .depth-col h5{display:flex;align-items:center;gap:9px;font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:14px;padding-bottom:11px;border-bottom:1px solid rgba(255,255,255,.12)}
+  .depth-col ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+  .depth-col li{font-size:14px;color:rgba(255,255,255,.86);padding-left:26px;position:relative;line-height:1.45}
+  .depth-col li::before{content:"";position:absolute;left:2px;top:6px;width:13px;height:8px;border-left:2px solid var(--gold-light);border-bottom:2px solid var(--gold-light);transform:rotate(-45deg)}
+  .depth-col li b{color:#fff;font-weight:700}
+  .coverage{text-align:center;margin-top:22px;font-size:14.5px;font-weight:600;color:rgba(255,255,255,.9)}
+  .coverage b{color:var(--gold-light)}
+
+  .spot-cta{text-align:center;margin-top:36px;position:relative;z-index:1}
+  .apps{display:flex;justify-content:center;gap:26px;flex-wrap:wrap;margin-bottom:18px}
+  .apps a{display:block;text-align:center}
+  .apps img{width:92px;height:92px;border-radius:20px;box-shadow:0 8px 24px rgba(0,0,0,.32);transition:transform .18s}
+  .apps a:hover img{transform:translateY(-4px)}
+  .apps .an{margin-top:9px;font-size:12px;font-weight:700;color:#fff}
+  .apps .as{font-size:10px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--gold-light);margin-top:1px}
+  .price-line{font-size:20px;font-weight:800;color:#fff}
+  .price-line span{color:rgba(255,255,255,.6);font-weight:600;font-size:15px}
+  .spot-btn{display:inline-block;margin-top:18px;background:var(--gold);color:var(--navy-dark);font-weight:800;font-size:15px;padding:14px 30px;border-radius:11px;transition:background .16s}
+  .spot-btn:hover{background:var(--gold-light)}
+  .coming-line{font-size:12.5px;color:rgba(255,255,255,.55);margin-top:14px}
+  .honest{font-size:12.5px;color:rgba(255,255,255,.6);margin-top:16px;max-width:60ch;margin-left:auto;margin-right:auto;font-style:italic}
+
+  /* ===== FREE COMPANION ===== */
+  .free-row{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .fcard{background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px 24px;display:flex;flex-direction:column}
+  .fcard .free-tag{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--soccer);background:rgba(47,158,92,.12);border-radius:5px;padding:2px 8px;margin-bottom:12px;align-self:flex-start}
+  .fcard-ico{width:44px;height:44px;border-radius:12px;background:rgba(26,39,68,.06);display:flex;align-items:center;justify-content:center;color:var(--navy);margin-bottom:12px}
+  .fcard-ico svg{width:23px;height:23px}
+  .fcard h3{font-size:19px;font-weight:800;color:var(--navy);margin-bottom:7px}
+  .fcard>p{color:var(--muted);font-size:14.5px;margin-bottom:16px}
+  .fcard .btn{margin-top:auto;text-align:center;font-weight:700;font-size:14px;padding:11px;border-radius:10px;background:var(--navy);color:#fff;transition:background .16s}
+  .fcard .btn:hover{background:var(--navy-light)}
+
+  /* ===== FIND YOUR PATH ===== */
+  .path-block{margin-bottom:30px}
+  .path-label{font-size:13px;font-weight:800;letter-spacing:.04em;color:var(--navy);margin-bottom:12px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .path-label span{font-size:11px;font-weight:600;color:var(--muted);letter-spacing:0}
+  .grade{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .grade-card{background:#fff;border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:12px;padding:18px 18px 16px}
+  .grade-card h4{font-size:15px;font-weight:800;color:var(--navy);margin-bottom:3px}
+  .grade-card .yr{font-size:11.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:11px}
+  .grade-card .glinks{gap:7px}
+  .grade-card .glink{padding:6px 12px;font-size:12.5px}
+  .sport-chips{display:flex;flex-wrap:wrap;gap:12px}
+  .sport-chip{display:inline-flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--line);border-radius:100px;padding:8px 18px 8px 8px;font-weight:700;font-size:14.5px;color:var(--navy);transition:all .16s}
+  .sport-chip img{width:30px;height:30px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.18)}
+  .sport-chip:hover{box-shadow:0 6px 16px rgba(26,39,68,.12);transform:translateY(-2px)}
+  .sport-chip small{display:block;font-size:10.5px;font-weight:500;color:var(--muted)}
+  .need-chips{display:flex;flex-wrap:wrap;gap:9px}
+  .need-chip{font-size:13.5px;font-weight:600;color:var(--navy);background:#fff;border:1px solid var(--line);border-radius:100px;padding:8px 15px;transition:all .16s}
+  .need-chip:hover{border-color:var(--gold);color:var(--gold-dark)}
+
+  /* ===== TRUST (light) ===== */
+  .trust{background:var(--cream);border-top:1px solid var(--line)}
+  .trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:24px}
+  .trust-item{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px}
+  .trust-item .ti-ico{color:var(--gold-dark);margin-bottom:10px}
+  .trust-item .ti-ico svg{width:22px;height:22px}
+  .trust-item h4{font-size:15px;font-weight:800;color:var(--navy);margin-bottom:4px}
+  .trust-item p{font-size:13px;color:var(--muted)}
+  .trust-foot{display:flex;flex-wrap:wrap;align-items:center;gap:14px;font-size:14px;color:var(--muted)}
+  .trust-foot a{color:var(--gold-dark);font-weight:700}
+
+  /* ===== FAQ ===== */
+  .faq details{background:#fff;border:1px solid var(--line);border-radius:12px;margin-bottom:10px;overflow:hidden}
+  .faq summary{cursor:pointer;list-style:none;padding:16px 20px;font-weight:700;font-size:15.5px;color:var(--navy);display:flex;justify-content:space-between;align-items:center;gap:14px}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";font-size:22px;color:var(--gold-dark);font-weight:400;transition:transform .2s}
+  .faq details[open] summary::after{transform:rotate(45deg)}
+  .faq .ans{padding:0 20px 18px;color:var(--muted);font-size:14.5px}
+  .faq .ans a{color:var(--gold-dark);font-weight:600}
+  .faq-more{margin-top:18px;font-size:14px}
+  .faq-more a{color:var(--gold-dark);font-weight:700}
+
+  /* ===== NEXT STEPS ===== */
+  .next{background:var(--navy-dark);color:#fff;text-align:center}
+  .next .sec-h{color:#fff}
+  .next-btns{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:22px}
+  .next-btns a{padding:14px 26px;border-radius:11px;font-weight:700;font-size:15px}
+  .nb-gold{background:var(--gold);color:var(--navy-dark)}
+  .nb-gold:hover{background:var(--gold-light)}
+  .nb-ghost{background:transparent;border:1px solid rgba(255,255,255,.3);color:#fff}
+  .nb-ghost:hover{border-color:var(--gold);color:var(--gold-light)}
+
+  footer{background:var(--navy-dark);color:rgba(255,255,255,.5);text-align:center;padding:26px;font-size:12.5px;border-top:1px solid rgba(255,255,255,.08)}
+
+  @media(max-width:820px){
+    .free-row,.trust-grid,.grade,.spot-benefits,.depth{grid-template-columns:1fr}
+    .trust-grid{grid-template-columns:1fr 1fr}
+    .spot-benefits{grid-template-columns:1fr}
+  }
+  @media(max-width:560px){.trust-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<!-- ===== UNIFIED TOP NAV ===== -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="brand"><span>Roster</span>Wise&trade;</a>
+    <ul class="nav-links">
+      <li class="dd">
+        <a href="/guide/">Guides &#9662;</a>
+        <div class="dd-menu">
+          <a href="/start-here/" style="background:rgba(200,164,78,.1)"><b style="color:var(--gold-dark)">&#9873; Start Here</b><small>New to recruiting? Read this first.</small></a>
+          <div class="dd-sep"></div>
+          <div class="dd-head">Recruiting Guides · All Sports</div>
+          <a href="/guide/">All Guides (21)</a>
+          <a href="/guide/recruiting-timeline/">Recruiting Timeline</a>
+          <a href="/guide/division-differences/">D1 / D2 / D3 / NAIA</a>
+          <a href="/guide/athletic-scholarships/">Scholarships &amp; Aid</a>
+          <div class="dd-sep"></div>
+          <a href="/faq/">FAQ</a>
+          <a href="/blog/">Blog</a>
+        </div>
+      </li>
+      <li><a href="/soccer/">Soccer</a></li>
+      <li><a href="/volleyball/">Volleyball</a></li>
+      <li><a href="/lacrosse/">Lacrosse</a></li>
+      <li><a href="/wrestling/">Wrestling</a></li>
+      <li><a href="/roster-intelligence/">Methodology</a></li>
+      <li><a href="/app/" class="nav-cta">Get the App</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<header class="hero">
+  <div class="wrap">
+    <span class="kicker">&#9873; Start Here</span>
+    <h1>New to college recruiting? <em>Take a breath.</em></h1>
+    <p>Hundreds of programs. Moving rules. A clock that never stops. RosterWise&trade; makes it clear &mdash; with free, plain-English guides <strong>and</strong> an app that does what no family could do alone: <strong>analyze every college program in depth</strong> and score each one against your athlete.</p>
+    <div class="map-note">This page is your <b>map</b>. Below: how recruiting really works, the tool that changes it, and exactly where to start.</div>
+  </div>
+</header>
+
+<!-- ===== 1 · HOW RECRUITING WORKS (4 STEPS) ===== -->
+<section>
+  <div class="wrap">
+    <div class="sec-tag">The big picture</div>
+    <h2 class="sec-h">How recruiting actually works &mdash; in four steps</h2>
+    <p class="sec-sub">Every recruit&rsquo;s journey is different, but almost all of them move through the same four stages. Start wherever you are &mdash; each step links the free guides that go deeper.</p>
+    <div class="steps">
+
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <h3>Learn the landscape</h3>
+          <p>Understand the calendar, the divisions, and the rules before you do anything else. This is where most families&rsquo; anxiety comes from &mdash; and where it goes away.</p>
+          <div class="glinks">
+            <a class="glink" href="/guide/recruiting-timeline/">&rarr; The Recruiting Timeline</a>
+            <a class="glink" href="/guide/division-differences/">&rarr; D1 vs. D2 vs. D3 vs. NAIA</a>
+            <a class="glink" href="/guide/ncaa-recruiting-rules/">&rarr; NCAA Recruiting Rules</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <h3>Build a realistic list</h3>
+          <p>Aim at programs where your athlete truly fits &mdash; athletically and academically. This is the single hardest step to do by hand, and it&rsquo;s exactly what the RosterWise app was built for.</p>
+          <div class="glinks">
+            <a class="glink ghost" href="/app/">&#9733; Let the app score every program for your athlete</a>
+            <a class="glink" href="/guide/building-your-list/">&rarr; Building Your List</a>
+            <a class="glink" href="/guide/recruiting-red-flags/">&rarr; Red Flags to Watch For</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <h3>Get on coaches&rsquo; radar</h3>
+          <p>Coaches can&rsquo;t recruit an athlete they&rsquo;ve never seen. Fill out questionnaires, send a sharp highlight video, and reach out the right way.</p>
+          <div class="glinks">
+            <a class="glink" href="/guide/highlight-video/">&rarr; Make a Highlight Video</a>
+            <a class="glink" href="/guide/recruiting-questionnaires/">&rarr; Recruiting Questionnaires</a>
+            <a class="glink" href="/guide/contacting-coaches/">&rarr; Contacting Coaches</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <h3>Understand offers &amp; money</h3>
+          <p>When interest turns into offers, know what the words mean and how the money actually works &mdash; scholarships, aid stacking, and what a commitment really is.</p>
+          <div class="glinks">
+            <a class="glink" href="/guide/athletic-scholarships/">&rarr; How Scholarships Work</a>
+            <a class="glink" href="/guide/verbal-commitment-vs-nli/">&rarr; Verbal vs. NLI</a>
+            <a class="glink" href="/guide/house-settlement/">&rarr; The House Settlement</a>
+            <a class="glink" href="/guide/stacking-financial-aid/">&rarr; Stacking Financial Aid</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 2 · APP SPOTLIGHT (centerpiece) ===== -->
+<section class="spot">
+  <div class="wrap">
+    <div class="sec-tag">The RosterWise app</div>
+    <h2 class="sec-h">Understand every program in depth &mdash; in one place</h2>
+    <p class="lead">Step 2 &mdash; building a realistic list &mdash; is where families spend months clicking through roster pages one tab at a time. RosterWise does it for you. For the first time, you can <em>scout programs the way coaches scout players:</em> the full picture of every college program, scored against your athlete.</p>
+    <div class="unique">&#9733;&nbsp; A tool that simply didn&rsquo;t exist for families before</div>
+
+    <div class="spot-benefits">
+      <div class="benefit">
+        <div class="b-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="0.6" fill="currentColor"/></svg></div>
+        <h4>Find the right fit</h4>
+        <p>A personalized My RosterFit&trade; score for every program &mdash; athletic and academic &mdash; so the right-sized schools rise to the top instead of hiding.</p>
+      </div>
+      <div class="benefit">
+        <div class="b-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 7l-8.5 8.5-5-5L2 17"/><path d="M16 7h6v6"/></svg></div>
+        <h4>See the real openings</h4>
+        <p>Position depth and who graduates next season reveal where a spot is <em>actually</em> opening up &mdash; the signal most families never see.</p>
+      </div>
+      <div class="benefit">
+        <div class="b-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <h4>Skip months of research</h4>
+        <p>The app reads thousands of rosters so you don&rsquo;t have to &mdash; no spreadsheets, no tab-by-tab digging, no guessing which schools are realistic.</p>
+      </div>
+    </div>
+
+    <div class="depth-wrap">
+      <div class="depth-head">One tap on any program shows you <b>everything</b> &mdash; the same picture a coach sees, organized for a family.</div>
+      <div class="depth">
+        <div class="depth-col">
+          <h5>On every school</h5>
+          <ul>
+            <li><b>Division, conference</b> &amp; competitive level</li>
+            <li>Undergrad enrollment &amp; campus setting</li>
+            <li>Location &mdash; urban, suburban or rural</li>
+            <li><b>SAT &amp; ACT</b> score ranges</li>
+            <li>Acceptance rate &amp; graduation rate</li>
+            <li>Tuition &amp; average financial aid</li>
+            <li>Scholarship structure &amp; majors offered</li>
+          </ul>
+        </div>
+        <div class="depth-col">
+          <h5>On every roster &mdash; player by player</h5>
+          <ul>
+            <li>Every player by <b>position &amp; class year</b></li>
+            <li><b>Position depth &amp; openings</b> &mdash; who graduates next</li>
+            <li>Height profiles by position</li>
+            <li>International vs. domestic composition</li>
+            <li>Transfer-portal pipeline &amp; friendliness</li>
+            <li>Recruiting pathways &mdash; clubs, academies, HS</li>
+            <li>Head coach tenure &amp; program stability</li>
+          </ul>
+        </div>
+      </div>
+      <div class="coverage">Across <b>every NCAA D1, D2, D3, NAIA &amp; NJCAA program</b> in your sport &mdash; thousands of teams, one app.</div>
+    </div>
+
+    <div class="spot-cta">
+      <div class="apps">
+        <a href="https://apps.apple.com/us/app/rosterwise-soccer/id6763959341" target="_blank" rel="noopener">
+          <img src="../src/assets/rosterwise-soccer-app-logo.png" alt="RosterWise Soccer">
+          <div class="an">Soccer</div><div class="as">Available now</div>
+        </a>
+        <a href="https://apps.apple.com/us/app/rosterwise-volleyball/id6774745522" target="_blank" rel="noopener">
+          <img src="../src/assets/rosterwise-volleyball-app-logo.png" alt="RosterWise Volleyball">
+          <div class="an">Volleyball</div><div class="as">Available now</div>
+        </a>
+        <a href="https://apps.apple.com/us/app/rosterwise-lacrosse/id6778935432" target="_blank" rel="noopener">
+          <img src="../src/assets/rosterwise-lacrosse-app-logo.png" alt="RosterWise Lacrosse">
+          <div class="an">Lacrosse</div><div class="as">Available now</div>
+        </a>
+      </div>
+      <div class="price-line">$40 once. <span>No subscriptions. No ads. Lifetime access.</span></div>
+      <a class="spot-btn" href="/app/">See everything the app does &rarr;</a>
+      <div class="coming-line">RosterWise Wrestling &amp; Softball are on the way.</div>
+      <div class="honest">My RosterFit&trade; is a data-informed starting point &mdash; not a guarantee of admission or a roster spot. But it turns overwhelming guesswork into a shortlist you can trust.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 3 · FREE COMPANION RESOURCES ===== -->
+<section style="background:#fff;border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-tag">And it&rsquo;s all backed by free resources</div>
+    <h2 class="sec-h">Everything on this site is free &mdash; no signup</h2>
+    <p class="sec-sub">The app is the tool; the site is the education around it. Read as much as you want without spending a cent.</p>
+    <div class="free-row">
+      <div class="fcard">
+        <span class="free-tag">Free · no signup</span>
+        <div class="fcard-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+        <h3>The Guide Library</h3>
+        <p>21 plain-English guides covering the whole process &mdash; timelines, divisions, video, scholarships, NLI, the transfer portal and more. Sport-neutral, so they apply to every athlete.</p>
+        <a class="btn" href="/guide/">Browse all guides &rarr;</a>
+      </div>
+      <div class="fcard">
+        <span class="free-tag">Free · no signup</span>
+        <div class="fcard-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 6.9H22l-6 4.4 2.3 7-6.3-4.6L5.7 20l2.3-7-6-4.4h7.6z"/></svg></div>
+        <h3>Your Sport, In Depth</h3>
+        <p>Sport-specific sections for Soccer, Volleyball, Lacrosse &amp; Wrestling &mdash; recruiting timelines, what coaches look for by position, club and ID-camp pathways, and scholarship rules for that sport.</p>
+        <a class="btn" href="#sports">Jump to your sport &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 4 · FIND YOUR PATH ===== -->
+<section id="sports">
+  <div class="wrap">
+    <div class="sec-tag">Find your path</div>
+    <h2 class="sec-h">Not sure where to click? Start here.</h2>
+    <p class="sec-sub">Pick the shortcut that matches where you are today. You can always come back to this map.</p>
+
+    <!-- by grade -->
+    <div class="path-block">
+      <div class="path-label">By grade level <span>&mdash; recruiting looks different each year</span></div>
+      <div class="grade">
+        <div class="grade-card">
+          <div class="yr">Freshman &amp; Sophomore</div>
+          <h4>Learn &amp; get seen</h4>
+          <div class="glinks">
+            <a class="glink" href="/guide/recruiting-timeline/">The Timeline</a>
+            <a class="glink" href="/guide/division-differences/">Division Differences</a>
+            <a class="glink" href="/guide/highlight-video/">First Highlight Video</a>
+          </div>
+        </div>
+        <div class="grade-card">
+          <div class="yr">Junior Year</div>
+          <h4>Build your list &amp; reach out</h4>
+          <div class="glinks">
+            <a class="glink" href="/guide/building-your-list/">Build Your List</a>
+            <a class="glink" href="/guide/contacting-coaches/">Contact Coaches</a>
+            <a class="glink" href="/guide/official-vs-unofficial-visits/">Visits</a>
+          </div>
+        </div>
+        <div class="grade-card">
+          <div class="yr">Senior &amp; Transfers</div>
+          <h4>Offers, money &amp; the portal</h4>
+          <div class="glinks">
+            <a class="glink" href="/guide/verbal-commitment-vs-nli/">Verbal vs. NLI</a>
+            <a class="glink" href="/guide/athletic-scholarships/">Scholarships</a>
+            <a class="glink" href="/guide/transfer-portal/">Transfer Portal</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- by sport -->
+    <div class="path-block">
+      <div class="path-label">By sport <span>&mdash; jump into your athlete&rsquo;s section</span></div>
+      <div class="sport-chips">
+        <a class="sport-chip" href="/soccer/"><img src="../src/assets/rosterwise-soccer-app-logo.png" alt="">Soccer<small>Men&rsquo;s &amp; Women&rsquo;s</small></a>
+        <a class="sport-chip" href="/volleyball/"><img src="../src/assets/rosterwise-volleyball-app-logo.png" alt="">Volleyball<small>Men&rsquo;s &amp; Women&rsquo;s</small></a>
+        <a class="sport-chip" href="/lacrosse/"><img src="../src/assets/rosterwise-lacrosse-app-logo.png" alt="">Lacrosse<small>Men&rsquo;s &amp; Women&rsquo;s</small></a>
+        <a class="sport-chip" href="/wrestling/"><img src="../src/assets/rosterwise-wrestling-app-logo.png" alt="">Wrestling<small>Men&rsquo;s &amp; Women&rsquo;s</small></a>
+      </div>
+    </div>
+
+    <!-- by need -->
+    <div class="path-block">
+      <div class="path-label">I need to right now&hellip; <span>&mdash; the most-asked questions</span></div>
+      <div class="need-chips">
+        <a class="need-chip" href="/guide/division-differences/">Understand the divisions</a>
+        <a class="need-chip" href="/guide/highlight-video/">Make a highlight video</a>
+        <a class="need-chip" href="/guide/athletic-scholarships/">Figure out scholarships</a>
+        <a class="need-chip" href="/guide/contacting-coaches/">Email a coach</a>
+        <a class="need-chip" href="/guide/international-student-athletes/">Recruit from abroad</a>
+        <a class="need-chip" href="/guide/late-bloomers/">Start late</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 5 · TRUST / SOURCING ===== -->
+<section class="trust">
+  <div class="wrap">
+    <div class="sec-tag">Why families trust the data</div>
+    <h2 class="sec-h">Real data. No hype. Nothing to sign up for.</h2>
+    <p class="sec-sub">RosterWise doesn&rsquo;t sell your information or promise you a scholarship. It organizes public facts and does the math &mdash; so your decisions start from reality.</p>
+    <div class="trust-grid">
+      <div class="trust-item">
+        <div class="ti-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h4>Straight from the source</h4>
+        <p>Built from the same public athletics-site rosters families already visit &mdash; nothing hidden or private.</p>
+      </div>
+      <div class="trust-item">
+        <div class="ti-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div>
+        <h4>Cross-validated &amp; dated</h4>
+        <p>Normalized across thousands of programs and refreshed through the cycle &mdash; every listing shows its last update.</p>
+      </div>
+      <div class="trust-item">
+        <div class="ti-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+        <h4>Private by design</h4>
+        <p>No account, no login. Your athlete&rsquo;s profile stays on your device &mdash; your recruiting journey is your business.</p>
+      </div>
+      <div class="trust-item">
+        <div class="ti-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4v5c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V7z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h4>Honest by design</h4>
+        <p>One price, no ads, no upsells &mdash; and we&rsquo;re clear that a fit score is a starting point, never a promise.</p>
+      </div>
+    </div>
+    <div class="trust-foot">
+      <span>Curious how the scoring works under the hood?</span>
+      <a href="/roster-intelligence/">See our full methodology &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 6 · FIRST QUESTIONS ===== -->
+<section class="faq" style="background:#fff;border-top:1px solid var(--line)">
+  <div class="wrap" style="max-width:820px">
+    <div class="sec-tag">Common first questions</div>
+    <h2 class="sec-h">The things new families ask us</h2>
+    <div style="margin-top:26px">
+      <details open>
+        <summary>What is RosterWise, exactly?</summary>
+        <div class="ans">A college-recruiting intelligence app paired with a free guide library. The app helps families find the programs where their athlete fits &mdash; using real, public roster data on every program &mdash; and the guides explain the whole process along the way.</div>
+      </details>
+      <details>
+        <summary>How is it different from a recruiting-profile service?</summary>
+        <div class="ans">Those services help your athlete <em>market themselves</em> to coaches. RosterWise helps you decide <em>where to aim</em> &mdash; the data, roster analysis, and fit scores on every program. It&rsquo;s a different job, and there&rsquo;s really nothing else like it for families.</div>
+      </details>
+      <details>
+        <summary>How much does it cost?</summary>
+        <div class="ans">$40 one time. No subscriptions, no monthly fees, no ads &mdash; less than a single tournament entry fee, with access for your entire recruiting journey.</div>
+      </details>
+      <details>
+        <summary>Is there a free version?</summary>
+        <div class="ans">Yes &mdash; the entire guide library and every sport section on this site are free, with no signup. The app is the paid tool ($40 once) that adds the per-program data and fit scores.</div>
+      </details>
+      <details>
+        <summary>Do I need to create an account?</summary>
+        <div class="ans">No. There&rsquo;s no login or registration. Your athlete&rsquo;s profile stays on your device &mdash; your recruiting journey is your business.</div>
+      </details>
+      <details>
+        <summary>What sports do you cover?</summary>
+        <div class="ans">Apps for Soccer, Volleyball, and Lacrosse are available now, with Wrestling and Softball on the way. This site has full recruiting sections for Soccer, Volleyball, Lacrosse, and Wrestling.</div>
+      </details>
+    </div>
+    <div class="faq-more"><a href="/faq/">Read the full FAQ &rarr;</a></div>
+  </div>
+</section>
+
+<!-- ===== 7 · NEXT STEPS ===== -->
+<section class="next">
+  <div class="wrap">
+    <h2 class="sec-h">Ready? Pick your next step.</h2>
+    <p class="sec-sub" style="color:rgba(255,255,255,.75);margin:0 auto;text-align:center">You don&rsquo;t have to do everything today &mdash; just the next thing.</p>
+    <div class="next-btns">
+      <a class="nb-gold" href="/app/">Get the app for your sport</a>
+      <a class="nb-ghost" href="/guide/recruiting-timeline/">Read the Recruiting Timeline</a>
+      <a class="nb-ghost" href="#sports">Explore your sport</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  RosterWise&trade; &mdash; Grobe Games LLC &nbsp;·&nbsp; Recruiting intelligence for college-bound athletes
+</footer>
+
+</body>
+</html>

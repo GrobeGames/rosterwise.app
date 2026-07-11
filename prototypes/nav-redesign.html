@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RosterWise — Navigation Redesign Prototype</title>
+<!--
+  PROTOTYPE: navigation redesign for review (not wired into the build).
+  - Unified top nav (same on homepage + interior), flat sport links,
+    single "Guides" dropdown, Methodology de-duplicated.
+  - Redesigned sidebar: consistent per-sport shape, flatter (2 levels),
+    sport icon chips + accent colors, "Start Here" pin, relabeled
+    "Recruiting Guides · All Sports" vs "[Sport]-Specific Guides",
+    sport header links to Overview (no separate Overview row).
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+  :root{
+    --navy:#1a2744;--navy-dark:#0f1a2e;--navy-light:#243352;
+    --gold:#c8a44e;--gold-light:#dabb6a;--gold-dark:#a88a3a;
+    --cream:#f8f6f0;--white:#fff;--text:#1a1a2e;--muted:#5a6178;--line:rgba(26,39,68,.1);
+    --soccer:#2f9e5c;--volleyball:#e08a2e;--lacrosse:#3f7fc4;--wrestling:#c0413b;
+  }
+  body{font-family:'Outfit',sans-serif;color:var(--text);background:var(--cream);line-height:1.55}
+  a{color:inherit;text-decoration:none}
+
+  /* ===== TOP NAV (unified) ===== */
+  .nav{position:sticky;top:0;z-index:100;background:rgba(26,39,68,.98);backdrop-filter:blur(12px);border-bottom:1px solid rgba(200,164,78,.22)}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;max-width:1280px;margin:0 auto;padding:13px clamp(16px,4vw,36px)}
+  .brand{font-size:20px;font-weight:800;letter-spacing:.04em;color:var(--gold)}
+  .brand span{color:#fff}
+  .nav-links{display:flex;align-items:center;gap:22px;list-style:none}
+  .nav-links>li>a{font-size:14px;font-weight:500;color:rgba(255,255,255,.75);transition:color .2s;display:inline-flex;align-items:center;gap:5px}
+  .nav-links>li>a:hover{color:var(--gold)}
+  .nav-cta{padding:8px 18px;background:var(--gold);color:var(--navy-dark)!important;font-weight:700;border-radius:7px}
+  .nav-cta:hover{background:var(--gold-light)}
+  .dd{position:relative}
+  .dd-menu{position:absolute;top:100%;left:50%;transform:translateX(-50%);margin-top:12px;background:#fff;border-radius:12px;box-shadow:0 18px 50px rgba(0,0,0,.28);padding:12px;width:300px;display:none}
+  .dd-menu::before{content:"";position:absolute;left:0;right:0;top:-14px;height:14px}
+  .dd:hover .dd-menu{display:block}
+  .dd-head{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:8px 10px 4px}
+  .dd-menu a{display:block;padding:8px 10px;border-radius:8px;font-size:13.5px;color:var(--navy)!important}
+  .dd-menu a:hover{background:var(--cream);color:var(--gold-dark)!important}
+  .dd-menu .dd-sep{height:1px;background:var(--line);margin:8px 4px}
+
+  /* ===== LAYOUT ===== */
+  .shell{display:flex;max-width:1280px;margin:0 auto;align-items:flex-start}
+  .side{width:300px;flex-shrink:0;position:sticky;top:56px;max-height:calc(100vh - 56px);overflow-y:auto;padding:20px 14px 40px;border-right:1px solid var(--line)}
+  .main{flex:1;padding:40px clamp(20px,5vw,56px);min-height:90vh}
+  .main h1{font-family:'Playfair Display',serif;font-size:34px;color:var(--navy);margin-bottom:10px}
+  .main p{color:var(--muted);max-width:60ch;margin-bottom:14px}
+  .callout{background:#fff;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:10px;padding:16px 18px;font-size:14px;color:var(--muted);margin-top:20px}
+  @media(max-width:820px){.side{display:none}}
+
+  /* ===== SIDEBAR ===== */
+  .side-start{display:flex;align-items:center;gap:10px;background:linear-gradient(120deg,rgba(200,164,78,.14),rgba(200,164,78,.05));border:1px solid rgba(200,164,78,.4);border-radius:10px;padding:11px 13px;margin-bottom:16px}
+  .side-start .star{color:var(--gold-dark);display:flex}
+  .side-start .star svg{width:18px;height:18px}
+  .side-start b{color:var(--navy);font-size:13px;font-weight:800;display:block}
+  .side-start span{font-size:11.5px;color:var(--muted)}
+
+  .grp{border-radius:10px;margin-bottom:2px}
+  .grp-head{display:flex;align-items:center;gap:9px;width:100%;padding:9px 10px;border-radius:9px;cursor:pointer;user-select:none;transition:background .15s}
+  .grp-head:hover{background:rgba(26,39,68,.05)}
+  .grp-ico{width:24px;height:24px;border-radius:6px;display:flex;align-items:center;justify-content:center;flex-shrink:0;background:rgba(26,39,68,.06);color:var(--navy)}
+  .grp-ico svg{width:15px;height:15px}
+  .grp-ico--logo{background:none}
+  .grp-ico--logo img{width:24px;height:24px;border-radius:6px;display:block;box-shadow:0 1px 3px rgba(0,0,0,.18)}
+  .grp-name{flex:1;font-size:14px;font-weight:700;color:var(--navy)}
+  .grp-name small{display:block;font-size:10.5px;font-weight:500;color:var(--muted);letter-spacing:.01em}
+  .chev{border:none;background:none;cursor:pointer;color:var(--muted);font-size:11px;transition:transform .25s;padding:4px}
+  .grp.open>.grp-head .chev{transform:rotate(90deg)}
+  .grp-body{display:none;padding:2px 0 8px 14px;margin-left:16px;border-left:1px solid var(--line)}
+  .grp.open>.grp-body{display:block}
+  .grp-body a{display:block;padding:6px 10px;border-radius:7px;font-size:13px;color:var(--muted);transition:color .15s,background .15s}
+  .grp-body a:hover{color:var(--gold-dark);background:rgba(26,39,68,.04)}
+  .grp-body a.active{color:var(--navy);font-weight:700;background:rgba(200,164,78,.12)}
+  .subhead{font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:10px 10px 3px}
+
+  /* sport accent chips */
+  .ico-soccer{background:rgba(47,158,92,.14)}
+  .ico-volley{background:rgba(224,138,46,.14)}
+  .ico-lax{background:rgba(63,127,196,.14)}
+  .ico-wrestle{background:rgba(192,65,59,.14)}
+  .sport-soccer.open>.grp-head{box-shadow:inset 3px 0 var(--soccer)}
+  .sport-volley.open>.grp-head{box-shadow:inset 3px 0 var(--volleyball)}
+  .sport-lax.open>.grp-head{box-shadow:inset 3px 0 var(--lacrosse)}
+  .sport-wrestle.open>.grp-head{box-shadow:inset 3px 0 var(--wrestling)}
+
+  /* nested (2nd level) groups inside a sport */
+  .subgrp{margin:1px 0}
+  .subgrp>.grp-head{padding:7px 10px}
+  .subgrp>.grp-head .grp-name{font-size:13px;font-weight:600}
+  .divider{height:1px;background:var(--line);margin:14px 6px}
+  .side-cta{margin-top:18px;text-align:center}
+  .side-cta a{display:block;background:var(--gold);color:var(--navy-dark);font-weight:700;font-size:13.5px;padding:11px;border-radius:9px}
+  .std-link{display:block;padding:9px 10px;font-size:14px;font-weight:700;color:var(--navy);border-radius:9px}
+  .std-link:hover{background:rgba(26,39,68,.05)}
+</style>
+</head>
+<body>
+
+<!-- ===== UNIFIED TOP NAV ===== -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="brand"><span>Roster</span>Wise&trade;</a>
+    <ul class="nav-links">
+      <li class="dd">
+        <a href="/guide/">Guides &#9662;</a>
+        <div class="dd-menu">
+          <div class="dd-head">Recruiting Guides · All Sports</div>
+          <a href="/guide/">All Guides (20+)</a>
+          <a href="/guide/recruiting-timeline/">Recruiting Timeline</a>
+          <a href="/guide/division-differences/">D1 / D2 / D3 / NAIA</a>
+          <a href="/guide/athletic-scholarships/">Scholarships &amp; Aid</a>
+          <a href="/guide/transfer-portal/">Transfer Portal</a>
+          <a href="/guide/building-your-list/">Building Your List</a>
+          <div class="dd-sep"></div>
+          <a href="/faq/">FAQ</a>
+          <a href="/blog/">Blog</a>
+        </div>
+      </li>
+      <li><a href="/soccer/">Soccer</a></li>
+      <li><a href="/volleyball/">Volleyball</a></li>
+      <li><a href="/lacrosse/">Lacrosse</a></li>
+      <li><a href="/wrestling/">Wrestling</a></li>
+      <li><a href="/roster-intelligence/">Methodology</a></li>
+      <li><a href="/#story">About</a></li>
+      <li><a href="/app/" class="nav-cta">Get the App</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="shell">
+  <!-- ===== REDESIGNED SIDEBAR ===== -->
+  <aside class="side">
+
+    <a href="/guide/recruiting-timeline/" class="side-start">
+      <span class="star"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg></span>
+      <span><b>New to recruiting?</b><span>Start with the Recruiting Timeline &rarr;</span></span>
+    </a>
+
+    <!-- Universal guides -->
+    <div class="grp open" data-grp>
+      <div class="grp-head" data-toggle>
+        <span class="grp-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></span>
+        <span class="grp-name">Recruiting Guides<small>All sports · the universal playbook</small></span>
+        <button class="chev" aria-label="expand">&#9654;</button>
+      </div>
+      <div class="grp-body">
+        <a href="/guide/">All Guides</a>
+        <div class="subhead">Getting Started</div>
+        <a href="/guide/recruiting-timeline/">Recruiting Timeline</a>
+        <a href="/guide/division-differences/">Division Differences</a>
+        <a href="/guide/ncaa-recruiting-rules/">NCAA Recruiting Rules</a>
+        <div class="subhead">Evaluating Programs</div>
+        <a href="/guide/building-your-list/">Building Your List</a>
+        <a href="/guide/official-vs-unofficial-visits/">Visits</a>
+        <a href="/guide/recruiting-red-flags/">Recruiting Red Flags</a>
+        <div class="subhead">Taking Action</div>
+        <a href="/guide/recruiting-questionnaires/">Questionnaires</a>
+        <a href="/guide/contacting-coaches/">Contacting Coaches</a>
+        <a href="/guide/highlight-video/">Highlight Video</a>
+        <div class="subhead">Commitments &amp; Money</div>
+        <a href="/guide/verbal-commitment-vs-nli/">Verbal Commitment vs. NLI</a>
+        <a href="/guide/athletic-scholarships/">Athletic Scholarships</a>
+        <a href="/guide/house-settlement/">House Settlement</a>
+        <a href="/guide/stacking-financial-aid/">Stacking Financial Aid</a>
+        <div class="subhead">Special Situations</div>
+        <a href="/guide/transfer-portal/">Transfer Portal</a>
+        <a href="/guide/international-student-athletes/">International Athletes</a>
+        <a href="/guide/late-bloomers/">Late Bloomers</a>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- SOCCER -->
+    <div class="grp sport-soccer" data-grp>
+      <div class="grp-head" data-toggle>
+        <span class="grp-ico ico-soccer">&#9917;</span>
+        <a href="/soccer/" class="grp-name" onclick="event.stopPropagation()">Soccer<small>Men's &amp; Women's · D1&ndash;D3, NAIA</small></a>
+        <button class="chev" aria-label="expand">&#9654;</button>
+      </div>
+      <div class="grp-body">
+        <a href="/soccer/mens/">Men's Soccer</a>
+        <a href="/soccer/womens/">Women's Soccer</a>
+        <a href="/soccer/guide/">Soccer-Specific Guides</a>
+        <a href="/soccer/methodology/">How RosterWise Analyzes Soccer</a>
+        <a href="/soccer/mens/programs/">Programs Directory</a>
+      </div>
+    </div>
+
+    <!-- VOLLEYBALL -->
+    <div class="grp sport-volley" data-grp>
+      <div class="grp-head" data-toggle>
+        <span class="grp-ico ico-volley">&#127952;</span>
+        <a href="/volleyball/" class="grp-name" onclick="event.stopPropagation()">Volleyball<small>Men's &amp; Women's · D1&ndash;D3, NAIA, NJCAA</small></a>
+        <button class="chev" aria-label="expand">&#9654;</button>
+      </div>
+      <div class="grp-body">
+        <a href="/volleyball/mens/">Men's Volleyball</a>
+        <a href="/volleyball/womens/">Women's Volleyball</a>
+        <a href="/volleyball/guide/">Volleyball-Specific Guides</a>
+        <a href="/volleyball/methodology/">How RosterWise Analyzes Volleyball</a>
+      </div>
+    </div>
+
+    <!-- LACROSSE (pre-expanded to show the pattern + depth) -->
+    <div class="grp sport-lax open" data-grp>
+      <div class="grp-head" data-toggle>
+        <span class="grp-ico ico-lax">&#129354;</span>
+        <a href="/lacrosse/" class="grp-name" onclick="event.stopPropagation()">Lacrosse<small>Men's &amp; Women's · D1&ndash;D3, NAIA, NJCAA</small></a>
+        <button class="chev" aria-label="expand">&#9654;</button>
+      </div>
+      <div class="grp-body">
+        <div class="subgrp grp" data-grp>
+          <div class="grp-head" data-toggle><span class="grp-name">Men's Lacrosse</span><button class="chev">&#9654;</button></div>
+          <div class="grp-body">
+            <a href="/lacrosse/mens/">Overview</a>
+            <a href="/lacrosse/mens/guide/recruiting-timeline/">Recruiting Timeline</a>
+            <a href="/lacrosse/mens/guide/coaches-look-for-by-position/">What Coaches Look For</a>
+            <a href="/lacrosse/mens/guide/club-pathways/">Club Pathways</a>
+            <a href="/lacrosse/mens/guide/">All Men's Guides</a>
+          </div>
+        </div>
+        <div class="subgrp grp" data-grp>
+          <div class="grp-head" data-toggle><span class="grp-name">Women's Lacrosse</span><button class="chev">&#9654;</button></div>
+          <div class="grp-body">
+            <a href="/lacrosse/womens/">Overview</a>
+            <a href="/lacrosse/womens/guide/recruiting-timeline/">Recruiting Timeline</a>
+            <a href="/lacrosse/womens/guide/coaches-look-for-by-position/">What Coaches Look For</a>
+            <a href="/lacrosse/womens/guide/">All Women's Guides</a>
+          </div>
+        </div>
+        <a href="/lacrosse/guide/" class="active">Lacrosse-Specific Guides</a>
+        <a href="/lacrosse/methodology/">How RosterWise Analyzes Lacrosse</a>
+      </div>
+    </div>
+
+    <!-- WRESTLING -->
+    <div class="grp sport-wrestle" data-grp>
+      <div class="grp-head" data-toggle>
+        <span class="grp-ico ico-wrestle">&#129342;</span>
+        <a href="/wrestling/" class="grp-name" onclick="event.stopPropagation()">Wrestling<small>Men's &amp; Women's · by weight class</small></a>
+        <button class="chev" aria-label="expand">&#9654;</button>
+      </div>
+      <div class="grp-body">
+        <a href="/wrestling/mens/">Men's Wrestling</a>
+        <a href="/wrestling/womens/">Women's Wrestling</a>
+        <a href="/wrestling/guide/">Wrestling-Specific Guides</a>
+        <a href="/wrestling/methodology/">How RosterWise Analyzes Wrestling</a>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+    <a href="/faq/" class="std-link">FAQ</a>
+    <a href="/blog/" class="std-link">Blog</a>
+
+    <div class="side-cta"><a href="/app/">Get RosterWise&trade; &rarr;</a></div>
+  </aside>
+
+  <!-- ===== MAIN (placeholder, for context) ===== -->
+  <main class="main">
+    <h1>Lacrosse Recruiting Guides</h1>
+    <p>This is placeholder page content so you can see the new sidebar and top nav in context. Hover <strong>“Guides ▾”</strong> in the top bar to see the universal-guides dropdown, and try expanding/collapsing sports in the sidebar. Lacrosse is pre-expanded to show the two-level pattern.</p>
+    <div class="callout">
+      <strong>What changed vs. today</strong><br>
+      • One nav on every page (no more homepage-vs-interior difference); “Methodology” appears once.<br>
+      • “Recruiting Guides · All Sports” now clearly reads as the universal set, distinct from “[Sport]-Specific Guides.”<br>
+      • Every sport has the <em>identical</em> shape: Men's · Women's · [Sport]-Specific Guides · How RosterWise Analyzes [Sport] · Programs.<br>
+      • Sport name links to its Overview (no separate “Overview” row); the chevron expands.<br>
+      • Sport icon chips + accent colors, a “Start Here” pin, clearer active state, and one-line descriptors.
+    </div>
+  </main>
+</div>
+
+<script>
+  // dropdown works on hover (CSS); accordions on click
+  document.querySelectorAll('[data-toggle]').forEach(function(head){
+    head.addEventListener('click', function(e){
+      if(e.target.closest('a.grp-name')) return; // let the name link navigate
+      head.closest('[data-grp]').classList.toggle('open');
+    });
+  });
+</script>
+</body>
+</html>
