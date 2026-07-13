@@ -195,7 +195,12 @@
   .nav-links{display:flex;align-items:center;gap:26px;list-style:none}
   .nav-links a{font-size:14px;font-weight:500;color:rgba(255,255,255,.72);text-decoration:none;transition:color .2s}
   .nav-links a:hover{color:var(--gold)}
-  .nav-cta{padding:8px 18px;background:var(--gold);color:var(--navy-dark)!important;font-weight:700!important;border-radius:6px}
+  .nav-cta{position:relative;overflow:hidden;padding:8px 18px;background:linear-gradient(135deg,var(--gold-light),var(--gold) 55%,var(--gold-dark));color:var(--navy-dark)!important;font-weight:700!important;border-radius:6px;box-shadow:0 2px 10px rgba(200,164,78,.45),inset 0 1px 0 rgba(255,255,255,.45);transition:transform .25s,box-shadow .25s;animation:ctaGlow 3s ease-in-out infinite}
+  .nav-cta::after{content:"";position:absolute;top:0;left:-75%;width:55%;height:100%;background:linear-gradient(120deg,transparent,rgba(255,255,255,.6),transparent);transform:skewX(-20deg);transition:left .6s ease}
+  .nav-cta:hover{color:var(--navy-dark)!important;transform:translateY(-1px);box-shadow:0 5px 20px rgba(200,164,78,.7),inset 0 1px 0 rgba(255,255,255,.55);animation:none}
+  .nav-cta:hover::after{left:130%}
+  @keyframes ctaGlow{0%,100%{box-shadow:0 2px 10px rgba(200,164,78,.4),inset 0 1px 0 rgba(255,255,255,.45)}50%{box-shadow:0 2px 16px rgba(200,164,78,.7),inset 0 1px 0 rgba(255,255,255,.5)}}
+  @media(prefers-reduced-motion:reduce){.nav-cta{animation:none}.nav-cta::after{display:none}}
   .nav-guides{position:relative}
   .nav-dd{position:absolute;top:100%;left:50%;transform:translateX(-50%);margin-top:12px;background:var(--white);border-radius:12px;box-shadow:0 16px 48px rgba(0,0,0,.25);padding:14px;display:none;grid-template-columns:1fr 1fr;gap:4px 22px;width:430px}
   .nav-dd::before{content:"";position:absolute;left:0;right:0;top:-14px;height:14px}
@@ -435,7 +440,7 @@
         <li><a href="/lacrosse/">Lacrosse</a></li>
         <li><a href="/wrestling/">Wrestling</a></li>
         <li><a href="/roster-intelligence/">Methodology</a></li>
-        <li><a href="#download" class="nav-cta">Get the App</a></li>
+        <li><a href="/start-here/" class="nav-cta">Start Here</a></li>
       </ul>
     </div>
   </nav>
