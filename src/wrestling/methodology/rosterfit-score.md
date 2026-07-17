@@ -33,8 +33,6 @@ cta:
   heading: "Get a personalized fit score for every program"
   text: "RosterFit ranks how well your athlete matches each program — by projected weight class, timing, level, geography, and direction — across every NCAA D1, D2, D3, NAIA, and NJCAA wrestling program. Personalized, transparent, and built for wrestling."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
 ---
 
 ${toc}

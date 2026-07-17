@@ -1,6 +1,7 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItTocDoneRight = require("markdown-it-toc-done-right");
+const apps = require("./src/_data/apps.json");
 
 module.exports = function (eleventyConfig) {
   // --- Passthrough copies ---
@@ -77,6 +78,20 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("absUrl", (url) => {
     if (!url) return url;
     return /^https?:\/\//i.test(url) ? url : "https://" + url;
+  });
+
+  // Resolve the sport (from apps.json) that a given page URL belongs to, e.g.
+  // "/wrestling/guide/x/" → the wrestling entry. Returns null for
+  // sport-agnostic pages (/guide/, /faq/, /app/, home, …). Matches on the
+  // "/<slug>/" path segment so it never false-matches inside other words.
+  // Single source of truth for every sport-aware CTA/app-logo block.
+  eleventyConfig.addFilter("sportForUrl", (url) => {
+    if (!url) return null;
+    return (
+      (apps.sports || []).find(
+        (s) => s.live && s.slug && url.indexOf("/" + s.slug + "/") !== -1
+      ) || null
+    );
   });
 
   return {

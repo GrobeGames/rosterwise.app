@@ -29,8 +29,6 @@ cta:
   heading: "Know what coaches want. Find programs that need it."
   text: "Understanding what coaches look for is step one. Step two is finding programs where your athlete's specific profile fills a genuine need. RosterWise analyzes roster composition and position depth for every women's volleyball program, so families can target schools where the fit is real."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

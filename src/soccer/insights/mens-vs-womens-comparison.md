@@ -34,8 +34,6 @@ cta:
   heading: "RosterWise™ breaks down every program, men's and women's."
   text: "Whether your family has a son, a daughter, or both in the recruiting pipeline, RosterWise gives you the program-level data that makes the difference between guessing and knowing."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 > **Methodology and data sourcing**: See [How RosterWise Builds and Analyzes College Soccer Roster Data](/methodology/data-and-analysis/) for full documentation of our dataset, definitions, and analytical methods.

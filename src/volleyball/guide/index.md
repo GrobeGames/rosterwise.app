@@ -17,17 +17,13 @@ children:
     url: /volleyball/guide/reading-rosters/
     summary: "Position abbreviations, class-year distribution, transfer patterns, and the signals that reveal recruiting opportunity."
     status: live
-  - title: "Junior College Volleyball: A Path Worth Considering"
-    url: /volleyball/guide/junior-college/
-    summary: "How NJCAA volleyball works, the structure, transfer eligibility rules, and why JUCO can be a smart path to NCAA and NAIA programs."
-    status: live
   - title: "Common Volleyball Recruiting Myths Debunked"
     url: /volleyball/guide/recruiting-myths/
     summary: "Separating fact from fiction — myths about commitment timelines, club size, D3, the transfer portal, height requirements, and more."
     status: live
-  - title: "JUCO Volleyball Recruiting: A Real Pathway Most Families Misunderstand"
+  - title: "Junior College (JUCO) Volleyball Recruiting: A Real Pathway Most Families Misunderstand"
     url: /volleyball/guide/juco-pathway/
-    summary: "NJCAA divisions, California's 3C2A, transfer rules to NCAA D-I/D-II, and how the 2025 House settlement changes affect the JUCO opportunity for volleyball families."
+    summary: "What junior college (JUCO) volleyball is, the NJCAA divisions, California's 3C2A, transfer rules to NCAA D-I/D-II, and how the 2025 House settlement and the 2026 transfer reform affect the opportunity for volleyball families."
     status: live
   - title: "Walking On to College Volleyball"
     url: /volleyball/guide/walk-on-pathways/

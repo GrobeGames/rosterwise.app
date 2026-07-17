@@ -47,8 +47,6 @@ cta:
   heading: "Find programs where your athlete genuinely fits"
   text: "Understanding the September 1 of junior year rule is essential context — but knowing the rule doesn't tell you which programs to pursue. The deeper question is whether your athlete's profile actually matches the kinds of recruits a program targets, whether roster spots will open at the right times, and how the program builds its recruiting class year over year. RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA lacrosse program in the country — position depth, class year gaps, geographic recruiting patterns, transfer portal activity, and personalized fit scoring."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
 ---
 
 ${toc}

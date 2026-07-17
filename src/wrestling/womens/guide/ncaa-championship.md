@@ -52,8 +52,6 @@ cta:
   heading: "Evaluate fit in the fastest-growing sport in college athletics"
   text: "Women's wrestling is adding programs quickly — which means opportunity is genuinely expanding, but rosters are also changing fast. RosterWise analyzes every NCAA D1, D2, D3, NAIA, and NJCAA women's wrestling program by weight class: who's on your athlete's weight, when the current starter graduates, and where the level and geography fit."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
 ---
 
 ${toc}

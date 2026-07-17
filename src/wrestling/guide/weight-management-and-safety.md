@@ -43,8 +43,6 @@ cta:
   heading: "Recruit to a healthy, realistic weight class"
   text: "The healthiest recruiting decisions start from an honest, sustainable weight — not the lowest class an athlete can grind down to. RosterWise analyzes every program by weight class so families can target openings at a realistic projected weight, across every NCAA D1, D2, D3, NAIA, and NJCAA program."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
 ---
 
 ${toc}

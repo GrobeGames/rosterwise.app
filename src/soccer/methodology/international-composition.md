@@ -31,8 +31,6 @@ cta:
   heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program. See it in the app."
   text: "See the international composition of every college soccer program — percentage, countries represented, and how it affects opportunity for domestic and international recruits."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

@@ -31,8 +31,6 @@ cta:
   heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program. See it in the app."
   text: "Class-year gap analysis across every college soccer program — automatically computed from current roster data and broken down by position. See which programs need players at your athlete's position, in your athlete's incoming class year."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

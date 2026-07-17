@@ -44,8 +44,6 @@ cta:
   heading: "Develop in the Olympic style — and target the right programs"
   text: "The freestyle pathway raises the ceiling; roster intelligence points development at real opportunities. RosterWise analyzes every NCAA D1, D2, D3, NAIA, and NJCAA women's program by weight class so your athlete's development and target list line up."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
 ---
 
 ${toc}

@@ -17,6 +17,10 @@ children:
     url: /lacrosse/guide/september-1-junior-year-rule/
     summary: "Lacrosse is the rare NCAA sport that kept the September 1 junior-year initial contact date when most sports moved to June 15. Here's why — and what it means for families."
     status: live
+  - title: "NJCAA Lacrosse: The Junior College (JUCO) Pathway"
+    url: /lacrosse/guide/junior-college/
+    summary: "How the NJCAA men's lacrosse national championship works, why women's NJCAA lacrosse was discontinued, the small Northeast-concentrated footprint, and how four-year recruiting and transfer rules work."
+    status: live
 ---
 
 These guides cover topics that apply to both men's and women's college lacrosse. Whether your athlete is just starting to think about recruiting or evaluating final options, this is practical, honest information for families.

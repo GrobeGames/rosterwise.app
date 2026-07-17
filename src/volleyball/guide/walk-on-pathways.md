@@ -13,7 +13,7 @@ breadcrumbs:
 summary: "Walking on to a college volleyball program is a real pathway — but the House v. NCAA settlement has changed the landscape at D1 programs significantly. The 18-player roster limit at opt-in schools has reduced walk-on opportunities at the D1 level. At D2, D3, and NAIA programs, walk-on culture varies widely. This guide explains what walking on actually looks like, division by division, with honest expectations."
 related:
   - title: "Junior College Volleyball: A Path Worth Considering"
-    url: /volleyball/guide/junior-college/
+    url: /volleyball/guide/juco-pathway/
     status: live
   - title: "How to Evaluate a College Volleyball Program"
     url: /volleyball/guide/evaluating-programs/
@@ -29,8 +29,6 @@ cta:
   heading: "Know where the opportunity is before you try out."
   text: "RosterWise shows you roster composition, position depth, and class-year gaps at every women's volleyball program — so if you're considering a walk-on path, you can target programs where there's genuine need at your athlete's position."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

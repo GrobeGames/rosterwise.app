@@ -33,8 +33,6 @@ cta:
   heading: "You know what coaches look for. RosterWise shows you where the openings are."
   text: "Understanding evaluation criteria is step one. Step two is finding programs with positional needs that match your player's profile. RosterWise analyzes roster depth, class-year gaps, and position-specific composition at every men's soccer program — so families can target schools where the fit is real."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

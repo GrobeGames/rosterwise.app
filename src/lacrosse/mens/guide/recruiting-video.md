@@ -40,8 +40,6 @@ cta:
   heading: "Find programs where your son genuinely fits"
   text: "A strong recruiting video gets you on coaches' lists. The deeper question is whether the programs reviewing your son's video are actually the right fit for his development. RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA men's lacrosse program — position depth (including specialized positions like FOGO and LSM), class year gaps, recruiting geography, Canadian recruiting patterns, transfer portal activity, and personalized fit scoring to help families identify the programs where their son genuinely fits both athletically and academically."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
 ---
 
 ${toc}

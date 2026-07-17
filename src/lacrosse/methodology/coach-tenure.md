@@ -36,8 +36,6 @@ cta:
   heading: "RosterWise gives you this analysis for every D1, D2, D3, NAIA, and NJCAA program. See it in the app."
   text: "Head coach tenure, roster composition, class-year gaps, and more — for every college lacrosse program in the country. Men's and women's. Know the program before you commit."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
 ---
 
 ${toc}

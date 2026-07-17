@@ -36,8 +36,6 @@ cta:
   heading: "RosterWise gives you this analysis for every program. See it in the app."
   text: "Roster composition analysis across every college wrestling program in the country — weight-class depth, class-year gaps at each weight, recruiting geography, and home-state patterns. Men's and women's. NCAA D1, D2, D3, NAIA, and NJCAA. One app. Every program."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
 ---
 
 ${toc}

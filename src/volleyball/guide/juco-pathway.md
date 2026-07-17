@@ -1,8 +1,8 @@
 ---
 layout: content.njk
-title: "JUCO Volleyball Recruiting: A Real Pathway Most Families Misunderstand | RosterWise™"
-description: "An honest look at junior college volleyball as a recruiting pathway — NJCAA divisions, California's 3C2A, transfer rules to NCAA D-I/D-II, and how recent NCAA changes affect the JUCO opportunity for volleyball families."
-date: 2026-05-25
+title: "Junior College (JUCO) Volleyball Recruiting: A Real Pathway Most Families Misunderstand | RosterWise™"
+description: "An honest look at junior college (JUCO) volleyball as a recruiting pathway — NJCAA divisions, California's 3C2A, transfer rules to NCAA D-I/D-II, and how recent NCAA changes affect the JUCO opportunity for volleyball families."
+date: 2026-07-16
 breadcrumbs:
   - text: Home
     url: /
@@ -10,13 +10,15 @@ breadcrumbs:
     url: /volleyball/
   - text: Volleyball Guides
     url: /volleyball/guide/
-  - text: JUCO Pathway
+  - text: Junior College (JUCO)
 summary: "Junior college volleyball is one of the most misunderstood pathways in college recruiting. Some families dismiss it entirely, assuming it's only for athletes who 'couldn't make a four-year program.' Others pursue it without understanding the major structural differences between governing bodies, scholarship rules, and transfer pathways. The reality: JUCO can be a genuinely strong route for many volleyball athletes — but only when families understand what they're actually choosing. This guide explains the two main governing bodies (NJCAA nationally and California's 3C2A), the three NJCAA divisions, the transfer landscape, and how recent NCAA changes affect what JUCO offers volleyball families today."
 related:
   - title: "Women's Volleyball Recruiting Timeline"
     url: /volleyball/womens/guide/recruiting-timeline/
   - title: "Volleyball Club Pathways"
     url: /volleyball/womens/guide/club-pathways/
+  - title: "What Is the NJCAA? The Junior College (JUCO) Pathway, Explained"
+    url: /guide/njcaa-juco-explained/
   - title: "D1 vs. D2 vs. D3 vs. NAIA"
     url: /guide/division-differences/
   - title: "The Transfer Portal Explained"
@@ -47,8 +49,6 @@ cta:
   heading: "Understand where your athlete actually fits — across every pathway."
   text: "JUCO is one of several legitimate pathways in women's volleyball recruiting. RosterWise Volleyball will analyze every program across NCAA D-I, D-II, D-III, and NAIA — position depth, class-year gaps, recruiting patterns, transfer portal activity, and personalized fit scoring — to help families identify where their athlete genuinely fits."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}
@@ -62,6 +62,8 @@ ${toc}
 **2. 3C2A (formerly CCCAA — California Community College Athletic Association).** Per cccaasports.org, 3C2A governs athletics at 109 California community colleges. It operates entirely separately from NJCAA and under fundamentally different rules. The most critical difference: **3C2A institutions cannot offer athletic scholarships under any circumstances**, per California state regulations and 3C2A Bylaw 2.11 (as confirmed by individual California community college athletic departments including Citrus College Athletics).
 
 **Why this distinction matters:** A family considering "JUCO volleyball" must understand which governing body the school belongs to. The recruiting rules, scholarship availability, transfer eligibility, and overall structure differ significantly between NJCAA and 3C2A institutions. The rest of this guide walks through each system in detail.
+
+*New to junior college athletics altogether? Start with our sport-agnostic primer, [What Is the NJCAA?](/guide/njcaa-juco-explained/), then come back here for the volleyball-specific detail.*
 
 No two families' JUCO journeys look the same — and the right path depends on factors that only your family can weigh.
 
@@ -177,6 +179,12 @@ Per current NCAA rules, athletes generally have a maximum of four years of athle
 Four-year programs — especially NCAA D-I and D-II volleyball — actively recruit JUCO transfers. JUCO transfers are particularly attractive because they arrive with college-level training, competitive experience, and demonstrated ability to perform in a structured program.
 
 **Critical context for 2025-26 and beyond:** The 2025 House v. NCAA settlement increased the NCAA D-I women's volleyball roster cap from the previous 12-scholarship head count structure to an 18-player equivalency roster. This expansion of the four-year landscape may increase transfer opportunities as D-I programs have more roster spots to fill — and experienced JUCO transfers are a proven way to fill those spots.
+
+### What changed in 2026
+
+Junior-college transfer rules are actively being loosened. Adopted by the NCAA Division I Cabinet on **June 24, 2026** — the product of an NJCAA advocacy campaign — a reform **lowers the transferable GPA requirement for two-year transfers from 2.5 to 2.0** and restructures transferable credit-hour requirements to align junior-college transfers more closely with standard four-year transfer standards. In plain terms, it removes a penalty band that previously forced some academically borderline JUCO transfers to sit out a year.
+
+The direction is clearly favorable for JUCO volleyball athletes — but the **exact implementation timing had not been publicly finalized** at the time of writing. Confirm the effective year with the [NCAA Eligibility Center](/guide/ncaa-eligibility-center/) before relying on it for a specific athlete's transfer.
 
 ### Honest framing
 

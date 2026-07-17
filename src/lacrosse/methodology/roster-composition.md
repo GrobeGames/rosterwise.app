@@ -36,8 +36,6 @@ cta:
   heading: "RosterWise gives you this analysis for every D1, D2, D3, NAIA, and NJCAA program. See it in the app."
   text: "Roster composition analysis across every college lacrosse program in the country — position depth (including FOGO, LSM, and goalie specialization), class-year gaps, Canadian/international composition, height profiles, and more. Men's and women's. One app. Every program."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
 ---
 
 ${toc}

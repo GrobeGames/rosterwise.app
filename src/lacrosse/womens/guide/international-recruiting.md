@@ -60,8 +60,6 @@ cta:
   heading: "Find programs where your daughter genuinely fits — wherever she's from"
   text: "International women's lacrosse families face the same fundamental question as American families: which programs genuinely fit your daughter's athletic and academic profile? RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA women's lacrosse program — position depth, class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring. The geographic and pathway analysis helps international families understand which programs actively recruit international talent."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
 ---
 
 ${toc}

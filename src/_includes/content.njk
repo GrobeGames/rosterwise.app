@@ -67,14 +67,29 @@ structured_data_type: article
     <h2>{{ cta.heading }}</h2>
     <p>{{ cta.text }}</p>
     {% if cta.price %}<p class="content-cta-price">{{ cta.price }}</p>{% endif %}
-    {% set ctaUrl = cta.button_url | default('https://apps.apple.com/us/app/rosterwise-soccer/id6763959341') %}
-    {% set ctaText = cta.button_text | default('Download RosterWise Soccer on the App Store →') %}
-    {% if page.url and '/volleyball/' in page.url %}
-    {% set ctaUrl = 'https://apps.apple.com/us/app/rosterwise-volleyball/id6774745522' %}
-    {% set ctaText = 'Download RosterWise Volleyball on the App Store →' %}
+    {# Primary CTA (hybrid): App Store link. On a sport page the sport is
+       resolved from the URL via apps.json and is AUTHORITATIVE — legacy
+       per-page cta.button_url values are unreliable (stale copy-paste points
+       many volleyball pages at the soccer app, and wrestling/lacrosse pages at
+       /app/), so they are ignored there. button_url is honored only on
+       sport-agnostic pages, where there is no sport to derive. #}
+    {% set ctaSport = page.url | sportForUrl %}
+    {% if ctaSport %}
+      {% set ctaUrl = ctaSport.appStoreUrl %}
+      {% set ctaText = 'Download RosterWise ' + ctaSport.name + ' on the App Store →' %}
+    {% elif cta.button_url %}
+      {% set ctaUrl = cta.button_url %}
+      {% set ctaText = cta.button_text | default('Download on the App Store →') %}
+    {% else %}
+      {% set ctaUrl = apps.hubUrl %}
+      {% set ctaText = cta.button_text | default('See the RosterWise apps →') %}
     {% endif %}
     <a href="{{ ctaUrl }}" class="content-cta-btn" {% if 'apple.com' in ctaUrl %}target="_blank" rel="noopener"{% endif %}>{{ ctaText }}</a>
+    {% if ctaSport %}
+    <p style="margin-top: 12px; font-size: 13px; color: rgba(0,0,0,0.5);">Learn more about <a href="{{ ctaSport.downloadPage }}" style="color: var(--gold-dark);">RosterWise {{ ctaSport.name }}</a> &middot; <a href="/roster-intelligence/" style="color: var(--gold-dark);">our methodology</a>.</p>
+    {% else %}
     <p style="margin-top: 12px; font-size: 13px; color: rgba(0,0,0,0.5);">Learn more about our <a href="/roster-intelligence/" style="color: var(--gold-dark);">roster intelligence methodology</a>.</p>
+    {% endif %}
   </section>
   {% endif %}
 

@@ -32,8 +32,6 @@ cta:
   heading: "Read program direction, not just the current roster"
   text: "A roster is a snapshot; a coaching staff sets the trajectory. RosterWise factors coach tenure into fit analysis across every NCAA D1, D2, D3, NAIA, and NJCAA wrestling program — so you can weigh stability and direction alongside weight-class opportunity."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
 ---
 
 ${toc}

@@ -28,8 +28,6 @@ cta:
   heading: "RosterWise gives you this analysis for every program."
   text: "Roster composition analysis across every D1, D2, D3, NAIA, and NJCAA men's and women's volleyball program — position depth, class-year gaps, roster size, and more. The data coaches use to build their rosters, now available to families."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

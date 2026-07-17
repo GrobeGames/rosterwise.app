@@ -47,8 +47,6 @@ cta:
   heading: "Understand the money — then find where the fit is real"
   text: "Scholarship rules set the ceiling; roster reality sets the opportunity. RosterWise shows you, by weight class, which programs have a genuine opening for your athlete across every NCAA D1, D2, D3, NAIA, and NJCAA wrestling program — so financial conversations start where there's a real chance to compete."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
 ---
 
 ${toc}

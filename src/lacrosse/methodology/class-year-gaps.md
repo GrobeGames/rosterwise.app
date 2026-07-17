@@ -36,8 +36,6 @@ cta:
   heading: "RosterWise gives you this analysis for every D1, D2, D3, NAIA, and NJCAA program. See it in the app."
   text: "Class-year gap analysis across every college lacrosse program — automatically computed from current roster data and broken down by position (including FOGO, LSM, SSDM, and goalie for men's; attack, midfield, defense, and goalie for women's). See which programs need players at your athlete's position, in your athlete's incoming class year."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
 ---
 
 ${toc}

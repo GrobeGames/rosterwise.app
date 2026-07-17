@@ -5,5 +5,9 @@
 /terms      /privacy/    301
 /terms/     /privacy/    301
 
+# Consolidated duplicate: junior-college → juco-pathway (canonical JUCO volleyball guide)
+/volleyball/guide/junior-college     /volleyball/guide/juco-pathway/    301
+/volleyball/guide/junior-college/    /volleyball/guide/juco-pathway/    301
+
 # Block robots from crawling redirect-source URLs
 # (prevents "page with redirect" in Google Search Console)

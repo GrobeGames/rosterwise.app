@@ -19,7 +19,7 @@ related:
     url: /volleyball/guide/walk-on-pathways/
     status: live
   - title: "Junior College Volleyball: A Path Worth Considering"
-    url: /volleyball/guide/junior-college/
+    url: /volleyball/guide/juco-pathway/
     status: live
 sources:
   - "NCAA.org — Recruiting rules and calendar"
@@ -29,8 +29,6 @@ cta:
   heading: "Cut through the noise. See the data."
   text: "RosterWise replaces recruiting mythology with actual roster data. Position depth, class-year gaps, roster composition, and coaching tenure for every women's volleyball program — so families can make decisions based on evidence, not anxiety."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

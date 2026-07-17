@@ -1,0 +1,71 @@
+{
+  "hubUrl": "/app/",
+  "price": "$40 one-time",
+  "sports": [
+    {
+      "slug": "soccer",
+      "name": "Soccer",
+      "appId": "6763959341",
+      "appStoreUrl": "https://apps.apple.com/us/app/rosterwise-soccer/id6763959341",
+      "logo": "/assets/rosterwise-soccer-app-logo.png",
+      "downloadPage": "/soccer/app/",
+      "hub": "/soccer/",
+      "genders": "Men's & Women's",
+      "subtext": "Men's & Women's · D1, D2, D3, NAIA",
+      "analysisAxis": "position",
+      "live": true
+    },
+    {
+      "slug": "volleyball",
+      "name": "Volleyball",
+      "appId": "6774745522",
+      "appStoreUrl": "https://apps.apple.com/us/app/rosterwise-volleyball/id6774745522",
+      "logo": "/assets/rosterwise-volleyball-app-logo.png",
+      "downloadPage": "/volleyball/app/",
+      "hub": "/volleyball/",
+      "genders": "Men's & Women's",
+      "subtext": "Men's & Women's · D1, D2, D3, NAIA, NJCAA",
+      "analysisAxis": "position",
+      "live": true
+    },
+    {
+      "slug": "lacrosse",
+      "name": "Lacrosse",
+      "appId": "6778935432",
+      "appStoreUrl": "https://apps.apple.com/us/app/rosterwise-lacrosse/id6778935432",
+      "logo": "/assets/rosterwise-lacrosse-app-logo.png",
+      "downloadPage": "/lacrosse/app/",
+      "hub": "/lacrosse/",
+      "genders": "Men's & Women's",
+      "subtext": "Men's & Women's · D1, D2, D3, NAIA · NJCAA (men's)",
+      "analysisAxis": "position",
+      "live": true
+    },
+    {
+      "slug": "wrestling",
+      "name": "Wrestling",
+      "appId": "6785280841",
+      "appStoreUrl": "https://apps.apple.com/us/app/rosterwise-wrestling/id6785280841",
+      "logo": "/assets/rosterwise-wrestling-app-logo.png",
+      "downloadPage": "/wrestling/app/",
+      "hub": "/wrestling/",
+      "genders": "Men's & Women's",
+      "subtext": "Men's & Women's · D1, D2, D3, NAIA, NJCAA",
+      "analysisAxis": "weight class",
+      "live": true
+    },
+    {
+      "slug": "softball",
+      "name": "Softball",
+      "appId": null,
+      "appStoreUrl": null,
+      "logo": "/assets/rosterwise-softball-app-logo.png",
+      "downloadPage": null,
+      "hub": null,
+      "genders": "Women's",
+      "subtext": "Women's · D1, D2, D3, NAIA, NJCAA",
+      "analysisAxis": "position",
+      "live": false
+    }
+  ]
+}

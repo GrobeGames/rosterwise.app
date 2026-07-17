@@ -41,8 +41,6 @@ cta:
   heading: "Send your film to the right programs"
   text: "Great film sent to the wrong programs is wasted effort. RosterWise shows you which NCAA D1, D2, D3, NAIA, and NJCAA programs have a genuine opening at your athlete's projected weight class — so your outreach and your film land where there's a real opportunity."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
 ---
 
 ${toc}

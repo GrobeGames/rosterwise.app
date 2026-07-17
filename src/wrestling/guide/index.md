@@ -49,6 +49,10 @@ children:
     url: /wrestling/guide/transfer-portal/
     summary: "How the transfer portal reshapes wrestling lineups weight by weight, what it means for high-school recruits, and how to read a roster that's built through the portal."
     status: live
+  - title: "NJCAA Wrestling: The Junior College (JUCO) Pathway"
+    url: /wrestling/guide/junior-college/
+    summary: "How the NJCAA's three-division wrestling national championship works, where women's NJCAA wrestling stands, why wrestlers choose JUCO, and how four-year recruiting and the 2026 transfer reform actually work."
+    status: live
 ---
 
 These guides cover topics that apply to both men's and women's college wrestling. Whether your athlete is just starting to think about recruiting or weighing final options, this is practical, honest, primary-sourced information for families.

@@ -75,12 +75,12 @@
     {% include "app-logos.njk" %}
     <h2>Find your athlete&rsquo;s best-fit programs</h2>
     <p>RosterWise&trade; analyzes every roster at every NCAA and NAIA program &mdash; position depth, recruiting patterns, international composition, and more &mdash; so families can target the right schools with confidence.</p>
-    {% if page.url and '/soccer/' in page.url %}
-    <a href="https://apps.apple.com/us/app/rosterwise-soccer/id6763959341" class="hub-cta-btn" target="_blank" rel="noopener">Download RosterWise&trade; Soccer on the App Store &rarr;</a>
-    {% elif page.url and '/volleyball/' in page.url %}
-    <a href="https://apps.apple.com/us/app/rosterwise-volleyball/id6774745522" class="hub-cta-btn" target="_blank" rel="noopener">Download RosterWise&trade; Volleyball on the App Store &rarr;</a>
+    {% set hubSport = page.url | sportForUrl %}
+    {% if hubSport %}
+    <a href="{{ hubSport.appStoreUrl }}" class="hub-cta-btn" target="_blank" rel="noopener">Download RosterWise&trade; {{ hubSport.name }} on the App Store &rarr;</a>
+    <div style="margin-top: 12px;"><a href="{{ hubSport.downloadPage }}" style="color: var(--gold); font-size: 14px;">Learn more about RosterWise&trade; {{ hubSport.name }} &rarr;</a></div>
     {% else %}
-    <a href="/app/" class="hub-cta-btn">See how RosterWise&trade; helps &rarr;</a>
+    <a href="{{ apps.hubUrl }}" class="hub-cta-btn">See how RosterWise&trade; helps &rarr;</a>
     {% endif %}
   </section>
 

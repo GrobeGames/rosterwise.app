@@ -58,8 +58,6 @@ cta:
   heading: "Find programs where the scholarship reality matches your family's needs"
   text: "Generic scholarship rules don't tell you what any specific program is actually offering. The House settlement created winners and losers across women's D1 lacrosse — not based on competitive level, but based on individual program funding decisions. RosterWise analyzes every D1, D2, D3, NAIA, and NJCAA women's lacrosse program — position depth, class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring to help families identify the programs where their daughter genuinely fits both athletically and academically."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See how RosterWise helps →"
-  button_url: /app/
 ---
 
 ${toc}

@@ -34,8 +34,6 @@ cta:
   heading: "Scholarship money follows fit. RosterWise shows you where you fit."
   text: "Understanding scholarship rules is step one. Step two is finding programs where your player has a realistic shot at roster time — and scholarship dollars follow playing time. RosterWise analyzes roster depth, class-year gaps, and positional needs at every women's volleyball program so families can target schools where the opportunity is real."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

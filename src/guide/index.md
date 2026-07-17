@@ -68,6 +68,9 @@ childGroups:
         summary: "Athletic scholarships are only one of four layers. Understanding how athletic, merit, need-based, and outside aid stack — and where the ceiling sits — often changes which schools make financial sense."
   - heading: "Special Situations"
     children:
+      - title: "What Is the NJCAA? The Junior College (JUCO) Pathway, Explained"
+        url: /guide/njcaa-juco-explained/
+        summary: "What junior-college athletics actually is, whether players earn degrees, whether it's a stepping stone or a destination, and how four-year recruiting from JUCO really works — with an honest line between what's verified and what isn't."
       - title: "The Transfer Portal Explained"
         url: /guide/transfer-portal/
         summary: "How the transfer portal works, what it means for incoming recruits, and how to think about transfer risk when evaluating programs."

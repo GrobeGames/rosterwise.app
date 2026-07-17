@@ -30,8 +30,6 @@ cta:
   heading: "Know the roster before you visit the campus."
   text: "ID camps work best when you already know a program fits. RosterWise shows you roster depth, positional needs, and class-year gaps at every women's soccer program — so you can target camps where the opportunity is real."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}

@@ -30,8 +30,6 @@ cta:
   heading: "Your position shapes your recruiting path. RosterWise shows you where the opportunities are."
   text: "RosterWise analyzes position depth and class-year gaps at every women's volleyball program — so whether your athlete is a setter, an outside hitter, a middle, a libero, or a right-side hitter, you can see exactly which programs have genuine needs at their specific position."
   price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
 ---
 
 ${toc}
