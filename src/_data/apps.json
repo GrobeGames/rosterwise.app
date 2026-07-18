@@ -13,6 +13,15 @@
       "genders": "Men's & Women's",
       "subtext": "Men's & Women's · D1, D2, D3, NAIA",
       "analysisAxis": "position",
+      "axisVerb": "plays",
+      "positionsExample": "goalkeepers, center backs, outside backs, holding mids, and strikers",
+      "scenario": [
+        "Say your athlete is a 2027 center back. Open a program and RosterWise lays out the whole picture — not a schedule and a coach's email, but the roster itself.",
+        "You see the center backs already there and their class years, so you know whether a spot opens in your athlete's window or whether they'd sit behind two returning juniors — and the size and physical profile the program actually recruits at the position, so you know whether your athlete fits inside it.",
+        "You see where the roster is built from — the states and countries, the specific clubs and academies its players came through, and how much of it is international — so you can tell whether your athlete's pathway is one this staff already trusts. You see whether the program reloads through high-school recruiting or the transfer portal, and how long the head coach has been building it.",
+        "And you see the school behind the team: its academic strength, size, campus setting, and how well it graduates its students — because fit is academic, not just athletic.",
+        "Then My RosterFit™ folds all of it — athletic and academic — into a single score you can line up across every program on your list."
+      ],
       "live": true
     },
     {
@@ -26,6 +35,15 @@
       "genders": "Men's & Women's",
       "subtext": "Men's & Women's · D1, D2, D3, NAIA, NJCAA",
       "analysisAxis": "position",
+      "axisVerb": "plays",
+      "positionsExample": "setters, liberos, outside hitters, middles, and right sides",
+      "scenario": [
+        "Say your athlete is a 2027 setter. Open a program and RosterWise shows you the full picture, not just a roster page.",
+        "You see the setters already there and when they graduate — whether your athlete steps into an opening or sits behind a returning starter — plus the size and physical profile the program recruits at the position, so you know where your athlete lines up against who's already there.",
+        "You see which clubs, regions, and states the roster is built from, and how much of it is international, so you know whether your athlete's pathway is one the staff already recruits. You see whether the program reloads through high-school recruiting or the transfer portal, and how long the coaching staff has been in place.",
+        "And you see the school behind the team: its academic strength, size, campus setting, and how well it graduates its students — the fit that outlasts the sport.",
+        "Then My RosterFit™ turns all of it — athletic and academic — into one personalized score you can compare across your whole target list."
+      ],
       "live": true
     },
     {
@@ -39,6 +57,15 @@
       "genders": "Men's & Women's",
       "subtext": "Men's & Women's · D1, D2, D3, NAIA · NJCAA (men's)",
       "analysisAxis": "position",
+      "axisVerb": "plays",
+      "positionsExample": "attack, midfield, defense, goalie, and LSM",
+      "scenario": [
+        "Say your athlete is a 2027 attackman. Open a program and RosterWise gives you the whole picture instead of a name on a bracket.",
+        "You see the attackmen on the roster and their class years — whether a starting spot opens in your athlete's window or they'd sit behind returning starters — plus the size and physical profile the program recruits at the position.",
+        "You see where the roster is built from: the states, and the specific club and high-school pathways its players came through — concentrated, as lacrosse recruiting often is, in particular regions — so you know whether your athlete's background fits. You see whether the program builds through high-school recruiting or the transfer portal, and how long the head coach has been there.",
+        "And you see the school itself: its academic strength, size, campus setting, and how well it graduates its students — the part of the decision that lasts four years, not one season.",
+        "Then My RosterFit™ folds athletic and academic fit into a single score you can line up across every program you're considering."
+      ],
       "live": true
     },
     {
@@ -52,6 +79,15 @@
       "genders": "Men's & Women's",
       "subtext": "Men's & Women's · D1, D2, D3, NAIA, NJCAA",
       "analysisAxis": "weight class",
+      "axisVerb": "wrestles",
+      "positionsExample": "every weight from 125 to 285",
+      "scenario": [
+        "Say your athlete wrestles 149. Open a program and RosterWise answers the question that actually decides fit — who wrestles 149, and when do they graduate? — and then keeps going.",
+        "You see who's stacked at the weight and their class years, so you know whether a lineup spot opens in your athlete's window rather than guessing from a schedule.",
+        "You see the program's recruiting geography and the high schools and clubs its wrestlers came through, whether it builds through high-school recruiting or the transfer portal, and how long the head coach has been building the room.",
+        "And you see the school behind the singlet: its academic strength, size, campus setting, and how well it graduates its students — because a wrestling career is four years and a degree is forever.",
+        "Then My RosterFit™ turns athletic and academic fit into one personalized score you can compare across every program on your board."
+      ],
       "live": true
     },
     {
@@ -65,6 +101,9 @@
       "genders": "Women's",
       "subtext": "Women's · D1, D2, D3, NAIA, NJCAA",
       "analysisAxis": "position",
+      "axisVerb": "plays",
+      "positionsExample": "pitchers, catchers, infielders, and outfielders",
+      "scenario": [],
       "live": false
     }
   ]

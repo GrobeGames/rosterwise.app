@@ -17,6 +17,8 @@ eleventyComputed:
     - text: "Get the App"
 ---
 {% set axis = sport.analysisAxis %}
+{% set verb = sport.axisVerb %}
+{% set lname = sport.name | lower %}
 
 <!-- Hero -->
 <section class="product-hero">
@@ -24,8 +26,8 @@ eleventyComputed:
     <a href="{{ sport.appStoreUrl }}" target="_blank" rel="noopener" style="text-decoration: none;">
       <img src="{{ sport.logo }}" alt="RosterWise {{ sport.name }} App" width="180" height="180" style="border-radius: 24px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); margin-bottom: 24px;" loading="eager">
     </a>
-    <h1>RosterWise&trade; {{ sport.name }}</h1>
-    <p class="tagline">Deep roster intelligence for college {{ sport.name | lower }} recruiting families — in a dedicated {{ sport.name | lower }} app.</p>
+    <h1>Find the College {{ sport.name }} Programs<br>Where Your Athlete Actually Fits</h1>
+    <p class="tagline">RosterWise&trade; {{ sport.name }} — deep roster intelligence for college {{ lname }} recruiting families, in a dedicated {{ lname }} app.</p>
     <p style="color: rgba(255,255,255,0.6); font-size: 14px; margin-top: -8px;">{{ sport.subtext }}</p>
     <div class="product-price-badge">
       <strong>$40 one-time</strong> &mdash; No subscriptions &middot; No ads &middot; Lifetime access
@@ -37,48 +39,151 @@ eleventyComputed:
         <span>Download RosterWise {{ sport.name }}</span>
       </a>
     </div>
+    <p style="margin-top: 16px; font-size: 14px;"><a href="{{ sport.hub }}" style="color: var(--gold);">Or explore college {{ lname }} recruiting &rarr;</a></p>
+  </div>
+</section>
+
+<!-- The Problem -->
+<section class="product-section product-section--cream">
+  <div class="container">
+    <h2>College {{ lname }} recruiting shouldn&rsquo;t feel like guesswork.</h2>
+    <p>Families spend thousands on showcases, club fees, and recruiting services, yet still can&rsquo;t answer the most basic question: <strong>where does my athlete actually fit?</strong></p>
+    <div class="problem-grid">
+      <div class="problem-card">
+        <h3>Rosters Are Scattered</h3>
+        <p>Figuring out who&rsquo;s on a {{ lname }} team means visiting hundreds of college athletics sites one by one, copying rosters into a spreadsheet, and trying to make sense of it. Nobody has time for that.</p>
+      </div>
+      <div class="problem-card">
+        <h3>No Real Analysis</h3>
+        <p>Other tools list schools but don&rsquo;t analyze rosters. They can&rsquo;t tell you which programs have a depth gap at your athlete&rsquo;s {{ axis }}, who&rsquo;s graduating, or how your athlete compares to who&rsquo;s already there.</p>
+      </div>
+      <div class="problem-card">
+        <h3>Expensive &amp; Shallow</h3>
+        <p>Recruiting services charge hundreds for generic match lists any search could produce. Real {{ lname }} roster intelligence — the kind that actually informs decisions — hasn&rsquo;t existed anywhere else.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- What you'll actually see -->
+<section class="product-section product-section--navy">
+  <div class="container">
+    <h2>What you&rsquo;ll actually see</h2>
+    {% for para in sport.scenario %}
+    <p style="max-width: 760px;{% if not loop.first %} margin-top: 16px;{% endif %}{% if loop.last %} font-size: 1.05em; color: rgba(255,255,255,0.95);{% endif %}">{{ para | replace("'", "’") }}</p>
+    {% endfor %}
+    <p style="max-width: 760px; margin-top: 22px; color: rgba(255,255,255,0.7);">That&rsquo;s the difference between a list of school names and knowing <em>where the real opportunity is</em> — one picture per program, athletic and academic, built from every {{ lname }} roster so your family doesn&rsquo;t have to.</p>
   </div>
 </section>
 
 <!-- What it analyzes -->
-<section class="product-section product-section--navy">
+<section class="product-section product-section--white">
   <div class="container">
-    <h2>What RosterWise&trade; {{ sport.name }} shows you</h2>
-    <p>It goes beyond school lists. RosterWise applies <a href="/roster-intelligence/" style="color: var(--gold); font-weight: 600;">roster intelligence</a> — systematic analysis of who is actually on every college {{ sport.name | lower }} roster — so your family can see where your athlete fits.</p>
+    <h2>What RosterWise&trade; {{ sport.name }} analyzes — at every program</h2>
+    <p>It goes beyond school lists. RosterWise applies <a href="/roster-intelligence/" style="color: var(--gold-dark); font-weight: 600;">roster intelligence</a> — systematic analysis of who is actually on each {{ lname }} roster — across {{ sport.positionsExample }}.</p>
 
     <div class="feature-grid">
       <div class="feature-card">
-        <h3>Depth by {{ axis | capitalize }}</h3>
+        <h3>Depth by {{ axis | title }}</h3>
         <p>See how every program is built by {{ axis }} — where a lineup spot is genuinely open versus stacked with returning starters.</p>
       </div>
       <div class="feature-card">
         <h3>Class-Year Gaps</h3>
-        <p>Who occupies the spot your athlete plays, and when do they graduate? A graduating senior signals very different opportunity than a returning underclassman.</p>
+        <p>Who {{ verb }} your athlete&rsquo;s {{ axis }}, and when do they graduate? A departing senior signals very different opportunity than a returning underclassman.</p>
       </div>
       <div class="feature-card">
-        <h3>Recruiting Geography &amp; Pathways</h3>
-        <p>What states, regions, clubs, and high schools each program recruits from — so you understand the pipelines behind every roster.</p>
+        <h3>Physical Profile by {{ axis | title }}</h3>
+        <p>How does each program build by {{ axis }}? See size and physical profiles so you know where your athlete aligns with the players already on the roster.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Geographic Recruiting Patterns</h3>
+        <p>What states, regions, and countries does each program recruit from? Some recruit nationally; others draw heavily from specific areas. See the pattern behind every roster.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Pathway &amp; Club Analysis</h3>
+        <p>What clubs, academies, and high schools did current players come from? Pathway data shows which pipelines each program draws from — and whether your athlete&rsquo;s background aligns.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Transfer Portal Activity</h3>
+        <p>Does this program build through high-school recruiting or the transfer portal? A program&rsquo;s transfer pattern tells you how it fills spots — and what that means for a high-school recruit.</p>
+      </div>
+      <div class="feature-card">
+        <h3>International Composition</h3>
+        <p>What portion of the roster is domestic vs. international, and which countries are represented? This varies dramatically by division and conference — and shapes the landscape at each program.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Coach Tenure &amp; Direction</h3>
+        <p>How long has the head coach been building this program? Stability tells you something about culture and direction. RosterWise includes coach tenure wherever available.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Academic Fit &amp; School Profile</h3>
+        <p>It&rsquo;s not just athletics. See school size, academic strength, graduation rates, and setting for every program — so your athlete fits in the classroom, not just on the field.</p>
       </div>
       <div class="feature-card">
         <h3>My RosterFit&trade; Personalized Scoring</h3>
-        <p>Enter your athlete's profile and RosterFit scores every program by how well they align with the actual roster — a personalized fit analysis, not a generic match list.</p>
+        <p>Enter your athlete&rsquo;s profile — {{ axis }}, size, class year, GPA, test scores, geographic preferences — and RosterFit scores every program by how well they align with the actual roster. Not a generic match list. A personalized fit analysis built on real data.</p>
       </div>
     </div>
-    <p style="text-align: center; margin-top: 28px;">
-      <a href="{{ sport.hub }}" style="color: var(--gold); font-weight: 600;">Explore college {{ sport.name | lower }} recruiting &rarr;</a>
-    </p>
+  </div>
+</section>
+
+<!-- Trust -->
+<section class="product-section product-section--cream">
+  <div class="container">
+    <h2>Built by a recruiting family, for yours.</h2>
+    <div class="founder-section">
+      <div class="founder-text">
+        <p>RosterWise started with a question one recruiting parent asked another at a tournament: <em>&ldquo;How do you even figure out where your kid fits?&rdquo;</em></p>
+        <p>The honest answer was: you don&rsquo;t. You visit hundreds of roster pages, take notes in a spreadsheet, and hope you&rsquo;re not missing something — or you pay a recruiting service hundreds of dollars for a list of schools you could have found yourself.</p>
+        <p>We built the tool we couldn&rsquo;t find: one that goes deeper than school lists and actually analyzes rosters, surfaces opportunity, and gives families real intelligence to work with. No tool can predict recruiting outcomes — but the right data helps you ask better questions and focus your effort where it matters.</p>
+        <p><strong>RosterWise is built by Grobe Games LLC.</strong></p>
+      </div>
+    </div>
   </div>
 </section>
 
 <!-- Pricing -->
-<section class="product-section product-section--cream">
+<section class="product-section product-section--white">
   <div class="container" style="text-align: center;">
     <h2>Real intelligence. Fair price. No tricks.</h2>
-    <p style="max-width: 640px; margin: 0 auto 20px;">Paid recruiting services charge hundreds for generic match lists. RosterWise {{ sport.name }} gives you deeper analysis — actual roster intelligence at the program level — for less than a single training session.</p>
+    <p style="max-width: 640px; margin: 0 auto 20px;">Recruiting services charge $200&ndash;$2,000 for generic match lists. RosterWise {{ sport.name }} gives you deeper analysis — actual roster intelligence at the program level — for less than a single training session.</p>
     <div class="product-price-badge" style="margin-bottom: 16px;">
       <strong>$40</strong> &mdash; one-time purchase &middot; lifetime access
     </div>
-    <p style="font-size: 15px; color: var(--text-muted); max-width: 540px; margin: 0 auto;">No subscriptions. No monthly fees. No ads. No account required. Your data stays on your device.</p>
+    <p style="font-size: 15px; color: var(--text-muted); max-width: 540px; margin: 0 auto;">No subscriptions. No monthly fees. No ads. No account required. Your data stays on your device — available for your athlete&rsquo;s entire recruiting journey.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="product-section product-section--cream">
+  <div class="container">
+    <h2 style="text-align: center;">Frequently Asked Questions</h2>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>What does RosterWise {{ sport.name }} cover?</summary>
+        <div class="faq-answer"><p>Every college {{ lname }} program with a published roster — {{ sport.subtext }}. Each sport ships as its own dedicated app, so everything you see is {{ lname }}, with no other-sport clutter.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Is this a subscription?</summary>
+        <div class="faq-answer"><p>No. RosterWise {{ sport.name }} is a one-time purchase of $40 — no monthly fees, no renewals, no ads. Pay once and get lifetime access for your athlete&rsquo;s entire recruiting journey.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How current is the roster data?</summary>
+        <div class="faq-answer"><p>Roster data is refreshed regularly through the recruiting cycle, captured from each program&rsquo;s official athletics website — so the analysis reflects the current state of each roster.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>What is My RosterFit&trade;?</summary>
+        <div class="faq-answer"><p>A personalized scoring system. Enter your athlete&rsquo;s {{ axis }}, size, graduation year, GPA, test scores, and geographic preferences, and RosterFit scores every {{ lname }} program by how well your athlete&rsquo;s profile aligns with the program&rsquo;s actual roster. <a href="/roster-intelligence/">Learn more about our methodology.</a></p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Will it tell me which schools will recruit my athlete?</summary>
+        <div class="faq-answer"><p>No — and we&rsquo;re upfront about that. No tool can predict recruiting outcomes; they depend on coach communication, timing, and factors no dataset captures. RosterWise gives you the analysis to make better-informed decisions about where to focus. It&rsquo;s intelligence, not a crystal ball.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Do you offer recruiting consulting or coach outreach?</summary>
+        <div class="faq-answer"><p>No. RosterWise is a self-service intelligence tool, not a recruiting service — because nobody knows your athlete&rsquo;s situation better than your family.</p></div>
+      </details>
+    </div>
   </div>
 </section>
 
@@ -86,7 +191,7 @@ eleventyComputed:
 <section class="product-final-cta">
   <div class="inner">
     <h2>Ready to find your athlete&rsquo;s fit?</h2>
-    <p>Roster intelligence for every college {{ sport.name | lower }} program — {{ sport.subtext }} — all for $40, one time.</p>
+    <p>Roster intelligence for every college {{ lname }} program — {{ sport.subtext }} — all for $40, one time.</p>
     <div class="product-store-btns" style="margin-top: 24px; justify-content: center;">
       <a href="{{ sport.appStoreUrl }}" class="store-btn" target="_blank" rel="noopener">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 384 512" fill="currentColor"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5c0 26.2 4.8 53.3 14.4 81.2 12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
