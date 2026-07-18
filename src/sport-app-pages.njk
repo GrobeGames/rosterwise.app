@@ -77,10 +77,10 @@ eleventyComputed:
 </section>
 
 <!-- What it analyzes -->
-<section class="product-section product-section--white">
+<section class="product-section product-section--navy">
   <div class="container">
     <h2>What RosterWise&trade; {{ sport.name }} analyzes — at every program</h2>
-    <p>It goes beyond school lists. RosterWise applies <a href="/roster-intelligence/" style="color: var(--gold-dark); font-weight: 600;">roster intelligence</a> — systematic analysis of who is actually on each {{ lname }} roster — across {{ sport.positionsExample }}.</p>
+    <p>It goes beyond school lists. RosterWise applies <a href="/roster-intelligence/" style="color: var(--gold); font-weight: 600;">roster intelligence</a> — systematic analysis of who is actually on each {{ lname }} roster — across {{ sport.positionsExample }}.</p>
 
     <div class="feature-grid">
       <div class="feature-card">
@@ -190,6 +190,9 @@ eleventyComputed:
 <!-- Final CTA -->
 <section class="product-final-cta">
   <div class="inner">
+    <a href="{{ sport.appStoreUrl }}" target="_blank" rel="noopener" style="text-decoration: none; display: inline-block;">
+      <img src="{{ sport.logo }}" alt="RosterWise {{ sport.name }} App" width="132" height="132" style="border-radius: 22px; box-shadow: 0 8px 32px rgba(0,0,0,0.35); margin-bottom: 24px;" loading="lazy">
+    </a>
     <h2>Ready to find your athlete&rsquo;s fit?</h2>
     <p>Roster intelligence for every college {{ lname }} program — {{ sport.subtext }} — all for $40, one time.</p>
     <div class="product-store-btns" style="margin-top: 24px; justify-content: center;">
