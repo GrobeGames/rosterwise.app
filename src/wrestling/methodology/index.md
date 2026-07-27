@@ -49,4 +49,4 @@ RosterWise analyzes every college wrestling program across five dimensions:
 
 Together, these produce a complete picture of every program's recruiting landscape — not from rankings or reputation, but from what the roster data actually shows. Where "level" is involved, our analysis carries the women's unified-championship caveat so it means the right thing for each gender. For the approach that applies across every sport, see our [roster intelligence methodology](/roster-intelligence/).
 
-**Want to see it in action?** [RosterWise Wrestling](/app/) applies this methodology to every program — $40, one time, for your entire recruiting journey.
+**Want to see it in action?** [RosterWise Wrestling](/app/) applies this methodology to every program — $39.99, one time, for your entire recruiting journey.

@@ -40,7 +40,7 @@ sources:
 cta:
   heading: "See how each program actually builds its lineup"
   text: "Some programs build through high-school recruiting; others reload through the portal — and it differs by weight class. RosterWise reads every NCAA D1, D2, D3, NAIA, and NJCAA roster by weight class so you can tell the difference and target where a high-school recruit genuinely fits."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

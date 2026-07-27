@@ -52,7 +52,7 @@ sources:
 cta:
   heading: "Find programs where your daughter genuinely fits — at her position"
   text: "The position-based framework tells you what coaches are evaluating. The deeper question is whether the programs evaluating your daughter are actually a fit for her at her specific position. RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA women's lacrosse program — position depth (including the specialized draw specialist role), class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring. The position-by-position analysis helps families identify the programs where their daughter genuinely fits both athletically and at her specific role."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

@@ -28,9 +28,7 @@ sources:
 cta:
   heading: "Visit with purpose. Know the roster before you arrive."
   text: "A campus visit is more valuable when you already understand the program's roster composition — position depth, class-year gaps, and where you might fit. RosterWise gives families that intelligence before they set foot on campus."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

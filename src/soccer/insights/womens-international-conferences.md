@@ -31,7 +31,7 @@ sources:
 cta:
   heading: "RosterWise™ shows you international composition for every program."
   text: "See the international makeup of every women's soccer program in the country — by conference, by program, and by position. Know exactly what the competitive landscape looks like before you reach out."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 > **Methodology and data sourcing**: See [How RosterWise Builds and Analyzes College Soccer Roster Data](/methodology/data-and-analysis/) for full documentation of our dataset, definitions, and analytical methods.

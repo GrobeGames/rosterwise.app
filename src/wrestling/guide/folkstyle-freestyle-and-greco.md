@@ -41,7 +41,7 @@ sources:
 cta:
   heading: "Match your development plan to the college style"
   text: "Knowing the styles is part of planning smart. Knowing where the roster openings are is the other part. RosterWise analyzes every NCAA D1, D2, D3, NAIA, and NJCAA program by weight class so families can target real opportunities as they develop across the season and the offseason circuit."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

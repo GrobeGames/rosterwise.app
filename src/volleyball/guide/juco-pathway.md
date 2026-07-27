@@ -48,7 +48,7 @@ sources:
 cta:
   heading: "Understand where your athlete actually fits — across every pathway."
   text: "JUCO is one of several legitimate pathways in women's volleyball recruiting. RosterWise Volleyball will analyze every program across NCAA D-I, D-II, D-III, and NAIA — position depth, class-year gaps, recruiting patterns, transfer portal activity, and personalized fit scoring — to help families identify where their athlete genuinely fits."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

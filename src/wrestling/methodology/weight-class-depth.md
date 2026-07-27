@@ -32,7 +32,7 @@ sources:
 cta:
   heading: "See who's at your weight — and when they leave"
   text: "RosterWise reads every program's lineup by weight class and class year, so you can see the openings coming at your athlete's projected weight across every NCAA D1, D2, D3, NAIA, and NJCAA program. That's the fit question, answered with data."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

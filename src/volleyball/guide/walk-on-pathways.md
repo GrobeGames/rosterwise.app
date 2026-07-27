@@ -28,7 +28,7 @@ sources:
 cta:
   heading: "Know where the opportunity is before you try out."
   text: "RosterWise shows you roster composition, position depth, and class-year gaps at every women's volleyball program — so if you're considering a walk-on path, you can target programs where there's genuine need at your athlete's position."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

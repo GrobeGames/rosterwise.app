@@ -98,4 +98,4 @@ RosterWise is not a recruiting service. We don't broker introductions, sell matc
 
 Start with any guide that matches your family's current questions, or begin with the [recruiting timeline](/guide/recruiting-timeline/) for a big-picture overview. For sport-specific depth, see our [men's soccer recruiting timeline](/soccer/mens/guide/recruiting-timeline/).
 
-**Ready to go deeper?** [RosterWise Soccer](/app/) analyzes every program's roster — position depth, class-year gaps, geographic patterns, and personalized fit scoring — for $40, one time.
+**Ready to go deeper?** [RosterWise Soccer](/app/) analyzes every program's roster — position depth, class-year gaps, geographic patterns, and personalized fit scoring — for $39.99, one time.

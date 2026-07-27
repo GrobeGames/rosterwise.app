@@ -46,4 +46,4 @@ RosterWise analyzes every college volleyball program across four key dimensions:
 
 Together, these dimensions give families a complete, objective picture of every program's recruiting landscape — not based on reputation or conference prestige, but on what the data shows.
 
-**Want to see it in action?** [RosterWise Volleyball](/app/) applies this methodology to every program — $40, one time, available for your entire recruiting journey.
+**Want to see it in action?** [RosterWise Volleyball](/app/) applies this methodology to every program — $39.99, one time, available for your entire recruiting journey.

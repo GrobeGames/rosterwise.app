@@ -68,8 +68,8 @@
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "{{ title }}",
-  "description": "{{ description }}",
+  "headline": {{ title | jsonLd | safe }},
+  "description": {{ description | jsonLd | safe }},
   "datePublished": "{{ date | dateISO }}",
   "dateModified": "{{ date | dateISO }}",
   "author": {
@@ -100,7 +100,7 @@
     {
       "@type": "ListItem",
       "position": {{ loop.index }},
-      "name": "{{ crumb.text }}"{% if crumb.url %},
+      "name": {{ crumb.text | jsonLd | safe }}{% if crumb.url %},
       "item": "https://rosterwise.app{{ crumb.url }}"{% endif %}
     }{% if not loop.last %},{% endif %}
     {% endfor %}
@@ -118,10 +118,10 @@
     {% for item in faq %}
     {
       "@type": "Question",
-      "name": "{{ item.q }}",
+      "name": {{ item.q | jsonLd | safe }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ item.a }}"
+        "text": {{ item.a | jsonLd | safe }}
       }
     }{% if not loop.last %},{% endif %}
     {% endfor %}

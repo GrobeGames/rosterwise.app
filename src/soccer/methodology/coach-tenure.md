@@ -30,7 +30,7 @@ sources:
 cta:
   heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program. See it in the app."
   text: "Head coach tenure, roster composition, class-year gaps, and more — for every college soccer program in the country. Know the program before you commit."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

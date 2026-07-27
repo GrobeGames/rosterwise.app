@@ -31,9 +31,7 @@ sources:
 cta:
   heading: "See the roster. Understand the opportunity."
   text: "Scholarship decisions are driven by roster needs. RosterWise shows families exactly how every program's roster is composed — by position, by class year, by international composition — so you can identify where the real opportunities are."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

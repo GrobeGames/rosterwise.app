@@ -45,4 +45,4 @@ If you're building a target list, **[How to Read a College Volleyball Roster](/v
 
 **Looking for data?** See our [methodology](/volleyball/methodology/) section for how RosterWise analyzes volleyball rosters, or explore the [Women's Volleyball](/volleyball/womens/) section for gender-specific guides and insights.
 
-**Ready to go deeper?** [RosterWise Volleyball](/app/) analyzes every program's roster — position depth, class-year gaps, and personalized fit scoring — for $40, one time.
+**Ready to go deeper?** [RosterWise Volleyball](/app/) analyzes every program's roster — position depth, class-year gaps, and personalized fit scoring — for $39.99, one time.

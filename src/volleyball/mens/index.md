@@ -34,7 +34,7 @@ sources:
 cta:
   heading: "RosterWise Volleyball — now available for men's and women's programs"
   text: "RosterWise Volleyball is a combined men's and women's app, available now on the App Store. It covers indoor volleyball programs across NCAA Division I, Division II, Division III, NAIA, and NJCAA, with deep roster analysis — position depth, class-year gaps, international composition, and personalized fit scoring — for every program in the database."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

@@ -27,7 +27,7 @@ sources:
 cta:
   heading: "RosterWise reads every roster so you don't have to."
   text: "RosterWise analyzes roster composition, position depth, class-year gaps, and coaching tenure across every D1, D2, D3, NAIA, and NJCAA men's and women's volleyball program. The intelligence that used to take hours of manual research, delivered in seconds."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

@@ -97,4 +97,4 @@ Our women's soccer recruiting guides cover the topics families care about most �
 
 Still have questions? Many of the universal principles in our [Guide](/guide/) section apply to women's soccer recruiting as well.
 
-**Ready to go deeper?** [RosterWise Soccer](/app/) analyzes every program's roster — position depth, class-year gaps, geographic patterns, and personalized fit scoring — for $40, one time.
+**Ready to go deeper?** [RosterWise Soccer](/app/) analyzes every program's roster — position depth, class-year gaps, geographic patterns, and personalized fit scoring — for $39.99, one time.

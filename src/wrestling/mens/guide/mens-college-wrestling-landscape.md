@@ -43,7 +43,7 @@ sources:
 cta:
   heading: "Read the men's map by weight class"
   text: "Men's college wrestling rewards families who read the roster the way coaches do — weight by weight. RosterWise analyzes every NCAA D1, D2, D3, NAIA, and NJCAA men's program by weight class: depth, class-year gaps, and where your athlete's projected weight has a genuine opening."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

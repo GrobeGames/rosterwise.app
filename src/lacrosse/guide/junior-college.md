@@ -34,7 +34,7 @@ sources:
 cta:
   heading: "See where your lacrosse athlete actually fits."
   text: "JUCO is one of several lacrosse pathways. RosterWise Lacrosse analyzes every program — position depth, class-year gaps, recruiting geography, and personalized fit scoring — across NCAA D1, D2, D3, NAIA, and (men's) NJCAA."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

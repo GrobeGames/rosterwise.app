@@ -28,10 +28,8 @@ sources:
   - '<a href="https://nces.ed.gov/ipeds/">U.S. Department of Education IPEDS</a> — Institutional data (enrollment, location, academic profiles)'
 cta:
   heading: "See roster intelligence in action"
-  text: "RosterWise Soccer analyzes every men's and women's program across D1, D2, D3, and NAIA — position depth, class-year gaps, international composition, recruiting pathways, coach tenure, and personalized My RosterFit scores. One app. Every program."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
+  text: "The RosterWise apps analyze every men's and women's program in your sport — position depth, class-year gaps, international composition, recruiting pathways, coach tenure, and personalized My RosterFit scores. One app per sport. Every program."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}
@@ -120,7 +118,7 @@ The result is a comprehensive dataset covering position depth, class-year distri
 
 This isn't a sample. It's every program. And the analysis is delivered through a mobile app designed for families sitting at the kitchen table, building their recruiting list, and trying to figure out where to focus their time and energy.
 
-**Pricing reflects our values.** RosterWise costs $40 — one payment, no subscriptions, no ads, and access for your athlete's entire recruiting journey. That's less than the cost of a single training session, and a fraction of what legacy recruiting services charge for less comprehensive information.
+**Pricing reflects our values.** RosterWise costs $39.99 — one payment, no subscriptions, no ads, and access for your athlete's entire recruiting journey. That's less than the cost of a single training session, and a fraction of what legacy recruiting services charge for less comprehensive information.
 
 ## Currently available: RosterWise Soccer
 

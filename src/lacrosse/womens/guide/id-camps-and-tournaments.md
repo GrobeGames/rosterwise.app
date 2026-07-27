@@ -47,7 +47,7 @@ sources:
 cta:
   heading: "Find programs where your daughter genuinely fits — and prioritize events accordingly"
   text: "The right ID camps and tournaments depend on which programs are realistic fits for your daughter's specific profile. RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA women's lacrosse program — position depth, class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring. The program-by-program analysis helps families identify the realistic targets — which then drives which specific ID camps and tournaments make sense to attend."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

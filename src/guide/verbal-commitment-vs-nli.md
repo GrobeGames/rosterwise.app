@@ -29,9 +29,7 @@ sources:
 cta:
   heading: "Understand the process. Find the right fit."
   text: "A commitment should be based on genuine fit — not pressure, not prestige, not fear of missing out. RosterWise helps families evaluate programs based on data: roster composition, position depth, class-year gaps, and playing-time opportunity."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

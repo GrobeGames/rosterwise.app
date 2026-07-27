@@ -49,7 +49,7 @@ sources:
 cta:
   heading: "Find programs where your athlete's reality matches yours."
   text: "The House settlement created winners and losers across D1 lacrosse — not based on competitive level, but based on individual program funding decisions. Knowing which programs are increasing scholarship investment, which are maintaining the status quo, and which are reducing their commitment is now essential information for recruiting families. RosterWise analyzes every D1, D2, D3, NAIA, and NJCAA men's and women's lacrosse program — position depth, class-year gaps, recruiting geography, transfer portal activity, and personalized fit scoring."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

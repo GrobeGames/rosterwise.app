@@ -51,4 +51,4 @@ RosterWise analyzes every college soccer program across five key dimensions:
 
 Together, these dimensions produce a complete picture of every program's recruiting landscape — not based on rankings or reputation, but on what the roster data actually shows.
 
-**Want to see it in action?** [RosterWise Soccer](/app/) applies this methodology to every program — $40, one time, available for your entire recruiting journey.
+**Want to see it in action?** [RosterWise Soccer](/app/) applies this methodology to every program — $39.99, one time, available for your entire recruiting journey.

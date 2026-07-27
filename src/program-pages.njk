@@ -19,7 +19,7 @@ eleventyExcludeFromCollections: true
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "{{ program.h1 }}",
+  "headline": {{ program.h1 | jsonLd | safe }},
   "datePublished": "2026-05-17",
   "dateModified": "2026-05-17",
   "author": {
@@ -35,7 +35,7 @@ eleventyExcludeFromCollections: true
       "url": "https://rosterwise.app/assets/rosterwise-banner-hero.png"
     }
   },
-  "description": "{{ program.meta_description }}",
+  "description": {{ program.meta_description | jsonLd | safe }},
   "mainEntityOfPage": "https://rosterwise.app{{ program.page_url }}"
 }
 </script>
@@ -50,7 +50,7 @@ eleventyExcludeFromCollections: true
     {
       "@type": "ListItem",
       "position": {{ loop.index }},
-      "name": "{{ crumb.text }}",
+      "name": {{ crumb.text | jsonLd | safe }},
       "item": "https://rosterwise.app{{ crumb.url | default(program.page_url) }}"
     }{% if not loop.last %},{% endif %}
     {% endfor %}
@@ -64,22 +64,22 @@ eleventyExcludeFromCollections: true
 {
   "@context": "https://schema.org",
   "@type": "SportsTeam",
-  "name": "{{ program.school_name }} {{ program.display_name }} {{ program.gender_display }} {{ program.sport_display }}",
-  "sport": "{{ program.sport_display }}",
+  "name": {{ [program.school_name, program.display_name, program.gender_display, program.sport_display] | join(" ") | jsonLd | safe }},
+  "sport": {{ program.sport_display | jsonLd | safe }},
   {% if program.conference %}
   "memberOf": {
     "@type": "SportsOrganization",
-    "name": "{{ program.conference }}"
+    "name": {{ program.conference | jsonLd | safe }}
   },
   {% endif %}
   "location": {
     "@type": "Place",
-    "name": "{{ program.city }}, {{ program.state_full_name }}",
+    "name": {{ [program.city, program.state_full_name] | join(", ") | jsonLd | safe }}{% if program.latitude and program.longitude %},
     "geo": {
       "@type": "GeoCoordinates",
       "latitude": {{ program.latitude }},
       "longitude": {{ program.longitude }}
-    }
+    }{% endif %}
   }
 }
 </script>
@@ -90,18 +90,18 @@ eleventyExcludeFromCollections: true
 {
   "@context": "https://schema.org",
   "@type": "Place",
-  "name": "{{ program.school_name }}",
+  "name": {{ program.school_name | jsonLd | safe }},
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "{{ program.city }}",
+    "addressLocality": {{ program.city | jsonLd | safe }},
     "addressRegion": "{{ program.state }}",
     "addressCountry": "US"
-  },
+  }{% if program.latitude and program.longitude %},
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": {{ program.latitude }},
     "longitude": {{ program.longitude }}
-  }
+  }{% endif %}
 }
 </script>
 {% endblock %}
@@ -384,7 +384,7 @@ eleventyExcludeFromCollections: true
       <li>How does your athlete's specific profile — position, height, GPA, test scores, club, graduation year — fit this program's typical recruit?</li>
     </ul>
     <div class="program-analysis-footer">
-      <p>Inside the RosterWise&trade; Soccer app, we analyze {{ program.display_name }} {{ program.gender_display }} {{ program.sport_display }} across these dimensions and more, with data refreshed regularly so the analysis reflects the current state of the program. The {{ program.display_name }} analysis is one of more than {% if program.gender == "M" %}1,000 men's{% else %}1,200 women's{% endif %} soccer programs included in RosterWise&trade; Soccer. One payment of $40 — no subscriptions — gives you the full analysis for every D1, D2, D3, and NAIA {{ program.gender_display | lower }} soccer program in the country.</p>
+      <p>Inside the RosterWise&trade; Soccer app, we analyze {{ program.display_name }} {{ program.gender_display }} {{ program.sport_display }} across these dimensions and more, with data refreshed regularly so the analysis reflects the current state of the program. The {{ program.display_name }} analysis is one of more than {% if program.gender == "M" %}1,000 men's{% else %}1,200 women's{% endif %} soccer programs included in RosterWise&trade; Soccer. One payment of $39.99 — no subscriptions — gives you the full analysis for every D1, D2, D3, and NAIA {{ program.gender_display | lower }} soccer program in the country.</p>
     </div>
   </div>
 
@@ -468,10 +468,10 @@ eleventyExcludeFromCollections: true
     {% if program.status == "active" or program.status == "new" %}
     <h2>Go deeper than a directory.</h2>
     <p>This page is just the starting point. RosterWise&trade; Soccer gives you the <strong>comprehensive roster analysis</strong> for {{ program.display_name }} and 2,200+ other programs — position depth charts, class-year gap opportunities, geographic recruiting patterns, transfer portal trends, academic fit, and a <strong>personalized RosterFit&trade; score</strong> matched to your athlete's specific profile.</p>
-    <p>See which programs are actually recruiting players like yours. One payment of $40. No subscriptions. Lifetime access to every program.</p>
+    <p>See which programs are actually recruiting players like yours. One payment of $39.99. No subscriptions. Lifetime access to every program.</p>
     {% else %}
     <h2>Find the programs that are actively recruiting your athlete.</h2>
-    <p>This program is no longer active, but 2,200+ others are. RosterWise&trade; Soccer gives you <strong>comprehensive roster analysis</strong> for every D1, D2, D3, and NAIA {{ program.gender_display | lower }} program — plus a <strong>personalized RosterFit&trade; score</strong> that shows which programs match your athlete's position, size, pathway, and academic profile. One payment of $40. No subscriptions. Lifetime access.</p>
+    <p>This program is no longer active, but 2,200+ others are. RosterWise&trade; Soccer gives you <strong>comprehensive roster analysis</strong> for every D1, D2, D3, and NAIA {{ program.gender_display | lower }} program — plus a <strong>personalized RosterFit&trade; score</strong> that shows which programs match your athlete's position, size, pathway, and academic profile. One payment of $39.99. No subscriptions. Lifetime access.</p>
     {% endif %}
     <a href="/app/" class="program-cta-btn">Get the full analysis &rarr;</a>
   </div>

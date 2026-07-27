@@ -32,7 +32,7 @@ sources:
 cta:
   heading: "See which programs need a goalkeeper — before you apply."
   text: "Goalkeeper recruiting is all about timing and fit. RosterWise shows you how many GKs each men's soccer program carries, what class years they are, and when roster openings are likely. Families can see the opportunity before they invest in camps and visits."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

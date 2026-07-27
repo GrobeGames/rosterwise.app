@@ -43,7 +43,7 @@ sources:
 cta:
   heading: "Compete year-round — and target where you fit"
   text: "The offseason circuit gets a men's recruit seen; roster intelligence makes sure the programs seeing them have a real opening. RosterWise analyzes every NCAA D1, D2, D3, NAIA, and NJCAA program by weight class so your development and your target list point the same direction."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

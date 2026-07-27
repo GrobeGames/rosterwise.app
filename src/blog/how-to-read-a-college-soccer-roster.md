@@ -22,9 +22,7 @@ related:
 cta:
   heading: "Stop guessing. Start seeing."
   text: "RosterWise™ does this analysis for every D1, D2, D3, and NAIA soccer program — 2,200+ men's and women's programs, normalized into one view. Position depth, class-year gaps, international composition, hometown patterns, and personalized My RosterFit™ scoring."
-  price: "One payment of $40. No subscriptions. No ads. Available now on the App Store."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
+  price: "One payment of $39.99. No subscriptions. No ads. Available now on the App Store."
 ---
 
 Most families visit a college soccer roster page and see a list of names, jersey numbers, and hometowns. They scan for familiar club names, maybe check how many players are listed at their athlete's position, and move on. It takes five minutes per program. Multiply that by 50 or 100 programs and you've spent a weekend on something that still feels like guesswork.

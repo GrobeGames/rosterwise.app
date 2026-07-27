@@ -48,7 +48,7 @@ sources:
 cta:
   heading: "Find programs where your daughter genuinely fits."
   text: "The recruiting timeline tells you when things happen. Roster intelligence tells you which programs are actually right for your daughter. RosterWise analyzes every D1, D2, D3, NAIA, and NJCAA women's lacrosse program — position depth, class-year gaps, recruiting geography, transfer portal activity, and personalized fit scoring."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

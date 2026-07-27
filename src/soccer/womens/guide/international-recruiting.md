@@ -35,7 +35,7 @@ sources:
 cta:
   heading: "See exactly how international each program's roster is."
   text: "RosterWise tracks international player composition at every D1, D2, D3, and NAIA women's soccer program — so families can see which programs recruit internationally, which build primarily from domestic talent, and what that means for roster opportunities at each school."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

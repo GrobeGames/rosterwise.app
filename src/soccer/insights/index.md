@@ -53,4 +53,4 @@ These insights help with context-setting during the recruiting process:
 
 All data is drawn from the 2025-26 season rosters as published on official athletics websites. Our [methodology section](/soccer/methodology/) explains in detail how we collect, normalize, and analyze this data.
 
-**Want personalized analysis?** [RosterWise Soccer](/app/) applies these same data techniques to your athlete's specific profile — $40, one time.
+**Want personalized analysis?** [RosterWise Soccer](/app/) applies these same data techniques to your athlete's specific profile — $39.99, one time.

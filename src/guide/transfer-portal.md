@@ -28,9 +28,7 @@ sources:
 cta:
   heading: "See the full roster picture — including who's coming and going."
   text: "Transfer portal activity reshapes rosters every year. RosterWise analyzes current roster composition so families can understand the landscape at every program — not just who's on the roster today, but where the gaps and opportunities are."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

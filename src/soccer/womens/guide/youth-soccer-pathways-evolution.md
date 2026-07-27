@@ -37,7 +37,7 @@ sources:
 cta:
   heading: "Find the college soccer programs that match your athlete's current development."
   text: "Understanding the leagues your athlete plays in is part of the picture. The other part is understanding where she actually fits at the college level. RosterWise analyzes every D1, D2, D3, and NAIA women's soccer program: position depth, class-year gaps, geography, club pathways recruited, transfer portal patterns, and personalized fit scoring."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

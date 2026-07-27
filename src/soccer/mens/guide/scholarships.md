@@ -36,7 +36,7 @@ sources:
 cta:
   heading: "Scholarship money follows fit. RosterWise shows you where you fit."
   text: "Understanding scholarship rules is step one. Step two is finding programs where your player has a realistic shot at roster time — and scholarship dollars follow playing time. RosterWise analyzes roster depth, class-year gaps, and positional needs at every men's soccer program so families can target schools where the opportunity is real."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

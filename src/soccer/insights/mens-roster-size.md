@@ -31,7 +31,7 @@ sources:
 cta:
   heading: "RosterWise™ gives you roster size data for every program."
   text: "See exactly how many players each program carries, broken down by position, class year, and recruiting pathway — so you can find the programs where your athlete has the best chance of earning a spot and playing time."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 > **Methodology and data sourcing**: See [How RosterWise Builds and Analyzes College Soccer Roster Data](/methodology/data-and-analysis/) for full documentation of our dataset, definitions, and analytical methods.

@@ -54,4 +54,4 @@ Every family's recruiting journey is different — timelines vary, club experien
 - For families with a daughter playing volleyball: Start with [Women's College Volleyball Recruiting](/volleyball/womens/).
 - For families with a son playing volleyball: Start with [Men's College Volleyball Recruiting](/volleyball/mens/).
 
-**RosterWise Volleyball is now available** — a combined men's and women's app covering indoor volleyball programs across NCAA D1, D2, D3, NAIA, and NJCAA. The same roster intelligence methodology — position depth, class-year gaps, international composition, height profiles, and personalized fit scoring — applies to every program in the database. One payment of $40. No subscriptions. No ads. Lifetime access.
+**RosterWise Volleyball is now available** — a combined men's and women's app covering indoor volleyball programs across NCAA D1, D2, D3, NAIA, and NJCAA. The same roster intelligence methodology — position depth, class-year gaps, international composition, height profiles, and personalized fit scoring — applies to every program in the database. One payment of $39.99. No subscriptions. No ads. Lifetime access.

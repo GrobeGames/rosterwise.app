@@ -30,7 +30,7 @@ sources:
 cta:
   heading: "Replace myths with data."
   text: "RosterWise™ analyzes every D1, D2, D3, and NAIA soccer program — 2,200+ men's and women's rosters. Position depth, class-year gaps, international composition, recruiting patterns, and personalized My RosterFit™ scoring. See the reality behind every program, not the assumptions."
-  price: "One payment of $40. No subscriptions. No ads. Available now on the App Store."
+  price: "One payment of $39.99. No subscriptions. No ads. Available now on the App Store."
 ---
 
 ${toc}

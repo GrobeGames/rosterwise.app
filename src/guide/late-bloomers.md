@@ -32,9 +32,7 @@ sources:
 cta:
   heading: "Late doesn't mean lost. See where the openings are."
   text: "RosterWise analyzes roster composition at every D1, D2, D3, and NAIA program — class-year gaps, graduating seniors, position depth. If your athlete is still looking, this is how you find the programs that actually need what they bring."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

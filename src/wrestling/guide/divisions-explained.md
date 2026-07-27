@@ -42,7 +42,7 @@ sources:
 cta:
   heading: "Find the right level — at your athlete's weight"
   text: "Level should follow fit. RosterWise analyzes every program at every level — NCAA D1, D2, D3, NAIA, and NJCAA — by weight class, so you can see where your athlete has a genuine opportunity to compete rather than choosing a level by reputation alone."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

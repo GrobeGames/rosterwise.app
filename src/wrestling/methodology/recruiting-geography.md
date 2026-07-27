@@ -31,7 +31,7 @@ sources:
 cta:
   heading: "See where each program actually recruits"
   text: "Geography is a real fit signal in wrestling. RosterWise reads the home-state patterns of every NCAA D1, D2, D3, NAIA, and NJCAA program so you can tell where your athlete fits a program's map — and where a program might be looking to expand it."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

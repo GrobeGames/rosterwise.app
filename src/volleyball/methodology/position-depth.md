@@ -26,7 +26,7 @@ sources:
 cta:
   heading: "RosterWise gives you this analysis for every program."
   text: "Position depth analysis across every D1, D2, D3, NAIA, and NJCAA men's and women's volleyball program — see exactly how many players each program carries at every position, broken down by class year, so your family can identify where the opportunity is real."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

@@ -37,7 +37,7 @@ sources:
 cta:
   heading: "RosterWise Volleyball — now available for men's and women's programs"
   text: "Roster intelligence for every college volleyball program — D1, D2, D3, NAIA, and NJCAA. See where your athlete fits."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

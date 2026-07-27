@@ -42,9 +42,7 @@ sources:
 cta:
   heading: "Make recruiting decisions based on what actually matters for your athlete."
   text: "Headlines about NIL deals make for good reading but rarely reflect the reality for soccer and volleyball families. The factors that actually shape a successful college experience — fit at the program, position depth, recruiting patterns, coaching stability, academic match — are what RosterWise analyzes. Every D1, D2, D3, and NAIA program. Position depth, class-year gaps, recruiting geography, transfer portal patterns, personalized fit scoring."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

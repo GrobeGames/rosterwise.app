@@ -50,7 +50,7 @@ sources:
 cta:
   heading: "Find the weight classes where your athlete actually fits"
   text: "Knowing the weight classes is step one. The deeper question is which programs have a genuine opening at your athlete's projected weight — and when the current starter graduates. RosterWise analyzes every NCAA D1, D2, D3, NAIA, and NJCAA wrestling program in the country, by weight class: who's stacked, who's about to graduate a starter, and where your athlete's profile lines up."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

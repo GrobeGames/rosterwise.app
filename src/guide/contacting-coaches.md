@@ -28,9 +28,7 @@ sources:
 cta:
   heading: "Know which coaches to contact — and why."
   text: "The best outreach is targeted outreach. RosterWise shows families roster composition, position depth, and class-year gaps at every program — so you can contact coaches at programs where your athlete actually has opportunity, not just a name on a list."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

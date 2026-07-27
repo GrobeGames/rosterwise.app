@@ -35,7 +35,7 @@ sources:
 cta:
   heading: "RosterWise gives you this analysis for every program. See it in the app."
   text: "Roster composition analysis across every college wrestling program in the country — weight-class depth, class-year gaps at each weight, recruiting geography, and home-state patterns. Men's and women's. NCAA D1, D2, D3, NAIA, and NJCAA. One app. Every program."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}
@@ -107,7 +107,7 @@ Honesty about what the analysis can't do is part of the method:
 
 ## Why we built RosterWise around this
 
-The data is public, but doing this manually — visiting hundreds of athletics sites, normalizing inconsistent rosters, mapping weights, cross-referencing class years — takes enormous time. Coaching staffs have always had this information; expensive consultants have sold it. RosterWise exists to democratize it, so every family can make recruiting decisions based on data — for every D1, D2, D3, NAIA, and NJCAA wrestling program, men's and women's, for $40.
+The data is public, but doing this manually — visiting hundreds of athletics sites, normalizing inconsistent rosters, mapping weights, cross-referencing class years — takes enormous time. Coaching staffs have always had this information; expensive consultants have sold it. RosterWise exists to democratize it, so every family can make recruiting decisions based on data — for every D1, D2, D3, NAIA, and NJCAA wrestling program, men's and women's, for $39.99.
 
 ---
 

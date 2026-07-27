@@ -36,9 +36,7 @@ sources:
 cta:
   heading: "See this analysis for every program — in the app"
   text: "RosterWise Soccer gives you program-by-program roster intelligence across every D1, D2, D3, and NAIA men's and women's program. Position depth, class-year gaps, international composition, recruiting pathways, coach tenure, and personalized My RosterFit scoring."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}
@@ -202,7 +200,7 @@ RosterWise uses its 2025 soccer dataset in two ways:
 
 **Aggregate insights published on this site.** The [Insights pages](/soccer/insights/mens-roster-size/) present aggregate statistics — roster sizes, international composition, class-year distributions, conference-level comparisons — drawn from the full dataset. These are free, publicly available, and documented with the methodology described on this page.
 
-**Program-by-program analysis in the RosterWise™ Soccer app.** The app provides the same roster intelligence at the individual program level — position depth, class-year gaps, international composition, recruiting pathways, coach tenure, and personalized My RosterFit™ scoring for every D1, D2, D3, and NAIA men's and women's soccer program. The app costs $40, one time. No subscriptions, no ads, and access for your athlete's entire recruiting journey.
+**Program-by-program analysis in the RosterWise™ Soccer app.** The app provides the same roster intelligence at the individual program level — position depth, class-year gaps, international composition, recruiting pathways, coach tenure, and personalized My RosterFit™ scoring for every D1, D2, D3, and NAIA men's and women's soccer program. The app costs $39.99, one time. No subscriptions, no ads, and access for your athlete's entire recruiting journey.
 
 ## Corrections
 

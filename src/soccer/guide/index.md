@@ -53,4 +53,4 @@ If you're already building a target list, **[How to Read a College Soccer Roster
 
 **Looking for data?** See our [methodology](/soccer/methodology/) section for how RosterWise analyzes rosters, or explore [data-driven insights](/soccer/insights/) for trends across divisions and conferences.
 
-**Ready to go deeper?** [RosterWise Soccer](/app/) analyzes every program's roster — position depth, class-year gaps, geographic patterns, and personalized fit scoring — for $40, one time.
+**Ready to go deeper?** [RosterWise Soccer](/app/) analyzes every program's roster — position depth, class-year gaps, geographic patterns, and personalized fit scoring — for $39.99, one time.

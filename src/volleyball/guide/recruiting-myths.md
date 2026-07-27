@@ -28,7 +28,7 @@ sources:
 cta:
   heading: "Cut through the noise. See the data."
   text: "RosterWise replaces recruiting mythology with actual roster data. Position depth, class-year gaps, roster composition, and coaching tenure for every women's volleyball program — so families can make decisions based on evidence, not anxiety."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

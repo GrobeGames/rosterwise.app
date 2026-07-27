@@ -56,9 +56,7 @@ sources:
 cta:
   heading: "Find programs where your athlete's academic and athletic profile genuinely fits."
   text: "Understanding how admissions works at each division is only part of the picture. The other part is identifying programs where your athlete's academic profile matches the typical admit AND where the roster reality means there's a real opportunity. RosterWise analyzes every D1, D2, D3, and NAIA program: position depth, class-year gaps, recruiting patterns, transfer portal activity, and personalized fit scoring."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

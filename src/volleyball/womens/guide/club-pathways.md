@@ -29,7 +29,7 @@ sources:
 cta:
   heading: "See which programs fit your player — regardless of club."
   text: "Club pathway is one piece of the puzzle. RosterWise analyzes roster composition, position depth, class-year gaps, and recruiting patterns at every D1, D2, D3, NAIA, and NJCAA men's and women's volleyball program — so families can build a target list based on fit, not assumptions."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

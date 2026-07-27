@@ -95,4 +95,4 @@ If you're new to men's college soccer recruiting, start with the **[Recruiting T
 
 **Researching women's soccer?** See the [Women's College Soccer Recruiting](/soccer/womens/) section for women's-specific guides and timelines.
 
-**Ready to go deeper?** [RosterWise Soccer](/app/) analyzes every program's roster — position depth, class-year gaps, geographic patterns, and personalized fit scoring — for $40, one time.
+**Ready to go deeper?** [RosterWise Soccer](/app/) analyzes every program's roster — position depth, class-year gaps, geographic patterns, and personalized fit scoring — for $39.99, one time.

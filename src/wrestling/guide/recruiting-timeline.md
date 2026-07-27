@@ -47,7 +47,7 @@ sources:
 cta:
   heading: "Be ready when the contact window opens"
   text: "Families who target well before June 15 have far better conversations after it. RosterWise helps you build that target list now — every NCAA D1, D2, D3, NAIA, and NJCAA wrestling program analyzed by weight class, so your outreach goes to programs with a genuine opening at your athlete's projected weight."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

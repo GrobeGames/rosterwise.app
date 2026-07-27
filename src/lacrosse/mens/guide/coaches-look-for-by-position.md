@@ -48,7 +48,7 @@ sources:
 cta:
   heading: "Find programs where your son genuinely fits — at his position"
   text: "The position-based framework tells you what coaches are evaluating. The deeper question is whether the programs evaluating your son are actually a fit for him at his specific position. RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA men's lacrosse program — position depth (including specialized positions like FOGO and LSM), class year gaps, recruiting geography, Canadian recruiting patterns, transfer portal activity, and personalized fit scoring. The position-by-position analysis helps families identify the programs where their son genuinely fits both athletically and at his specific role."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

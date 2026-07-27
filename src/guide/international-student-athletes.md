@@ -31,9 +31,7 @@ sources:
 cta:
   heading: "See where international athletes fit on every roster."
   text: "RosterWise tracks international composition on every D1, D2, D3, and NAIA roster. For international families, that means understanding which programs actively recruit internationally — and where roster composition suggests opportunity."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "Download RosterWise Soccer on the App Store →"
-  button_url: https://apps.apple.com/us/app/rosterwise-soccer/id6763959341
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

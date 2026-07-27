@@ -37,7 +37,7 @@ sources:
 cta:
   heading: "You know the rules. RosterWise™ tells you where you fit."
   text: "Knowing the recruiting timeline is half the battle. The other half is knowing which programs your athlete actually fits — by position depth, by class-year gaps, by international composition, by playing-time opportunity. RosterWise analyzes every D1, D2, D3, and NAIA men's soccer program in the country, so families can target the right schools with confidence."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

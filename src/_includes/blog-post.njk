@@ -8,13 +8,13 @@ structured_data_type: article
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "{{ title }}",
-  "description": "{{ description }}",
+  "headline": {{ title | jsonLd | safe }},
+  "description": {{ description | jsonLd | safe }},
   "datePublished": "{{ date | dateISO }}",
   "dateModified": "{{ date | dateISO }}",
   "author": {
     "@type": "Person",
-    "name": "{{ author | default('RosterWise Team') }}"
+    "name": {{ author | default('RosterWise Team') | jsonLd | safe }}
   },
   "publisher": {
     "@type": "Organization",
@@ -87,7 +87,27 @@ structured_data_type: article
     <h2>{{ cta.heading }}</h2>
     <p>{{ cta.text }}</p>
     {% if cta.price %}<p class="content-cta-price">{{ cta.price }}</p>{% endif %}
-    <a href="{{ cta.button_url | default('/#download') }}" class="content-cta-btn">{{ cta.button_text | default('Learn more about RosterWise →') }}</a>
+    {# Primary CTA (hybrid, mirrors content.njk): the sport is resolved from
+       the URL via apps.json and is AUTHORITATIVE — legacy per-page
+       cta.button_url values are unreliable (stale copy-paste pointed the
+       volleyball post at the soccer app), so they are ignored when a sport
+       can be derived. button_url is honored only on posts with no derivable
+       sport; otherwise fall through to the /app/ hub. #}
+    {% set ctaSport = page.url | sportForUrl %}
+    {% if ctaSport %}
+      {% set ctaUrl = ctaSport.appStoreUrl %}
+      {% set ctaText = 'Download RosterWise ' + ctaSport.name + ' on the App Store →' %}
+    {% elif cta.button_url %}
+      {% set ctaUrl = cta.button_url %}
+      {% set ctaText = cta.button_text | default('Download on the App Store →') %}
+    {% else %}
+      {% set ctaUrl = apps.hubUrl %}
+      {% set ctaText = cta.button_text | default('See the RosterWise apps →') %}
+    {% endif %}
+    <a href="{{ ctaUrl }}" class="content-cta-btn" {% if 'apple.com' in ctaUrl %}target="_blank" rel="noopener"{% endif %}>{{ ctaText }}</a>
+    {% if ctaSport %}
+    <p style="margin-top: 12px; font-size: 13px; color: rgba(0,0,0,0.5);">Learn more about <a href="{{ ctaSport.downloadPage }}" style="color: var(--gold-dark);">RosterWise {{ ctaSport.name }}</a> &middot; <a href="/roster-intelligence/" style="color: var(--gold-dark);">our methodology</a>.</p>
+    {% endif %}
   </section>
   {% else %}
   <section class="content-cta">

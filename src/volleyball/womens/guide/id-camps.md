@@ -29,7 +29,7 @@ sources:
 cta:
   heading: "Know which programs fit before you camp."
   text: "Before investing in ID camps, understand which programs have genuine needs at your athlete's position. RosterWise analyzes roster composition, position depth, and class-year gaps for every women's volleyball program — so you can target camps at schools where the opportunity is real."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

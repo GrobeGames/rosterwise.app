@@ -17,7 +17,7 @@ description: "Browse all NCAA D1, D2, D3, and NAIA women's college soccer progra
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://rosterwise.app/" },
     { "@type": "ListItem", "position": 2, "name": "Soccer", "item": "https://rosterwise.app/soccer/" },
-    { "@type": "ListItem", "position": 3, "name": "{{ genderDisplay }}", "item": "https://rosterwise.app/soccer/{{ genderSlug }}/" },
+    { "@type": "ListItem", "position": 3, "name": {{ genderDisplay | jsonLd | safe }}, "item": "https://rosterwise.app/soccer/{{ genderSlug }}/" },
     { "@type": "ListItem", "position": 4, "name": "Programs" }
   ]
 }
@@ -128,7 +128,7 @@ description: "Browse all NCAA D1, D2, D3, and NAIA women's college soccer progra
   {# CTA #}
   <section class="program-hub-cta">
     <h2>Go deeper than a directory.</h2>
-    <p>A list of programs isn't enough. RosterWise&trade; gives you the <strong>comprehensive roster analysis</strong> for every {{ genderDisplay | lower }} soccer program — position depth charts, class-year gaps, geographic recruiting patterns, transfer portal trends, academic fit, and a <strong>personalized RosterFit&trade; score</strong> matched to your athlete. One payment of $40. No subscriptions. Lifetime access.</p>
+    <p>A list of programs isn't enough. RosterWise&trade; gives you the <strong>comprehensive roster analysis</strong> for every {{ genderDisplay | lower }} soccer program — position depth charts, class-year gaps, geographic recruiting patterns, transfer portal trends, academic fit, and a <strong>personalized RosterFit&trade; score</strong> matched to your athlete. One payment of $39.99. No subscriptions. Lifetime access.</p>
     <a href="/app/" class="program-hub-cta-btn">Get the full analysis &rarr;</a>
   </section>
 

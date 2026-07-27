@@ -82,17 +82,31 @@ module.exports = function (eleventyConfig) {
 
   // Resolve the sport (from apps.json) that a given page URL belongs to, e.g.
   // "/wrestling/guide/x/" → the wrestling entry. Returns null for
-  // sport-agnostic pages (/guide/, /faq/, /app/, home, …). Matches on the
-  // "/<slug>/" path segment so it never false-matches inside other words.
+  // sport-agnostic pages (/guide/, /faq/, /app/, home, …). The slug must be
+  // bounded by "/" or "-", so "/soccer/…" matches and so do hyphenated blog
+  // slugs like "/blog/how-to-read-a-college-volleyball-roster/", but the
+  // slug never matches inside other words.
   // Single source of truth for every sport-aware CTA/app-logo block.
   eleventyConfig.addFilter("sportForUrl", (url) => {
     if (!url) return null;
     return (
       (apps.sports || []).find(
-        (s) => s.live && s.slug && url.indexOf("/" + s.slug + "/") !== -1
+        (s) =>
+          s.live && s.slug && new RegExp("[/-]" + s.slug + "[/-]").test(url)
       ) || null
     );
   });
+
+  // JSON-LD-safe string: JSON-escapes a value (surrounding quotes included)
+  // for direct embedding in a JSON-LD <script> block. Use with `| safe` so
+  // Nunjucks autoescape doesn't HTML-entity-encode apostrophes/quotes into
+  // the structured data (e.g. Don&#39;t). "<" is unicode-escaped so
+  // "</script>" in a value can never break out of the script block.
+  eleventyConfig.addFilter("jsonLd", (value) =>
+    JSON.stringify(
+      value === undefined || value === null ? "" : String(value)
+    ).replace(/</g, "\\u003c")
+  );
 
   return {
     dir: {

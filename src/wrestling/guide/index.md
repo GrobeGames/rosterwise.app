@@ -63,7 +63,7 @@ The guides in this section are gender-agnostic — the mechanics apply whether y
 
 For topics that apply across every college sport — NCAA recruiting rules, the House settlement, the transfer portal, admissions, and financial aid — see our universal [Recruiting Guides](/guide/).
 
-**Ready to go deeper?** [RosterWise&trade; Wrestling](/app/) analyzes every program's roster **by weight class** — depth at your weight, class-year gaps, recruiting geography, and personalized fit scoring — for $40, one time.
+**Ready to go deeper?** [RosterWise&trade; Wrestling](/app/) analyzes every program's roster **by weight class** — depth at your weight, class-year gaps, recruiting geography, and personalized fit scoring — for $39.99, one time.
 
 ---
 

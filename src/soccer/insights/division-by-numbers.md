@@ -32,7 +32,7 @@ sources:
 cta:
   heading: "RosterWise™ goes beyond division-level averages."
   text: "Division comparisons give you the big picture. RosterWise gives you program-level detail — roster composition, position depth, class-year gaps, and My RosterFit™ scoring for your athlete's specific profile."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 > **Methodology and data sourcing**: See [How RosterWise Builds and Analyzes College Soccer Roster Data](/methodology/data-and-analysis/) for full documentation of our dataset, definitions, and analytical methods.

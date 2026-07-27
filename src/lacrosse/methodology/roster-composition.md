@@ -35,7 +35,7 @@ sources:
 cta:
   heading: "RosterWise gives you this analysis for every D1, D2, D3, NAIA, and NJCAA program. See it in the app."
   text: "Roster composition analysis across every college lacrosse program in the country — position depth (including FOGO, LSM, and goalie specialization), class-year gaps, Canadian/international composition, height profiles, and more. Men's and women's. One app. Every program."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}
@@ -141,6 +141,6 @@ Roster composition analysis has always been possible. The data is public. But do
 
 Coaching staffs have always had this information because it's their job. Expensive recruiting consultants have provided it to families who can afford four-figure fees. Most families have been left with rankings, word of mouth, and hope.
 
-RosterWise exists to democratize access to roster intelligence. We believe every family — regardless of their club connections, their proximity to college programs, or their budget — should be able to make recruiting decisions based on data. That's why the app covers every D1, D2, D3, NAIA, and NJCAA lacrosse program (men's and women's), and why it costs $40 with no subscriptions.
+RosterWise exists to democratize access to roster intelligence. We believe every family — regardless of their club connections, their proximity to college programs, or their budget — should be able to make recruiting decisions based on data. That's why the app covers every D1, D2, D3, NAIA, and NJCAA lacrosse program (men's and women's), and why it costs $39.99 with no subscriptions.
 
 Roster composition analysis isn't magic. It's information. But in a process defined by uncertainty, incomplete information, and high stakes — especially after the House Settlement reshaped D1 lacrosse — having better information matters.

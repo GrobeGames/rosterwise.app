@@ -1,6 +1,6 @@
 {
   "hubUrl": "/app/",
-  "price": "$40 one-time",
+  "price": "$39.99 one-time",
   "sports": [
     {
       "slug": "soccer",
@@ -80,7 +80,7 @@
       "subtext": "Men's & Women's · D1, D2, D3, NAIA, NJCAA",
       "analysisAxis": "weight class",
       "axisVerb": "wrestles",
-      "positionsExample": "every weight from 125 to 285",
+      "positionsExample": "every weight class — men's 125 to 285 and women's 103 to 207",
       "scenario": [
         "Say your athlete wrestles 149. Open a program and RosterWise answers the question that actually decides fit — who wrestles 149, and when do they graduate? — and then keeps going.",
         "You see who's stacked at the weight and their class years, so you know whether a lineup spot opens in your athlete's window rather than guessing from a schedule.",

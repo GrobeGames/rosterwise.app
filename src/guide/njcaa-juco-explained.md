@@ -34,9 +34,7 @@ sources:
 cta:
   heading: "Recruiting from — or to — a junior college?"
   text: "JUCO is a real pathway, but it's only as good as the specific program and where it can take your athlete next. RosterWise analyzes rosters across every level so families can see class-year gaps, position depth, and transfer patterns — and build a target list based on fit, not reputation."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
-  button_text: "See the RosterWise apps →"
-  button_url: /app/
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}

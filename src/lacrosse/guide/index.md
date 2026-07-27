@@ -31,7 +31,7 @@ The guides in this section are gender-agnostic — the advice applies regardless
 
 Lacrosse-specific guides are in development and will publish here as they're completed. In the meantime, our universal [Recruiting Guides](/guide/) cover the topics that apply across every college sport — NCAA recruiting rules, scholarships, the transfer portal, admissions, financial aid, and more.
 
-**Ready to go deeper?** [RosterWise Lacrosse](/app/) will analyze every program's roster — position depth, class-year gaps, geographic patterns, and personalized fit scoring — for $40, one time.
+**Ready to go deeper?** [RosterWise Lacrosse](/app/) will analyze every program's roster — position depth, class-year gaps, geographic patterns, and personalized fit scoring — for $39.99, one time.
 
 ---
 

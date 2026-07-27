@@ -32,7 +32,7 @@ sources:
 cta:
   heading: "Know where your athlete fits — regardless of pathway."
   text: "Whether your player comes through ODP, MLS Next, ECNL, or high school soccer, what matters most is finding the right college program. RosterWise™ analyzes every D1, D2, D3, and NAIA soccer program — roster composition, position depth, international players, class-year gaps — so your family can target schools where your athlete has a real shot."
-  price: "One payment of $40. No subscriptions. No ads. Lifetime access."
+  price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}
