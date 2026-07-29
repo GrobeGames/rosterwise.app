@@ -21,6 +21,14 @@ independently opened and re-read," and see "Open items to re-check" at the botto
 here as a hard, quotable fact — this mirrors how the existing wrestling fact log flags some rows "VERIFY against
 NCAA primary before stating the exact number."
 
+**2026-07-29, second pass (comparison against primary pages):** re-checked this fact log's claims and open items
+via a second, independent round of web-search triangulation, specifically aimed at the rows flagged for direct
+primary-document confirmation. Confirmed the network block is a genuine org-level egress policy denial (proxy
+status endpoint recorded `connect_rejected` — "gateway answered 403 to CONNECT (policy denial or upstream
+failure)" — for `www.ncaa.org:443`), not a fixable client/TLS issue, so a true "open the page and read it"
+verification still could not be done this pass either. Results of the second triangulation are folded into the
+rows below and the "Open items" list is updated to reflect what tightened vs. what's still unresolved.
+
 ---
 
 ## A. Women's rowing = full NCAA sport (settled structural fact)
@@ -38,9 +46,9 @@ NCAA primary before stating the exact number."
 | --- | --- | --- | --- |
 | **Men's rowing has never been an NCAA-sponsored championship sport** | Consistently reported; corroborated by IRA's own role as the de facto national championship body (see next row) rather than an NCAA press release — treat "not NCAA" as the absence of any NCAA.org rowing page for men, which is itself the evidence | 2026-07-29 | governing-bodies-explained, mens hub |
 | **IRA (Intercollegiate Rowing Association)** is the historic national championship body for varsity men's rowing (heavyweight and lightweight); founded **1891** (Cornell, Columbia, Penn); first regatta **1895** on the Hudson at Poughkeepsie, NY; also hosts the women's lightweight rowing national championship | irarowing.com (official site, membership and championship pages) | 2026-07-29 | governing-bodies-explained, ira-vs-acra-recruiting |
-| IRA has **64 member institutions**, competing at the Division I or Division III level in men's heavyweight, men's lightweight, or women's lightweight rowing | irarowing.com/membership (search-snippet corroborated) | 2026-07-29 | governing-bodies-explained, ira-vs-acra-recruiting — **re-open irarowing.com/membership directly before publishing this number; only snippet-verified this pass** |
-| **ACRA (American Collegiate Rowing Association)** governs club-level collegiate rowing (men's and women's); founded **2008**; formed after the IRA stopped admitting club teams starting **2007**; hosts the annual ACRA Championship Regatta (Oak Ridge, TN) | americancollegiaterowing.com (official site — root page not directly opened this pass, reached via secondary press coverage quoting it) | 2026-07-29 | governing-bodies-explained, ira-vs-acra-recruiting — **re-open the ACRA site directly before publishing any ACRA-sourced number** |
-| ACRA reported **~76 competing collegiate club programs** at its 2024 championship | row2k reporting on the 2024 ACRA Championship Regatta (Tier-2 corroboration; treat as ACRA's own reported figure, not an independently audited count) | 2026-07-29 | governing-bodies-explained — **do not state as a current total program count without a fresher ACRA-sourced figure** |
+| IRA has **64 member institutions**, competing at the Division I or Division III level in men's heavyweight, men's lightweight, or women's lightweight rowing | irarowing.com/membership — independently returned by two separate search passes (2026-07-29 initial + comparison pass) with identical wording, raising confidence this reflects the page's actual text rather than a search-engine artifact; still snippet-only, no breakdown by heavyweight/lightweight/women's-lightweight found in either pass | 2026-07-29 (2 passes) | governing-bodies-explained, ira-vs-acra-recruiting — **re-open irarowing.com/membership directly before publishing this number as a quoted figure; the per-category breakdown specifically still needs a direct read** |
+| **ACRA (American Collegiate Rowing Association)** governs club-level collegiate rowing (men's and women's); founded **2008** by then-Michigan men's rowing head coach Gregg Hartsuff, under the General Not for Profit Association Act of 1986; formed after the IRA stopped admitting club teams starting **2007**; hosts the annual ACRA Championship Regatta (Oak Ridge, TN); governance structure includes a board with a president/secretary/treasurer and six geographic-region reps (Great Lakes, Mid-Atlantic, Northeast, Plains, South, West Coast) | americancollegiaterowing.com (official site — root page still not directly opened; the founding/legal/board-structure detail traces to Wikipedia and row2k's "ACRA Enters a New Era" history feature, both describing but not quoting ACRA's own site) | 2026-07-29 (2 passes) | governing-bodies-explained, ira-vs-acra-recruiting — **re-open the ACRA site directly before publishing any ACRA-sourced number or the legal/board detail as a quoted fact** |
+| ACRA's total club-program membership is reported as **"over 140 college club programs nationwide"** (a broader, standing-membership figure), distinct from **"~76 competing collegiate club programs"** specifically reported as the field size at the **2024 ACRA Championship Regatta** (a single event's turnout, not total membership) | Membership figure: Wikipedia's ACRA article (cross-check only, not independently confirmed against ACRA's own site). Event-field figure: row2k reporting on the 2024 ACRA Championship Regatta | 2026-07-29 (2 passes) | governing-bodies-explained — **these are two different metrics and must not be conflated in copy ("140+ member programs" vs. "76 programs entered the 2024 championship"); neither is confirmed against ACRA's own site yet** |
 
 ## C. Women's lightweight rowing — governance hybrid
 
@@ -48,7 +56,13 @@ NCAA primary before stating the exact number."
 | --- | --- | --- | --- |
 | Women's lightweight rowing is **NCAA-eligibility-governed but its national championship is contested at the IRA regatta**, not a standalone NCAA championship, because too few schools sponsor it to meet the NCAA's championship-sponsorship threshold | irarowing.com championship pages; individual-program athletics releases referencing the IRA women's lightweight championship (e.g. goprincetontigers.com coverage of a 2025 IRA women's lightweight title) | 2026-07-29 | lightweight-vs-openweight — **re-open irarowing.com directly to confirm the exact eligibility/governance language before publishing this as a precise rule; currently sourced to a program athletics release describing the outcome, not to IRA's own rules text** |
 
-## D. Scholarships / House v. NCAA settlement changes (rowing-specific)
+## D. Women's rowing NCAA recruiting calendar (2025-26)
+
+| Claim | Primary source | Verified | Articles |
+| --- | --- | --- | --- |
+| Rowing has no sport-specific NCAA DI recruiting calendar; it falls under the **"Other Sports" recruiting calendar**, 2025-26 edition: recruiting period **Aug 1, 2025 – July 31, 2026**; **dead period Dec 22, 2025 – Jan 2, 2026**; **fall National Letter of Intent/signing period Nov 10–13, 2025** | Primary PDF exists at `ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2025-26/2025-26D1Rec_OtherSportsRecruitingCalendar.pdf`, confirmed as a real, correctly-titled document via two independent search passes; the specific dates above were returned by search-engine summarization that draws on (among other results) an NCSA recruiting-rules page describing that PDF's contents — **NCSA is on this log's excluded-source list for facts, so these exact dates are corroborated-but-not-primary-sourced**; the same Dec 22–Jan 2 dead-period date range was also independently reported in the first research pass via a different secondary site (XFactor Admissions), which is a second independent convergence but still not a primary read | 2026-07-29 (2 independent secondary sources converge, PDF itself not yet opened) | recruiting-timeline (womens) — **do not publish these exact dates as directly NCAA-sourced until the PDF itself has been opened and read; until then, phrase the article as "the NCAA's Other Sports recruiting calendar governs rowing" without stating the dates as independently confirmed, or open the PDF first** |
+
+## E. Scholarships / House v. NCAA settlement changes (rowing-specific)
 
 | Claim | Primary source | Verified | Articles |
 | --- | --- | --- | --- |
@@ -56,22 +70,22 @@ NCAA primary before stating the exact number."
 | Following the **House v. NCAA settlement**, the NCAA DI Board of Directors formally replaced sport-specific scholarship caps with **roster-size caps** for schools that opt in, effective 2025-26; **women's rowing's roster cap is reported at 68**, with opted-in schools able to fund scholarships to any rostered athlete up to that cap | ncaa.org/news/2025/6/23/media-center-di-board-of-directors-formally-adopts-changes-to-roster-limits.aspx (structural change, primary); the specific "68" figure corroborated across row2k and multiple sports-business outlets summarizing the settlement's roster-cap table (Tier-2 corroboration for the exact number — **re-confirm the number 68 against the NCAA's own settlement/roster-limit documentation directly before publishing it as a hard figure**) | 2026-07-29 | scholarships (womens), house-settlement cross-link |
 | Opt-in is elective per DI school; **opted-out schools keep the prior structure** (larger rosters, prior scholarship-equivalency cap, no direct revenue sharing) | Same NCAA.org release; corroborated structurally by row2k's school-by-school opt-in tracking piece | 2026-07-29 | scholarships (womens) |
 
-## E. Division II women's rowing — sponsorship/grace-period volatility (must stay current)
+## F. Division II women's rowing — sponsorship/grace-period volatility (must stay current)
 
 | Claim | Primary source | Verified | Articles |
 | --- | --- | --- | --- |
 | NCAA DII bylaws require a **minimum of 35 member schools sponsoring a sport** to sustain an NCAA championship in that division | NCAA.org Division II Management Council release (ncaa.org/news/2025/7/23/media-center-division-ii-management-council-supports-proposal-for-5-seasons-of-competition.aspx) | 2026-07-29 | governing-bodies-explained, divisions |
-| DII women's rowing sponsorship fell to **~11 schools in 2024-25**, well under the 35-program minimum, triggering a mandated grace period before automatic discontinuation | Same NCAA.org DII Management Council release; corroborated by row2k feature on the DII discontinuation risk | 2026-07-29 | governing-bodies-explained, divisions |
+| DII women's rowing sponsorship fell to **~11 schools in 2024-25**, well under the 35-program minimum, triggering a mandated grace period before automatic discontinuation | Same NCAA.org DII Management Council release; corroborated by row2k feature on the DII discontinuation risk; **independently returned a third time, unchanged, in the 2026-07-29 comparison pass** — this is now the most consistently corroborated number in the entire log | 2026-07-29 (3 passes) | governing-bodies-explained, divisions |
 | **New legislation exempting women's rowing (and women's field hockey) from the 35-program minimum was approved at the 2026 NCAA convention**, preserving the DII championship | Cal Poly Humboldt Athletics coverage of the vote ("NCAA D2 Rowing Championship To Continue," Feb 2026), consistent with the NCAA.org DII Management Council release above | 2026-07-29 | governing-bodies-explained, divisions — **this is the single most current-events-sensitive fact in this log; re-verify every season it's referenced, since older secondary content elsewhere on the web may still say DII rowing was "about to be discontinued"** |
 
-## F. USRowing / junior pipeline (national governing body, primary)
+## G. USRowing / junior pipeline (national governing body, primary)
 
 | Claim | Primary source | Verified | Articles |
 | --- | --- | --- | --- |
 | USRowing runs annual **Youth National Championships** plus regional Youth Championships, under a defined age-category system (U15/U17/U19) | usrowing.org (National Championships and Youth Series Age Categories pages) | 2026-07-29 | club-and-junior-pathways |
 | USRowing runs **National Learn to Row Day**, an official beginner-access program open regardless of prior experience | usrowing.org/national-learn-to-row-day | 2026-07-29 | walk-on-and-novice-recruiting — supports the *structural* existence of a no-experience-required on-ramp; does not by itself establish any specific percentage of college rowers who started this way (see Open Items) |
 
-## G. Novice/walk-on structure — program-level, not centrally governed (illustrative, not universal)
+## H. Novice/walk-on structure — program-level, not centrally governed (illustrative, not universal)
 
 | Claim | Primary source | Verified | Articles |
 | --- | --- | --- | --- |
@@ -89,10 +103,35 @@ NCAA primary before stating the exact number."
 
 ## Open items to re-check before/at publish
 
-- Open `irarowing.com/membership` directly and re-confirm the 64-member figure and its heavyweight/lightweight/women's-lightweight breakdown.
-- Open `americancollegiaterowing.com` directly (not just secondary coverage) for ACRA's current program count and founding details.
-- Open the NCAA's official Sports Sponsorship and Participation Rates Report PDF for authoritative DI/DII/DIII women's rowing program counts, rather than championship-field sizes (22 DI / 6 DII / 8 DIII teams *competed* at 2024 championships — that is a fixed field size, not the number of programs that sponsor the sport).
-- Open the NCAA's 2025-26 "Other Sports" DI Recruiting Calendar PDF directly to confirm exact rowing-specific contact/quiet/dead-period dates before publishing a calendar in the women's `recruiting-timeline` article.
-- Confirm directly (e.g. against an Ivy League or other IRA program's own compliance page) whether men's programs "voluntarily follow NCAA-style recruiting dates" — this claim currently traces only to a non-primary recruiting-advisory site and should not be stated as settled practice without that confirmation.
-- Re-verify the "68" DI women's rowing roster cap directly against NCAA's own House-settlement documentation, not just secondary summaries.
-- Re-run the DII sponsorship-grace-period item (§E) each season — this is the fastest-moving fact in this log.
+**Blocked, not just unfinished:** this environment's egress policy denies outbound connections to ncaa.org,
+irarowing.com, americancollegiaterowing.com, and usrowing.org outright (confirmed via the proxy's own status
+endpoint — `connect_rejected`, "policy denial or upstream failure" — not a certificate/timeout/tooling problem).
+A second independent web-search triangulation pass (2026-07-29) was run against every item below instead; results
+are folded into the sections above. **None of the items below can be closed from this environment** — they need
+either a session with an unrestricted egress policy, or manual verification by a human opening the URL directly.
+
+- **Highest priority — genuinely unresolved after two passes:** the NCAA's official Sports Sponsorship and
+  Participation Rates Report PDF (`ncaaorg.s3.amazonaws.com/research/sportpart/...`) for authoritative DI/DII/DIII
+  women's rowing program *sponsorship* counts. Two search passes found only championship-*field* sizes (22 DI /
+  6 DII / 8 DIII teams competed at 2024 championships — a fixed field size, not the number of programs that
+  sponsor the sport) and mutually-inconsistent secondary aggregator totals. **Do not publish any DI/DII/DIII total
+  program count until this PDF is opened directly.**
+- Open `irarowing.com/membership` directly — the 64-member figure is now corroborated across two independent
+  search passes with identical wording (higher confidence it reflects real page text), but the
+  heavyweight/lightweight/women's-lightweight breakdown was not found in either pass and still needs a direct read.
+- Open `americancollegiaterowing.com` directly — the second pass surfaced a **discrepancy needing resolution, not
+  just confirmation**: "140+ total club programs" (membership) vs. "~76 programs" (2024 championship field) are
+  different metrics that got conflated in some secondary sources. Confirm ACRA's own current total membership
+  figure and use the *event* figure only when specifically describing that one event.
+- Open the NCAA's 2025-26 "Other Sports" DI Recruiting Calendar PDF directly — two independent secondary sources
+  now converge on the same dates (recruiting period Aug 1, 2025–July 31, 2026; dead period Dec 22–Jan 2; fall
+  signing Nov 10–13, 2025), raising confidence, but one of those sources is NCSA, which this log otherwise treats
+  as an excluded source — the dates should still be read from the primary PDF before being stated as NCAA-sourced
+  in copy.
+- Confirm directly (e.g. against an Ivy League or other IRA program's own compliance page) whether men's programs
+  "voluntarily follow NCAA-style recruiting dates" — still traces only to a non-primary recruiting-advisory site
+  after two passes; do not state as settled practice without that confirmation.
+- Re-verify the "68" DI women's rowing roster cap directly against NCAA's own House-settlement documentation —
+  unchanged after the second pass, still only secondary-summary corroborated.
+- Re-run the DII sponsorship-grace-period item (§F) each season — this is the fastest-moving fact in this log,
+  though it's now the *most* consistently corroborated number here (identical across three independent searches).
