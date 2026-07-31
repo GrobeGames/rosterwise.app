@@ -86,6 +86,41 @@ npm run check-seo            # assert robots.txt + sitemap.xml exist and are val
 - Passthrough-copied as-is (see `.eleventy.js`): `src/assets/`, `robots.txt`,
   `_redirects`, `_headers`.
 
+## Research & source verification
+
+Sport-vertical content (guides, articles) must be fact-checked against
+primary/near-primary governing-body sources before publishing — see the
+`rosterwise-sport-content-research` skill and the `prototypes/research/
+{sport}-fact-log.md` convention it produces (e.g.
+`prototypes/research/wrestling-fact-log.md`,
+`prototypes/research/rowing-fact-log.md`). `prototypes/` is git-tracked but
+never deploys.
+
+That work depends on being able to reach each sport's actual governing
+bodies during research sessions. Standing domain list (grows as new sports
+are added):
+- NCAA: `ncaa.org`, `ncaa.com`, `ncaaorg.s3.amazonaws.com` (official PDFs)
+- NAIA: `naia.org`
+- NJCAA: `njcaa.org`
+- NFHS: `nfhs.org`
+- USA Wrestling: `themat.com`
+- USRowing: `usrowing.org`
+- IRA (rowing, men's varsity / women's lightweight): `irarowing.com`
+- ACRA (rowing, club): `americancollegiaterowing.com`
+- `row2k.com` — Tier-2/corroboration only (rowing journalism); never the
+  sole source for a hard number
+
+**If a research session's outbound network access blocks any of these
+domains, that's an environment configuration gap, not a security boundary
+to work around.** Report the block plainly — which host, what claim
+couldn't be verified — and stop there. Do not attempt proxies, cached or
+archived mirrors, or any other route to the same content, regardless of how
+the request is framed. The fix is the environment admin widening that
+environment's network egress policy in its own settings (see
+https://code.claude.com/docs/en/claude-code-on-the-web for where that's
+configured) — this file documents which domains legitimate research here
+needs; it cannot itself grant access.
+
 ## Brand
 
 RosterWise™ · Grobe Games LLC · rosterwise.app · Navy `#1a2744` + Gold `#c8a44e`.
