@@ -45,6 +45,9 @@ childGroups:
       - title: "Verbal Commitment vs. NLI vs. Official Offer"
         url: /guide/verbal-commitment-vs-nli/
         summary: "What a verbal commitment actually means, why the NLI was eliminated in 2024, and how the Written Offer of Athletics Aid works."
+      - title: "The NCAA's New Five-Year Eligibility Rule (\"5 for 5\"), Explained"
+        url: /guide/age-based-eligibility/
+        summary: "The NCAA's age-based eligibility model replaced 'four seasons in five years' — but the '5 for 5' nickname is misleading. How the five-year clock starts, why redshirts and most waivers are gone, who it applies to, and what recent court rulings have unsettled."
       - title: "Academic Eligibility and the NCAA Eligibility Center"
         url: /guide/ncaa-eligibility-center/
         summary: "Core course requirements, GPA sliding scales, test scores, and the registration process at eligibilitycenter.org."
@@ -68,9 +71,6 @@ childGroups:
         summary: "Athletic scholarships are only one of four layers. Understanding how athletic, merit, need-based, and outside aid stack — and where the ceiling sits — often changes which schools make financial sense."
   - heading: "Special Situations"
     children:
-      - title: "The NCAA's New Five-Year Eligibility Rule (\"5 for 5\"), Explained"
-        url: /guide/age-based-eligibility/
-        summary: "The NCAA's age-based eligibility model replaced 'four seasons in five years' — but the '5 for 5' nickname is misleading. How the five-year clock starts, why redshirts and most waivers are gone, who it applies to, and what recent court rulings have unsettled."
       - title: "What Is the NJCAA? The Junior College (JUCO) Pathway, Explained"
         url: /guide/njcaa-juco-explained/
         summary: "What junior-college athletics actually is, whether players earn degrees, whether it's a stepping stone or a destination, and how four-year recruiting from JUCO really works — with an honest line between what's verified and what isn't."
