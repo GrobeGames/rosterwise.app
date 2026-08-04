@@ -10,7 +10,11 @@ eleventyExcludeFromCollections: true
     {%- set rawTitle = item.data.title -%}
     {%- set title = rawTitle | replace(" | RosterWise™", "") | replace(" — RosterWise™", "") -%}
     {%- set desc = item.data.description or item.data.summary or "" -%}
-    {%- set body = (item.templateContent | striptags | replace(r/\s+/g, " ") | truncate(600, true, "")) if item.templateContent else "" -%}
+    {#- /blog/ (blog/index.njk) also consumes collections, so it renders in the same
+        deferred pass as this template — touching its templateContent here makes the
+        content dependency unresolvable and 11ty aborts the whole build with
+        UsingCircularTemplateContentReferenceError. Index it by title/description only. -#}
+    {%- set body = (item.templateContent | striptags | replace(r/\s+/g, " ") | truncate(600, true, "")) if (u != "/blog/" and item.templateContent) else "" -%}
     {{ sep() }}{"t":{{ title | dump | safe }},"u":{{ u | dump | safe }},"d":{{ desc | truncate(180, true, "") | dump | safe }},"b":{{ body | dump | safe }},"k":"page"}
   {%- endif -%}
 {%- endfor -%}

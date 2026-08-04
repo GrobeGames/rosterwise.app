@@ -149,4 +149,4 @@ Weight-class projection is an estimate, not a promise. Some wrestlers land exact
 
 ---
 
-*Weight classes, rules allowances, and certification standards can change season to season. This article reflects the 2025-26 season and the current NCAA rules book. Verify the current numbers at the governing bodies (NCAA.org/NCAA.com, NAIA.org, NJCAA.org, NFHS) for the relevant year.*
+*Weight classes, rules allowances, and certification standards can change season to season. This article reflects the 2025-26 season and the current NCAA rules book. Verify the current numbers at the governing bodies (NCAA.org and NCAA.com, NAIA.org, NJCAA.org, NFHS) for the relevant year.*

@@ -37,7 +37,7 @@ faq:
 sources:
   - '<a href="https://www.ncaa.com/news/wrestling-women/article/2025-10-31/everything-know-about-ncaa-womens-wrestling-how-it-works-scoring-weight-classes">NCAA.com — "Everything to know about NCAA women''s wrestling"</a> (Oct 31, 2025) — NCAA women compete in freestyle'
   - '<a href="https://www.themat.com">USA Wrestling (themat.com)</a> — the national governing body; folkstyle, freestyle, and Greco-Roman; age-group pathways and events'
-  - '<a href="https://www.ncaa.com/wrestling-men">NCAA.com — Wrestling</a> — folkstyle as the collegiate men''s style'
+  - '<a href="https://www.ncaa.com/sports/wrestling-men/d1">NCAA.com — Wrestling</a> — folkstyle as the collegiate men''s style'
 cta:
   heading: "Match your development plan to the college style"
   text: "Knowing the styles is part of planning smart. Knowing where the roster openings are is the other part. RosterWise analyzes every NCAA D1, D2, D3, NAIA, and NJCAA program by weight class so families can target real opportunities as they develop across the season and the offseason circuit."

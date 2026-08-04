@@ -55,7 +55,7 @@ ${toc}
 
 ## The timeline at a glance
 
-Per the 2025-26 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by the NCAA at ncaaorg.s3.amazonaws.com), the recruiting framework for D1 women's lacrosse operates on a specific schedule. The key dates that anchor the timeline:
+Per the 2025-26 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by the NCAA at `ncaaorg.s3.amazonaws.com`), the recruiting framework for D1 women's lacrosse operates on a specific schedule. The key dates that anchor the timeline:
 
 - **Any age**: Athletes can fill out recruiting questionnaires, attend college camps, send introductory communication to coaches, and produce highlight video. None of this is restricted by NCAA rules.
 - **Before September 1 of junior year**: D1 college coaches cannot initiate substantive recruiting communication. They cannot call, text, email, or extend verbal offers. They can send camp and clinic information.
@@ -262,4 +262,4 @@ No two women's lacrosse athletes have the same recruiting experience. Some athle
 
 ---
 
-*NCAA recruiting rules and calendars are updated annually. This article reflects the 2025-26 calendar. Families should verify the current calendar at ncaaorg.s3.amazonaws.com for the relevant academic year.*
+*NCAA recruiting rules and calendars are updated annually. This article reflects the 2025-26 calendar. Families should verify the current calendar at `ncaaorg.s3.amazonaws.com` for the relevant academic year.*

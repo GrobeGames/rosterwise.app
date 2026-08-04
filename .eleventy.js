@@ -38,6 +38,17 @@ module.exports = function (eleventyConfig) {
           .replace(/\s+/g, "-"),
     });
 
+  // linkify-it prefixes schemeless bare domains in prose with http:// — force
+  // https so auto-linked mentions match the absUrl convention for outbound links.
+  md.linkify.normalize = (match) => {
+    if (!match.schema) {
+      match.url = "https://" + match.url;
+    }
+    if (match.schema === "mailto:" && !/^mailto:/i.test(match.url)) {
+      match.url = "mailto:" + match.url;
+    }
+  };
+
   eleventyConfig.setLibrary("md", md);
 
   // --- Filters ---

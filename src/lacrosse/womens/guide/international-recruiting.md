@@ -49,7 +49,7 @@ sources:
   - "<strong>USA Lacrosse magazine</strong> — Coverage of international lacrosse, 2028 Olympics, and World Championships"
   - '<a href="https://worldlacrosse.sport">World Lacrosse</a> — Official international governing body; "Lacrosse qualification set for Olympic Games Los Angeles 2028"'
   - '<a href="https://lacrosse.ca">Lacrosse Canada</a> — Official Canadian governing body for box, field, women''s, and sixes lacrosse'
-  - '<a href="https://www.britishlacrosse.org">British Lacrosse</a> — Governing body for English lacrosse'
+  - '<a href="https://www.englandlacrosse.co.uk">England Lacrosse</a> — Governing body for English lacrosse'
   - '<strong>Olympics.com</strong> — "Sixes lacrosse at the Olympic Games Los Angeles 2028: Everything you need to know about the new sport at LA28"'
   - "<strong>2022 World Lacrosse Women's Championship final standings</strong> — USA (1st), Canada (2nd), England (3rd), Australia (4th)"
   - '<strong>McCarter &amp; English</strong> — "Changing Immigration Policies Pose New Challenges for NCAA Institutions and NIL Opportunities for International Student-Athletes" (mccarter.com)'
@@ -94,7 +94,7 @@ For families with Canadian women's lacrosse athletes considering U.S. college re
 
 Beyond Canada, several other nations have established competitive women's lacrosse programs that produce some NCAA women's lacrosse recruits, though typically at smaller absolute numbers.
 
-**England women's lacrosse**: England has a long lacrosse tradition and consistently fields a competitive national team. Per the 2022 World Lacrosse Women's Championship final results, England finished third, behind only the United States and Canada. British Lacrosse (britishlacrosse.org) is the governing body for English lacrosse.
+**England women's lacrosse**: England has a long lacrosse tradition and consistently fields a competitive national team. Per the 2022 World Lacrosse Women's Championship final results, England finished third, behind only the United States and Canada. England Lacrosse ([englandlacrosse.co.uk](https://www.englandlacrosse.co.uk)) is the governing body for English lacrosse; British Lacrosse ([britishlacrosse.org](https://www.britishlacrosse.org)) is the umbrella body the English, Scottish, and Welsh associations jointly own to field Great Britain squads.
 
 **Australia women's lacrosse**: Australia has been competitive in women's lacrosse at the international level for decades, winning women's field World Championships in 1986 and 2005 (per Olympics.com coverage of the 2028 Games). Australia finished fourth at the 2022 World Championship.
 
@@ -106,7 +106,7 @@ Beyond Canada, several other nations have established competitive women's lacros
 
 ## The September 1 of junior year rule applies to international recruits too
 
-International women's lacrosse recruits to NCAA Division I programs operate under the same recruiting calendar as American recruits. Per the 2025-26 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by the NCAA at ncaaorg.s3.amazonaws.com), the September 1 of junior year initial contact date applies to all D1 women's lacrosse recruits regardless of nationality.
+International women's lacrosse recruits to NCAA Division I programs operate under the same recruiting calendar as American recruits. Per the 2025-26 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by the NCAA at `ncaaorg.s3.amazonaws.com`), the September 1 of junior year initial contact date applies to all D1 women's lacrosse recruits regardless of nationality.
 
 For international families, this means:
 

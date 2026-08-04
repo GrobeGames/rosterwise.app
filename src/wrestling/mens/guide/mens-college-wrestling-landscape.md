@@ -38,7 +38,7 @@ faq:
     a: "Weight-class depth. A program fields one starter per weight, so the real question is who's at your athlete's projected weight and when they graduate. A stacked weight and an open weight at the same program are completely different opportunities — which is why reading a roster weight by weight beats judging a program by its overall reputation."
 sources:
   - "<strong>2025-26 and 2026-27 NCAA Men's Wrestling Rules Book</strong> — weight classes and rules of folkstyle competition. Free PDF at ncaaorg.s3.amazonaws.com/championships/sports/wrestling/rules/PRMWR_RulesBook.pdf"
-  - '<a href="https://www.ncaa.com/wrestling-men">NCAA.com — Men''s Wrestling</a> — division-separated championships'
+  - '<a href="https://www.ncaa.com/sports/wrestling-men/d1">NCAA.com — Men''s Wrestling</a> — division-separated championships'
   - '<a href="https://www.naia.org/sports/mwrest/index">NAIA.org — Men''s Wrestling</a> and <a href="https://www.njcaa.org/sports/wrest/index">NJCAA.org — Wrestling</a>'
 cta:
   heading: "Read the men's map by weight class"
@@ -94,4 +94,4 @@ The men's landscape is big enough that almost every wrestler has a real home in 
 
 ---
 
-*This article reflects the 2025-26 season and the current NCAA rules book. Verify current specifics at NCAA.org/NCAA.com, NAIA.org, and NJCAA.org for the relevant year.*
+*This article reflects the 2025-26 season and the current NCAA rules book. Verify current specifics at NCAA.org and NCAA.com, NAIA.org, and NJCAA.org for the relevant year.*

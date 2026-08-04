@@ -34,7 +34,7 @@ faq:
   - q: "What role do the NAIA and NJCAA play in wrestling?"
     a: "The NAIA sponsors both men's and women's wrestling championships and can be an excellent competitive and scholarship pathway. The NJCAA (junior colleges) offers a two-year pathway that's valuable for development, academics, or as a bridge to a four-year program — the NJCAA runs a men's championship and a women's invitational."
 sources:
-  - '<a href="https://www.ncaa.org">NCAA.org</a> and <a href="https://www.ncaa.com/wrestling-men">NCAA.com</a> — division-separated men''s championships and the unified National Collegiate women''s championship (including the 2028 Division III women''s split)'
+  - '<a href="https://www.ncaa.org">NCAA.org</a> and <a href="https://www.ncaa.com/sports/wrestling-men/d1">NCAA.com</a> — division-separated men''s championships and the unified National Collegiate women''s championship (including the 2028 Division III women''s split)'
   - '<a href="https://www.ncaa.com/news/wrestling-women/article/2025-01-17/ncaa-adds-womens-wrestling-91st-championship">NCAA.com — women''s wrestling as the 91st championship</a> (Jan 17, 2025)'
   - '<a href="https://www.naia.org/sports/mwrest/index">NAIA.org — Men''s</a> and <a href="https://www.naia.org/sports/wwrest/index">Women''s Wrestling</a>'
   - '<a href="https://www.njcaa.org/sports/wrest/index">NJCAA.org — Wrestling</a>'
@@ -90,4 +90,4 @@ Plenty of wrestlers start at one level and thrive somewhere they didn't expect �
 
 ---
 
-*Championship structures for women's wrestling are changing (Division III splits off in spring 2028). This article reflects the 2025-26 season. Verify current structures at NCAA.org/NCAA.com, NAIA.org, and NJCAA.org for the relevant year.*
+*Championship structures for women's wrestling are changing (Division III splits off in spring 2028). This article reflects the 2025-26 season. Verify current structures at NCAA.org and NCAA.com, NAIA.org, and NJCAA.org for the relevant year.*

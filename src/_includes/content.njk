@@ -98,7 +98,7 @@ structured_data_type: article
     <h3>Sources &amp; References</h3>
     <ol class="sources-list">
       {% for source in sources %}
-      <li>{{ source }}</li>
+      <li>{{ source | safe }}</li>
       {% endfor %}
     </ol>
   </section>

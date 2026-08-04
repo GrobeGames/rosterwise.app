@@ -119,7 +119,7 @@ Understanding the Canadian path into NCAA men's lacrosse requires understanding 
 
 For Canadian families researching NCAA men's lacrosse, several practical realities differentiate the Canadian recruiting pathway from the American pathway:
 
-**The September 1 of junior year rule applies the same way**: Per the 2025-26 NCAA Division I Men's Lacrosse Recruiting Calendar (published directly by the NCAA at ncaaorg.s3.amazonaws.com), the September 1 of junior year initial contact date applies to Canadian recruits the same way it applies to American recruits. See [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/).
+**The September 1 of junior year rule applies the same way**: Per the 2025-26 NCAA Division I Men's Lacrosse Recruiting Calendar (published directly by the NCAA at `ncaaorg.s3.amazonaws.com`), the September 1 of junior year initial contact date applies to Canadian recruits the same way it applies to American recruits. See [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/).
 
 **Age and birthdate considerations**: Per Canadian lacrosse club resources, the U.S. recruiting class system is birthdate-driven rather than year-of-birth-driven. A Canadian player born after August 31 may need to consider whether to play in their U.S. recruiting class age bracket rather than their Canadian birth-year bracket to align with how NCAA programs evaluate.
 
@@ -152,7 +152,7 @@ Per Wikipedia, Haudenosaunee Nationals official communications (haudenosauneenat
 
 While Canada dominates international representation in NCAA men's lacrosse, smaller but growing pipelines exist from other countries:
 
-**England**: Per British Lacrosse (britishlacrosse.org), England has a long lacrosse tradition. English players occasionally compete at NCAA programs, typically with prior field lacrosse experience through English club and school programs. English Lacrosse has been one of the oldest international lacrosse federations.
+**England**: Per England Lacrosse ([englandlacrosse.co.uk](https://www.englandlacrosse.co.uk)), the sport's governing body in England, the country has a long lacrosse tradition. English players occasionally compete at NCAA programs, typically with prior field lacrosse experience through English club and school programs. English Lacrosse has been one of the oldest international lacrosse federations.
 
 **Israel**: Per the Israel Lacrosse Association (founded 2010), Israel has built a notable lacrosse program with multiple international competitions. Israel finished seventh at the 2014, 2018, and 2023 World Lacrosse Championships. Israeli players have entered NCAA programs in growing numbers, particularly through programs at Wingate Institute and other Israeli development pathways.
 

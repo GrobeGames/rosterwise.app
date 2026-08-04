@@ -120,4 +120,4 @@ Women's wrestling is expanding so quickly that the map is being redrawn season t
 
 ---
 
-*Women's wrestling governance is changing quickly. This article reflects facts confirmed as of the 2025-26 season and the 2026 inaugural championship. Verify current figures at NCAA.org/NCAA.com for the relevant year.*
+*Women's wrestling governance is changing quickly. This article reflects facts confirmed as of the 2025-26 season and the 2026 inaugural championship. Verify current figures at NCAA.org and NCAA.com for the relevant year.*

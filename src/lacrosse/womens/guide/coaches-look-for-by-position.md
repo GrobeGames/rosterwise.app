@@ -59,7 +59,7 @@ ${toc}
 
 ## The structure of women's college lacrosse
 
-Per the IWLCA (iwlca.org) and the NCAA Women's Lacrosse Rules 2026-2027 (published at ncaaorg.s3.amazonaws.com):
+Per the IWLCA (iwlca.org) and the NCAA Women's Lacrosse Rules 2026-2027 (published at `ncaaorg.s3.amazonaws.com`):
 
 **NCAA women's lacrosse**: 12 players on the field per team
 - 4 attackers

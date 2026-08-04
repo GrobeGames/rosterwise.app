@@ -86,4 +86,4 @@ The freestyle-to-Olympic pipeline is real, but it's a ceiling, not a script. Som
 
 ---
 
-*Women's wrestling development and the Olympic pathway are evolving quickly. This article reflects the 2025-26 season. Verify current specifics at NCAA.org/NCAA.com and USA Wrestling (themat.com) for the relevant year.*
+*Women's wrestling development and the Olympic pathway are evolving quickly. This article reflects the 2025-26 season. Verify current specifics at NCAA.org and NCAA.com and USA Wrestling (themat.com) for the relevant year.*

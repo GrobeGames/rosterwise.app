@@ -50,9 +50,9 @@ sources:
   - '<a href="https://gogusties.com">Gustavus Adolphus College Athletics</a> — Example D3 school financial aid policy publication'
   - 'NCAA Division III rules — published by NCAA.org (D3 prohibition on athletic scholarships)'
   - 'House v. NCAA settlement — U.S. District Court, Northern District of California ruling, June 6, 2025'
-  - '<a href="https://naia.org/membership/legislative-services/financial-aid">NAIA Legislative Services Financial Aid</a> — NAIA financial aid framework'
+  - '<a href="https://www.naia.org/why-naia/financial-aid">NAIA Financial Aid</a> — NAIA financial aid framework'
   - '<a href="https://commonapp.org">Common Application</a> — Application requirements'
-  - '<a href="https://student.collegeboard.org">CSS Profile</a> — Institutional need-based aid at participating schools'
+  - '<a href="https://cssprofile.collegeboard.org">CSS Profile</a> — Institutional need-based aid at participating schools'
   - 'Higher Education Act of 1965, as amended — Federal statute establishing the framework for federal student aid programs'
 cta:
   heading: "Find programs where the full financial picture actually works for your family."

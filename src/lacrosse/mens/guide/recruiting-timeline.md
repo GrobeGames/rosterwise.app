@@ -57,7 +57,7 @@ ${toc}
 
 ## The timeline at a glance
 
-Per the 2025-26 NCAA Division I Men's Lacrosse Recruiting Calendar (published directly by the NCAA at ncaaorg.s3.amazonaws.com), the recruiting framework for D1 men's lacrosse operates on a specific schedule. The key anchor dates:
+Per the 2025-26 NCAA Division I Men's Lacrosse Recruiting Calendar (published directly by the NCAA at `ncaaorg.s3.amazonaws.com`), the recruiting framework for D1 men's lacrosse operates on a specific schedule. The key anchor dates:
 
 - **Any age**: Athletes can fill out recruiting questionnaires, attend college camps, send introductory communication to coaches, and produce highlight video.
 - **Before September 1 of junior year**: D1 college coaches cannot initiate substantive recruiting communication. They cannot call, text, email, or extend verbal offers. They can send camp and clinic information.

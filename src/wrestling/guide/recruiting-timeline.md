@@ -114,4 +114,4 @@ The calendar is the same for everyone; the timeline is not. Some wrestlers commi
 
 ---
 
-*NCAA recruiting calendars are updated annually. This article reflects the 2025-26 Division I calendar. Verify the current calendar at ncaaorg.s3.amazonaws.com for the relevant academic year.*
+*NCAA recruiting calendars are updated annually. This article reflects the 2025-26 Division I calendar. Verify the current calendar at `ncaaorg.s3.amazonaws.com` for the relevant academic year.*

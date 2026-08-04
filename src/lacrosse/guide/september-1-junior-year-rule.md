@@ -53,7 +53,7 @@ ${toc}
 
 ## The rule itself
 
-Per the 2025-26 NCAA Division I Recruiting Calendars for Men's Lacrosse and Women's Lacrosse — both published directly by the NCAA at ncaaorg.s3.amazonaws.com — Division I lacrosse coaches at NCAA-member institutions generally cannot initiate substantive recruiting communication with prospective student-athletes until September 1 following the athlete's sophomore year of high school. The specific date is September 1 of the recruit's junior year.
+Per the 2025-26 NCAA Division I Recruiting Calendars for Men's Lacrosse and Women's Lacrosse — both published directly by the NCAA at `ncaaorg.s3.amazonaws.com` — Division I lacrosse coaches at NCAA-member institutions generally cannot initiate substantive recruiting communication with prospective student-athletes until September 1 following the athlete's sophomore year of high school. The specific date is September 1 of the recruit's junior year.
 
 Before that date, the rules restrict what coaches can do:
 
@@ -82,7 +82,7 @@ This is not a minor technical distinction. It fundamentally changes how the lacr
 
 A genuine challenge for families researching lacrosse recruiting is that much of the recruiting content online treats all sports as if they follow the June 15 rule. Articles, recruiting service blogs, and general "NCAA recruiting timeline" resources frequently describe a June 15 contact date as if it applies universally. For lacrosse families, this is misleading and can cause real harm — families who expect coach communication in June after sophomore year may waste months wondering why coaches haven't reached out, when in reality coaches are not yet permitted to do so under NCAA rules.
 
-The lacrosse-specific calendar can be verified directly through the NCAA's published recruiting calendars at ncaaorg.s3.amazonaws.com. Every family seriously researching lacrosse recruiting should review the actual NCAA calendar for the relevant year rather than relying on general recruiting timelines that may conflate sports.
+The lacrosse-specific calendar can be verified directly through the NCAA's published recruiting calendars at `ncaaorg.s3.amazonaws.com`. Every family seriously researching lacrosse recruiting should review the actual NCAA calendar for the relevant year rather than relying on general recruiting timelines that may conflate sports.
 
 ## What this means before September 1 of junior year
 
@@ -137,7 +137,7 @@ Today, while lacrosse recruiting remains active and competitive, the September 1
 
 ## The role of the recruiting calendar in your family's planning
 
-The single most important resource for any lacrosse recruiting family is the current NCAA Recruiting Calendar for the relevant division. The 2025-26 calendars for Division I Men's Lacrosse and Division I Women's Lacrosse are both published directly by the NCAA at ncaaorg.s3.amazonaws.com.
+The single most important resource for any lacrosse recruiting family is the current NCAA Recruiting Calendar for the relevant division. The 2025-26 calendars for Division I Men's Lacrosse and Division I Women's Lacrosse are both published directly by the NCAA at `ncaaorg.s3.amazonaws.com`.
 
 These calendars specify:
 
@@ -195,4 +195,4 @@ The September 1 of junior year rule is the NCAA's formal framework. But how it u
 
 ---
 
-*NCAA recruiting rules and calendars are updated annually. This article reflects the 2025-26 calendar. Families should verify the current calendar at ncaaorg.s3.amazonaws.com for the relevant academic year.*
+*NCAA recruiting rules and calendars are updated annually. This article reflects the 2025-26 calendar. Families should verify the current calendar at `ncaaorg.s3.amazonaws.com` for the relevant academic year.*

@@ -128,9 +128,9 @@ D2 requirements have been updated in recent years. Families should verify curren
 
 **Division III:** No centralized NCAA eligibility requirements. Each D3 school sets its own admissions and academic eligibility standards. Athletes must be admitted to the institution through the regular admissions process. Note that NCAA eligibility and college admissions are separate processes — meeting eligibility requirements does not guarantee admission, especially at selective schools. See our [recruited athlete admissions guide](/guide/recruited-athlete-admissions/) for how admissions works across divisions.
 
-**NAIA:** Uses its own eligibility center at [play.mynaia.org](https://play.mynaia.org). NAIA eligibility requires meeting **two of three criteria:**
-1. Minimum overall GPA of 2.3
-2. Minimum ACT composite of 18 or SAT equivalent
+**NAIA:** Uses its own eligibility center at [play.mynaia.org](https://play.mynaia.org). An incoming freshman qualifies with a **final overall high school GPA of 2.3 or higher — that alone is enough**. Athletes below a 2.3 GPA can still qualify by meeting **two of three criteria:**
+1. Minimum overall GPA of 2.0
+2. Minimum ACT composite of 18 or SAT total of 970
 3. Graduating in the top half of your high school class
 
 NAIA requirements are generally more accessible than NCAA D1 requirements.

@@ -38,7 +38,7 @@ faq:
     a: "The Olympic men's styles are freestyle and Greco-Roman, so the age-group freestyle/Greco pathway (through USA Wrestling, RTCs, and the senior circuit) is the on-ramp to the international and Olympic level. A folkstyle college career and an Olympic freestyle/Greco ambition run in parallel for many top men."
 sources:
   - '<a href="https://www.themat.com">USA Wrestling (themat.com)</a> — the national governing body; freestyle and Greco-Roman age-group pathways, Fargo, and national events'
-  - '<a href="https://www.ncaa.com/wrestling-men">NCAA.com — Men''s Wrestling</a> — folkstyle as the collegiate men''s style'
+  - '<a href="https://www.ncaa.com/sports/wrestling-men/d1">NCAA.com — Men''s Wrestling</a> — folkstyle as the collegiate men''s style'
   - '<a href="/wrestling/guide/folkstyle-freestyle-and-greco/">RosterWise — Folkstyle vs. Freestyle vs. Greco-Roman</a>'
 cta:
   heading: "Compete year-round — and target where you fit"

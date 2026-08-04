@@ -31,22 +31,41 @@
 
 Of 65 unique URLs: 60 verified clean. The five that need action: **one likely-dead URL** (an NAIA path that appears never to have existed), **two factual problems** (the NAIA eligibility criteria are misstated; British Lacrosse is mislabeled as England's governing body), and **two moved URLs**. Bigger than any individual link, two site-level defects were found during the audit (below).
 
+## Fixes applied (2026-08-04, same day — second pass on this branch)
+
+All action items except the manual App Store tap-check were applied and verified in a clean build:
+
+1. `src/_includes/content.njk` — `{{ source | safe }}`: Sources & References now render as real links on all 47 pages (0 escaped anchors in the built site, down from 148).
+2. `src/search-index.njk` — build fixed. Root cause: `/blog/` (blog/index.njk) also consumes `collections`, so it renders in the same deferred pass as the search index; reading its `templateContent` there is unresolvable and Eleventy 3.1.5 aborts. The search index now skips body-text extraction for `/blog/` only (it stays in the index by title/description). `npm run build` is green end-to-end, 2,438 files + sitemap + SEO checks.
+3. NAIA eligibility criteria corrected in `src/guide/ncaa-eligibility-center.md` (2.3 GPA alone qualifies; the two-of-three path uses 2.0 GPA / 18 ACT or 970 SAT / top-half rank).
+4. British Lacrosse → England Lacrosse corrected in both international-recruiting guides (citation swapped to englandlacrosse.co.uk; prose now distinguishes the England NGB from the GB umbrella body).
+5. Dead NAIA link replaced with `https://www.naia.org/why-naia/financial-aid`; CSS Profile link replaced with `https://cssprofile.collegeboard.org`; the four `ncaa.com/wrestling-men` citations replaced with `https://www.ncaa.com/sports/wrestling-men/d1`.
+
+**Two additional defect classes were discovered while verifying the fixes, and also fixed:**
+
+6. **Manufactured broken links from markdown linkify.** `linkify: true` auto-links bare domains in article prose. Prose like "NCAA.org/NCAA.com" became a single link to `ncaa.org/NCAA.com` (a 404 path) on 5 wrestling pages — rewritten as "NCAA.org and NCAA.com". Bare mentions of `ncaaorg.s3.amazonaws.com` in 13 places linked to the S3 bucket root (which serves an AccessDenied error) — now rendered as code spans, not links. Front-matter source strings are unaffected (they never linkified).
+7. **All auto-linked domains were `http://`.** linkify-it defaults schemeless matches to `http://`; the built site had ~90 such non-TLS anchors (NCAA.org ×20, eligibilitycenter.org ×10, …). `.eleventy.js` now normalizes linkified matches to `https://`, matching the `absUrl` convention. Built site now has zero `http://` hrefs.
+
+**Also verified in the second pass:** the wrestling/volleyball/lacrosse sources cite seven NCAA S3 PDFs as *plain-text* paths (schemeless, so outside the original 65-URL link inventory). All seven were verified live at their exact cited paths via search: the 2025-26/2026-27 men's wrestling rules book (`PRMWR_RulesBook.pdf`), the 2026/2027 women's lacrosse rules book (`PRWLA_RulesBook.pdf`), the 2025-26 D1 women's volleyball and "other sports" recruiting calendars, both 2025-26 weight-management packets (the odd `2025-256RMWR_…` filename is the NCAA's actual filename, cited correctly), and the June 2025 House-settlement Q&A.
+
+Still open for a human: the ten-second App Store tap-check on the four app links, and a glance at the Cloudflare Pages dashboard to confirm the next deploy goes green.
+
 ## Site-level findings (affect all source links)
 
 ### 1. CRITICAL — Sources & References render as escaped text, not links (all 47 pages, since launch)
 
 `src/_includes/content.njk` renders each front-matter source with `<li>{{ source }}</li>` (line 101). Nunjucks autoescape is ON for this project, so the `<a href="…">` HTML stored in every `sources:` front-matter entry is HTML-entity-escaped in the built page. Visitors see literal `<a href="https://…">NCAA…</a>` code as text — no clickable link. Verified in a clean build: 148 escaped anchors across exactly the 47 pages that have `sources:` front matter; `git log -S` shows the section has rendered this way since it was introduced (f93f12a, 2026-05-26). **Confirmed live in production:** a Google phrase search for `site:rosterwise.app "a href"` matches the guide/methodology pages that have Sources sections (transfer-portal, roster-intelligence, weight-class-depth, …) — "a href" can only phrase-match as visible page text, which is exactly this bug. Google is indexing the escaped code as article prose, and none of these citations function as real outbound links for E-E-A-T/SEO purposes.
 
-**Fix (one line, not applied — report-only scope):** `<li>{{ source | safe }}</li>` — safe here because `sources:` values are repo-authored, not user input. FAQ blocks and inline markdown links are unaffected (no HTML anchors in front matter outside `sources:`).
+**Fix (applied same day — see "Fixes applied" above):** `<li>{{ source | safe }}</li>` — safe here because `sources:` values are repo-authored, not user input. FAQ blocks and inline markdown links were unaffected (no HTML anchors in front matter outside `sources:`).
 
 ### 2. `npm run build` fails at HEAD of main (deploys likely failing)
 
-`src/search-index.njk` (added in 61127ab) triggers `UsingCircularTemplateContentReferenceError` under Eleventy v3.1.5 (fresh `npm install` from the lockfile): the build dies before writing any files. If Cloudflare Pages resolves the same Eleventy version, every push since 61127ab has failed to deploy — worth checking the Pages deploy log; the live site would be frozen at the last green deploy. (Build completes normally — 2,438 files — with that one template sidelined; the file was restored untouched.)
+`src/search-index.njk` (added in 61127ab) triggers `UsingCircularTemplateContentReferenceError` under Eleventy v3.1.5 — the exact version the lockfile pins, so Cloudflare Pages fails the same way: every push since 61127ab has likely failed to deploy, leaving the live site frozen at the last green deploy. **Fixed same day — see "Fixes applied" above**; check the Pages dashboard to confirm the next deploy goes green.
 
 ### 3. Clean checks
 
 - No schemeless external hrefs (the `absUrl` soft-404 trap flagged in CLAUDE.md) anywhere in content.
-- No insecure `http://` external links.
+- No insecure `http://` external links *written in source files*. (The built site did have ~90 `http://` anchors manufactured by markdown linkify from bare-domain prose — found and fixed in the second pass; see "Fixes applied" items 6–7.)
 - No malformed markdown link syntax found.
 
 ## Action items (by priority)

@@ -203,7 +203,7 @@ A few practical notes:
 
 ## The pre-September 1 reality
 
-A critical context for women's lacrosse recruiting videos: per the 2025-26 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by the NCAA at ncaaorg.s3.amazonaws.com) and discussed in detail in [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/), D1 college coaches cannot initiate substantive recruiting communication before September 1 of an athlete's junior year. This includes responding substantively to athlete-initiated outreach.
+A critical context for women's lacrosse recruiting videos: per the 2025-26 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by the NCAA at `ncaaorg.s3.amazonaws.com`) and discussed in detail in [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/), D1 college coaches cannot initiate substantive recruiting communication before September 1 of an athlete's junior year. This includes responding substantively to athlete-initiated outreach.
 
 What this means for recruiting video:
 
