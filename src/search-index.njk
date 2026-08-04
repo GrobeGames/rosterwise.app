@@ -1,0 +1,24 @@
+---
+permalink: /search-index.json
+eleventyExcludeFromCollections: true
+---
+{%- set sep = joiner(",") -%}
+[
+{%- for item in collections.all -%}
+  {%- set u = item.url -%}
+  {%- if u and item.data.title and ("/programs/" not in u) and (".json" not in u) and (".xml" not in u) and ("/404" not in u) -%}
+    {%- set rawTitle = item.data.title -%}
+    {%- set title = rawTitle | replace(" | RosterWise™", "") | replace(" — RosterWise™", "") -%}
+    {%- set desc = item.data.description or item.data.summary or "" -%}
+    {%- set body = (item.templateContent | striptags | replace(r/\s+/g, " ") | truncate(600, true, "")) if item.templateContent else "" -%}
+    {{ sep() }}{"t":{{ title | dump | safe }},"u":{{ u | dump | safe }},"d":{{ desc | truncate(180, true, "") | dump | safe }},"b":{{ body | dump | safe }},"k":"page"}
+  {%- endif -%}
+{%- endfor -%}
+{%- for p in programs -%}
+  {%- if p.page_url and p.school_name -%}
+    {%- set pname = (p.school_name ~ " " ~ (p.nickname or "")) | trim -%}
+    {%- set pmeta = [p.gender_display, p.sport_display, p.division, p.conference, p.state_full_name] | select("string") | join(" · ") -%}
+    {{ sep() }}{"t":{{ pname | dump | safe }},"u":{{ p.page_url | dump | safe }},"d":{{ pmeta | dump | safe }},"k":"program"}
+  {%- endif -%}
+{%- endfor -%}
+]
