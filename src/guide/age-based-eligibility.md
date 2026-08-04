@@ -1,7 +1,7 @@
 ---
 layout: content.njk
-title: "The NCAA's New Five-Year Eligibility Rule (\"5 for 5\"), Explained | RosterWise™"
-description: "A factual, family-focused guide to the NCAA's age-based eligibility model — the so-called '5 for 5' rule: how the five-year clock starts, why redshirts and waivers are gone, who it applies to, and what the current court rulings have unsettled."
+title: "The NCAA's New Five-Year Eligibility Rule (\"5 in 5\"), Explained | RosterWise™"
+description: "A factual, family-focused guide to the NCAA's age-based eligibility model — the so-called '5 in 5' rule: how the five-year clock starts, why redshirts and waivers are gone, who it applies to, and what the current court rulings have unsettled."
 date: 2026-08-03
 breadcrumbs:
   - text: Home
@@ -9,7 +9,7 @@ breadcrumbs:
   - text: Guide
     url: /guide/
   - text: Age-Based Eligibility
-summary: "The NCAA has replaced 'four seasons in five years' with an age-based model that gives Division I athletes up to five years of eligibility. Families are calling it '5 for 5' — but that nickname is misleading, and the details matter enormously for anyone considering a gap year, a prep year, a junior college, or a late enrollment. This guide explains what changed, who it applies to, and what is still being fought over in court."
+summary: "The NCAA has replaced 'four seasons in five years' with an age-based model that gives Division I athletes up to five years of eligibility. Families are calling it '5 in 5' — but that nickname is misleading, and the details matter enormously for anyone considering a gap year, a prep year, a junior college, or a late enrollment. This guide explains what changed, who it applies to, and what is still being fought over in court."
 related:
   - title: "What Is the NJCAA? The Junior College (JUCO) Pathway, Explained"
     url: /guide/njcaa-juco-explained/
@@ -41,11 +41,11 @@ ${toc}
 
 > **Status: verified as of August 3, 2026.** This is one of the fastest-moving areas in college sports right now. The NCAA adopted the rule in June 2026; a federal court has since issued an injunction that changes who gets a fifth season this year, and the NCAA has said it intends to appeal. Treat every date and detail below as current *as of the date above*, and confirm anything decision-critical with the NCAA Eligibility Center or a school's compliance office before acting on it.
 
-## First: "5 for 5" is a nickname, and it's misleading
+## First: "5 in 5" is a nickname, and it's misleading
 
-You'll hear this called the **"5 for 5" rule** — five seasons in five years. That shorthand is how most families first encounter it, so we use it here. But it is not what the rule actually says, and the difference can cost an athlete a year.
+You'll hear this called the **"5 in 5" rule** — five seasons in five years (you'll also see it written "5 for 5"). That shorthand is how most families first encounter it, so we use it here. But it is not what the rule actually says, and the difference can cost an athlete a year.
 
-The NCAA's own name for it is the **age-based eligibility model**. It does **not** hand every athlete five seasons. It gives an athlete a **five-year window**, and that window can start *before they ever set foot on a college campus*. For an athlete who enrolls straight out of high school at 18, "5 for 5" is roughly accurate. For an athlete who takes a gap year, a prep year, a junior-college stop, or arrives from an international pathway, it can be considerably less than five usable seasons.
+The NCAA's own name for it is the **age-based eligibility model**. It does **not** hand every athlete five seasons. It gives an athlete a **five-year window**, and that window can start *before they ever set foot on a college campus*. For an athlete who enrolls straight out of high school at 18, "5 in 5" is roughly accurate. For an athlete who takes a gap year, a prep year, a junior-college stop, or arrives from an international pathway, it can be considerably less than five usable seasons.
 
 If you read nothing else on this page, read the section on [when your clock starts](#when-your-five-year-clock-starts).
 

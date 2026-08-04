@@ -45,9 +45,9 @@ childGroups:
       - title: "Verbal Commitment vs. NLI vs. Official Offer"
         url: /guide/verbal-commitment-vs-nli/
         summary: "What a verbal commitment actually means, why the NLI was eliminated in 2024, and how the Written Offer of Athletics Aid works."
-      - title: "The NCAA's New Five-Year Eligibility Rule (\"5 for 5\"), Explained"
+      - title: "The NCAA's New Five-Year Eligibility Rule (\"5 in 5\"), Explained"
         url: /guide/age-based-eligibility/
-        summary: "The NCAA's age-based eligibility model replaced 'four seasons in five years' — but the '5 for 5' nickname is misleading. How the five-year clock starts, why redshirts and most waivers are gone, who it applies to, and what recent court rulings have unsettled."
+        summary: "The NCAA's age-based eligibility model replaced 'four seasons in five years' — but the '5 in 5' nickname is misleading. How the five-year clock starts, why redshirts and most waivers are gone, who it applies to, and what recent court rulings have unsettled."
       - title: "Academic Eligibility and the NCAA Eligibility Center"
         url: /guide/ncaa-eligibility-center/
         summary: "Core course requirements, GPA sliding scales, test scores, and the registration process at eligibilitycenter.org."
