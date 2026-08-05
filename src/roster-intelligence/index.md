@@ -21,6 +21,9 @@ related:
   - title: "How My RosterFit Scoring Works"
     url: /soccer/methodology/rosterfit-score/
     status: live
+  - title: "Weight-Class Depth: Roster Intelligence for Wrestling"
+    url: /wrestling/methodology/weight-class-depth/
+    status: live
 sources:
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Division membership, eligibility rules, and program listings'
   - '<a href="https://naia.org">NAIA.org</a> — NAIA membership and program information'
@@ -36,7 +39,7 @@ ${toc}
 
 ## Why families need roster intelligence
 
-College sports recruiting is one of the most important — and most overwhelming — experiences a family can go through. Whether your son or daughter plays soccer, volleyball, lacrosse, or another sport, the fundamental challenge is the same: there are thousands of college programs across NCAA D1, D2, D3, and NAIA, and you need to figure out which ones are the right fit.
+College sports recruiting is one of the most important — and most overwhelming — experiences a family can go through. Whether your son or daughter plays soccer, volleyball, lacrosse, wrestling, or another sport, the fundamental challenge is the same: there are thousands of college programs across NCAA D1, D2, D3, NAIA, and NJCAA, and you need to figure out which ones are the right fit.
 
 Most families approach this process the same way. They build a spreadsheet. They visit school websites one at a time, scrolling through roster pages and trying to piece together what they can. They attend showcases and ID camps, hoping to get noticed. Some pay hundreds or even thousands of dollars for recruiting profile services that promise exposure and match lists.
 
@@ -139,13 +142,19 @@ Recruiting families can browse, filter, and compare programs by division, confer
 
 Comprehensive [soccer recruiting guides](/soccer/) are already available on the website, covering topics from [recruiting timelines](/soccer/mens/guide/recruiting-timeline/) to [what coaches look for](/soccer/mens/guide/what-coaches-look-for/) to [scholarship realities](/soccer/mens/guide/scholarships/).
 
-## RosterWise Volleyball and Lacrosse are now available
+## Also available: Volleyball, Lacrosse, and Wrestling
 
-[RosterWise Volleyball](/volleyball/) is now available on the App Store, applying full roster intelligence to men's and women's programs across NCAA D1, D2, D3, NAIA, and NJCAA. [RosterWise Lacrosse](https://apps.apple.com/us/app/rosterwise-lacrosse/id6778935432) is now available on the App Store, covering men's and women's programs across the same divisions.
+Three more sports now apply the same methodology, each as its own dedicated app:
 
-The same core methodology — position depth, class-year gaps, physical profiles, international composition, recruiting pathways, coach tenure, and personalized fit scoring — applies to each sport with tailored adaptations: sport-specific positions, recruiting timelines, and scholarship structures.
+- **[RosterWise Volleyball](/volleyball/)** — men's and women's programs across NCAA D1, D2, D3, NAIA, and NJCAA.
+- **[RosterWise Lacrosse](/lacrosse/)** — men's and women's programs across NCAA D1, D2, D3, and NAIA, plus NJCAA on the men's side.
+- **[RosterWise Wrestling](/wrestling/)** — men's and women's programs across NCAA D1, D2, D3, NAIA, and NJCAA, analyzed **by weight class** rather than by position.
 
-After volleyball, additional sports are planned: lacrosse (men's and women's), softball, field hockey, baseball, and more. Each sport ships as a dedicated app with tailored analysis, built on the same roster intelligence foundation.
+The same core methodology — depth analysis, class-year gaps, physical profiles, international composition, recruiting pathways, coach tenure, and personalized fit scoring — applies to each sport with tailored adaptations: sport-specific positions, recruiting timelines, and scholarship structures.
+
+Wrestling is the clearest example of why that adaptation matters. Fit in wrestling isn't a position question, it's a **weight-class** question: who wrestles your weight, and when do they graduate? The [wrestling methodology](/wrestling/methodology/) explains how the same roster-intelligence foundation is applied one weight at a time.
+
+Additional sports are planned — softball, field hockey, baseball, and more. Each ships as a dedicated app with tailored analysis, built on the same roster intelligence foundation.
 
 ## Why this is different from recruiting profile services
 
