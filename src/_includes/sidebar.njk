@@ -24,40 +24,17 @@
           </span>
           <span class="sidebar-chevron">&#9654;</span>
         </button>
+        {# Guide list is generated from src/_data/guideNav.js — the single
+           source of truth shared with the /guide/ index cards. Add new guides
+           there, not here. #}
         <ul>
           <li><a href="/guide/">All Guides</a></li>
-
-          <li class="sidebar-subheader">Getting Started</li>
-          <li><a href="/guide/recruiting-timeline/">Recruiting Timeline</a></li>
-          <li><a href="/guide/division-differences/">Division Differences</a></li>
-          <li><a href="/guide/ncaa-recruiting-rules/">NCAA Recruiting Rules</a></li>
-
-          <li class="sidebar-subheader">Evaluating Programs</li>
-          <li><a href="/guide/building-your-list/">Building Your List</a></li>
-          <li><a href="/guide/official-vs-unofficial-visits/">Official vs. Unofficial Visits</a></li>
-          <li><a href="/guide/recruiting-red-flags/">Recruiting Red Flags</a></li>
-
-          <li class="sidebar-subheader">Taking Action</li>
-          <li><a href="/guide/recruiting-questionnaires/">Recruiting Questionnaires</a></li>
-          <li><a href="/guide/contacting-coaches/">Contacting Coaches</a></li>
-          <li><a href="/guide/highlight-video/">Highlight Video</a></li>
-
-          <li class="sidebar-subheader">Commitments &amp; Eligibility</li>
-          <li><a href="/guide/verbal-commitment-vs-nli/">Verbal Commitment vs. NLI</a></li>
-          <li><a href="/guide/age-based-eligibility/">5-in-5 Eligibility Rule</a></li>
-          <li><a href="/guide/ncaa-eligibility-center/">NCAA Eligibility Center</a></li>
-          <li><a href="/guide/athletic-scholarships/">Athletic Scholarships</a></li>
-          <li><a href="/guide/walk-on-types/">Walk-On Types</a></li>
-          <li><a href="/guide/house-settlement/">House Settlement</a></li>
-          <li><a href="/guide/nil-and-revenue-sharing/">NIL &amp; Revenue Sharing</a></li>
-          <li><a href="/guide/recruited-athlete-admissions/">Athlete Admissions</a></li>
-          <li><a href="/guide/stacking-financial-aid/">Stacking Financial Aid</a></li>
-
-          <li class="sidebar-subheader">Special Situations</li>
-          <li><a href="/guide/njcaa-juco-explained/">Junior College (JUCO)</a></li>
-          <li><a href="/guide/transfer-portal/">Transfer Portal</a></li>
-          <li><a href="/guide/international-student-athletes/">International Athletes</a></li>
-          <li><a href="/guide/late-bloomers/">Late Bloomers</a></li>
+          {% for group in guideNav %}
+          <li class="sidebar-subheader">{{ group.heading }}</li>
+          {% for item in group.children %}
+          <li><a href="{{ item.url }}">{{ item.label or item.title }}</a></li>
+          {% endfor %}
+          {% endfor %}
         </ul>
       </div>
     </div>

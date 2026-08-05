@@ -28,8 +28,12 @@
     {{ content | safe }}
   </div>
 
-  {% if childGroups %}
-  {% for group in childGroups %}
+  {# Pages can either declare childGroups in front matter, or set
+     useGuideNav: true to render from src/_data/guideNav.js — the shared
+     source of truth also used by the left sidebar. #}
+  {% set groups = guideNav if useGuideNav else childGroups %}
+  {% if groups %}
+  {% for group in groups %}
   <section class="hub-children-group">
     <h2 class="hub-group-heading">{{ group.heading }}</h2>
     <div class="hub-children">
