@@ -35,7 +35,7 @@ Women's college lacrosse recruiting has its own rhythm, its own rules, and its o
 
 ## What makes women's college lacrosse recruiting different
 
-Three things stand out. First, the recruiting calendar: like all of lacrosse, the women's game uses a **September 1 of junior year** initial-contact date rather than the June 15 rule most sports follow. Before that date, athletes can reach out to coaches, but coaches' responses are limited.
+Three things stand out. First, the recruiting calendar: like all of lacrosse, the women's game uses a junior-year initial-contact date rather than the June 15 rule most sports follow — **September 1 of junior year, at 12 p.m. Eastern**. (Men's lacrosse moved off September 1 as of August 1, 2026; the women's date is unchanged.) Before that date, athletes can reach out to coaches, but coaches' responses are limited.
 
 Second, women's lacrosse historically saw some of the most extreme early recruiting in all of college athletics — verbal commitments in eighth and ninth grade were not unheard of — before NCAA rule changes pushed the contact window later. That history still shapes the culture of early identification, even though the formal window now opens September 1 of junior year.
 

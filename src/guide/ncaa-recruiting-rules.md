@@ -25,7 +25,9 @@ sources:
   - "NCAA.org, Division I Recruiting Calendar and Guidelines"
   - "NCAA.org, Division II Recruiting Calendar and Guidelines"
   - "NCAA.org, Division III Recruiting Calendar and Guidelines"
-  - "NCAA.org, Division I, II, and III Manuals (2025-26)"
+  - "NCAA.org, Division I, II, and III Manuals (2026-27)"
+  - "NCAA Division I recruiting calendars, 2026-27 (Other Sports, Men's Lacrosse, Women's Lacrosse, Women's Volleyball)"
+  - "NCAA Division II Recruiting Calendar (All Sports), 2026-27"
   - "NCAA Eligibility Center: eligibilitycenter.org"
 cta:
   heading: "You know the rules. Now see where you fit."
@@ -39,13 +41,13 @@ ${toc}
 
 NCAA recruiting rules change regularly. The NCAA publishes updated recruiting calendars and guidelines each academic year, and rule modifications can happen mid-cycle. Sport-specific rules within each division also differ — the recruiting calendar for D1 men's basketball is different from D1 women's soccer, which is different from D1 track and field.
 
-**This guide covers the general framework as of the 2025-26 academic year.** Families should always verify current rules for their specific sport and division at [NCAA.org](https://www.ncaa.org).
+**This guide covers the general framework as of the 2026-27 academic year.** Families should always verify current rules for their specific sport and division at [NCAA.org](https://www.ncaa.org).
 
 The rules described here apply to NCAA member institutions. [NAIA rules](/guide/division-differences/) are separate and generally more flexible.
 
 ## What the four period types mean
 
-The NCAA divides the recruiting calendar into four types of periods. Each period defines what coaches are and are not permitted to do. These periods rotate throughout the year on sport-specific schedules.
+The NCAA divides the recruiting calendar into four types of periods. Each period defines what coaches are and are not permitted to do. These periods rotate throughout the year on sport-specific schedules. (This framework is a **Division I** structure. Division II runs one simple all-sports calendar, and Division III has no recruiting calendar at all — see the division sections below.)
 
 ### Contact period
 
@@ -111,13 +113,16 @@ D1 has the most complex and restrictive recruiting rules. Key elements:
 
 The date when D1 coaches can first initiate recruiting communication with a prospect varies by sport:
 
-- **June 15 after sophomore year:** Many sports including soccer, field hockey, volleyball, and others
-- **September 1 of junior year:** Men's and women's lacrosse, baseball, basketball, and others
+- **June 15 after sophomore year:** Many sports including soccer, field hockey, volleyball, wrestling, and others
+- **September 1 of junior year:** Women's lacrosse (at 12 p.m. Eastern), baseball, basketball, and others
+- **The Wednesday after Labor Day of junior year, 7 a.m.:** Men's lacrosse, under legislation effective August 1, 2026
 - **Other dates apply for some sports** — check the NCAA recruiting calendar for your specific sport
 
-Lacrosse is one of the sports that kept the later September 1 of junior year contact date when most sports moved to June 15 — see [The September 1 Junior Year Rule: Why Lacrosse Recruiting Is Different](/lacrosse/guide/september-1-junior-year-rule/) for why this matters for lacrosse families.
+Lacrosse is one of the sports that kept a later junior-year contact date when most sports moved to June 15 — and as of August 1, 2026 the men's and women's games no longer share a date. See [The September 1 Junior Year Rule: Why Lacrosse Recruiting Is Different](/lacrosse/guide/september-1-junior-year-rule/) for both rules and why this matters for lacrosse families.
 
-Wrestling, by contrast, uses the **June 15 after sophomore year** contact date, with official and unofficial visits opening **August 1 before junior year** — see [The College Wrestling Recruiting Timeline & the June 15 Rule](/wrestling/guide/recruiting-timeline/). Note too that women's wrestling became an NCAA championship sport in 2026, which changes how "level" reads for women's recruits — see [Women's College Wrestling Is Now an NCAA Championship Sport](/wrestling/womens/guide/ncaa-championship/).
+Wrestling, by contrast, uses the **June 15 after sophomore year** contact date, with off-campus contact and official visits opening **August 1 of junior year** — see [The College Wrestling Recruiting Timeline & the June 15 Rule](/wrestling/guide/recruiting-timeline/). Men's wrestling also has a separate, later set of dates that applies only to prospects who initially enroll full time on or after August 1, 2028 (the high school class of 2028 and younger); the class of 2027 stays on the general rules. Note too that women's wrestling became an NCAA championship sport in 2026, which changes how "level" reads for women's recruits — see [Women's College Wrestling Is Now an NCAA Championship Sport](/wrestling/womens/guide/ncaa-championship/).
+
+**A distinction families routinely miss:** in most sports the June 15 date unlocks *calls and recruiting materials* only. **In-person, off-campus contact and official visits open later — August 1 of junior year.** Soccer and volleyball both work this way. If a source tells you official visits start June 15 in those sports, it is wrong.
 
 Before the initial contact date, coaches cannot:
 - Call, text, or DM a prospect for recruiting purposes
@@ -130,7 +135,7 @@ After the initial contact date, coaches can engage in full recruiting communicat
 
 ### Official visits
 
-- Recruits may begin taking official visits **August 1 before junior year** in most sports (some sports have different dates)
+- Recruits may begin taking official visits **August 1 of junior year** in most sports — the same date in-person off-campus contact opens (some sports have different dates: women's lacrosse official visits begin January 1 of junior year, and men's lacrosse official visits open on its Wednesday-after-Labor-Day contact date)
 - A recruit may take up to **five official visits** total across all D1 schools (this limit is being reviewed and may change)
 - An official visit is defined as a visit to campus where the school pays for transportation, meals, and/or lodging
 - Official visits are limited to **48 hours**
@@ -160,7 +165,7 @@ D2 recruiting rules are significantly less restrictive than D1:
 - **No initial contact date restriction.** D2 coaches can call, text, email, and DM prospects at any time.
 - **Phone calls:** D2 coaches can make recruiting calls at any time.
 - **Official visits:** Rules are similar to D1, with some differences in timing and limits. Check the D2 manual for sport-specific details.
-- **Evaluation and contact periods:** D2 has its own calendar of recruiting periods, but with fewer dead periods and more flexibility than D1.
+- **Evaluation and contact periods:** D2 runs a single recruiting calendar covering all sports except football, and it is far simpler than D1's. For 2026-27 the entire year is a contact period except for a signing-date dead period running from **7 a.m. on November 9 to 7 a.m. on November 11, 2026**.
 - **Signing periods:** D2 has sport-specific signing periods, generally similar to D1 timing.
 
 The practical effect: D2 recruiting often feels less structured and more conversational than D1 recruiting. Coaches can engage earlier and more freely.
@@ -169,6 +174,8 @@ The practical effect: D2 recruiting often feels less structured and more convers
 
 D3 has the most relaxed NCAA recruiting rules:
 
+- **There is no D3 recruiting calendar at all.** Division III publishes no contact, evaluation, quiet, or dead periods. The four-period framework described above simply does not apply.
+- **The one timing restriction:** in-person, off-campus contact may not occur until the prospect has completed **sophomore** year of high school. This is a common point of third-party error — it is sophomore year, not junior year.
 - **No athletic scholarships** — which changes the nature of the recruiting conversation entirely. The discussion is about admissions support, academic aid, and program fit rather than scholarship negotiation.
 - **Communication:** D3 coaches have fewer restrictions on when they can communicate with prospects. Recruiting materials can be sent at any time.
 - **Official visits:** Begin January 1 of junior year. Schools may fund transportation for official visits.

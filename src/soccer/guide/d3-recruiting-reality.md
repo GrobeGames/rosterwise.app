@@ -76,7 +76,7 @@ Players at strong D3 programs were often recruited by D1 and D2 programs as well
 
 D3 recruiting operates under different rules than D1 and D2, and the differences work in families' favor in several ways:
 
-**Communication is less restricted.** D3 coaches can begin communicating with prospective student-athletes earlier and with fewer limitations than D1 coaches. There are no quiet periods or dead periods specific to D3 recruiting. Coaches can call, email, and text with fewer restrictions.
+**Communication is less restricted.** D3 coaches can begin communicating with prospective student-athletes earlier and with fewer limitations than D1 coaches. Division III publishes no recruiting calendar at all — there are no contact, evaluation, quiet, or dead periods. Coaches can call, email, and text with fewer restrictions. The one timing rule that does apply is that in-person, off-campus contact may not occur until the athlete has completed **sophomore** year of high school — not junior year, which is a common third-party error.
 
 **The timeline is later.** D3 commitments typically happen later than D1 — often in the fall or winter of senior year, and sometimes into the spring. This gives families more time to evaluate options, visit campuses, and make informed decisions. It also means D3 is a realistic option for players who weren't recruited earlier by D1 or D2 programs.
 

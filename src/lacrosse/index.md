@@ -27,7 +27,7 @@ children:
 
 College lacrosse recruiting rewards preparation, realistic self-assessment, and knowing where to look. RosterWise&trade; Lacrosse exists to give families the intelligence they need to navigate it with confidence — across every men's and women's program at the NCAA Division I, II, and III, NAIA, and NJCAA levels.
 
-Lacrosse also follows its own recruiting rhythm. Unlike most college sports — where Division I coaches can first initiate contact on June 15 after a recruit's sophomore year — lacrosse operates on a **September 1 of junior year** initial-contact date. That single difference reshapes the entire timeline, and it's one of many lacrosse-specific realities families need to understand.
+Lacrosse also follows its own recruiting rhythm. Unlike most college sports — where Division I coaches can first initiate contact on June 15 after a recruit's sophomore year — lacrosse holds contact back to the start of junior year. Women's lacrosse opens **September 1 at 12 p.m. Eastern**; men's lacrosse, following a rule change effective August 1, 2026, opens at **7 a.m. on the Wednesday immediately following Labor Day**. That difference reshapes the entire timeline, and it's one of many lacrosse-specific realities families need to understand.
 
 RosterWise Lacrosse launches as part of the broader RosterWise platform alongside [Soccer](/soccer/) and [Volleyball](/volleyball/). Every recruit's journey is different — timelines vary, development curves differ, and the right program depends on factors no checklist can capture. Use these resources as a starting point, not a script.
 
@@ -35,7 +35,7 @@ RosterWise Lacrosse launches as part of the broader RosterWise platform alongsid
 
 Men's and women's lacrosse share a name, but they are meaningfully different games with different recruiting landscapes. The rules diverge in fundamental ways — different field dimensions, different stick and equipment rules, different levels of permitted contact, and different position structures. Men's lacrosse includes specialist roles like the long-stick midfielder (LSM) and the face-off specialist (FOGO); women's lacrosse centers the draw control specialist and plays without the same body-checking rules.
 
-The recruiting dynamics differ too. Both men's and women's lacrosse historically saw extremely early recruiting before NCAA rule changes pushed initial contact to September 1 of junior year. Men's college lacrosse has a significant international presence — Canada in particular has long influenced men's rosters. Women's lacrosse fields a meaningfully larger pool of Division II programs than the men's game. These differences matter when evaluating opportunity and fit.
+The recruiting dynamics differ too. Both men's and women's lacrosse historically saw extremely early recruiting before NCAA rule changes pushed initial contact to the start of junior year. Men's college lacrosse has a significant international presence — Canada in particular has long influenced men's rosters. Women's lacrosse fields a meaningfully larger pool of Division II programs than the men's game. These differences matter when evaluating opportunity and fit.
 
 Explore the gender-specific sections: [Men's College Lacrosse](/lacrosse/mens/) and [Women's College Lacrosse](/lacrosse/womens/).
 
@@ -55,7 +55,7 @@ RosterWise applies [roster intelligence](/roster-intelligence/) — systematic a
 
 Some recruiting realities apply across every college sport — NCAA recruiting rules, the House v. NCAA settlement, transfer portal mechanics, financial aid, and admissions. For those, see our universal [Recruiting Guides](/guide/), which cover the topics that don't change from sport to sport.
 
-Other realities are lacrosse-specific: the September 1 contact date, the position taxonomy, the geographic concentration of the sport, and the Canadian influence on men's rosters. Those are covered in the lacrosse sections of this site.
+Other realities are lacrosse-specific: the junior-year contact date (and the fact that men's and women's no longer share one), the position taxonomy, the geographic concentration of the sport, and the Canadian influence on men's rosters. Those are covered in the lacrosse sections of this site.
 
 ## Every recruiting journey is different
 

@@ -30,6 +30,8 @@ related:
     status: live
 sources:
   - "NCAA.org — Division I Manual recruiting calendar rules"
+  - "NCAA Division I Other Sports Recruiting Calendar, 2026-27 — official NCAA document"
+  - "NCAA Division II Recruiting Calendar (All Sports), 2026-27 — official NCAA document"
   - "USA Volleyball — College Recruitment Timeline guidance and BJNC event details"
   - "National Federation of State High School Associations (NFHS) — High school sports participation data"
   - "NCAA Eligibility Center — Initial eligibility requirements"
@@ -52,9 +54,11 @@ The NCAA Division I men's volleyball recruiting calendar establishes when colleg
 
 - **Recruiting questionnaires, camp invitations, NCAA materials, and non-athletic publications:** Permitted any time
 - **Verbal scholarship offers, phone calls, text messages, emails, direct messages, and other private correspondence:** Permitted starting **June 15 after the recruit's sophomore year of high school**
-- **Official and unofficial visits:** Permitted starting **August 1 before the recruit's junior year of high school**
+- **In-person off-campus contact and official visits:** Permitted starting **August 1 of the recruit's junior year of high school**
 
-These rules are the same as those for women's volleyball at the Division I level. NCAA Division II men's volleyball follows substantially the same June 15 / August 1 framework. Division III has more relaxed rules; NAIA and NJCAA rules differ and are typically less restrictive than NCAA D1.
+Men's volleyball is not named separately on the NCAA's Division I recruiting calendar — it falls into the residual "all other sports" bucket. For 2026-27 that means a single **dead period, November 9–12, 2026**, around the fall signing week; every other day of the year is a contact period.
+
+These contact-date rules are the same as those for women's volleyball at the Division I level, though women's volleyball has its own sport-specific calendar with many more quiet and dead windows. NCAA Division II men's volleyball follows substantially the same June 15 / August 1 framework, with a signing-date dead period November 9 (7 a.m.) through November 11 (7 a.m.), 2026. Division III has no recruiting calendar at all; NAIA and NJCAA rules differ and are typically less restrictive than NCAA D1.
 
 Two important things to understand about these rules:
 
@@ -111,7 +115,7 @@ This is typically when recruiting becomes active for men's volleyball recruits a
 
 **What to do:**
 
-- **August 1 before junior year:** Official and unofficial visits become permissible. Plan visits to programs that have shown interest and that you're seriously considering.
+- **August 1 of junior year:** Off-campus contact and official visits become permissible. Plan visits to programs that have shown interest and that you're seriously considering.
 - Continue competing at the highest club level your team supports. Junior year club tournaments — particularly BNQs and BJNC — are heavily scouted.
 - Update your recruiting video with junior-year footage. Your physical profile is likely meaningfully different than it was sophomore year, and your film should reflect that.
 - Take the SAT or ACT. NCAA Eligibility Center registration becomes important; programs at academically selective institutions weigh test scores heavily.

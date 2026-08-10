@@ -37,7 +37,7 @@ sources:
   - "<strong>NCAA Bylaw 13.12.1.5.1</strong> — Per NCAA Legislative Services Database (web3.ncaa.org/lsdbi); confirmed via NCAA Division I Manual Article 13"
   - "<strong>NCAA Bylaw 13.12.1.3</strong> (Attendance Restriction) — Per NCAA Legislative Services Database"
   - "<strong>NCAA Bylaw 13.12.1</strong> (Institution's Sports Camps and Clinics) — Per NCAA Legislative Services Database"
-  - "<strong>2025-26 NCAA Division I Men's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
+  - "<strong>2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
   - '<a href="https://imlcacoaches.com">Intercollegiate Men''s Lacrosse Coaches Association (IMLCA)</a> — imlcacoaches.com and imlcarecruits.org'
   - '<a href="https://www.usalacrosse.com">USA Lacrosse</a> — usalacrosse.com — Official national governing body'
   - "<strong>National Lacrosse Federation (NLF)</strong> — nationallacrossefederation.com"
@@ -76,6 +76,8 @@ Per **NCAA Bylaw 13.12.1.5.1** (verifiable directly from the NCAA's Legislative 
 > "In lacrosse, recruiting conversations during an institutional camp or clinic are not permitted between an institution's coach and a participating prospective student-athlete before September 1 at the beginning of the prospective student-athlete's junior year in high school."
 
 This rule is unique to lacrosse — it was adopted in April 2017 as part of NCAA early recruiting legislation specific to lacrosse (men's and women's).
+
+**One important caveat for men's lacrosse.** Separate legislation adopted June 29, 2026 and effective August 1, 2026 moved the men's lacrosse *initial contact* date off September 1 entirely: off-campus contact, phone calls in either direction, recruiting materials and electronic correspondence, and official visits may not occur before 7 a.m. on the Wednesday immediately following Labor Day at the beginning of junior year. The camp-and-clinic bylaw quoted above is a different bylaw, and we have not verified whether its September 1 reference was conformed to the new date. Men's lacrosse families should confirm the current camp-conversation date with the host program's compliance office before assuming either date. See the [men's recruiting timeline](/lacrosse/mens/guide/recruiting-timeline/) for the new contact rule in full.
 
 **Per NCAA published Q&A guidance** (referenced through the NCAA's own published documentation):
 

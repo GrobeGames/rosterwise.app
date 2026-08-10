@@ -13,7 +13,7 @@ breadcrumbs:
 children:
   - title: "Men's College Lacrosse Recruiting Timeline"
     url: /lacrosse/mens/guide/recruiting-timeline/
-    summary: "The September 1 contact rule, typical timelines by division, and the current recruiting landscape."
+    summary: "The new Wednesday-after-Labor-Day contact rule, typical timelines by division, and the current recruiting landscape."
     status: live
   - title: "Men's Lacrosse Scholarships After the House Settlement"
     url: /lacrosse/mens/guide/scholarships-after-house-settlement/
@@ -33,7 +33,7 @@ children:
     status: live
   - title: "Recruiting Video for Men's Lacrosse"
     url: /lacrosse/mens/guide/recruiting-video/
-    summary: "What coaches actually want to see — by position, including FOGO and LSM — with direct guidance from named D1 head coaches and the pre-September 1 reality."
+    summary: "What coaches actually want to see — by position, including FOGO and LSM — with direct guidance from named D1 head coaches and the pre-contact-date reality."
     status: live
   - title: "What Men's College Lacrosse Coaches Look for by Position"
     url: /lacrosse/mens/guide/coaches-look-for-by-position/

@@ -37,7 +37,7 @@ sources:
   - "<strong>National Lacrosse Federation (nationallacrossefederation.com)</strong> — Official NLF site with founding clubs, affiliate clubs, and event listings"
   - '<a href="https://imlcacoaches.com">Intercollegiate Men''s Lacrosse Coaches Association (IMLCA)</a> — official coaches association'
   - "<strong>IMLCARecruits (imlcarecruits.org)</strong> — Official IMLCA recruiting platform"
-  - "<strong>2025-26 NCAA Division I Men's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
+  - "<strong>2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
   - '<a href="https://lacrosse.ca">Lacrosse Canada (lacrosse.ca)</a> — Canadian national governing body'
   - "<strong>Ontario Junior Lacrosse League documentation</strong> — Wikipedia citing Ontario Lacrosse Association on OJLL competitiveness"
 cta:
@@ -222,7 +222,7 @@ Some general framework that holds across the landscape:
 1. Athletes typically join club teams in late elementary or middle school
 2. Club teams play in regional leagues, tournaments, and showcases during summer, fall, and offseason periods
 3. College coaches evaluate athletes at tournaments and showcases — especially at NLF events, the IMLCA Players Summit, and other major events with strong coach attendance
-4. Communication between athletes and college coaches operates under [NCAA recruiting rules](/lacrosse/guide/september-1-junior-year-rule/), which restrict initial substantive communication until September 1 of junior year for D1
+4. Communication between athletes and college coaches operates under [NCAA recruiting rules](/lacrosse/guide/september-1-junior-year-rule/), which for D1 men's lacrosse restrict initial substantive communication until the Wednesday after Labor Day of junior year
 5. Club coaches often play a significant role in college recruiting through their relationships and recommendations
 6. Athletes often participate in college ID camps and prospect days as supplementary evaluation opportunities (covered in our [ID Camps and Tournaments guide](/lacrosse/mens/guide/id-camps-and-tournaments/))
 
@@ -251,17 +251,17 @@ For Canadian families researching NCAA men's lacrosse pathways (see [Internation
 
 Canadian recruits often participate in both Canadian developmental pathways AND U.S. tournament/showcase events to gain exposure to NCAA coaches.
 
-## What the post-September 1 reality means for clubs
+## What the junior-year contact date means for clubs
 
-A critical recent context: as discussed in [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/) and the [Men's Recruiting Timeline](/lacrosse/mens/guide/recruiting-timeline/), the NCAA pushed initial recruiting contact for men's lacrosse to September 1 of junior year. This affects how club teams and tournament series interact with the recruiting calendar.
+A critical recent context: as discussed in [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/) and the [Men's Recruiting Timeline](/lacrosse/mens/guide/recruiting-timeline/), the NCAA pushed initial recruiting contact for men's lacrosse to the start of junior year — and as of August 1, 2026 that date is 7 a.m. on the Wednesday immediately following Labor Day, not September 1. This affects how club teams and tournament series interact with the recruiting calendar.
 
-**Before September 1 of junior year**:
+**Before the contact date**:
 - Club tournaments and events serve primarily as evaluation opportunities
 - College coaches attend events to identify and track potential recruits, but cannot have substantive recruiting communication with athletes
 - Athletes can communicate to coaches (questionnaires, introductory emails) but coaches' substantive responses are limited
 - The club's role is heavily developmental — building skills, providing competition, getting athletes onto coaches' radars
 
-**After September 1 of junior year**:
+**After the contact date**:
 - Coaches can initiate substantive communication
 - Club tournament participation often shifts to events where targeted communication can happen
 - Club coaches' relationships with college coaches become more directly relevant

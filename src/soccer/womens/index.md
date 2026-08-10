@@ -63,7 +63,7 @@ Women's college soccer recruiting has its own rhythm, its own rules, and its own
 
 ## What makes women's soccer recruiting different
 
-Women's soccer has historically recruited earlier than men's soccer. While the NCAA's 2018 rule change pushed initial D1 contact to June 15 after sophomore year for both genders, the women's game has maintained an earlier practical timeline. Verbal commitments in sophomore and early junior year are more common in women's soccer than in most other sports.
+Women's soccer has historically recruited earlier than men's soccer. While the NCAA's 2018 rule change pushed initial D1 contact to June 15 after sophomore year for both genders — with in-person off-campus contact and official visits waiting until August 1 of junior year — the women's game has maintained an earlier practical timeline. Verbal commitments in sophomore and early junior year are more common in women's soccer than in most other sports.
 
 The club pathway ecosystem is different as well. Girls Academy (GA) and ECNL Girls are the two dominant platforms for elite women's youth soccer. Both produce large numbers of D1 recruits, and the pathway a player is on influences — but does not determine — how and when coaches identify them.
 

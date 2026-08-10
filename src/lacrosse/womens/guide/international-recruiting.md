@@ -41,9 +41,9 @@ faq:
   - q: "What if my daughter hasn't been to a U.S. tournament where coaches could evaluate her?"
     a: "Many NCAA coaches evaluate international recruits through World Lacrosse events (junior championships, U20 championships, World Cup events), film, and international showcases. Some Canadian families work with U.S.-based recruiting events and tournaments to provide evaluation opportunities. The pathway exists; it requires more proactive planning than for U.S.-based recruits."
   - q: "Does the September 1 of junior year contact date apply differently to international recruits?"
-    a: "No. The September 1 of junior year initial contact date for D1 women's lacrosse applies uniformly to all recruits, regardless of nationality. The 2025-26 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by NCAA.org) does not distinguish between international and domestic recruits for the September 1 contact rule."
+    a: "No. The September 1 of junior year initial contact date for D1 women's lacrosse applies uniformly to all recruits, regardless of nationality. The 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by NCAA.org) does not distinguish between international and domestic recruits for the September 1 contact rule."
 sources:
-  - "<strong>2025-26 NCAA Division I Women's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
+  - "<strong>2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Official NCAA recruiting rules and recruiting calendar archives'
   - '<strong>NCAA Eligibility Center</strong> — <a href="https://eligibilitycenter.org">eligibilitycenter.org</a>'
   - "<strong>USA Lacrosse magazine</strong> — Coverage of international lacrosse, 2028 Olympics, and World Championships"
@@ -86,7 +86,7 @@ Canada is the most prominent international source of NCAA women's lacrosse recru
 
 - The Canadian Women's Field Lacrosse National Team is documented and competitive internationally
 - Canadian women's lacrosse players tend to follow field lacrosse development pathways rather than the box-lacrosse-to-field-lacrosse pathway that defines much of men's recruiting from Canada
-- Women's NCAA recruiting from Canada operates under the same September 1 of junior year contact rule established by the 2017 NCAA Early Recruiting Legislation (per equityix.com citing NCAA bylaws) and preserved in the 2025-26 NCAA Division I Women's Lacrosse Recruiting Calendar
+- Women's NCAA recruiting from Canada operates under the same September 1 of junior year contact rule established by the 2017 NCAA Early Recruiting Legislation (per equityix.com citing NCAA bylaws) and preserved in the 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar
 
 For families with Canadian women's lacrosse athletes considering U.S. college recruiting, the structural realities of NCAA recruiting — the September 1 of junior year contact date, the [House settlement impact on scholarships](/lacrosse/womens/guide/scholarships-after-house-settlement/), the recruiting timeline overall — apply to Canadian recruits just as they apply to American recruits.
 
@@ -106,13 +106,13 @@ Beyond Canada, several other nations have established competitive women's lacros
 
 ## The September 1 of junior year rule applies to international recruits too
 
-International women's lacrosse recruits to NCAA Division I programs operate under the same recruiting calendar as American recruits. Per the 2025-26 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by the NCAA at `ncaaorg.s3.amazonaws.com`), the September 1 of junior year initial contact date applies to all D1 women's lacrosse recruits regardless of nationality.
+International women's lacrosse recruits to NCAA Division I programs operate under the same recruiting calendar as American recruits. Per the 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by the NCAA at `ncaaorg.s3.amazonaws.com`), the September 1 of junior year initial contact date applies to all D1 women's lacrosse recruits regardless of nationality.
 
 For international families, this means:
 
 - D1 coaches cannot initiate substantive recruiting communication with international recruits before September 1 of junior year
 - Athletes can initiate contact (questionnaires, introductory emails) at any time
-- Official visits at D1 programs become permissible January 1 of junior year (per the 2025-26 NCAA Division I Women's Lacrosse Recruiting Calendar)
+- Official visits at D1 programs become permissible January 1 of junior year (per the 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar)
 - The same evaluation, dead, quiet, and contact periods documented in the recruiting calendar apply
 
 For more detail on the September 1 rule and what it means for recruiting preparation, see [The September 1 Junior Year Rule: Why Lacrosse Recruiting Is Different](/lacrosse/guide/september-1-junior-year-rule/) and [Women's College Lacrosse Recruiting Timeline](/lacrosse/womens/guide/recruiting-timeline/).
@@ -194,7 +194,7 @@ Many NCAA coaches evaluate international recruits through World Lacrosse events 
 
 **"Does the September 1 of junior year contact date apply differently to international recruits?"**
 
-No. The September 1 of junior year initial contact date for D1 women's lacrosse applies uniformly to all recruits, regardless of nationality. The 2025-26 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by NCAA.org) does not distinguish between international and domestic recruits for the September 1 contact rule.
+No. The September 1 of junior year initial contact date for D1 women's lacrosse applies uniformly to all recruits, regardless of nationality. The 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by NCAA.org) does not distinguish between international and domestic recruits for the September 1 contact rule.
 
 ## Every international recruit's journey is different
 

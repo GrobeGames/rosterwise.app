@@ -27,7 +27,7 @@ children:
 
 College wrestling recruiting is organized around one thing above all others: the **weight class**. Unlike sports built around field positions, wrestling is a lineup of ten (or more) individual weights, and the question that decides fit isn't "does this program need a midfielder?" — it's *"who wrestles my weight, and when do they graduate?"* RosterWise&trade; Wrestling exists to answer exactly that, for every men's and women's program at the NCAA Division I, II, and III, NAIA, and NJCAA levels.
 
-Wrestling also runs on its own recruiting calendar. Unlike lacrosse — which kept a September 1 of junior year contact date — NCAA Division I and II wrestling coaches can first initiate contact on **June 15 after a recruit's sophomore year**, with official and unofficial visits opening **August 1 before junior year**. If you've read our lacrosse guides, that contrast matters: wrestling's window opens earlier.
+Wrestling also runs on its own recruiting calendar. Unlike lacrosse — which opens contact in the fall of junior year — NCAA Division I and II wrestling coaches can first initiate contact on **June 15 after a recruit's sophomore year**, with off-campus contact and official visits opening **August 1 of junior year**. If you've read our lacrosse guides, that contrast matters: wrestling's window opens earlier.
 
 And 2026 marked a genuine turning point for the sport. **Women's wrestling is now a full NCAA championship sport** — added as the NCAA's 91st championship, with the inaugural National Collegiate Women's Wrestling Championships held March 6–7, 2026 in Coralville, Iowa. That changes how families should read "level" on the women's side, and it's one of many wrestling-specific realities this section is built to explain.
 

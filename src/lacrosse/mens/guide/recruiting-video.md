@@ -30,7 +30,7 @@ related:
   - title: "Building Your Recruiting List"
     url: /guide/building-your-list/
 sources:
-  - "<strong>2025-26 NCAA Division I Men's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
+  - "<strong>2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Official NCAA recruiting rules and recruiting calendar archives'
   - '<strong>USA Lacrosse magazine</strong> — "Inside the Recruiting Funnel, the Way Coaches See It"; coverage of the recruiting funnel and the role of highlight video'
   - "<strong>Intercollegiate Men's Lacrosse Coaches Association (IMLCA)</strong> — Coaching association referenced for men's lacrosse coaching guidance"
@@ -250,15 +250,15 @@ Per Wesley College Men's Head Coach Bill Gorrow's guidance: coaches generally pr
 - **Avoid heavy zoom**: Wide-angle shots that show the full field context are usually more useful than tight-zoom shots that lose context
 - **Audio quality**: Ensure any included audio is clear
 
-## The pre-September 1 reality
+## The pre-contact-date reality
 
-Per the 2025-26 NCAA Division I Men's Lacrosse Recruiting Calendar (published directly by the NCAA at `ncaaorg.s3.amazonaws.com`) and discussed in detail in [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/), D1 college coaches cannot initiate substantive recruiting communication before September 1 of an athlete's junior year. This includes responding substantively to athlete-initiated outreach.
+Per the 2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar (published directly by the NCAA at `ncaaorg.s3.amazonaws.com`) and discussed in detail in [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/), D1 college coaches cannot initiate substantive recruiting communication before the start of an athlete's junior year. For men's lacrosse, effective August 1, 2026, that moment is 7 a.m. on the Wednesday immediately following Labor Day — not September 1. The restriction includes responding substantively to athlete-initiated outreach.
 
 What this means for recruiting video:
 
-- **Pre-September 1**: You can still send videos to coaches. Coaches can watch them, save them, and add the athlete to their tracking. Coaches cannot respond substantively beyond limited communication.
-- **The video should be ready by August before junior year**: Coaches who watch your video in the lead-up to September 1 are evaluating whether you'll be a priority on the day communication opens.
-- **The video matters most in the September 1 through fall of senior year window**: This is when active recruiting decisions are being made.
+- **Before the contact date**: You can still send videos to coaches. Coaches can watch them, save them, and add the athlete to their tracking. Coaches cannot respond substantively beyond limited communication.
+- **The video should be ready by August before junior year**: Coaches who watch your video in the lead-up to the contact date are evaluating whether you'll be a priority on the day communication opens.
+- **The video matters most in the window from the contact date through fall of senior year**: This is when active recruiting decisions are being made.
 
 ## Special considerations for Canadian recruits
 

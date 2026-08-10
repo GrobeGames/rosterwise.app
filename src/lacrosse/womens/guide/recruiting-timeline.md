@@ -39,7 +39,7 @@ faq:
   - q: "What if my daughter doesn't have a verbal commitment by spring of junior year?"
     a: "This is more common than families often realize, and it's not a problem. Many strong recruits commit between summer of junior year and senior year. Many strong recruits at D2, D3, NAIA, and NJCAA programs commit during senior year or even later. The timeline pressure to commit early is often more about competing for limited roster spots at the most elite D1 programs than about the broader recruiting reality."
 sources:
-  - '<a href="https://ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2025-26/2025-26D1Rec_WLARecruitingCalendar.pdf">2025-26 NCAA Division I Women''s Lacrosse Recruiting Calendar</a> — Official NCAA document'
+  - '<a href="https://ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D1Rec_WLARecruitingCalendar.pdf">2026-27 NCAA Division I Women''s Lacrosse Recruiting Calendar</a> — Official NCAA document'
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Official NCAA rules and recruiting calendar archives'
   - '<a href="https://eligibilitycenter.org">NCAA Eligibility Center</a> — Academic eligibility and registration requirements'
   - "USA Lacrosse magazine — Coverage of NCAA Division I Council's exemption of lacrosse from Proposal 2018-93-2's general June 15 contact rule"
@@ -55,16 +55,37 @@ ${toc}
 
 ## The timeline at a glance
 
-Per the 2025-26 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by the NCAA at `ncaaorg.s3.amazonaws.com`), the recruiting framework for D1 women's lacrosse operates on a specific schedule. The key dates that anchor the timeline:
+Per the 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by the NCAA at `ncaaorg.s3.amazonaws.com`), the recruiting framework for D1 women's lacrosse operates on a specific schedule. The key dates that anchor the timeline:
 
 - **Any age**: Athletes can fill out recruiting questionnaires, attend college camps, send introductory communication to coaches, and produce highlight video. None of this is restricted by NCAA rules.
 - **Before September 1 of junior year**: D1 college coaches cannot initiate substantive recruiting communication. They cannot call, text, email, or extend verbal offers. They can send camp and clinic information.
-- **September 1 of junior year**: D1 coaches can begin direct communication. Calls, texts, emails, and direct messages become permissible. Verbal offers can be extended. Off-campus contact and unofficial visits become possible.
-- **January 1 of junior year**: D1 official visits can begin. Per the 2025-26 NCAA calendar, this is the first date when prospective student-athletes can take official visits to D1 programs.
+- **September 1 of junior year, at 12 p.m. (noon) Eastern**: D1 coaches can begin direct communication. Calls, texts, emails, and direct messages become permissible. Verbal offers can be extended. Off-campus contact and unofficial visits become possible.
+- **January 1 of junior year**: D1 official visits can begin. This is the first date when prospective student-athletes can take official visits to D1 programs.
 - **Senior year fall**: Written Offers of Athletics Aid are extended (replacing the National Letter of Intent, which was [eliminated in October 2024](/guide/verbal-commitment-vs-nli/)).
 - **Senior year spring**: Final commitments, signings, and admissions paperwork.
 
-This timeline is dramatically different from sports operating under the June 15 rule. In women's lacrosse, the formal recruiting window opens approximately 2.5 months later than in most NCAA D1 sports. Families researching women's lacrosse should plan their preparation accordingly.
+Note the **noon Eastern** detail — the women's rule now names a time of day, so the window does not open at midnight. Note also that women's lacrosse and men's lacrosse no longer share a contact date: as of August 1, 2026, men's lacrosse opens at 7 a.m. on the Wednesday immediately following Labor Day. See [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/) for the comparison.
+
+This timeline is dramatically different from sports operating under the June 15 rule. In women's lacrosse, the formal recruiting window opens roughly two and a half months later than in most NCAA D1 sports. Families researching women's lacrosse should plan their preparation accordingly.
+
+## The 2026-27 D1 women's lacrosse recruiting calendar
+
+The women's lacrosse calendar is unusually granular — contact stretches with evaluation, dead, and shutdown windows nested inside them. For 2026-27:
+
+| Dates | Period |
+|---|---|
+| August 1–14, 2026 | Shutdown |
+| August 15–27, 2026 | Quiet |
+| August 28 – September 3, 2026 | Dead |
+| September 4 – November 30, 2026 | Contact, with evaluation windows November 6–8, 13–15, and 20–22 (5 p.m. Friday through Sunday); dead periods November 9–12 and November 18–20; and a shutdown November 24–29 |
+| December 1–30, 2026 | Contact, with a shutdown December 22–26 |
+| December 31, 2026 – January 2, 2027 | Shutdown |
+| January 3 – May 27, 2027 | Contact |
+| May 28–30, 2027 | Dead |
+| May 31 – June 10, 2027 | Contact |
+| June 11 – July 31, 2027 | Evaluation, with a dead period July 2–6 |
+
+The practical shape: the fall is the heavy in-person recruiting season, with concentrated evaluation weekends in November; the summer closes as a long evaluation period, meaning coaches can watch but not have off-campus conversations.
 
 ## Why this rule exists
 
@@ -182,7 +203,7 @@ Junior year is the heart of the women's lacrosse recruiting process. The athlete
 
 **Visits**:
 - Schedule unofficial visits to programs of genuine interest
-- Per the 2025-26 NCAA Division I Women's Lacrosse Recruiting Calendar, official visits become permissible starting **January 1 of junior year**
+- Per the NCAA Division I Women's Lacrosse Recruiting Calendar, official visits become permissible starting **January 1 of junior year**
 - Plan visits strategically — official visits are limited per athlete (cap of 5 official visits across all D1 schools combined per NCAA rules)
 
 **Evaluation events**:
@@ -262,4 +283,4 @@ No two women's lacrosse athletes have the same recruiting experience. Some athle
 
 ---
 
-*NCAA recruiting rules and calendars are updated annually. This article reflects the 2025-26 calendar. Families should verify the current calendar at `ncaaorg.s3.amazonaws.com` for the relevant academic year.*
+*NCAA recruiting rules and calendars are updated annually. This article reflects the 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar. Families should verify the current calendar at `ncaaorg.s3.amazonaws.com` for the relevant academic year.*

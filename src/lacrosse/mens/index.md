@@ -11,7 +11,7 @@ breadcrumbs:
 children:
   - title: "Men's College Lacrosse Recruiting Timeline"
     url: /lacrosse/mens/guide/recruiting-timeline/
-    summary: "When commitments actually happen — the September 1 contact rule, typical timelines by division, and the current recruiting landscape."
+    summary: "When commitments actually happen — the new Wednesday-after-Labor-Day contact rule, typical timelines by division, and the current recruiting landscape."
     status: live
   - title: "How Men's College Lacrosse Scholarships Work"
     url: /lacrosse/mens/guide/scholarships/
@@ -35,7 +35,7 @@ Men's college lacrosse recruiting operates on its own timeline, with its own dyn
 
 ## What makes men's college lacrosse recruiting different
 
-Three things set men's lacrosse apart. First, the recruiting calendar: like all of lacrosse, the men's game uses a **September 1 of junior year** initial-contact date rather than the June 15 rule most sports follow. Before that date, athletes can reach out to coaches, but coaches' responses are limited.
+Three things set men's lacrosse apart. First, the recruiting calendar: like all of lacrosse, the men's game opens contact at the start of junior year rather than under the June 15 rule most sports follow. As of August 1, 2026 the men's date is no longer September 1 — it is **7 a.m. on the Wednesday immediately following Labor Day** of junior year. Before that date, athletes can email coaches, but coaches' responses are limited and phone calls are barred in both directions.
 
 Second, men's lacrosse has a meaningful international presence — Canada in particular has long shaped men's college rosters, with box-lacrosse-developed players valued for their stick skills and finishing. Some programs carry a notable Canadian contingent; others recruit almost entirely domestically.
 

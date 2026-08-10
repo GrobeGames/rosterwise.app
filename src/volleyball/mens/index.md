@@ -95,7 +95,7 @@ If you've been through women's volleyball recruiting — or if you've followed t
 
 ## The recruiting timeline at a glance
 
-The NCAA Division I men's volleyball recruiting calendar follows the same structural rules as women's volleyball: coaches may not initiate communication with recruits (calls, texts, written correspondence, verbal scholarship offers) until **June 15 after the recruit's sophomore year**. Official and unofficial visits become permissible **August 1 before the recruit's junior year**.
+The NCAA Division I men's volleyball recruiting calendar follows the same structural rules as women's volleyball: coaches may not initiate communication with recruits (calls, texts, written correspondence, verbal scholarship offers) until **June 15 after the recruit's sophomore year**. In-person off-campus contact and official visits become permissible **August 1 of the recruit's junior year**.
 
 While the rules are the same, the practical recruiting pace differs. Men's volleyball coaches typically evaluate recruits in the 15-16-year-old age range and continue evaluating as players grow and develop physically. Recruiting commitments tend to come later in high school than in women's volleyball.
 

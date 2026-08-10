@@ -64,7 +64,7 @@ The answer might be a D1 program. It might be a D3 school with exceptional acade
 - **Number of schools:** Approximately 300 active member institutions
 - **Scholarships:** Athletic scholarships available, traditionally structured as equivalency (partial scholarships divided across the roster). Scholarship limits are sport-specific. Many D2 schools pair partial athletic aid with academic merit and need-based aid — see our [stacking financial aid guide](/guide/stacking-financial-aid/) for how these layers work together.
 - **Roster sizes:** Generally not subject to the same House settlement roster limits as D1 (unless the institution opts in for a D1 sport)
-- **Recruiting rules:** Less restrictive than D1. Coaches can contact prospects at any time via phone, text, or email — there is no "June 15" or "September 1" restriction.
+- **Recruiting rules:** Less restrictive than D1. Coaches can contact prospects at any time via phone, text, or email — there is no "June 15" or junior-year restriction. D2 runs one recruiting calendar for all sports; for 2026-27 the whole year is a contact period except a signing-date dead period from 7 a.m. November 9 to 7 a.m. November 11, 2026.
 - **Competitive level:** Strong. Many D2 programs compete at a level comparable to mid-major D1. The gap between top D2 and mid-level D1 is often smaller than families expect.
 - **Academic range:** Wide. D2 includes public and private institutions of various sizes and selectivity.
 - **Time commitment:** Significant, but NCAA D2 explicitly emphasizes balance between athletics, academics, and campus life.
@@ -76,7 +76,7 @@ Beyond these four divisions, **junior college (JUCO)** programs offer another le
 - **Number of schools:** Approximately 450 active member institutions — the largest NCAA division
 - **Scholarships:** **No athletic scholarships.** Financial aid at D3 is need-based and merit-based academic aid. Some D3 schools are very generous with academic merit aid, and athletes may receive the same aid packages as non-athletes.
 - **Roster sizes:** Generally larger and more flexible than D1 or D2, since there are no scholarship limitations driving roster composition
-- **Recruiting rules:** The most flexible in the NCAA. Coaches can communicate with prospects with fewer restrictions. Official visits begin January 1 of junior year.
+- **Recruiting rules:** The most flexible in the NCAA. D3 has no recruiting calendar at all — no contact, evaluation, quiet, or dead periods. The one timing restriction is that in-person off-campus contact may not occur until the prospect has completed **sophomore** year (not junior year, a common third-party error). Official visits begin January 1 of junior year.
 - **Competitive level:** Highly variable. Some D3 programs are extraordinarily competitive — in sports like soccer, lacrosse, and swimming, top D3 teams would compete well against many D1 programs. Other D3 programs are more recreational in nature.
 - **Academic range:** Includes many of the most academically prestigious schools in the country. The D3 philosophy emphasizes the student-athlete as a student first.
 - **Time commitment:** Still significant during the season, but D3 programs generally have shorter competitive seasons and fewer out-of-season requirements.
@@ -111,9 +111,9 @@ For a deeper dive, see our [athletic scholarships guide](/guide/athletic-scholar
 
 | | D1 | D2 | D3 | NAIA |
 |---|---|---|---|---|
-| **Coach contact initiation** | Sport-specific date (often June 15 after sophomore year or September 1 of junior year) | Any time | Fewer restrictions; varies | Any time |
-| **Official visits** | August 1 before junior year (most sports) | Earlier availability | January 1 of junior year | Any time |
-| **Dead/quiet periods** | Yes, sport-specific | Some restrictions | Minimal | None |
+| **Coach contact initiation** | Sport-specific date (often June 15 after sophomore year; some sports at the start of junior year) | Any time | Any time; off-campus contact after sophomore year | Any time |
+| **Official visits** | August 1 of junior year (most sports) | Earlier availability | January 1 of junior year | Any time |
+| **Dead/quiet periods** | Yes, sport-specific | One all-sports calendar; a signing-date dead period only | None — D3 has no recruiting calendar | None |
 | **Signing period** | Sport-specific windows | Sport-specific windows | No formal signing period (institutional agreements) | Rolling |
 
 **Important:** These are general patterns. Specific rules vary by sport within each division. Families should verify current rules for their athlete's specific sport at NCAA.org or NAIA.org.

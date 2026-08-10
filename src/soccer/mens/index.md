@@ -77,9 +77,11 @@ This is a real shift, and families should ask each program directly about their 
 
 ## The NCAA recruiting calendar
 
-NCAA rules govern when Division I coaches can initiate contact with recruits. For men's soccer, the key date is June 15 after a prospect's sophomore year of high school — that's when D1 coaches can begin making calls, sending texts, and extending verbal offers. Before that date, athletes can reach out to coaches, but coaches' responses are limited.
+NCAA rules govern when Division I coaches can initiate contact with recruits. For men's soccer, there are two key dates. **June 15 after a prospect's sophomore year** is when D1 coaches can begin making calls, sending texts and recruiting materials, and extending verbal offers. **August 1 of junior year** is when in-person off-campus contact and official visits open. Before June 15, athletes can reach out to coaches, but coaches' responses are limited.
 
-D2, D3, and NAIA programs operate under different rules. D2 and D3 have more flexible contact timelines, and NAIA coaches can contact athletes at any time during high school. D3 schools do not offer athletic scholarships.
+The 2026-27 D1 men's soccer calendar is otherwise a contact period all year, with three exceptions: dead periods November 9–12 and December 11–14, 2026, and a quiet period December 23–25, 2026.
+
+D2, D3, and NAIA programs operate under different rules. D2 has no initial-contact date and only a signing-date dead period; D3 has no recruiting calendar at all (its one timing rule is that off-campus contact waits until the athlete has completed sophomore year); NAIA coaches can contact athletes at any time during high school. D3 schools do not offer athletic scholarships.
 
 ## International recruiting in men's soccer
 
@@ -91,7 +93,7 @@ RosterWise tracks international player composition at every program as part of o
 
 Every recruit's timeline is different. Late bloomers are common in men's soccer, development curves vary, and the right program depends on factors that no timeline can predict. Use these guides as context — not a checklist.
 
-If you're new to men's college soccer recruiting, start with the **[Recruiting Timeline](/soccer/mens/guide/recruiting-timeline/)** — it covers NCAA contact rules, typical commitment windows by division, and the latest rule changes affecting the 2025-26 cycle.
+If you're new to men's college soccer recruiting, start with the **[Recruiting Timeline](/soccer/mens/guide/recruiting-timeline/)** — it covers NCAA contact rules, typical commitment windows by division, and the 2026-27 recruiting calendar.
 
 **Researching women's soccer?** See the [Women's College Soccer Recruiting](/soccer/womens/) section for women's-specific guides and timelines.
 

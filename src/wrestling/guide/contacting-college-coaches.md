@@ -97,4 +97,4 @@ Some wrestlers land a spot largely through relationships built at events; others
 
 ---
 
-*Recruiting-communication rules are set by the NCAA and updated annually. This article reflects the 2025-26 season; verify current rules at NCAA.org.*
+*Recruiting-communication rules are set by the NCAA and updated annually. This article reflects the 2026-27 season; verify current rules at NCAA.org.*

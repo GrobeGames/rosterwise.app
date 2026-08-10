@@ -23,7 +23,7 @@ related:
   - title: "NCAA Recruiting Rules Explained"
     url: /guide/ncaa-recruiting-rules/
 sources:
-  - "NCAA Division I Women's Volleyball Recruiting Calendar, 2025-26 (ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2025-26/2025-26D1Rec_WVBRecruitingCalendar.pdf)"
+  - "NCAA Division I Women's Volleyball Recruiting Calendar, 2026-27 (ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D1Rec_WVBRecruitingCalendar.pdf)"
   - "NCAA.org, Recruiting Calendars and Guides"
   - "NCAA.org, \"DI Board of Directors formally adopts changes to roster limits,\" June 23, 2025"
   - "NCAA.org, Question and Answer: Implementation of the House Settlement (June 13, 2025)"
@@ -62,29 +62,32 @@ Before the NCAA imposed the June 15 contact rule, it was not uncommon for volley
 
 **Important context:** "Earlier" is a general pattern, not a rule. Many women's volleyball recruits commit in junior year, senior year, and beyond. Programs at every division are actively recruiting through senior year. If your family's timeline doesn't match the earliest commitments you see on social media, that is completely normal.
 
-## The NCAA D1 women's volleyball recruiting calendar (2025-26)
+## The NCAA D1 women's volleyball recruiting calendar (2026-27)
 
-**Initial contact rule:** D1 coaches cannot initiate off-campus communication, calls, texts, or social media DMs with a prospect until **June 15 after the prospect's sophomore year of high school.** Before this date, athletes may contact coaches, but coaches' responses are limited to camp/clinic information and generic materials.
+**Initial contact rule:** D1 coaches cannot send recruiting materials or initiate calls, texts, or social media DMs with a prospect until **June 15 after the prospect's sophomore year of high school.** Before this date, athletes may contact coaches, but coaches' responses are limited to camp/clinic information and generic materials.
+
+**In-person, off-campus contact is a separate, later date:** coaches may not have off-campus contact with a volleyball prospect until **August 1 of junior year** — the same date official visits open. June 15 unlocks the phone and the inbox; August 1 unlocks the sideline conversation and the official visit.
 
 **Important clarification:** Athletes can reach out to college coaches at any time. NCAA rules limit when the *coach* can respond with recruiting communication, not when the prospect can initiate. Filling out a program's [recruiting questionnaire](/guide/recruiting-questionnaires/) is one of the most effective ways to get on a coach's radar before the contact window opens — questionnaires are exempt from contact-date restrictions.
 
 **Verbal offers:** Coaches can extend verbal offers starting June 15 after sophomore year. Verbal offers are not binding for either party.
 
-**Official visits:** Recruits may begin taking official visits starting **August 1 before junior year**.
+**Official visits:** Recruits may begin taking official visits starting **August 1 of junior year**.
 
 **Unofficial visits:** Athletes can take unofficial visits to campus at any time.
 
-**The 2025-26 D1 women's volleyball signing period:** The signing period for women's volleyball begins on **the second Wednesday in November** (November 12, 2025 for the current cycle). Women's volleyball does not have an early signing period — there is one signing window.
+**The D1 women's volleyball signing period:** The signing period for women's volleyball begins on **the second Wednesday in November**. Women's volleyball does not have an early signing period — there is one signing window.
 
-**Key calendar dates for D1 women's volleyball, 2025-26:**
+**Key calendar dates for D1 women's volleyball, 2026-27:**
 
-- **Contact period:** September 1, 2025 through the Thursday before the start of the D1 Women's Volleyball Championship
-- **Dead period:** The Friday before through the Monday after the D1 Championship final (coaches cannot have in-person contact with recruits during this window)
-- **Quiet periods:** December 23-25, 2025, and other windows as specified in the official calendar
+- **Quiet period:** August 1–31, 2026
+- **Contact period:** September 1 – November 30, 2026, except for a **dead period November 9–12, 2026** (the fall signing week)
+- **Quiet period:** December 1, 2026 – January 14, 2027, except for a **dead period December 17, 2026 – January 1, 2027** (the D1 Women's Volleyball Championship)
+- **Contact period:** January 15 – July 31, 2027, interrupted by quiet periods March 1–4, March 8–11, March 15–18, March 22–25, March 29 – April 1, and April 5–8, 2027, and by a longer quiet period May 1 – June 3, 2027
 
 During dead periods, coaches cannot have any in-person contact with recruits or families. Phone, text, email, and social media communication remain allowed. During quiet periods, coaches can have in-person contact only on the school's campus.
 
-These dates apply to the 2025-26 recruiting cycle. The NCAA publishes an updated calendar each year — verify the current calendar at NCAA.org before relying on specific dates.
+These dates apply to the 2026-27 recruiting cycle. The NCAA publishes an updated calendar each year — verify the current calendar at NCAA.org before relying on specific dates.
 
 ## The major changes you may have heard about (and what they actually mean)
 
@@ -130,7 +133,7 @@ Use this as a general guide. Individual recruiting experiences vary significantl
 ### 11th grade (junior year)
 
 - Peak window for D1 and D2 women's volleyball recruiting activity
-- August 1 before junior year: official visits become available
+- August 1 of junior year: off-campus contact and official visits become available
 - Many verbal commitments happen during junior year
 - Continue updating film, transcripts, test scores, and recruiting resume
 - Athletes should have substantive conversations with multiple target programs
@@ -138,7 +141,7 @@ Use this as a general guide. Individual recruiting experiences vary significantl
 
 ### 12th grade (senior year)
 
-- Signing window opens the second Wednesday of November (November 12, 2025 for the current cycle)
+- Signing window opens the second Wednesday of November
 - Many commitments happen in senior fall — this is not "late" in women's volleyball
 - D2, D3, NAIA programs are often actively signing through senior spring and into summer
 - **Late commitments are normal and not a sign of anything wrong.** Programs have needs that emerge throughout the year — roster changes, transfers, injuries, and shifting priorities create opportunities well into senior year.
@@ -196,7 +199,7 @@ Families who feel "behind" relative to peers often catch up quickly when fit and
 - Sophomore year: research target programs across divisions
 - June 15 after sophomore year: be ready to engage with D1 coaches who can now respond
 - Junior year fall: list of target programs, regular communication
-- August 1 before junior year: schedule official visits
+- August 1 of junior year: schedule official visits
 - Junior year spring: substantive conversations with multiple programs
 - Senior year fall: finalize commitment, sign Written Offer of Athletics Aid during the signing period
 

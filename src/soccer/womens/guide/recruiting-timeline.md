@@ -30,7 +30,7 @@ related:
   - title: "NCAA Recruiting Rules Explained"
     url: /guide/ncaa-recruiting-rules/
 sources:
-  - "NCAA Division I Other Sports Recruiting Calendar, 2025-26 — official NCAA document"
+  - "NCAA Division I Other Sports Recruiting Calendar, 2026-27 — official NCAA document"
   - "NCAA.org, Recruiting Calendars and Guides"
   - "NCAA.org, \"DI Board of Directors formally adopts changes to roster limits,\" June 23, 2025"
   - "NCAA.org, Question and Answer: Implementation of the House Settlement (June 13, 2025)"
@@ -67,29 +67,34 @@ The NCAA addressed this in 2018 by imposing contact restrictions. But the cultur
 
 **Important context:** "Earlier" is a general pattern, not a rule. Many women's soccer recruits commit in junior year, senior year, and beyond. Programs at every division are actively recruiting through senior year. If your family's timeline doesn't match the earliest commitments you see on social media, that is completely normal.
 
-## The NCAA recruiting calendar (D1 women's soccer, 2025-26)
+## The NCAA recruiting calendar (D1 women's soccer, 2026-27)
 
-**Initial contact rule:** D1 coaches cannot initiate off-campus communication, calls, texts, or social media DMs with a prospect until **June 15 after the prospect's sophomore year of high school.** Before this date, athletes may contact coaches, but coaches' responses are limited to camp/clinic information and generic materials.
+**Initial contact rule:** D1 coaches cannot send recruiting materials or initiate calls, texts, or social media DMs with a prospect until **June 15 after the prospect's sophomore year of high school.** Before this date, athletes may contact coaches, but coaches' responses are limited to camp/clinic information and generic materials.
+
+**In-person, off-campus contact is a separate, later date:** coaches may not have off-campus contact with a women's soccer prospect until **August 1 of junior year** — the same date official visits open. June 15 unlocks the phone and the inbox; August 1 unlocks the sideline conversation and the official visit.
 
 **Important clarification:** Athletes can reach out to college coaches at any time. NCAA rules limit when the *coach* can respond with recruiting communication, not when the prospect can initiate. Filling out a program's [recruiting questionnaire](/guide/recruiting-questionnaires/) is one of the most effective ways to get on a coach's radar before the contact window opens — questionnaires are exempt from contact-date restrictions.
 
 **Verbal offers:** Coaches can extend verbal offers starting June 15 after sophomore year. Verbal offers are not binding for either party.
 
-**Official visits:** Recruits may begin taking official visits starting **August 1 before junior year**.
+**Official visits:** Recruits may begin taking official visits starting **August 1 of junior year**. Note that on the 2026-27 calendar the first eleven days of August are a dead period, so the first practical official-visit window is August 12, 2026 onward.
 
 **Unofficial visits:** Athletes can take unofficial visits to campus at any time. (Note: recruits cannot take unofficial visits during July unless they have signed a written offer of athletics aid or made a financial deposit.)
 
-**The 2025-26 D1 women's soccer signing period:** Begins **November 12, 2025** (the second Wednesday in November). Final date is based on each school's institutional policy. **Men's and women's soccer do not have an early signing period** — there is one signing window. Football and basketball have early periods; soccer does not.
+**The D1 women's soccer signing period:** Begins on **the second Wednesday in November**. Final date is based on each school's institutional policy. **Men's and women's soccer do not have an early signing period** — there is one signing window. Football and basketball have early periods; soccer does not.
 
-**Dead periods affecting D1 women's soccer for 2025-26:**
+**Dead periods affecting D1 women's soccer for 2026-27:**
 
-- November 10–13, 2025 (Monday through Thursday of the initial signing period week)
-- December 5–8, 2025 (Friday through Monday of the NCAA D1 Women's Soccer Championship final weekend)
-- A quiet period December 23–25, 2025
+- August 1–11, 2026
+- November 9–12, 2026 (the fall signing week)
+- December 16, 2026 through January 6, 2027
+- July 28–31, 2027
+
+The 2026-27 D1 women's soccer calendar has **no quiet periods** — every day that is not one of the four dead periods above is a contact period.
 
 During dead periods, coaches cannot have any in-person contact with recruits or families. Phone, text, email, and social media communication remain allowed.
 
-These dates apply to the 2025-26 recruiting cycle. The NCAA publishes an updated calendar each year — verify the current calendar at NCAA.org before relying on specific dates.
+These dates apply to the 2026-27 recruiting cycle. The NCAA publishes an updated calendar each year — verify the current calendar at NCAA.org before relying on specific dates.
 
 ## The major changes you may have heard about (and what they actually mean)
 
@@ -133,7 +138,7 @@ Use this as a general guide. Individual recruiting experiences vary significantl
 ### 11th grade (junior year)
 
 - Peak window for D1 women's soccer recruiting activity
-- August 1 before junior year: official visits become available
+- August 1 of junior year: off-campus contact and official visits become available
 - Many verbal commitments happen during junior year
 - Continue updating film, transcripts, test scores, and recruiting resume
 - Athletes should have substantive conversations with multiple target programs
@@ -141,7 +146,7 @@ Use this as a general guide. Individual recruiting experiences vary significantl
 
 ### 12th grade (senior year)
 
-- Signing window opens the second Wednesday of November (November 12, 2025 for current cycle)
+- Signing window opens the second Wednesday of November
 - Many commitments happen in senior fall — this is not "late" in women's soccer
 - D2, D3, NAIA programs are often actively signing through senior spring and into summer
 - **Late commitments are normal and not a sign of anything wrong.** Programs have needs that emerge throughout the year — roster changes, transfers, and shifting priorities create opportunities well into senior year.
@@ -205,7 +210,7 @@ Families who feel "behind" relative to peers often catch up quickly when fit and
 - Sophomore year: research target programs across divisions
 - June 15 after sophomore year: be ready to engage with D1 coaches who can now respond
 - Junior year fall: list of target programs, regular communication
-- August 1 before junior year: schedule official visits
+- August 1 of junior year: schedule official visits
 - Junior year spring: substantive conversations with multiple programs
 - Senior year fall: finalize commitment, sign Written Offer of Athletics Aid during the signing period
 

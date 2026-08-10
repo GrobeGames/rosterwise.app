@@ -27,7 +27,7 @@ Three things set it apart. First, the **style**: American college men wrestle fo
 
 Second, the **championship structure is division-separated**: NCAA Division I, Division II, and Division III each hold their own men's national championship, and the NAIA and NJCAA crown their own champions as well. "Level" means what you'd expect on the men's side — a meaningful contrast with the women's unified championship (see [Women's College Wrestling](/wrestling/womens/)).
 
-Third, the **recruiting calendar**: like most NCAA sports, men's D1 and D2 wrestling uses a **June 15 after sophomore year** initial-contact date, with visits opening **August 1 before junior year** — earlier than the September 1 date lacrosse families know. See the [wrestling recruiting timeline](/wrestling/guide/recruiting-timeline/).
+Third, the **recruiting calendar**: like most NCAA sports, men's D1 and D2 wrestling uses a **June 15 after sophomore year** initial-contact date, with off-campus contact and official visits opening **August 1 of junior year** — earlier than the fall-of-junior-year dates lacrosse families know. A separate, later set of men's wrestling dates applies only to prospects enrolling on or after August 1, 2028 (the class of 2028 and younger). See the [wrestling recruiting timeline](/wrestling/guide/recruiting-timeline/).
 
 *Researching women's wrestling instead? Here's the [women's section](/wrestling/womens/).*
 

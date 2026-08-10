@@ -102,7 +102,7 @@ The recruiting process for an international player typically takes longer than f
 
 For international families considering NCAA men's volleyball, several practical realities are worth understanding upfront:
 
-**The recruiting calendar is the same as for domestic recruits.** NCAA D1 contact may begin June 15 after sophomore year; this rule applies to international recruits as well. The practical timeline varies because evaluation often happens at international junior tournaments rather than U.S. club events.
+**The recruiting calendar is the same as for domestic recruits.** NCAA D1 calls and recruiting materials may begin June 15 after sophomore year, with in-person off-campus contact and official visits opening August 1 of junior year; these rules apply to international recruits as well. The practical timeline varies because evaluation often happens at international junior tournaments rather than U.S. club events.
 
 **NCAA Eligibility Center certification is required for D1 and D2.** International recruits must register with the NCAA Eligibility Center, submit academic credentials for evaluation, and meet NCAA initial-eligibility standards. The international certification process is more complex than the domestic process and can take months. International recruits should start this process early.
 

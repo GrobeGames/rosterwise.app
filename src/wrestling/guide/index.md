@@ -15,7 +15,7 @@ children:
     status: live
   - title: "The Wrestling Recruiting Timeline & the June 15 Rule"
     url: /wrestling/guide/recruiting-timeline/
-    summary: "When contact opens (June 15 after sophomore year), when visits open (August 1 before junior year), how it contrasts with lacrosse's September 1, and the post-NLI signing landscape."
+    summary: "When contact opens (June 15 after sophomore year), when off-campus contact and visits open (August 1 of junior year), the new cohort-gated men's wrestling dates, how it contrasts with lacrosse, and the post-NLI signing landscape."
     status: live
   - title: "Weight Management, Certification & Athlete Safety"
     url: /wrestling/guide/weight-management-and-safety/

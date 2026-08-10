@@ -35,7 +35,7 @@ sources:
   - "<strong>NCAA Bylaw 13.12.1.5.1</strong> — Per NCAA Legislative Services Database (web3.ncaa.org/lsdbi); confirmed via NCAA Division I Manual Article 13"
   - "<strong>NCAA Bylaw 13.12.1.3</strong> (Attendance Restriction) — Per NCAA Legislative Services Database"
   - "<strong>NCAA Bylaw 13.12.1</strong> (Institution's Sports Camps and Clinics) — Per NCAA Legislative Services Database"
-  - "<strong>2025-26 NCAA Division I Women's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
+  - "<strong>2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
   - '<a href="https://iwlca.org">Intercollegiate Women''s Lacrosse Coaches Association (IWLCA)</a> — iwlca.org and iwlcarecruiting.com'
   - '<a href="https://www.usalacrosse.com">USA Lacrosse</a> — usalacrosse.com — Official national governing body'
   - "<strong>National Lacrosse Federation (NLF)</strong> — nationallacrossefederation.com"

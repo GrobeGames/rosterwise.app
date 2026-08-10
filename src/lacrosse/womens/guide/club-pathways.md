@@ -37,7 +37,7 @@ sources:
   - "<strong>IWLCARecruits (iwlcarecruits.com)</strong> — Official IWLCA recruiting platform"
   - "<strong>IWLCA Recruiting (iwlcarecruiting.com)</strong> — IWLCA Tournament Series official page"
   - "<strong>USA Lacrosse Girls Lacrosse Rule Book 2026</strong> — Published at usalacrosse.com"
-  - "<strong>2025-26 NCAA Division I Women's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
+  - "<strong>2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
 cta:
   heading: "Find programs where your daughter genuinely fits — regardless of club pathway"
   text: "Where your daughter plays club is important. Where she ultimately ends up in college depends on much more — including which programs are actually the right fit for her specific development, academic profile, and goals. RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA women's lacrosse program — position depth, class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring. The geographic and pathway analysis helps families identify the programs that are realistic targets for their daughter regardless of her current club affiliation."

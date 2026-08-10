@@ -43,7 +43,7 @@ faq:
   - q: "Do indigenous lacrosse players have unique NCAA recruiting considerations?"
     a: "Indigenous players from Haudenosaunee communities and other indigenous nations are recruited through standard NCAA processes. The Haudenosaunee Nationals are an international team, not a U.S. or Canadian national team — meaning indigenous players have access to multiple national team pathways including the Haudenosaunee Nationals, the U.S. or Canadian national teams (depending on citizenship), and standard NCAA recruiting."
 sources:
-  - "<strong>2025-26 NCAA Division I Men's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
+  - "<strong>2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Official NCAA recruiting rules and recruiting calendar archives'
   - '<strong>NCAA Eligibility Center</strong> — <a href="https://eligibilitycenter.org">eligibilitycenter.org</a>'
   - "<strong>USA Lacrosse magazine</strong> — Coverage of international lacrosse, World Championships, and 2028 Olympics"
@@ -119,7 +119,7 @@ Understanding the Canadian path into NCAA men's lacrosse requires understanding 
 
 For Canadian families researching NCAA men's lacrosse, several practical realities differentiate the Canadian recruiting pathway from the American pathway:
 
-**The September 1 of junior year rule applies the same way**: Per the 2025-26 NCAA Division I Men's Lacrosse Recruiting Calendar (published directly by the NCAA at `ncaaorg.s3.amazonaws.com`), the September 1 of junior year initial contact date applies to Canadian recruits the same way it applies to American recruits. See [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/).
+**The junior-year contact rule applies the same way**: Per the 2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar (published directly by the NCAA at `ncaaorg.s3.amazonaws.com`), the initial contact date — 7 a.m. on the Wednesday immediately following Labor Day of junior year, under legislation effective August 1, 2026 — applies to Canadian recruits the same way it applies to American recruits. See [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/).
 
 **Age and birthdate considerations**: Per Canadian lacrosse club resources, the U.S. recruiting class system is birthdate-driven rather than year-of-birth-driven. A Canadian player born after August 31 may need to consider whether to play in their U.S. recruiting class age bracket rather than their Canadian birth-year bracket to align with how NCAA programs evaluate.
 
@@ -237,7 +237,7 @@ Indigenous players from Haudenosaunee communities and other indigenous nations a
 
 ## Every international recruit's journey is different
 
-The international landscape in men's college lacrosse varies enormously by country, by competitive level, and by individual circumstance. A Canadian box lacrosse player from Ontario may follow a recruiting pathway that's well-established and competitive with American recruits. A men's lacrosse recruit from Israel, Australia, or Japan may have a fundamentally different experience requiring more proactive planning. A recruit from a Haudenosaunee community has access to the unique pathway of the Haudenosaunee Nationals alongside NCAA opportunities. The structural realities — the F-1 visa landscape, the post-House settlement scholarship framework, the September 1 of junior year contact rule, the 2028 Olympics-driven global growth — all apply. But how they interact for any specific recruit depends on individual circumstances. Use this guide as context; consult immigration attorneys for visa-specific questions; and treat each program conversation as its own evaluation.
+The international landscape in men's college lacrosse varies enormously by country, by competitive level, and by individual circumstance. A Canadian box lacrosse player from Ontario may follow a recruiting pathway that's well-established and competitive with American recruits. A men's lacrosse recruit from Israel, Australia, or Japan may have a fundamentally different experience requiring more proactive planning. A recruit from a Haudenosaunee community has access to the unique pathway of the Haudenosaunee Nationals alongside NCAA opportunities. The structural realities — the F-1 visa landscape, the post-House settlement scholarship framework, the junior-year contact rule, the 2028 Olympics-driven global growth — all apply. But how they interact for any specific recruit depends on individual circumstances. Use this guide as context; consult immigration attorneys for visa-specific questions; and treat each program conversation as its own evaluation.
 
 ---
 

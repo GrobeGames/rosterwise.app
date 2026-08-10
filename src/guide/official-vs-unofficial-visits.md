@@ -47,7 +47,7 @@ An official visit is a campus visit where the **school pays for some or all of t
 
 ### NCAA Division I rules
 
-- Recruits may begin taking official visits **August 1 before junior year** in most sports (the specific date varies by sport — verify at NCAA.org)
+- Recruits may begin taking official visits **August 1 of junior year** in most sports — the same date in-person off-campus contact opens. The specific date varies by sport: women's lacrosse official visits begin January 1 of junior year, and men's lacrosse official visits open on its contact date, the Wednesday after Labor Day of junior year. Verify at NCAA.org.
 - A recruit may take up to **five official visits total** across all D1 schools (this limit is under ongoing review and may change)
 - An official visit is limited to **48 hours**
 - The school can pay for transportation to and from campus, three meals per day, lodging, and entertainment (within limits)
