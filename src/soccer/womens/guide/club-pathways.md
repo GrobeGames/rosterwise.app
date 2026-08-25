@@ -139,3 +139,7 @@ RosterWise exists to help with the roster composition piece — showing families
 ## Men's recruiting works differently
 
 Men's college soccer recruiting operates on a different timeline and with different club pathway dynamics (MLS Next, ECNL Boys, USL Academy). If you're navigating men's recruiting, [here's the men's version](/soccer/mens/guide/club-pathways/).
+
+---
+
+*Youth soccer league structures change frequently. This article reflects the landscape as of **April 2026**. Verify current league structures directly with ECNL and U.S. Soccer, and confirm current NCAA recruiting rules at NCAA.org.*

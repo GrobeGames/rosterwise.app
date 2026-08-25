@@ -167,3 +167,7 @@ RosterWise exists to help with the roster composition piece — showing families
 The club volleyball ecosystem can feel overwhelming, especially for families entering it for the first time. The alphabet soup of USAV regions, JNQs, GJNC divisions, and AES scheduling creates a learning curve. But the fundamental dynamics are simpler than they appear: play competitive volleyball, perform well, create visibility through proactive outreach, and find programs that fit.
 
 Some families will navigate the system through a top-tier national club that handles much of the exposure work. Others will piece together a pathway through regional clubs, targeted showcases, and direct coach outreach. Both approaches produce college volleyball players every year. The pathway is one variable — and not the most important one.
+
+---
+
+*Club volleyball structures and championship formats change season to season. This article reflects the landscape as of **May 2026**. Verify current club and championship structures with USA Volleyball and the AVCA, and current college recruiting rules at NCAA.org.*

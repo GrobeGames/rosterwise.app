@@ -285,4 +285,4 @@ The recruiting video is a tool, not a guarantee. Some recruits with average vide
 
 ---
 
-*Coach preferences on video length, format, and content vary. Families should verify specific program preferences directly with the coaches at programs they're considering and treat published guidance as context rather than rigid rules.*
+*Recruiting-communication rules are set by the NCAA and updated annually. This article reflects the **2026-27** NCAA Division I Men's Lacrosse Recruiting Calendar. Verify current contact rules at NCAA.org, check USA Lacrosse for event guidance, and confirm specific program preferences directly with coaches.*

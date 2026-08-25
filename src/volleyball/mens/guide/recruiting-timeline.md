@@ -180,3 +180,7 @@ What this means for families:
 - **Cast a wide net.** Targeting 30+ programs across multiple division levels gives you the best chance of finding a genuine fit.
 - **Be honest about the level you can play at.** A starting role at a strong D3 program is often a better experience than the end of the bench at a D1 program.
 - **Don't get discouraged by silence.** Especially in a slower-paced recruiting sport like men's volleyball, the absence of communication in sophomore or junior year is not the end of the story.
+
+---
+
+*NCAA recruiting calendars are updated annually. This article reflects the **2026-27** NCAA Division I Other Sports and Division II recruiting calendars. Verify the current calendar at `ncaaorg.s3.amazonaws.com` for the relevant academic year, check NAIA.org and NJCAA.org for those associations' rules, and confirm academic timing with the NCAA Eligibility Center.*

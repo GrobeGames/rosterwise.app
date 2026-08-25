@@ -94,3 +94,7 @@ Most junior-college athletics outside California run under the NJCAA. **Californ
 For **men's** lacrosse, the NJCAA is a legitimate but **niche, Northeast-concentrated** development pathway — a real single-field national championship, the same game played up the ladder, and four-year transfer rules getting friendlier in 2026 — with the honest caveats that the footprint is small and the outcome data isn't published. For **women's** lacrosse, the NJCAA discontinued the sport in 2024-25, so the four-year NCAA and NAIA routes are where to focus.
 
 As always, the deciding question is the same: **does this specific program fit your athlete, and where can a JUCO year realistically take them next?**
+
+---
+
+*Junior-college eligibility, scholarship, and transfer rules differ by association and change by cycle. This article reflects the **2025-26** academic year. Verify current rules at NJCAA.org, confirm transfer requirements at NCAA.org and NAIA.org, and check certification with the NCAA Eligibility Center.*

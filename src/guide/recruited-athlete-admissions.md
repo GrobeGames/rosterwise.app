@@ -213,4 +213,4 @@ The variables — sport, school, coach influence, the athlete's academic profile
 
 ---
 
-*This article reflects publicly available information from the sources cited above. College admissions practices vary by institution and change over time. Families should verify current policies with each school's admissions office before making decisions.*
+*This article reflects publicly available admissions information as of **May 2026**; the Ivy League academic-index figures cited are from the 2020-21 materials named in the sources. College admissions practices vary by institution and change over time. Verify current athletics-admissions policies with each school's admissions office and current eligibility requirements at NCAA.org and with the NCAA Eligibility Center.*

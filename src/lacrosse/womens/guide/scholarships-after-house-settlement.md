@@ -175,4 +175,4 @@ No two women's lacrosse families have the same scholarship experience. Some athl
 
 ---
 
-*The House settlement is in active implementation. Program-specific funding decisions continue to evolve. Families should verify current scholarship information directly with each program's coaching staff.*
+*House settlement implementation is still moving. This article reflects the **2025-26** academic year — the settlement's first year. Verify current scholarship and roster limits at NCAA.org, check USA Lacrosse for coverage of lacrosse-specific implementation, and confirm what a specific program actually funds with its coaching staff.*

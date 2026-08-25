@@ -119,3 +119,7 @@ If walking on is the plan, these steps increase the likelihood of success:
 5. **Have a backup plan.** Walking on is not guaranteed. Enrolling at a school that is a strong academic and social fit regardless of whether volleyball works out is a wise approach.
 
 Walking on is a legitimate path. It requires preparation, realistic self-assessment, and persistence — but for the right athlete at the right program, it can be the beginning of a meaningful college volleyball career.
+
+---
+
+*Roster limits and walk-on rules changed with the House settlement and continue to change. This article reflects the landscape as of **May 2026**. Verify current roster limits and scholarship rules at NCAA.org and NAIA.org, and ask each program directly how it treats non-scholarship roster spots.*

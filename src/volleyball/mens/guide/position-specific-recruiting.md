@@ -178,3 +178,7 @@ Two programs with the same total roster size can have very different position ne
 For families thinking about position-specific recruiting, the most actionable intelligence often comes from analyzing the current roster of each program of interest. Where are the seniors? What position groups are underclassman-heavy? Where do the gaps fall?
 
 This is the kind of analysis that RosterWise systematizes — position depth, class-year gaps, and structural roster signals across every program in the database. The conversation with each program then starts from a place of data rather than guesswork.
+
+---
+
+*Roster limits and position-depth patterns both change year to year. This article reflects the landscape as of **June 2026**, including the 18-player Division I roster cap at opt-in schools. Verify current roster limits at NCAA.org, and treat position-depth figures as descriptions of typical rosters rather than rules.*

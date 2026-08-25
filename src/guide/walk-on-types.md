@@ -152,3 +152,7 @@ The families who have the best walk-on experiences are the ones who:
 - View the walk-on experience as an opportunity to prove themselves, not as a failure to earn a scholarship
 
 **Every athlete's path is different.** Some of the best stories in college athletics involve walk-ons who earned scholarships, became starters, and had careers no one predicted. Those stories are real — but they are not universal. Families should plan for the most likely outcome, not the best-case scenario.
+
+---
+
+*Roster limits and walk-on rules changed with the House settlement and continue to change each legislative cycle. This article reflects the **2025-26** academic year. Verify current roster limits and scholarship rules at NCAA.org and NAIA.org, and ask each program directly how it treats non-scholarship roster spots.*

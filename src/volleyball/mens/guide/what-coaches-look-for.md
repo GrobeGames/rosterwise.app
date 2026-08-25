@@ -162,3 +162,7 @@ For families trying to honestly assess where their athlete fits:
 **Don't confuse one dimension with overall fit.** A recruit who is the right physical profile for D1 but lacks IQ and intangibles to compete there may struggle if recruited; a recruit with strong intangibles and IQ but smaller physical profile may thrive at the right D2 or D3 program.
 
 Honest self-evaluation, combined with realistic targeting across all five dimensions, produces better recruiting outcomes than chasing a single division label.
+
+---
+
+*Division structures and championship formats change season to season. This article reflects the landscape as of **June 2026**. Verify the current championship structure and division sponsorship at NCAA.org, and confirm event and club structures with USA Volleyball and the AVCA.*

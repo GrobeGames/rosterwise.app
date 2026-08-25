@@ -154,3 +154,7 @@ The questionnaire is the entry point, not the destination. It opens the door; ev
 No two recruiting journeys look the same. Some athletes get on a program's radar through a questionnaire; others through a coach watching them at a tournament; others through a club coach making a phone call. Some families fill out 50 questionnaires; others fill out 10. Some athletes receive personalized coach communication within weeks of submission; others wait months and then suddenly have multiple programs reach out.
 
 The questionnaire is one tool among many, and how it fits into your athlete's specific recruiting path will depend on the sport, the division, the region, the position, and dozens of individual factors that no guide can fully anticipate. Use this as a general framework — not a rigid template — and adapt it to your family's situation as the process unfolds.
+
+---
+
+*Recruiting-contact rules are set by the NCAA and updated annually. This article reflects the **2026-27** NCAA Division I recruiting calendars and guides. Verify the current contact dates for your athlete's sport at NCAA.org, and check NAIA.org for NAIA rules.*

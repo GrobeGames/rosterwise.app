@@ -364,4 +364,4 @@ The ID camp and tournament path for any specific men's lacrosse recruit varies b
 
 ---
 
-*The men's lacrosse event landscape varies regionally, changes frequently, and is operated by many organizations beyond those named here. This guide focuses on the verifiable major operators and the NCAA bylaw infrastructure. For specific local guidance on which ID camps and tournaments to attend, families should consult local sources including high school coaches, current college players from their region, and families with older athletes who have been through the process.*
+*The men's lacrosse event landscape changes frequently, and camp legislation is set by the NCAA. This article reflects the **2026-27** NCAA recruiting calendars and the landscape as of June 2026. Verify current camp and contact rules at NCAA.org, and confirm event structures with USA Lacrosse and the IMLCA.*

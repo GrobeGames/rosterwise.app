@@ -153,3 +153,7 @@ What this means for families recruiting now:
 - **Cost of attendance still matters.** Even a meaningful athletic scholarship typically does not cover the full cost of attendance at private institutions. Families should look at the total cost picture, not just the percentage of athletic aid.
 
 We won't promise we can predict where this lands. What we can say is that informed families — families who ask the right questions and understand the framework — are in a better position than families operating on assumptions that may be out of date.
+
+---
+
+*Scholarship structures changed with the House settlement and continue to change each legislative cycle. This article reflects the landscape as of **June 2026**; the pre-settlement equivalency limits cited are from the 2024-25 NCAA Division I Manual. Verify current scholarship and roster limits at NCAA.org, NAIA.org, and NJCAA.org, and confirm what a specific program actually funds with its coaching staff.*

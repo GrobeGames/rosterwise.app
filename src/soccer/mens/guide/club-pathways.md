@@ -144,3 +144,7 @@ RosterWise exists to help with the roster composition piece — showing families
 ## Women's recruiting works differently
 
 Women's college soccer recruiting operates on a different timeline and with different club pathway dynamics. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/club-pathways/) (coming soon).
+
+---
+
+*Youth soccer league structures change frequently. This article reflects the landscape as of **April 2026**. Verify current league structures directly with MLS NEXT, ECNL, and U.S. Soccer, and confirm current NCAA recruiting rules at NCAA.org.*

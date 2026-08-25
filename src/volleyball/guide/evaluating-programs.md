@@ -134,3 +134,7 @@ No single factor determines whether a program is right for your athlete. The dec
 The families who navigate this process well tend to be thorough, patient, and honest about what they are looking for. They evaluate programs on multiple dimensions rather than anchoring on one. They ask hard questions and expect honest answers. And they recognize that the "best" program is the one that fits — not the one with the most impressive brand.
 
 **Experiences vary.** A program that is perfect for one family may be wrong for another. Trust the process of thorough evaluation, and the right fit tends to emerge.
+
+---
+
+*Roster limits and division rules changed with the House settlement and continue to change. This article reflects the landscape as of **May 2026**. Verify current roster limits and division rules at NCAA.org, NAIA.org, and NJCAA.org, and confirm a program's own roster plans with its coaching staff.*

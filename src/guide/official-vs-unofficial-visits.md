@@ -186,3 +186,7 @@ Some visits are meticulously organized with packed itineraries. Others are casua
 **Trust your instincts.** If something feels off during a visit — the team doesn't seem cohesive, the coaches seem disorganized, the campus doesn't feel right — take that seriously. If a visit exceeds expectations — the athletes genuinely like being there, the coaches are honest and engaging, the campus feels like home — take that seriously too.
 
 The goal of visits is to gather enough firsthand information to make a confident decision. There is no magic number of visits that's "enough" — but more is generally better than fewer, especially when you're comparing programs across divisions and regions.
+
+---
+
+*Visit rules and the dates on which visits open are set by the NCAA and change annually by sport. This article reflects the **2025-26** academic year. Verify the current visit dates for your athlete's sport and division at NCAA.org, and check NAIA.org for NAIA rules.*

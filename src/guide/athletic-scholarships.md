@@ -184,3 +184,7 @@ Beyond the NCAA and NAIA, the NJCAA (National Junior College Athletic Associatio
 Scholarship amounts vary. Family finances vary. Priorities vary. A family that can comfortably pay full price has different options than a family that needs a near-full scholarship to make college athletics work. Both families deserve honest information.
 
 The best financial decisions in college recruiting are made with complete information: total cost, total aid, and a realistic assessment of the value of the overall experience — not just the athletic scholarship number on a piece of paper.
+
+---
+
+*Scholarship structures changed with the House settlement and continue to change each legislative cycle. This article reflects the **2025-26** academic year. Verify current scholarship and roster limits at NCAA.org, NAIA.org, and NJCAA.org, and confirm what a specific program actually funds with its coaching staff.*

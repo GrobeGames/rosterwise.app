@@ -126,3 +126,7 @@ International recruiting is one of the dynamics that makes college soccer intere
 For recruiting families, the practical question isn't whether international recruiting is good or bad — it's what it means for your athlete's realistic opportunity at a specific program. Understanding international composition is part of the broader roster analysis that turns a vague sense of "maybe that program" into an informed assessment of fit.
 
 The data is there. Knowing how to read it — and understanding that patterns differ significantly between men's and women's soccer — gives families an advantage in a process where information is power.
+
+---
+
+*The international-composition figures here describe patterns in the rosters RosterWise analyzed — they are not NCAA rules and they shift season to season. This article reflects the landscape as of **April 2026**. See the [methodology](/methodology/data-and-analysis/) page for how the data is collected, and verify current eligibility and division rules at NCAA.org and NAIA.org.*

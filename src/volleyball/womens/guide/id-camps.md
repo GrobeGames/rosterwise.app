@@ -103,3 +103,7 @@ If your athlete is attending a camp, these steps maximize the value:
 ID camps are one tool in the women's volleyball recruiting process — not the only tool. Many athletes are recruited primarily through club volleyball exposure (JNQs, GJNC), film, and direct outreach. Others use camps as a supplement to those channels.
 
 The families who use camps most effectively are the ones who approach them strategically: attending camps at programs they have researched, at schools where their athlete's ability and academic profile are a realistic fit, and at programs with genuine positional needs. That research starts with understanding the roster — which is exactly what RosterWise provides.
+
+---
+
+*Camp rules and recruiting contact dates are set by the NCAA and updated annually. This article reflects the landscape as of **May 2026**, including the June 15 Division I contact date. Verify the current calendar and camp legislation at NCAA.org, and check NAIA.org for NAIA rules.*

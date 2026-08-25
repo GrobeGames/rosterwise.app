@@ -271,3 +271,7 @@ If your athlete is still developing, still improving, still working — they're 
 The work now is finding those coaches and those programs. That work is doable. It requires effort, flexibility, and a willingness to expand the search. But the opportunity is real.
 
 **It's not too late until they stop trying.**
+
+---
+
+*Eligibility clocks, roster limits, and division rules change each legislative cycle. This article reflects the **2025-26** academic year. Verify current rules at NCAA.org, NAIA.org, and NJCAA.org, and confirm your athlete's eligibility status with the NCAA Eligibility Center.*

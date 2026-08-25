@@ -144,3 +144,7 @@ If your family is considering the junior college route, a few practical steps:
 - **Keep an open mind on divisions.** The best transfer fit might be D1, or it might be a D2 or D3 program where the player starts immediately and gets a strong academic experience. The goal is the right school, not the highest division label.
 
 No single pathway through college soccer is right for every family. Junior college is one option among many — and for the right player, it can be the option that makes everything else possible.
+
+---
+
+*Junior-college eligibility, scholarship, and transfer rules differ by association and change by cycle. This article reflects the landscape as of **April 2026**. Verify current rules at NJCAA.org, confirm transfer requirements at NCAA.org and NAIA.org, and check certification with the NCAA Eligibility Center.*

@@ -106,3 +106,7 @@ Club experience is a significant advantage. But the framing that club volleyball
 Most volleyball recruiting myths share a common pattern: they take something that is true for some athletes in some situations and present it as a universal rule. The reality is that recruiting is deeply individual. Every athlete's timeline, pathway, and set of opportunities is different.
 
 The best antidote to recruiting mythology is data — actual information about what programs look like, where the roster gaps are, and which programs are realistically recruiting players with your athlete's profile. That is what RosterWise provides.
+
+---
+
+*Recruiting and signing rules change each legislative cycle. This article reflects the landscape as of **May 2026**. Verify current rules at NCAA.org and NAIA.org, confirm club and championship structures with USA Volleyball, and check academic certification with the NCAA Eligibility Center.*

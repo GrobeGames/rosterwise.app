@@ -250,4 +250,4 @@ The honest answer for most families is that financial aid is school-specific, at
 
 ---
 
-*Financial aid policies vary significantly by institution and change over time. Federal financial aid rules and NCAA bylaws also evolve. Families should verify current policies with each school's financial aid office and the U.S. Department of Education before making decisions.*
+*Federal financial-aid rules and NCAA bylaws change on separate cycles. The Pell Grant figures here reflect the **2026-27** award year per U.S. Department of Education Dear Colleague Letter GEN-26-01 (January 30, 2026); the athletics-aid rules reflect the **2025-26** NCAA bylaws. Verify current federal aid amounts with the U.S. Department of Education and each school's financial aid office, and current athletics-aid rules at NCAA.org, NAIA.org, and NJCAA.org.*

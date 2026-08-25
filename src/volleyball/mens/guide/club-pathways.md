@@ -149,3 +149,7 @@ Boys' club volleyball is a real pathway to college men's volleyball, but the mat
 That said, the funnel exists, and serious recruits with college aspirations can navigate it. The combination of solid club development, deliberate recruiting effort, and realistic targeting (across all division levels) produces meaningful outcomes for many families.
 
 For families just starting out: it's a long process. Two or three years of club volleyball before a recruiting decision is the typical pattern, and that's a meaningful commitment of time, money, and family logistics. Walking into that with eyes open — about both the opportunities and the realistic outcomes — sets you up to enjoy the process rather than be surprised by it.
+
+---
+
+*Club volleyball structures and championship formats change season to season. This article reflects the landscape as of **June 2026**. Verify current club and championship structures with USA Volleyball, and current college rules at NAIA.org and NJCAA.org.*

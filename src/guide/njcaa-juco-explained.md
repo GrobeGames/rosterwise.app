@@ -147,3 +147,7 @@ Because these details change year to year, our sport pages describe the landscap
 - Be skeptical of anyone quoting precise graduation rates, transfer percentages, or sport-by-sport recruiting volumes — **those numbers aren't backed by verified first-party sources**, and we'd rather tell you that than make one up.
 
 If you're weighing a JUCO year — for development, for academics, for recruiting timing, or as a route to a program that wasn't reachable straight out of high school — the right question is the same one that applies at every level: **does this specific program fit your athlete, and where can it realistically take them next?**
+
+---
+
+*Junior-college eligibility, scholarship, and transfer rules differ by association and change by cycle. This article reflects the **2025-26** academic year. Verify current rules at NJCAA.org and with the California Community College Athletic Association, confirm transfer requirements at NCAA.org and NAIA.org, and check certification with the NCAA Eligibility Center.*

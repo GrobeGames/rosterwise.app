@@ -183,3 +183,7 @@ Coaches are people doing a demanding job. They appreciate concise, honest commun
 Send the email. Include the video. Follow up. And remember that the families who approach this process with preparation and authenticity — rather than hype and pressure — are the ones who find the right fit.
 
 Every recruiting journey looks different, and every coach-family relationship develops on its own timeline. Start the conversation, be patient, and let the process work.
+
+---
+
+*Recruiting-communication rules are set by the NCAA and updated annually. This article reflects the **2025-26** NCAA recruiting rules and the 2026-27 Division II recruiting calendar. Verify current contact dates for your athlete's sport and division at NCAA.org and NAIA.org.*

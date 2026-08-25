@@ -151,3 +151,7 @@ In keeping with how we handle every fast-moving topic:
 4. **Re-check dates before you act.** Everything here is verified as of August 3, 2026 and is genuinely subject to change.
 
 The underlying recruiting question hasn't changed, though. Eligibility rules determine *how long* an athlete can compete; they don't tell you **where your athlete fits**. That still comes down to who's on the roster, what they play, when they graduate, and whether the school is a place your athlete would want to be even if the sport ended tomorrow.
+
+---
+
+*Age-based eligibility is under active litigation and legislation, and the picture is moving. This article reflects the **2026-27** academic year, including the July 31, 2026 preliminary injunction and the Division II Management Council's July 21, 2026 recommendation. Verify current eligibility rules at NCAA.org, NAIA.org, and NJCAA.org, and confirm your athlete's own status with the NCAA Eligibility Center.*

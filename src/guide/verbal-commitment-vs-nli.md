@@ -154,3 +154,7 @@ Some athletes commit early and have a smooth path to signing. Others go through 
 The social media culture around commitments — announcement graphics, public celebrations, commitment posts — can create pressure that doesn't serve families well. A commitment is not a competition. The goal is finding the right fit, not announcing the earliest commitment.
 
 **Take the time you need. Ask the questions that matter. And understand that until paperwork is signed, nothing is final — and even after signing, life sometimes has other plans.**
+
+---
+
+*Signing rules changed when the National Letter of Intent was replaced by the Written Offer of Athletics Aid, and they continue to evolve. This article reflects the **2025-26** academic year. Verify current signing rules and dates at NCAA.org and NAIA.org, and read any offer document with the school's compliance office before signing.*

@@ -282,4 +282,4 @@ The men's club lacrosse pathway varies dramatically from athlete to athlete. Som
 
 ---
 
-*The men's club lacrosse landscape varies regionally, changes frequently, and operates through both formal structures and informal networks. This guide focuses on the verifiable national-level governing bodies and recruiting infrastructures. For specific local guidance — including which clubs, tournaments, and recruiting strategies make sense for your specific situation — families should consult local sources including high school coaches, current college players from their region, and families with older athletes who have been through the process.*
+*The men's club lacrosse landscape varies regionally and changes frequently. This article reflects the landscape as of **June 2026**, with recruiting-rule references drawn from the 2026-27 NCAA calendars. Verify current club and league structures with USA Lacrosse and Lacrosse Canada, and current recruiting rules at NCAA.org. For local guidance, families should also consult high school coaches and families with older athletes who have been through the process.*

@@ -2,14 +2,14 @@
 layout: content.njk
 title: "NIL and Revenue Sharing: What It Means for Soccer, Volleyball, and Non-Revenue Sport Families | RosterWise™"
 description: "An honest explanation of NIL and revenue sharing for college soccer, volleyball, and non-revenue sport families — what's real, what's hyped, and what should actually shape recruiting decisions."
-date: 2026-05-24
+date: 2026-08-25
 breadcrumbs:
   - text: Home
     url: /
   - text: Guide
     url: /guide/
   - text: NIL and Revenue Sharing
-summary: "Name, Image, and Likeness (NIL) compensation and the new revenue-sharing model are reshaping college athletics — but probably not in the ways your family thinks. Headlines about million-dollar NIL deals and $20.5 million revenue-sharing pools describe a reality that exists almost entirely in football and basketball. For soccer, volleyball, and most other sports, NIL is real but small; revenue sharing is real but minimal. This guide explains the actual landscape for families researching non-revenue sports — what's verified, what's hyped, and what should genuinely factor into your recruiting decisions."
+summary: "Name, Image, and Likeness (NIL) compensation and the new revenue-sharing model are reshaping college athletics — but probably not in the ways your family thinks. Headlines about million-dollar NIL deals and eight-figure revenue-sharing pools describe a reality that exists almost entirely in football and basketball. For soccer, volleyball, and most other sports, NIL is real but small; revenue sharing is real but minimal. This guide explains the actual landscape for families researching non-revenue sports — what's verified, what's hyped, and what should genuinely factor into your recruiting decisions."
 related:
   - title: "Understanding the House v. NCAA Settlement"
     url: /guide/house-settlement/
@@ -27,6 +27,7 @@ related:
     url: /guide/division-differences/
 sources:
   - '<a href="https://www.ncaa.org">NCAA.org</a> — House v. NCAA settlement summary and current recruiting rules'
+  - '<a href="https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/Feb2026D1Gov_PhaseSevenSetQuestionandAnswer.pdf">NCAA.org</a> — Question and Answer: Implementation of the House Settlement, Section D (Institutional Benefits and the Benefits Cap), updated February 11, 2026'
   - 'U.S. District Court, Northern District of California — Judge Claudia Wilken''s June 6, 2025 ruling on House v. NCAA'
   - '<a href="https://www.washingtonpost.com">The Washington Post</a> — "The hidden NIL economy of college sports," October 21, 2024 (investigative analysis of $125 million in NIL payments)'
   - '<a href="https://usavolleyball.org">USA Volleyball</a> (usavolleyball.org) — Getting Started in Name, Image, and Likeness guidance'
@@ -65,7 +66,9 @@ These are real, consequential changes. But what they mean for your family depend
 
 ## Revenue sharing — what it actually is and who gets it
 
-Under the House settlement, participating schools may share up to $20.5 million annually with student-athletes during the 2025-26 academic year. This cap represents approximately 22% of average athletic revenue across Power Four conferences and increases roughly 4% per year over the settlement's ten-year term.
+Under the House settlement, participating schools could share up to $20.5 million with student-athletes during the **2025-26** academic year — the settlement's first year, and the most recent figure the NCAA has published. The cap is set at 22% of the averaged athletic revenue of the five defendant conferences plus Notre Dame. It is recalculated from that formula every three years, and rises four percent in the second and third year of each three-year period.
+
+**The NCAA has not published a 2026-27 dollar figure.** Treat $20.5 million as the 2025-26 number it is, not as the current one, and ask each program what its pool actually is.
 
 Participation is voluntary — schools "opt in." Most Power Four schools have opted in. Most D2, D3, and NAIA schools either cannot afford to participate at meaningful levels or are not structured to do so.
 
@@ -80,7 +83,7 @@ Most schools that have publicly disclosed their distribution plans follow a mode
 
 Schools including LSU (75% football, 15% men's basketball) and North Carolina (four-sport allocation with football and men's basketball receiving the majority) have publicly confirmed variations of this pattern. Oklahoma has signaled it will include women's volleyball among its funded sports at higher levels — but this is the exception, not the standard approach.
 
-**What this means in practice:** At a school with the full $20.5 million revenue-share pool, the entire allocation for all non-revenue sports combined might be approximately $1 million — split across men's and women's soccer, volleyball, baseball, softball, track and field, swimming, golf, tennis, and every other team. The mathematical reality is that direct revenue-share payments to individual soccer or volleyball athletes will be modest at best — and at many programs, zero.
+**What this means in practice:** At a school sharing the full 2025-26 pool of $20.5 million, the entire allocation for all non-revenue sports combined might be approximately $1 million — split across men's and women's soccer, volleyball, baseball, softball, track and field, swimming, golf, tennis, and every other team. The mathematical reality is that direct revenue-share payments to individual soccer or volleyball athletes will be modest at best — and at many programs, zero.
 
 This isn't cynicism. It's arithmetic.
 
@@ -150,7 +153,7 @@ This is the practical guidance section — the part that actually helps your fam
 **Should NOT factor heavily into soccer or volleyball recruiting decisions:**
 
 - **The promise of large NIL earnings.** Mathematically unlikely for the vast majority of athletes in these sports.
-- **Comparing programs based on revenue-sharing budgets.** The differences for non-revenue sports are mostly negligible. A program with a $20.5M revenue-share pool and one with $8M may allocate functionally similar amounts to soccer or volleyball — which is to say, very little.
+- **Comparing programs based on revenue-sharing budgets.** The differences for non-revenue sports are mostly negligible. A program sharing at the cap and one sharing a fraction of it may allocate functionally similar amounts to soccer or volleyball — which is to say, very little.
 - **Promises made by collectives during recruiting.** These carry compliance risk and are not enforceable. Collective landscapes change, leadership turns over, and what's promised today may not exist tomorrow.
 - **The "NIL star" narratives in media coverage.** Statistical outliers, not representative of typical experience.
 
@@ -184,4 +187,4 @@ The honest answer for most families is that NIL and revenue sharing are real par
 
 ---
 
-*NIL and revenue-sharing rules continue to evolve rapidly. This article reflects the state of affairs as of May 2026. Families should verify current rules against the NCAA and College Sports Commission directly before making decisions.*
+*NIL and revenue-sharing rules continue to evolve rapidly. The revenue-sharing figures here reflect the **2025-26** academic year — the settlement's first year and the most recent the NCAA has published a cap for — re-verified against the NCAA's House implementation Q&A on 2026-08-25. The NIL market data and immigration analysis reflect the landscape as of May 2026. Verify current rules with the NCAA and the College Sports Commission, and confirm program-level revenue sharing with each school.*

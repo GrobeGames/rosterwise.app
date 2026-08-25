@@ -307,4 +307,4 @@ Position evaluation is a starting framework, not a rigid prescription. Some athl
 
 ---
 
-*Women's lacrosse rules and position structures vary across competitive levels (NCAA, high school NFHS, USA Lacrosse youth, international). This article focuses on NCAA women's lacrosse. Families should verify specific program preferences directly with the coaches at programs they're considering.*
+*Playing rules and position structures are set separately at each level and change by rules cycle. This article reflects NCAA women's lacrosse as of **June 2026**. Verify the current rules at NCAA.org, and check USA Lacrosse, the NFHS, and World Lacrosse for youth, high school, and international rules. Confirm specific position preferences directly with the coaches at programs you're considering.*

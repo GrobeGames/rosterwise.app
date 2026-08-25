@@ -384,4 +384,4 @@ Position evaluation is a starting framework, not a rigid prescription. Some athl
 
 ---
 
-*Men's lacrosse rules and position structures are governed by the NCAA at the college level, with high school and youth play governed by separate rule structures. This article focuses on NCAA men's lacrosse. Families should verify specific program preferences and position evaluation criteria directly with the coaches at programs they're considering.*
+*Playing rules and position structures are set separately at each level and change by rules cycle. This article reflects NCAA men's lacrosse as of **June 2026**. Verify the current rules at NCAA.org, and check USA Lacrosse and the NFHS for youth and high school rules. Confirm specific position preferences directly with the coaches at programs you're considering.*

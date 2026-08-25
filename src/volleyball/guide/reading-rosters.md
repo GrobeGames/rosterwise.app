@@ -114,3 +114,7 @@ Reading one roster takes a few minutes. Reading 50 rosters and comparing positio
 RosterWise does this analysis across every D1, D2, D3, NAIA, and NJCAA men's and women's volleyball program, automatically. Position depth, class-year gaps, roster composition, coaching tenure, and more — organized so families can identify which programs have a genuine need for a player with their athlete's profile.
 
 **The roster is a recruiting document. RosterWise helps you read all of them.**
+
+---
+
+*Roster limits changed with the House settlement and continue to change. This article reflects the landscape as of **May 2026**, including the 18-player Division I roster limit at opt-in schools. Verify current roster limits at NCAA.org, NAIA.org, and NJCAA.org.*

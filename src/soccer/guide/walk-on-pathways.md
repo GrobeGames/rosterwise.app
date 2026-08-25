@@ -150,3 +150,7 @@ The walk-on path is likely wrong when:
 **Every family's calculus is different.** There's no universally right or wrong answer on walking on. But the best decisions come from honest assessment of the athlete's ability, the program's needs, the financial picture, and the full range of alternatives available.
 
 The walk-on path has produced All-Americans, team captains, and lifelong connections to a sport and a community. It has also produced frustrating experiences for families who went in without realistic expectations. The difference is almost always preparation, honest self-assessment, and choosing the right program — not just the right division.
+
+---
+
+*Roster limits and walk-on rules changed with the House settlement and continue to change. This article reflects the landscape as of **April 2026**. Verify current roster limits and scholarship rules at NCAA.org and NAIA.org, and ask each program directly how it treats non-scholarship roster spots.*

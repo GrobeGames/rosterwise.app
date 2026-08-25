@@ -144,3 +144,7 @@ Coaching staffs have always had this information because it's their job. Expensi
 RosterWise exists to democratize access to roster intelligence. We believe every family — regardless of their club connections, their proximity to college programs, or their budget — should be able to make recruiting decisions based on data. That's why the app covers every D1, D2, D3, NAIA, and NJCAA lacrosse program (men's and women's), and why it costs $39.99 with no subscriptions.
 
 Roster composition analysis isn't magic. It's information. But in a process defined by uncertainty, incomplete information, and high stakes — especially after the House Settlement reshaped D1 lacrosse — having better information matters.
+
+---
+
+*Roster limits changed with the House settlement and continue to change. This article reflects the landscape as of **June 2026**, including the Division I roster caps at opt-in schools (48 men's, 38 women's). Verify current roster limits at NCAA.org, and confirm a program's own roster plans with its coaching staff.*

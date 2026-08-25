@@ -132,3 +132,7 @@ We present tenure as a simple data point alongside roster composition, class-yea
 Head coach tenure is one data point among many. It doesn't tell you everything about a program, and it shouldn't be the sole basis for any recruiting decision. But it provides essential context for understanding where a program has been, where it's headed, and how confident a family can be that the program they evaluate today will be the same program their athlete experiences for four years.
 
 Stability isn't everything. Change isn't everything. But knowing which one you're walking into — that's information every family deserves.
+
+---
+
+*Signing rules and roster limits changed with the elimination of the National Letter of Intent in October 2024 and the House settlement, and continue to change. This article reflects the landscape as of **June 2026**. Verify current signing rules and roster limits at NCAA.org, and confirm coaching-staff stability directly with each program.*

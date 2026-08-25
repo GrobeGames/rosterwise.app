@@ -196,3 +196,7 @@ When you update, re-send to programs you're actively recruiting with. A brief em
 ## Men's recruiting works differently
 
 Men's college soccer recruiting video expectations and distribution strategy differ from women's. If you're navigating men's recruiting, [here's the men's version](/soccer/mens/guide/recruiting-video/).
+
+---
+
+*Recruiting contact dates are set by the NCAA and updated annually. This article reflects the landscape as of **April 2026**, including the June 15 Division I contact date for women's soccer. Verify the current calendar at NCAA.org for the relevant academic year.*

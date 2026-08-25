@@ -106,3 +106,7 @@ RosterWise performs roster composition analysis across every D1, D2, D3, NAIA, a
 This is the kind of analysis that coaching staffs perform on their own rosters and on their competitors' rosters. RosterWise makes it available to families — for every program, in one place.
 
 **RosterWise gives you this analysis for every program.**
+
+---
+
+*Roster limits changed with the House settlement and continue to change. This article reflects the landscape as of **May 2026**, including the 18-player Division I roster cap at opt-in schools. Verify current roster limits at NCAA.org, NAIA.org, and NJCAA.org.*

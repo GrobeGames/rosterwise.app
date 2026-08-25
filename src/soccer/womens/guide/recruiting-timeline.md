@@ -219,3 +219,7 @@ Families who feel "behind" relative to peers often catch up quickly when fit and
 ## Men's recruiting works differently
 
 Men's college soccer recruiting operates on a generally later timeline with different club pathway dynamics. If you're navigating men's recruiting, [here's the men's version](/soccer/mens/guide/recruiting-timeline/).
+
+---
+
+*NCAA recruiting calendars are updated annually. This article reflects the **2026-27** NCAA Division I Other Sports Recruiting Calendar. Verify the current calendar at `ncaaorg.s3.amazonaws.com` for the relevant academic year, check NAIA.org and NJCAA.org for those associations' rules, and confirm academic timing with the NCAA Eligibility Center.*

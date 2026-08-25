@@ -171,3 +171,7 @@ A practical approach:
 5. **Revisit your list regularly.** Programs change. Coaches leave. Your athlete develops. The list that made sense in sophomore year may need updating by senior year.
 
 The families who navigate this process best are the ones who evaluate programs honestly — including the programs that are recruiting their athlete hardest. Flattery feels good. Fit is what matters.
+
+---
+
+*Roster limits and division rules changed with the House settlement and continue to change. This article reflects the landscape as of **April 2026**. Verify current roster limits and division rules at NCAA.org and NAIA.org, and confirm a program's own roster plans with its coaching staff.*

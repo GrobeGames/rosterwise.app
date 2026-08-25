@@ -241,4 +241,4 @@ The right pathway for your athlete depends on her academic profile, athletic dev
 
 ---
 
-*JUCO eligibility rules, scholarship policies, and competitive landscape continue to evolve. Families should verify current rules with the relevant governing body and the specific institution before making decisions.*
+*Junior-college eligibility, scholarship, and transfer rules differ by association and change by cycle. This article reflects the **2025-26** academic year. Verify current rules at NJCAA.org and with the California Community College Athletic Association, confirm transfer requirements at NCAA.org and NAIA.org, and check certification with the NCAA Eligibility Center.*

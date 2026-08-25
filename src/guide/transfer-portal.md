@@ -2,7 +2,7 @@
 layout: content.njk
 title: "The Transfer Portal Explained: What Families Need to Know | RosterWise™"
 description: "How the NCAA transfer portal works, when athletes can enter, what it means for incoming recruits, and how families should think about transfer risk when evaluating programs."
-date: 2026-04-26
+date: 2026-08-25
 breadcrumbs:
   - text: Home
     url: /
@@ -22,9 +22,10 @@ related:
   - title: "Red Flags to Watch for During Recruiting"
     url: /guide/recruiting-red-flags/
 sources:
-  - "NCAA.org, Transfer Portal guidelines and policies"
-  - "NCAA.org, Division I, II, and III Transfer Rules (2025-26)"
-  - "NCAA.org, Question and Answer: Implementation of the House Settlement (June 13, 2025)"
+  - '<a href="https://ncaaorg.s3.amazonaws.com/compliance/d1/D1Comp_UndergraduateTransferWindows.pdf">NCAA.org</a> — Figure 13-1, Division I Notification of Transfer Windows (2025-26 windows; table stamped April 20, 2026)'
+  - '<a href="https://www.ncaa.org/media-center-division-i-cabinet-adopts-new-transfer-windows-in-several-sports/">NCAA.org</a> — "Division I Cabinet adopts new transfer windows in several sports," January 14, 2026'
+  - '<a href="https://www.ncaa.org/eligibility-center/transfer-rules-and-eligibility/">NCAA.org</a> — Eligibility Center, Transfer Rules and Eligibility'
+  - '<a href="https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/Feb2026D1Gov_PhaseSevenSetQuestionandAnswer.pdf">NCAA.org</a> — Question and Answer: Implementation of the House Settlement, updated February 11, 2026'
 cta:
   heading: "See the full roster picture — including who's coming and going."
   text: "Transfer portal activity reshapes rosters every year. RosterWise analyzes current roster composition so families can understand the landscape at every program — not just who's on the roster today, but where the gaps and opportunities are."
@@ -52,15 +53,20 @@ Before the portal existed (it launched in 2018), transferring was more complicat
 
 ## Transfer windows
 
-The NCAA has established specific windows during which athletes can enter the portal. These windows vary by sport and have been updated several times in recent years.
+Athletes cannot enter the portal whenever they like. The NCAA sets a **notification-of-transfer window** for each Division I sport, and each window is tied to that sport's own championship calendar — there is no single date that applies across college athletics.
 
-**As of the 2025-26 academic year**, the general framework includes:
+**The windows below are the ones the NCAA published for the 2025-26 academic year.** As of August 2026 the NCAA had not yet published a 2026-27 table; the 2026-27 fall windows do not open until November. Check the current NCAA Division I notification-of-transfer windows table for your athlete's sport before relying on any date here.
 
-- A primary transfer window (typically in the spring for most sports)
-- A secondary transfer window (timing varies by sport)
-- Limited exceptions for athletes whose coaches leave or are fired, or in other specific circumstances
+Under the 2025-26 table, the structure works like this:
 
-**Families should check NCAA.org for the current transfer windows for their athlete's sport.** These dates change frequently, and getting them wrong can have real consequences.
+- **Each sport has one window tied to the end of its season**, generally 15 to 30 days long. Men's soccer opened November 24, 2025; women's soccer November 17, 2025; women's volleyball December 7, 2025; men's volleyball May 3, 2026; lacrosse May 10, 2026.
+- **Fall sports other than football get a second window in the spring** — May 1 to May 15, 2026.
+- **Spring sports get a second window in the fall** — December 1 to December 15, 2025.
+- **Football has a single window.** FBS and FCS both ran January 2 to January 16, 2026. There is no longer a separate spring football window.
+
+These dates move, and they moved recently. On January 14, 2026, the Division I Cabinet adopted new windows in several sports: men's and women's basketball moved to a 15-day window opening the day after the respective NCAA tournament final, with an additional 15-day period opening five days after a head coaching change; men's wrestling moved to 30 days beginning April 1 each year, down from 45; men's ice hockey moved to a 15-day window after the Division I championship final, also with an extra period after a head coaching change; and track and field lost its post-indoor-season window, keeping the 30-day window that opens the day after outdoor championship selections.
+
+**Getting a window wrong has real consequences.** Confirm the current dates with the compliance office at your athlete's school rather than with a calendar you read somewhere.
 
 ## Eligibility after transferring
 
@@ -155,3 +161,7 @@ The intersection of the transfer portal and the House settlement is still evolvi
 Some athletes spend four years at one program and never think about transferring. Others transfer once and find the perfect fit. Others transfer twice. All of these are legitimate paths through college athletics, and none of them are cause for judgment.
 
 The transfer portal has made college athletics more fluid, more dynamic, and more unpredictable. Families who understand how it works and factor it into their evaluation of programs — without obsessing over it — are in the best position to navigate whatever comes.
+
+---
+
+*Transfer windows and eligibility rules are set by the NCAA and change frequently. The windows here reflect the **2025-26** NCAA Division I notification-of-transfer windows, verified 2026-08-25; the NCAA had not published a 2026-27 table as of that date. Verify the current windows for your athlete's sport at NCAA.org, check NAIA.org and NJCAA.org for those associations' rules, and confirm eligibility with the compliance offices at both schools.*

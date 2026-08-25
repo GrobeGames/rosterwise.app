@@ -25,7 +25,7 @@ related:
     url: /guide/recruiting-timeline/
 sources:
   - "U.S. District Court, Northern District of California, House v. NCAA, Case No. 4:20-cv-03919 (final approval June 6, 2025)"
-  - "NCAA.org, Question and Answer: Implementation of the House Settlement (June 13, 2025)"
+  - '<a href="https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/Feb2026D1Gov_PhaseSevenSetQuestionandAnswer.pdf">NCAA.org</a> — Question and Answer: Implementation of the House Settlement, Section D (Institutional Benefits and the Benefits Cap), updated February 11, 2026'
   - "NCAA.org, \"DI Board of Directors formally adopts changes to roster limits,\" June 23, 2025"
   - "NCAA.org, Division I Manual (2025-26)"
   - "NCAA.org, DI Board roster limit adoption (June 2025)"
@@ -58,9 +58,10 @@ For the first time, NCAA Division I schools can pay athletes directly from insti
 
 The key numbers:
 
-- **$20.5 million per school** in the 2025-26 academic year is the cap on direct revenue sharing
-- That cap **increases 4% annually**
-- The cap represents approximately **22% of the average Power Five school's athletic revenue**
+- **$20.5 million per school** was the cap for the **2025-26** academic year — the settlement's first year, and the most recent figure the NCAA has published.
+- The cap is **recalculated every three years** from the settlement's formula. In the second and third year of each three-year period it **increases four percent** from the previous year. It is not a flat four percent every year, and a recalculation year can move it by more or less.
+- The cap is set at **22%** of the averaged athletic revenue of the five defendant conferences plus Notre Dame, totaled across eight NCAA financial-reporting categories.
+- **The NCAA has not published a 2026-27 dollar figure.** If revenue sharing matters to your family's decision, ask each program directly what its current pool is and what share of it goes to your athlete's sport.
 - Schools decide how to distribute this money across their athletic programs — there is no sport-by-sport mandate
 
 Revenue sharing is separate from NIL. NIL deals are agreements between athletes and third parties (businesses, collectives, boosters). Revenue sharing is money flowing directly from the school to the athlete.
@@ -249,3 +250,7 @@ The House settlement is a year old. Its implementation is ongoing, and many thin
 **7. Stay current.** This landscape is evolving. Check NCAA.org for the latest rules. Ask programs for current information, not what was true last year. What you read six months ago may already be outdated.
 
 **8. Focus on fit.** The settlement changed the financial and structural framework of college athletics. It did not change the fundamental principle of good recruiting: find the right program for your athlete — athletically, academically, socially, and financially. The families who approach recruiting with that mindset will navigate these changes well, regardless of what the rules look like next year.
+
+---
+
+*House settlement implementation is still moving, and the money figures are dated. The revenue-sharing figures here reflect the **2025-26** academic year — the settlement's first year and the most recent for which the NCAA has published a cap — verified against the NCAA's House implementation Q&A (updated February 11, 2026) on 2026-08-25. Verify current roster limits and benefits-cap rules at NCAA.org and with the College Sports Commission, and ask each program what it actually funds.*

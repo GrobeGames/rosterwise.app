@@ -174,7 +174,7 @@ Per analysis by McCarter & English (already cited in our [NIL and Revenue Sharin
 - NIL activities (paid social media, endorsements, paid appearances, autograph sessions) are generally classified as employment under U.S. immigration law
 - F-1 visa holders generally cannot engage in such activities without risking visa status
 
-**The post-House settlement complication**: Per the verified legal analysis sources, the House v. NCAA settlement (effective July 1, 2025) authorizes direct revenue-sharing payments from schools to student-athletes up to $20.5 million per school annually. For F-1 visa holders, immigration lawyers disagree on whether these direct payments constitute permissible income or unauthorized employment. As of late 2025, no official federal guidance from the Department of Homeland Security or USCIS has resolved this question.
+**The post-House settlement complication**: Per the verified legal analysis sources, the House v. NCAA settlement (effective July 1, 2025) authorizes direct revenue-sharing payments from schools to student-athletes up to $20.5 million per school for the 2025-26 academic year (the NCAA has not published a 2026-27 figure). For F-1 visa holders, immigration lawyers disagree on whether these direct payments constitute permissible income or unauthorized employment. As of late 2025, no official federal guidance from the Department of Homeland Security or USCIS has resolved this question.
 
 **For Canadian families specifically**: Canadian student-athletes attend NCAA programs on F-1 visas just like other international students. The proximity of Canada to the United States and the cultural similarities can sometimes obscure that Canadian recruits face the same F-1 visa restrictions as recruits from any other country.
 
@@ -242,4 +242,4 @@ The international landscape in men's college lacrosse varies enormously by count
 
 ---
 
-*International student-athlete immigration law continues to evolve. Families should consult qualified immigration attorneys for specific visa and NIL guidance, verify current NCAA recruiting calendars at NCAA.org, and confirm amateurism status through the NCAA Eligibility Center for any compensation-related questions.*
+*International eligibility, amateurism, and visa rules change independently of one another. This article reflects the **2026-27** NCAA Division I Men's Lacrosse Recruiting Calendar, with House settlement figures reflecting the **2025-26** academic year. Verify current recruiting rules at NCAA.org, confirm amateurism certification with the NCAA Eligibility Center, check international structures with World Lacrosse and Lacrosse Canada, and consult a qualified immigration attorney for visa questions.*

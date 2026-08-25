@@ -108,3 +108,7 @@ International recruiting is not a negative development. It raises the competitiv
 For domestic families, the practical question is not whether international recruiting is good or bad — it is how it affects roster composition at the programs your athlete is targeting. Understanding international composition alongside position depth, class-year gaps, and total roster size gives families the complete picture they need to make informed decisions.
 
 **Experiences vary.** A program with significant international representation may be the perfect fit for one domestic recruit and the wrong environment for another. The data helps you ask the right questions — the answers determine the fit.
+
+---
+
+*Eligibility, amateurism, and visa rules for international recruits change independently of one another. This article reflects the landscape as of **May 2026**. Verify current eligibility rules at NCAA.org and NAIA.org, confirm amateurism certification with the NCAA Eligibility Center, and consult a qualified immigration attorney for visa questions.*

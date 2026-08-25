@@ -173,3 +173,7 @@ Every family's situation is different, and scholarship outcomes vary enormously 
 - **NAIA players** may receive competitive athletic aid, especially at schools that prioritize women's volleyball.
 
 **The best financial outcome usually comes from finding the right fit** — a program that genuinely wants the player, at a school that meets the family's academic and financial needs. Chasing the highest scholarship offer without considering fit often leads to transfers, which reset the financial and athletic clock.
+
+---
+
+*Scholarship structures changed with the House settlement and continue to change each legislative cycle. This article reflects the landscape as of **May 2026**. Verify current scholarship and roster limits at NCAA.org and NAIA.org, and confirm what a specific program actually funds with its coaching staff.*

@@ -128,7 +128,7 @@ Per analysis by the law firms McCarter & English and Christine Brown & Partners,
 - NIL activities (paid social media posts, endorsements, appearances, autograph signings) are generally classified as employment under U.S. immigration law
 - This creates a structural barrier: NCAA rules permit NIL income; F-1 visa rules generally do not allow F-1 visa holders to engage in NIL activities
 
-**The post-House settlement complication**: Per the same legal analysis sources, the House v. NCAA settlement (effective July 1, 2025) authorizes direct revenue-sharing payments from schools to student-athletes up to $20.5 million per school annually. For F-1 visa holders, immigration lawyers disagree on whether these direct payments constitute permissible income or unauthorized employment. As of late 2025, no official federal guidance from the Department of Homeland Security or U.S. Citizenship and Immigration Services has resolved this question.
+**The post-House settlement complication**: Per the same legal analysis sources, the House v. NCAA settlement (effective July 1, 2025) authorizes direct revenue-sharing payments from schools to student-athletes up to $20.5 million per school for the 2025-26 academic year (the NCAA has not published a 2026-27 figure). For F-1 visa holders, immigration lawyers disagree on whether these direct payments constitute permissible income or unauthorized employment. As of late 2025, no official federal guidance from the Department of Homeland Security or U.S. Citizenship and Immigration Services has resolved this question.
 
 **The practical reality for international women's lacrosse recruits**:
 
@@ -202,4 +202,4 @@ The international landscape in women's college lacrosse varies enormously by cou
 
 ---
 
-*International student-athlete immigration law continues to evolve. Families should consult qualified immigration attorneys for specific visa and NIL guidance, and should verify current NCAA recruiting calendars directly with NCAA.org.*
+*International eligibility, amateurism, and visa rules change independently of one another. This article reflects the **2026-27** NCAA Division I Women's Lacrosse Recruiting Calendar, with House settlement figures reflecting the **2025-26** academic year. Verify current recruiting rules at NCAA.org, check international structures with World Lacrosse, Lacrosse Canada, and England Lacrosse, and consult a qualified immigration attorney for visa questions.*

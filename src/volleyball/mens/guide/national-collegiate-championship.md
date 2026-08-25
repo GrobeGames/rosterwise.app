@@ -136,3 +136,7 @@ NAIA and NJCAA men's volleyball are entirely separate from NCAA structure. They 
 **NJCAA men's volleyball:** Starting in 2026, NJCAA men's volleyball becomes an official national championship sport. Previously it had been operated as an invitational. The first NJCAA Men's Volleyball National Championship features an 8-team double-elimination bracket. College of DuPage hosts in 2026 and 2028; Finger Lakes Community College hosts in 2027 and 2029. The NJCAA men's volleyball ecosystem is small (approximately 18 programs) and heavily concentrated in the Northeast.
 
 Both NAIA and NJCAA programs recruit competitively and offer meaningful pathways to college men's volleyball. Some recruits pursue NAIA or NJCAA programs as their primary destination; others use NJCAA as a development pathway with the intent of transferring to a four-year NCAA program after one or two years.
+
+---
+
+*Championship structures change, and men's volleyball's is actively debated. This article reflects the landscape as of **June 2026**. Verify the current championship format, field size, and division sponsorship at NCAA.org and NCAA.com, and check NAIA.org and NJCAA.org for those associations' championships.*

@@ -168,3 +168,7 @@ Every family's situation is different, and scholarship outcomes vary enormously 
 ## Women's recruiting works differently
 
 Women's college soccer has different scholarship rules, roster limits, and financial dynamics. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/scholarships/) (coming soon).
+
+---
+
+*Scholarship structures changed with the House settlement and continue to change each legislative cycle. This article reflects the landscape as of **April 2026**. Verify current scholarship and roster limits at NCAA.org and NAIA.org, and confirm what a specific program actually funds with its coaching staff.*

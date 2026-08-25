@@ -161,3 +161,7 @@ RosterWise™ helps families answer question #2 with data — by showing exactly
 We return to this point because it cannot be overstated: the "right" division is the one where your athlete thrives academically, athletically, socially, and financially. That answer is personal, and it should be driven by research and honest self-assessment — not by prestige, not by what a club coach says, and not by what other families are doing.
 
 Cast a wide net. Visit schools across divisions. Ask hard questions. And be open to the possibility that the best fit might not be where you expected.
+
+---
+
+*Division rules, membership, and recruiting calendars change every year. This article reflects the **2025-26** academic year, with recruiting-calendar references drawn from the 2026-27 calendars. Verify current division rules and membership counts at NCAA.org, NAIA.org, and NJCAA.org, and confirm academic requirements with the NCAA Eligibility Center.*

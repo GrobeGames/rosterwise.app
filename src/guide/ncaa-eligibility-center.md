@@ -175,3 +175,7 @@ Meeting academic eligibility requirements gets your athlete into the pool of eli
 Families who stay on top of academic requirements from freshman year forward give themselves the most options. Families who fall behind on core courses or GPA face a narrower set of choices. The earlier you understand the requirements, the more flexibility you preserve.
 
 **When in doubt, verify directly with the NCAA Eligibility Center at [eligibilitycenter.org](https://eligibilitycenter.org) or ask your high school counselor.**
+
+---
+
+*Academic eligibility standards and certification processes change by legislative cycle. This article reflects the **2025-26** academic year. Verify current core-course, GPA, and certification requirements with the NCAA Eligibility Center at eligibilitycenter.org and at NCAA.org.*

@@ -220,3 +220,7 @@ Understanding the rules helps families know what to expect and when to expect it
 Every recruiting experience is shaped by factors the rules don't cover: personal chemistry with a coaching staff, campus culture, academic programs, geographic preference, and honest self-assessment of athletic ability. The rules are the playing field. The decisions are yours.
 
 Families who understand the rules and combine that knowledge with genuine research into specific programs — roster composition, position depth, playing-time opportunity — are the ones who navigate the process most successfully.
+
+---
+
+*NCAA recruiting rules and calendars are updated annually. This article reflects the **2026-27** academic year — the 2026-27 Division I, II, and III Manuals and the 2026-27 Division I and Division II recruiting calendars. Verify the current calendar for your athlete's sport and division at `ncaaorg.s3.amazonaws.com`, and check NAIA.org and NJCAA.org for those associations' own rules.*

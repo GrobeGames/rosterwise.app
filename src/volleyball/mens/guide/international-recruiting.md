@@ -140,3 +140,7 @@ International composition on a men's college volleyball roster is one of several
 - **Conference-level patterns.** Some conferences (notably the MPSF and Big West) tend to have higher international representation across most programs; some conferences (often in the East) tend to have lower international representation. These tendencies reflect both program-level choices and regional recruiting networks.
 
 International composition is one input among many in evaluating program fit. It's not a decisive factor for most recruits — but understanding what it tells you about a program's identity helps clarify the conversation.
+
+---
+
+*Eligibility, amateurism, and visa rules for international recruits change independently of one another. This article reflects the landscape as of **June 2026**. Verify current eligibility rules at NCAA.org, NAIA.org, and NJCAA.org, confirm amateurism certification with the NCAA Eligibility Center, and consult a qualified immigration attorney for visa questions.*

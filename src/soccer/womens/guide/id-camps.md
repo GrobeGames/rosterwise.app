@@ -143,3 +143,7 @@ Families should budget for ID camps as part of the overall recruiting investment
 ## Men's recruiting works differently
 
 Men's college soccer ID camps operate on a different timeline with different dynamics. If you're navigating men's recruiting, [here's the men's version](/soccer/mens/guide/id-camps/).
+
+---
+
+*Recruiting contact dates and camp rules are set by the NCAA and updated annually. This article reflects the landscape as of **April 2026**, including the June 15 Division I contact date for women's soccer. Verify the current calendar and camp rules at NCAA.org, and check NAIA.org for NAIA rules.*

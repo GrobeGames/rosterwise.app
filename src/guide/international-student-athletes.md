@@ -186,3 +186,7 @@ Some international families navigate the US college recruiting process smoothly.
 The key is to start early, communicate openly with prospective schools, and seek guidance from the resources available — the NCAA Eligibility Center, school international student offices, and (if needed) immigration professionals.
 
 **The opportunity is real.** Thousands of international student-athletes compete in US college sports every year, earn degrees, and have experiences that shape their lives. The process to get there requires planning and patience, but for families who navigate it thoughtfully, the reward is genuine.
+
+---
+
+*Eligibility, visa, and financial-aid rules for international student-athletes change independently of one another. This article reflects the landscape as of **April 2026**. Verify current eligibility rules at NCAA.org, NAIA.org, and NJCAA.org, confirm amateurism and academic certification with the NCAA Eligibility Center, and consult a qualified immigration attorney for visa questions.*

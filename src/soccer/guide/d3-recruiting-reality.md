@@ -121,3 +121,7 @@ If your family is considering D3 soccer, a few things to keep in mind:
 **Consider the four-year picture.** College is four years (or more). The right D3 fit often produces a better overall experience — athletics, academics, personal growth, career preparation — than a higher-division fit that's wrong in other ways. The goal isn't the highest level of soccer. The goal is the best overall fit for your athlete as a student, an athlete, and a person.
 
 D3 soccer is not a lesser path. For many families, it's the right one. And it deserves the same level of analysis and intentionality as any other recruiting decision.
+
+---
+
+*Division III rules, membership counts, and financial-aid practices change each year. This article reflects the landscape as of **April 2026**. Verify current Division III rules and membership at NCAA.org, compare against NAIA.org, and confirm aid practices with each school's financial aid office.*

@@ -211,3 +211,7 @@ Some of the best stories in men's college soccer are players who took non-obviou
 - Senior year fall: finalize commitment, sign Written Offer of Athletics Aid during the signing period
 
 **Don't worry if your timeline doesn't match this. The list above represents a common path, not the only path.**
+
+---
+
+*NCAA recruiting calendars are updated annually. This article reflects the **2026-27** NCAA Division I Other Sports Recruiting Calendar. Verify the current calendar at `ncaaorg.s3.amazonaws.com` for the relevant academic year, check NAIA.org and NJCAA.org for those associations' rules, and confirm academic timing with the NCAA Eligibility Center.*

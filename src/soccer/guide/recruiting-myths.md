@@ -158,3 +158,7 @@ If you look across these nine myths, a pattern emerges: they all treat the recru
 The reality is that college soccer recruiting is highly individual, deeply variable, and full of opportunity that conventional wisdom obscures. The families who navigate it best are the ones who do their own research, make decisions based on data rather than assumptions, and stay open to paths they didn't originally consider.
 
 That's why we built RosterWise — to replace assumptions with analysis, and to give every family the kind of roster intelligence that used to require hours of manual research or an inside connection.
+
+---
+
+*Recruiting rules, roster limits, and the composition of college rosters all change year to year. This article reflects the landscape as of **April 2026**. Verify current rules at NCAA.org and NAIA.org, confirm league structures with ECNL and MLS NEXT, and treat roster-composition figures as descriptions of the seasons RosterWise analyzed rather than fixed rates.*

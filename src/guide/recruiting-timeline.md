@@ -132,3 +132,7 @@ The recruiting process rewards persistence, honest self-assessment, and flexibil
 Trust the process — but make it your own process, not someone else's.
 
 For sport-specific timelines with exact NCAA dates and commitment patterns, see our [men's soccer recruiting timeline](/soccer/mens/guide/recruiting-timeline/) (more sports coming soon).
+
+---
+
+*Recruiting calendars and contact dates change every year and differ by sport. This article reflects the **2025-26** academic year. Verify the current calendar for your athlete's sport and division at NCAA.org, check NAIA.org and NJCAA.org for those associations' rules, and confirm academic timing with the NCAA Eligibility Center.*

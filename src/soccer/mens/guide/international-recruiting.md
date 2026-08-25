@@ -140,3 +140,7 @@ This doesn't replace conversations with coaches — nothing does. But it helps f
 ## Women's recruiting works differently
 
 International recruiting in women's college soccer has different patterns, percentages, and dynamics. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/international-recruiting/) (coming soon).
+
+---
+
+*Eligibility, amateurism, and visa rules for international recruits change independently of one another. This article reflects the landscape as of **April 2026**. Verify current eligibility rules at NCAA.org and NAIA.org, confirm amateurism certification with the NCAA Eligibility Center, and consult a qualified immigration attorney for visa questions.*

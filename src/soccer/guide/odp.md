@@ -132,3 +132,7 @@ The youth soccer landscape in America is more complex than it's ever been. ODP, 
 What matters most for college recruiting isn't which logo is on your player's jersey. It's whether the player is developing, competing at an appropriate level, getting seen by the right coaches, and — most importantly — finding programs where they genuinely fit.
 
 **That's what RosterWise is built to help with.** Regardless of pathway, every family deserves access to the roster intelligence that reveals which programs match their athlete's profile. The pathway gets you noticed. The fit determines where you thrive.
+
+---
+
+*Youth soccer pathway structures change frequently. This article reflects the landscape as of **April 2026**. Verify the current structure of the Olympic Development Program with U.S. Soccer and your state association, and confirm league structures directly with ECNL, MLS NEXT, and individual clubs.*

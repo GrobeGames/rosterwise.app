@@ -142,3 +142,7 @@ If you're new to men's college volleyball recruiting, we recommend exploring our
 9. **[International Recruiting](/volleyball/mens/guide/international-recruiting/)** — for international families and for domestic families understanding the competitive landscape
 
 For broader guidance that applies to volleyball families generally — evaluating programs, reading rosters, debunking recruiting myths, junior college pathways, and walk-on pathways — see our [universal volleyball guides](/volleyball/guide/).
+
+---
+
+*Program counts, championship structures, and recruiting rules all change season to season. This article reflects the landscape as of **June 2026**. Verify current program sponsorship and championship formats at NCAA.org and NCAA.com, check NAIA.org and NJCAA.org for those associations, and confirm club structures with USA Volleyball.*

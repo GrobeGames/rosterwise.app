@@ -172,3 +172,7 @@ Every family's situation is different, and scholarship outcomes vary enormously 
 ## Men's recruiting works differently
 
 Men's college soccer has different scholarship rules — men's was an equivalency sport (9.9 scholarships) before the settlement, not head count. If you're navigating men's recruiting, [here's the men's version](/soccer/mens/guide/scholarships/).
+
+---
+
+*Scholarship structures changed with the House settlement and continue to change each legislative cycle. This article reflects the landscape as of **April 2026**. Verify current scholarship and roster limits at NCAA.org and NAIA.org, and confirm what a specific program actually funds with its coaching staff.*

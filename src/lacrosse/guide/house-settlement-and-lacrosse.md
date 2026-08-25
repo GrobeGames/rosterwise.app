@@ -45,6 +45,7 @@ sources:
   - '<a href="https://www.usalacrosse.com/magazine/college/what-ncaa-antitrust-settlement-means-college-lacrosse">USA Lacrosse magazine</a> — "What the NCAA Antitrust Settlement Means for College Lacrosse"'
   - 'USA Lacrosse magazine — "2024 Top Stories: The NCAA Antitrust Settlement and College Lacrosse"'
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Public information on the House settlement and roster limit implementation'
+  - '<a href="https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/Feb2026D1Gov_PhaseSevenSetQuestionandAnswer.pdf">NCAA.org</a> — Question and Answer: Implementation of the House Settlement, Section D (Institutional Benefits and the Benefits Cap), updated February 11, 2026'
   - 'Sports Illustrated / Boston College Sports — Boston College roster limit changes under House settlement (si.com/college/bostoncollege)'
 cta:
   heading: "Find programs where your athlete's reality matches yours."
@@ -60,7 +61,7 @@ The House settlement combined three federal antitrust cases — House v. NCAA, H
 
 The settlement's structure for participating schools includes three core changes:
 
-- **Revenue sharing**: Schools that opt into the settlement may share up to $20.5 million annually with student-athletes during the 2025-26 academic year, with the cap increasing approximately 4% per year over the 10-year settlement term.
+- **Revenue sharing**: Schools that opt into the settlement could share up to $20.5 million with student-athletes during the **2025-26** academic year — the settlement's first year, and the most recent figure the NCAA has published. The cap is recalculated from the settlement's formula every three years and rises four percent in the second and third year of each three-year period. The NCAA has not published a 2026-27 dollar figure.
 - **Scholarship limits eliminated**: Sport-specific scholarship caps are removed at opt-in schools. Programs can offer scholarships to every athlete on the roster, up to the new roster cap.
 - **Roster caps introduced**: Each sport has a new roster cap that participating schools must observe.
 
@@ -148,7 +149,7 @@ Several aspects of the settlement's impact on lacrosse are still developing:
 
 **How many programs will actually fund up to the cap**. The first full recruiting cycle under the new framework is still unfolding. Specific scholarship distribution data across the men's D1 and women's lacrosse landscape will take additional recruiting cycles to crystallize.
 
-**What revenue sharing will look like for lacrosse athletes**. Of the $20.5 million annual revenue-sharing cap per school, only a portion will flow to non-revenue sports. Per industry reporting on early settlement implementation, most schools that have publicly disclosed allocation plans direct the majority (typically around 75%) of revenue-sharing funds to football and men's basketball. Lacrosse — like most non-revenue sports — is likely to receive a much smaller share.
+**What revenue sharing will look like for lacrosse athletes**. Of that annual revenue-sharing cap — $20.5 million per school in 2025-26 — only a portion will flow to non-revenue sports. Per industry reporting on early settlement implementation, most schools that have publicly disclosed allocation plans direct the majority (typically around 75%) of revenue-sharing funds to football and men's basketball. Lacrosse — like most non-revenue sports — is likely to receive a much smaller share.
 
 **How the broader landscape will evolve**. Some programs may drop lacrosse entirely under the new financial pressure. Other programs may significantly increase funding to gain competitive separation. The eventual stable equilibrium across D1 men's and women's lacrosse will take several recruiting cycles to emerge.
 
@@ -194,4 +195,4 @@ The House settlement reshaped the structural framework of NCAA Division I lacros
 
 ---
 
-*The House settlement is still in active implementation. Specific program-level funding decisions continue to evolve. Families should verify current scholarship and roster information directly with each school's coaching staff.*
+*House settlement implementation is still moving, and the money figures are dated. The revenue-sharing figures here reflect the **2025-26** academic year — the settlement's first year and the most recent for which the NCAA has published a cap — verified against the NCAA's House implementation Q&A (updated February 11, 2026) on 2026-08-25. Verify current roster and scholarship limits at NCAA.org, check benefits-cap rules with the College Sports Commission, and confirm what a specific program actually funds with its coaching staff.*

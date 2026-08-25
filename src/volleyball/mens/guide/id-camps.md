@@ -160,3 +160,7 @@ ID camps are an opportunity. They are not a guarantee. Attending an ID camp does
 A small number of recruits do receive direct, immediate offers at or shortly after an ID camp. This is not the typical outcome. The typical outcome is incremental progress — building a recruiting relationship, learning what specific programs value, and developing as a player through high-quality competitive exposure.
 
 Families who treat ID camps as one component of a multi-year recruiting process — alongside club participation, video, direct outreach, and academic development — typically derive more value than families who attend a single camp expecting it to be the inflection point.
+
+---
+
+*Camp rules and recruiting contact dates are set by the NCAA and updated annually. This article reflects the landscape as of **June 2026**, including the June 15 Division I contact date. Verify the current calendar and camp legislation at NCAA.org, and confirm event structures with USA Volleyball and the AVCA.*
