@@ -31,7 +31,7 @@ related:
 sources:
   - "NCAA.org — Men's volleyball championship history and structure"
   - "NCAA.com — 2025 and 2026 men's volleyball championship documentation"
-  - "Wikipedia — NCAA men's volleyball tournament (cross-referenced against primary NCAA sources)"
+  - "NCAA.com — \"NC Men's Volleyball Championship History\" — official all-time champions, coaches, scores, runners-up and sites, 1970-2026"
   - "NAIA.org — NAIA Men's Volleyball Championship documentation"
   - "NJCAA.org — NJCAA Men's Volleyball Championship documentation"
   - "Publicly available conference-level championship records"
@@ -89,7 +89,7 @@ The championship format has evolved over time. Key milestones in recent years:
 
 The expansion to 12 teams brought the men's volleyball championship format closer to the structure used by other NCAA championships. Both the Big West and the MPSF received three total bids in 2026; the MIVA received two; the remaining conferences received their automatic bid only.
 
-Historically, the championship has been dominated by Pacific Coast programs. UCLA holds 19 NCAA men's volleyball titles — more than any other program, won under longtime head coach Al Scates. Long Beach State and Hawai'i have multiple titles each. Penn State and BYU have won championships from outside the Pacific Coast region.
+Historically, the championship has been dominated by Pacific Coast programs. Per NCAA.com's official championship history, UCLA holds 21 National Collegiate men's volleyball titles — more than any other program — 19 of them under longtime head coach Al Scates. Long Beach State and Hawai'i have multiple titles each. Penn State and BYU have won championships from outside the Pacific Coast region.
 
 ## The future: a separate D2 championship?
 

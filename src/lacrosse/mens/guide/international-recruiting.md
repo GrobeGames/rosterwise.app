@@ -45,18 +45,19 @@ faq:
 sources:
   - "<strong>2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Official NCAA recruiting rules and recruiting calendar archives'
-  - '<strong>NCAA Eligibility Center</strong> — <a href="https://eligibilitycenter.org">eligibilitycenter.org</a>'
+  - '<strong>NCAA Eligibility Center</strong> — <a href="https://eligibilitycenter.org">eligibilitycenter.org</a>; <em>Guide for the College-Bound Student-Athlete 2025-26</em> (fs.ncaa.org), "Circumstances Reviewed as Part of the Certification Process"'
   - "<strong>USA Lacrosse magazine</strong> — Coverage of international lacrosse, World Championships, and 2028 Olympics"
   - '<a href="https://worldlacrosse.sport">World Lacrosse</a> — Official international governing body'
   - '<a href="https://lacrosse.ca">Lacrosse Canada</a> — Official Canadian governing body for box, field, women''s, and sixes lacrosse'
   - '<a href="https://www.nll.com">National Lacrosse League</a> — "Canadian Box Players are Transforming Collegiate Field Lacrosse"; coverage of NLL-to-NCAA pathways'
   - "<strong>Lacrosse Culture Daily</strong> — Documented analysis of NCAA Division I Canadian men's lacrosse players (184 Canadians in NCAA D1 in 2023; provincial breakdown)"
-  - '<strong>Ontario Junior Lacrosse League</strong> — Per OLA sanction, "the most competitive Junior A men''s box lacrosse league in the world"'
+  - '<a href="https://www.ontariojuniorlacrosse.com/about">Ontario Junior Lacrosse League (OJLL)</a> — "About The Ontario Junior Lacrosse League": sanctioned by the Ontario Lacrosse Association (OLA) and Lacrosse Canada; Iroquois Trophy and Minto Cup pathway'
   - '<strong>British Columbia Lacrosse Association (bclacrosse.com)</strong> — Team BC, BC field lacrosse development'
   - "<strong>Canadian University Field Lacrosse Association</strong> — University-level field lacrosse in Canada"
-  - '<a href="https://haudenosauneenationals.com">Haudenosaunee Nationals</a> — Official team site'
+  - '<a href="https://www.haudenosauneenationals.com/history">Haudenosaunee Nationals</a> — Official team site, "Organization History" and "About Us" pages'
   - '<strong>NPR</strong> — 2023 reporting on Haudenosaunee Nationals name change from "Iroquois Nationals"'
-  - "<strong>2018 World Lacrosse Championship records</strong> — Haudenosaunee finished third behind USA and Canada"
+  - '<a href="https://worldlacrosse.sport/iroquois-nationals-survive-late-surge-to-claim-second-bronze-medal-at-2018-fil-mens-world-championship/">World Lacrosse</a> — "Iroquois Nationals Survive Late Surge to Claim Second Bronze Medal at 2018 FIL Men''s World Championship" (July 20, 2018)'
+  - '<a href="https://worldlacrosse.sport/article/haudenosaunee-claim-bronze-with-emphatic-win/">World Lacrosse</a> — "Haudenosaunee claim bronze with emphatic win" (July 1, 2023) — 2023 World Lacrosse Men''s Championship bronze-medal match'
   - '<strong>Olympics.com</strong> — "Sixes lacrosse at the Olympic Games Los Angeles 2028"'
   - '<strong>McCarter &amp; English</strong> — "Changing Immigration Policies Pose New Challenges for NCAA Institutions and NIL Opportunities for International Student-Athletes"'
   - "<strong>Christine Brown &amp; Partners</strong> — F-1 visa NIL legal analysis"
@@ -103,7 +104,7 @@ Understanding the Canadian path into NCAA men's lacrosse requires understanding 
 
 - **Lacrosse Canada (lacrosse.ca)** is the national governing body
 - Provincial associations (Ontario Lacrosse Association, BC Lacrosse Association, Alberta Lacrosse Association, etc.) administer competitive lacrosse at the provincial level
-- The **Ontario Junior Lacrosse League (OJLL)** is described by its Wikipedia documentation as "the most competitive Junior A men's box lacrosse league in the world and the number one source for talent for the National Lacrosse League (NLL)." The OJLL is sanctioned by the Ontario Lacrosse Association and competes for the Minto Cup — the Junior A National Box Lacrosse Championship of Canada
+- The **Ontario Junior Lacrosse League (OJLL)** is sanctioned by the Ontario Lacrosse Association (OLA) and Lacrosse Canada. Per the OJLL's own published description, the Ontario champion is awarded the Iroquois Trophy and advances to compete against teams from Alberta and British Columbia for the Minto Cup — the National Junior A Box Lacrosse Championship of Canada
 - The British Columbia Lacrosse Association (BCLA) administers competitive lacrosse in BC, with programs like Junior A box lacrosse feeding both NCAA and NLL pipelines
 
 **The field lacrosse layer**:
@@ -140,11 +141,11 @@ A unique and important element of international lacrosse recruiting is the role 
 
 **Background and historical context**:
 
-Per Wikipedia, Haudenosaunee Nationals official communications (haudenosauneenationals.com), and NPR's 2023 reporting: lacrosse originated as an indigenous sport among Haudenosaunee (Iroquois) communities. The Haudenosaunee Nationals men's lacrosse team was formed in 1983, sanctioned by the Grand Council of the Haudenosaunee Confederacy. The team is "the only First Nation's team with international recognition as a sovereign people" per its own published materials.
+Per the Haudenosaunee Nationals' own published materials at [haudenosauneenationals.com](https://www.haudenosauneenationals.com/history): lacrosse is one of the Haudenosaunee's most revered traditions — "a celebration of health, strength, courage, leadership, and fair play, and spiritually as a 'medicine' game." The organization states that "the Iroquois Nationals Men's Lacrosse Team was formed and sanctioned by the Grand Council of the Haudenosaunee in 1983," and describes itself today as "an indigenous sports organization (the only one of its kind in the world) that competes on the world stage," sanctioned by the sovereign Haudenosaunee Grand Council and governed by the Haudenosaunee Nationals Board of Directors. Its teams travel internationally on Haudenosaunee passports.
 
 **The 2023 name change**: Per NPR's 2023 reporting, the team officially reclaimed the name "Haudenosaunee Nationals" (formerly "Iroquois Nationals") at the 2023 World Lacrosse Championships in San Diego. The name "Iroquois" had origins that present-day Haudenosaunee community members consider derogatory. Throughout this article, we use the current and correct name: Haudenosaunee Nationals.
 
-**International competitive standing**: Per Wikipedia documentation of the 2018 World Lacrosse Championship, the Haudenosaunee Nationals finished third — behind the United States and Canada. The team is currently among the top-ranked national teams in the world per World Lacrosse rankings.
+**International competitive standing**: Per World Lacrosse's own reporting, the Haudenosaunee finished third at the 2018 FIL Men's World Championship in Netanya, Israel — behind the United States and Canada — beating Australia 14-12 for the bronze medal (World Lacrosse, July 20, 2018). They took bronze again at the 2023 World Lacrosse Men's Championship in San Diego, defeating Australia 11-6 at Snapdragon Stadium; World Lacrosse reported that the Haudenosaunee "have now claimed bronze in the last three men's championships, each time defeating Australia" (World Lacrosse, July 1, 2023).
 
 **Recruiting implications**: Indigenous lacrosse players from Haudenosaunee communities (which include the Mohawk, Oneida, Onondaga, Cayuga, Seneca, and Tuscarora nations across New York State, Ontario, and Quebec) are recruited by NCAA programs through standard recruiting channels. The Thompson brothers (Lyle, Miles, and Jeremy) — extensively documented in mainstream lacrosse media — are among the most prominent examples of indigenous players who have had major impact on NCAA lacrosse and continue to shape the sport. Players from indigenous communities in the Northeast and Ontario often compete in both U.S. and Canadian club systems.
 
@@ -196,7 +197,7 @@ Athletic scholarship eligibility for international men's lacrosse recruits opera
 - Programs that have invested heavily in international recruiting (particularly Canadian recruits) typically have the infrastructure and resources to support international scholarship recruits
 - The same warnings apply as in our [Men's Lacrosse Scholarships After the House Settlement](/lacrosse/mens/guide/scholarships-after-house-settlement/) article: the 48 figure is a maximum, not a requirement, and program-by-program scholarship funding varies dramatically
 
-**Amateurism complications**: International recruits with experience in semi-professional or professional leagues (including some Canadian Junior A box lacrosse contexts) should carefully verify amateurism status with the NCAA Eligibility Center before accepting any compensation. Per Lacrosse Canada and Wikipedia's CUFLA documentation, professional box lacrosse experience can have NCAA eligibility implications. Each athlete's specific situation should be evaluated through the NCAA Eligibility Center process.
+**Amateurism complications**: International recruits with experience in semi-professional or professional leagues (including some Canadian Junior A box lacrosse contexts) should carefully verify amateurism status with the NCAA Eligibility Center before accepting any compensation. The NCAA Eligibility Center's *Guide for the College-Bound Student-Athlete 2025-26* lists "playing with professionals," "signing a contract with a professional team," "participating in tryouts or practices with a professional team," and "receiving payment or preferential treatment/benefits for playing sports" among the circumstances reviewed during amateurism certification. Each athlete's specific situation should be evaluated through the NCAA Eligibility Center process.
 
 ## The 2028 Los Angeles Olympics
 

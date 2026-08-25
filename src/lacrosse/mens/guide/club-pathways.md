@@ -39,7 +39,7 @@ sources:
   - "<strong>IMLCARecruits (imlcarecruits.org)</strong> — Official IMLCA recruiting platform"
   - "<strong>2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
   - '<a href="https://lacrosse.ca">Lacrosse Canada (lacrosse.ca)</a> — Canadian national governing body'
-  - "<strong>Ontario Junior Lacrosse League documentation</strong> — Wikipedia citing Ontario Lacrosse Association on OJLL competitiveness"
+  - '<a href="https://www.ontariojuniorlacrosse.com/about">Ontario Junior Lacrosse League (OJLL)</a> — "About The Ontario Junior Lacrosse League": sanctioned by the Ontario Lacrosse Association (OLA) and Lacrosse Canada; Iroquois Trophy and Minto Cup pathway'
 cta:
   heading: "Find programs where your son genuinely fits — regardless of club pathway"
   text: "Where your son plays club is important. Where he ultimately ends up in college depends on much more — including which programs are actually the right fit for his specific development, position, academic profile, and goals. RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA men's lacrosse program — position depth (including specialized positions like FOGO and LSM), class year gaps, recruiting geography, Canadian recruiting patterns, transfer portal activity, and personalized fit scoring. The geographic and pathway analysis helps families identify the programs that are realistic targets for their son regardless of his current club affiliation."
@@ -154,7 +154,7 @@ Per the IMLCA's own published statements, with NCAA legislation adopted in Octob
 
 ### IMLCARecruits platform
 
-IMLCARecruits is the IMLCA's official recruiting platform, powered by SportsRecruits since the 2023 partnership. The platform serves as the home base for IMLCA coaches to find and evaluate prospective student-athletes through profile information, event film, and personal highlight reels.
+IMLCARecruits is the IMLCA's official recruiting platform. The platform serves as the home base for IMLCA coaches to find and evaluate prospective student-athletes through profile information, event film, and personal highlight reels.
 
 ## The broader club landscape: what we can and can't say
 
@@ -245,7 +245,7 @@ Men's lacrosse has more specialized positions than many sports (attack, midfield
 For Canadian families researching NCAA men's lacrosse pathways (see [International Recruiting in Men's College Lacrosse](/lacrosse/mens/guide/international-recruiting/) for broader context), the club pathway differs significantly from the U.S. landscape:
 
 - Lacrosse Canada and provincial associations (Ontario Lacrosse Association, BC Lacrosse Association, Alberta Lacrosse Association) administer Canadian lacrosse
-- The Ontario Junior Lacrosse League (OJLL) is described in its Wikipedia documentation (citing the Ontario Lacrosse Association) as "the most competitive Junior A men's box lacrosse league in the world"
+- The Ontario Junior Lacrosse League (OJLL) is sanctioned by the Ontario Lacrosse Association (OLA) and Lacrosse Canada. Per the OJLL's own published description, the Ontario champion is awarded the Iroquois Trophy and then competes against teams from Alberta and British Columbia for the Minto Cup — the National Junior A Box Lacrosse Championship of Canada
 - BC Lacrosse Association programs feed both NCAA and NLL pipelines
 - Canadian Junior A box lacrosse experience can have NCAA amateurism implications — recruits should consult the NCAA Eligibility Center directly
 

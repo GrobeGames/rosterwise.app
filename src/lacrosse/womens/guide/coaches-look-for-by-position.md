@@ -47,7 +47,7 @@ sources:
   - '<strong>USA Lacrosse magazine</strong> — "Inside the Recruiting Funnel" and other published recruiting guidance'
   - "<strong>William Jewell College Athletics</strong> — Official Women's Lacrosse 101 description of positions and rules"
   - "<strong>Duke University (The Duke Chronicle)</strong> — Women's college lacrosse 101 beginner's guide"
-  - "<strong>Wikipedia</strong> — Women's lacrosse — for international 10v10 vs. NCAA 12v12 distinction"
+  - '<a href="https://worldlacrosse.sport/discipline-womens-field/">World Lacrosse — "Women''s Field"</a> — international governing body; international women''s field lacrosse is played with ten players per team'
   - '<strong>2aDays</strong> — "Dos and Don''ts of a Lacrosse Highlight Video from College Coaches" — direct quotes from named college coaches: Corinne Desrosiers (Duquesne, Women''s), Tanya Kotowicz (Quinnipiac, Women''s), and Mike Pressler (Bryant, Men''s, on the universally applicable two-handed player principle)'
 cta:
   heading: "Find programs where your daughter genuinely fits — at her position"
@@ -67,7 +67,7 @@ Per the IWLCA (iwlca.org) and the NCAA Women's Lacrosse Rules 2026-2027 (publish
 - 4 defenders
 - 1 goalie
 
-**International women's lacrosse**: 10 players on the field per team (per Wikipedia citing World Lacrosse) — relevant context for [international recruits](/lacrosse/womens/guide/international-recruiting/) who may need to adapt.
+**International women's lacrosse**: 10 players on the field per team. Per [World Lacrosse](https://worldlacrosse.sport/discipline-womens-field/), the international governing body, "women's field lacrosse is an outdoor sport played with ten players on each team." Relevant context for [international recruits](/lacrosse/womens/guide/international-recruiting/) who may need to adapt.
 
 **Game structure** (per IWLCA):
 - College women's lacrosse: 4 quarters of 15:00 each, stopped clock
