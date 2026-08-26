@@ -94,10 +94,10 @@ D2 men's soccer operates under the equivalency scholarship model that D1 used be
 
 - **9.0 full-scholarship equivalents** per program
 - Coaches divide these across the roster — partial scholarships are the norm
-- D2 rosters are often 25-35 players, meaning the average athletic aid per player is modest
+- D2 has no national roster cap, and 9.0 equivalencies spread across a full roster means the average athletic award is modest
 - D2 schools also offer academic and need-based aid that can supplement athletic awards
 
-**Realistic expectations:** A D2 men's soccer scholarship offer might cover 20-50% of the cost of attendance. Full-ride offers exist but are uncommon. Many D2 families combine athletic aid with academic scholarships, need-based grants, and other institutional aid to build a workable financial package.
+**Realistic expectations:** most D2 soccer awards are partial rather than full — that follows directly from the equivalency limit being far smaller than a roster. We do not publish a percentage range, because no one collects award sizes and a made-up band would set expectations we cannot support. Ask the program what range it is working in. Many D2 families combine athletic aid with academic scholarships, need-based grants, and other institutional aid to build a workable financial package.
 
 D2 programs that compete in the House settlement era may adjust their approach over time, but as of now, D2 operates under its existing NCAA bylaws.
 
@@ -119,7 +119,7 @@ D3 is not a consolation prize. Many D3 men's soccer programs are highly competit
 
 ## NAIA men's soccer: up to 12 scholarships
 
-NAIA programs may award up to 12 athletic scholarships for men's soccer. With typical rosters of 25-30 players, partial scholarships are common, but the ratio of scholarship dollars to roster spots is more favorable than the old D1 equivalency model or current D2.
+NAIA programs may award up to 12 athletic scholarships for men's soccer. The NAIA sets no limit on roster size, so partial scholarships are common — but twelve equivalencies is a more favourable ratio than D2 soccer or the old D1 limits.
 
 **What families should understand about NAIA:**
 
@@ -157,7 +157,7 @@ Athletic scholarships are important, but they're not the only financial lever. F
 - **Academic scholarships:** Many schools offer merit-based awards that have nothing to do with athletics. A strong academic profile can meaningfully reduce cost of attendance.
 - **Need-based aid:** Filing the FAFSA (and CSS Profile where required) is essential. Many families are surprised by the need-based aid available, especially at private institutions.
 - **Cost of attendance varies enormously:** A 50% scholarship at a $30,000/year public university produces a different out-of-pocket cost than a 25% scholarship at a $65,000/year private school that also offers $25,000 in need-based aid.
-- **The five-year model:** Many men's soccer players take five years to graduate (a common pattern with redshirt years, academic loads balanced with athletics, etc.). Factor this into total cost calculations.
+- **Budget beyond four years.** Redshirt years and reduced course loads mean some athletes take longer than four years to graduate. We have no measured figure for how common that is in college soccer; the point is simply to ask the program and to model more than four years of cost before committing.
 
 ## Realistic expectations for families
 

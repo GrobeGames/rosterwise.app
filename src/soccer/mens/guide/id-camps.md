@@ -56,7 +56,7 @@ So a camp attended in the summer after sophomore year sits in the window where a
 
 An identification camp (ID camp) is a soccer camp run by a college coaching staff, on that college's campus, with the primary purpose of evaluating prospective recruits. Unlike general skills camps or youth clinics, ID camps are structured so coaches can watch players in competitive settings — typically small-sided games, full-sided scrimmages, and position-specific drills.
 
-Most D1 and D2 men's soccer programs run at least one ID camp per year, often in the summer or early fall. D3 and NAIA programs also run camps, though the format and frequency vary.
+Many college programs at every division run ID camps, typically in the summer. Format and frequency vary by program, and the only reliable way to know what a specific program offers is its own camp page.
 
 **What happens at a typical ID camp:**
 
@@ -86,7 +86,7 @@ Not every ID camp is a good investment of time and money. Be cautious when:
 
 **You have no genuine interest in the school.** Attending a camp at a school you wouldn't actually attend wastes time and money. Be selective.
 
-**The camp is expensive and the program hasn't shown any prior interest.** ID camps typically cost between $75 and $300 for a day camp, and $200 to $500+ for overnight camps. If you're paying $400 to attend a camp at a program that hasn't responded to your emails, that money may be better spent on showcase tournaments or film production.
+**The camp is expensive and the program hasn't shown any prior interest.** If you're paying a significant sum to attend a camp at a program that hasn't responded to your emails, that money may be better spent on showcase tournaments or film production.
 
 **You're attending as a substitute for film and outreach.** ID camps complement the recruiting process — they don't replace it. A player who attends six ID camps but hasn't sent any recruiting emails or produced a highlight video has the process backwards.
 
@@ -141,8 +141,7 @@ Most recruits benefit from a combination of both — showcases for visibility, I
 
 ID camp costs vary widely:
 
-- **Day camps:** $75 to $300
-- **Overnight/multi-day camps:** $200 to $500+
+ID camps cost money, and the range is wide enough that we are not going to publish a figure — nobody collects camp pricing centrally, and a number we made up would be worse than none. Camp cost is published on each program's own camp page. Price two or three of the camps your athlete is actually considering and you will have a better answer than any national average.
 - **Travel, lodging, and meals** for out-of-state camps can double the total cost
 
 Families should budget for ID camps as part of the overall recruiting investment, which may include showcase tournament fees, travel, film production, and recruiting service subscriptions. Be strategic — attending three well-targeted ID camps at genuine target schools is more productive than attending eight camps at schools you haven't researched.

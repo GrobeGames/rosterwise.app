@@ -82,9 +82,9 @@ An ID camp is worth the investment when several conditions align:
 
 ## What camps typically cost
 
-Women's college volleyball ID camps typically range from $150 to $500 per camp, depending on the school, the length of the camp, and whether housing is included. Travel, lodging, and food add to the total cost. A family attending four or five camps over a summer can easily spend $2,000-$4,000 — a significant investment.
+Camp cost varies by school, by length, and by whether housing is included; travel, lodging and food add to the total. We do not publish a price range — nobody collects camp pricing centrally, and each program publishes its own cost on its camp page.
 
-This cost is worth considering in the context of what the camp actually provides. A $300 camp at a program that is genuinely evaluating your athlete for recruitment is a reasonable investment. A $300 camp at a program with no positional need, attended because "everyone else is going," is not.
+What is worth weighing is not the price on its own but what the camp provides for it. A camp at a program that is genuinely evaluating your daughter for recruitment is a different proposition from one at a program with no need at her position, or one run primarily as a revenue event — whatever each happens to cost. Price the two or three camps she is actually considering and compare those.
 
 ## The timing of volleyball ID camps
 

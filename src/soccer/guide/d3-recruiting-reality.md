@@ -2,7 +2,7 @@
 layout: content.njk
 title: "D3 College Soccer Recruiting: No Athletic Scholarships, But..."
 description: "The reality of NCAA Division III college soccer recruiting — no athletic scholarships, but competitive soccer, strong academics, generous financial aid, and a path that works for many families."
-date: 2026-04-26
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -91,7 +91,7 @@ D3 recruiting operates under different rules than D1 and D2, and the differences
 
 The D3 philosophy explicitly emphasizes the integration of athletics with the broader educational experience. In practice, this means:
 
-**Time demands are real but different.** D3 athletes practice, train, travel, and compete. The time commitment is significant — typically 15-20 hours per week during the season. But D3 programs generally have shorter competitive seasons than D1, less off-season training obligation, and more flexibility for athletes to participate in other campus activities.
+**Time demands are real but different.** D3 athletes practice, train, travel, and compete. The time commitment is significant. NCAA rules cap countable athletically related activity at 20 hours a week in season; we have no measured figure for what D3 soccer programs actually average and will not invent one — ask the coach what a typical in-season week looks like. But D3 programs generally have shorter competitive seasons than D1, less off-season training obligation, and more flexibility for athletes to participate in other campus activities.
 
 **Dual-sport athletes are more common.** D3 allows athletes to compete in multiple sports, and some do. For soccer players, this might mean playing soccer in the fall and running track in the spring, or playing soccer and participating in intramural or club sports.
 

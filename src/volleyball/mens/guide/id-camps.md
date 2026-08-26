@@ -71,7 +71,7 @@ Most men's volleyball ID camps fall into two categories:
 - **Institutional ID camps** are hosted by a specific college program (often a single school, sometimes two or three schools collaborating). These are typically held on the host school's campus and run by the host school's coaching staff with some assistants. Almost every men's college volleyball program runs institutional ID camps during the summer and at other points in the year.
 - **Independent or third-party ID camps** are hosted by organizations outside any single college program. These typically draw coaches from multiple schools, who attend in evaluator capacities. These events vary widely in quality and in the genuine recruiting access they provide.
 
-Both types have value when chosen carefully. They also both cost money — typically $200 to $700+ depending on the format, length, and coaching staff involved.
+Both types have value when chosen carefully. They also both cost money. We do not publish a price range: nobody collects camp pricing centrally, and the figures that circulate are guesses. Each program publishes its own camp cost — price the ones your son is actually considering.
 
 ## Institutional camps versus independent events
 

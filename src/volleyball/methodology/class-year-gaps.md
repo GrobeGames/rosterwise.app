@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Class-Year Gaps in Volleyball Recruiting | RosterWise™"
 description: "Why class-year gaps on college volleyball rosters are the most overlooked recruiting signal — how gaps create opportunity, volleyball-specific patterns, and how to spot them."
-date: 2026-05-02
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -57,11 +57,11 @@ Several patterns appear regularly in volleyball roster construction:
 
 ### The setter succession problem
 
-Setter is the thinnest position on most rosters (typically 2-3 players). When a program's primary setter graduates with no experienced backup, the gap is urgent. Programs that plan well recruit a setter one to two years before they need one to start, allowing the younger setter to develop behind the starter. Programs that do not plan this succession well — or that lose a setter to transfer — face a genuine crisis that creates opportunity for setter recruits.
+Setter is one of the thinnest positions on a roster — a median of 3 across the women's programs RosterWise analysed, with the middle half carrying 2 to 3. When a program's primary setter graduates with no experienced backup, the gap is urgent. Programs that plan well recruit a setter one to two years before they need one to start, allowing the younger setter to develop behind the starter. Programs that do not plan this succession well — or that lose a setter to transfer — face a genuine crisis that creates opportunity for setter recruits.
 
 ### The middle blocker graduation cliff
 
-Many programs carry only 3-4 middle blockers. When two or three are in the same class year, the program faces a graduation cliff — losing most of its middle depth in a single year. This pattern creates some of the most dramatic single-position recruiting needs in volleyball.
+Programs carry a median of 4 middle blockers, with the middle half at 3 to 5. When two or three are in the same class year, the program faces a graduation cliff — losing most of its middle depth in a single year. This pattern creates some of the most dramatic single-position recruiting needs in volleyball.
 
 ### The libero single-point-of-failure
 

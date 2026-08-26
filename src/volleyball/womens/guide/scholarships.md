@@ -55,7 +55,7 @@ The House v. NCAA settlement, approved in June 2025, fundamentally changed how D
 
 ### What changed
 
-**Before the settlement:** D1 women's volleyball had 12 head-count slots, which in practice meant 12 full scholarships. Programs typically carried 16-20 players: 12 on full scholarship and the rest as walk-ons with no athletic aid.
+**Before the settlement:** D1 women's volleyball had 12 head-count slots, which in practice meant 12 full scholarships. Division I had no roster limit at the time, so the rest of the roster was walk-ons receiving no athletic aid. RosterWise's roster data begins with 2025-26 — the first season played under the new limits — so we cannot describe pre-settlement roster sizes and will not estimate them.
 
 **After the settlement (opt-in schools):** The head count model is gone. Schools that opted in may award athletic scholarships up to their roster limit of 18 players, with no requirement that each scholarship be a full award. In theory, a program could distribute scholarship money across all 18 roster spots. In practice, how programs handle this transition varies — some may still offer a mix of full and partial awards, while others may experiment with different distribution models.
 
@@ -99,10 +99,10 @@ D2 women's volleyball operates under the equivalency scholarship model.
 
 - **8 full-scholarship equivalents** per program
 - Coaches divide these across the roster — partial scholarships are the norm
-- D2 rosters are often 16-22 players, meaning the average athletic aid per player is modest
+- D2 has no national roster cap, and eight equivalencies spread across a full roster means the average athletic award is modest
 - D2 schools also offer academic and need-based aid that can supplement athletic awards
 
-**Realistic expectations:** A D2 women's volleyball scholarship offer might cover 20-50% of the cost of attendance. Full-ride offers exist but are uncommon. Many D2 families combine athletic aid with academic scholarships, need-based grants, and other institutional aid to build a workable financial package.
+**Realistic expectations:** most D2 volleyball awards are partial rather than full — that follows directly from eight equivalencies being spread across a full roster. We do not publish a percentage range, because no one collects award sizes and a made-up band would set expectations we cannot support. Ask the program what range it is working in. Many D2 families combine athletic aid with academic scholarships, need-based grants, and other institutional aid to build a workable financial package.
 
 ## D3 women's volleyball: no athletic scholarships
 
@@ -122,7 +122,7 @@ D3 is not a consolation prize. Many D3 women's volleyball programs are highly co
 
 ## NAIA women's volleyball: up to 8 scholarships
 
-NAIA programs may award up to 8 athletic scholarships for women's volleyball. With typical rosters of 16-22 players, partial scholarships are common, but the ratio of scholarship dollars to roster spots can be competitive.
+NAIA programs may award up to 8 full-grant equivalencies for volleyball, and the NAIA sets no limit on roster size. Partial scholarships are therefore common, but the ratio of scholarship dollars to roster spots can be competitive.
 
 **What families should understand about NAIA:**
 
@@ -160,7 +160,7 @@ Athletic scholarships are important, but they're not the only financial lever. F
 - **Academic scholarships:** Many schools offer merit-based awards that have nothing to do with athletics. A strong academic profile can meaningfully reduce cost of attendance.
 - **Need-based aid:** Filing the FAFSA (and CSS Profile where required) is essential. Many families are surprised by the need-based aid available, especially at private institutions.
 - **Cost of attendance varies enormously:** A 50% scholarship at a $30,000/year public university produces a different out-of-pocket cost than a 25% scholarship at a $65,000/year private school that also offers $25,000 in need-based aid.
-- **The five-year model:** Some women's volleyball players take five years to graduate (due to redshirt years, academic loads balanced with athletics, etc.). Factor this into total cost calculations.
+- **Budget beyond four years.** Redshirt years and reduced course loads mean some athletes take longer than four years to graduate. We have no measured figure for how common that is in college volleyball; the point is to ask the program and model more than four years of cost.
 
 ## Realistic expectations for families
 

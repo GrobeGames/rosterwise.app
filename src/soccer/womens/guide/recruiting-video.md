@@ -2,7 +2,7 @@
 layout: content.njk
 title: "How to Make a Women's College Soccer Recruiting Video | RosterWise™"
 description: "Practical guidance on creating a women's college soccer recruiting video — length, format, what to include, position-specific advice, and distribution strategy."
-date: 2026-04-26
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -40,15 +40,7 @@ ${toc}
 
 Before talking about how to make a video, it helps to understand how coaches consume them.
 
-College coaches — especially at the D1 level — receive a high volume of recruiting videos. They do not watch most of them start to finish. A typical pattern:
-
-1. Coach opens the video (or clicks a link in an email)
-2. Watches the first 15-30 seconds to assess quality and relevance
-3. If interested, watches another 1-2 minutes, skipping around
-4. If still interested, watches more carefully or saves for later review
-5. If not interested, closes within 30 seconds
-
-**This means the first 30 seconds of your video are the most important part.** Lead with your best footage. Don't waste the opening on title screens, warm-ups, or average plays.
+College coaches — especially at the D1 level — receive a high volume of recruiting videos and do not watch most of them start to finish. We have no measured data on how long a coach actually watches, so we are not going to publish a second-by-second model of it. The safe inference from the volume alone is the one that matters: **lead with your best footage.** Do not spend the opening on title screens, warm-ups or average plays.
 
 ## Timing: when to send video in women's recruiting
 
@@ -156,7 +148,7 @@ You don't need professional production. A parent with an iPhone on a tripod at t
 - **Sufficient resolution** — 1080p is standard; 4K is nice but not necessary
 - **Good lighting** — daytime games are easier to film than night games under floodlights
 
-**Professional editing services** exist and can be worth the investment ($100-$500 typically) for players with extensive raw footage who need help selecting and assembling clips. But a well-organized DIY video is perfectly acceptable.
+**Professional editing services** exist and can be worth the investment for players with extensive raw footage who need help selecting and assembling clips. But a well-organized DIY video is perfectly acceptable.
 
 ## Distribution: getting the video in front of coaches
 

@@ -103,7 +103,7 @@ These dates apply to the 2026-27 recruiting cycle. The NCAA publishes an updated
 
 - **Sport-specific scholarship caps are gone for opt-in schools.** D1 men's soccer used to have a 9.9-scholarship limit (an "equivalency" sport). Schools that opted into the settlement no longer have a scholarship cap — they may award scholarships up to the new roster limit.
 - **Roster limit replaces scholarship limit.** D1 men's soccer roster limit is now **28 players** for opt-in schools.
-- **More potential scholarships, fewer total roster spots.** Many D1 men's soccer programs historically carried 30+ players including walk-ons. A roster limit of 28 means fewer total spots — even though more of those spots can now be funded.
+- **More potential scholarships, and a hard cap on spots where there was none.** Before the settlement no NCAA roster limit existed in Division I; programs worked against the 9.9-equivalency scholarship cap instead. A roster limit of 28 is a genuinely new constraint, even though more of those 28 spots can now be funded. RosterWise's roster data begins with 2025-26 — the first season played under the new limits — so we cannot describe pre-settlement roster sizes and will not estimate them.
 - **Walk-on opportunities are reduced.** A real change for families who were planning a walk-on path.
 - **Schools choose whether to opt in.** Power conference schools (SEC, Big Ten, ACC, Big 12) opted in. Other D1 conferences had until June 30, 2025 to decide. Programs that don't opt in retain older scholarship limits but cannot share revenue with athletes.
 

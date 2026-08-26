@@ -95,7 +95,7 @@ Some recruits produce longer "full game" video as a separate file (often hosted 
 The camera matters less than the position and stability. A modern smartphone in 1080p produces video quality that is more than adequate for recruiting purposes. What matters more:
 
 - **Camera position.** The standard position is at the back of the court, on the opposite side from the player being filmed. For an outside hitter, place the camera in left back; for a setter or right side, place it in right back; for a middle hitter, place it in middle back. The goal is to see the player's approach and the play unfolding.
-- **Camera height.** Approximately 5-6 feet off the ground is ideal. Higher gives a clearer view of the floor; lower puts the player in better visual relief against the background.
+- **Camera height.** Film from as high as you reasonably can — elevation is what lets a coach see court position, spacing and the whole rotation rather than a wall of bodies. An elevated seat in the stands beats floor level.
 - **Stability.** Use a tripod or a stable surface. Handheld footage that shakes is harder to watch and harder to evaluate.
 - **Zoom level.** Wide enough to see the entire play unfold; tight enough that the recruit is visible. Avoid constant zoom adjustments during filming — set a wide-enough framing and leave it.
 - **Audio is optional.** Coaches generally evaluate visually. Match audio, music tracks added in editing, and voice-over commentary are all unnecessary (and sometimes distracting).

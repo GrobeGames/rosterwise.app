@@ -106,7 +106,7 @@ Full game film should be from competitive matches — club tournament play or hi
 
 You do not need a professional videographer. Most effective recruiting videos are recorded by a family member or teammate using a phone, tablet, or basic camera. Here is what matters:
 
-**Film from the correct angle.** The ideal angle for volleyball is from behind the end line, elevated above the court (10-15 feet high if possible). This angle shows the full court, allows coaches to see formations and positioning, and captures the movement patterns that matter. Filming from the side of the court or at court level makes it difficult to evaluate positioning and court awareness.
+**Film from the correct angle.** Film from behind the end line and as high as you reasonably can — an elevated seat in the stands rather than floor level. That angle shows the full court, allows coaches to see formations and positioning, and captures the movement patterns that matter. Filming from the side of the court or at court level makes it difficult to evaluate positioning and court awareness.
 
 **Keep the camera wide.** Resist the urge to zoom in on your athlete. Coaches want to see where your athlete is in relation to the ball, the net, and their teammates. A wide shot that captures the full or near-full court is more useful than a tight shot that follows one player.
 

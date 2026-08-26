@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Walking On to College Soccer: What Families Should Know"
 description: "The reality of walking on to college soccer programs — how it works, what changed with roster limits, and honest guidance for families considering the walk-on path."
-date: 2026-04-26
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -52,7 +52,7 @@ Both paths have produced successful college soccer players. But the landscape fo
 
 The 2025 House v. NCAA settlement introduced roster limits for Division I programs that opted in. For soccer, the limit is 28 players for both men's and women's programs.
 
-**Before the settlement,** many D1 soccer programs carried rosters of 30 or more players. Walk-ons filled those extra spots. A program might have 9.9 scholarships (the old men's D1 equivalency limit) split among 20-25 recruited players, plus 5-10 walk-ons who filled out the roster, provided depth, and served as practice players.
+**Before the settlement,** there was no NCAA cap on Division I roster size at all — Bylaw 17.2, which sets the limits, was adopted in June 2025. Programs worked against a scholarship limit (9.9 equivalencies in men's D1 soccer, 14.0 in women's) rather than a roster limit, and walk-ons filled spots beyond the funded ones. RosterWise's roster data begins with 2025-26 — the first season played under the new limits — so we cannot describe pre-settlement roster sizes and will not estimate them.
 
 **After the settlement,** programs that opted in have a hard cap of 28. When a roster limit is 28, every spot is precious. Coaches who previously had room for walk-ons may now allocate every spot to recruited players and transfer portal additions. The scholarship cap is gone (for opt-in schools), which means coaches can now fully fund more players — but the total roster is smaller.
 
@@ -105,7 +105,7 @@ Players who successfully walk on to college soccer programs tend to share severa
 
 Walking on carries financial implications that families should consider honestly:
 
-**No scholarship means full cost of attendance.** Walk-ons pay their own way — tuition, room, board, and all associated costs. For families, this means the soccer experience comes at the full price of the institution, which at a private D1 school can exceed $70,000 per year.
+**No scholarship means full cost of attendance.** Walk-ons pay their own way — tuition, room, board, and all associated costs. For families, this means the soccer experience comes at the full price of the institution. Run the school's own net price calculator rather than working from a national average — published cost of attendance varies enormously between a state university and a private one, and institutional aid changes the real figure again.
 
 **Earning a scholarship later is possible but not guaranteed.** Some walk-ons eventually earn athletic scholarships through their performance. This does happen. But it's not common, and families should not plan financially around the assumption that their athlete will earn a scholarship after walking on.
 

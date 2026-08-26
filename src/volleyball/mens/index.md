@@ -110,7 +110,7 @@ Our [recruiting timeline guide](/volleyball/mens/guide/recruiting-timeline/) wal
 
 ## Scholarships after the House Settlement
 
-The June 2025 House v. NCAA settlement fundamentally changed scholarships in men's college volleyball. The pre-settlement equivalency limit of 4.5 scholarships has been replaced with a structure that allows opt-in D1 schools to fund up to 18 athletic scholarships, but with a corresponding 18-player roster cap. Programs that historically carried 20-25 players now must reduce their rosters or operate outside the opt-in framework.
+The June 2025 House v. NCAA settlement fundamentally changed scholarships in men's college volleyball. The pre-settlement equivalency limit of 4.5 scholarships has been replaced with a structure that allows opt-in D1 schools to fund up to 18 athletic scholarships, but with a corresponding 18-player roster cap. Programs that carried more than 18 must now reduce their rosters or operate outside the opt-in framework.
 
 This is a significant shift, and it's still playing out. Walk-on opportunities, partial-scholarship arrangements, and the experience of being on a smaller, more scholarship-heavy roster are all in flux.
 

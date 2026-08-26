@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Women's College Soccer Goalkeeper Recruiting | RosterWise™"
 description: "GK-specific guidance for women's college soccer recruiting — evaluation criteria, film considerations, roster dynamics, and what families of goalkeepers need to know."
-date: 2026-04-26
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -122,8 +122,7 @@ When building a target list, understanding each program's GK situation is critic
 
 **The typical GK roster:**
 - Most D1 programs carry 3 GKs
-- Most D2 programs carry 3 GKs
-- D3 and NAIA programs carry 2-3 GKs
+- RosterWise computed these figures for **Division I only**. We have not measured D2, D3 or NAIA goalkeeper depth and will not estimate it — count the position on the rosters of the programs you are targeting.
 
 **What to look for:**
 - **Class-year distribution** — If a program has a junior and senior GK, they'll likely recruit for the following year. If they have a freshman and sophomore starter, their GK needs are minimal for the near term.
@@ -157,7 +156,7 @@ ID camps can be particularly valuable for goalkeepers because:
 Honest guidance for families of women's soccer GK recruits:
 
 - **The path to a starting spot is often longer for goalkeepers.** Many GK recruits understand they may not start until sophomore or junior year. This is normal, not a red flag.
-- **Fewer roster spots means more rejections.** A strong field player might have 20-30 realistic D1 options. A strong GK might have 10-15. Cast a wide net and consider multiple divisions.
+- **Fewer roster spots means more rejections.** With three goalkeepers on a typical D1 roster against nine or ten midfielders, the number of programs with a genuine opening at any given moment is smaller for a goalkeeper than for a field player. We have not measured how much smaller and will not put a figure on it. The practical response is the same either way: cast a wide net and consider multiple divisions.
 - **Development continues through college.** A player who isn't the most polished 17-year-old GK may become the best GK on a college roster at 20. Coaches know this.
 - **Every program's needs are specific and time-dependent.** A program that doesn't need a GK this year may need one next year. Timing is a factor beyond your control — focus on what you can control (film, outreach, development).
 

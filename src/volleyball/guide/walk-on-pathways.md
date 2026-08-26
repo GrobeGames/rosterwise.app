@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Walking On to College Volleyball | RosterWise™"
 description: "What walking on to a college volleyball program actually looks like — the post-House settlement reality, division differences, how tryouts work, and honest expectations for families."
-date: 2026-05-02
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -48,7 +48,7 @@ Both types of walk-ons are full members of the team. The difference is how they 
 
 The 2025 House v. NCAA settlement has meaningfully reduced walk-on opportunities at opt-in D1 programs.
 
-**Before the settlement:** D1 women's volleyball programs had 12 head count scholarships and no formal roster limit. Many programs carried 16-20 or more players: 12 on full scholarship plus walk-ons and preferred walk-ons. Walk-on spots were a significant part of roster construction.
+**Before the settlement:** D1 women's volleyball programs had 12 head count scholarships and no formal roster limit. There was no NCAA roster limit in Division I before the settlement, so programs carried walk-ons and preferred walk-ons beyond the 12 funded slots. RosterWise's roster data begins with 2025-26 — the first season played under the new limits — so we cannot describe pre-settlement roster sizes and will not estimate them. Walk-on spots were a significant part of roster construction.
 
 **After the settlement (opt-in schools):** Programs are capped at 18 players. With the ability to distribute scholarship money across all 18 spots, many programs will choose to fund most or all of their roster. The math leaves very little room for walk-ons. A program that funds 16-17 players might carry 1-2 walk-ons. Some may carry none.
 
@@ -58,7 +58,7 @@ The 2025 House v. NCAA settlement has meaningfully reduced walk-on opportunities
 
 ## Walk-on opportunities at D2
 
-D2 women's volleyball programs operate under the equivalency model with 8 scholarships distributed across the roster. Most D2 rosters carry 16-22 players, meaning a significant portion of the roster may not be on athletic scholarship.
+D2 women's volleyball programs operate under the equivalency model with 8.0 equivalencies distributed across the roster. With no national roster cap at D2 and only eight equivalencies to spread, a significant portion of any D2 roster will not be on athletic scholarship.
 
 Walk-on opportunities at D2 are generally more available than at opt-in D1 programs:
 
@@ -78,11 +78,11 @@ The distinction at D3 is between:
 - **Recruited players** — Athletes the coach has identified, communicated with during the recruiting process, and supported through admissions
 - **Walk-on players** — Athletes who try out for the team after enrolling, without prior contact with the coaching staff
 
-D3 roster sizes vary widely. Some competitive D3 programs carry 16-20 players and are highly selective. Others carry 20-30 and welcome walk-on talent. The best way to assess walk-on viability at a D3 program is to contact the coach directly — many D3 coaches are responsive to outreach from prospective students who are genuinely interested in both the school and the volleyball program.
+D3 roster sizes vary widely — there is no national cap, and each program sets its own. Some are highly selective and carry lean rosters; others carry many more and welcome walk-on talent. Count the roster at the programs you are considering rather than working from an average. The best way to assess walk-on viability at a D3 program is to contact the coach directly — many D3 coaches are responsive to outreach from prospective students who are genuinely interested in both the school and the volleyball program.
 
 ## Walk-on opportunities at NAIA
 
-NAIA programs offer up to 8 scholarships for women's volleyball, with rosters that typically range from 16-22 players. Walk-on culture at NAIA programs varies, but many NAIA coaches welcome walk-on athletes — particularly those with competitive club or high school experience.
+NAIA programs may award up to 8 full-grant equivalencies for volleyball, and the NAIA places no limit on varsity roster size. Walk-on culture at NAIA programs varies, but many NAIA coaches welcome walk-on athletes — particularly those with competitive club or high school experience.
 
 NAIA programs often operate with smaller staffs and smaller recruiting budgets, which means they may not have identified every potential recruit in their region. An athlete who reaches out directly and demonstrates genuine interest can sometimes find a walk-on opportunity that was not advertised.
 

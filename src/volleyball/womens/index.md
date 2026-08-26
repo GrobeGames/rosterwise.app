@@ -55,7 +55,7 @@ The club volleyball ecosystem is unlike any other sport's pathway. USA Volleybal
 
 The 2025 House v. NCAA settlement has reshaped Division I women's volleyball alongside every other D1 sport. Women's volleyball was historically a "head count" sport — each scholarship was a full scholarship, with a cap of 12 per program. Under the settlement, schools that opted in now operate under a roster limit of 18 players, with no scholarship cap.
 
-In practical terms, this means programs could potentially fund more than 12 players, but total roster spots are capped at 18. This is a significant change — many D1 volleyball programs historically carried 16-20 players (12 on scholarship plus walk-ons and practice players). The 18-player cap has meaningful implications for roster construction, walk-on opportunities, and how coaches distribute scholarship dollars.
+In practical terms, this means programs could potentially fund more than 12 players, but total roster spots are capped at 18 where Division I previously had no roster cap at all. RosterWise's roster data begins with 2025-26 — the first season played under the new limits — so we cannot describe pre-settlement roster sizes and will not estimate them. The 18-player cap has meaningful implications for roster construction, walk-on opportunities, and how coaches distribute scholarship dollars.
 
 Families should ask each program directly about their settlement status and how it affects their roster management. The landscape is still evolving.
 

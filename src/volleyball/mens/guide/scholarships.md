@@ -58,13 +58,13 @@ This structure had real consequences for how families navigated recruiting:
 
 - Most men's volleyball recruits did not receive full scholarships. A "scholarship offer" in men's volleyball historically meant some percentage of cost-of-attendance — often a meaningful percentage for top recruits, smaller percentages for others.
 - The remainder of any cost was covered by family contribution, academic merit aid, need-based aid, federal aid, or other forms of support.
-- Walk-on opportunities were a legitimate, well-traveled pathway. Programs needed players, and not every roster spot could be funded with the 4.5-scholarship limit.
+- Walk-on opportunities were a legitimate, well-travelled pathway. With only 4.5 equivalencies to spread and no cap on roster size, most spots could not be funded.
 
 ## Why men's volleyball was different from women's volleyball
 
 The contrast with women's volleyball at NCAA D1 is striking. Women's D1 volleyball was historically a **headcount sport** with a financial aid limit of **12 full scholarships**. In a headcount sport, each scholarship was either full or it didn't count — coaches couldn't subdivide.
 
-The result: women's D1 volleyball typically had 12 players on full scholarships and additional walk-on players who received no athletic aid. Men's D1 volleyball typically had 20-25 players sharing the equivalent of 4.5 scholarships among themselves.
+The result: women's D1 volleyball typically had 12 players on full scholarships and additional walk-on players who received no athletic aid. Men's D1 volleyball spread the equivalent of 4.5 scholarships across a roster with no NCAA size limit.
 
 This difference was rooted in Title IX considerations, the relative size and economics of the two sports, and historical NCAA legislative choices. It produced two very different scholarship cultures even though both sports were organized within the same NCAA framework.
 
@@ -74,9 +74,9 @@ The House v. NCAA settlement, approved by the court on June 6, 2025, fundamental
 
 **Scholarship caps eliminated for opt-in schools.** Division I institutions that opt into the settlement no longer have sport-specific scholarship limits. They may offer athletic financial aid to any and all student-athletes on their roster, up to the new roster cap.
 
-**Roster caps introduced for the first time.** In place of scholarship limits, each NCAA sport now has a roster cap. The new roster cap for men's volleyball is 18 players. This represents a significant reduction from the typical pre-settlement roster size of 20-25 players.
+**Roster caps introduced for the first time.** In place of sport-specific scholarship limits, opt-in Division I programs now have a roster cap, set for men's volleyball at 18 players by Bylaw 17.2. This is a genuinely new constraint — Division I had no roster limit before size of 20-25 players.
 
-**The new model means a smaller roster, but more potential scholarship dollars.** A program that previously carried 22 players with 4.5 equivalencies in scholarships could, under the new model, carry 18 players with up to 18 scholarships' worth of aid — meaning a substantially higher percentage of the roster can now be on meaningful athletic financial aid.
+**The new model means a smaller roster, but more potential scholarship dollars.** A program that previously carried more than 18 with only 4.5 equivalencies to spread could, under the new model, carry 18 with up to 18 scholarships' worth of aid — meaning a substantially higher percentage of the roster can now be on meaningful athletic financial aid.
 
 **Schools choose how to fund within the new framework.** The settlement allows up to 18 scholarships per men's volleyball program — but it doesn't require schools to fund all 18. Each institution decides how many scholarships to fund and at what level (full, partial, or none). Some programs may fully fund 18 scholarships; others may fund significantly fewer.
 

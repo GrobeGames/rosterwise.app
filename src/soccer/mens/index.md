@@ -69,7 +69,7 @@ The club pathway ecosystem also matters. MLS Next (which replaced the Developmen
 
 ## The House settlement and what it means
 
-The 2025 House v. NCAA settlement has reshaped Division I men's soccer in concrete ways. Men's soccer was historically an "equivalency" sport with a 9.9-scholarship cap — coaches split scholarship dollars across multiple players, and many programs carried 30+ players including walk-ons.
+The 2025 House v. NCAA settlement has reshaped Division I men's soccer in concrete ways. Men's soccer was historically an "equivalency" sport with a 9.9-equivalency cap — coaches split scholarship dollars across multiple players, and there was no NCAA limit on roster size at all.
 
 Under the settlement, schools that opted in no longer have a scholarship cap. Instead, they have a roster limit of 28 players. This means more potential scholarship money per player, but fewer total roster spots. Walk-on opportunities are reduced. Power conference schools opted in; other D1 conferences made their own decisions by June 30, 2025.
 
