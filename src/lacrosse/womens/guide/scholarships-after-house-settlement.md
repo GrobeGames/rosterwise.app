@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Women's Lacrosse Scholarships After the House Settlement: An Honest Family Guide | RosterWise™"
 description: "The House settlement changed NCAA D1 women's lacrosse scholarships from 12 to up to 38, but the reality is more complex. Here's what scholarship offers actually look like across D1, D2, D3, NAIA, and NJCAA."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -45,6 +45,9 @@ faq:
   - q: "What if my daughter's program drops women's lacrosse entirely?"
     a: "Per USA Lacrosse magazine's coverage of Maryland coach John Tillman's analysis, a small number of programs may eliminate women's lacrosse entirely under the settlement's financial pressures. If your daughter has committed to a program that subsequently drops lacrosse, the transfer portal is the standard pathway to a new opportunity."
 sources:
+  - "<strong>NJCAA.org, \"Divisional Structure\"</strong> — Division I / II / III scholarship guidelines, quoted verbatim"
+  - "<strong>NJCAA Sports Procedures Chart, 2026-27</strong> — per-sport limits on Letter of Intent signees and scholarships (NJCAA Bylaws Article VI, Section 3.A.1)"
+  - "<strong>2026-27 NCAA Division II Manual, Bylaw 15.4.2.1</strong> (Maximum Equivalency Limits — men's lacrosse 10.8, women's lacrosse 9.9) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - "<strong>U.S. District Court, Northern District of California</strong> — House v. NCAA settlement ruling, approved by Judge Claudia Wilken, June 6, 2025"
   - '<a href="https://www.usalacrosse.com/magazine/college/house-rules-what-ncaa-settlement-means-lacrosse-we-know-it">USA Lacrosse magazine</a> — "House Rules: What the NCAA Settlement Means for Lacrosse as We Know It"'
   - '<a href="https://www.usalacrosse.com/magazine/college/what-ncaa-antitrust-settlement-means-college-lacrosse">USA Lacrosse magazine</a> — "What the NCAA Antitrust Settlement Means for College Lacrosse"'
@@ -52,8 +55,6 @@ sources:
   - '<strong>Sports Illustrated</strong> — Boston College post-House scholarship table (si.com/college/bostoncollege)'
   - '<strong>Whiteford, Taylor &amp; Preston LLP</strong> — "Client Alert: NCAA House Settlement Approved" (whitefordlaw.com)'
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Division I, II, III scholarship and roster framework documentation'
-  - "<strong>List of NCAA Division II lacrosse programs</strong> — 111 women's D2 programs confirmed as of 2025 NCAA season"
-  - '<a href="https://www.njcaa.org">NJCAA.org</a> — Junior college lacrosse scholarship framework'
   - "RosterWise 2025-26 roster dataset — roster sizes for 133 Division I women's lacrosse programs, compiled from publicly available college athletics websites, captured June-August 2026"
 cta:
   heading: "Find programs where the scholarship reality matches your family's needs"
@@ -110,13 +111,13 @@ A few mechanical realities about D1 women's lacrosse scholarships under the new 
 
 The House settlement primarily reshaped NCAA Division I. Other divisions operate under different rules.
 
-Per ScholarshipStats.com and standard NCAA D2 documentation, NCAA Division II women's lacrosse continues to operate under D2-specific scholarship rules. D2 women's lacrosse is an equivalency sport with a per-program scholarship cap. Programs divide their scholarship allotment across the roster, with most awards being partial scholarships.
+Per NCAA Division II Bylaw 15.4.2.1.2, D2 women's lacrosse is an equivalency sport limited to **9.9 equivalencies**. Programs divide that total across the roster, and most awards are partial.
 
 For NCAA Division II in particular, the practical realities include:
 
 - **Many D2 programs are not fully funded**: Per multiple recruiting resources, many D2 women's lacrosse programs operate below the maximum scholarship allotment due to budget constraints. The published cap is the maximum; actual program funding varies.
 - **Partial scholarships are the norm**: Few D2 women's lacrosse athletes receive full athletic scholarships. Most awards are partial, and families typically combine athletic aid with academic merit aid, need-based aid, and outside scholarships.
-- **111 D2 women's lacrosse programs exist**: Per the official NCAA Division II lacrosse programs documentation, there are 111 women's D2 programs as of the 2025 NCAA lacrosse season — significantly more than the 78 men's D2 programs. The larger pool of D2 women's programs means more pathways for recruits.
+- **More D2 programs on the women's side**: the NCAA's projected 2025-26 sport-sponsorship figures put D2 women's lacrosse at **112** programs against **80** for D2 men's; its most recent actual figures, for 2024-25, are **117** and **82**. Either way the women's pool is larger, which means more pathways for recruits. (The NCAA labels the first set as projections and notes actual numbers may change.)
 
 ## D3 women's lacrosse — no athletic scholarships, but...
 
@@ -134,7 +135,7 @@ For many families, D3 women's lacrosse remains a strong option — but the post-
 
 **NAIA women's lacrosse**: The NAIA operates under its own framework. Per the National Women's Lacrosse League (NWLL) reference data, the NAIA does not currently organize lacrosse as a championship sport for its member institutions, though some NAIA schools sponsor women's lacrosse through conferences like the Wolverine-Hoosier Athletic Conference and the Women's Collegiate Lacrosse Associates (WCLA) framework. NAIA athletic scholarships are available at schools that sponsor varsity women's lacrosse, though scholarship rules and funding vary significantly by school.
 
-**NJCAA women's lacrosse**: Junior college women's lacrosse provides another pathway. Per NJCAA.org, NJCAA Division I programs may offer full athletic scholarships; D2 programs may offer scholarships covering tuition, fees, and books; D3 programs do not offer athletic scholarships. See [JUCO Volleyball as a Recruiting Pathway](/volleyball/guide/juco-pathway/) for a parallel discussion of how the JUCO model works across sports.
+**NJCAA women's lacrosse**: read this one carefully. The NJCAA's scholarship structure is clear — Division I colleges may grant full athletic scholarships (tuition, books, fees, room and board, plus up to $250 in course-required supplies and one round trip a year), Division II is limited to tuition, books, fees and the $250 supplies allowance, and Division III may not offer athletic scholarships. But the NJCAA's Sports Procedures Chart, which sets the per-sport cap on Letter of Intent signees, **carries a men's lacrosse row and no women's lacrosse row**. Families should confirm the current status of NJCAA women's lacrosse directly with [NJCAA.org](https://www.njcaa.org) before planning around it.
 
 ## What this means for family scholarship planning
 

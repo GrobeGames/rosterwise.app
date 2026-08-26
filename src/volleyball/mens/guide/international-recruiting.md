@@ -2,7 +2,7 @@
 layout: content.njk
 title: "International Recruiting in Men's College Volleyball"
 description: "Why international recruiting matters more in men's college volleyball — primary source regions in Europe and South America, how programs scout abroad, and what international recruits should know."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -51,7 +51,7 @@ Volleyball is a globally elite men's sport. The countries that produce the most 
 
 For NCAA men's volleyball programs, international recruiting is part of how programs compete at the highest level. Several factors contribute:
 
-- **Smaller domestic talent pool.** The U.S. has fewer than 100,000 boys playing high school volleyball, and the men's college game has roughly 200 total programs. Compared to internationally elite countries, the domestic talent depth is meaningful but not overwhelming.
+- **Smaller domestic talent pool.** The NFHS counted 95,972 boys playing high school volleyball in 2024-25, and the men's college game has fewer than 300 programs across all five governing bodies. Compared to internationally elite countries, the domestic talent depth is meaningful but not overwhelming.
 - **Multiple development pathways internationally.** Countries with strong club systems often develop players through teenage years in ways that produce college-ready international recruits.
 - **Competitive parity.** Top NCAA programs compete at a level that compares favorably to top European college and junior club competition. International players see NCAA programs as legitimate development environments.
 - **Educational opportunity.** The combination of competitive volleyball plus a U.S. college education is attractive to international families.

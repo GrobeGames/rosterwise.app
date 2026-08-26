@@ -2,7 +2,7 @@
 layout: content.njk
 title: "The Combined D1/D2 National Collegiate Men's Volleyball Championship"
 description: "How the unique combined D1/D2 National Collegiate Men's Volleyball Championship works — conferences, championship format, and why this structure matters for recruiting."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -93,7 +93,9 @@ Historically, the championship has been dominated by Pacific Coast programs. Per
 
 ## The future: a separate D2 championship?
 
-A 2024-25 NCAA rule change reduced the minimum number of D2 sponsoring schools required to launch a D2 championship from 50 to 35. Men's volleyball is now closer to the threshold for a separate D2 championship than it has been historically.
+A rule change adopted at the January 2024 NCAA Convention and effective August 1, 2024 set the minimum number of D2 sponsoring schools required to establish or maintain a D2 championship at **35 for both men's and women's sports**. It had been 50 for men's sports and 40 for women's, and the change also eliminated the standing exemptions for the Olympic sports and for men's and women's lacrosse. A sport that falls below 35 gets a three-year grace period to recover before its championship is discontinued; sponsorship is measured as of September 30 each year, and existing championships were expressly **not** grandfathered.
+
+**D2 men's volleyball now clears that threshold.** The NCAA's most conservative current count — active D2 members sponsoring the sport in 2025-26 — is 36, and its projected and actual figures are 43 and 44. So the question is no longer whether D2 could reach the number; it is whether Division II chooses to establish a separate championship.
 
 If a D2 championship were established, the implications would be:
 
@@ -131,7 +133,7 @@ The major structural difference: D3 programs do not offer athletic scholarships.
 
 NAIA and NJCAA men's volleyball are entirely separate from NCAA structure. They operate as independent athletics governing bodies with their own championship structures.
 
-**NAIA men's volleyball:** The NAIA Men's Volleyball Championship is in its 7th annual edition in 2026, held April 28-May 2, 2026 at the Alliant Energy PowerHouse in Cedar Rapids, Iowa. The championship features 12 teams (8 automatic bids + 3 at-large + 1 host berth). The 2026 NAIA champion was Park (Mo.), who completed an undefeated season; The Master's (Calif.) was the 2025 champion. Grand View has the most NAIA championship titles with 2.
+**NAIA men's volleyball:** The NAIA has crowned a national men's volleyball champion under three different sport statuses, which is why you will see conflicting "first year" claims. The NAIA's own association history records men's volleyball on its championship calendar from **1969 to 1980**. It returned as an **emerging sport from 1999 to 2015**, ran as an **invitational from 2016 to 2018**, and became a full national championship sport in **2019** — announced that year as the association's 26th championship sport. Programs with NAIA men's volleyball title banners from the 2000s earned them legitimately, under emerging-sport status. The current championship is in its 7th annual edition in 2026, held April 28-May 2, 2026 at the Alliant Energy PowerHouse in Cedar Rapids, Iowa. The championship features 12 teams (8 automatic bids + 3 at-large + 1 host berth). The 2026 NAIA champion was Park (Mo.), who completed an undefeated season; The Master's (Calif.) was the 2025 champion. Grand View has the most NAIA championship titles with 2.
 
 **NJCAA men's volleyball:** Starting in 2026, NJCAA men's volleyball becomes an official national championship sport. Previously it had been operated as an invitational. The first NJCAA Men's Volleyball National Championship features an 8-team double-elimination bracket. College of DuPage hosts in 2026 and 2028; Finger Lakes Community College hosts in 2027 and 2029. The NJCAA men's volleyball ecosystem is small (approximately 18 programs) and heavily concentrated in the Northeast.
 

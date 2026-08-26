@@ -2,7 +2,7 @@
 layout: content.njk
 title: "NJCAA Lacrosse: The Junior College (JUCO) Pathway, Explained | RosterWise™"
 description: "An honest guide to junior college lacrosse — how the NJCAA men's national championship works, why women's NJCAA lacrosse was discontinued, the small Northeast-concentrated footprint, and how four-year recruiting and transfer rules work."
-date: 2026-07-16
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -24,6 +24,9 @@ related:
   - title: "The Transfer Portal Explained"
     url: /guide/transfer-portal/
 sources:
+  - "<strong>NJCAA 2024-25 Annual Report</strong> — membership figures (514 member colleges across 44 states) — published at njcaa.org/about/annual_report/"
+  - "<strong>NJCAA.org, \"Divisional Structure\"</strong> — Division I / II / III scholarship guidelines, quoted verbatim"
+  - "<strong>NJCAA Sports Procedures Chart, 2026-27</strong> — per-sport limits on Letter of Intent signees and scholarships (NJCAA Bylaws Article VI, Section 3.A.1)"
   - "NJCAA.org — 'Compete' overview and membership figures"
   - "NJCAA.org — Men's Lacrosse national championship pages and results"
   - "NJCAA.org — official release discontinuing Women's Lacrosse (dated July 11, 2024)"
@@ -41,7 +44,7 @@ ${toc}
 
 ## What NJCAA lacrosse actually is
 
-The **NJCAA** — the National Junior College Athletic Association — governs varsity athletics at two-year colleges nationwide (**more than 500 member colleges in 44 states**, by its own figures). Lacrosse is one of the sports it sponsors, but with two important qualifiers that families need up front.
+The **NJCAA** — the National Junior College Athletic Association — governs varsity athletics at two-year colleges nationwide (**514 member colleges across 44 states** in 2024-25, by its own figures). Lacrosse is one of the sports it sponsors, but with two important qualifiers that families need up front.
 
 For a full primer on the NJCAA — how it relates to the NCAA and NAIA, and whether athletes graduate — see our sport-agnostic guide, [What Is the NJCAA?](/guide/njcaa-juco-explained/). This page focuses on lacrosse specifically.
 

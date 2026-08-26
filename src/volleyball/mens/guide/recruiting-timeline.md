@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Men's College Volleyball Recruiting Timeline"
 description: "How men's college volleyball recruiting unfolds year by year — NCAA contact dates, when coaches evaluate, and how the pace differs from women's volleyball."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -140,7 +140,7 @@ The general patterns above describe NCAA Division I recruiting. The picture diff
 
 - **NCAA Division I and II:** Use the June 15 / August 1 framework described above. Most active recruiting happens junior year, with significant senior-year activity remaining.
 - **NCAA Division III:** Has the most relaxed NCAA recruiting rules. Coaches can communicate more freely earlier. But D3 programs cannot offer athletic scholarships, so the recruiting conversation typically involves academic merit aid, need-based aid, and program fit rather than scholarship money. Top D3 men's volleyball programs (in conferences like the CCIW, the MIAC, the NESCAC, and the SCIAC, among others) compete at a high level and recruit accordingly.
-- **NAIA:** Operates under its own recruiting framework, which is generally less restrictive than NCAA D1. The NAIA Men's Volleyball Championship is in its 7th annual edition in 2026, with a 12-team field. Park (Mo.), Grand View (Iowa), and other established programs anchor the competitive top of the NAIA level.
+- **NAIA:** Operates under its own recruiting framework, which is generally less restrictive than NCAA D1. The NAIA Men's Volleyball Championship is in its 7th annual edition in 2026, with a 12-team field. (The NAIA also crowned men's volleyball national champions from 1969 to 1980, and again as an emerging sport from 1999, before the current championship began in 2019.) Park (Mo.), Grand View (Iowa), and other established programs anchor the competitive top of the NAIA level.
 - **NJCAA:** Junior college men's volleyball recruiting tends to happen later, often during senior year of high school, and a meaningful share of NJCAA recruits use their junior college years as a development pathway to four-year programs. 2026 marks the first year NJCAA men's volleyball is an official championship sport (previously an invitational).
 
 ## How the club season shapes the timeline
@@ -172,7 +172,7 @@ This pattern is more pronounced in men's volleyball than in many other sports. F
 
 ## The honest reality
 
-Men's college volleyball recruiting is a real process with real opportunities, but the math is tight. There are roughly 200 men's volleyball programs nationally across all levels, compared to the tens of thousands of high school boys playing the sport. Even with the sport growing rapidly (boys' high school volleyball participation rose more than 44 percent from 2021-22 to 2024-25, per NFHS data), the funnel into college rosters is competitive.
+Men's college volleyball recruiting is a real process with real opportunities, but the math is tight. There are fewer than 300 men's volleyball programs nationally across all levels, against roughly 96,000 high school boys playing the sport. Even with the sport growing rapidly (boys' high school volleyball participation rose more than 44 percent from 2021-22 to 2024-25, per NFHS data), the funnel into college rosters is competitive.
 
 What this means for families:
 

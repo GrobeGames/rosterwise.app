@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Junior College (JUCO) Volleyball Recruiting: A Real Pathway Most Families Misunderstand | RosterWise™"
 description: "An honest look at junior college (JUCO) volleyball as a recruiting pathway — NJCAA divisions, California's 3C2A, transfer rules to NCAA D-I/D-II, and how recent NCAA changes affect the JUCO opportunity for volleyball families."
-date: 2026-07-16
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -34,6 +34,9 @@ related:
   - title: "NCAA Eligibility Center"
     url: /guide/ncaa-eligibility-center/
 sources:
+  - "<strong>NJCAA 2024-25 Annual Report</strong> — membership figures (514 member colleges across 44 states) — published at njcaa.org/about/annual_report/"
+  - "<strong>NJCAA.org, \"Divisional Structure\"</strong> — Division I / II / III scholarship guidelines, quoted verbatim"
+  - "<strong>NJCAA Sports Procedures Chart, 2026-27</strong> — per-sport limits on Letter of Intent signees and scholarships (NJCAA Bylaws Article VI, Section 3.A.1)"
   - '<a href="https://njcaa.org">National Junior College Athletic Association (NJCAA)</a> — njcaa.org (governance, divisional structure, eligibility rules)'
   - '2025-26 NJCAA Handbook — Published at njcaa.org/governance/handbook'
   - '<a href="https://njcaa.org/eligibility">NJCAA Eligibility Center</a> — njcaa.org/eligibility'
@@ -57,7 +60,7 @@ ${toc}
 
 "JUCO" — junior college — refers to two-year community and junior colleges in the United States. For volleyball recruiting, JUCO programs operate under one of two governing bodies, and the difference matters enormously.
 
-**1. NJCAA (National Junior College Athletic Association).** Per NJCAA.org, the NJCAA governs athletics at over 500 two-year community and junior colleges nationwide. It offers three divisions with distinct scholarship rules. NJCAA member institutions are located throughout the country — but notably exclude California community colleges, which operate under their own governing body.
+**1. NJCAA (National Junior College Athletic Association).** Per the NJCAA's own 2024-25 Annual Report, the association had **514 member colleges across 44 states**, fielding 3,761 teams. It offers three divisions with distinct scholarship rules. NJCAA member institutions are located throughout the country — but notably exclude California community colleges, which operate under their own governing body.
 
 **2. 3C2A (formerly CCCAA — California Community College Athletic Association).** Per cccaasports.org, 3C2A governs athletics at 109 California community colleges. It operates entirely separately from NJCAA and under fundamentally different rules. The most critical difference: **3C2A institutions cannot offer athletic scholarships under any circumstances**, per California state regulations and 3C2A Bylaw 2.11 (as confirmed by individual California community college athletic departments including Citrus College Athletics).
 

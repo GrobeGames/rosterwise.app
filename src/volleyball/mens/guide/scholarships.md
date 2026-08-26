@@ -32,7 +32,9 @@ sources:
   - "House v. NCAA settlement final approval order (June 6, 2025)"
   - "NCAA — Question and Answer: Implementation of the House Settlement (published June 13, 2025)"
   - "NCAA.org — Division I Board of Directors formal adoption of roster limits (June 23, 2025)"
-  - "Yahoo Sports reporting on House Settlement roster limits (including statements from John Speraw, USA Volleyball CEO)"
+  - "<strong>2026-27 NCAA Division I Manual, Bylaw 17.2</strong> (Roster Limitations — men's volleyball 18) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - "<strong>NAIA Official &amp; Policy Handbook</strong>, Section XIII (Institutional Financial Aid Policy) — per-sport upper limits, roster policy and academic exemptions"
+  - "<strong>NJCAA.org, \"Divisional Structure\"</strong> and the <strong>NJCAA Sports Procedures Chart</strong> — divisional scholarship guidelines and per-sport signee limits"
   - "NCAA 2024-25 Division I Manual — Pre-settlement equivalency limits"
 cta:
   heading: "RosterWise Volleyball — now available for men's and women's programs"
@@ -104,9 +106,9 @@ The post-settlement scholarship landscape varies significantly across divisions:
 
 **NCAA Division III:** D3 programs do not offer athletic scholarships. Financial aid at D3 schools comes through academic merit aid, need-based aid, and federal aid. Top D3 men's volleyball programs often produce competitive financial packages through these channels — particularly at academically selective institutions where merit-based aid is generous.
 
-**NAIA:** NAIA schools may offer athletic scholarships. Scholarship limits vary by institution and conference. NAIA financial aid often combines athletic scholarship, academic merit aid, and institutional aid into a single package.
+**NAIA:** the NAIA publishes a single fixed cap per sport that applies to every member institution — **8 full-grant equivalencies for volleyball**, per Section XIII of the NAIA Official & Policy Handbook. It is a team limit, not split by gender, and it is measured in equivalencies, so a program can spread it across any number of players. The NAIA also places **no limit on varsity roster size**, and aid to academically strong students can be partly or wholly exempt from the cap. NAIA financial aid often combines athletic, academic and institutional aid into a single package.
 
-**NJCAA:** Junior college men's volleyball programs may offer scholarships at the discretion of the institution. NJCAA scholarship structures are less standardized than NCAA divisions.
+**NJCAA:** more standardized than families expect. NJCAA Division I colleges may grant full athletic scholarships (tuition, books, fees, room and board, plus up to $250 in course-required supplies and one round trip a year); Division II is limited to tuition, books, fees and the $250 supplies allowance; Division III may not offer athletic scholarships at all. The NJCAA additionally caps the **number** of Letter of Intent signees and scholarships per sport — **14 in men's volleyball** — and that cap is identical across all three divisions.
 
 ## What this means for walk-ons and partial-scholarship recruits
 

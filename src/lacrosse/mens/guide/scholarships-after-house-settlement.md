@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Men's Lacrosse Scholarships After the House Settlement: An Honest Family Guide | RosterWise™"
 description: "The House settlement changed NCAA D1 men's lacrosse scholarships from 12.6 to up to 48 — but the reality varies dramatically by program. Here's what scholarship offers actually look like across all divisions."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -47,6 +47,9 @@ faq:
   - q: "Are there walk-on or developmental opportunities for late-developing recruits?"
     a: "This depends on the specific program. Many D1 programs prioritize their 48 roster spots for athletes who can contribute immediately. Late-developing recruits often find better opportunities at D2, D3, NAIA, and NJCAA programs where roster construction allows more development time."
 sources:
+  - "<strong>NJCAA.org, \"Divisional Structure\"</strong> — Division I / II / III scholarship guidelines, quoted verbatim"
+  - "<strong>NJCAA Sports Procedures Chart, 2026-27</strong> — per-sport limits on Letter of Intent signees and scholarships (NJCAA Bylaws Article VI, Section 3.A.1)"
+  - "<strong>2026-27 NCAA Division II Manual, Bylaw 15.4.2.1</strong> (Maximum Equivalency Limits — men's lacrosse 10.8, women's lacrosse 9.9) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - "<strong>U.S. District Court, Northern District of California</strong> — House v. NCAA settlement ruling, approved by Judge Claudia Wilken, June 6, 2025"
   - '<a href="https://www.usalacrosse.com/magazine/college/house-rules-what-ncaa-settlement-means-lacrosse-we-know-it">USA Lacrosse magazine</a> — "House Rules: What the NCAA Settlement Means for Lacrosse as We Know It"'
   - '<a href="https://www.usalacrosse.com/magazine/college/what-ncaa-antitrust-settlement-means-college-lacrosse">USA Lacrosse magazine</a> — "What the NCAA Antitrust Settlement Means for College Lacrosse"'
@@ -55,9 +58,7 @@ sources:
   - '<strong>Whiteford, Taylor &amp; Preston LLP</strong> — "Client Alert: NCAA House Settlement Approved" (whitefordlaw.com)'
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Division I, II, III scholarship and roster framework documentation'
   - '<a href="https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship: "2025-26 NCAA Projected Sport Sponsorship," as of September 2025 (men''s lacrosse: 77 DI, 80 DII, 236 DIII; women''s lacrosse: 134 DI, 112 DII, 279 DIII)'
-  - '<a href="https://www.njcaa.org">NJCAA.org</a> — Junior college lacrosse scholarship framework, including the 20-scholarship maximum at NJCAA D-I'
   - "RosterWise 2025-26 roster dataset — roster sizes for 77 Division I men's lacrosse programs, compiled from publicly available college athletics websites, captured June-August 2026"
-  - "<strong>ScholarshipStats.com</strong> — NCAA scholarship equivalency framework documentation"
 cta:
   heading: "Find programs where the scholarship reality matches your family's needs"
   text: "Generic scholarship rules don't tell you what any specific program is actually offering. The House settlement created winners and losers across men's D1 lacrosse — not based on competitive level, but based on individual program funding decisions. RosterWise analyzes every D1, D2, D3, NAIA, and NJCAA men's lacrosse program — position depth (including specialized positions like FOGO and LSM), class year gaps, recruiting geography, Canadian recruiting patterns, transfer portal activity, and personalized fit scoring."
@@ -131,7 +132,7 @@ Several mechanical realities under the new framework:
 
 NCAA Division II men's lacrosse operates under D2-specific scholarship rules that were not directly changed by the House settlement.
 
-Per ScholarshipStats.com's NCAA D2 documentation, D2 men's lacrosse is an equivalency sport with a per-program scholarship cap. Partial scholarships are common — for example, an NCAA D2 program might award 20 male athletes each a half scholarship rather than 10 full scholarships, as long as the total equivalent doesn't exceed the limit.
+Per NCAA Division II Bylaw 15.4.2.1.1, D2 men's lacrosse is an equivalency sport limited to **10.8 equivalencies**. Partial scholarships are the norm — a program might award 20 athletes a half scholarship each rather than 10 full ones, so long as the total does not exceed 10.8.
 
 Practical realities at the D2 men's lacrosse level:
 
@@ -156,7 +157,7 @@ The Middlebury, Tufts, RIT, and other top D3 programs have produced NCAA D3 men'
 
 **NAIA men's lacrosse**: The NAIA sponsors men's lacrosse and runs a national championship. It does not publish a current program count we could verify from a primary source, so we don't state one — check [NAIA.org](https://www.naia.org) for the current field. NAIA athletic scholarships are available at schools that sponsor the sport, though scholarship rules and funding vary by school. NAIA scholarship limits operate as equivalency awards similar to NCAA D2 (though specific limits may differ — families should consult NAIA.org directly).
 
-**NJCAA men's lacrosse**: The NJCAA sponsors men's lacrosse at the junior-college level; like the NAIA it publishes no verifiable current program count, so we don't state one — check [NJCAA.org](https://www.njcaa.org) for the current field. Per NJCAA.org, NJCAA D-I programs may offer full athletic scholarships (covering tuition, fees, books, room, and board); D-II programs may offer scholarships for tuition, fees, and books only; D-III programs do not offer athletic scholarships. Per multiple sources, the NJCAA offers 20 men's lacrosse scholarships maximum per team at D-I. JUCO programs are particularly valuable for athletes seeking development before transferring to NCAA D-I or D-II programs.
+**NJCAA men's lacrosse**: the NJCAA sponsors men's lacrosse at the junior-college level. It publishes no program-sponsorship count, so we state none — check [NJCAA.org](https://www.njcaa.org) for the current field. What it does publish is the scholarship structure: Division I colleges may grant full athletic scholarships (tuition, books, fees, room and board, plus up to $250 in course-required supplies and one round trip a year), Division II is limited to tuition, books, fees and the $250 supplies allowance, and Division III may not offer athletic scholarships at all. The NJCAA additionally caps the **number** of Letter of Intent signees and scholarships per sport — **24 in men's lacrosse** — and that cap is identical in all three divisions. A signee counts against it regardless of how much aid they receive.
 
 For families considering the JUCO pathway specifically, see [JUCO Volleyball as a Recruiting Pathway](/volleyball/guide/juco-pathway/) for the broader JUCO framework, which applies similarly to men's lacrosse.
 

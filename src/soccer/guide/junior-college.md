@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Junior College Soccer: An Overlooked Path to D1"
 description: "How NJCAA junior college soccer works for men and women — structure, transfer rules, and why JUCO is a legitimate pathway to four-year programs at every NCAA division."
-date: 2026-04-26
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -28,6 +28,9 @@ related:
     url: /soccer/guide/evaluating-programs/
     status: live
 sources:
+  - "<strong>NJCAA 2024-25 Annual Report</strong> — membership figures (514 member colleges across 44 states) — published at njcaa.org/about/annual_report/"
+  - "<strong>NJCAA.org, \"Divisional Structure\"</strong> — Division I / II / III scholarship guidelines, quoted verbatim"
+  - "<strong>NJCAA Sports Procedures Chart, 2026-27</strong> — per-sport limits on Letter of Intent signees and scholarships (NJCAA Bylaws Article VI, Section 3.A.1)"
   - "NJCAA.org — National Junior College Athletic Association official website"
   - "NCAA.org — Transfer eligibility rules and resources"
   - "NJCAA Eligibility Rules, current edition"
@@ -43,11 +46,13 @@ ${toc}
 
 The National Junior College Athletic Association (NJCAA) governs athletics at two-year colleges across the United States. NJCAA soccer includes both men's and women's programs, organized into three divisions:
 
-- **NJCAA Division I**: Can offer full athletic scholarships (tuition, fees, room, board, books, and course-related supplies)
-- **NJCAA Division II**: Can offer partial athletic scholarships (tuition, fees, and books only)
-- **NJCAA Division III**: No athletic scholarships; financial aid is need-based and academic
+- **NJCAA Division I**: may grant full athletic scholarships — tuition, books, fees, room and board — plus up to $250 in course-required supplies and one round trip per academic year between home and college
+- **NJCAA Division II**: may grant athletic scholarships limited to tuition, books, fees and up to $250 in course-required supplies. D2 programs may not provide transportation costs
+- **NJCAA Division III**: not permitted to offer any athletic scholarships
 
-NJCAA programs are spread across more than 400 member colleges nationally. The level of competition varies, but the strongest NJCAA Division I programs regularly produce players who transfer to NCAA D1 programs and contribute immediately.
+The NJCAA also caps the **number** of Letter of Intent signees and scholarships per sport — 24 in soccer — and that cap is the same in all three divisions, counted separately for men and women. A signee counts against it regardless of how much athletic aid they actually receive. If a sport lacks the numbers to split into divisions, it runs under the Division I guidelines.
+
+The NJCAA reports **514 member colleges across 44 states** for 2024-25, fielding 3,761 teams in all. The level of competition varies, but the strongest NJCAA Division I programs regularly produce players who transfer to NCAA D1 programs and contribute immediately.
 
 **Important context:** The number of NJCAA soccer programs and the level of competition varies significantly by region. Some areas of the country have deep concentrations of strong programs; others have few options. Research your specific geography before assuming NJCAA is or isn't a practical pathway.
 

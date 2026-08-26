@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Men's Volleyball Recruiting Video"
 description: "How to film, edit, and share a men's volleyball recruiting video that coaches will actually watch — content, length, hosting, and position-specific guidance."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -40,7 +40,7 @@ cta:
 
 ${toc}
 
-A well-prepared recruiting video is one of the highest-leverage things a men's volleyball recruit can produce. With fewer than 200 college men's volleyball programs nationwide and limited coach travel budgets, many recruiting evaluations happen on film before they ever happen in person. A clear, focused, accurately-presented recruiting video can open doors that nothing else opens.
+A well-prepared recruiting video is one of the highest-leverage things a men's volleyball recruit can produce. With fewer than 300 college men's volleyball programs nationwide and limited coach travel budgets, many recruiting evaluations happen on film before they ever happen in person. A clear, focused, accurately-presented recruiting video can open doors that nothing else opens.
 
 This guide walks through what coaches actually want to see, how to film it, how long to make it, and how to share it.
 
@@ -53,7 +53,7 @@ Men's college volleyball coaches receive a meaningful share of their evaluations
 - **Coaches scout efficiently.** A clear, focused 5-minute video can convey what would take 30 minutes of live observation to confirm.
 - **Coaches share video internally.** A good recruiting video gets passed around a coaching staff — head coach to assistants to graduate assistants — without you having to be re-evaluated in person each time.
 
-For a sport with fewer than 200 college programs and tens of thousands of high school participants, the recruits whose video makes evaluation easy for coaches have a real advantage.
+For a sport with fewer than 300 college programs and roughly 96,000 high school participants, the recruits whose video makes evaluation easy for coaches have a real advantage.
 
 ## What coaches want to see
 
