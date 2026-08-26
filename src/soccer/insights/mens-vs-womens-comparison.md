@@ -107,13 +107,13 @@ The scholarship landscape has historically been one of the starkest differences 
 
 | Factor | Men's | Women's |
 |--------|-------|---------|
-| **D1 pre-House classification** | Equivalency (9.9 scholarships split) | Head count (14 full scholarships) |
+| **D1 pre-House classification** | Equivalency (9.9 equivalencies, divisible) | Equivalency (14.0 equivalencies, divisible) |
 | **D1 roster limit (House settlement)** | 28 | 28 |
 | **D2 classification** | Equivalency | Equivalency |
 | **D3 scholarships** | None (academic/need-based only) | None (academic/need-based only) |
 | **NAIA scholarships** | Available | Available |
 
-The pre-House distinction was significant. In men's D1 soccer, 9.9 scholarships were split across the entire roster, meaning most scholarship players received partial athletic aid. In women's D1 soccer, each of the 14 scholarships was a full ride, with the rest of the roster receiving no athletic scholarship money.
+The pre-House difference was one of size, not structure. Both were equivalency sports, so in each the coach divided a fixed total across the roster in full and partial awards. Women's programs simply had more to divide — 14.0 equivalencies against the men's 9.9 — spread across rosters that our 2025 data shows are smaller on average. In both, most scholarship players received partial athletic aid and some of the roster received none.
 
 Under the House settlement for opt-in schools, sport-specific scholarship caps are gone and both genders operate under a 28-player roster limit.
 

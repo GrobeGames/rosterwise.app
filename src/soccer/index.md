@@ -56,7 +56,7 @@ There are more than 1,600 college soccer programs in the United States across NC
 
 Men's and women's college soccer share a sport, but the recruiting landscapes are meaningfully different. Women's soccer has historically recruited earlier, with verbal commitments sometimes happening in freshman or sophomore year of high school. Men's soccer tends to recruit later, with the bulk of commitments clustering in junior and senior year.
 
-Scholarship structures differ as well. Women's soccer is a "head count" sport in NCAA D1 — each scholarship is a full scholarship, and programs are limited in how many they can award. Men's soccer has traditionally been an "equivalency" sport, where coaches split scholarship dollars across more players. The 2025 House v. NCAA settlement has changed some of these dynamics, replacing scholarship caps with roster limits for schools that opted in.
+Scholarship structures differ as well, though less than families are often told. Both men's and women's soccer were "equivalency" sports in NCAA D1 before the House settlement — coaches could divide the scholarship total into partial awards rather than awarding a fixed number of full rides. The totals differed: women's soccer was capped at 14 equivalencies and men's at 9.9. The 2025 House v. NCAA settlement has changed some of these dynamics, replacing scholarship caps with roster limits for schools that opted in.
 
 International recruiting patterns also differ significantly between men's and women's programs, as do the club pathways (MLS Next and ECNL Boys for men; GA and ECNL Girls for women) that feed into the college game.
 

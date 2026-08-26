@@ -19,7 +19,7 @@ children:
     status: live
   - title: "How Men's College Soccer Scholarships Actually Work"
     url: /soccer/mens/guide/scholarships/
-    summary: "Equivalency vs. head count, the House settlement impact, roster limits, and what families should realistically expect."
+    summary: "The equivalency model, the House settlement impact, roster limits, and what families should realistically expect."
     status: live
   - title: "MLS Next, ECNL Boys, and the Men's College Recruiting Pathway"
     url: /soccer/mens/guide/club-pathways/

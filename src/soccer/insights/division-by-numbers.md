@@ -117,7 +117,7 @@ Pennsylvania and New York each host more college soccer programs than many entir
 
 ### D1: the new post-House landscape
 
-Before the House settlement, D1 men's soccer had 9.9 equivalency scholarships (split across the roster) and D1 women's soccer had 14 head-count scholarships (each a full ride). The settlement changed this for opt-in schools:
+Before the House settlement, both D1 men's and D1 women's soccer were equivalency sports — men's capped at 9.9 equivalencies, women's at 14.0 — with the total divisible into partial awards across the roster. Neither was a head-count sport. The settlement changed this for opt-in schools:
 
 - Sport-specific scholarship caps are eliminated
 - Roster limits apply (28 for both men's and women's soccer)

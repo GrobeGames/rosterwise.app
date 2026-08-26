@@ -70,19 +70,21 @@ Women's soccer rosters are generally smaller than men's programs in the same div
 
 Compared to men's programs, women's rosters tend to have a more even distribution between midfielders and forwards. Goalkeeper counts are slightly lower — many women's programs carry 2-3 goalkeepers versus 3-4 on men's rosters.
 
-## The scholarship context: head count vs. equivalency
+## The scholarship context: an equivalency sport, capped at 14
 
-One of the most important differences between men's and women's D1 soccer is how scholarships work — and this directly affects roster size.
+How scholarships work in D1 soccer shapes roster size — and the structure is the same for women and men.
 
-Women's soccer has traditionally been a "head count" sport in NCAA D1, meaning each scholarship is a full scholarship. Programs were limited to 14 full scholarships. This structure influenced roster size because coaches had a fixed number of fully-funded spots and then built out the rest of the roster with walk-ons and partial institutional aid.
+Women's D1 soccer was an **equivalency** sport before the House settlement, limited to **14.0 equivalencies** per program. An equivalency is one full scholarship's worth of money, and a coach could divide the total into partial awards in any combination. Men's D1 soccer worked the same way at 9.9. Neither was a head-count sport: the Division I head-count sports other than football and basketball were women's gymnastics, women's tennis and women's volleyball.
+
+Because the total was capped well below roster size, coaches spread partial awards across the roster and filled the remainder with walk-ons and institutional aid.
 
 The 2025 House v. NCAA settlement changed the framework for opt-in schools, introducing a roster limit of 28 and eliminating sport-specific scholarship caps.
 
 **What this means for families:**
 - Programs that opted into the settlement have a defined roster cap of 28
-- More scholarship flexibility exists within that cap — coaches can potentially fund more than 14 players
+- More scholarship flexibility exists within that cap — the 14-equivalency ceiling no longer applies
 - Walk-on opportunities may be more limited at opt-in schools
-- Programs that did not opt in operate under the previous head-count model
+- For programs that did not opt in, ask directly: the 2026-27 NCAA Division I Manual no longer publishes sport-specific aid limits for any Division I institution
 
 The 2025 data shows D1 women's programs averaging 27.6 players with a median of 28 — closely aligned with the new roster limit. Families should ask each D1 program whether they opted into the settlement, as this directly affects how many spots are available and how they are funded.
 

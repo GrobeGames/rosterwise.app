@@ -1,7 +1,7 @@
 ---
 layout: content.njk
 title: "How Women's College Soccer Scholarships Work | RosterWise™"
-description: "A clear breakdown of women's college soccer scholarships — the head count model, the House settlement impact, D2 equivalency, D3 financial aid, and NAIA — with realistic expectations for families."
+description: "A clear breakdown of women's college soccer scholarships — the equivalency model, the House settlement impact, D2 limits, D3 financial aid, and NAIA — with realistic expectations for families."
 date: 2026-04-26
 breadcrumbs:
   - text: Home
@@ -12,7 +12,7 @@ breadcrumbs:
     url: /soccer/womens/
   - text: Guide
   - text: Scholarships
-summary: "Women's college soccer scholarship rules are different from men's — and the House settlement has changed the landscape again. Before the settlement, D1 women's soccer was one of the few 'head count' sports: each scholarship was a full scholarship, with a cap of 14 per program. Under the settlement, opt-in schools now operate under a 28-player roster limit with no scholarship cap. D2 offers 9.9 equivalency scholarships. D3 offers no athletic scholarships at all. NAIA allows up to 12. This guide explains how each division actually works, what changed under the settlement, and what families can realistically expect."
+summary: "Women's college soccer scholarships work the same way men's do — as an equivalency sport, where the program's total is divided into full and partial awards at the coach's discretion. Before the House settlement the D1 limit was 14 equivalencies. Under the settlement, opt-in schools now operate under a 28-player roster limit with no scholarship cap. D2 offers 9.9 equivalencies. D3 offers no athletic scholarships at all. NAIA allows up to 12. This guide explains how each division actually works, what changed under the settlement, and what families can realistically expect."
 related:
   - title: "Women's College Soccer Recruiting Timeline"
     url: /soccer/womens/guide/recruiting-timeline/
@@ -41,16 +41,22 @@ cta:
 
 ${toc}
 
-## The biggest difference: women's soccer was a "head count" sport
+## Women's soccer is an equivalency sport — it never was a "head count" sport
 
-Before the House settlement, the most important thing to understand about women's D1 soccer scholarships was the distinction between **head count** and **equivalency** sports.
+This is the single most misreported fact in women's soccer recruiting, and it changes what an offer means.
 
-- **Head count sports** (women's soccer, women's basketball, women's volleyball, among others): each scholarship awarded was a full scholarship. A coach could not split a scholarship between two players. The program had a fixed number of full rides — 14 in women's soccer — and that was it.
-- **Equivalency sports** (men's soccer, baseball, softball, and many others): coaches could divide the scholarship total into partial awards. A program with 9.9 equivalency scholarships might give one player 50%, another 75%, and so on.
+Before the House settlement, NCAA Division I sports fell into two categories:
 
-This distinction meant that **pre-settlement D1 women's soccer players who received an athletic scholarship received a full scholarship** — covering tuition, room, board, and fees. But it also meant only 14 players on a typical roster of 28-32 received any athletic aid at all. The remaining players were walk-ons receiving no athletic scholarship.
+- **Head count sports:** each scholarship awarded had to be a full scholarship. A coach could not split one between two players. Under NCAA Division I Bylaw 15.5.2.1, the head count sports other than football and basketball were **women's gymnastics (12), women's tennis (8) and women's volleyball (12)** — that was the whole list.
+- **Equivalency sports:** the program held a total scholarship value that the coach could divide across the roster in any combination. Under Bylaw 15.5.3.1.2, **women's soccer was an equivalency sport limited to 14.0 equivalencies.** Men's soccer was an equivalency sport limited to 9.9.
 
-The House settlement has changed this structure for opt-in schools, as described below.
+So a pre-settlement D1 women's soccer program did **not** hold 14 full rides. It held 14 full-scholarship equivalents that a coach could split — 40% here, 75% there — across as many players as they chose. **A women's soccer scholarship offer has never automatically meant a full ride.**
+
+What the 14-equivalency ceiling did mean is that scholarship dollars were spread thin relative to roster size, and that many players on a D1 roster received no athletic aid at all.
+
+The House settlement removed the ceiling for opt-in schools, as described below.
+
+> **Correction.** An earlier version of this page described women's D1 soccer as a "head count" sport in which every scholarship was a full scholarship. That was wrong. Women's soccer has always been an equivalency sport; the 14 figure was an equivalency limit, not a count of full rides. Corrected 2026-08-26 against NCAA Division I Bylaws 15.5.2.1 and 15.5.3.1.2.
 
 ## D1 women's soccer: the House settlement era
 
@@ -58,16 +64,16 @@ The House v. NCAA settlement, approved in June 2025, fundamentally changed how D
 
 ### What changed
 
-**Before the settlement:** D1 women's soccer had 14 head count scholarships. Each was a full scholarship. Programs typically carried 28-32 players: 14 on full scholarship and the rest as walk-ons with no athletic aid.
+**Before the settlement:** D1 women's soccer was capped at 14 equivalencies, which a coach could divide into full and partial awards across the roster. Because RosterWise's roster data begins with 2025-26 — the first season played under the new limits — we cannot say how large those pre-settlement rosters were, and we will not estimate.
 
-**After the settlement (opt-in schools):** The head count model is gone. Schools that opted in may award athletic scholarships up to their roster limit of 28 players, with no requirement that each scholarship be a full award. In theory, a program could distribute scholarship money across all 28 roster spots. In practice, how programs handle this transition varies — some may still offer a mix of full and partial awards, while others may experiment with different distribution models.
+**After the settlement (opt-in schools):** The 14-equivalency ceiling is gone. Schools that opted in may award athletic scholarships up to their roster limit of 28 players. In theory, a program could distribute scholarship money across all 28 roster spots. In practice, how programs handle this transition varies — some may still offer a mix of full and partial awards, while others may experiment with different distribution models.
 
 ### What this means for families
 
-The shift from head count to roster-limit-based aid creates new questions:
+The shift from a capped equivalency total to roster-limit-based aid creates new questions:
 
-- **More players may receive some athletic aid.** Instead of 14 full scholarships and 14 walk-ons, programs might distribute aid to 20+ players at varying levels.
-- **Full scholarships may become less common at some programs.** If a program spreads its budget across more players, individual awards may be smaller than the old full-ride model.
+- **More players may receive some athletic aid.** A program is no longer working against a 14-equivalency ceiling, so it can fund more of the roster if it chooses to.
+- **Award sizes still vary program by program.** Removing the cap raises what a program *may* fund, not what it *does* fund. Budget decides that, and budgets differ.
 - **Walk-on opportunities are reduced.** A 28-player roster limit means fewer total roster spots than many programs historically carried.
 - **The landscape is still evolving.** Programs are adapting their financial models in real time. What a program offered in 2024 may not reflect what it offers in 2026.
 
@@ -161,8 +167,8 @@ Athletic scholarships are important, but they're not the only financial lever. F
 
 Every family's situation is different, and scholarship outcomes vary enormously based on the player's ability, the programs they're talking to, their academic profile, and their financial circumstances. That said, some general patterns:
 
-- **At opt-in D1 programs**, the old model of 14 full rides is evolving. Some players may receive full scholarships; others may receive partial awards. The system is new and still being sorted out.
-- **At non-opt-in D1 programs**, the 14 head count scholarships remain in effect — full scholarships for those who receive them, nothing for walk-ons.
+- **At opt-in D1 programs**, the 14-equivalency ceiling is gone and programs may fund up to the 28-player roster limit. How much they actually fund varies, and the system is new.
+- **At non-opt-in D1 programs**, ask. The **2026-27 NCAA Division I Manual no longer publishes sport-specific financial aid limits for any Division I institution** — the old Bylaw 15.5 tables were removed entirely — so we will not tell you a number that the NCAA no longer prints. Ask the program what it is working to.
 - **D2 players** should expect partial athletic scholarships in most cases.
 - **D3 players** will receive no athletic scholarship and should evaluate the total financial aid package.
 - **NAIA players** may receive competitive athletic aid, especially at schools that prioritize women's soccer.
@@ -171,8 +177,8 @@ Every family's situation is different, and scholarship outcomes vary enormously 
 
 ## Men's recruiting works differently
 
-Men's college soccer has different scholarship rules — men's was an equivalency sport (9.9 scholarships) before the settlement, not head count. If you're navigating men's recruiting, [here's the men's version](/soccer/mens/guide/scholarships/).
+Men's college soccer works the same way structurally — it was also an equivalency sport before the settlement, at 9.9 rather than 14, and it carries the same 28-player roster limit now. If you're navigating men's recruiting, [here's the men's version](/soccer/mens/guide/scholarships/).
 
 ---
 
-*Scholarship structures changed with the House settlement and continue to change each legislative cycle. This article reflects the landscape as of **April 2026**. Verify current scholarship and roster limits at NCAA.org and NAIA.org, and confirm what a specific program actually funds with its coaching staff.*
+*Scholarship structures changed with the House settlement and continue to change each legislative cycle. The head-count/equivalency structure and the 14 and 9.9 figures on this page were re-verified against the NCAA Division I Bylaws on **2026-08-26**; the rest of the article reflects the landscape as of **April 2026**. Verify current scholarship and roster limits at NCAA.org and NAIA.org, and confirm what a specific program actually funds with its coaching staff.*

@@ -19,7 +19,7 @@ children:
     status: live
   - title: "How Women's College Soccer Scholarships Work"
     url: /soccer/womens/guide/scholarships/
-    summary: "Head count scholarships, the House settlement impact, roster limits, and what families should realistically expect."
+    summary: "Equivalency scholarships, the House settlement impact, roster limits, and what families should realistically expect."
     status: live
   - title: "ECNL Girls, GA, and the Women's College Recruiting Pathway"
     url: /soccer/womens/guide/club-pathways/
@@ -69,15 +69,15 @@ The club pathway ecosystem is different as well. Girls Academy (GA) and ECNL Gir
 
 ## The House settlement and what it means
 
-The 2025 House v. NCAA settlement has reshaped Division I women's soccer alongside every other D1 sport. Women's soccer was historically a "head count" sport — each scholarship was a full scholarship, with a cap of 14 scholarships per program. Under the settlement, schools that opted in now operate under a roster limit of 28 players, with no scholarship cap.
+The 2025 House v. NCAA settlement has reshaped Division I women's soccer alongside every other D1 sport. Women's soccer was historically an "equivalency" sport, capped at 14 equivalencies per program — a total that coaches divided across the roster in full and partial awards at their discretion. Under the settlement, schools that opted in now operate under a roster limit of 28 players, with no scholarship cap.
 
-In practical terms, this means programs could potentially fund more than 14 players, but total roster spots may be smaller than what many programs historically carried. Walk-on opportunities are reduced. Families should ask each program directly about their settlement status and how it affects their roster management.
+In practical terms, this means programs could potentially fund more of the roster than the old 14-equivalency ceiling allowed, but total roster spots may be smaller than what many programs historically carried. Walk-on opportunities are reduced. Families should ask each program directly about their settlement status and how it affects their roster management.
 
 ## Scholarship dynamics in women's soccer
 
-Before the House settlement, women's D1 soccer was one of the few "head count" sports — each scholarship awarded was a full scholarship covering tuition, room, board, and fees. This is different from "equivalency" sports (like men's soccer), where coaches can divide scholarship money among multiple players.
+Before the House settlement, women's D1 soccer was an "equivalency" sport, like men's soccer — coaches could divide the program's scholarship total into partial awards across the roster rather than awarding a fixed number of full rides. The women's limit was 14 equivalencies; the men's was 9.9. **A women's soccer scholarship offer has never meant an automatic full ride**, and families should not read one that way. Division I's head-count sports — where every scholarship must be a full scholarship — were football, men's and women's basketball, women's gymnastics, women's tennis and women's volleyball. Soccer was not among them.
 
-Understanding this distinction matters because it affects how coaches build rosters and how many funded roster spots are available. The settlement has introduced new complexity, and families should have direct conversations with coaches about how their specific program handles aid.
+Understanding this matters because it affects how coaches build rosters and how many funded roster spots are available. The settlement has introduced new complexity, and families should have direct conversations with coaches about how their specific program handles aid.
 
 ## International recruiting in women's soccer
 

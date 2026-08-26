@@ -42,8 +42,8 @@ ${toc}
 
 Before the House settlement, the most important thing to understand about women's D1 volleyball scholarships was the distinction between **head count** and **equivalency** sports.
 
-- **Head count sports** (women's volleyball, women's basketball, women's soccer, among others): each scholarship awarded was a full scholarship. A coach could not split a scholarship between two players. The program had a fixed number of full rides — 12 in women's volleyball — and that was it.
-- **Equivalency sports** (men's soccer, baseball, softball, and many others): coaches could divide the scholarship total into partial awards. A program with 9.9 equivalency scholarships might give one player 50%, another 75%, and so on.
+- **Head count sports** (women's volleyball, women's basketball, women's gymnastics and women's tennis — plus football and men's basketball; that is the whole list): each scholarship awarded was a full scholarship. A coach could not split a scholarship between two players. The program had a fixed number of full rides — 12 in women's volleyball — and that was it.
+- **Equivalency sports** (men's and women's soccer, baseball, softball, men's volleyball, and most other sports): coaches could divide the scholarship total into partial awards. A program with 9.9 equivalency scholarships might give one player 50%, another 75%, and so on.
 
 This distinction meant that **pre-settlement D1 women's volleyball players who received an athletic scholarship received a full scholarship** — covering tuition, room, board, and fees. But it also meant only 12 players on a typical roster of 16-20 received any athletic aid at all. The remaining players were walk-ons receiving no athletic scholarship.
 

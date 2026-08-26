@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Women's College Soccer Recruiting Timeline: Why It Starts Earlier | RosterWise™"
 description: "A clear, accurate timeline of women's college soccer recruiting — NCAA contact rules, why it historically starts earlier than men's, grade-by-grade guidance, and the new House settlement landscape."
-date: 2026-04-26
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -60,7 +60,7 @@ A quick reference:
 Women's college soccer has long operated on a faster recruiting timeline than men's soccer. The reasons are layered:
 
 - The women's game developed its elite club infrastructure earlier, with ECNL Girls launching in 2009 and establishing a national showcase circuit that gave coaches concentrated evaluation opportunities.
-- Women's soccer has historically been a "head count" sport at the D1 level (14 full scholarships pre-House settlement), which created a dynamic where coaches wanted to secure commitments early to lock down their roster spots.
+- Scholarship dollars were tight relative to roster size. Pre-House, D1 women's soccer was capped at 14 equivalencies — divisible into partial awards — across an entire roster, which gave coaches a reason to secure commitments early and lock in how that limited total would be spent.
 - Cultural momentum played a role — as early commitments became more common, families and coaches both felt pressure to move faster, creating a self-reinforcing cycle.
 
 The NCAA addressed this in 2018 by imposing contact restrictions. But the culture of earlier identification has not fully disappeared, even as the rules now enforce the same June 15 starting line for both men's and women's soccer.
@@ -102,10 +102,10 @@ These dates apply to the 2026-27 recruiting cycle. The NCAA publishes an updated
 
 **The House v. NCAA settlement.** Approved June 6, 2025, this settlement fundamentally restructured Division I athletics. For women's college soccer, the key changes are:
 
-- **Women's soccer was a "head count" sport with 14 scholarships.** Each D1 women's soccer scholarship was historically a full scholarship — unlike men's soccer (an "equivalency" sport), where coaches divided 9.9 scholarships into partial awards.
+- **Women's soccer was an equivalency sport capped at 14.** Like men's soccer (capped at 9.9), coaches divided the total into full and partial awards across the roster at their discretion. Women's soccer was never a head-count sport, and a scholarship offer never automatically meant a full ride.
 - **Sport-specific scholarship caps are gone for opt-in schools.** Schools that opted into the settlement no longer have a scholarship cap — they may award scholarships up to the new roster limit.
-- **Roster limit of 28 players** for opt-in schools. Many D1 women's soccer programs historically carried 28-32 players (14 on full scholarship plus walk-ons). A roster limit of 28 means fewer total spots — and walk-on opportunities are reduced.
-- **More potential scholarships, potentially different distribution.** Programs could theoretically fund all 28 roster spots, but budget constraints mean most will still have a mix of full and partial awards. The shift from 14 full scholarships to a different distribution model is still being sorted out at many programs.
+- **Roster limit of 28 players** for opt-in schools. RosterWise's roster data begins with 2025-26 — the first season played under the new limits — so we cannot describe pre-settlement roster sizes and will not estimate them. What is certain is that a hard cap now exists where none did before, and walk-on opportunities are reduced.
+- **More potential scholarships, potentially different distribution.** Programs could theoretically fund all 28 roster spots, but budget constraints mean most will still have a mix of full and partial awards. Removing the 14-equivalency ceiling raises what a program *may* fund, not what it *does*.
 - **Schools choose whether to opt in.** Power conference schools (SEC, Big Ten, ACC, Big 12) opted in. Other D1 conferences had until June 30, 2025 to decide.
 
 **Honest caveat:** We don't have a comprehensive public list of which women's soccer programs opted in. Families should ask each program directly whether they have opted into the House settlement — this affects how scholarships and roster spots are structured.
