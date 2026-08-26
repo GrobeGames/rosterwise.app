@@ -75,7 +75,7 @@ In practical terms, this means programs could potentially fund more of the roste
 
 ## Scholarship dynamics in women's soccer
 
-Before the House settlement, women's D1 soccer was an "equivalency" sport, like men's soccer — coaches could divide the program's scholarship total into partial awards across the roster rather than awarding a fixed number of full rides. The women's limit was 14 equivalencies; the men's was 9.9. **A women's soccer scholarship offer has never meant an automatic full ride**, and families should not read one that way. Division I's head-count sports — where every scholarship must be a full scholarship — were football, men's and women's basketball, women's gymnastics, women's tennis and women's volleyball. Soccer was not among them.
+Before the House settlement, women's D1 soccer was an "equivalency" sport, like men's soccer — coaches could divide the program's scholarship total into partial awards across the roster rather than awarding a fixed number of full rides. The women's limit was 14 equivalencies; the men's was 9.9. **A women's soccer scholarship offer has never meant an automatic full ride**, and families should not read one that way. Division I had only six head-count sports — FBS football, men's and women's basketball, women's gymnastics, women's tennis and women's volleyball. In those, the cap counted athletes rather than dollars, so a partial award still used up a full slot. Soccer was never among them.
 
 Understanding this matters because it affects how coaches build rosters and how many funded roster spots are available. The settlement has introduced new complexity, and families should have direct conversations with coaches about how their specific program handles aid.
 

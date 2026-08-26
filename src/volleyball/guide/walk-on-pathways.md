@@ -52,7 +52,7 @@ The 2025 House v. NCAA settlement has meaningfully reduced walk-on opportunities
 
 **After the settlement (opt-in schools):** Programs are capped at 18 players. With the ability to distribute scholarship money across all 18 spots, many programs will choose to fund most or all of their roster. The math leaves very little room for walk-ons. A program that funds 16-17 players might carry 1-2 walk-ons. Some may carry none.
 
-**At non-opt-in D1 schools:** The pre-settlement structure remains. These programs still operate with 12 head count scholarships and no formal roster limit, so walk-on opportunities may be more available — but this varies by program.
+**At non-opt-in D1 schools:** No national roster limit applies. On scholarships, the 2026-27 Division I Manual no longer publishes a sport-specific limit for any D1 institution; a non-opt-in school may award up to the *value* of the old 12-scholarship limit, measured in equivalencies, without triggering settlement obligations — so walk-on opportunities may be more available — but this varies by program.
 
 **The honest takeaway:** If your athlete is considering walking on to a D1 volleyball program that has opted into the House settlement, the opportunity is significantly more limited than it was before the settlement. Families should contact the program directly to ask whether walk-on tryouts are offered and how many walk-on spots the program typically carries.
 

@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Men's Volleyball Scholarships After the House Settlement"
 description: "How men's college volleyball scholarships work after the House v. NCAA settlement — the historical 4.5-equivalency structure, the new 18-player roster cap, and what families should ask coaches."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -98,7 +98,7 @@ The post-settlement scholarship landscape varies significantly across divisions:
 
 **NCAA Division I (opt-in schools):** 18-player roster cap; up to 18 scholarships allowed, though programs may choose to fund fewer. Walk-on opportunities are reduced compared to the pre-settlement era because the roster cap leaves fewer "non-scholarship" spots.
 
-**NCAA Division I (non-opt-in schools):** Pre-settlement structure continues. 4.5 equivalency scholarships, no specific roster cap. Walk-on opportunities continue as before.
+**NCAA Division I (non-opt-in schools):** No national roster cap, and the 2026-27 Division I Manual no longer publishes a sport-specific scholarship limit for any D1 institution — the whole of Bylaw 15.5 was removed. A school that has not opted in may award up to the **value** of its 2024-25 limit, measured in equivalencies, without triggering settlement obligations, and the NCAA points those schools to the 2024-25 Manual for that figure. There is no national roster limit at a non-opt-in school. For men's volleyball the 2024-25 value was 4.5 equivalencies. Walk-on opportunities continue as before.
 
 **NCAA Division II:** The settlement primarily affects Division I. D2 men's volleyball continues under its pre-settlement scholarship framework (also equivalency, also typically 4.5). D2 schools that have Division I sports and opt in for those sports may have different rules for their D2 men's volleyball team in some cases.
 

@@ -2,7 +2,7 @@
 layout: content.njk
 title: "How Women's College Volleyball Scholarships Actually Work | RosterWise™"
 description: "A clear breakdown of women's college volleyball scholarships — the head count model, the House settlement impact, roster limits, D2 equivalency, D3 financial aid, and NAIA — with realistic expectations for families."
-date: 2026-05-02
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -42,10 +42,10 @@ ${toc}
 
 Before the House settlement, the most important thing to understand about women's D1 volleyball scholarships was the distinction between **head count** and **equivalency** sports.
 
-- **Head count sports** (women's volleyball, women's basketball, women's gymnastics and women's tennis — plus football and men's basketball; that is the whole list): each scholarship awarded was a full scholarship. A coach could not split a scholarship between two players. The program had a fixed number of full rides — 12 in women's volleyball — and that was it.
+- **Head count sports:** the cap was on the *number* of athletes receiving athletic aid, not on the dollars. Under Bylaw 15.02.3 any athlete receiving countable aid was a "counter," so even a partial award consumed one of the program's slots — which is why awards in these sports were, in practice, full ones. There was no bylaw actually requiring a full award. Division I had six head-count sports: **women's volleyball (12), women's gymnastics (12), women's tennis (8), men's basketball (13), women's basketball (15) and FBS football (85).** The program had a fixed number of full rides — 12 in women's volleyball — and that was it.
 - **Equivalency sports** (men's and women's soccer, baseball, softball, men's volleyball, and most other sports): coaches could divide the scholarship total into partial awards. A program with 9.9 equivalency scholarships might give one player 50%, another 75%, and so on.
 
-This distinction meant that **pre-settlement D1 women's volleyball players who received an athletic scholarship received a full scholarship** — covering tuition, room, board, and fees. But it also meant only 12 players on a typical roster of 16-20 received any athletic aid at all. The remaining players were walk-ons receiving no athletic scholarship.
+In practice this meant that **pre-settlement D1 women's volleyball players who received an athletic scholarship almost always received a full scholarship** — covering tuition, room, board, and fees. But it also meant only 12 players on a typical roster of 16-20 received any athletic aid at all. The remaining players were walk-ons receiving no athletic scholarship.
 
 The House settlement has changed this structure for opt-in schools, as described below.
 
@@ -55,7 +55,7 @@ The House v. NCAA settlement, approved in June 2025, fundamentally changed how D
 
 ### What changed
 
-**Before the settlement:** D1 women's volleyball had 12 head count scholarships. Each was a full scholarship. Programs typically carried 16-20 players: 12 on full scholarship and the rest as walk-ons with no athletic aid.
+**Before the settlement:** D1 women's volleyball had 12 head-count slots, which in practice meant 12 full scholarships. Programs typically carried 16-20 players: 12 on full scholarship and the rest as walk-ons with no athletic aid.
 
 **After the settlement (opt-in schools):** The head count model is gone. Schools that opted in may award athletic scholarships up to their roster limit of 18 players, with no requirement that each scholarship be a full award. In theory, a program could distribute scholarship money across all 18 roster spots. In practice, how programs handle this transition varies — some may still offer a mix of full and partial awards, while others may experiment with different distribution models.
 
@@ -80,7 +80,7 @@ Not all D1 schools opted into the House settlement. Power conference schools (SE
 
 **At opt-in schools:** The 12 head count model is replaced by an 18-player roster limit with flexible scholarship distribution.
 
-**At non-opt-in schools:** The pre-settlement structure remains — 12 head count scholarships, each a full award, with no roster limit beyond institutional policy.
+**At non-opt-in schools:** the old number is now a threshold rather than a cap. The **2026-27 NCAA Division I Manual no longer publishes sport-specific financial aid limits for any Division I institution** — the whole of Bylaw 15.5 was removed, and the NCAA's House implementation Q&A states plainly that "the Division I Manual no longer includes institutional financial aid limits for any sport." A school that has not opted in may award **up to the value of the 2024-25 limit, measured in equivalencies**, without triggering settlement obligations. That is a meaningful change for volleyball: the old 12 was a count of athletes, and the surviving threshold is a *value*, so a non-opt-in program can now spread the same money across more players as partial awards. Ask the program what it is working to.
 
 **Honest caveat:** There is no comprehensive public database of which specific women's volleyball programs opted in. The only reliable way to know is to ask the program directly. This is an essential question for families to include in every conversation with a coach at a D1 school.
 
@@ -167,7 +167,7 @@ Athletic scholarships are important, but they're not the only financial lever. F
 Every family's situation is different, and scholarship outcomes vary enormously based on the player's ability, the programs they're talking to, their academic profile, and their financial circumstances. That said, some general patterns:
 
 - **At opt-in D1 programs**, the old model of 12 full rides is evolving. Some players may receive full scholarships; others may receive partial awards. The system is new and still being sorted out.
-- **At non-opt-in D1 programs**, the 12 head count scholarships remain in effect — full scholarships for those who receive them, nothing for walk-ons.
+- **At non-opt-in D1 programs**, the old number is now a threshold rather than a cap. The **2026-27 NCAA Division I Manual no longer publishes sport-specific financial aid limits for any Division I institution** — the whole of Bylaw 15.5 was removed, and the NCAA's House implementation Q&A states plainly that "the Division I Manual no longer includes institutional financial aid limits for any sport." A school that has not opted in may award **up to the value of the 2024-25 limit, measured in equivalencies**, without triggering settlement obligations. That is a meaningful change for volleyball: the old 12 was a count of athletes, and the surviving threshold is a *value*, so a non-opt-in program can now spread the same money across more players as partial awards. Ask the program what it is working to.
 - **D2 players** should expect partial athletic scholarships in most cases.
 - **D3 players** will receive no athletic scholarship and should evaluate the total financial aid package.
 - **NAIA players** may receive competitive athletic aid, especially at schools that prioritize women's volleyball.

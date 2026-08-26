@@ -2,7 +2,7 @@
 layout: content.njk
 title: "How Men's College Soccer Scholarships Actually Work | RosterWise™"
 description: "A clear breakdown of men's college soccer scholarships — D1 post-House settlement, D2 equivalency, D3 financial aid, and NAIA — with realistic expectations for families."
-date: 2026-04-26
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -48,7 +48,7 @@ When most families think about college soccer scholarships, they imagine a full 
 Here's the reality by division:
 
 - **D1 (House settlement opt-in schools):** No scholarship cap, but a 28-player roster limit. More scholarship money available per player than before — but the system is new and programs are still figuring out how to allocate.
-- **D1 (non-opt-in schools):** Still operating under the old 9.9-scholarship equivalency model with larger rosters.
+- **D1 (non-opt-in schools):** No national roster limit, and no sport-specific scholarship limit is published any more — see below.
 - **D2:** 9.0 scholarships shared across the roster (equivalency model).
 - **D3:** Zero athletic scholarships. Financial aid is need-based and academic merit only.
 - **NAIA:** Up to 12 scholarships per program.
@@ -64,6 +64,12 @@ The House v. NCAA settlement, approved in June 2025, fundamentally changed how D
 **Before the settlement:** D1 men's soccer was classified as an "equivalency" sport with a cap of 9.9 scholarships. Coaches divided those 9.9 full-scholarship equivalents across the roster — a player might receive 25%, 50%, or 75% of a full scholarship. Most D1 men's soccer players received partial athletic aid. Rosters often exceeded 30 players, including walk-ons who received no athletic scholarship.
 
 **After the settlement (opt-in schools):** The 9.9-scholarship cap is gone. Schools that opted into the settlement may award athletic scholarships up to their roster limit of 28 players. In theory, every rostered player could receive a full scholarship. In practice, budget constraints mean most programs will still distribute aid unevenly — but the ceiling is higher.
+
+### What governs a school that did not opt in
+
+the 2026-27 Division I Manual no longer publishes a sport-specific scholarship limit for any D1 institution — the whole of Bylaw 15.5 was removed. A school that has not opted in may award up to the **value** of its 2024-25 limit, measured in equivalencies, without triggering settlement obligations, and the NCAA points those schools to the 2024-25 Manual for that figure. There is no national roster limit at a non-opt-in school.
+
+So the honest answer to "how much can this program offer?" at a non-opt-in school is: ask them. We will not print a number the NCAA has stopped printing.
 
 ### What hasn't changed
 

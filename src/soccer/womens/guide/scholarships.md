@@ -47,8 +47,8 @@ This is the single most misreported fact in women's soccer recruiting, and it ch
 
 Before the House settlement, NCAA Division I sports fell into two categories:
 
-- **Head count sports:** each scholarship awarded had to be a full scholarship. A coach could not split one between two players. Under NCAA Division I Bylaw 15.5.2.1, the head count sports other than football and basketball were **women's gymnastics (12), women's tennis (8) and women's volleyball (12)** — that was the whole list.
-- **Equivalency sports:** the program held a total scholarship value that the coach could divide across the roster in any combination. Under Bylaw 15.5.3.1.2, **women's soccer was an equivalency sport limited to 14.0 equivalencies.** Men's soccer was an equivalency sport limited to 9.9.
+- **Head count sports:** the cap was on the *number* of athletes receiving athletic aid, not on the dollars. Under Bylaw 15.02.3 any athlete receiving countable aid was a "counter," so even a partial award consumed one of the program's slots — which is why awards in these sports were, in practice, full ones. There was no bylaw actually requiring a full award. Under Bylaw 15.5.2.1 the head-count sports other than football and basketball were **women's gymnastics (12), women's tennis (8) and women's volleyball (12)**; adding FBS football (85), men's basketball (13) and women's basketball (15) completes a list of six. *(FCS football was not head count.)*
+- **Equivalency sports:** the cap was on total scholarship **value**, which the coach could divide across the roster in any combination. Under Bylaw 15.5.3.1.2, **women's soccer was an equivalency sport limited to 14.0 equivalencies.** Men's soccer was an equivalency sport limited to 9.9.
 
 So a pre-settlement D1 women's soccer program did **not** hold 14 full rides. It held 14 full-scholarship equivalents that a coach could split — 40% here, 75% there — across as many players as they chose. **A women's soccer scholarship offer has never automatically meant a full ride.**
 
@@ -168,7 +168,7 @@ Athletic scholarships are important, but they're not the only financial lever. F
 Every family's situation is different, and scholarship outcomes vary enormously based on the player's ability, the programs they're talking to, their academic profile, and their financial circumstances. That said, some general patterns:
 
 - **At opt-in D1 programs**, the 14-equivalency ceiling is gone and programs may fund up to the 28-player roster limit. How much they actually fund varies, and the system is new.
-- **At non-opt-in D1 programs**, ask. The **2026-27 NCAA Division I Manual no longer publishes sport-specific financial aid limits for any Division I institution** — the old Bylaw 15.5 tables were removed entirely — so we will not tell you a number that the NCAA no longer prints. Ask the program what it is working to.
+- **At non-opt-in D1 programs**, the old number is now a threshold rather than a cap. The **2026-27 NCAA Division I Manual no longer publishes sport-specific financial aid limits for any Division I institution** — the whole of Bylaw 15.5 was removed, and the NCAA's House implementation Q&A states plainly that "the Division I Manual no longer includes institutional financial aid limits for any sport." A school that has not opted in may award **up to the value of the 2024-25 limit, measured in equivalencies**, without triggering settlement obligations; exceeding it is one of the things that pulls a school into the settlement. The NCAA directs non-participating institutions to the 2024-25 Manual for that value. Ask the program what it is working to.
 - **D2 players** should expect partial athletic scholarships in most cases.
 - **D3 players** will receive no athletic scholarship and should evaluate the total financial aid package.
 - **NAIA players** may receive competitive athletic aid, especially at schools that prioritize women's soccer.

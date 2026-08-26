@@ -120,7 +120,7 @@ Facilities should not be the primary factor in a decision — culture, coaching,
 Cost of attendance, financial aid, and scholarship structures vary enormously.
 
 - **D1 opt-in programs** operate under an 18-player roster limit with flexible scholarship distribution
-- **D1 non-opt-in programs** still use the 12 head count scholarship model
+- **D1 non-opt-in programs** have no national roster limit; the Division I Manual no longer publishes a sport-specific scholarship limit for any D1 institution, and the old 12 now functions as a value threshold rather than a count of full rides
 - **D2 programs** offer 8 equivalency scholarships, typically split across the roster
 - **D3 programs** offer no athletic scholarships but often have significant academic and need-based aid
 - **NAIA programs** offer up to 8 scholarships with varying distribution

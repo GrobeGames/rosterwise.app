@@ -95,7 +95,7 @@ These dates apply to the 2026-27 recruiting cycle. The NCAA publishes an updated
 
 **The House v. NCAA settlement.** Approved June 6, 2025, this settlement fundamentally restructured Division I athletics. For women's college volleyball, the key changes are:
 
-- **Women's volleyball was a "head count" sport with 12 scholarships.** Each D1 women's volleyball scholarship was historically a full scholarship — unlike equivalency sports where coaches divided scholarship totals into partial awards.
+- **Women's volleyball was a "head count" sport with 12 scholarship slots.** The cap counted athletes rather than dollars, so a partial award still used a whole slot — which is why a D1 women's volleyball scholarship was, in practice, a full scholarship — unlike equivalency sports where coaches divided scholarship totals into partial awards.
 - **Sport-specific scholarship caps are gone for opt-in schools.** Schools that opted into the settlement no longer have a per-sport scholarship cap — they may award scholarships up to the new roster limit.
 - **Roster limit of 18 players** for opt-in schools. Many D1 volleyball programs historically carried 16-20 players (12 on full scholarship plus walk-ons and practice players). An 18-player roster cap means programs must be more selective about roster construction — and walk-on opportunities are likely reduced at opt-in schools.
 - **The shift from head count to equivalency.** Programs could theoretically fund all 18 roster spots, but budget constraints mean most will have a mix of full and partial awards. How programs navigate this transition varies.
