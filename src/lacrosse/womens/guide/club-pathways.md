@@ -73,8 +73,8 @@ For any club or tournament that requires USA Lacrosse membership for participati
 
 The Intercollegiate Women's Lacrosse Coaches Association (IWLCA) operates the recruiting infrastructure that connects college coaches with prospective student-athletes. Per IWLCA (iwlca.org) and IWLCARecruits (iwlcarecruits.com):
 
-- **IWLCA has 1,200+ collegiate women's lacrosse coaches as members**
-- **IWLCARecruits is the IWLCA's official recruiting platform** with 35,000+ student-athletes
+- **The IWLCA states it has over 1,200 collegiate women's lacrosse coaches as members** — a figure published on the association's own site, not only on its recruiting platform
+- **IWLCARecruits is the IWLCA's official recruiting platform.** In April 2026 the IWLCA reported that nine of ten collegiate women's lacrosse programs have recruited an athlete through it, connecting nearly 11,000 student-athletes with college places. We do not use the larger round athlete figure that appears in the platform's marketing copy: the identical number appears on the men's platform, which makes it template text
 - **The IWLCA Tournament Series** is a set of recruiting events created by college coaches for the express purpose of connecting prospective athletes with college programs
 
 ### The IWLCA Tournament Series

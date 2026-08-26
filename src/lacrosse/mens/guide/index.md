@@ -29,7 +29,7 @@ children:
     status: live
   - title: "International Recruiting in Men's College Lacrosse"
     url: /lacrosse/mens/guide/international-recruiting/
-    summary: "The Canadian box-to-field pipeline (184 players at D1 in 2023), the Haudenosaunee Nationals, the F-1 visa/NIL reality, and the 2028 Olympics — what international families need to know."
+    summary: "The Canadian box-to-field pipeline, the Haudenosaunee Nationals, the F-1 visa/NIL reality, and the 2028 Olympics — what international families need to know."
     status: live
   - title: "Recruiting Video for Men's Lacrosse"
     url: /lacrosse/mens/guide/recruiting-video/

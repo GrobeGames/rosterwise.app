@@ -1,7 +1,7 @@
 ---
 layout: content.njk
 title: "International Recruiting in Men's College Lacrosse: A Family Guide | RosterWise™"
-description: "Men's college lacrosse has significant international representation — particularly from Canada, where 184 players competed at NCAA D1 in 2023. Here's what international families need to know about NCAA recruiting, F-1 visas, and the Canadian box lacrosse pathway."
+description: "Men's college lacrosse has significant international representation, particularly from Canada. Here's what international families need to know about NCAA recruiting, F-1 visas, and the Canadian box lacrosse pathway."
 date: 2026-08-26
 breadcrumbs:
   - text: Home
@@ -43,6 +43,10 @@ faq:
   - q: "Do indigenous lacrosse players have unique NCAA recruiting considerations?"
     a: "Indigenous players from Haudenosaunee communities and other indigenous nations are recruited through standard NCAA processes. The Haudenosaunee Nationals are an international team, not a U.S. or Canadian national team — meaning indigenous players have access to multiple national team pathways including the Haudenosaunee Nationals, the U.S. or Canadian national teams (depending on citizenship), and standard NCAA recruiting."
 sources:
+  - "<a href=\"https://worldlacrosse.sport/lacrosse-to-return-to-the-olympic-games-in-2028/\">World Lacrosse</a> — \"Lacrosse to return to the Olympic Games in 2028\" (October 16, 2023): IOC Session approval and the sixes format"
+  - "<a href=\"https://worldlacrosse.sport/world-lacrosse-members/\">World Lacrosse</a> — member nations and continental federations (member map dated April 2026); World Lacrosse 2025-28 Strategic Plan"
+  - "<strong>NCAA</strong> — <em>International Student-Athlete Handbook</em>, p.34 (ncaaorg.s3.amazonaws.com/inclusion/inter/INC_IntlStudentHandbook.pdf)"
+  - "<strong>8 CFR 214.1(e) and 214.2(f)(9)-(10)</strong> — F-1 employment authorisation (eCFR); <strong>SEVP Broadcast Message 2107-02</strong> (July 19, 2021), ice.gov"
   - "<strong>2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Official NCAA recruiting rules and recruiting calendar archives'
   - '<strong>NCAA Eligibility Center</strong> — <a href="https://eligibilitycenter.org">eligibilitycenter.org</a>; <em>Guide for the College-Bound Student-Athlete 2025-26</em> (fs.ncaa.org), "Circumstances Reviewed as Part of the Certification Process"'
@@ -50,7 +54,7 @@ sources:
   - '<a href="https://worldlacrosse.sport">World Lacrosse</a> — Official international governing body'
   - '<a href="https://lacrosse.ca">Lacrosse Canada</a> — Official Canadian governing body for box, field, women''s, and sixes lacrosse'
   - '<a href="https://www.nll.com">National Lacrosse League</a> — "Canadian Box Players are Transforming Collegiate Field Lacrosse"; coverage of NLL-to-NCAA pathways'
-  - "<strong>Lacrosse Culture Daily</strong> — Documented analysis of NCAA Division I Canadian men's lacrosse players (184 Canadians in NCAA D1 in 2023; provincial breakdown)"
+  - "<strong>NCAA Research</strong> — <em>Trends in the Participation of International Student-Athletes in NCAA Divisions I and II</em> (September 2023), ncaaorg.s3.amazonaws.com/research/demographics/2023RES_ISATrendsDivSprt.pdf"
   - '<a href="https://www.ontariojuniorlacrosse.com/about">Ontario Junior Lacrosse League (OJLL)</a> — "About The Ontario Junior Lacrosse League": sanctioned by the Ontario Lacrosse Association (OLA) and Lacrosse Canada; Iroquois Trophy and Minto Cup pathway'
   - '<strong>British Columbia Lacrosse Association (bclacrosse.com)</strong> — Team BC, BC field lacrosse development'
   - "<strong>Canadian University Field Lacrosse Association</strong> — University-level field lacrosse in Canada"
@@ -58,10 +62,6 @@ sources:
   - '<strong>NPR</strong> — 2023 reporting on Haudenosaunee Nationals name change from "Iroquois Nationals"'
   - '<a href="https://worldlacrosse.sport/iroquois-nationals-survive-late-surge-to-claim-second-bronze-medal-at-2018-fil-mens-world-championship/">World Lacrosse</a> — "Iroquois Nationals Survive Late Surge to Claim Second Bronze Medal at 2018 FIL Men''s World Championship" (July 20, 2018)'
   - '<a href="https://worldlacrosse.sport/article/haudenosaunee-claim-bronze-with-emphatic-win/">World Lacrosse</a> — "Haudenosaunee claim bronze with emphatic win" (July 1, 2023) — 2023 World Lacrosse Men''s Championship bronze-medal match'
-  - '<strong>Olympics.com</strong> — "Sixes lacrosse at the Olympic Games Los Angeles 2028"'
-  - '<strong>McCarter &amp; English</strong> — "Changing Immigration Policies Pose New Challenges for NCAA Institutions and NIL Opportunities for International Student-Athletes"'
-  - "<strong>Christine Brown &amp; Partners</strong> — F-1 visa NIL legal analysis"
-  - "<strong>Sportico</strong> — F-1 visa NIL legal landscape coverage"
   - "<strong>U.S. District Court, Northern District of California</strong> — House v. NCAA settlement ruling, June 6, 2025"
 cta:
   heading: "Find programs where your son genuinely fits — wherever he's from"
@@ -75,15 +75,11 @@ ${toc}
 
 The single most important fact about international recruiting in NCAA men's lacrosse is the size and depth of the Canadian presence.
 
-Per Lacrosse Culture Daily's documented analysis of NCAA Division I men's lacrosse rosters: **184 Canadian men competed at NCAA Division I men's lacrosse in 2023**. The geographic breakdown:
+**What the NCAA actually publishes.** The NCAA's *Trends in the Participation of International Student-Athletes* research reports that first-year international student-athletes in Division I men's lacrosse rose from **41 in 2017 to 45 in 2022** — roughly **7% of first-year players**. Canada is the largest single source country of international student-athletes across the NCAA as a whole (687 first-year Division I international athletes in 2022, 21.9% of the total).
 
-- **Ontario**: 127 players (the largest provincial source)
-- **British Columbia**: 39 players
-- **Alberta**: 15 players
-- **Quebec**: 2 players
-- **Manitoba**: 1 player
+**What nobody publishes.** There is no official count of Canadians on NCAA lacrosse rosters, and no provincial breakdown. The NCAA's demographics database has no nationality dimension at all; its international-athlete research covers first-year non-transfers only, stops at country of origin, and does not publish country-by-sport figures for lacrosse. Lacrosse Canada publishes no such count either.
 
-For context, that 184-player total is substantially larger than international representation in most other NCAA sports. (For reference, in the broader NCAA system there are approximately 25,000 international student-athletes across all sports per McCarter & English's published NCAA-cited data.)
+Figures that circulate — a total of roughly 180 Canadians in Division I with a province-by-province split — come from an independent manual tally by a lacrosse writer who visited every college team's roster page himself, and who says plainly in the same piece that "nobody was tracking the information." That is honest work and it is probably in the right range, but it is one person's spreadsheet rather than a governing-body figure, and the article gives two different totals in two different paragraphs. We are not going to print it as a fact.
 
 **Why Canadian players are so prominent**:
 
@@ -159,34 +155,22 @@ While Canada dominates international representation in NCAA men's lacrosse, smal
 
 **Australia**: Australia is one of the long-established nations in international men's lacrosse. Australian players are sometimes recruited by NCAA programs, often through similar field-lacrosse-developed pathways.
 
-**Japan, the Czech Republic, Germany, and emerging nations**: Per World Lacrosse, the sport is now played on five continents with national federations in 90 countries — doubled from 45 in 20 years. Per the 2018 World Lacrosse Championship coverage, 46 nations competed (the largest number ever) — the first championship held outside the four traditional hosts (United States, Canada, England, Australia). Players from these emerging-lacrosse nations occasionally reach NCAA programs, though typically in small absolute numbers.
+**Japan, the Czech Republic, Germany, and emerging nations**: World Lacrosse currently has **97 member nations across four continental federations** — Asia-Pacific, Europe, Pan-America and Africa — and describes the sport as played in all five of its continental regions. Its membership stood at 45 at the end of 2008, so it has more than doubled in under two decades. Per the 2018 World Lacrosse Championship coverage, 46 nations competed (the largest number ever) — the first championship held outside the four traditional hosts (United States, Canada, England, Australia). Players from these emerging-lacrosse nations occasionally reach NCAA programs, though typically in small absolute numbers.
 
 **The implication**: Beyond Canada, international men's lacrosse recruits to NCAA programs come from a globally diverse but smaller-scale set of pathways. Programs that actively recruit beyond Canada often have specific staff relationships, recruiting infrastructure, or program emphasis on international development.
 
 ## The F-1 visa reality: a critical context
 
-For international student-athletes considering NCAA men's lacrosse, the F-1 visa framework creates significant complications around the post-House settlement NIL and revenue-sharing landscape.
+International student-athletes overwhelmingly attend U.S. colleges on **F-1 student visas**, and the F-1 rules on employment are strict: federal regulation bars any unauthorized employment outright, and the list of employment an F-1 student *may* do — on-campus work, curricular practical training, optional practical training, severe-economic-hardship authorisation — is closed and narrow.
 
-Per analysis by McCarter & English (already cited in our [NIL and Revenue Sharing guide](/guide/nil-and-revenue-sharing/)), Christine Brown & Partners, and reporting in Sportico:
+**What that means for NIL is genuinely unresolved, and we are going to be precise about who says what.**
 
-- The vast majority of international NCAA student-athletes attend on F-1 student visas
-- F-1 visas impose strict employment restrictions
-- NIL activities (paid social media, endorsements, paid appearances, autograph sessions) are generally classified as employment under U.S. immigration law
-- F-1 visa holders generally cannot engage in such activities without risking visa status
+- **The NCAA's own position is a flat prohibition.** Its *International Student-Athlete Handbook* states that "international student-athletes with an F-1 visa are prohibited from engaging in NIL deals while on U.S. land," and advises consulting a compliance officer, a designated school official and an immigration lawyer before any NIL activity abroad or any change of visa status.
+- **No U.S. government source has ever addressed NIL.** The F-1 regulations do not contain the words "name, image," "likeness," or "athlete" anywhere. The immigration agency responsible said in July 2021 that it was still assessing "whether regulatory guidance is required" — and has issued nothing in the years since. So the NCAA's prohibition is the NCAA's reading of federal policy, not a quotation of it.
+- **Revenue sharing is a further step into the unknown.** The NCAA's House implementation guidance, running to well over a hundred pages, does not mention visas, immigration or F-1 status once. There is no published position from the NCAA or from any federal agency on whether an international athlete on an F-1 visa may receive House revenue-share payments.
+- **The litigation is not the breakthrough it is sometimes described as.** One federal case is testing whether an NCAA athlete can switch from an F-1 to a P-1A athlete visa in order to do NIL deals. In September 2025 the court denied the government's motion to dismiss, meaning the case proceeds — it decided nothing about whether college athletes qualify, and as of this writing it remains pending.
 
-**The post-House settlement complication**: the House v. NCAA settlement (effective July 1, 2025) authorizes direct revenue-sharing payments from schools to student-athletes up to $20.5 million per school for the 2025-26 academic year (the NCAA has not published a 2026-27 figure). For F-1 visa holders, immigration lawyers disagree on whether these direct payments constitute permissible income or unauthorized employment. As of late 2025, no official federal guidance from the Department of Homeland Security or USCIS has resolved this question.
-
-**For Canadian families specifically**: Canadian student-athletes attend NCAA programs on F-1 visas just like other international students. The proximity of Canada to the United States and the cultural similarities can sometimes obscure that Canadian recruits face the same F-1 visa restrictions as recruits from any other country.
-
-**The practical reality**: For most international men's lacrosse recruits, NIL income should not be treated as a meaningful component of college decision-making. Some loopholes exist:
-
-- NIL activities performed in the athlete's home country during academic breaks (with potential complications for visa renewals if consular officers see NIL-linked content per Sportico's coverage)
-- O-1 visas for athletes with extraordinary ability (very high eligibility bar)
-- P-1A visas for internationally recognized athletes — a September 2025 federal court ruling ruled against the U.S. government's attempt to categorically block P-1A visa holders from NIL activity, but this applies to a narrow group of elite athletes
-
-For most international recruits, **NIL should not be a primary factor in college selection**. Athletic scholarships, academic merit aid, need-based aid, and the broader fit at each program should drive decisions.
-
-For more on the broader NIL landscape, see [NIL and Revenue Sharing for Families](/guide/nil-and-revenue-sharing/).
+**The practical takeaway for a family:** if your athlete is coming on an F-1 visa, treat NIL and revenue-share income as an open legal question rather than a settled entitlement, and get advice from the school's compliance office and an immigration lawyer before signing anything. Do not rely on a recruiting site — including this one — for an answer that no agency has given.
 
 ## Athletic scholarships and international men's lacrosse recruits
 
@@ -203,9 +187,9 @@ Athletic scholarship eligibility for international men's lacrosse recruits opera
 
 The 2028 Olympic inclusion of lacrosse is a major structural factor reshaping international men's lacrosse.
 
-Per Olympics.com and World Lacrosse documentation:
+Per World Lacrosse:
 
-- Lacrosse returns to the Olympic Games at Los Angeles 2028 — the first time as a medal sport since the 1908 Summer Olympics in London
+- Lacrosse returns to the Olympic Games at Los Angeles 2028, in the **sixes** format. World Lacrosse reports that the IOC Session approved lacrosse's inclusion on **October 16, 2023**
 - The Olympic format will be **sixes lacrosse** — a compact, fast-paced version with five field players and a goalie
 - Six men's teams and six women's teams will compete
 - Lacrosse competition will take place July 24-29, 2028 at Exposition Park Stadium in Los Angeles

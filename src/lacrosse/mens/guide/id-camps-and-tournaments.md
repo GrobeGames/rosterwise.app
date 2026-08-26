@@ -184,7 +184,7 @@ Per the IMLCA (imlcacoaches.com), the IMLCA Players Summit is an annual recruiti
 
 Per the IMLCA's own published statements, with NCAA legislation adopted in October 2023, the IMLCA Players Summit is described by the IMLCA as "the only event in the country that all NCAA Men's [Lacrosse coaches can attend]."
 
-Per IMLCARecruits (imlcarecruits.org): 750+ collegiate men's lacrosse coaches use the IMLCARecruits platform, with 35,000+ student-athletes.
+Per IMLCARecruits (imlcarecruits.org): 750+ collegiate men's lacrosse coaches use the platform. That is the platform's own marketing figure, not an audited or association-published one.
 
 ### National Lacrosse Federation (NLF) Events
 

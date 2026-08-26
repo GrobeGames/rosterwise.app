@@ -43,6 +43,10 @@ faq:
   - q: "Does the September 1 of junior year contact date apply differently to international recruits?"
     a: "No. The September 1 of junior year initial contact date for D1 women's lacrosse applies uniformly to all recruits, regardless of nationality. The 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by NCAA.org) does not distinguish between international and domestic recruits for the September 1 contact rule."
 sources:
+  - "<a href=\"https://worldlacrosse.sport/lacrosse-to-return-to-the-olympic-games-in-2028/\">World Lacrosse</a> — \"Lacrosse to return to the Olympic Games in 2028\" (October 16, 2023): IOC Session approval and the sixes format"
+  - "<a href=\"https://worldlacrosse.sport/world-lacrosse-members/\">World Lacrosse</a> — member nations and continental federations (member map dated April 2026); World Lacrosse 2025-28 Strategic Plan"
+  - "<strong>NCAA</strong> — <em>International Student-Athlete Handbook</em>, p.34 (ncaaorg.s3.amazonaws.com/inclusion/inter/INC_IntlStudentHandbook.pdf)"
+  - "<strong>8 CFR 214.1(e) and 214.2(f)(9)-(10)</strong> — F-1 employment authorisation (eCFR); <strong>SEVP Broadcast Message 2107-02</strong> (July 19, 2021), ice.gov"
   - "<strong>2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Official NCAA recruiting rules and recruiting calendar archives'
   - '<strong>NCAA Eligibility Center</strong> — <a href="https://eligibilitycenter.org">eligibilitycenter.org</a>'
@@ -50,11 +54,7 @@ sources:
   - '<a href="https://worldlacrosse.sport">World Lacrosse</a> — Official international governing body; "Lacrosse qualification set for Olympic Games Los Angeles 2028"'
   - '<a href="https://lacrosse.ca">Lacrosse Canada</a> — Official Canadian governing body for box, field, women''s, and sixes lacrosse'
   - '<a href="https://www.englandlacrosse.co.uk">England Lacrosse</a> — Governing body for English lacrosse'
-  - '<strong>Olympics.com</strong> — "Sixes lacrosse at the Olympic Games Los Angeles 2028: Everything you need to know about the new sport at LA28"'
   - "<strong>2022 World Lacrosse Women's Championship final standings</strong> — USA (1st), Canada (2nd), England (3rd), Australia (4th)"
-  - '<strong>McCarter &amp; English</strong> — "Changing Immigration Policies Pose New Challenges for NCAA Institutions and NIL Opportunities for International Student-Athletes" (mccarter.com)'
-  - "<strong>Christine Brown &amp; Partners</strong> — \"International Student-Athletes and Pay: NIL, Revenue Sharing &amp; Visa Compliance Explained\""
-  - "<strong>Sportico</strong> — Coverage of F-1 visa NIL legal landscape and September 2025 federal court ruling on P-1A visas"
   - "<strong>U.S. District Court, Northern District of California</strong> — House v. NCAA settlement ruling, approved June 6, 2025"
 cta:
   heading: "Find programs where your daughter genuinely fits — wherever she's from"
@@ -70,7 +70,7 @@ Compared to men's college lacrosse — which has a substantial Canadian presence
 
 The reasons are largely structural. Per World Lacrosse and USA Lacrosse coverage:
 
-- **Women's lacrosse globally is growing but starts from a smaller base in many countries.** Per World Lacrosse, lacrosse is now played on five continents with 90 national federations globally — doubled from 45 in 20 years. But the depth of competitive women's lacrosse at the youth and elite levels varies dramatically by country.
+- **Women's lacrosse globally is growing but starts from a smaller base in many countries.** World Lacrosse currently has **97 member nations across four continental federations** — Asia-Pacific, Europe, Pan-America and Africa — and describes the sport as played in all five of its continental regions. Its membership stood at 45 at the end of 2008, so it has more than doubled in under two decades. But the depth of competitive women's lacrosse at the youth and elite levels varies dramatically by country.
 
 - **The international competitive hierarchy is well-established.** Per the 2022 World Lacrosse Women's Championship final standings — the most recent edition — the United States won (9th title), followed by Canada (silver), England (third place), and Australia (fourth place). These four nations represent the historical top tier of international women's lacrosse, with countries like Scotland, Israel, and Japan playing competitive secondary roles.
 
@@ -100,7 +100,7 @@ Beyond Canada, several other nations have established competitive women's lacros
 
 **Israel women's lacrosse**: Israel has built a women's lacrosse program through the Israel Lacrosse Association (founded 2010), which is a member of World Lacrosse and the European Lacrosse Federation.
 
-**Japan, Scotland, and emerging nations**: Lacrosse is growing across Asia, Europe, and other regions. Per World Lacrosse coverage, the sport is played on five continents with national federations in 90 countries. Women's lacrosse depth in emerging-lacrosse nations is typically smaller than men's lacrosse depth, but the trajectory is upward.
+**Japan, Scotland, and emerging nations**: Lacrosse is growing across Asia, Europe, and other regions. World Lacrosse currently has **97 member nations across four continental federations** — Asia-Pacific, Europe, Pan-America and Africa — and describes the sport as played in all five of its continental regions. Its membership stood at 45 at the end of 2008, so it has more than doubled in under two decades. Women's lacrosse depth in emerging-lacrosse nations is typically smaller than men's lacrosse depth, but the trajectory is upward.
 
 **The implication for NCAA recruiting**: International women's lacrosse recruits to NCAA programs come most commonly from Canada, with smaller numbers from England, Australia, and other lacrosse-developing nations. The depth of recruiting pipeline depends significantly on the country, with Canada providing the most established pathway.
 
@@ -119,28 +119,16 @@ For more detail on the September 1 rule and what it means for recruiting prepara
 
 ## The F-1 visa reality: a critical context
 
-For international student-athletes considering U.S. college recruiting, one structural reality matters far more than most recruiting families realize: the F-1 visa restrictions on employment.
+International student-athletes overwhelmingly attend U.S. colleges on **F-1 student visas**, and the F-1 rules on employment are strict: federal regulation bars any unauthorized employment outright, and the list of employment an F-1 student *may* do — on-campus work, curricular practical training, optional practical training, severe-economic-hardship authorisation — is closed and narrow.
 
-Per analysis by the law firms McCarter & English and Christine Brown & Partners, plus reporting in Sportico:
+**What that means for NIL is genuinely unresolved, and we are going to be precise about who says what.**
 
-- The vast majority of international student-athletes in NCAA sports attend U.S. colleges on F-1 student visas
-- F-1 visas impose strict limitations on employment, generally restricting students from off-campus work without specific authorization
-- NIL activities (paid social media posts, endorsements, appearances, autograph signings) are generally classified as employment under U.S. immigration law
-- This creates a structural barrier: NCAA rules permit NIL income; F-1 visa rules generally do not allow F-1 visa holders to engage in NIL activities
+- **The NCAA's own position is a flat prohibition.** Its *International Student-Athlete Handbook* states that "international student-athletes with an F-1 visa are prohibited from engaging in NIL deals while on U.S. land," and advises consulting a compliance officer, a designated school official and an immigration lawyer before any NIL activity abroad or any change of visa status.
+- **No U.S. government source has ever addressed NIL.** The F-1 regulations do not contain the words "name, image," "likeness," or "athlete" anywhere. The immigration agency responsible said in July 2021 that it was still assessing "whether regulatory guidance is required" — and has issued nothing in the years since. So the NCAA's prohibition is the NCAA's reading of federal policy, not a quotation of it.
+- **Revenue sharing is a further step into the unknown.** The NCAA's House implementation guidance, running to well over a hundred pages, does not mention visas, immigration or F-1 status once. There is no published position from the NCAA or from any federal agency on whether an international athlete on an F-1 visa may receive House revenue-share payments.
+- **The litigation is not the breakthrough it is sometimes described as.** One federal case is testing whether an NCAA athlete can switch from an F-1 to a P-1A athlete visa in order to do NIL deals. In September 2025 the court denied the government's motion to dismiss, meaning the case proceeds — it decided nothing about whether college athletes qualify, and as of this writing it remains pending.
 
-**The post-House settlement complication**: the House v. NCAA settlement (effective July 1, 2025) authorizes direct revenue-sharing payments from schools to student-athletes up to $20.5 million per school for the 2025-26 academic year (the NCAA has not published a 2026-27 figure). For F-1 visa holders, immigration lawyers disagree on whether these direct payments constitute permissible income or unauthorized employment. As of late 2025, no official federal guidance from the Department of Homeland Security or U.S. Citizenship and Immigration Services has resolved this question.
-
-**The practical reality for international women's lacrosse recruits**:
-
-For most international families considering NCAA women's lacrosse, the F-1 visa restrictions effectively place NIL income out of reach. Some loopholes have been explored:
-
-- NIL activities performed in the athlete's home country during academic breaks (with potential complications for visa renewals if consular officers see NIL-linked content per Sportico's coverage)
-- O-1 visas for athletes with extraordinary ability — but the eligibility bar is extremely high for typical student-athletes
-- P-1A visas for internationally recognized athletes — a September 2025 federal court ruling in Washington, D.C. (per the broader reporting) ruled against the U.S. government's attempt to categorically block P-1A visa holders from NIL activity, but the decision applies to a narrow group of elite athletes
-
-For most families with women's lacrosse athletes considering college in the United States, **the realistic expectation should be that NIL income will not be a meaningful part of the college experience.** This does not mean recruits should not pursue NCAA programs — it does mean that NIL should not be a primary factor in college selection for international recruits.
-
-For more on the broader NIL landscape and its implications, see [NIL and Revenue Sharing for Families](/guide/nil-and-revenue-sharing/) and [Women's Lacrosse Scholarships After the House Settlement](/lacrosse/womens/guide/scholarships-after-house-settlement/).
+**The practical takeaway for a family:** if your athlete is coming on an F-1 visa, treat NIL and revenue-share income as an open legal question rather than a settled entitlement, and get advice from the school's compliance office and an immigration lawyer before signing anything. Do not rely on a recruiting site — including this one — for an answer that no agency has given.
 
 ## Athletic scholarships and international women's lacrosse recruits
 
@@ -157,9 +145,9 @@ Athletic scholarship eligibility for international women's lacrosse recruits ope
 
 For families researching women's college lacrosse internationally, one major structural factor is reshaping the global landscape: the inclusion of lacrosse in the 2028 Los Angeles Olympics.
 
-Per the official Olympics.com communications and World Lacrosse documentation:
+Per World Lacrosse:
 
-- Lacrosse will return to the Olympic Games at Los Angeles 2028 — the third Olympic appearance for the sport, but the first as a medal sport since 1908 in London
+- Lacrosse will return to the Olympic Games at Los Angeles 2028, in the **sixes** format. World Lacrosse reports that the IOC Session approved lacrosse's inclusion on **October 16, 2023** in London
 - The 2028 Olympics will mark **the first time women compete in Olympic lacrosse**
 - The Olympic format will be **sixes lacrosse** — a fast-paced, compact format with five field players and a goalie, 76 × 39-yard field, 30-second shot clock, four 8-minute quarters
 - Six men's teams and six women's teams will compete

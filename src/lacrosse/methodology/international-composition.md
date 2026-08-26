@@ -2,7 +2,7 @@
 layout: content.njk
 title: "What International Roster Composition Tells You (Especially in Men's Lacrosse)"
 description: "How international player composition shapes college lacrosse rosters — and why the Canadian pipeline in men's lacrosse is uniquely meaningful for recruiting families."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -29,6 +29,7 @@ related:
     url: /lacrosse/guide/lacrosse-hotbeds-geographic-reality/
     status: coming-soon
 sources:
+  - "<a href=\"https://laws-lois.justice.gc.ca/eng/acts/n-16.7/FullText.html\">National Sports of Canada Act</a>, S.C. 1994, c. 16 — Justice Laws Website (Government of Canada)"
   - "Publicly available college lacrosse rosters from institutional athletics websites"
   - "NCAA.org — Division membership and program listings"
   - "Lacrosse Canada (formerly Canadian Lacrosse Association) — National governing body for lacrosse in Canada"
@@ -55,7 +56,7 @@ For international recruits — especially Canadians considering NCAA lacrosse �
 
 The single most important international dynamic in college lacrosse is the Canadian pipeline into NCAA men's programs.
 
-**Why Canada specifically.** Lacrosse is Canada's national sport (specifically box lacrosse, per Canadian federal legislation). Canada has deep youth, junior, and senior box lacrosse infrastructure, particularly in Ontario and British Columbia. The Canadian Lacrosse Association (CLA, dba Lacrosse Canada) governs the sport nationally, and the National Lacrosse League (NLL) — the premier professional box lacrosse league — has 14 teams across the U.S. and Canada with a strong Canadian player base.
+**Why Canada specifically.** Lacrosse is Canada's national **summer** sport, declared as such by the *National Sports of Canada Act* (1994), which recognises ice hockey as the national winter sport and "the game commonly known as lacrosse" as the national summer sport. The Act does not distinguish box from field lacrosse — the box-specific version of this claim, which circulates widely, is not in the legislation. Canada has deep youth, junior, and senior box lacrosse infrastructure, particularly in Ontario and British Columbia. The Canadian Lacrosse Association (CLA, dba Lacrosse Canada) governs the sport nationally, and the National Lacrosse League (NLL) — the premier professional box lacrosse league — has 14 teams across the U.S. and Canada with a strong Canadian player base.
 
 **The skills translate.** Box lacrosse develops elite stick skills in tight spaces, faster decision-making, and a physical style that translates particularly well to attack and midfield positions in NCAA field lacrosse. Many of college lacrosse's most highly-recruited international players come through the Canadian Junior A and Junior B box leagues.
 

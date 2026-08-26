@@ -134,7 +134,7 @@ Men's lacrosse is also played outside the NCAA. The NAIA sponsors men's lacrosse
 
 The sport is heavily concentrated geographically in the Mid-Atlantic, Northeast, and parts of the Southeast and Mountain West.
 
-The 2025-26 season has been particularly significant. Per official NCAA championship records, Cornell defeated Maryland 13-10 at Gillette Stadium in the 2025 D1 Men's Lacrosse Championship (May 26, 2025), capturing Cornell's 4th NCAA title and first since 1977. CJ Kirst of Cornell was named Most Outstanding Player.
+The 2025-26 season has been particularly significant. Per NCAA.com's championship history, Cornell (18-1) defeated Maryland 13-10 at Gillette Stadium in the 2025 D1 Men's Lacrosse Championship on May 26, 2025 — Cornell's first title since 1977 and its fourth overall, capturing Cornell's 4th NCAA title and first since 1977. CJ Kirst of Cornell was named Most Outstanding Player.
 
 ## How the House Settlement changed the landscape
 

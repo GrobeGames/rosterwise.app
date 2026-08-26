@@ -139,7 +139,7 @@ This is another reason why the questions in the next section ("Questions familie
 
 The Intercollegiate Men's Lacrosse Coaches Association (IMLCA) operates recruiting infrastructure that connects college coaches with prospective student-athletes. Per the IMLCA's official site (imlcacoaches.com) and IMLCARecruits (imlcarecruits.org):
 
-- **IMLCARecruits has 750+ collegiate men's lacrosse coaches** on its platform with 35,000+ student-athletes
+- **IMLCARecruits states that 750+ collegiate men's lacrosse coaches use the platform.** That figure appears on the platform's own marketing pages; the IMLCA's association site publishes no membership number, so treat it as the platform's claim rather than an audited count. We do not repeat the athlete count that appears alongside it — the same round number appears on the women's platform, and the men's page actually names the *women's* association in that sentence, which makes it template copy rather than a measured figure
 - The IMLCA serves to "educate & empower coaches" and "develop the sport of lacrosse with integrity"
 - The IMLCA operates the **IMLCA Players Summit**, an annual recruiting event
 
