@@ -29,6 +29,7 @@ sources:
   - "NAIA.org, Eligibility Center and recruiting information"
   - "NJCAA.org, Eligibility rules and member institution information"
   - "NCAA.org, Transfer Portal guidelines and policies"
+  - "RosterWise 2025-26 roster dataset — 5,435 program rosters across soccer, volleyball, lacrosse, and wrestling, compiled from publicly available college athletics websites, captured April-August 2026"
 cta:
   heading: "Late doesn't mean lost. See where the openings are."
   text: "RosterWise analyzes roster composition at every D1, D2, D3, and NAIA program — class-year gaps, graduating seniors, position depth. If your athlete is still looking, this is how you find the programs that actually need what they bring."
@@ -91,8 +92,8 @@ Every year, every program in the country needs to fill roster spots. And the maj
 
 Consider the math:
 
-- A typical college roster has somewhere between 20 and 35 athletes, depending on the sport and division
-- Each year, a class of seniors graduates — usually 4 to 8 athletes, sometimes more
+- Roster size depends far more on the sport than most families expect. Across the 5,435 program rosters RosterWise analyzed for the 2025-26 season, the median was 29 players in soccer, 31 in lacrosse, 28 in wrestling, and 17 in volleyball
+- Each year a class of seniors graduates. Across those same rosters the median program carried 4 seniors, counting redshirt seniors, with the middle half of programs carrying between 2 and 7
 - Additional spots open through transfers, medical retirements, and athletes who leave the sport
 - Some programs have roster spots they simply haven't filled yet
 
@@ -274,4 +275,4 @@ The work now is finding those coaches and those programs. That work is doable. I
 
 ---
 
-*Eligibility clocks, roster limits, and division rules change each legislative cycle. This article reflects the **2025-26** academic year. Verify current rules at NCAA.org, NAIA.org, and NJCAA.org, and confirm your athlete's eligibility status with the NCAA Eligibility Center.*
+*Eligibility clocks, roster limits, and division rules change each legislative cycle. This article reflects the **2025-26** academic year. Verify current rules at NCAA.org, NAIA.org, and NJCAA.org, and confirm your athlete's eligibility status with the NCAA Eligibility Center. Roster-size and graduating-class figures come from RosterWise's analysis of **2025-26** rosters across soccer, volleyball, lacrosse, and wrestling, computed 2026-08-26.*

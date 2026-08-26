@@ -29,6 +29,7 @@ sources:
   - "NCAA.org, \"DI Board of Directors formally adopts changes to roster limits,\" June 23, 2025"
   - "NCAA.org, Division I Manual (2025-26)"
   - "NCAA.org, DI Board roster limit adoption (June 2025)"
+  - "RosterWise 2025-26 roster dataset — roster sizes for 213 Division I men's soccer programs, compiled from publicly available college athletics websites, captured April-August 2026"
 cta:
   heading: "Navigate the new landscape with real data."
   text: "The House settlement changed roster sizes, scholarship structures, and the math behind every recruiting decision. RosterWise analyzes current roster composition at every program — so families can see where opportunities exist under the new rules, not the old ones."
@@ -70,7 +71,7 @@ Revenue sharing is separate from NIL. NIL deals are agreements between athletes 
 
 ### 2. Hard roster limits
 
-Before the settlement, Division I sports had scholarship limits but no hard caps on roster size. A men's soccer program might have had 9.9 equivalency scholarships but carried 30 or more players by including walk-ons.
+Before the settlement, Division I sports had scholarship limits but no hard caps on roster size. A men's soccer program might have had 9.9 equivalency scholarships while carrying additional athletes as walk-ons, because nothing limited the size of the roster itself.
 
 The settlement replaced that system. Opt-in D1 schools now have **hard roster limits** — a maximum number of athletes per sport, regardless of scholarship status. Everyone on the roster counts against the limit: scholarship athletes, preferred walk-ons, and open walk-ons alike.
 
@@ -135,7 +136,7 @@ The DSA provision matters for families with athletes already in college, but for
 
 The combination of hard roster limits and expanded scholarship funding has significantly reduced walk-on opportunities at opt-in D1 schools.
 
-Under the old system, a program with 9.9 scholarship equivalencies might carry 30 players — meaning roughly 20 walk-ons had roster spots. Under the new system, a roster limit of 28 with more scholarship money available means coaches are filling those 28 spots with funded athletes. There is less room — and less incentive — to carry walk-ons.
+Under the old system, 9.9 equivalencies could not fund a full scholarship for every athlete on a roster, and no rule capped how many additional athletes a program carried. Under the new system the roster limit itself is the binding constraint at opt-in schools. Across the 213 Division I men's soccer programs RosterWise analyzed for the 2025-26 season — the first season played under the new limits — the median roster was exactly 28 players, matching the cap, with the middle half of programs between 27 and 30. With more scholarship money available and a hard ceiling on roster spots, coaches are filling the spots they have with funded athletes. There is less room — and less incentive — to carry walk-ons.
 
 **Estimates suggest between 5,000 and 13,000 roster spots have been eliminated across Division I** as a result of the new limits. The range is wide because implementation varies by school and sport, but the direction is clear: fewer total spots, and the spots that remain are more likely to go to funded athletes.
 
@@ -253,4 +254,4 @@ The House settlement is a year old. Its implementation is ongoing, and many thin
 
 ---
 
-*House settlement implementation is still moving, and the money figures are dated. The revenue-sharing figures here reflect the **2025-26** academic year — the settlement's first year and the most recent for which the NCAA has published a cap — verified against the NCAA's House implementation Q&A (updated February 11, 2026) on 2026-08-25. Verify current roster limits and benefits-cap rules at NCAA.org and with the College Sports Commission, and ask each program what it actually funds.*
+*House settlement implementation is still moving, and the money figures are dated. The revenue-sharing figures here reflect the **2025-26** academic year — the settlement's first year and the most recent for which the NCAA has published a cap — verified against the NCAA's House implementation Q&A (updated February 11, 2026) on 2026-08-25. Verify current roster limits and benefits-cap rules at NCAA.org and with the College Sports Commission, and ask each program what it actually funds. Roster-size figures come from RosterWise's analysis of **2025-26** Division I men's soccer rosters, computed 2026-08-26.*

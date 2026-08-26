@@ -50,14 +50,15 @@ None of this information is hidden. It is publicly available on every program's 
 
 ### 1. Position abbreviations (OH, MB, S, L, RS, OPP, DS)
 
-Volleyball rosters use standard position abbreviations, though the conventions are not always consistent across programs:
+Volleyball rosters use standard position abbreviations, though the conventions are not always consistent across programs. The counts below come from RosterWise's analysis of 1,300 women's college volleyball programs for the 2025-26 season — every program in our dataset that listed a position for all of its rostered players. Each figure is the median program, with the middle half of programs in parentheses.
 
-- **OH** — Outside Hitter (primary attacker, left side; most rosters carry 3-5)
-- **MB** or **MH** — Middle Blocker / Middle Hitter (central net presence; typically 3-4 on the roster)
-- **S** — Setter (the playmaker; usually 2-3 on the roster)
-- **L** or **Lib** — Libero (defensive specialist, different-colored jersey; 1-2 on the roster)
-- **RS** or **OPP** — Right-Side Hitter / Opposite (right-side attacker; typically 2-3)
-- **DS** — Defensive Specialist (back-row substitute; 1-3 on the roster)
+- **OH** — Outside Hitter (primary attacker, left side). Median 5 per roster (4 to 6).
+- **MB** or **MH** — Middle Blocker / Middle Hitter (central net presence). Median 4 (3 to 5).
+- **S** — Setter (the playmaker). Median 3 (2 to 3).
+- **RS** or **OPP** — Right-Side Hitter / Opposite (right-side attacker). Median 2 (1 to 2).
+- **L** or **Lib** — Libero (back-row specialist, different-colored jersey) and **DS** — Defensive Specialist (back-row substitute). We report these two together, because programs use the labels interchangeably: of those 1,300 rosters, only 707 list anyone as a libero while 983 list someone as a defensive specialist. Counted as a single back-row group, the median program carries 4 (3 to 5).
+
+Those are women's figures. Across the 211 men's volleyball programs in the same dataset, rosters skew toward more outside hitters (median 6) and fewer back-row specialists (median 3).
 
 Some programs do not list positions on their public roster at all, which makes external analysis harder. Others use hybrid designations like "OH/RS" or "DS/L" that blur the categories. This inconsistency is one of the reasons roster analysis at scale is difficult — and one of the reasons we built RosterWise.
 
@@ -121,3 +122,7 @@ Reading one roster takes a few minutes. Understanding the position depth, class-
 That is exactly why RosterWise exists. We analyze roster composition, position depth, class-year gaps, coaching tenure, and international composition across every D1, D2, D3, and NAIA women's volleyball program. The intelligence that coaching staffs use to evaluate their competitors, now available to families.
 
 A college volleyball roster is a recruiting blueprint. RosterWise helps you read all of them.
+
+---
+
+*Roster composition changes every season. The position-depth figures on this page come from RosterWise's analysis of **2025-26** college volleyball rosters, computed 2026-08-26, and describe what programs carried that season rather than a rule any program follows. Confirm a specific program's depth with its coaching staff.*

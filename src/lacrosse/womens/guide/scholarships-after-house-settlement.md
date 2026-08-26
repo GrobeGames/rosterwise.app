@@ -54,6 +54,7 @@ sources:
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Division I, II, III scholarship and roster framework documentation'
   - "<strong>List of NCAA Division II lacrosse programs</strong> — 111 women's D2 programs confirmed as of 2025 NCAA season"
   - '<a href="https://www.njcaa.org">NJCAA.org</a> — Junior college lacrosse scholarship framework'
+  - "RosterWise 2025-26 roster dataset — roster sizes for 133 Division I women's lacrosse programs, compiled from publicly available college athletics websites, captured June-August 2026"
 cta:
   heading: "Find programs where the scholarship reality matches your family's needs"
   text: "Generic scholarship rules don't tell you what any specific program is actually offering. The House settlement created winners and losers across women's D1 lacrosse — not based on competitive level, but based on individual program funding decisions. RosterWise analyzes every D1, D2, D3, NAIA, and NJCAA women's lacrosse program — position depth, class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring to help families identify the programs where their daughter genuinely fits both athletically and academically."
@@ -66,8 +67,10 @@ ${toc}
 
 Per USA Lacrosse magazine's coverage of the House settlement (approved by Judge Claudia Wilken on June 6, 2025) and the broader sports law analysis:
 
-- **Before the settlement**: NCAA Division I women's lacrosse operated under a 12 equivalency scholarship cap. Programs divided that 12-scholarship value across their entire roster (typically 30-35+ players), meaning most athletes received partial scholarships.
+- **Before the settlement**: NCAA Division I women's lacrosse operated under a 12 equivalency scholarship cap. Programs divided that 12-scholarship value across their entire roster, meaning most athletes received partial scholarships.
 - **After the settlement**: D1 women's lacrosse programs that opted into the settlement can offer scholarships to up to 38 athletes — matching the new roster cap. The previous 12-scholarship cap was eliminated. Equivalency rules still allow partial scholarships.
+
+For scale on what those rosters actually look like: across the 133 Division I women's lacrosse programs RosterWise analyzed for the 2025-26 season, the median roster carried 34 players, with the middle half of programs between 31 and 37. That leaves 84% of them at or below the new 38-player cap. Our roster data begins with the 2025-26 season, so it describes rosters under the new framework rather than the one it replaced.
 
 This expansion is one of the largest proportional scholarship increases of any sport under the settlement. Per Sports Illustrated's published Boston College table on the new framework, women's lacrosse moved from 12 to 38 — a potential increase of 26 scholarships per program.
 
@@ -175,4 +178,4 @@ No two women's lacrosse families have the same scholarship experience. Some athl
 
 ---
 
-*House settlement implementation is still moving. This article reflects the **2025-26** academic year — the settlement's first year. Verify current scholarship and roster limits at NCAA.org, check USA Lacrosse for coverage of lacrosse-specific implementation, and confirm what a specific program actually funds with its coaching staff.*
+*House settlement implementation is still moving. This article reflects the **2025-26** academic year — the settlement's first year. Verify current scholarship and roster limits at NCAA.org, check USA Lacrosse for coverage of lacrosse-specific implementation, and confirm what a specific program actually funds with its coaching staff. Roster-size figures come from RosterWise's analysis of **2025-26** Division I women's lacrosse rosters, computed 2026-08-26.*

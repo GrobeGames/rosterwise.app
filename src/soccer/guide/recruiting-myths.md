@@ -26,7 +26,7 @@ sources:
   - "NCAA.org, Division III Facts and Figures"
   - "NCAA.org, Recruiting Rules by Division"
   - "United Soccer Coaches Annual Survey Data"
-  - "RosterWise internal roster analysis across 2,200+ programs"
+  - "RosterWise 2025-26 roster dataset — international composition across 1,012 men's and 1,221 women's college soccer programs, compiled from publicly available college athletics websites, captured April-August 2026"
 cta:
   heading: "Replace myths with data."
   text: "RosterWise™ analyzes every D1, D2, D3, and NAIA soccer program — 2,200+ men's and women's rosters. Position depth, class-year gaps, international composition, recruiting patterns, and personalized My RosterFit™ scoring. See the reality behind every program, not the assumptions."
@@ -85,7 +85,11 @@ This myth creates anxiety among domestic families — the sense that programs ar
 
 ### What's actually true
 
-International recruiting varies dramatically by program, division, conference, and gender. Some D1 and D2 programs recruit heavily from overseas — 30% or more of their roster may be international. Others are almost entirely domestic. The national average for men's D1 soccer is roughly 20-25% international, but that average hides enormous variation. In women's soccer, international percentages tend to be lower across the board. Conference-level patterns matter more than division-level averages.
+International recruiting varies dramatically by program, division, conference, and gender — and it is more common than most families assume. Across the 213 Division I men's soccer programs RosterWise analyzed for the 2025-26 season, international players held 2,099 of 6,203 roster spots — 33.8%, or about one in three. Recruiting 30% or more from overseas is not the exception at that level: 56.3% of D1 men's programs and 63.9% of D2 men's programs are at or above 30%. Individual programs still run the full range, from none at all to nearly the entire roster.
+
+Women's soccer is lower at every division. Across 349 D1 women's programs the international share is 12.4%, against 33.8% for D1 men; the same gap holds at D2 (11.3% against 37.3%), D3 (2.1% against 11.2%), and NAIA (20.0% against 48.2%).
+
+Conference-level patterns matter more than division-level averages.
 
 ### What this means for your family
 
@@ -161,4 +165,4 @@ That's why we built RosterWise — to replace assumptions with analysis, and to 
 
 ---
 
-*Recruiting rules, roster limits, and the composition of college rosters all change year to year. This article reflects the landscape as of **April 2026**. Verify current rules at NCAA.org and NAIA.org, confirm league structures with ECNL and MLS NEXT, and treat roster-composition figures as descriptions of the seasons RosterWise analyzed rather than fixed rates.*
+*Recruiting rules, roster limits, and the composition of college rosters all change year to year. The roster-composition figures on this page come from RosterWise's analysis of **2025-26** rosters, computed 2026-08-26; the rule references reflect the landscape as of April 2026. Verify current rules at NCAA.org and NAIA.org, confirm league structures with ECNL and MLS NEXT, and treat roster-composition figures as descriptions of the season RosterWise analyzed rather than fixed rates.*

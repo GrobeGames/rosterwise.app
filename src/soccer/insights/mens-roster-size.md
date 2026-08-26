@@ -76,7 +76,7 @@ Midfielders make up the largest position group at every division. Goalkeeper cou
 
 ## What the House settlement changed for D1 roster sizes
 
-The 2025 House v. NCAA settlement introduced a roster limit of 28 for D1 men's soccer programs that opted into the new framework. Before the settlement, many D1 programs carried 30 or more players, including walk-ons.
+The 2025 House v. NCAA settlement introduced a roster limit of 28 for D1 men's soccer programs that opted into the new framework. Before the settlement there was no cap on roster size at all — programs could carry athletes beyond their scholarship allotment as walk-ons. Our roster data begins with the 2025-26 season, the first played under the new limits, so we cannot say from our own data how large those pre-settlement rosters were.
 
 This is a meaningful shift. The 2025 data shows D1 men's programs averaging 28.9 players with a median of 28 — right at the new roster limit. Fewer total roster spots means:
 

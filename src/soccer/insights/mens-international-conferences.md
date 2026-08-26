@@ -40,7 +40,7 @@ ${toc}
 
 ## Why international composition matters for domestic recruits
 
-International recruiting is one of the most significant factors shaping men's college soccer rosters — and one of the least discussed in recruiting circles. Across all 1,012 men's programs in the 2025 dataset, 12,838 players are classified as international — 19.1% overall, but significantly higher in D1, D2, and NAIA.
+International recruiting is one of the most significant factors shaping men's college soccer rosters — and one of the least discussed in recruiting circles. Across all 1,012 men's programs in the 2025-26 dataset, 9,504 players are classified as international — 28.7% overall, and higher still in D1, D2, and NAIA.
 
 For families with a domestic recruit, understanding how many roster spots go to international players is not about objecting to their presence. It is about understanding the competitive landscape honestly.
 
@@ -161,4 +161,4 @@ Despite these limitations, the conference-level patterns are robust and directio
 
 ---
 
-*Data reflects 2025 NCAA season rosters as published on official athletics websites, captured April–May 2026. See [methodology](/methodology/data-and-analysis/) for full documentation.*
+*Data reflects **2025-26** NCAA season rosters as published on official athletics websites. The overall men's international figure was recomputed on 2026-08-26 from the full dataset (captured April–August 2026), correcting an earlier figure that had mixed men's and women's totals. The conference tables on this page still reflect the original April–May 2026 capture and are scheduled for a full refresh. See [methodology](/methodology/data-and-analysis/) for full documentation.*

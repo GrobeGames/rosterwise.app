@@ -56,6 +56,7 @@ sources:
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Division I, II, III scholarship and roster framework documentation'
   - '<a href="https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship: "2025-26 NCAA Projected Sport Sponsorship," as of September 2025 (men''s lacrosse: 77 DI, 80 DII, 236 DIII; women''s lacrosse: 134 DI, 112 DII, 279 DIII)'
   - '<a href="https://www.njcaa.org">NJCAA.org</a> — Junior college lacrosse scholarship framework, including the 20-scholarship maximum at NJCAA D-I'
+  - "RosterWise 2025-26 roster dataset — roster sizes for 77 Division I men's lacrosse programs, compiled from publicly available college athletics websites, captured June-August 2026"
   - "<strong>ScholarshipStats.com</strong> — NCAA scholarship equivalency framework documentation"
 cta:
   heading: "Find programs where the scholarship reality matches your family's needs"
@@ -69,8 +70,10 @@ ${toc}
 
 Per USA Lacrosse magazine's coverage of the House settlement (approved by Judge Claudia Wilken on June 6, 2025):
 
-- **Before the settlement**: NCAA Division I men's lacrosse operated under a 12.6 equivalency scholarship cap. Programs divided that 12.6-scholarship value across their entire roster (typically 50+ players), meaning most athletes received partial scholarships.
+- **Before the settlement**: NCAA Division I men's lacrosse operated under a 12.6 equivalency scholarship cap. Programs divided that 12.6-scholarship value across their entire roster, meaning most athletes received partial scholarships.
 - **After the settlement**: D1 men's lacrosse programs that opted into the settlement can offer scholarships to up to 48 athletes — matching the new roster cap. The previous 12.6 cap was eliminated. Equivalency rules still allow partial scholarships.
+
+For scale on what those rosters actually look like: across the 77 Division I men's lacrosse programs RosterWise analyzed for the 2025-26 season, the median roster carried 49 players, with the middle half of programs between 47 and 53. That sits just above the 48-player cap, which binds only at schools that opted into the settlement. Our roster data begins with the 2025-26 season, so it describes rosters under the new framework rather than the one it replaced.
 
 This is one of the largest proportional scholarship increases of any sport under the settlement. Per USA Lacrosse magazine, the change "in theory would create more than 2,500 additional Division I men's lacrosse scholarships" annually — although whether programs actually fund up to the cap depends on their individual budgets.
 
@@ -203,4 +206,4 @@ No two men's lacrosse families have the same scholarship experience under the po
 
 ---
 
-*House settlement implementation is still moving. This article reflects the **2025-26** academic year — the settlement's first year. Program counts are the NCAA's **projected 2025-26** sport-sponsorship figures, as of September 2025 — the most recent the NCAA has published — verified on 2026-08-26; the NCAA notes that actual numbers may change. Verify current scholarship and roster limits at NCAA.org, check USA Lacrosse for coverage of lacrosse-specific implementation, and confirm what a specific program actually funds with its coaching staff.*
+*House settlement implementation is still moving. This article reflects the **2025-26** academic year — the settlement's first year. Program counts are the NCAA's **projected 2025-26** sport-sponsorship figures, as of September 2025 — the most recent the NCAA has published — verified on 2026-08-26; the NCAA notes that actual numbers may change. Verify current scholarship and roster limits at NCAA.org, check USA Lacrosse for coverage of lacrosse-specific implementation, and confirm what a specific program actually funds with its coaching staff. Roster-size figures come from RosterWise's analysis of **2025-26** Division I men's lacrosse rosters, computed 2026-08-26.*

@@ -51,6 +51,7 @@ sources:
   - "Intercollegiate Men's Lacrosse Coaches Association (IMLCA) — Joint proposer with IWLCA of the 2017 recruiting rule change"
   - "2025 NCAA Division I Men's Lacrosse Championship records — Cornell over Maryland 13-10, Gillette Stadium, May 26, 2025 (per official NCAA records)"
   - "U.S. District Court, Northern District of California — House v. NCAA settlement ruling, approved by Judge Claudia Wilken, June 6, 2025"
+  - "RosterWise 2025-26 roster dataset — roster sizes for 77 Division I men's lacrosse programs, compiled from publicly available college athletics websites, captured June-August 2026"
 cta:
   heading: "Find programs where your son genuinely fits."
   text: "The recruiting timeline tells you when things happen. Roster intelligence tells you which programs are actually right for your son. RosterWise analyzes every D1, D2, D3, NAIA, and NJCAA men's lacrosse program — position depth (including specialized positions like FOGO and LSM), class-year gaps, recruiting geography, Canadian recruiting patterns, transfer portal activity, and personalized fit scoring."
@@ -135,9 +136,11 @@ The 2025-26 season has been particularly significant. Per official NCAA champion
 
 A critical contextual layer for men's lacrosse recruiting families today: the [House v. NCAA settlement](/lacrosse/guide/house-settlement-and-lacrosse/), approved June 6, 2025, dramatically changed the scholarship and roster framework for NCAA D1 men's lacrosse.
 
-**Before the House settlement**: D1 men's lacrosse operated under a 12.6 equivalency scholarship cap that programs divided among their roster (typically around 50+ players).
+**Before the House settlement**: D1 men's lacrosse operated under a 12.6 equivalency scholarship cap that programs divided among their entire roster, so most athletes received partial scholarships rather than full rides.
 
 **After the House settlement**: D1 men's lacrosse programs that opted into the settlement can offer scholarships to up to 48 players (matching the new roster cap). The 12.6 equivalency cap was eliminated; programs can fully fund up to 48 scholarships.
+
+For scale on what those rosters actually look like: across the 77 Division I men's lacrosse programs RosterWise analyzed for the 2025-26 season, the median roster carried 49 players, with the middle half of programs between 47 and 53. That sits just above the 48-player cap, which binds only at schools that opted into the settlement. Our roster data begins with the 2025-26 season, so it describes rosters under the new framework rather than the one it replaced.
 
 **Important nuance**: The 48 figure is a maximum, not a requirement. Per USA Lacrosse magazine coverage of Maryland head coach John Tillman's analysis, men's lacrosse programs will distribute across five categories in their funding response — some increasing significantly to 25 or more scholarships, some maintaining previous levels, some reducing, some dropping scholarships entirely, and a small number dropping the sport. Families should ask each program directly about its scholarship funding level under the new framework.
 
@@ -346,4 +349,4 @@ No two men's lacrosse athletes have the same recruiting experience. Some receive
 
 ---
 
-*NCAA recruiting rules, calendars, and the House settlement implementation are evolving. This article reflects the 2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar, the men's lacrosse contact-date legislation adopted June 29, 2026 (effective August 1, 2026), and the House settlement framework as approved June 6, 2025. Program counts are the NCAA's **projected 2025-26** sport-sponsorship figures, as of September 2025 — the most recent the NCAA has published — verified on 2026-08-26; the NCAA notes that actual numbers may change. Families should verify current rules and program-specific scholarship funding directly with each school.*
+*NCAA recruiting rules, calendars, and the House settlement implementation are evolving. This article reflects the 2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar, the men's lacrosse contact-date legislation adopted June 29, 2026 (effective August 1, 2026), and the House settlement framework as approved June 6, 2025. Program counts are the NCAA's **projected 2025-26** sport-sponsorship figures, as of September 2025 — the most recent the NCAA has published — verified on 2026-08-26; the NCAA notes that actual numbers may change. Families should verify current rules and program-specific scholarship funding directly with each school. Roster-size figures come from RosterWise's analysis of **2025-26** Division I men's lacrosse rosters, computed 2026-08-26.*

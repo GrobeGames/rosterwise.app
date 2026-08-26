@@ -29,6 +29,7 @@ related:
 sources:
   - "NCAA.org, recruiting rules and roster management"
   - "United Soccer Coaches (formerly NSCAA) goalkeeper coaching resources"
+  - "RosterWise 2025-26 roster dataset — position counts across 339 Division I women's soccer programs that list a position for every rostered player, compiled from publicly available college athletics websites, captured April-August 2026"
 cta:
   heading: "See which programs need a goalkeeper — before you apply."
   text: "Goalkeeper recruiting is all about timing and fit. RosterWise shows you how many GKs each women's soccer program carries, what class years they are, and when roster openings are likely. Families can see the opportunity before they invest in camps and visits."
@@ -39,7 +40,7 @@ ${toc}
 
 ## Why goalkeeper recruiting is different
 
-The math is straightforward: most women's college soccer programs carry three goalkeepers. A program with 28 roster spots (the D1 limit under the House settlement) might have three GKs. That's roughly 10% of the roster. Compare that to midfielders (often 8-10 on a roster) or defenders (6-8), and the scarcity is clear.
+The math is straightforward. Across the 339 Division I women's soccer programs RosterWise analyzed for the 2025-26 season — counting only programs that list a position for every rostered player — the median program carried three goalkeepers, and 64.0% carried exactly three. Measured against the 28-player roster limit that applies at D1 schools which opted into the House settlement, that is roughly one spot in ten. Compare it to the field-position groups on those same rosters: a median of 9 midfielders, with the middle half of programs carrying 7 to 10; 8 defenders (7 to 10); and 7 forwards (6 to 9). The scarcity is clear.
 
 This scarcity affects everything:
 
@@ -168,4 +169,4 @@ Men's college soccer goalkeeper recruiting has different roster dynamics and tim
 
 ---
 
-*Roster limits and position-depth patterns both change year to year. This article reflects the landscape as of **April 2026**. Verify current roster and scholarship limits at NCAA.org and NAIA.org, and treat the position-depth figures here as descriptions of typical rosters rather than rules — confirm a program's actual depth with its coaching staff.*
+*Roster limits and position-depth patterns both change year to year. The position-depth figures on this page come from RosterWise's analysis of **2025-26** rosters, computed 2026-08-26; the recruiting-rule references reflect the landscape as of April 2026. Verify current roster and scholarship limits at NCAA.org and NAIA.org, and treat the position-depth figures here as descriptions of typical rosters rather than rules — confirm a program's actual depth with its coaching staff.*
