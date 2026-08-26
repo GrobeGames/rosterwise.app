@@ -43,6 +43,7 @@ faq:
 sources:
   - '<a href="https://ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D1Rec_MLARecruitingCalendar.pdf">2026-27 NCAA Division I Men''s Lacrosse Recruiting Calendar</a> — Official NCAA document'
   - "<strong>NCAA Division I men's lacrosse recruiting legislation adopted June 29, 2026, effective August 1, 2026</strong> — moved the initial contact date from September 1 to the Wednesday (7 a.m.) immediately following Labor Day at the beginning of junior year"
+  - '<a href="https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship: "2025-26 NCAA Projected Sport Sponsorship," as of September 2025 (men''s lacrosse: 77 DI, 80 DII, 236 DIII)'
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Official NCAA rules and recruiting calendar archives'
   - '<a href="https://eligibilitycenter.org">NCAA Eligibility Center</a> — Academic eligibility and registration requirements'
   - "USA Lacrosse magazine — Coverage of NCAA Division I Council's exemption of lacrosse from Proposal 2018-93-2's general June 15 contact rule; coverage of House settlement implications for college lacrosse"
@@ -116,15 +117,17 @@ That September 1 date held for men's lacrosse until August 1, 2026, when the Lab
 
 ## The men's lacrosse landscape
 
-Men's college lacrosse has approximately 458 programs total across all divisions:
+The NCAA's projected 2025-26 sport sponsorship figures put **393** men's lacrosse programs across its three divisions:
 
-- **NCAA Division I men's lacrosse**: Approximately 75-80 programs
-- **NCAA Division II men's lacrosse**: 78 programs (per the 2025 NCAA lacrosse season data)
-- **NCAA Division III men's lacrosse**: Approximately 240+ programs
-- **NAIA men's lacrosse**: 33 programs
-- **NJCAA men's lacrosse**: 28 programs
+- **NCAA Division I men's lacrosse**: **77** programs
+- **NCAA Division II men's lacrosse**: **80** programs
+- **NCAA Division III men's lacrosse**: **236** programs — the largest men's lacrosse division by a wide margin
 
-The sport is heavily concentrated geographically in the Mid-Atlantic, Northeast, and parts of the Southeast and Mountain West. Programs at all levels are growing, though new D1 programs are added relatively slowly.
+The NCAA labels these as projections and notes that actual numbers may change. Note that 393 counts NCAA programs only; it is not an all-divisions total.
+
+Men's lacrosse is also played outside the NCAA. The NAIA sponsors men's lacrosse and runs a national championship, and the NJCAA sponsors it at the junior-college level. Neither body publishes a current program count we could verify from a primary source, so we don't state one — check [NAIA.org](https://www.naia.org) and [NJCAA.org](https://www.njcaa.org) for the current field, or ask the programs you are considering.
+
+The sport is heavily concentrated geographically in the Mid-Atlantic, Northeast, and parts of the Southeast and Mountain West.
 
 The 2025-26 season has been particularly significant. Per official NCAA championship records, Cornell defeated Maryland 13-10 at Gillette Stadium in the 2025 D1 Men's Lacrosse Championship (May 26, 2025), capturing Cornell's 4th NCAA title and first since 1977. CJ Kirst of Cornell was named Most Outstanding Player.
 
@@ -297,9 +300,9 @@ It's essential to be honest about how the recruiting process actually plays out 
 
 **High-level D1 recruits with regional or specific-school targets**: Recruiting often unfolds across junior year into senior year with multiple visits, evaluations, and progressive offer escalation.
 
-**D2 men's lacrosse recruits**: D2 men's lacrosse has 78 programs and a more flexible recruiting environment. D2 coaches can typically communicate with athletes more freely than D1 coaches. The recruiting cycle at D2 is often longer and more deliberate.
+**D2 men's lacrosse recruits**: D2 men's lacrosse has **80** projected 2025-26 programs and a more flexible recruiting environment. D2 coaches can typically communicate with athletes more freely than D1 coaches. The recruiting cycle at D2 is often longer and more deliberate.
 
-**D3 men's lacrosse recruits**: D3 men's lacrosse has the largest pool of programs by far (approximately 240+ NCAA D3 programs). D3 programs do not offer athletic scholarships but often have strong academic merit aid programs that can produce competitive financial packages. D3 recruiting often runs through senior year. Elite NESCAC and other academically selective D3 programs have their own recruiting framework (see [How College Admissions Actually Works for Recruited Athletes](/guide/recruited-athlete-admissions/)).
+**D3 men's lacrosse recruits**: D3 men's lacrosse has the largest pool of programs by far — **236** NCAA D3 programs projected for 2025-26, against 80 at D2 and 77 at D1. D3 programs do not offer athletic scholarships but often have strong academic merit aid programs that can produce competitive financial packages. D3 recruiting often runs through senior year. Elite NESCAC and other academically selective D3 programs have their own recruiting framework (see [How College Admissions Actually Works for Recruited Athletes](/guide/recruited-athlete-admissions/)).
 
 **NAIA and NJCAA recruits**: These divisions operate under their own frameworks with generally more permissive communication rules and longer recruiting cycles.
 
@@ -343,4 +346,4 @@ No two men's lacrosse athletes have the same recruiting experience. Some receive
 
 ---
 
-*NCAA recruiting rules, calendars, and the House settlement implementation are evolving. This article reflects the 2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar, the men's lacrosse contact-date legislation adopted June 29, 2026 (effective August 1, 2026), and the House settlement framework as approved June 6, 2025. Families should verify current rules and program-specific scholarship funding directly with each school.*
+*NCAA recruiting rules, calendars, and the House settlement implementation are evolving. This article reflects the 2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar, the men's lacrosse contact-date legislation adopted June 29, 2026 (effective August 1, 2026), and the House settlement framework as approved June 6, 2025. Program counts are the NCAA's **projected 2025-26** sport-sponsorship figures, as of September 2025 — the most recent the NCAA has published — verified on 2026-08-26; the NCAA notes that actual numbers may change. Families should verify current rules and program-specific scholarship funding directly with each school.*

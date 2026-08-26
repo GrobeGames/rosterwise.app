@@ -110,7 +110,7 @@ D3 programs [cannot offer athletic scholarships](/guide/athletic-scholarships/),
 
 ### NAIA
 
-NAIA schools can offer athletic scholarships, and many are actively recruiting into the spring of an athlete's senior year. The NAIA includes over 250 member institutions, many of which are small, community-oriented schools. NAIA eligibility requirements differ from the NCAA — check [NAIA.org](https://www.naia.org) for current rules.
+NAIA schools can offer athletic scholarships, and many are actively recruiting into the spring of an athlete's senior year. The NAIA includes 250 member institutions across 20 conferences, per NAIA.org — many of them small, community-oriented schools. NAIA eligibility requirements differ from the NCAA — check [NAIA.org](https://www.naia.org) for current rules.
 
 NAIA programs tend to have more flexibility in their recruiting timelines and are often open to athletes who emerge later in the process.
 

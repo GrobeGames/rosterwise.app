@@ -22,10 +22,13 @@ related:
   - title: "The Transfer Portal Explained"
     url: /guide/transfer-portal/
 sources:
+  - '<a href="https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship: "2025-26 NCAA Membership Breakdown" and "2025-26 NCAA Projected Sport Sponsorship," both as of September 2025'
+  - '<a href="https://ncaaorg.s3.amazonaws.com/research/sportpart/2025-26RES_NCAAMembershipBreakdown.pdf">NCAA.org</a> — 2025-26 NCAA Membership Breakdown (as of September 26, 2025)'
   - "NCAA.org, Division I, II, and III membership and governance structures"
   - "NCAA.org, Division I Manual, 2025-26"
   - "NCAA.org, Division II Manual, 2025-26"
   - "NCAA.org, Division III Manual, 2025-26"
+  - '<a href="https://www.naia.org/explore/schools/">NAIA.org</a> — NAIA Schools: "The NAIA is comprised of 250 diverse member schools organized into 20 competitive conferences" (read 2026-08-26)'
   - "NAIA.org, membership information and eligibility rules"
   - "NCAA.org, Question and Answer: Implementation of the House Settlement (June 13, 2025)"
   - "IPEDS (Integrated Postsecondary Education Data System), nces.ed.gov"
@@ -49,9 +52,11 @@ The answer might be a D1 program. It might be a D3 school with exceptional acade
 
 ## The divisions at a glance
 
+The school counts below are **membership** counts — how many institutions belong to each division — taken from the NCAA's own *2025-26 NCAA Membership Breakdown* (as of September 2025, the most recent the NCAA has published) and from the NAIA's published membership figure. Membership is not the same thing as sport sponsorship. A division's member count tells you how many schools are in it, not how many of them field any particular sport — Division III has 422 member institutions but 236 of them sponsor men's lacrosse, for example. When you are sizing up your athlete's actual options, the number that matters is the sponsorship count for their sport.
+
 ### NCAA Division I
 
-- **Number of schools:** Approximately 365 active member institutions
+- **Number of schools:** **361** active member institutions (2025-26 NCAA membership breakdown)
 - **Scholarships:** Athletic scholarships available. Sports are classified as "head count" (e.g., football, basketball — full scholarships for a set number of athletes) or "equivalency" (e.g., soccer, track — a fixed total divided among multiple athletes as partial scholarships). The House settlement has changed this structure for opt-in schools — see our [scholarships guide](/guide/athletic-scholarships/).
 - **Roster sizes:** Subject to sport-specific roster limits under the House settlement for opt-in schools
 - **Recruiting rules:** Most restrictive. Contact dates, dead periods, quiet periods, and evaluation periods are all regulated by sport-specific calendars. See our [recruiting rules guide](/guide/ncaa-recruiting-rules/).
@@ -61,7 +66,7 @@ The answer might be a D1 program. It might be a D3 school with exceptional acade
 
 ### NCAA Division II
 
-- **Number of schools:** Approximately 300 active member institutions
+- **Number of schools:** **292** active member institutions (2025-26 NCAA membership breakdown)
 - **Scholarships:** Athletic scholarships available, traditionally structured as equivalency (partial scholarships divided across the roster). Scholarship limits are sport-specific. Many D2 schools pair partial athletic aid with academic merit and need-based aid — see our [stacking financial aid guide](/guide/stacking-financial-aid/) for how these layers work together.
 - **Roster sizes:** Generally not subject to the same House settlement roster limits as D1 (unless the institution opts in for a D1 sport)
 - **Recruiting rules:** Less restrictive than D1. Coaches can contact prospects at any time via phone, text, or email — there is no "June 15" or junior-year restriction. D2 runs one recruiting calendar for all sports; for 2026-27 the whole year is a contact period except a signing-date dead period from 7 a.m. November 9 to 7 a.m. November 11, 2026.
@@ -73,7 +78,7 @@ Beyond these four divisions, **junior college (JUCO)** programs offer another le
 
 ### NCAA Division III
 
-- **Number of schools:** Approximately 450 active member institutions — the largest NCAA division
+- **Number of schools:** **422** active member institutions (2025-26 NCAA membership breakdown) — the largest NCAA division, ahead of Division I (361) and Division II (292)
 - **Scholarships:** **No athletic scholarships.** Financial aid at D3 is need-based and merit-based academic aid. Some D3 schools are very generous with academic merit aid, and athletes may receive the same aid packages as non-athletes.
 - **Roster sizes:** Generally larger and more flexible than D1 or D2, since there are no scholarship limitations driving roster composition
 - **Recruiting rules:** The most flexible in the NCAA. D3 has no recruiting calendar at all — no contact, evaluation, quiet, or dead periods. The one timing restriction is that in-person off-campus contact may not occur until the prospect has completed **sophomore** year (not junior year, a common third-party error). Official visits begin January 1 of junior year.
@@ -83,7 +88,7 @@ Beyond these four divisions, **junior college (JUCO)** programs offer another le
 
 ### NAIA
 
-- **Number of schools:** Approximately 250 member institutions
+- **Number of schools:** **250** member institutions across 20 conferences, per NAIA.org. The NAIA does not attach an academic year to that figure; it is the association's current published membership.
 - **Scholarships:** Athletic scholarships available. NAIA scholarship limits vary by sport but are generally comparable to NCAA D2 levels.
 - **Roster sizes:** Set by each institution and conference; generally flexible
 - **Recruiting rules:** The most flexible of all. Coaches can contact athletes at any time during high school.
@@ -164,4 +169,4 @@ Cast a wide net. Visit schools across divisions. Ask hard questions. And be open
 
 ---
 
-*Division rules, membership, and recruiting calendars change every year. This article reflects the **2025-26** academic year, with recruiting-calendar references drawn from the 2026-27 calendars. Verify current division rules and membership counts at NCAA.org, NAIA.org, and NJCAA.org, and confirm academic requirements with the NCAA Eligibility Center.*
+*Division rules, membership, and recruiting calendars change every year. NCAA membership counts here are the NCAA's **2025-26** breakdown, as of September 2025 — the most recent the NCAA has published — and were re-verified on 2026-08-26; the NAIA figure is the association's current published membership, read the same day. Recruiting-calendar references are drawn from the 2026-27 calendars. Verify current division rules and membership counts at NCAA.org, NAIA.org, and NJCAA.org, and confirm academic requirements with the NCAA Eligibility Center.*

@@ -54,8 +54,8 @@ sources:
   - '<strong>Sports Illustrated</strong> — Boston College post-House scholarship table (si.com/college/bostoncollege)'
   - '<strong>Whiteford, Taylor &amp; Preston LLP</strong> — "Client Alert: NCAA House Settlement Approved" (whitefordlaw.com)'
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Division I, II, III scholarship and roster framework documentation'
-  - "<strong>List of NCAA Division II lacrosse programs</strong> — 78 men's D2 programs confirmed as of 2025 NCAA season"
-  - '<a href="https://www.njcaa.org">NJCAA.org</a> — Junior college lacrosse scholarship framework, including 28 men''s lacrosse programs and 20-scholarship maximum at NJCAA D-I'
+  - '<a href="https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship: "2025-26 NCAA Projected Sport Sponsorship," as of September 2025 (men''s lacrosse: 77 DI, 80 DII, 236 DIII; women''s lacrosse: 134 DI, 112 DII, 279 DIII)'
+  - '<a href="https://www.njcaa.org">NJCAA.org</a> — Junior college lacrosse scholarship framework, including the 20-scholarship maximum at NJCAA D-I'
   - "<strong>ScholarshipStats.com</strong> — NCAA scholarship equivalency framework documentation"
 cta:
   heading: "Find programs where the scholarship reality matches your family's needs"
@@ -132,7 +132,7 @@ Per ScholarshipStats.com's NCAA D2 documentation, D2 men's lacrosse is an equiva
 
 Practical realities at the D2 men's lacrosse level:
 
-- **78 D2 men's lacrosse programs exist** (per the official NCAA Division II lacrosse programs documentation, as of the 2025 NCAA season). This is significantly smaller than the 111 women's D2 programs.
+- **80 D2 men's lacrosse programs** are projected for 2025-26 in the NCAA's own sport-sponsorship figures — smaller than the **112** D2 women's lacrosse programs projected for the same year. (The NCAA labels these as projections and notes that actual numbers may change.)
 - **Many D2 programs aren't fully funded**: As at the D1 level, many D2 men's lacrosse programs operate below the maximum scholarship allotment due to budget constraints.
 - **Partial scholarships are the norm**: Few D2 men's lacrosse athletes receive full athletic scholarships. Most awards are partial, combining with academic merit aid, need-based aid, and outside scholarships to form total packages.
 
@@ -142,7 +142,7 @@ NCAA Division III men's lacrosse programs do not offer athletic scholarships. Th
 
 D3 men's lacrosse, however, remains a meaningful pathway:
 
-- **D3 is the largest men's lacrosse division by program count** — approximately 240+ NCAA D3 programs nationally
+- **D3 is the largest men's lacrosse division by program count** — **236** NCAA D3 men's lacrosse programs projected for 2025-26, against 80 at D2 and 77 at D1
 - **Many D3 schools offer substantial academic merit aid**: At academically selective D3 schools (NESCAC schools, top liberal arts colleges, other selective programs), academic merit aid packages can produce competitive financial outcomes
 - **The "harder to pass up" reality**: Per USA Lacrosse magazine, Middlebury head coach Kate Livesay framed the post-settlement reality bluntly: "Now with the scholarship money that's out there, it makes our job harder to pull in that person who's teetering on the fence of D-I or D-III. It becomes harder to go D-III and pass up on what could be a really nice scholarship." This dynamic applies to both men's and women's lacrosse.
 - **Competitive level varies enormously across D3**: From the NESCAC's elite competition (Tufts, Williams, Wesleyan, Middlebury) to less selective D3 programs, the competitive range within D3 men's lacrosse is wide. Strong D3 programs play at a high level.
@@ -151,9 +151,9 @@ The Middlebury, Tufts, RIT, and other top D3 programs have produced NCAA D3 men'
 
 ## NAIA and NJCAA men's lacrosse scholarships
 
-**NAIA men's lacrosse**: 33 programs operate under the NAIA framework. NAIA athletic scholarships are available, though scholarship rules and funding vary by school. NAIA scholarship limits operate as equivalency awards similar to NCAA D2 (though specific limits may differ — families should consult NAIA.org directly).
+**NAIA men's lacrosse**: The NAIA sponsors men's lacrosse and runs a national championship. It does not publish a current program count we could verify from a primary source, so we don't state one — check [NAIA.org](https://www.naia.org) for the current field. NAIA athletic scholarships are available at schools that sponsor the sport, though scholarship rules and funding vary by school. NAIA scholarship limits operate as equivalency awards similar to NCAA D2 (though specific limits may differ — families should consult NAIA.org directly).
 
-**NJCAA men's lacrosse**: 28 programs exist at the junior college level. Per NJCAA.org, NJCAA D-I programs may offer full athletic scholarships (covering tuition, fees, books, room, and board); D-II programs may offer scholarships for tuition, fees, and books only; D-III programs do not offer athletic scholarships. Per multiple sources, the NJCAA offers 20 men's lacrosse scholarships maximum per team at D-I. JUCO programs are particularly valuable for athletes seeking development before transferring to NCAA D-I or D-II programs.
+**NJCAA men's lacrosse**: The NJCAA sponsors men's lacrosse at the junior-college level; like the NAIA it publishes no verifiable current program count, so we don't state one — check [NJCAA.org](https://www.njcaa.org) for the current field. Per NJCAA.org, NJCAA D-I programs may offer full athletic scholarships (covering tuition, fees, books, room, and board); D-II programs may offer scholarships for tuition, fees, and books only; D-III programs do not offer athletic scholarships. Per multiple sources, the NJCAA offers 20 men's lacrosse scholarships maximum per team at D-I. JUCO programs are particularly valuable for athletes seeking development before transferring to NCAA D-I or D-II programs.
 
 For families considering the JUCO pathway specifically, see [JUCO Volleyball as a Recruiting Pathway](/volleyball/guide/juco-pathway/) for the broader JUCO framework, which applies similarly to men's lacrosse.
 
@@ -203,4 +203,4 @@ No two men's lacrosse families have the same scholarship experience under the po
 
 ---
 
-*House settlement implementation is still moving. This article reflects the **2025-26** academic year — the settlement's first year. Verify current scholarship and roster limits at NCAA.org, check USA Lacrosse for coverage of lacrosse-specific implementation, and confirm what a specific program actually funds with its coaching staff.*
+*House settlement implementation is still moving. This article reflects the **2025-26** academic year — the settlement's first year. Program counts are the NCAA's **projected 2025-26** sport-sponsorship figures, as of September 2025 — the most recent the NCAA has published — verified on 2026-08-26; the NCAA notes that actual numbers may change. Verify current scholarship and roster limits at NCAA.org, check USA Lacrosse for coverage of lacrosse-specific implementation, and confirm what a specific program actually funds with its coaching staff.*

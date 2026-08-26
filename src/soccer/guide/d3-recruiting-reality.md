@@ -25,6 +25,7 @@ related:
     url: /soccer/mens/guide/recruiting-timeline/
     status: live
 sources:
+  - '<a href="https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship: "2025-26 NCAA Membership Breakdown" and "2025-26 NCAA Projected Sport Sponsorship," both as of September 2025'
   - "NCAA.org — Division III philosophy and membership"
   - "NCAA.org — Division III financial aid information"
   - "NCAA.org — Academic Success Rate data"
@@ -38,7 +39,9 @@ ${toc}
 
 ## The D3 landscape
 
-NCAA Division III is the largest division in college athletics. It includes more than 400 institutions, and soccer is one of the most widely offered sports at the D3 level. For both men's and women's soccer, D3 represents a substantial portion of all college soccer programs in the country.
+NCAA Division III is the largest division in college athletics. The NCAA's *2025-26 NCAA Membership Breakdown* (as of September 2025) counts **422** active D3 member institutions, against 361 in Division I and 292 in Division II.
+
+Soccer is close to universal at that level. The NCAA's projected 2025-26 sport sponsorship figures count **407** D3 men's soccer teams and **419** D3 women's soccer teams — among the highest team counts of any sport in the division. (The NCAA labels these as projections and notes that actual numbers may change.) Membership and sponsorship are different measures: 422 is how many schools belong to Division III, and 407 / 419 is how many D3 soccer teams there are.
 
 D3 institutions range from small liberal arts colleges to mid-size universities. The academic profiles range from highly selective (schools with acceptance rates in the single digits) to broadly accessible. The athletic quality varies just as widely — some D3 soccer conferences produce teams that could compete with D2 and even lower-tier D1 programs, while other conferences are less competitive.
 
@@ -124,4 +127,4 @@ D3 soccer is not a lesser path. For many families, it's the right one. And it de
 
 ---
 
-*Division III rules, membership counts, and financial-aid practices change each year. This article reflects the landscape as of **April 2026**. Verify current Division III rules and membership at NCAA.org, compare against NAIA.org, and confirm aid practices with each school's financial aid office.*
+*Division III rules, membership counts, and financial-aid practices change each year. Membership and sport-sponsorship figures here are the NCAA's **2025-26** numbers, as of September 2025 — the most recent the NCAA has published — verified on 2026-08-26; the rest of the article reflects the landscape as of **April 2026**. Verify current Division III rules and membership at NCAA.org, compare against NAIA.org, and confirm aid practices with each school's financial aid office.*
