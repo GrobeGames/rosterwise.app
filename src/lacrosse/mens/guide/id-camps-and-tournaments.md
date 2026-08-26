@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Men's Lacrosse ID Camps and Tournaments: A Family Orientation | RosterWise™"
 description: "A family-friendly orientation to college ID camps, prospect days, and major men's lacrosse tournaments. NCAA rules, the NLF and IMLCA Players Summit, plus the broader independent showcase ecosystem."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -34,9 +34,9 @@ related:
   - title: "Building Your Recruiting List"
     url: /guide/building-your-list/
 sources:
-  - "<strong>NCAA Bylaw 13.12.1.5.1</strong> — Per NCAA Legislative Services Database (web3.ncaa.org/lsdbi); confirmed via NCAA Division I Manual Article 13"
-  - "<strong>NCAA Bylaw 13.12.1.3</strong> (Attendance Restriction) — Per NCAA Legislative Services Database"
-  - "<strong>NCAA Bylaw 13.12.1</strong> (Institution's Sports Camps and Clinics) — Per NCAA Legislative Services Database"
+  - "<strong>2026-27 NCAA Division I Manual, Bylaws 13.12.1.5.2 and 13.12.1.5.3</strong> (Recruiting Conversations at institutional camps and clinics — women's and men's lacrosse) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - "<strong>2026-27 NCAA Division I Manual, Bylaw 13.12.1.3</strong> (Attendance Restriction) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - "<strong>2026-27 NCAA Division I Manual, Bylaws 13.12.1 and 13.12.1.5</strong> (Institution's Sports Camps and Clinics; Recruiting Calendar Exceptions) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - "<strong>2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
   - '<a href="https://imlcacoaches.com">Intercollegiate Men''s Lacrosse Coaches Association (IMLCA)</a> — imlcacoaches.com and imlcarecruits.org'
   - '<a href="https://www.usalacrosse.com">USA Lacrosse</a> — usalacrosse.com — Official national governing body'
@@ -69,36 +69,38 @@ This guide focuses on the official structures and major operators we can verify 
 
 ## NCAA Rules Specific to Lacrosse ID Camps
 
-A critical and lacrosse-specific NCAA bylaw governs what coaches can and cannot do at their own institutional camps and clinics.
+A lacrosse-specific NCAA bylaw governs what coaches can and cannot do at their own institutional camps and clinics.
 
-Per **NCAA Bylaw 13.12.1.5.1** (verifiable directly from the NCAA's Legislative Services Database at web3.ncaa.org/lsdbi):
+Per **NCAA Division I Bylaw 13.12.1.5.3, "Exception — Men's Lacrosse"** (2026-27 Division I Manual, readable in full from the NCAA's Legislative Services Database at `web3.ncaa.org/lsdbi`):
 
-> "In lacrosse, recruiting conversations during an institutional camp or clinic are not permitted between an institution's coach and a participating prospective student-athlete before September 1 at the beginning of the prospective student-athlete's junior year in high school."
+> "In men's lacrosse, recruiting conversations during an institutional camp or clinic (including a camp or clinic that involves only individuals who are not yet prospective student-athletes) are not permitted between an institution's coach and a participating individual before the Wednesday (7 a.m.) immediately following Labor Day at the beginning of the individual's junior year in high school."
 
-This rule is unique to lacrosse — it was adopted in April 2017 as part of NCAA early recruiting legislation specific to lacrosse (men's and women's).
+That bylaw was **adopted June 29, 2026 and took effect August 1, 2026** — the same legislation that moved the men's lacrosse initial contact date off September 1. The camp rule and the contact rule now share one date: **7 a.m. on the Wednesday immediately following Labor Day of junior year.** See the [men's recruiting timeline](/lacrosse/mens/guide/recruiting-timeline/) for the contact rule in full.
 
-**One important caveat for men's lacrosse.** Separate legislation adopted June 29, 2026 and effective August 1, 2026 moved the men's lacrosse *initial contact* date off September 1 entirely: off-campus contact, phone calls in either direction, recruiting materials and electronic correspondence, and official visits may not occur before 7 a.m. on the Wednesday immediately following Labor Day at the beginning of junior year. The camp-and-clinic bylaw quoted above is a different bylaw, and we have not verified whether its September 1 reference was conformed to the new date. Men's lacrosse families should confirm the current camp-conversation date with the host program's compliance office before assuming either date. See the [men's recruiting timeline](/lacrosse/mens/guide/recruiting-timeline/) for the new contact rule in full.
+Women's lacrosse has its own version, Bylaw 13.12.1.5.2, which keeps **September 1 at 12 p.m. Eastern**. The two genders no longer share a camp-conversation date.
 
-**Per NCAA published Q&A guidance** (referenced through the NCAA's own published documentation):
+> **Correction.** An earlier version of this page attributed a September 1 camp-conversation rule to "NCAA Bylaw 13.12.1.5.1." That is the wrong bylaw: 13.12.1.5.1 is the exception for "sports other than baseball, basketball, football, men's ice hockey, *lacrosse*, softball and men's wrestling" — it names lacrosse only to exclude it, and its date is August 1 of junior year. The lacrosse provisions are 13.12.1.5.2 and 13.12.1.5.3, quoted above. Corrected 2026-08-26 against the 2026-27 Division I Manual.
 
-| Activity at an ID camp before September 1 of junior year | Permitted? |
+**What the bylaw does and does not reach.** The restriction is on *recruiting conversations*. Reading the bylaw text against Bylaw 13.12.1.5 (Recruiting Calendar Exceptions), which states that camp interaction is generally not subject to recruiting-calendar restrictions but that staff "are prohibited from recruiting any prospective student-athlete during the time period that the camp or clinic is conducted":
+
+| Activity at an ID camp before the contact date | Permitted? |
 |---|---|
 | Recruiting conversations between coach and PSA | **No** |
-| Campus tour for PSA | Yes |
-| General informational session about recruiting/student-athlete experience | Yes (but no institution-specific information) |
-| Institution-specific recruiting information | **No** |
-| Coach evaluating PSA's play during camp | Yes |
-| Logistical calls about camp/clinic registration | Yes |
+| Coach evaluating the PSA's play during camp | Yes |
+| Logistical communication about camp registration | Yes |
+| Written offers of financial aid during the camp | **No** (Bylaw 13.12.1.5) |
 
-**Per NCAA Bylaw 13.12.1.3** (same Legislative Services Database):
+Anything beyond this table should be confirmed with the host program's compliance office rather than inferred.
 
-> "A member institution's sports camp or clinic shall be open to any and all entrants (limited only by number, age, grade level and/or gender)."
+**Per NCAA Bylaw 13.12.1.3 (Attendance Restriction):**
 
-This means: programs cannot run "invitation-only" ID camps designed to only recruit specific targeted athletes. Camps must be open to general registration.
+> "In sports other than fencing and men's gymnastics, a member institution's sports camp or clinic shall be open to any and all entrants (limited only by number, age, grade level and/or gender)."
+
+This means programs cannot run "invitation-only" ID camps designed to recruit only specific targeted athletes. Camps must be open to general registration, subject to those four limits.
 
 ### What this means practically for families
 
-College ID camps before September 1 of junior year serve a real but specific purpose for men's lacrosse recruits:
+College ID camps before the contact date (the Wednesday after Labor Day of junior year) serve a real but specific purpose for men's lacrosse recruits:
 
 - Your son can attend and be evaluated by the host program's coaches
 - The host coaches CAN watch him play closely and form opinions
@@ -106,7 +108,7 @@ College ID camps before September 1 of junior year serve a real but specific pur
 - Your son can tour the campus and learn about the program in general terms
 - Other college coaches who attend as observers must comply with the same recruiting calendar restrictions
 
-After September 1 of junior year, the dynamics shift — coaches can now have full recruiting conversations during camps. This makes timing your son's ID camp participation an important consideration tied to his [recruiting timeline](/lacrosse/mens/guide/recruiting-timeline/).
+After the contact date, the dynamics shift — coaches can now have full recruiting conversations during camps. This makes timing your son's ID camp participation an important consideration tied to his [recruiting timeline](/lacrosse/mens/guide/recruiting-timeline/).
 
 ## Understanding the Three Major Categories of Events
 
@@ -132,7 +134,7 @@ The men's lacrosse event landscape includes three broad event categories that se
 - Sometimes campus tour
 - Cost: Variable by program
 
-**Important reminder**: The NCAA Bylaw 13.12.1.5.1 restrictions on recruiting conversations apply at all institutional camps.
+**Important reminder**: The Bylaw 13.12.1.5.3 restriction on recruiting conversations applies at all institutional camps.
 
 ### 2. Multi-Team Tournaments
 
@@ -280,8 +282,8 @@ Because we cannot responsibly recommend specific events for your son's specific 
 1. Which programs that are realistic targets for our son run ID camps that are worth attending?
 2. What's the realistic cost commitment for ID camps (most ID camps charge a registration fee)?
 3. How many ID camps make sense in a given recruiting year — and at what programs?
-4. Does it make sense to attend an ID camp before September 1 of junior year (when the coaches can watch but cannot have recruiting conversations)?
-5. After September 1 of junior year, which programs' ID camps should be priorities based on his recruiting list?
+4. Does it make sense to attend an ID camp before the contact date (the Wednesday after Labor Day of junior year) (when the coaches can watch but cannot have recruiting conversations)?
+5. After the contact date, which programs' ID camps should be priorities based on his recruiting list?
 6. What's the realistic timing — should he attend in summer? Winter? Spring?
 7. For specialized positions (FOGO, goalie, LSM): does the program offer position-specific clinic or evaluation opportunities?
 
@@ -304,20 +306,20 @@ Because we cannot responsibly recommend specific events for your son's specific 
 
 A practical framework for thinking about ID camps and tournaments together:
 
-**ID camps are typically MORE useful AFTER September 1 of junior year**, because:
+**ID camps are typically MORE useful AFTER the contact date**, because:
 - Coaches can now have substantive recruiting conversations with athletes
 - The camp becomes a direct evaluation tool tied to ongoing recruiting communication
 - The athlete can ask specific questions about the program and recruiting status
 
 **Tournaments and showcases are useful in BOTH PHASES**:
 
-*Pre-September 1 of junior year*:
+*Before the contact date*:
 - Coaches see athletes in competitive context
 - Coaches add athletes to tracking lists for future recruiting
 - Athletes build a body of game evaluations across multiple coaches
 - The role is primarily evaluation and visibility
 
-*Post-September 1 of junior year*:
+*After the contact date*:
 - Coaches actively recruit athletes during and around events
 - Specific events become important based on which coaches the athlete is talking with
 - Communication between events and conversations accelerates
@@ -326,20 +328,20 @@ A practical framework for thinking about ID camps and tournaments together:
 
 - 8th-10th grade: Tournament/showcase focus, building game body of work; some early ID camp attendance to develop familiarity with specific programs
 - 10th-11th grade: Heavy tournament/showcase calendar; targeted ID camps at programs becoming serious targets
-- Post-September 1 of junior year through senior year: Focused on specific recruiting conversations through both tournament participation and ID camps at top target programs
+- From the contact date through senior year: Focused on specific recruiting conversations through both tournament participation and ID camps at top target programs
 
-## Pre-September 1 ID Camps: A Specific Strategic Question
+## ID Camps Before the Contact Date: A Specific Strategic Question
 
-A practical question many families face: **Is it worth attending an ID camp before September 1 of junior year, when coaches can't have recruiting conversations?**
+A practical question many families face: **Is it worth attending an ID camp before the contact date (the Wednesday after Labor Day of junior year), when coaches can't have recruiting conversations?**
 
-**Arguments for attending pre-September 1**:
+**Arguments for attending before the contact date**:
 - Coaches can evaluate the athlete up close (just not converse)
 - The athlete gets to experience the campus and program environment
-- The athlete may make a positive impression that influences post-September 1 recruiting
+- The athlete may make a positive impression that influences post-contact-date recruiting
 - The coaching instruction itself has developmental value
 - The athlete demonstrates serious interest in the program
 
-**Arguments against attending pre-September 1**:
+**Arguments against attending before the contact date**:
 - The cost and time without direct recruiting communication
 - The coach cannot answer specific recruiting questions
 - An athlete who attends might think he's being recruited when he isn't

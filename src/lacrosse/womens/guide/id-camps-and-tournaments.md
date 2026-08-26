@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Women's Lacrosse ID Camps and Tournaments: A Family Orientation | RosterWise™"
 description: "A family-friendly orientation to college ID camps, prospect days, and major women's lacrosse tournaments. NCAA rules, official IWLCA Tournament Series events, and the broader independent showcase ecosystem."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -32,9 +32,9 @@ related:
   - title: "Building Your Recruiting List"
     url: /guide/building-your-list/
 sources:
-  - "<strong>NCAA Bylaw 13.12.1.5.1</strong> — Per NCAA Legislative Services Database (web3.ncaa.org/lsdbi); confirmed via NCAA Division I Manual Article 13"
-  - "<strong>NCAA Bylaw 13.12.1.3</strong> (Attendance Restriction) — Per NCAA Legislative Services Database"
-  - "<strong>NCAA Bylaw 13.12.1</strong> (Institution's Sports Camps and Clinics) — Per NCAA Legislative Services Database"
+  - "<strong>2026-27 NCAA Division I Manual, Bylaws 13.12.1.5.2 and 13.12.1.5.3</strong> (Recruiting Conversations at institutional camps and clinics — women's and men's lacrosse) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - "<strong>2026-27 NCAA Division I Manual, Bylaw 13.12.1.3</strong> (Attendance Restriction) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - "<strong>2026-27 NCAA Division I Manual, Bylaws 13.12.1 and 13.12.1.5</strong> (Institution's Sports Camps and Clinics; Recruiting Calendar Exceptions) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - "<strong>2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
   - '<a href="https://iwlca.org">Intercollegiate Women''s Lacrosse Coaches Association (IWLCA)</a> — iwlca.org and iwlcarecruiting.com'
   - '<a href="https://www.usalacrosse.com">USA Lacrosse</a> — usalacrosse.com — Official national governing body'
@@ -65,30 +65,34 @@ This guide focuses on the official structures and major operators we can verify 
 
 ## NCAA Rules Specific to Lacrosse ID Camps
 
-A critical and lacrosse-specific NCAA bylaw governs what coaches can and cannot do at their own institutional camps and clinics.
+A lacrosse-specific NCAA bylaw governs what coaches can and cannot do at their own institutional camps and clinics.
 
-Per **NCAA Bylaw 13.12.1.5.1** (verifiable directly from the NCAA's Legislative Services Database at web3.ncaa.org/lsdbi):
+Per **NCAA Division I Bylaw 13.12.1.5.2, "Exception — Recruiting Conversations — Baseball and Women's Lacrosse"** (2026-27 Division I Manual, readable in full from the NCAA's Legislative Services Database at `web3.ncaa.org/lsdbi`):
 
-> "In lacrosse, recruiting conversations during an institutional camp or clinic are not permitted between an institution's coach and a participating prospective student-athlete before September 1 at the beginning of the prospective student-athlete's junior year in high school."
+> "In baseball and women's lacrosse, recruiting conversations during an institutional camp or clinic (including a camp or clinic that involves only individuals who are not yet prospective student-athletes) are not permitted between an institution's coach or off-campus recruiter and a participating individual before September 1 (12 p.m. Eastern time for women's lacrosse) at the beginning of the individual's junior year in high school."
 
-This rule is unique to lacrosse — it was adopted in April 2017 as part of NCAA early recruiting legislation specific to lacrosse (men's and women's).
+The camp-conversation date and the women's lacrosse initial contact date are the same: **September 1 of junior year at 12 p.m. Eastern.** See the [women's recruiting timeline](/lacrosse/womens/guide/recruiting-timeline/) for the contact rule in full.
 
-**Per NCAA published Q&A guidance** (referenced through the NCAA's own published documentation and confirmed through equityix.com citing the NCAA Division I Manual Article 13):
+Men's lacrosse has its own version, Bylaw 13.12.1.5.3, which as of August 1, 2026 uses **7 a.m. on the Wednesday immediately following Labor Day** instead. The two genders no longer share a camp-conversation date.
 
-| Activity at an ID camp before September 1 of junior year | Permitted? |
+> **Correction.** An earlier version of this page attributed a September 1 camp-conversation rule to "NCAA Bylaw 13.12.1.5.1." That is the wrong bylaw: 13.12.1.5.1 is the exception for "sports other than baseball, basketball, football, men's ice hockey, *lacrosse*, softball and men's wrestling" — it names lacrosse only to exclude it, and its date is August 1 of junior year. The lacrosse provisions are 13.12.1.5.2 and 13.12.1.5.3, quoted above. Corrected 2026-08-26 against the 2026-27 Division I Manual.
+
+**What the bylaw does and does not reach.** The restriction is on *recruiting conversations*. Reading the bylaw text against Bylaw 13.12.1.5 (Recruiting Calendar Exceptions), which states that camp interaction is generally not subject to recruiting-calendar restrictions but that staff "are prohibited from recruiting any prospective student-athlete during the time period that the camp or clinic is conducted":
+
+| Activity at an ID camp before the contact date | Permitted? |
 |---|---|
 | Recruiting conversations between coach and PSA | **No** |
-| Campus tour for PSA | Yes |
-| General informational session about recruiting/student-athlete experience | Yes (but no institution-specific information) |
-| Institution-specific recruiting information | **No** |
-| Coach evaluating PSA's play during camp | Yes |
-| Logistical calls about camp/clinic registration | Yes |
+| Coach evaluating the PSA's play during camp | Yes |
+| Logistical communication about camp registration | Yes |
+| Written offers of financial aid during the camp | **No** (Bylaw 13.12.1.5) |
 
-**Per NCAA Bylaw 13.12.1.3** (same Legislative Services Database):
+Anything beyond this table should be confirmed with the host program's compliance office rather than inferred.
 
-> "A member institution's sports camp or clinic shall be open to any and all entrants (limited only by number, age, grade level and/or gender)."
+**Per NCAA Bylaw 13.12.1.3 (Attendance Restriction):**
 
-This means: programs cannot run "invitation-only" ID camps designed to only recruit specific targeted athletes. Camps must be open to general registration.
+> "In sports other than fencing and men's gymnastics, a member institution's sports camp or clinic shall be open to any and all entrants (limited only by number, age, grade level and/or gender)."
+
+This means programs cannot run "invitation-only" ID camps designed to recruit only specific targeted athletes. Camps must be open to general registration, subject to those four limits.
 
 ### What this means practically for families
 
@@ -126,7 +130,7 @@ The women's lacrosse event landscape includes three broad event categories that 
 - Sometimes campus tour
 - Cost: Variable by program
 
-**Important reminder**: The NCAA Bylaw 13.12.1.5.1 restrictions on recruiting conversations apply at all institutional camps.
+**Important reminder**: The Bylaw 13.12.1.5.2 restriction on recruiting conversations applies at all institutional camps.
 
 ### 2. Multi-Team Tournaments
 

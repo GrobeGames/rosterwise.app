@@ -2,7 +2,7 @@
 layout: content.njk
 title: "International Recruiting in Women's College Lacrosse: An Honest Family Guide | RosterWise™"
 description: "Women's college lacrosse has a smaller international footprint than men's, but the landscape is growing — Canada, England, Australia, and beyond. Here's what international families need to know about NCAA recruiting, F-1 visas, and the 2028 LA Olympics impact."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -112,7 +112,7 @@ For international families, this means:
 
 - D1 coaches cannot initiate substantive recruiting communication with international recruits before September 1 of junior year
 - Athletes can initiate contact (questionnaires, introductory emails) at any time
-- Official visits at D1 programs become permissible January 1 of junior year (per the 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar)
+- Official visits at D1 programs become permissible September 1 of junior year at 12 p.m. Eastern — the same date as initial contact (NCAA Division I Bylaw 13.6.2.1.2)
 - The same evaluation, dead, quiet, and contact periods documented in the recruiting calendar apply
 
 For more detail on the September 1 rule and what it means for recruiting preparation, see [The September 1 Junior Year Rule: Why Lacrosse Recruiting Is Different](/lacrosse/guide/september-1-junior-year-rule/) and [Women's College Lacrosse Recruiting Timeline](/lacrosse/womens/guide/recruiting-timeline/).

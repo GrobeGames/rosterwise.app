@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Men's College Lacrosse Recruiting Timeline: A Family Guide | RosterWise™"
 description: "The complete men's college lacrosse recruiting timeline — from freshman year preparation through senior year commitment. Built around the new Wednesday-after-Labor-Day junior year contact date with grade-by-grade family guidance."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -80,7 +80,7 @@ Per the 2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar (published di
 - **Any age**: Athletes can fill out recruiting questionnaires, attend college camps, send introductory emails to coaches, and produce highlight video.
 - **Before the contact date**: D1 college coaches cannot initiate substantive recruiting communication. They cannot call, text, email, or extend verbal offers, and they cannot take a recruit's phone call. They can send camp and clinic information.
 - **The Wednesday after Labor Day of junior year, 7 a.m.**: D1 coaches can begin direct communication with the athlete. Calls, texts, emails, and verbal offers become permissible. Off-campus contact becomes possible.
-- **The same date**: Official visits to D1 programs become permissible. This differs from women's lacrosse, where official visits begin January 1 of junior year.
+- **The same date**: Official visits to D1 programs become permissible (NCAA Division I Bylaw 13.6.2.1.3). Women's lacrosse works the same way — its official visits open on its own contact date, September 1 at 12 p.m. Eastern (Bylaw 13.6.2.1.2).
 - **Senior year fall**: Written Offers of Athletics Aid are extended (replacing the National Letter of Intent, which was [eliminated in October 2024](/guide/verbal-commitment-vs-nli/)).
 - **Senior year spring**: Final commitments, signings, and admissions paperwork.
 
@@ -231,7 +231,7 @@ The Wednesday immediately following Labor Day, at 7 a.m., is the single most sig
 At that hour:
 - D1 coaches can begin direct communication with the athlete
 - Verbal scholarship offers can be extended (though verbal offers are not binding)
-- The athlete can schedule both unofficial AND official visits to D1 programs (this differs from women's lacrosse, where official visits begin January 1)
+- The athlete can schedule both unofficial and official visits to D1 programs
 - Off-campus contact between coaches and athletes becomes permissible
 
 Note the 7 a.m. detail: the men's window no longer opens at midnight. Under the old September 1 rule, top recruits famously fielded calls in the small hours. The current rule pushes the first legal contact to the morning.

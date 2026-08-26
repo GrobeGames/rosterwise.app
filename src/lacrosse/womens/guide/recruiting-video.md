@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Recruiting Video for Women's Lacrosse: A Family Guide | RosterWise™"
 description: "A women's lacrosse recruiting video is often a college coach's first evaluation. Here's what coaches actually want to see, with direct guidance from named D1 head coaches and how to build a video that stands out."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -34,7 +34,6 @@ sources:
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Official NCAA recruiting rules and recruiting calendar archives'
   - '<strong>USA Lacrosse magazine</strong> — "Inside the Recruiting Funnel, the Way Coaches See It"; coverage of the recruiting funnel and the role of highlight video'
   - "<strong>Intercollegiate Women's Lacrosse Coaches Association (IWLCA)</strong> — Coaching association referenced for women's lacrosse coaching guidance"
-  - '<strong>2aDays</strong> — "Dos and Don''ts of a Lacrosse Highlight Video from College Coaches" — direct quotes from named college coaches including Mike Pressler (Bryant, Men''s), Corinne Desrosiers (Duquesne, Women''s), Tanya Kotowicz (Quinnipiac, Women''s), Bill Gorrow (Wesley College, Men''s), and Danielle Spencer (Dartmouth, Women''s)'
 cta:
   heading: "Find programs where your daughter genuinely fits"
   text: "A strong recruiting video gets you on coaches' lists. The deeper question is whether the programs reviewing your daughter's video are actually the right fit for her development. RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA women's lacrosse program — position depth, class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring to help families identify the programs where their daughter genuinely fits both athletically and academically."
@@ -45,7 +44,7 @@ ${toc}
 
 ## Why the video matters more than families often realize
 
-Per USA Lacrosse magazine's published "Inside the Recruiting Funnel" guidance:
+A recruiting video does a specific job:
 
 College coaches typically begin the recruiting process with a large group of athletes — sometimes hundreds, sometimes thousands. Through evaluations, video review, and direct contact, they narrow that list to the smaller group they'll ultimately recruit seriously. Video is one of the central tools in this narrowing process.
 
@@ -60,11 +59,7 @@ For families with women's lacrosse recruits, this means the recruiting video is 
 
 ## How long should the video be?
 
-This is one of the most common questions families ask, and the honest answer is that coaches' preferences vary. Different coaches have publicly shared different length preferences:
-
-- **Dartmouth Women's Lacrosse Coach Danielle Spencer** has stated that families should keep videos to **"1-2 minutes max"** per coaching guidance she shared with 2aDays
-- Other industry guidance suggests **3-4 minutes** with 20-30 well-selected clips
-- Some published recommendations land at **3-5 minutes** depending on the recruit's position and the type of footage being shared
+This is one of the most common questions families ask, and the honest answer is that there is no NCAA rule on it and no single number coaches agree on — published guidance from different programs ranges from about a minute to about five. We are not going to invent a consensus that does not exist.
 
 The honest framing for families: **err on the shorter side.** A 1-2 minute video that shows your daughter's best plays clearly is almost always more effective than a 5-minute video that includes filler clips. Coaches who want more will ask for more. Coaches who get less but see strong content will request additional footage. Coaches who watch a 5-minute video and lose interest at minute 2 will rarely tell you.
 
@@ -115,27 +110,15 @@ College coaches evaluating goalies want to see:
 - **Communication and leadership** — coaches want vocal leaders; highlight video should capture this
 - **Body and foot positioning** that demonstrates fundamentals
 
-## Direct coach guidance on what to include
+## What to prioritise in the video
 
-Coaches who have publicly shared their video preferences offer specific guidance worth taking seriously:
+Two points come up repeatedly in published coaching guidance, and both are worth taking seriously:
 
-**On qualities coaches want to see:**
+**Two-handed play.** A player who can receive, carry, dodge, shoot and feed with either hand is harder to defend and easier to fit into a system. If your daughter plays with both hands, make sure the video shows it — deliberately, not incidentally.
 
-> "Two-way play (not just being good at one thing), energy, hustle, athleticism, and good sportsmanship. Being a good teammate and a team leader."
->
-> — Duquesne University Women's Head Coach Corinne Desrosiers (via 2aDays)
+**Currency of footage.** Coaches want to see how a player is playing now, not two years ago. A practical cadence is late-season high school footage, then summer club, then fall recruiting tournaments, refreshed as each becomes available.
 
-> "Intensity (how hard they go), competitive drive, fundamentals, and type of teammate."
->
-> — Quinnipiac Women's Head Coach Tanya Kotowicz (via 2aDays)
-
-**On the two-handed player consideration** (this applies to both women's and men's lacrosse):
-
-> "A two-handed player will always have a big edge on a player that is one-handed."
->
-> — Bryant University Men's Head Coach Mike Pressler (via 2aDays)
-
-While Coach Pressler's quote was about men's lacrosse, the principle applies equally to women's lacrosse. Two-handed dexterity — the ability to receive, carry, dodge, shoot, and feed with both hands — is a meaningful differentiator for coaches evaluating film. Highlight video that demonstrates two-handed competence stands out.
+Beyond the position-specific criteria above, the qualities coaches describe wanting to see are consistent and unglamorous: two-way play rather than a single strength, energy and hustle, competitive intensity, sound fundamentals, and evidence of being a good teammate. A highlight reel that shows only finishing plays and none of these is a thinner document than it looks.
 
 ## Game footage vs. skills footage
 
@@ -189,7 +172,7 @@ College coaches' preferences on update frequency vary, but practical guidance:
 - **Before fall recruiting events**: Refresh with the most recent material to send to coaches you'll see at fall events
 - **Whenever you have meaningful new footage**: If you have 1-2 minutes of new content that's stronger than what's in your current video, refresh
 
-Per Wesley College Men's Head Coach Bill Gorrow (coaching guidance via 2aDays): coaches generally prefer "the end of the season and then one from their summer club season that can be updated with fall recruiting club tournaments as well." While Coach Gorrow coaches men's lacrosse, the seasonal update cadence applies equally to women's lacrosse.
+A practical cadence many programs describe: end of the high school season, then the summer club season, then updates from fall recruiting tournaments. While Coach Gorrow coaches men's lacrosse, the seasonal update cadence applies equally to women's lacrosse.
 
 ## Technical considerations
 

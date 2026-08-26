@@ -31,7 +31,8 @@ related:
     url: /guide/ncaa-recruiting-rules/
 sources:
   - "NCAA Division I Other Sports Recruiting Calendar, 2026-27 — official NCAA document"
-  - "NCAA.org, Recruiting Calendars and Guides"
+  - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 13.1.3.1 (telephone calls, June 15 general rule), Bylaw 13.4.1 (recruiting materials), Bylaw 13.1.1.1 (off-campus contact, August 1 general rule), Bylaw 13.6.2.1.1 (official visits) and Bylaw 13.7.1.1 (unofficial visits) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - "<strong>Division II Coaches Off-Campus Recruiting Guide 2026-27</strong> — official NCAA document at ncaaorg.s3.amazonaws.com"
   - "NCAA.org, \"DI Board of Directors formally adopts changes to roster limits,\" June 23, 2025"
   - "NCAA.org, Question and Answer: Implementation of the House Settlement (June 13, 2025)"
   - "NCAA Eligibility Center: eligibilitycenter.org"
@@ -79,7 +80,11 @@ The NCAA addressed this in 2018 by imposing contact restrictions. But the cultur
 
 **Official visits:** Recruits may begin taking official visits starting **August 1 of junior year**. Note that on the 2026-27 calendar the first eleven days of August are a dead period, so the first practical official-visit window is August 12, 2026 onward.
 
-**Unofficial visits:** Athletes can take unofficial visits to campus at any time. (Note: recruits cannot take unofficial visits during July unless they have signed a written offer of athletics aid or made a financial deposit.)
+**Unofficial visits:** An athlete and family can walk a campus at their own expense at any time. But an unofficial visit **with athletics-department involvement** — contact with athletics staff, an athletics-specific tour, complimentary admission to a game — may not occur before **August 1 at the beginning of junior year** (NCAA Division I Bylaw 13.7.1.1). Dead periods on the recruiting calendar bar campus visits outright while they run.
+
+> **A note for women's soccer families.** The 2026-27 calendar puts a dead period on **July 28–31, 2027**, and a dead period bars campus visits while it runs. Men's soccer has no July dead period. Check the current calendar for your gender before booking summer visits.
+
+> **Correction.** An earlier version of this page said athletes can take unofficial visits "at any time" and that recruits cannot take unofficial visits during July without a signed written offer or a financial deposit. Both were wrong. Athletics-involved unofficial visits are gated at August 1 of junior year (Bylaw 13.7.1.1), and the July condition is a **basketball-only** rule (Bylaws 13.7.2.1 and 13.7.2.2) that has never applied to soccer. The general rule, Bylaw 13.7.2, is that a prospect "may visit a member institution's campus at the prospective student-athlete's own expense an unlimited number of times." Corrected 2026-08-26 against the 2026-27 Division I Manual.
 
 **The D1 women's soccer signing period:** Begins on **the second Wednesday in November**. Final date is based on each school's institutional policy. **Men's and women's soccer do not have an early signing period** — there is one signing window. Football and basketball have early periods; soccer does not.
 
@@ -155,7 +160,7 @@ Use this as a general guide. Individual recruiting experiences vary significantl
 
 ### D2 women's soccer
 
-- D2 coaches can contact prospective student-athletes at any time through phone, text, email, or mail — no June 15 restriction
+- D2 coaches may send athletically related recruiting materials at any time, including to freshmen and sophomores. But D2 does have a June 15 gate: per the NCAA's Division II Coaches Off-Campus Recruiting Guide, in-person off-campus contact and official visits are keyed to "after June 15, immediately preceding a prospective student-athlete's junior year"
 - D2 commitment timing is generally later than D1 women's soccer
 - D2 operates under its own NCAA bylaws; the House settlement primarily affects D1
 

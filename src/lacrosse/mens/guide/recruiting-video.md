@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Recruiting Video for Men's Lacrosse: A Family Guide | RosterWise™"
 description: "A men's lacrosse recruiting video is often a college coach's first evaluation. Here's what coaches actually want to see — including position-specific guidance and direct quotes from named D1 head coaches."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -34,8 +34,6 @@ sources:
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Official NCAA recruiting rules and recruiting calendar archives'
   - '<strong>USA Lacrosse magazine</strong> — "Inside the Recruiting Funnel, the Way Coaches See It"; coverage of the recruiting funnel and the role of highlight video'
   - "<strong>Intercollegiate Men's Lacrosse Coaches Association (IMLCA)</strong> — Coaching association referenced for men's lacrosse coaching guidance"
-  - '<strong>2aDays</strong> — "Dos and Don''ts of a Lacrosse Highlight Video from College Coaches" — direct quotes from named college coaches including Mike Pressler (Bryant, Men''s), Corinne Desrosiers (Duquesne, Women''s), Tanya Kotowicz (Quinnipiac, Women''s), Bill Gorrow (Wesley College, Men''s), and Danielle Spencer (Dartmouth, Women''s)'
-  - "<strong>Wesley College Athletics</strong> — Confirmation of Coach Bill Gorrow's position and tenure"
 cta:
   heading: "Find programs where your son genuinely fits"
   text: "A strong recruiting video gets you on coaches' lists. The deeper question is whether the programs reviewing your son's video are actually the right fit for his development. RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA men's lacrosse program — position depth (including specialized positions like FOGO and LSM), class year gaps, recruiting geography, Canadian recruiting patterns, transfer portal activity, and personalized fit scoring to help families identify the programs where their son genuinely fits both athletically and academically."
@@ -46,7 +44,7 @@ ${toc}
 
 ## Why the video matters more than families often realize
 
-Per USA Lacrosse magazine's "Inside the Recruiting Funnel" published guidance:
+A recruiting video does a specific job:
 
 College coaches typically begin the recruiting process with a large group of athletes — sometimes hundreds, sometimes thousands. Through evaluations, video review, and direct contact, they narrow that list to the smaller group they'll ultimately recruit seriously. Video is one of the central tools in this narrowing process.
 
@@ -61,11 +59,7 @@ For men's lacrosse families, this means the recruiting video isn't a checkbox to
 
 ## How long should the video be?
 
-Coach preferences on video length vary meaningfully. Different coaches have publicly shared different preferences:
-
-- **Dartmouth Women's Lacrosse Coach Danielle Spencer** (her guidance applies generally to lacrosse coaches' preferences) stated families should keep videos to **"1-2 minutes max"** per published coaching guidance via 2aDays
-- Other published guidance suggests **3-4 minutes** with 20-30 well-selected clips
-- Some recommendations land at **3-5 minutes** depending on position and footage type
+There is no NCAA rule on video length, and coaches do not agree on one number — published guidance from different programs ranges from about a minute to about five. We are not going to invent a consensus that does not exist.
 
 The honest framing for families: **err on the shorter side.** A 1-2 minute video showing your son's best plays clearly is almost always more effective than a 5-minute video with filler clips. Coaches who want more will ask for more. Coaches who watch a 5-minute video and lose interest at minute 2 rarely tell you.
 
@@ -80,7 +74,7 @@ Men's lacrosse has more specialized positions than women's lacrosse, and the eva
 Coaches evaluating attackers want to see:
 
 - **Scoring ability** in competitive game situations
-- **Two-handed stick skills** (this matters enormously — see Coach Pressler's quote below)
+- **Two-handed stick skills** (this matters enormously — see "What to prioritise in the video" below)
 - **Vision and feeding ability** — making the play that creates the goal, not just scoring it
 - **Dodging and change of direction** that gets past defenders
 - **Confidence with the ball in pressure situations** — leading the offense
@@ -142,37 +136,15 @@ Coaches evaluating goalies want to see:
 - **Body and foot positioning** that demonstrates fundamentals
 - **Save consistency across shot types** — high, low, off-stick side, inside, outside
 
-## Direct coach guidance on what to include
+## What to prioritise in the video
 
-Coaches who have publicly shared their video preferences offer specific guidance worth taking seriously:
+Two points come up repeatedly in published coaching guidance, and both are worth taking seriously:
 
-**On two-handed players** (a defining differentiator in men's lacrosse evaluation):
+**Two-handed play.** In men's lacrosse, a player who can receive, carry, dodge, shoot and feed with either hand is harder to defend and easier to fit into a system. If your son plays with both hands, make sure the video shows it — deliberately, not incidentally.
 
-> "A two-handed player will always have a big edge on a player that is one-handed."
->
-> — Bryant University Men's Head Coach Mike Pressler (via 2aDays)
+**Currency of footage.** Coaches want to see how a player is playing now, not two years ago. A practical cadence is late-season high school footage, then summer club, then fall recruiting tournaments, refreshed as each becomes available.
 
-Coach Pressler's emphasis on two-handed dexterity is widely echoed across men's lacrosse coaching. Two-handed players — those who can receive, carry, dodge, shoot, and feed with both hands — separate themselves from one-handed players in the evaluation process. Highlight video that demonstrates two-handed competence stands out.
-
-**On when to send updated video**:
-
-> "I prefer [seeing] the end of the season and then one from their summer club season that can be updated with fall recruiting club tournaments as well."
->
-> — Wesley College Men's Head Coach Bill Gorrow (via 2aDays)
-
-Coach Gorrow's seasonal update cadence is consistent across many programs. Coaches want to see current play — late-season high school footage, then summer club, then fall recruiting club.
-
-**General qualities coaches evaluate** (from women's lacrosse coaches but with universally applicable principles):
-
-> "Two-way play (not just being good at one thing), energy, hustle, athleticism, and good sportsmanship. Being a good teammate and a team leader."
->
-> — Duquesne University Women's Head Coach Corinne Desrosiers (via 2aDays)
-
-> "Intensity (how hard they go), competitive drive, fundamentals, and type of teammate."
->
-> — Quinnipiac Women's Head Coach Tanya Kotowicz (via 2aDays)
-
-While these quotes are from women's lacrosse coaches, the qualities described apply universally to men's lacrosse evaluation. Intensity, hustle, sportsmanship, and being a strong teammate are evaluated regardless of position or division.
+Beyond the position-specific criteria above, the qualities coaches describe wanting to see are consistent and unglamorous: two-way play rather than a single strength, energy and hustle, competitive intensity, sound fundamentals, and evidence of being a good teammate. A highlight reel that shows only finishing plays and none of these is a thinner document than it looks.
 
 ## Game footage vs. skills footage
 
@@ -240,7 +212,7 @@ Practical guidance on update frequency:
 - **Before fall recruiting events**: Refresh with the most recent material to send to coaches you'll see at fall events
 - **Whenever you have meaningful new footage**: If you have 1-2 minutes of new content stronger than what's in your current video, refresh
 
-Per Wesley College Men's Head Coach Bill Gorrow's guidance: coaches generally prefer "the end of the season and then one from their summer club season that can be updated with fall recruiting club tournaments as well."
+A practical cadence many programs describe: end of the high school season, then the summer club season, then updates from fall recruiting tournaments.
 
 ## Technical considerations
 

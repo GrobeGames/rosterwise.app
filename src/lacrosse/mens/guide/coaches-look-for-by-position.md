@@ -2,7 +2,7 @@
 layout: content.njk
 title: "What Men's Lacrosse College Coaches Look For By Position | RosterWise™"
 description: "Men's college lacrosse coaches evaluate attack, midfield, defense, LSM, FOGO, and goalie on very different criteria. Here's what coaches actually look for at each position, with primary-source guidance from NCAA rules and named college coaches."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -44,7 +44,6 @@ sources:
   - "<strong>Intercollegiate Men's Lacrosse Coaches Association (IMLCA)</strong> — Coaching association referenced for men's lacrosse coaching guidance"
   - "<strong>USA Lacrosse magazine</strong> — Coverage of men's lacrosse and the recruiting funnel"
   - '<a href="https://www.nll.com">National Lacrosse League</a> — Coverage of Canadian box lacrosse developmental pathways and their influence on field lacrosse'
-  - '<strong>2aDays</strong> — "Dos and Don''ts of a Lacrosse Highlight Video from College Coaches" — direct quotes from named college coaches: Mike Pressler (Bryant, Men''s — the two-handed player principle), Corinne Desrosiers (Duquesne, Women''s — universally applicable two-way play and intensity), and Tanya Kotowicz (Quinnipiac, Women''s — universally applicable intensity and fundamentals)'
 cta:
   heading: "Find programs where your son genuinely fits — at his position"
   text: "The position-based framework tells you what coaches are evaluating. The deeper question is whether the programs evaluating your son are actually a fit for him at his specific position. RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA men's lacrosse program — position depth (including specialized positions like FOGO and LSM), class year gaps, recruiting geography, Canadian recruiting patterns, transfer portal activity, and personalized fit scoring. The position-by-position analysis helps families identify the programs where their son genuinely fits both athletically and at his specific role."
@@ -73,27 +72,11 @@ Plus the following rules-based realities (per multiple verified sources):
 
 ## Universal qualities every college coach evaluates
 
-Before position-specific criteria, there are universal qualities men's college coaches consistently look for across every position. Per direct coach quotes from college head coaches:
+Before the position-specific criteria, some qualities come up across every position in published coaching guidance.
 
-**The two-handed player advantage**:
+**The two-handed player advantage.** This is probably the single most repeated evaluation point in men's lacrosse. A player who can receive, carry, dodge, shoot and feed with both hands is harder to defend, easier to slot into a system, and does not become predictable under pressure. A one-handed player can be scouted and shaded.
 
-> "A two-handed player will always have a big edge on a player that is one-handed."
->
-> — Bryant University Men's Head Coach Mike Pressler (via 2aDays)
-
-This is perhaps the most important universal evaluation criterion in men's lacrosse. Athletes who can receive, carry, dodge, shoot, and feed with both hands separate themselves at every position. Two-handed dexterity is evaluated visually from film and game tape.
-
-**Universal qualities** (from women's lacrosse coaches but universally applicable):
-
-> "Two-way play (not just being good at one thing), energy, hustle, athleticism, and good sportsmanship. Being a good teammate and a team leader."
->
-> — Duquesne University Women's Head Coach Corinne Desrosiers (via 2aDays)
-
-> "Intensity (how hard they go), competitive drive, fundamentals, and type of teammate."
->
-> — Quinnipiac Women's Head Coach Tanya Kotowicz (via 2aDays)
-
-These principles apply to men's lacrosse evaluation as well. Coaches evaluate **how an athlete competes**, not just the highlight-reel plays. Hustle on ground balls, communication with teammates, response to mistakes, behavior on the bench — all observable from game footage.
+**How an athlete competes, not just what they finish.** The qualities coaches describe wanting to see are consistent and unglamorous: two-way play rather than a single strength, energy and hustle, competitive intensity, athleticism, sound fundamentals, sportsmanship, and evidence of being a good teammate. Hustle on ground balls, communication on defence, and effort off the ball are all visible on film and all get evaluated.
 
 ## Attackers (3 positions)
 
@@ -125,7 +108,7 @@ Attackmen are the primary offensive players. They typically stay on the offensiv
 - Causing turnovers in transition
 
 **Stick skills**:
-- **Two-handed dexterity** (per Coach Pressler's emphasis — essential)
+- **Two-handed dexterity** (see "Universal qualities" above — essential)
 - Quick release on shots
 - Catching and finishing in traffic
 - Stick protection while dodging against long poles

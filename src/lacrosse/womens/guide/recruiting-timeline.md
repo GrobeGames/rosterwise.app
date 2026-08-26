@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Women's College Lacrosse Recruiting Timeline: A Family Guide | RosterWise™"
 description: "The complete women's college lacrosse recruiting timeline — from freshman year preparation through senior year commitment. Built around the September 1 junior year contact date with grade-by-grade family guidance."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -40,7 +40,7 @@ faq:
     a: "This is more common than families often realize, and it's not a problem. Many strong recruits commit between summer of junior year and senior year. Many strong recruits at D2, D3, NAIA, and NJCAA programs commit during senior year or even later. The timeline pressure to commit early is often more about competing for limited roster spots at the most elite D1 programs than about the broader recruiting reality."
 sources:
   - '<a href="https://ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D1Rec_WLARecruitingCalendar.pdf">2026-27 NCAA Division I Women''s Lacrosse Recruiting Calendar</a> — Official NCAA document'
-  - '<a href="https://www.ncaa.org">NCAA.org</a> — Official NCAA rules and recruiting calendar archives'
+  - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 13.1.1.1.7 (off-campus contact, women's lacrosse), Bylaw 13.1.3.1.2 (telephone calls), Bylaw 13.4.1.2 (recruiting materials), Bylaw 13.6.2.1.2 (official visits) and Bylaw 13.7.1.2 (unofficial visits) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - '<a href="https://eligibilitycenter.org">NCAA Eligibility Center</a> — Academic eligibility and registration requirements'
   - "USA Lacrosse magazine — Coverage of NCAA Division I Council's exemption of lacrosse from Proposal 2018-93-2's general June 15 contact rule"
   - "NCAA April 2017 Early Recruiting Legislation — Public NCAA documentation on the April 2017 vote establishing September 1 of junior year as the initial contact date for men's and women's lacrosse"
@@ -60,9 +60,13 @@ Per the 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar (published 
 - **Any age**: Athletes can fill out recruiting questionnaires, attend college camps, send introductory communication to coaches, and produce highlight video. None of this is restricted by NCAA rules.
 - **Before September 1 of junior year**: D1 college coaches cannot initiate substantive recruiting communication. They cannot call, text, email, or extend verbal offers. They can send camp and clinic information.
 - **September 1 of junior year, at 12 p.m. (noon) Eastern**: D1 coaches can begin direct communication. Calls, texts, emails, and direct messages become permissible. Verbal offers can be extended. Off-campus contact and unofficial visits become possible.
-- **January 1 of junior year**: D1 official visits can begin. This is the first date when prospective student-athletes can take official visits to D1 programs.
+- **September 1 of junior year, at 12 p.m. Eastern**: D1 official visits can also begin. Under NCAA Division I Bylaw 13.6.2.1.2, a women's lacrosse prospect "may not be provided an expense-paid visit earlier than September 1 (12 p.m. Eastern time for women's lacrosse) of the prospective student-athlete's junior year in high school." The contact date and the official-visit date are the same day.
 - **Senior year fall**: Written Offers of Athletics Aid are extended (replacing the National Letter of Intent, which was [eliminated in October 2024](/guide/verbal-commitment-vs-nli/)).
 - **Senior year spring**: Final commitments, signings, and admissions paperwork.
+
+> **One wrinkle worth knowing for 2026-27.** The bylaw date and the recruiting calendar are two separate gates, and this cycle they do not line up. September 1, 2026 falls inside a **dead period that runs August 28 – September 3, 2026**, and a dead period bars in-person contact and campus visits outright. So calls, texts, emails and offers can start on September 1 at noon Eastern, but in-person off-campus contact and visits have to wait until the contact period opens on **September 4, 2026**. Check both the bylaw and the current calendar each year.
+
+> **Correction.** An earlier version of this page said D1 official visits in women's lacrosse begin January 1 of junior year. That is the **Division III** rule (D3 Bylaw 13.6.1.1.1). In Division I women's lacrosse, official visits open on the same day as initial contact — September 1 of junior year at 12 p.m. Eastern (D1 Bylaw 13.6.2.1.2). Corrected 2026-08-26 against the 2026-27 Division I and III Manuals.
 
 Note the **noon Eastern** detail — the women's rule now names a time of day, so the window does not open at midnight. Note also that women's lacrosse and men's lacrosse no longer share a contact date: as of August 1, 2026, men's lacrosse opens at 7 a.m. on the Wednesday immediately following Labor Day. See [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/) for the comparison.
 
@@ -203,7 +207,7 @@ Junior year is the heart of the women's lacrosse recruiting process. The athlete
 
 **Visits**:
 - Schedule unofficial visits to programs of genuine interest
-- Per the NCAA Division I Women's Lacrosse Recruiting Calendar, official visits become permissible starting **January 1 of junior year**
+- Per NCAA Division I Bylaw 13.6.2.1.2, official visits become permissible starting **September 1 of junior year at 12 p.m. Eastern** — the same date as initial contact
 - Plan visits strategically — official visits are limited per athlete (cap of 5 official visits across all D1 schools combined per NCAA rules)
 
 **Evaluation events**:

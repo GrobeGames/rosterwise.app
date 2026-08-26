@@ -2,7 +2,7 @@
 layout: content.njk
 title: "What Women's Lacrosse College Coaches Look For By Position | RosterWise™"
 description: "Women's college lacrosse coaches evaluate attackers, midfielders, defenders, and goalies on different criteria. Here's what coaches actually look for at each position, with primary-source guidance from NCAA rules and named college coaches."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -48,7 +48,6 @@ sources:
   - "<strong>William Jewell College Athletics</strong> — Official Women's Lacrosse 101 description of positions and rules"
   - "<strong>Duke University (The Duke Chronicle)</strong> — Women's college lacrosse 101 beginner's guide"
   - '<a href="https://worldlacrosse.sport/discipline-womens-field/">World Lacrosse — "Women''s Field"</a> — international governing body; international women''s field lacrosse is played with ten players per team'
-  - '<strong>2aDays</strong> — "Dos and Don''ts of a Lacrosse Highlight Video from College Coaches" — direct quotes from named college coaches: Corinne Desrosiers (Duquesne, Women''s), Tanya Kotowicz (Quinnipiac, Women''s), and Mike Pressler (Bryant, Men''s, on the universally applicable two-handed player principle)'
 cta:
   heading: "Find programs where your daughter genuinely fits — at her position"
   text: "The position-based framework tells you what coaches are evaluating. The deeper question is whether the programs evaluating your daughter are actually a fit for her at her specific position. RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA women's lacrosse program — position depth (including the specialized draw specialist role), class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring. The position-by-position analysis helps families identify the programs where their daughter genuinely fits both athletically and at her specific role."
@@ -80,19 +79,11 @@ The 12-player structure at NCAA level means evaluation by position is more granu
 
 ## Universal qualities every college coach evaluates
 
-Before position-specific criteria, there are universal qualities that women's college coaches consistently look for across every position. Per direct coach quotes from college head coaches:
+Before the position-specific criteria, some qualities come up across every position in published coaching guidance.
 
-> "Two-way play (not just being good at one thing), energy, hustle, athleticism, and good sportsmanship. Being a good teammate and a team leader."
->
-> — Duquesne University Women's Head Coach Corinne Desrosiers (via 2aDays)
+**How an athlete competes, not just what they finish.** The qualities coaches describe wanting to see are consistent and unglamorous: two-way play rather than a single strength, energy and hustle, competitive intensity, athleticism, sound fundamentals, sportsmanship, and evidence of being a good teammate. Hustle on ground balls, communication on defence, and effort off the ball are all visible on film and all get evaluated.
 
-> "Intensity (how hard they go), competitive drive, fundamentals, and type of teammate."
->
-> — Quinnipiac Women's Head Coach Tanya Kotowicz (via 2aDays)
-
-These quotes are revealing about the bigger picture: coaches don't just evaluate the highlight-reel plays. They evaluate **how an athlete competes**. Hustle on ground balls, communication with teammates, response to mistakes, behavior on the bench — all of this matters and is observable from game footage.
-
-Similarly, the two-handed dexterity point that Bryant University Men's Head Coach Mike Pressler made about men's lacrosse ("A two-handed player will always have a big edge on a player that is one-handed") applies equally to women's lacrosse evaluation. Athletes who can receive, carry, dodge, shoot, and feed with both hands separate themselves from one-handed players.
+**Two-handed play.** A player who can receive, carry, dodge, shoot and feed with both hands is harder to defend and easier to slot into a system. It is a point made just as often in the women's game as the men's.
 
 ## Attackers (4 positions)
 
