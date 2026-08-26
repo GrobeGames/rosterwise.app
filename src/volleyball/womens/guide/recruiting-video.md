@@ -2,7 +2,7 @@
 layout: content.njk
 title: "How to Make a Women's Volleyball Recruiting Video | RosterWise™"
 description: "What women's college volleyball coaches want to see in a recruiting video — game film, position-specific highlights, video length, and practical production tips for families."
-date: 2026-05-02
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -24,7 +24,7 @@ related:
     url: /volleyball/womens/guide/id-camps/
     status: live
 sources:
-  - "Guidance synthesized from publicly available coaching staff recruiting pages and published interviews with college volleyball coaches"
+  - "This page contains no sourced factual claims — it describes how to build a recruiting video as general guidance, and RosterWise states it as its own editorial framing rather than attributing it to a source. Any figure, rule or date on this page should be traceable to one of the governing-body sources listed on our rules and scholarship pages; if you find one here that is not, it is a mistake and we want to know."
 cta:
   heading: "Great film opens doors. RosterWise tells you which doors to knock on."
   text: "Once your athlete has quality recruiting film, the next question is: which programs should see it? RosterWise helps you identify programs with genuine needs at your athlete's position, so your outreach is targeted and your film reaches the coaches who are actually looking for a player like yours."

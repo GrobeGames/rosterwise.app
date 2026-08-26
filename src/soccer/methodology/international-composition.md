@@ -2,7 +2,7 @@
 layout: content.njk
 title: "What International Roster Composition Tells You (Men's vs. Women's Patterns)"
 description: "How international player composition differs between men's and women's college soccer programs — and what those patterns mean for domestic and international recruits."
-date: 2026-04-26
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -25,6 +25,7 @@ related:
     url: /soccer/mens/guide/international-recruiting/
     status: live
 sources:
+  - "RosterWise 2025-26 roster dataset — international composition across 1,012 men's and 1,223 women's college soccer programs, compiled from publicly available college athletics websites, captured April-August 2026"
   - "Publicly available college soccer rosters from institutional athletics websites"
   - "NCAA.org — Division membership and program listings"
 cta:
@@ -115,7 +116,7 @@ This means our international composition numbers are generally conservative — 
 
 **Conference-level patterns.** Some conferences tend to have higher international composition across most of their programs. Understanding conference-level norms gives you context for evaluating individual programs.
 
-**Division-level patterns.** International composition tends to be highest at D1 and D2 men's programs, lower at D3 men's programs, and generally lower across women's programs at all divisions. These are tendencies, not rules — individual programs can deviate significantly from the division norm.
+**Division-level patterns.** On the 2025-26 rosters RosterWise analysed, the international share of men's soccer roster spots was highest at **NAIA (48.2%)**, then D2 (37.3%), then D1 (33.8%), with D3 far lower (11.2%). The women's ordering differs — NAIA (20.0%), D1 (12.4%), D2 (11.3%), D3 (2.1%) — and every women's figure sits below the men's at the same division. Note that NAIA leads on both sides: international composition is not a Division I phenomenon. These are tendencies, not rules — individual programs can deviate significantly from the division norm.
 
 **Position-specific concentrations.** At some programs, international players cluster at attacking positions. At others, the distribution is more even. Position-specific international composition is more actionable than overall team percentage for a recruit evaluating fit.
 

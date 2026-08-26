@@ -2,7 +2,7 @@
 layout: content.njk
 title: "USA Volleyball, Club Seasons, and the Women's College Volleyball Recruiting Pathway | RosterWise™"
 description: "How the USA Volleyball club ecosystem, Junior National Qualifiers, GJNC divisions, and the club season shape women's college volleyball recruiting — and why club affiliation alone doesn't determine outcomes."
-date: 2026-05-02
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -82,7 +82,7 @@ JNQs are multi-day tournaments held at various sites across the country, typical
 
 ## Girls Junior National Championships (GJNC)
 
-The GJNC is the culmination of the USA Volleyball club season and the largest volleyball event in the world. Held annually (typically in late June and July), GJNC brings together qualified teams from across the country in a multi-week championship format.
+The GJNC is the culmination of the USA Volleyball club season and one of the largest volleyball events anywhere. Held annually (typically in late June and July), GJNC brings together qualified teams from across the country in a multi-week championship format.
 
 ### The seven GJNC competitive divisions
 

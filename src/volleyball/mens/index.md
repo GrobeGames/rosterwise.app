@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Men's College Volleyball Recruiting"
 description: "A family-friendly overview of men's college volleyball recruiting — programs, divisions, the unique combined D1/D2 championship structure, and how it differs from women's volleyball."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -94,7 +94,7 @@ If you've been through women's volleyball recruiting — or if you've followed t
 
 **Different historical scholarship structure.** Pre-House-Settlement, men's D1 volleyball was an equivalency sport limited to 4.5 equivalencies, which coaches divided across the roster. Women's D1 volleyball was one of only six Division I head-count sports, with 12 scholarship slots. The House Settlement has now reshaped both, but the starting points were very different. We explain this in detail in our [men's volleyball scholarships guide](/volleyball/mens/guide/scholarships/).
 
-**Slower recruiting pace.** Multiple coaching and recruiting sources describe men's college volleyball recruiting as moving more slowly than women's, with later evaluation, more late-blooming recruits, and fewer sophomore-year verbal commitments. We discuss the recruiting timeline in our [recruiting timeline guide](/volleyball/mens/guide/recruiting-timeline/).
+**A later recruiting pace.** Men's college volleyball is widely described as recruiting later than the women's game, with later evaluation and more late-blooming recruits. We have no measured dataset of commitment timing in either sport, so we offer that as the common account rather than as a figure. We discuss the recruiting timeline in our [recruiting timeline guide](/volleyball/mens/guide/recruiting-timeline/).
 
 **Different international pipelines.** Women's college volleyball has historically pulled heavily from Türkiye, Canada, Puerto Rico, and Italy. Men's college volleyball pulls more from continental Europe (Italy, Poland, Czech Republic, Serbia, Germany, France, Belgium, Bulgaria, Netherlands, Denmark, Montenegro) and South America (Brazil, Cuba, Argentina). Different countries; different pipelines. See our [international recruiting guide](/volleyball/mens/guide/international-recruiting/).
 

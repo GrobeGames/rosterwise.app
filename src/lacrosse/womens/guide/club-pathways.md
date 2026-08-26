@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Women's Lacrosse Club Pathways: A Family Orientation | RosterWise™"
 description: "The women's club lacrosse landscape is regional, complex, and constantly evolving. Here's a framework to understand the major organizing structures — IWLCA Tournament Series, USA Lacrosse, and the broader ecosystem — plus the questions families should ask local sources."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -171,7 +171,7 @@ These questions are not exhaustive, and the answers will depend heavily on your 
 
 Some general framework that holds across the landscape:
 
-**The basic flow** (per multiple verified sources including USA Lacrosse and the IWLCA):
+**The basic flow** (per USA Lacrosse and the IWLCA):
 
 1. Athletes typically join club teams in late elementary or middle school
 2. Club teams play in regional leagues, tournaments, and showcases during summer, fall, and offseason periods

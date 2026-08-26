@@ -2,7 +2,7 @@
 layout: content.njk
 title: "9 Common Soccer Recruiting Myths (And What's Actually True) | RosterWise™"
 description: "The recruiting process is full of conventional wisdom that doesn't hold up. Here are nine common soccer recruiting myths — and what the data and experience actually show."
-date: 2026-04-29
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -61,7 +61,7 @@ This is the division hierarchy myth — the assumption that divisions are neatly
 
 ### What's actually true
 
-The quality gap within each division is far larger than the gap between divisions. The best D3 men's soccer programs would compete with mid-tier D1 programs. Some D2 conferences are more competitive than some D1 conferences. Division classification is primarily about institutional size, scholarship structure, and athletic department philosophy — not a ranking of playing quality. A strong D3 conference like the UAA or NESCAC fields players who could roster at many D1 programs.
+Division classification is primarily about institutional size, scholarship structure and athletic department philosophy — not a ranking of playing quality. The range of quality *within* each division is wide, and it overlaps across divisions. We will not tell you which specific programs or conferences would beat which: that is a judgment, not a fact, and RosterWise does not rank programs. What the roster data does show is that players at the top of D3 frequently held offers at higher divisions and chose D3 for academic, financial or personal reasons.
 
 ### What this means for your family
 

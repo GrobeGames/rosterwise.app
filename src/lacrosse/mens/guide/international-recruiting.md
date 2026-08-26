@@ -2,7 +2,7 @@
 layout: content.njk
 title: "International Recruiting in Men's College Lacrosse: A Family Guide | RosterWise™"
 description: "Men's college lacrosse has significant international representation — particularly from Canada, where 184 players competed at NCAA D1 in 2023. Here's what international families need to know about NCAA recruiting, F-1 visas, and the Canadian box lacrosse pathway."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -122,7 +122,7 @@ For Canadian families researching NCAA men's lacrosse, several practical realiti
 
 **The junior-year contact rule applies the same way**: Per the 2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar (published directly by the NCAA at `ncaaorg.s3.amazonaws.com`), the initial contact date — 7 a.m. on the Wednesday immediately following Labor Day of junior year, under legislation effective August 1, 2026 — applies to Canadian recruits the same way it applies to American recruits. See [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/).
 
-**Age and birthdate considerations**: Per Canadian lacrosse club resources, the U.S. recruiting class system is birthdate-driven rather than year-of-birth-driven. A Canadian player born after August 31 may need to consider whether to play in their U.S. recruiting class age bracket rather than their Canadian birth-year bracket to align with how NCAA programs evaluate.
+**Age and birthdate considerations**: the U.S. recruiting class system is birthdate-driven rather than year-of-birth-driven. A Canadian player born after August 31 may need to consider whether to play in their U.S. recruiting class age bracket rather than their Canadian birth-year bracket to align with how NCAA programs evaluate.
 
 **Coach evaluation channels**: NCAA coaches actively scout Canadian talent through:
 - The Ontario Junior Lacrosse League (the documented top source of NLL talent and a key recruiting venue)
@@ -157,7 +157,7 @@ While Canada dominates international representation in NCAA men's lacrosse, smal
 
 **Israel**: Per the Israel Lacrosse Association (founded 2010), Israel has built a notable lacrosse program with multiple international competitions. Israel finished seventh at the 2014, 2018, and 2023 World Lacrosse Championships. Israeli players have entered NCAA programs in growing numbers, particularly through programs at Wingate Institute and other Israeli development pathways.
 
-**Australia**: Per multiple verified sources, Australia has been a top-four nation in international men's lacrosse for decades. Australian players are sometimes recruited by NCAA programs, often through similar field-lacrosse-developed pathways.
+**Australia**: Australia is one of the long-established nations in international men's lacrosse. Australian players are sometimes recruited by NCAA programs, often through similar field-lacrosse-developed pathways.
 
 **Japan, the Czech Republic, Germany, and emerging nations**: Per World Lacrosse, the sport is now played on five continents with national federations in 90 countries — doubled from 45 in 20 years. Per the 2018 World Lacrosse Championship coverage, 46 nations competed (the largest number ever) — the first championship held outside the four traditional hosts (United States, Canada, England, Australia). Players from these emerging-lacrosse nations occasionally reach NCAA programs, though typically in small absolute numbers.
 
@@ -174,7 +174,7 @@ Per analysis by McCarter & English (already cited in our [NIL and Revenue Sharin
 - NIL activities (paid social media, endorsements, paid appearances, autograph sessions) are generally classified as employment under U.S. immigration law
 - F-1 visa holders generally cannot engage in such activities without risking visa status
 
-**The post-House settlement complication**: Per the verified legal analysis sources, the House v. NCAA settlement (effective July 1, 2025) authorizes direct revenue-sharing payments from schools to student-athletes up to $20.5 million per school for the 2025-26 academic year (the NCAA has not published a 2026-27 figure). For F-1 visa holders, immigration lawyers disagree on whether these direct payments constitute permissible income or unauthorized employment. As of late 2025, no official federal guidance from the Department of Homeland Security or USCIS has resolved this question.
+**The post-House settlement complication**: the House v. NCAA settlement (effective July 1, 2025) authorizes direct revenue-sharing payments from schools to student-athletes up to $20.5 million per school for the 2025-26 academic year (the NCAA has not published a 2026-27 figure). For F-1 visa holders, immigration lawyers disagree on whether these direct payments constitute permissible income or unauthorized employment. As of late 2025, no official federal guidance from the Department of Homeland Security or USCIS has resolved this question.
 
 **For Canadian families specifically**: Canadian student-athletes attend NCAA programs on F-1 visas just like other international students. The proximity of Canada to the United States and the cultural similarities can sometimes obscure that Canadian recruits face the same F-1 visa restrictions as recruits from any other country.
 

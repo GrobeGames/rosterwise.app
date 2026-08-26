@@ -2,7 +2,7 @@
 layout: content.njk
 title: "NCAA Soccer Divisions by the Numbers — 2025 Season Analysis | RosterWise™"
 description: "A data-driven comparison of D1, D2, D3, and NAIA college soccer — program counts, roster sizes, international composition, and what the numbers mean for recruiting families. 2025 NCAA season."
-date: 2026-05-17
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -160,7 +160,7 @@ For domestic recruits, this data helps contextualize the competitive landscape. 
 
 Division-level averages are useful for understanding structural differences — scholarship rules, program counts, roster construction. But when it comes to evaluating whether a specific program is a good fit for your athlete, you need program-level data.
 
-The variance within each division is often greater than the variance between divisions. The best D3 programs would compete with mid-tier D1 programs. Some NAIA programs are more competitive than some D2 programs. A D1 program in a non-power conference operates in a very different world than a D1 program in the ACC.
+The variance within each division is often greater than the variance between divisions, and the ranges overlap. We do not rank programs or conferences, so we will not say which would beat which — but a family that treats the division label as a proxy for playing level will misjudge a lot of programs in both directions. A D1 program in a non-power conference operates in a very different world than a D1 program in the ACC.
 
 Start broad. Understand the structural differences. Then use [roster intelligence](/roster-intelligence/) to evaluate specific programs based on position depth, class-year gaps, international composition, and how your athlete's profile aligns with what each program actually looks like.
 

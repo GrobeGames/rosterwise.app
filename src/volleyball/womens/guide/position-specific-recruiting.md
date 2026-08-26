@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Position-Specific Recruiting in Women's Volleyball | RosterWise™"
 description: "How recruiting dynamics differ by position in women's volleyball — why setters recruit early, how outside hitter competition works, and what position commitment means for families."
-date: 2026-05-02
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -24,7 +24,7 @@ related:
     url: /volleyball/womens/guide/recruiting-timeline/
     status: live
 sources:
-  - "Guidance synthesized from publicly available coaching staff recruiting pages and published interviews with college volleyball coaches"
+  - "RosterWise 2025-26 roster dataset — position counts across 1,412 women's and 238 men's college volleyball programs that list a position for every rostered player, compiled from publicly available college athletics websites, captured May-August 2026"
   - "Publicly available college volleyball rosters from institutional athletics websites"
 cta:
   heading: "Your position shapes your recruiting path. RosterWise shows you where the opportunities are."
@@ -58,7 +58,7 @@ Setter is the position where early identification is most pronounced. The reason
 
 Outside hitter is the most commonly recruited position in women's volleyball because:
 
-- Most programs carry 3-5 outside hitters, more than any other position
+- Outside hitter is the most populous position on a roster: median **5**, middle half 4 to 6, across the 1,412 women's programs RosterWise analysed for 2025-26
 - Outside hitter combines attacking, passing, and defense, requiring the broadest skill set
 - The supply of club volleyball players who develop as outside hitters is large
 
@@ -73,7 +73,7 @@ Outside hitter is the most commonly recruited position in women's volleyball bec
 
 Middle blocker is a smaller market than outside hitter, and the recruiting dynamics reflect that:
 
-- Programs carry 3-4 middles, and the positional demands are specific
+- Programs carry a median of **4** middles (middle half 3 to 5), and the positional demands are specific
 - The pool of committed middle blocker recruits is smaller than the outside hitter pool
 - Coaches tend to have a clear picture of what they need from their middles — both physically and technically
 
@@ -86,7 +86,7 @@ Middle blocker is a smaller market than outside hitter, and the recruiting dynam
 
 ## Libero: the thinnest market
 
-Libero is the thinnest position in terms of roster spots — most programs carry only 1-2 — and the recruiting market reflects that scarcity.
+Libero is a thin position in roster terms, and the recruiting market reflects that scarcity. Note that programs use "libero" and "defensive specialist" interchangeably on public rosters, so the two cannot be counted separately — taken together the back row runs **3 or 4** at the median.
 
 **Recruiting dynamics for liberos:**
 - When a program needs a libero, the need is usually acute: one spot, specific requirements, clear timeline.

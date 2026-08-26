@@ -105,7 +105,7 @@ A few mechanical realities about D1 women's lacrosse scholarships under the new 
 
 **Designated Student-Athletes (DSAs)**: Per USA Lacrosse magazine, the settlement's transition provision allowed schools to identify rostered athletes (or incoming 2025-26 freshmen) who would have been cut under the new roster limits and grandfather them in. These DSAs do not count against the roster cap during their remaining eligibility. DSA designation transfers with the athlete if they move to another school. This was a one-time exemption tied to identification by the July 6, 2025 deadline.
 
-**Not all D1 programs opted in**: Per multiple sources including Whiteford Taylor Preston LLP's analysis of the settlement, schools opting into the settlement must abide by the new roster limits AND can fully fund up to those limits. Schools that did not opt in operate under the previous framework. Families should ask each program directly whether it has opted into the settlement.
+**Not all D1 programs opted in**: Schools opting into the settlement must abide by the new roster limits AND can fully fund up to those limits. Schools that did not opt in operate under the previous framework. Families should ask each program directly whether it has opted into the settlement.
 
 ## D2 women's lacrosse scholarships
 
@@ -115,7 +115,7 @@ Per NCAA Division II Bylaw 15.4.2.1.2, D2 women's lacrosse is an equivalency spo
 
 For NCAA Division II in particular, the practical realities include:
 
-- **Many D2 programs are not fully funded**: Per multiple recruiting resources, many D2 women's lacrosse programs operate below the maximum scholarship allotment due to budget constraints. The published cap is the maximum; actual program funding varies.
+- **The cap is a ceiling, not a budget**: 9.9 equivalencies is the most a D2 program may award, not what any given program does award. Funding levels are an institutional choice and are not published. Ask the program directly.
 - **Partial scholarships are the norm**: Few D2 women's lacrosse athletes receive full athletic scholarships. Most awards are partial, and families typically combine athletic aid with academic merit aid, need-based aid, and outside scholarships.
 - **More D2 programs on the women's side**: the NCAA's projected 2025-26 sport-sponsorship figures put D2 women's lacrosse at **112** programs against **80** for D2 men's; its most recent actual figures, for 2024-25, are **117** and **82**. Either way the women's pool is larger, which means more pathways for recruits. (The NCAA labels the first set as projections and notes actual numbers may change.)
 

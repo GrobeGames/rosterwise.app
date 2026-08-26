@@ -55,7 +55,7 @@ A quick reference:
 
 **"Typical" doesn't mean "required."** Athletes commit earlier and later than these windows all the time. These are the centers of mass, not deadlines, and individual circumstances drive enormous variation.
 
-Industry surveys suggest most D1 men's soccer coaches begin evaluating talent during a player's sophomore year of high school — well before they're permitted to formally make recruiting contact.
+The rules that follow govern when a coach may *contact* a recruit. They say nothing about when a coach may *watch* one, and the two are years apart: evaluation at showcases and club events is unrestricted, so a coach can be forming a view long before the phone is allowed to ring. We have no measured figure for how early that typically starts and will not invent one.
 
 ## Why men's soccer recruiting happens later than women's
 
@@ -128,7 +128,7 @@ Use this as a general guide. Individual recruiting experiences vary significantl
 
 ### 10th grade (sophomore year)
 
-- Industry surveys suggest most D1 coaches begin evaluating sophomore-year talent — even though they cannot make formal recruiting contact yet. This evaluation happens at MLS Next showcases, ECNL events, ID camps, and elite tournaments.
+- Coaches may evaluate at any time even though they cannot make formal recruiting contact yet. That evaluation happens at MLS Next showcases, ECNL events, ID camps, and elite tournaments.
 - Athletes can email coaches, fill out recruiting questionnaires, and attend ID camps at any time. Coaches' responses will be limited to camp information before June 15.
 - **June 15 after sophomore year**: D1 coaches can now initiate communication, extend verbal offers, and have full recruiting conversations.
 

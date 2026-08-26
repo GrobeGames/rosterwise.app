@@ -2,7 +2,7 @@
 layout: content.njk
 title: "International Recruiting for Men's College Soccer | RosterWise™"
 description: "How international recruiting works in men's college soccer — why programs recruit internationally, how it affects domestic recruits, and what families should know about roster composition."
-date: 2026-04-26
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -30,6 +30,7 @@ related:
     url: /soccer/womens/guide/international-recruiting/
     status: coming-soon
 sources:
+  - "RosterWise 2025-26 roster dataset — international composition across 1,012 men's and 1,223 women's college soccer programs, compiled from publicly available college athletics websites, captured April-August 2026"
   - "NCAA.org, international student-athlete eligibility requirements"
   - "NCAA Eligibility Center, international student guidelines"
 cta:
@@ -77,17 +78,20 @@ International recruiting works differently from domestic recruiting:
 
 ## Patterns across divisions
 
-International recruiting patterns differ by division, though the variance within each division is substantial:
+International recruiting patterns differ by division — and not in the order most families assume. Across the rosters RosterWise analysed for the 2025-26 season, the international share of men's soccer roster spots ran:
 
-**D1:** The highest concentration of international players in men's college soccer. Some D1 programs — particularly those in competitive conferences — recruit heavily internationally. Others in the same conferences do not. International recruiting is most concentrated at the D1 level because the competitive pressure is highest and the scholarship resources are greatest.
+| Division | International share of roster spots |
+| --- | --- |
+| **NAIA** | **48.2%** |
+| **NCAA D2** | **37.3%** |
+| **NCAA D1** | **33.8%** |
+| **NCAA D3** | **11.2%** |
 
-**D2:** International recruiting exists at D2 but is generally less prevalent than D1. Some D2 programs, particularly those with established international pipelines, carry significant international rosters. Others recruit almost entirely domestically.
+**NAIA is the highest, not D1.** Nearly half of all men's soccer roster spots at NAIA programs went to international players, and D2 sat above D1 as well. If you have been told that international recruiting is a Division I phenomenon, the data says otherwise.
 
-**D3:** International recruiting at D3 is less common but not nonexistent. D3 schools that attract international students broadly (based on academic reputation, location, or institutional mission) may also attract international soccer players. The dynamic is different because D3 doesn't offer athletic scholarships — international students at D3 are there for the academic and overall experience.
+**D3 is the outlier in the other direction** at just over one spot in nine — unsurprising, since D3 offers no athletic scholarships and international students are rarely in a position to fund four years without them.
 
-**NAIA:** Some NAIA programs have significant international recruiting operations. NAIA rules around international recruiting and eligibility differ from NCAA rules, and some NAIA schools have built competitive programs substantially through international talent.
-
-**These are generalizations.** The only way to know a specific program's international composition is to look at their roster.
+**The variance within each division is larger than the gaps between them.** Individual programs run the full range, from no international players at all to nearly the whole roster. The only way to know a specific program's composition is to look at its roster.
 
 ## What families should consider
 

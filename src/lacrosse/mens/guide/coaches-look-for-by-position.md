@@ -60,7 +60,7 @@ NCAA men's lacrosse is played with 10 players on the field per team:
 - 3 defenders
 - 1 goalie
 
-Plus the following rules-based realities (per multiple verified sources):
+Plus the following rules-based realities:
 
 **Field size**: 110 yards by 60 yards
 
@@ -119,7 +119,7 @@ Attackmen are the primary offensive players. They typically stay on the offensiv
 
 ## Midfielders (3 positions)
 
-Midfielders cover the entire field, playing both offense and defense. Per multiple verified sources, midfielders are typically the only players who cover the full 110 yards regularly. The position has become increasingly specialized.
+Midfielders cover the entire field, playing both offense and defense. Midfielders are typically the only players who cover the full 110 yards regularly. The position has become increasingly specialized.
 
 **Modern midfield specialization**:
 

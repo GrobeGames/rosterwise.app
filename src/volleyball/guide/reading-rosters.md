@@ -2,7 +2,7 @@
 layout: content.njk
 title: "How to Read a College Volleyball Roster | RosterWise™"
 description: "A guide for families on how to read college volleyball rosters — position abbreviations, class-year distribution, transfer patterns, and the signals that reveal recruiting opportunity."
-date: 2026-05-02
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -22,6 +22,7 @@ related:
     url: /volleyball/methodology/class-year-gaps/
     status: live
 sources:
+  - "RosterWise 2025-26 roster dataset — position counts across 1,412 women's and 238 men's college volleyball programs that list a position for every rostered player, compiled from publicly available college athletics websites, captured May-August 2026"
   - "Publicly available college volleyball rosters from institutional athletics websites"
   - "NCAA.org — Division membership and program listings"
 cta:
@@ -42,11 +43,11 @@ A roster tells you how a program is built. It shows you where the depth is, wher
 
 Volleyball rosters use standard position abbreviations, but they are not always consistent across programs. Here is what you will see:
 
-- **OH** — Outside Hitter. The primary attacker on the left side. Most rosters carry 3-5 outside hitters. This is typically the most recruited position.
-- **MB** (or **MH**) — Middle Blocker (or Middle Hitter). The player at the center of the net who leads the blocking scheme and runs quick attacks. Most rosters carry 3-4 middles.
-- **S** — Setter. The playmaker who distributes the ball to hitters. Most programs run a 5-1 system (one setter) or 6-2 system (two setters). Rosters typically carry 2-3 setters.
-- **L** (or **Lib**) — Libero. The defensive specialist who wears a different-colored jersey and plays back row only. Rosters typically carry 1-2 liberos.
-- **RS** (or **OPP**) — Right Side Hitter (or Opposite). The attacker on the right side, often a strong blocker. Rosters typically carry 2-3 right-side hitters.
+- **OH** — Outside Hitter. The primary attacker on the left side, and the most populous position on a roster: across the 1,412 women's programs RosterWise analysed for 2025-26, the median was **5**, with the middle half carrying 4 to 6.
+- **MB** (or **MH**) — Middle Blocker (or Middle Hitter). The player at the centre of the net who leads the blocking scheme and runs quick attacks. Median **4** per roster, middle half 3 to 5.
+- **S** — Setter. The playmaker who distributes the ball to hitters. Most programs run a 5-1 system (one setter) or 6-2 system (two setters). Median **3** per roster, middle half 2 to 3.
+- **L** (or **Lib**) — Libero. The back-row specialist in a different-coloured jersey. Programs use "libero" and "defensive specialist" interchangeably, so the two cannot be counted separately from public rosters — taken together the back row runs **3 or 4** at the median.
+- **RS** (or **OPP**) — Right Side Hitter (or Opposite). The attacker on the right side, often a strong blocker. We publish no median here: 22% of programs list nobody as an opposite at all, folding the role into their outside hitters, and most of the rest carry one or two.
 - **DS** — Defensive Specialist. A back-row player who substitutes in for defensive rotations. Some programs list DS separately; others group them with liberos.
 
 **Inconsistency is common.** One program might list a player as "OH/RS" while another lists the same type of player as "OPP." Some programs do not list positions at all on their public roster, requiring you to watch film or read bios to determine roles. This inconsistency is one of the reasons roster analysis at scale is difficult — and one of the reasons RosterWise exists.
@@ -92,7 +93,7 @@ The total number of players on a roster — in context — reveals a lot about a
 
 - **D1 opt-in programs** have an 18-player roster limit under the House settlement. A program at 18 has no room without attrition. A program at 15 or 16 may be actively looking to fill spots.
 - **D1 non-opt-in programs** do not have the same cap and may carry larger rosters, including walk-ons.
-- **D2, D3, and NAIA programs** set their own roster sizes, which can range from 14 to 24 or more. Larger rosters may mean more opportunity but also more competition for playing time within the program.
+- **D2, D3, and NAIA programs** face no national roster cap and set their own sizes. Across all the women's volleyball rosters RosterWise analysed for 2025-26 the median was **17**. Larger rosters may mean more opportunity but also more competition for playing time within the program.
 
 Roster size in isolation is just a number. Roster size in the context of class-year distribution, position depth, and scholarship allocation tells you whether there is genuine opportunity for your athlete.
 

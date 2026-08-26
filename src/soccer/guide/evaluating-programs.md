@@ -2,7 +2,7 @@
 layout: content.njk
 title: "How to Evaluate a College Soccer Program (Beyond the Win-Loss Record)"
 description: "A family's guide to evaluating college soccer programs — roster stability, coaching tenure, conference strength, academic fit, and the factors that matter more than rankings."
-date: 2026-04-26
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -82,7 +82,7 @@ We cover how to read rosters in detail in our companion guide, [How to Read a Co
 
 The conference a program plays in shapes the daily competitive experience more than most families realize.
 
-**Within D1 alone, the range of conference strength is enormous.** The Atlantic Coast Conference and the Big Ten have historically been among the strongest in men's and women's soccer. But strong programs exist in every conference, and a player who thrives in one competitive environment might struggle in another — or vice versa.
+**Within D1 alone, the range of conference strength is wide.** RosterWise does not rank conferences, so we are not going to tell you which are strongest — that judgment is contested and it changes. What we would say is that strong programs exist in every conference, that a player who thrives in one competitive environment may struggle in another, and that the conference a program plays in shapes the weekly experience more than most families expect. Look at results and rosters within a conference rather than at its reputation.
 
 **Questions to ask about conference fit:**
 - What is the conference's typical level of play relative to other conferences in the same division?

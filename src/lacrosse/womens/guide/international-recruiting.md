@@ -86,7 +86,7 @@ Canada is the most prominent international source of NCAA women's lacrosse recru
 
 - The Canadian Women's Field Lacrosse National Team is documented and competitive internationally
 - Canadian women's lacrosse players tend to follow field lacrosse development pathways rather than the box-lacrosse-to-field-lacrosse pathway that defines much of men's recruiting from Canada
-- Women's NCAA recruiting from Canada operates under the same September 1 of junior year contact rule established by the 2017 NCAA Early Recruiting Legislation (per equityix.com citing NCAA bylaws) and preserved in the 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar
+- Women's NCAA recruiting from Canada operates under the same September 1 of junior year contact rule that applies to domestic recruits, set by NCAA Division I Bylaw 13.1.1.1.7
 
 For families with Canadian women's lacrosse athletes considering U.S. college recruiting, the structural realities of NCAA recruiting — the September 1 of junior year contact date, the [House settlement impact on scholarships](/lacrosse/womens/guide/scholarships-after-house-settlement/), the recruiting timeline overall — apply to Canadian recruits just as they apply to American recruits.
 
@@ -128,7 +128,7 @@ Per analysis by the law firms McCarter & English and Christine Brown & Partners,
 - NIL activities (paid social media posts, endorsements, appearances, autograph signings) are generally classified as employment under U.S. immigration law
 - This creates a structural barrier: NCAA rules permit NIL income; F-1 visa rules generally do not allow F-1 visa holders to engage in NIL activities
 
-**The post-House settlement complication**: Per the same legal analysis sources, the House v. NCAA settlement (effective July 1, 2025) authorizes direct revenue-sharing payments from schools to student-athletes up to $20.5 million per school for the 2025-26 academic year (the NCAA has not published a 2026-27 figure). For F-1 visa holders, immigration lawyers disagree on whether these direct payments constitute permissible income or unauthorized employment. As of late 2025, no official federal guidance from the Department of Homeland Security or U.S. Citizenship and Immigration Services has resolved this question.
+**The post-House settlement complication**: the House v. NCAA settlement (effective July 1, 2025) authorizes direct revenue-sharing payments from schools to student-athletes up to $20.5 million per school for the 2025-26 academic year (the NCAA has not published a 2026-27 figure). For F-1 visa holders, immigration lawyers disagree on whether these direct payments constitute permissible income or unauthorized employment. As of late 2025, no official federal guidance from the Department of Homeland Security or U.S. Citizenship and Immigration Services has resolved this question.
 
 **The practical reality for international women's lacrosse recruits**:
 

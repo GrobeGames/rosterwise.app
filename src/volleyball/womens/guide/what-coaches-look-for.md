@@ -2,7 +2,7 @@
 layout: content.njk
 title: "What Women's College Volleyball Coaches Look For | RosterWise™"
 description: "A position-by-position breakdown of what women's college volleyball coaches evaluate in recruits — technical ability, volleyball IQ, athleticism, coachability, and character."
-date: 2026-05-02
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -24,7 +24,7 @@ related:
     url: /volleyball/methodology/position-depth/
     status: live
 sources:
-  - "Guidance synthesized from publicly available coaching staff recruiting pages and published interviews with college volleyball coaches"
+  - "This page contains no sourced factual claims — it describes what college coaches look for as general guidance, and RosterWise states it as its own editorial framing rather than attributing it to a source. Any figure, rule or date on this page should be traceable to one of the governing-body sources listed on our rules and scholarship pages; if you find one here that is not, it is a mistake and we want to know."
 cta:
   heading: "Know what coaches want. Find programs that need it."
   text: "Understanding what coaches look for is step one. Step two is finding programs where your athlete's specific profile fills a genuine need. RosterWise analyzes roster composition and position depth for every women's volleyball program, so families can target schools where the fit is real."

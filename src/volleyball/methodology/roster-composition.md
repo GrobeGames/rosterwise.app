@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Volleyball Roster Composition Analysis | RosterWise™"
 description: "How roster composition analysis works for college volleyball — the 6+L+bench structure, what roster data reveals about program direction, and how RosterWise analyzes every program."
-date: 2026-05-02
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -22,6 +22,7 @@ related:
     url: /volleyball/guide/reading-rosters/
     status: live
 sources:
+  - "RosterWise 2025-26 roster dataset — position counts across 1,412 women's and 238 men's college volleyball programs that list a position for every rostered player, compiled from publicly available college athletics websites, captured May-August 2026"
   - "Publicly available college volleyball rosters from institutional athletics websites"
   - "NCAA.org — Division membership and program listings"
 cta:
@@ -60,14 +61,13 @@ Beyond the starting six plus libero, a competitive program needs bench depth at 
 
 A well-constructed roster typically carries:
 
-- 3-5 outside hitters
-- 3-4 middle blockers
-- 2-3 setters
-- 1-2 liberos
-- 2-3 right-side hitters
-- 1-3 defensive specialists
+- a median of **5** outside hitters (middle half 4 to 6)
+- a median of **4** middle blockers (3 to 5)
+- a median of **3** setters (2 to 3)
+- **3 or 4** across the back row, counting liberos and defensive specialists together — programs use the two labels interchangeably, so they cannot be split
+- no reliable figure for opposites: 22% of programs list nobody in the role at all
 
-Total roster sizes range from 14-18 at D1 programs (with 18 being the cap at opt-in schools under the House settlement) to 16-24 at D2, D3, and NAIA programs.
+D1 programs at opt-in schools are capped at 18 under the House settlement. Below D1 there is no national cap, and roster sizes vary by institution; across all the women's volleyball rosters RosterWise analysed for 2025-26 the median was **17**.
 
 ## Why composition matters more than talent lists
 
