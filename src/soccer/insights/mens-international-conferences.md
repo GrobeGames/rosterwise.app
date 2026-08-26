@@ -25,7 +25,7 @@ related:
     url: /guide/international-student-athletes/
     status: live
 sources:
-  - "RosterWise 2025 roster dataset — publicly available college athletics websites, captured April–May 2026"
+  - "RosterWise 2025-26 roster dataset — publicly available college athletics websites, captured April–August 2026; conference aggregates recomputed 2026-08-26"
   - "Roster hometown and country data parsed from official athletics websites"
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Division membership and conference listings'
 cta:
@@ -50,7 +50,9 @@ RosterWise tracks [roster intelligence](/roster-intelligence/) at the program le
 
 ## D1 men's soccer: conference-level international composition
 
-Across 211 D1 men's soccer programs, international players make up **33.6%** of all roster spots — roughly one in three players. But the conference-by-conference variation is dramatic, ranging from 11.3% to 58.8%.
+Across 211 D1 men's soccer programs, international players make up **33.6%** of all roster spots — 2,050 of 6,099 — roughly one in three players. But the conference-by-conference variation is dramatic, ranging from 11.3% to 62.3%.
+
+The tables below cover the 22 D1 conferences. One D1 program competes as an independent and is counted in the division total but sits in no conference tier.
 
 Because many conferences are separated by fewer than two percentage points, we group them into tiers rather than publishing strict 1-2-3 rankings. A 0.5% gap between conferences does not indicate a meaningful difference in recruiting approach.
 
@@ -58,11 +60,11 @@ Because many conferences are separated by fewer than two percentage points, we g
 
 | Conference | Programs | Players | Intl Players | Intl % |
 |------------|----------|---------|-------------|--------|
-| American Conference | 9 | 240 | 141 | 58.8% |
-| Sun Belt Conference | 10 | 267 | 145 | 54.3% |
+| American Conference | 9 | 236 | 147 | 62.3% |
+| Sun Belt Conference | 10 | 267 | 144 | 53.9% |
 | Big South Conference | 8 | 260 | 123 | 47.3% |
 
-These conferences have programs where international players routinely outnumber domestic players. The American Conference leads D1 with nearly 6 in 10 roster spots going to international recruits.
+These conferences have programs where international players routinely outnumber domestic players. The American Conference leads D1 with more than 6 in 10 roster spots going to international recruits.
 
 ### Above D1 average (35–45%)
 
@@ -70,26 +72,26 @@ These conferences have programs where international players routinely outnumber 
 |------------|----------|---------|-------------|--------|
 | America East Conference | 8 | 231 | 102 | 44.2% |
 | Atlantic Sun Conference | 8 | 248 | 109 | 44.0% |
-| Metro Atlantic Athletic Conf. | 13 | 393 | 156 | 39.7% |
 | The Summit League | 7 | 195 | 74 | 37.9% |
+| Metro Atlantic Athletic Conference | 13 | 387 | 145 | 37.5% |
 | Atlantic 10 Conference | 13 | 376 | 137 | 36.4% |
 
 ### Near D1 average (25–35%)
 
 | Conference | Programs | Players | Intl Players | Intl % |
 |------------|----------|---------|-------------|--------|
-| CAA | 10 | 284 | 98 | 34.5% |
+| Coastal Athletic Association | 10 | 284 | 98 | 34.5% |
 | Horizon League | 10 | 285 | 98 | 34.4% |
 | Ohio Valley Conference | 8 | 224 | 76 | 33.9% |
-| NEC | 10 | 348 | 116 | 33.3% |
+| Southern Conference | 6 | 169 | 55 | 32.5% |
 | BIG EAST Conference | 12 | 343 | 110 | 32.1% |
 | Atlantic Coast Conference | 15 | 430 | 136 | 31.6% |
-| Southern Conference | 6 | 172 | 50 | 29.1% |
 | West Coast Conference | 10 | 293 | 83 | 28.3% |
+| Northeast Conference | 8 | 244 | 66 | 27.0% |
 | Missouri Valley Conference | 8 | 238 | 63 | 26.5% |
 | Western Athletic Conference | 8 | 219 | 57 | 26.0% |
 
-Note: Many conferences in this tier are clustered tightly — CAA (34.5%) through ACC (31.6%) are separated by less than 3 percentage points.
+Note: Many conferences in this tier are clustered tightly — the Coastal Athletic Association (34.5%) through the ACC (31.6%) are separated by less than 3 percentage points.
 
 ### Below D1 average (<25%)
 
@@ -116,13 +118,13 @@ Several factors explain why some conferences lean heavily international:
 
 ## D2 men's soccer: highest international percentage across divisions
 
-D2 men's soccer programs carry an overall international percentage of **37.4%** — higher than D1. Conference-level patterns are similarly varied, and many D2 conferences exceed 50% international composition.
+D2 men's soccer programs carry an overall international percentage of **37.3%** — higher than D1. Conference-level patterns are similarly varied, and many D2 conferences exceed 50% international composition.
 
 ## D3 and NAIA patterns
 
 D3 men's soccer programs average **11.2%** international players — substantially lower than D1 and D2. Without athletic scholarships, D3 international recruiting works differently — international players come for the academic and cultural experience, and the financial equation is based on institutional aid rather than athletic scholarships.
 
-NAIA men's soccer programs average **48.1%** international — the highest of any division. Some NAIA conferences carry international composition above 60%. This reflects the NAIA's distinct institutional profile and scholarship model, which has attracted strong international recruiting networks.
+NAIA men's soccer programs average **48.2%** international — the highest of any division. Some NAIA conferences carry international composition above 60%. This reflects the NAIA's distinct institutional profile and scholarship model, which has attracted strong international recruiting networks.
 
 ## What this means for domestic recruits
 
@@ -161,4 +163,4 @@ Despite these limitations, the conference-level patterns are robust and directio
 
 ---
 
-*Data reflects **2025-26** NCAA season rosters as published on official athletics websites. The overall men's international figure was recomputed on 2026-08-26 from the full dataset (captured April–August 2026), correcting an earlier figure that had mixed men's and women's totals. The conference tables on this page still reflect the original April–May 2026 capture and are scheduled for a full refresh. See [methodology](/methodology/data-and-analysis/) for full documentation.*
+*Data reflects **2025-26** NCAA season rosters as published on official athletics websites, captured April–August 2026. Every figure on this page — the division totals and all four conference tables — was recomputed from the full dataset on 2026-08-26, so the whole page now comes from a single capture. Conference aggregates exclude Mercyhurst and New Haven, which were mid-transition from D2 to D1 and carry unrepresentative rosters. See [methodology](/methodology/data-and-analysis/) for full documentation.*

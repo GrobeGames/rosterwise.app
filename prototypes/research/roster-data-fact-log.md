@@ -99,6 +99,9 @@ insight pages were.
 | Women's international share is lower at **every** division: D1 **12.4%** (vs 33.8% men), D2 **11.3%** (vs 37.3%), D3 **2.1%** (vs 11.2%), NAIA **20.0%** (vs 48.2%) | RosterWise 2025-26 roster dataset | 2026-08-26 | soccer/guide/recruiting-myths |
 | Across all **1,012** men's soccer programs (D1, D2, D3, NAIA), **9,504** players are international — **28.7%** overall | RosterWise 2025-26 roster dataset | 2026-08-26 | soccer/insights/mens-international-conferences |
 | The international flag is not being set on unresolved hometowns: **12,756 of 12,910** flagged players (98.8%) carry a resolved country code | RosterWise 2025-26 roster dataset | 2026-08-26 | (integrity check — supports every row in this section) |
+| Across **211** D1 men's soccer programs (excluding Mercyhurst and New Haven, mid-transition D2→D1), international players hold **2,050 of 6,099** roster spots — **33.6%**. Conference shares run from **11.3%** (Patriot League) to **62.3%** (American Conference) | RosterWise 2025-26 roster dataset | 2026-08-26 | soccer/insights/mens-international-conferences |
+| All **22** D1 conference rows on that page — programs, players, international players, percentage — were regenerated and then machine-verified row by row against the database: **0 mismatches**, and the row totals reconcile to the division total (210 tabled programs + 1 independent = 211) | RosterWise 2025-26 roster dataset | 2026-08-26 | soccer/insights/mens-international-conferences |
+| Division totals for men's soccer: D2 **37.3%**, D3 **11.2%**, NAIA **48.2%** | RosterWise 2025-26 roster dataset | 2026-08-26 | soccer/insights/mens-international-conferences |
 
 ## G. Corrections made in this pass
 
@@ -162,14 +165,21 @@ between several sports, so the blended figure was hiding the more useful fact.
   When 2026-27 rosters settle, re-run `compute.py` and update every row plus
   every page listed in its `Articles` column in one commit. Do not update pages
   piecemeal — a half-updated set is how contradictions get published.
-- **`soccer/insights/mens-international-conferences.md` is only partly refreshed.**
-  This pass corrected its overall men's international sentence using an
-  August 2026 recomputation. Its **conference-level tables and its 33.6% D1
-  figure remain at the original April–May 2026 snapshot** — that snapshot is not
-  wrong, but it is ~0.2 points adrift of the current recomputation because 23
-  soccer programs were re-scraped in August 2026. The whole page should be
-  regenerated in a single pass; it was left out of scope here to avoid shipping
-  a page whose tables and totals came from two different capture dates.
+- ~~**`soccer/insights/mens-international-conferences.md` is only partly refreshed.**~~
+  **Resolved 2026-08-26.** The whole page was regenerated from the current
+  dataset, so its division totals and all four conference tables now come from a
+  single capture. Every one of the 22 conference rows was machine-verified
+  against the database (0 mismatches) and the rows reconcile to the division
+  total. The headline 33.6% D1 figure was unchanged by the refresh, but several
+  conferences moved — the American Conference from 58.8% to 62.3%, the Metro
+  Atlantic from 39.7% to 37.5%, the Northeast Conference from 33.3% to 27.0%,
+  the Southern Conference from 29.1% to 32.5% — and two conferences had been
+  carrying pre-normalization names (CAA → Coastal Athletic Association, NEC →
+  Northeast Conference). One D1 program competing as an independent, previously
+  absent from the page, is now accounted for in the reconciliation note.
+  **Its sister page `soccer/insights/mens-roster-size.md` and the other five
+  `soccer/insights/` pages have not been regenerated** and remain at their
+  original capture — they should get the same treatment in a dedicated pass.
 - **The pipeline's roster-settled machinery is not populated.** The
   `completeness` and `coverage_state` columns on `roster_observations` are empty
   for every row, so the settled/not-settled status that the family-wide rule
