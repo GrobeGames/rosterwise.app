@@ -50,15 +50,15 @@ None of this information is hidden. It is publicly available on every program's 
 
 ### 1. Position abbreviations (OH, MB, S, L, RS, OPP, DS)
 
-Volleyball rosters use standard position abbreviations, though the conventions are not always consistent across programs. The counts below come from RosterWise's analysis of 1,300 women's college volleyball programs for the 2025-26 season — every program in our dataset that listed a position for all of its rostered players. Each figure is the median program, with the middle half of programs in parentheses.
+Volleyball rosters use standard position abbreviations, though the conventions are not always consistent across programs. The counts below come from RosterWise's analysis of 1,412 women's college volleyball programs for the 2025-26 season — every program in our dataset that listed a position for all of its rostered players. Each figure is the median program, with the middle half of programs in parentheses.
 
 - **OH** — Outside Hitter (primary attacker, left side). Median 5 per roster (4 to 6).
 - **MB** or **MH** — Middle Blocker / Middle Hitter (central net presence). Median 4 (3 to 5).
 - **S** — Setter (the playmaker). Median 3 (2 to 3).
-- **RS** or **OPP** — Right-Side Hitter / Opposite (right-side attacker). Median 2 (1 to 2).
-- **L** or **Lib** — Libero (back-row specialist, different-colored jersey) and **DS** — Defensive Specialist (back-row substitute). We report these two together, because programs use the labels interchangeably: of those 1,300 rosters, only 707 list anyone as a libero while 983 list someone as a defensive specialist. Counted as a single back-row group, the median program carries 4 (3 to 5).
+- **RS** or **OPP** — Right-Side Hitter / Opposite (right-side attacker). This label is applied unevenly: 22% of programs list nobody as an opposite at all, folding the role into their outside hitters, and most of the rest carry one or two.
+- **L** or **Lib** — Libero (back-row specialist, different-colored jersey) and **DS** — Defensive Specialist (back-row substitute). We report these two together, because programs use the labels interchangeably: of those 1,412 rosters, 766 list anyone as a libero while 1,068 list someone as a defensive specialist. Counted as a single back-row group, the middle half of programs carry three or four.
 
-Those are women's figures. Across the 211 men's volleyball programs in the same dataset, rosters skew toward more outside hitters (median 6) and fewer back-row specialists (median 3).
+Those are women's figures. Across the 238 men's volleyball programs in the same dataset the position mix is broadly similar, with one clear difference in labelling: 209 of those 238 programs name a libero and only 90 name a defensive specialist — the reverse of the women's pattern.
 
 Some programs do not list positions on their public roster at all, which makes external analysis harder. Others use hybrid designations like "OH/RS" or "DS/L" that blur the categories. This inconsistency is one of the reasons roster analysis at scale is difficult — and one of the reasons we built RosterWise.
 

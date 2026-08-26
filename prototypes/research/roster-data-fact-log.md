@@ -31,7 +31,7 @@ publishing it itself.
 | Season | `roster_season = '2025-26'` — the last **completed** season |
 | Capture window | Soccer April–August 2026; volleyball May–August 2026; lacrosse and wrestling June–August 2026 |
 | Excluded | Non-players (managers, staff, student assistants — `is_non_player = 1`) |
-| Excluded | Program-seasons carrying fewer than 12 rostered players, treated as incomplete scrapes rather than real rosters |
+| Not excluded | **No roster-size floor.** An earlier version of this pass excluded program-seasons under 12 players as presumed incomplete scrapes. That floor was wrong — see "Floor sensitivity" below — and has been removed. |
 | Extra filter, position rows only | The program must list a position for **every** rostered player, so a partly-unlabelled roster cannot understate a position group |
 | Computation | `prototypes/research/roster-figures-2025-26/compute.py` (committed alongside this log) |
 
@@ -65,9 +65,10 @@ insight pages were.
 
 | Claim | Primary source | Verified | Articles |
 | --- | --- | --- | --- |
-| Across **1,300** women's college volleyball programs that list a position for every rostered player: median **5 outside hitters** (IQR 4–6), **4 middle blockers** (3–5), **3 setters** (2–3), **2 opposites/right sides** (1–2) | RosterWise 2025-26 roster dataset | 2026-08-26 | blog/how-to-read-a-college-volleyball-roster |
-| Libero and defensive specialist are **not separable** in published rosters: of those 1,300 rosters only **707** list anyone as a libero while **983** list someone as a defensive specialist. Counted as one back-row group the median program carries **4** (IQR 3–5) | RosterWise 2025-26 roster dataset | 2026-08-26 | blog/how-to-read-a-college-volleyball-roster |
-| Across **211** men's volleyball programs on the same filter: median **6 outside hitters**, median **3** back-row specialists (libero + DS) | RosterWise 2025-26 roster dataset | 2026-08-26 | blog/how-to-read-a-college-volleyball-roster |
+| Across **1,412** women's college volleyball programs that list a position for every rostered player: median **5 outside hitters** (IQR 4–6), **4 middle blockers** (3–5), **3 setters** (2–3) | RosterWise 2025-26 roster dataset | 2026-08-26 | blog/how-to-read-a-college-volleyball-roster |
+| The **opposite/right side** label is applied unevenly: **22%** of those 1,412 programs list nobody as an opposite, and most of the rest carry one or two. The median (1) sits on a boundary of a near-flat distribution, so no single figure is published | RosterWise 2025-26 roster dataset | 2026-08-26 | blog/how-to-read-a-college-volleyball-roster |
+| Libero and defensive specialist are **not separable** in published rosters: of those 1,412 rosters **766** list anyone as a libero while **1,068** list someone as a defensive specialist. Counted as one back-row group the middle half of programs carry **three or four** (median 3.5) | RosterWise 2025-26 roster dataset | 2026-08-26 | blog/how-to-read-a-college-volleyball-roster |
+| Across **238** men's volleyball programs on the same filter the position mix is broadly similar to the women's, but the labelling is reversed: **209** name a libero and only **90** name a defensive specialist | RosterWise 2025-26 roster dataset | 2026-08-26 | blog/how-to-read-a-college-volleyball-roster |
 
 ## C. Lacrosse roster size
 
@@ -80,8 +81,8 @@ insight pages were.
 
 | Claim | Primary source | Verified | Articles |
 | --- | --- | --- | --- |
-| Across **5,435** program rosters in four sports, median roster size was **29** in soccer, **31** in lacrosse, **28** in wrestling, **17** in volleyball | RosterWise 2025-26 roster dataset | 2026-08-26 | guide/late-bloomers |
-| Across those same 5,435 rosters the median program carried **4 seniors** (including redshirt seniors), IQR **2–7** (mean 4.8, range 0–22) | RosterWise 2025-26 roster dataset | 2026-08-26 | guide/late-bloomers |
+| Across **5,694** program rosters in four sports, median roster size runs from **17** (women's wrestling, women's volleyball) to **42** (men's lacrosse). Full table: men's soccer 31, women's soccer 28; men's volleyball 18, women's 17; men's lacrosse 42, women's 26; men's wrestling 29, women's 17 | RosterWise 2025-26 roster dataset | 2026-08-26 | guide/late-bloomers |
+| Across those same 5,694 rosters the median program carried **4 seniors** (including redshirt seniors), IQR **2–7** (mean 4.6, range 0–22) | RosterWise 2025-26 roster dataset | 2026-08-26 | guide/late-bloomers |
 
 ## E. D1 men's soccer roster size under the House roster limit
 
@@ -127,6 +128,34 @@ had **published** that the dataset contradicts.
 | `soccer/insights/mens-roster-size.md` | pre-settlement D1 men's soccer programs "carried **30 or more** players, including walk-ons" | Found by tracing the blast radius of the `guide/house-settlement.md` cut — the same unsupported pre-House claim. We hold no pre-House rosters. Restructured to state only the sourced rule (no roster cap existed) and to say plainly that our data cannot size those rosters |
 | `blog/how-to-read-a-college-volleyball-roster.md` | separate per-roster counts for **libero** ("1-2") and **defensive specialist** ("1-3") | Programs use the two labels interchangeably, so the split is a labelling artifact rather than a real distribution. Published as one combined back-row figure instead |
 
+### Floor sensitivity — why there is no roster-size floor
+
+The first version of this pass excluded program-seasons under 12 players,
+assuming such rosters were incomplete scrapes. Testing that assumption at floors
+of 0, 8, 12, 15 and 18 showed two things.
+
+**First, the floor was almost entirely inert.** Every soccer and lacrosse figure
+published from this log — D1 position medians and IQRs, D1 roster sizes, the
+33.8% D1 men's international share — is *identical* at every floor. The floor was
+doing no work on the figures it was supposed to protect.
+
+**Second, where it did bite, it biased the result.** The sub-12 rosters are
+overwhelmingly women's wrestling (50 of 73) and they are not failed scrapes:
+they return `scrape_status = success` and their rosters are all-freshman —
+Westminster (Missouri) 1 wrestler, Penn State Altoona 4 (4 freshmen), PennWest
+Edinboro 3 (3 freshmen). These are **real first-year programs in a rapidly
+expanding sport**, and excluding them pushed the wrestling median from 26 to 28.
+A size floor cannot distinguish a new program from a broken scrape, so it was
+removed rather than tuned.
+
+Two published figures changed as a result and were corrected the same day:
+women's volleyball opposites (the median sits on a boundary of a near-flat
+distribution and is now reported as a shape, not a number) and the
+`guide/late-bloomers.md` roster-size line, which also moved from
+gender-blended per-sport medians to per-gender medians — the gender gap within a
+sport (men's lacrosse 42 vs women's 26) turned out to be larger than the gap
+between several sports, so the blended figure was hiding the more useful fact.
+
 ### Open items to re-check before/at publish
 
 - **Every figure in this log is seasonal and expires at the 2026-27 rollover.**
@@ -144,13 +173,19 @@ had **published** that the dataset contradicts.
 - **The pipeline's roster-settled machinery is not populated.** The
   `completeness` and `coverage_state` columns on `roster_observations` are empty
   for every row, so the settled/not-settled status that the family-wide rule
-  depends on could not be used as the population filter. A 12-player floor was
-  substituted and documented above. When that machinery is populated, re-run
-  with the real settled filter and confirm the figures do not move.
+  depends on cannot be used as a population filter. This is a **pipeline** gap,
+  not a website one: populating those columns is the durable fix, and until it
+  lands every figure here rests on the full-population definition above. When it
+  is populated, re-run `compute.py` with the real settled filter and confirm the
+  figures do not move.
 - **Wrestling carries no position data at all** (weight-class sport — 100% of
   `position_normalized` is blank for wrestling). It contributes only to the
   sport-agnostic roster-size row in §D. Any future position-depth claim about
   wrestling has no data behind it today.
-- **D3 women's soccer international share is 2.1%**, low enough that a small
-  normalization error would move it proportionally more than the other cells.
-  Re-confirm before building any page that leads with that figure.
+- ~~**D3 women's soccer international share is 2.1%** — re-confirm.~~
+  **Resolved 2026-08-26.** Verified: 244 of 11,333 D3 women are flagged
+  international (2.15%), **all 244 carry a resolved country code** (zero
+  unresolved), hometown is missing on only 0.7% of the population, and the
+  country mix is plausible (Canada 51, Lebanon 19, England/GB 18, Sweden 17).
+  The internationals concentrate at a handful of programs (North Park 13,
+  Principia 6). The figure is real, not a normalization artifact.

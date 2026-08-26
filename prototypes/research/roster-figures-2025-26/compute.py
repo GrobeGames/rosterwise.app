@@ -16,7 +16,8 @@ from pathlib import Path
 
 DB = Path.home() / "Code/rosterwise/pipeline/data/rosterwise.db"
 SEASON = "2025-26"
-MIN_ROSTER = 12  # implausibly small => treated as an incomplete scrape, excluded
+MIN_ROSTER = 0  # no size floor: see "Method checks" — a floor changed only two
+                # figures and wrongly excluded real first-year womens wrestling rosters
 
 OUT_DIR = Path(__file__).parent
 rows_csv: list[dict[str, object]] = []
@@ -238,6 +239,19 @@ def main() -> None:
                     f"All divisions, {SEASON}", **d)
         table(["Position", "Programs", "Median", "IQR (p25-p75)", "Mean", "Range",
                "Page claims", "% of programs inside claimed range"], body)
+        back = [a + b for a, b in zip(position_counts(con, pids, "L"),
+                                      position_counts(con, pids, "DS"))]
+        db = describe(back)
+        log_row(f"{label} volleyball back-row (libero + DS) per roster",
+                f"All divisions, {SEASON}", **db)
+        has_l = sum(1 for v in position_counts(con, pids, "L") if v)
+        has_ds = sum(1 for v in position_counts(con, pids, "DS") if v)
+        W(f"Libero and defensive specialist are used interchangeably and are not "
+          f"separable: {has_l} of {len(pids)} programs label anyone a libero, "
+          f"{has_ds} label someone a defensive specialist. Counted as one back-row "
+          f'group: median **{db["median"]:g}**, IQR {db["p25"]:g}-{db["p75"]:g}, '
+          f'mean {db["mean"]}, range {db["min"]}-{db["max"]}.')
+        W("")
 
     # ---------------------------------------------------------------- C. lacrosse roster size
     W("## C. Lacrosse roster size")
@@ -284,15 +298,19 @@ def main() -> None:
     all_sr: list[int] = []
     all_srgr: list[int] = []
     for sport in ("soccer", "volleyball", "lacrosse", "wrestling"):
-        rs = program_rosters(con, sport)
-        vals = [r["roster"] for r in rs]
-        d = describe(vals)
-        body.append([sport, d["n"], d["median"], f'{d["p25"]:g}-{d["p75"]:g}',
-                     d["mean"], f'{d["min"]}-{d["max"]}'])
-        log_row(f"{sport} roster size", f"All divisions & genders, {SEASON}", **d)
-        all_rosters += vals
-        all_sr += [r["seniors"] for r in rs]
-        all_srgr += [r["seniors_gr"] for r in rs]
+        for gender, glabel in (("M", "men's"), ("W", "women's")):
+            rs = program_rosters(con, sport, gender)
+            vals = [r["roster"] for r in rs]
+            if not vals:
+                continue
+            d = describe(vals)
+            body.append([f"{sport} ({glabel})", d["n"], d["median"],
+                         f'{d["p25"]:g}-{d["p75"]:g}', d["mean"],
+                         f'{d["min"]}-{d["max"]}'])
+            log_row(f"{sport} roster size, {glabel}", f"All divisions, {SEASON}", **d)
+            all_rosters += vals
+            all_sr += [r["seniors"] for r in rs]
+            all_srgr += [r["seniors_gr"] for r in rs]
     d = describe(all_rosters)
     body.append(["**all four sports**", d["n"], d["median"],
                  f'{d["p25"]:g}-{d["p75"]:g}', d["mean"], f'{d["min"]}-{d["max"]}'])
