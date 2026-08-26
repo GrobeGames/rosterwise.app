@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Men's Volleyball ID Camps"
 description: "How men's volleyball ID camps work, when to attend, what to expect, and how to choose camps that actually move your recruiting forward."
-date: 2026-06-14
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -30,7 +30,7 @@ related:
     status: live
 sources:
   - "American Volleyball Coaches Association (AVCA) — College Prep Combine documentation"
-  - "NCAA Bylaw 13.12 — Institutional camps and clinics"
+  - "<strong>2026-27 NCAA Division I Manual, Bylaw 13.12.1.5.1</strong> (Recruiting Conversations at institutional camps and clinics) and Bylaws 13.1.3.1, 13.4.1, 13.1.1.1, 13.6.2.1.1, 13.7.1.1 (contact and visit dates) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - "USA Volleyball — College recruitment guidance"
 cta:
   heading: "RosterWise Volleyball — now available for men's and women's programs"
@@ -39,6 +39,24 @@ cta:
 ---
 
 ${toc}
+
+## The one NCAA rule that governs what happens at a camp
+
+Attending a college's ID camp is not the same as being recruited at it, and the difference is legislated.
+
+Under **NCAA Division I Bylaw 13.12.1.5.1**:
+
+> "In sports other than baseball, basketball, football, men's ice hockey, lacrosse, softball and men's wrestling, recruiting conversations during an institutional camp or clinic (including a camp or clinic that involves only individuals who are not yet prospective student-athletes) are not permitted between an institution's coach and a participating individual before **August 1 at the beginning of the individual's junior year in high school**."
+
+Volleyball is not one of the seven excepted sports, so this is the rule that applies. It matters because **it is a later date than the June 15 communication date**, and the two are easy to conflate:
+
+| | Date | What it unlocks |
+|---|---|---|
+| **June 15** at the end of sophomore year | Bylaws 13.1.3.1, 13.4.1 | Calls, texts, emails, recruiting materials |
+| **August 1** at the start of junior year | Bylaws 13.1.1.1, 13.6.2.1.1, 13.7.1.1, **13.12.1.5.1** | Off-campus contact, official visits, athletics-involved unofficial visits, **and recruiting conversations at a camp** |
+
+So a camp attended in the summer after sophomore year sits in the window where a coach can call your son that evening but cannot have a recruiting conversation with him on the field that afternoon. Coaches can still watch, evaluate, coach, and form an opinion — that is the point of going. Anything beyond that should be confirmed with the host program's compliance office.
+
 
 ID camps are evaluation events run by college programs — and sometimes by independent organizations — designed to give recruits direct exposure to college coaches. For men's college volleyball, ID camps fill an important role in recruiting because the sport is small enough that programs cannot scout every recruit through tournament play alone. This guide walks through how ID camps work, how to choose which ones to attend, and what to do to make them productive.
 
@@ -94,7 +112,7 @@ There is no universal right answer to "when should I start attending ID camps?" 
 A general framework:
 
 - **Freshman year:** Generally too early. The cost-benefit doesn't yet justify ID camp investments for most recruits. Focus on skill development, club participation, and physical training. If you do attend an ID camp this year, choose a skills-instruction event rather than an evaluation-focused one.
-- **Sophomore year:** ID camps become meaningful, though most recruiting communication still cannot begin until June 15 after sophomore year. Sophomore-year ID camps build relationships, provide measurable data, and give you experience with the format. Don't expect immediate scholarship conversations.
+- **Sophomore year:** ID camps become meaningful, though communication cannot begin until June 15 after sophomore year and recruiting conversations at the camp itself cannot begin until August 1 of junior year. Sophomore-year ID camps build relationships, provide measurable data, and give you experience with the format. Don't expect immediate scholarship conversations.
 - **Junior year:** This is typically the highest-yield year for ID camps. Coaches have access to communication with you, you have a more developed physical profile and game, and decisions on recruiting class composition are actively being made.
 - **Senior year:** Still useful, particularly if you're still being evaluated by programs or if you're now targeting D2, D3, NAIA, or NJCAA programs where senior-year recruiting is more active.
 

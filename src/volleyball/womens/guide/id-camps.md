@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Women's College Volleyball ID Camps | RosterWise™"
 description: "What women's college volleyball ID camps are, when they're worth attending, what they cost, and the questions families should ask before signing up."
-date: 2026-05-02
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -24,7 +24,7 @@ related:
     url: /volleyball/womens/guide/what-coaches-look-for/
     status: live
 sources:
-  - "NCAA.org — Recruiting rules regarding camps and clinics"
+  - "<strong>2026-27 NCAA Division I Manual, Bylaw 13.12.1.5.1</strong> (Recruiting Conversations at institutional camps and clinics) and Bylaws 13.1.3.1, 13.4.1, 13.1.1.1, 13.6.2.1.1, 13.7.1.1 (contact and visit dates) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - "NCAA Division I, II, III camp and clinic bylaws"
 cta:
   heading: "Know which programs fit before you camp."
@@ -33,6 +33,24 @@ cta:
 ---
 
 ${toc}
+
+## The one NCAA rule that governs what happens at a camp
+
+Attending a college's ID camp is not the same as being recruited at it, and the difference is legislated.
+
+Under **NCAA Division I Bylaw 13.12.1.5.1**:
+
+> "In sports other than baseball, basketball, football, men's ice hockey, lacrosse, softball and men's wrestling, recruiting conversations during an institutional camp or clinic (including a camp or clinic that involves only individuals who are not yet prospective student-athletes) are not permitted between an institution's coach and a participating individual before **August 1 at the beginning of the individual's junior year in high school**."
+
+Volleyball is not one of the seven excepted sports, so this is the rule that applies. It matters because **it is a later date than the June 15 communication date**, and the two are easy to conflate:
+
+| | Date | What it unlocks |
+|---|---|---|
+| **June 15** at the end of sophomore year | Bylaws 13.1.3.1, 13.4.1 | Calls, texts, emails, recruiting materials |
+| **August 1** at the start of junior year | Bylaws 13.1.1.1, 13.6.2.1.1, 13.7.1.1, **13.12.1.5.1** | Off-campus contact, official visits, athletics-involved unofficial visits, **and recruiting conversations at a camp** |
+
+So a camp attended in the summer after sophomore year sits in the window where a coach can call your daughter that evening but cannot have a recruiting conversation with her on the field that afternoon. Coaches can still watch, evaluate, coach, and form an opinion — that is the point of going. Anything beyond that should be confirmed with the host program's compliance office.
+
 
 ## What an ID camp is
 
@@ -72,7 +90,7 @@ This cost is worth considering in the context of what the camp actually provides
 
 Most women's college volleyball ID camps run during the summer — June through August — with some programs offering camps during winter or spring breaks. The timing coincides with the recruiting evaluation periods when coaches can observe and interact with prospective student-athletes.
 
-**For D1 recruiting:** Camps held after June 15 of sophomore year are particularly relevant, because D1 coaches can initiate recruiting communication after that date. A strong camp performance followed immediately by a recruiting conversation is one of the best outcomes a family can hope for.
+**For D1 recruiting:** June 15 after sophomore year opens calls, texts and email — but recruiting conversations *at an institutional camp* are barred until August 1 of junior year (Bylaw 13.12.1.5.1). Camps held from August 1 of junior year onward are the ones where a coach can talk recruiting with your daughter on site. A strong camp performance followed immediately by a recruiting conversation is one of the best outcomes a family can hope for.
 
 **For D2, D3, and NAIA recruiting:** These divisions have more flexible communication rules, and camps can generate recruiting conversations at any time.
 

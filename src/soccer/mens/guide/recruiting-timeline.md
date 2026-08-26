@@ -29,7 +29,7 @@ related:
 sources:
   - "NCAA Division I Other Sports Recruiting Calendar, 2026-27 — official NCAA document"
   - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 13.1.3.1 (telephone calls, June 15 general rule), Bylaw 13.4.1 (recruiting materials), Bylaw 13.1.1.1 (off-campus contact, August 1 general rule), Bylaw 13.6.2.1.1 (official visits) and Bylaw 13.7.1.1 (unofficial visits) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
-  - "<strong>Division II Coaches Off-Campus Recruiting Guide 2026-27</strong> — official NCAA document at ncaaorg.s3.amazonaws.com"
+  - "<strong>2026-27 NCAA Division II Manual</strong> — Bylaw 13.1.3.1 (communication at any time), Bylaw 13.1.1.1 (in-person contact, June 15 preceding junior year), Bylaw 13.3.1.2 (official visits) and Bylaw 13.8.2.1 (tryouts) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - "NCAA.org, \"DI Board of Directors formally adopts changes to roster limits,\" June 23, 2025"
   - "NCAA.org, Question and Answer: Implementation of the House Settlement (June 13, 2025)"
   - "NCAA Eligibility Center: eligibilitycenter.org"
@@ -152,7 +152,8 @@ Use this as a general guide. Individual recruiting experiences vary significantl
 
 ### D2 men's soccer
 
-- D2 coaches may send athletically related recruiting materials at any time, including to freshmen and sophomores. But D2 does have a June 15 gate: per the NCAA's Division II Coaches Off-Campus Recruiting Guide, in-person off-campus contact and official visits are keyed to "after June 15, immediately preceding a prospective student-athlete's junior year"
+- D2 removed its timing restrictions on staff communication entirely, effective August 1, 2024: Division II Bylaw 13.1.3.1 now reads "Communication with a prospective student-athlete or their relative or legal guardian(s) shall be made at any time." Calls, texts, email and mail are open at any age.
+- But D2 does have a June 15 gate, and it is on the in-person side: **in-person contact** (Bylaw 13.1.1.1), **official visits** (13.3.1.2) and **tryouts** (13.8.2.1) are all keyed to "June 15 immediately preceding the prospective student-athlete's junior year in high school." Boosters may not communicate before that date either (13.1.3.1.1)
 - D2 commitment timing is generally a bit later than D1
 - The House settlement primarily affects D1; D2 programs operate under traditional NCAA rules unless their institution opts in for D1 sports
 

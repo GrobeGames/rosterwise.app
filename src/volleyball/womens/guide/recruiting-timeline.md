@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Women's College Volleyball Recruiting Timeline: When Commitments Actually Happen | RosterWise™"
 description: "A clear, accurate timeline of women's college volleyball recruiting — NCAA contact rules, why it moves early, grade-by-grade guidance, the House settlement impact, and honest expectations for families."
-date: 2026-05-02
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -150,7 +150,8 @@ Use this as a general guide. Individual recruiting experiences vary significantl
 
 ### D2 women's volleyball
 
-- D2 coaches can contact prospective student-athletes at any time through phone, text, email, or mail — no June 15 restriction
+- D2 removed its timing restrictions on staff communication entirely, effective August 1, 2024: Division II Bylaw 13.1.3.1 now reads "Communication with a prospective student-athlete or their relative or legal guardian(s) shall be made at any time." Calls, texts, email and mail are open at any age.
+- But D2 does have a June 15 gate, and it is on the in-person side: **in-person contact** (Bylaw 13.1.1.1), **official visits** (13.3.1.2) and **tryouts** (13.8.2.1) are all keyed to "June 15 immediately preceding the prospective student-athlete's junior year in high school." Boosters may not communicate before that date either (13.1.3.1.1)
 - D2 commitment timing is generally later than D1 women's volleyball
 - D2 operates under its own NCAA bylaws; the House settlement primarily affects D1
 - D2 women's volleyball has 8 equivalency scholarships — partial awards are the norm

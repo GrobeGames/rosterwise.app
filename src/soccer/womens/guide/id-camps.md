@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Women's College Soccer ID Camps: Timing and Strategy | RosterWise™"
 description: "What women's college soccer ID camps are, when they're worth attending, what they cost, and the questions families should ask before signing up."
-date: 2026-04-26
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -24,7 +24,7 @@ related:
     url: /soccer/mens/guide/id-camps/
     status: live
 sources:
-  - "NCAA.org, camps and clinics legislation (Bylaw 13.12)"
+  - "<strong>2026-27 NCAA Division I Manual, Bylaw 13.12.1.5.1</strong> (Recruiting Conversations at institutional camps and clinics) and Bylaws 13.1.3.1, 13.4.1, 13.1.1.1, 13.6.2.1.1, 13.7.1.1 (contact and visit dates) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - "NCAA.org, recruiting rules and calendar"
 cta:
   heading: "Know the roster before you visit the campus."
@@ -33,6 +33,24 @@ cta:
 ---
 
 ${toc}
+
+## The one NCAA rule that governs what happens at a camp
+
+Attending a college's ID camp is not the same as being recruited at it, and the difference is legislated.
+
+Under **NCAA Division I Bylaw 13.12.1.5.1**:
+
+> "In sports other than baseball, basketball, football, men's ice hockey, lacrosse, softball and men's wrestling, recruiting conversations during an institutional camp or clinic (including a camp or clinic that involves only individuals who are not yet prospective student-athletes) are not permitted between an institution's coach and a participating individual before **August 1 at the beginning of the individual's junior year in high school**."
+
+Soccer is not one of the seven excepted sports, so this is the rule that applies. It matters because **it is a later date than the June 15 communication date**, and the two are easy to conflate:
+
+| | Date | What it unlocks |
+|---|---|---|
+| **June 15** at the end of sophomore year | Bylaws 13.1.3.1, 13.4.1 | Calls, texts, emails, recruiting materials |
+| **August 1** at the start of junior year | Bylaws 13.1.1.1, 13.6.2.1.1, 13.7.1.1, **13.12.1.5.1** | Off-campus contact, official visits, athletics-involved unofficial visits, **and recruiting conversations at a camp** |
+
+So a camp attended in the summer after sophomore year sits in the window where a coach can call your daughter that evening but cannot have a recruiting conversation with her on the field that afternoon. Coaches can still watch, evaluate, coach, and form an opinion — that is the point of going. Anything beyond that should be confirmed with the host program's compliance office.
+
 
 ## What ID camps are
 
@@ -52,7 +70,7 @@ Most D1 and D2 women's soccer programs run at least one ID camp per year, often 
 
 Because women's soccer recruiting tends to move earlier than men's, the timing of ID camp attendance matters:
 
-- **Sophomore summer** is when many women's recruits begin attending ID camps at serious target schools. This aligns with the June 15 contact date — coaches who see you at camp can now have full recruiting conversations.
+- **Sophomore summer** is when many women's recruits begin attending ID camps at serious target schools. Note the two-date split below: June 15 opens calls and email, but a coach cannot have a recruiting conversation *at the camp itself* until August 1 of junior year.
 - **Junior summer** is peak ID camp season for women's recruiting. Many programs are actively filling their next recruiting class during this window.
 - **Early in high school** (freshman year or before), ID camps are primarily developmental. Attending a camp at 14 is fine as a soccer experience but rarely productive for recruiting purposes.
 - **Senior year** ID camps can still be valuable, particularly at D2, D3, and NAIA programs that recruit on a later timeline.

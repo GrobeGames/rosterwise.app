@@ -39,11 +39,10 @@ faq:
   - q: "What if my daughter doesn't have a verbal commitment by spring of junior year?"
     a: "This is more common than families often realize, and it's not a problem. Many strong recruits commit between summer of junior year and senior year. Many strong recruits at D2, D3, NAIA, and NJCAA programs commit during senior year or even later. The timeline pressure to commit early is often more about competing for limited roster spots at the most elite D1 programs than about the broader recruiting reality."
 sources:
+  - "<strong>2026-27 NCAA Division I Manual, Bylaw 13.1.1.1.7</strong> — revision history recording the 4/26/17 (effective 8/1/17) and 4/25/18 revisions, and the 6/29/26 (effective 8/1/26) split into separate men's and women's provisions — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - '<a href="https://ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D1Rec_WLARecruitingCalendar.pdf">2026-27 NCAA Division I Women''s Lacrosse Recruiting Calendar</a> — Official NCAA document'
   - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 13.1.1.1.7 (off-campus contact, women's lacrosse), Bylaw 13.1.3.1.2 (telephone calls), Bylaw 13.4.1.2 (recruiting materials), Bylaw 13.6.2.1.2 (official visits) and Bylaw 13.7.1.2 (unofficial visits) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - '<a href="https://eligibilitycenter.org">NCAA Eligibility Center</a> — Academic eligibility and registration requirements'
-  - "USA Lacrosse magazine — Coverage of NCAA Division I Council's exemption of lacrosse from Proposal 2018-93-2's general June 15 contact rule"
-  - "NCAA April 2017 Early Recruiting Legislation — Public NCAA documentation on the April 2017 vote establishing September 1 of junior year as the initial contact date for men's and women's lacrosse"
   - "Intercollegiate Women's Lacrosse Coaches Association (IWLCA) — Joint proposer with IMLCA of the 2017 recruiting rule change"
 cta:
   heading: "Find programs where your daughter genuinely fits."
@@ -95,7 +94,11 @@ The practical shape: the fall is the heavy in-person recruiting season, with con
 
 Per USA Lacrosse magazine and reporting on the April 2017 NCAA legislation, women's lacrosse historically had a serious early-recruiting problem. Through the early 2010s, verbal commitments were occurring as early as 7th and 8th grade. Athletes were being asked to commit to colleges before they had even started high school. Families described the pressure as overwhelming.
 
-In April 2017, the NCAA approved landmark legislation that pushed the initial recruiting contact date to September 1 of junior year for men's and women's lacrosse. The Intercollegiate Women's Lacrosse Coaches Association (IWLCA) and the Intercollegiate Men's Lacrosse Coaches Association (IMLCA) had jointly proposed the change. When the broader NCAA reform moved most sports to June 15 after sophomore year in 2018, lacrosse was specifically exempted through ACC Proposal 2018-93-2 (per USA Lacrosse magazine coverage) to preserve the progress against early recruiting.
+In April 2017, the NCAA approved landmark legislation that pushed the initial recruiting contact date to September 1 of junior year for men's and women's lacrosse. The Intercollegiate Women's Lacrosse Coaches Association (IWLCA) and the Intercollegiate Men's Lacrosse Coaches Association (IMLCA) had jointly proposed the change. When the broader NCAA reform moved most sports to June 15 after sophomore year in 2018, lacrosse was not moved with them and kept September 1, to preserve the progress against early recruiting.
+
+The Manual's own revision history corroborates the timeline. The women's lacrosse contact bylaw (13.1.1.1.7) records "Adopted: 1/19/13 effective 8/1/13, Revised: 10/30/14, 4/14/17, **4/26/17 effective 8/1/17**, **4/25/18**, 5/1/19, 6/29/26 effective 8/1/26" — an April 2017 revision taking effect that August, and a further April 2018 revision, exactly where the reported legislation sits. Until August 1, 2026 the provision was a single gender-neutral "Exception — Lacrosse" covering both genders at September 1 of junior year; the 2026 legislation split it in two.
+
+We cannot verify the proposal numbers or which body sponsored the 2018 action: the NCAA's Legislative Services Database puts its proposal records behind a login, so the identifiers that circulate in secondary coverage are not checkable against a public primary. We therefore describe what the bylaw history shows and leave the proposal numbering out.
 
 The result: women's lacrosse today has one of the latest initial contact dates of any NCAA D1 sport. This protects athletes from being asked to commit before they're ready — but it also changes the rhythm of the recruiting process compared to other sports.
 
