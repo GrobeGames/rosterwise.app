@@ -48,6 +48,46 @@ service is cited nineteen times.
 
 ---
 
+## VERIFICATION AND REMEDIATION STATUS — updated 2026-08-26
+
+**This log has been through five independent blind verification passes and a
+remediation branch.** Each verifier worked without access to this log, to the site
+copy, or to any conclusion reached here; each was given a neutral research brief and,
+only at the end, asked to adjudicate paired statements presented without labels so it
+could not tell which was the published claim and which the proposed correction.
+
+Every correction this log proposed was upheld. The verifiers also overturned several
+things this log had asserted or left pending, and those are recorded in the sections
+below rather than quietly amended. Where a verifier contradicted this log, the
+verifier won.
+
+**Corrections landed on branch `fix/audit-h1-content-corrections`.** Rows below that
+describe a published error now describe an error that HAS BEEN FIXED — the row is
+kept as the audit trail, per §9's requirement not to quietly rewrite history.
+
+
+
+### What the verifiers changed in this log
+
+| Item | This log said | Verifier finding | Action |
+| --- | --- | --- | --- |
+| **The fabricated bylaw quote** | Flagged as the worst finding in the audit | **Confirmed, in stronger terms.** The verifier called Statement 1 "a fabricated quotation" — 13.12.1.5.1's own title excludes lacrosse and its operative sentence repeats the exclusion. | Both camp pages rewritten with 13.12.1.5.2 and 13.12.1.5.3 quoted in full |
+| **Women's lacrosse official visits** | Flagged as January 1 vs September 1 | **Confirmed, with the origin.** January 1 of junior year is both the **women's basketball** date (13.6.2.1.6) and the **Division III** date (13.6.1.1.1) — a cross-sport and cross-division contamination. Lacrosse has never used it. | Three pages corrected |
+| **The 2026 divergence** | Logged as adopted 6/29/26 | **Confirmed, plus the reason.** Men's and women's lacrosse were **identical until 1 August 2026** — a single gender-neutral "Exception — Lacrosse" at September 1. The **NCAA D1 Men's Lacrosse Oversight Committee's March 2026 report** introduced the split and gives the rationale in the NCAA's own words. | Report added as a source and a section on two pages |
+| **The 2017/2018 history** | Carried "Proposal 2018-93-2, submitted by the ACC" from USA Lacrosse magazine | **Not verifiable** — LSDBi puts proposal records behind a login. But Bylaw 13.1.1.1.7's revision history ("4/26/17 effective 8/1/17, 4/25/18") corroborates the timeline from the Manual itself. | Proposal numbering removed from three pages; bylaw history cited instead |
+| **184 Canadians in NCAA D1** | Logged as pending, sourced to a lacrosse media site | **Traced to its origin and refuted as a fact.** A single named blog whose author says "nobody was tracking the information" and who built it by hand; **the same article gives 181 two paragraphs later**. No governing body publishes any such count — the NCAA's demographics database has no nationality dimension, and its international-athlete research covers first-year non-transfers only and does not publish country-by-sport for lacrosse. | **Cut.** Replaced with the NCAA's own figures: D1 men's lacrosse first-year international athletes **41 (2017) → 45 (2022)**, ~7% of first-year players |
+| **F-1 visas and NIL** | Logged as pending, sourced to law firms and Sportico | **The published claim misattributed a prohibition to regulation.** F-1 employment rules contain **zero** occurrences of "likeness," "name, image" or "athlete." They bar unauthorized employment; whether NIL is employment has never been decided. The **NCAA** does state a flat prohibition in its International Student-Athlete Handbook — that is the NCAA's reading, not a quotation of federal policy. The NCAA's House guidance mentions visas/immigration/F-1 **zero times**, so there is no published position on revenue sharing at all. | Both pages rewritten to separate NCAA position from government silence |
+| **The "September 2025 P-1A ruling"** | Carried as supporting the visa analysis | **A denial of a motion to dismiss.** Procedural only; decided nothing about whether college athletes qualify for P-1A; still pending as of this writing. | Described accurately |
+| **Canada's national sport** | Logged as pending — "specifically box lacrosse, per federal legislation" | **Wrong twice.** The National Sports of Canada Act (two sections, quoted in full) names lacrosse the national **SUMMER** sport, and says only "the game commonly known as lacrosse" — no box specificity anywhere. | Corrected, with the Justice Laws Website cited |
+| **World Lacrosse "90 federations, doubled from 45"** | Logged as pending | **Genuine WL wording from October 2023, now stale.** Current: **97 member nations across four continental federations** (member map dated April 2026); 45 at end-2008. WL says "all five continental **regions**" — a governance term, not a continent count. | Both pages updated |
+| **IMLCA / IWLCA platform figures** | Flagged the duplicate "35,000+" as worth checking | **Proven template copy.** The men's platform page literally names the **IWLCA** in that sentence. Both sites are built on a shared vendor template and the block was cloned. | **Cut** from both pages; IWLCA's own dated figure (nearly 11,000, April 2026) used instead |
+| **"750+ coaches" / "1,200+ coaches"** | Logged as pending | **Asymmetric.** 1,200+ is corroborated on the IWLCA's own association site; 750+ appears only on the platform's marketing pages — the IMLCA association site publishes no membership figure. | Both labelled accordingly |
+| **2025 D1 championship** | Logged as pending | **Verified**: Cornell (18-1) beat Maryland 13-10 at Gillette Stadium on 26 May 2025, Cornell's first title since 1977 and fourth overall. **MOP is sourced to Cornell Athletics, not the NCAA** — NCAA.com has no MOP field and the NCAA record books 404. | Published with that attribution |
+| **LA28** | Carried Olympics.com as a source | **Sixes format, IOC Session approval 16 October 2023 — sourced to World Lacrosse, not the IOC.** The verifier could not reach olympics.com; the IOC session number is therefore **not** published. | Olympics.com removed; WL cited |
+| **2022 Women's Championship / Australia titles / Israel 2014** | Logged as pending | **Verified:** USA, Canada, England, Australia. Australia gold 1986 and 2005. Israel 7th in 2014 — though WL's own final-standings table renders broken, so only the Day 9 narrative supports it. | Retained with that caveat |
+
+---
+
 ## A. Division I initial contact dates — the lacrosse exception
 
 **All of the following are now verifiable in one place**, which the pages do not

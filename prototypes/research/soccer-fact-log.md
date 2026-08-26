@@ -41,6 +41,49 @@ them.
 
 ---
 
+## VERIFICATION AND REMEDIATION STATUS — updated 2026-08-26
+
+**This log has been through five independent blind verification passes and a
+remediation branch.** Each verifier worked without access to this log, to the site
+copy, or to any conclusion reached here; each was given a neutral research brief and,
+only at the end, asked to adjudicate paired statements presented without labels so it
+could not tell which was the published claim and which the proposed correction.
+
+Every correction this log proposed was upheld. The verifiers also overturned several
+things this log had asserted or left pending, and those are recorded in the sections
+below rather than quietly amended. Where a verifier contradicted this log, the
+verifier won.
+
+**Corrections landed on branch `fix/audit-h1-content-corrections`.** Rows below that
+describe a published error now describe an error that HAS BEEN FIXED — the row is
+kept as the audit trail, per §9's requirement not to quietly rewrite history.
+
+
+
+### What the verifiers changed in this log
+
+| Item | This log said | Verifier finding | Action |
+| --- | --- | --- | --- |
+| **Head-count sports** | "each scholarship must be a full scholarship" | **No bylaw ever required a full award.** The cap counts *athletes*, not dollars — Bylaw 15.02.3 makes any athlete receiving countable aid a "counter," so a partial award still consumed a slot. That is why awards were full in practice; it was never a rule. | Log and copy both rewritten (§B) |
+| **The head-count list** | "football, men's and women's basketball, women's gymnastics, women's tennis, women's volleyball" | **Six sports, and FCS football is NOT one** — FCS was equivalency at 63 alongside an 85-counter limit (Bylaw 15.5.6.2). FBS football 85, men's basketball 13, women's basketball 15. | Corrected to FBS football (§B) |
+| **Non-opt-in schools** | Open item: establish what governs a non-participating institution's aid | **Answered by the NCAA.** House Q&A **B2**: "the Division I Manual no longer includes institutional financial aid limits for any sport." **B4**: such a school "may provide up to the value of institutional financial aid limit provided by the 2024-25 legislation (as measured in equivalencies) in head count sports without triggering opting in." **A11**: removal is division-wide. **A16**: roster size is a conference or institutional matter. | Open item closed; six pages rewritten |
+| **June 15 / August 1 contact dates** | Highest-priority open item — primary not reached | **Found.** Bylaws 13.1.3.1 (telephone, June 15 at the conclusion of sophomore year), 13.4.1 (materials), 13.1.1.1 (off-campus contact, August 1 of junior year), 13.6.2.1.1 (official visits). Soccer is an exception to none. | Open item closed (§I) |
+| **Unofficial visits** | Not identified as an error | **Two errors.** "At any time" is false for a visit with athletics-department involvement (Bylaw 13.7.1.1: August 1 of junior year), and the July signed-offer/deposit condition is **men's basketball only** (13.7.2.1; women's basketball narrower at 13.7.2.2). | New finding; both timeline pages corrected |
+| **ID-camp conversations** | Not identified at all | **New error.** Bylaw 13.12.1.5.1 IS the soccer rule and bars recruiting conversations at an institutional camp before **August 1 of junior year** — later than June 15. `soccer/womens/guide/id-camps` said the opposite. | New finding; both camp pages now quote the bylaw |
+| **D2 contact** | "imprecise" | **More precise than we had it.** D2 removed timing restrictions on staff communication entirely effective 8/1/24 (Bylaw 13.1.3.1). The June 15 gate is on in-person contact (13.1.1.1), official visits (13.3.1.2), tryouts (13.8.2.1) and boosters (13.1.3.1.1). | Rewritten to the D2 Manual |
+| **"More than 1,600 college soccer programs"** | Logged as pending/unsourced | **Understated to the point of misleading.** The NCAA alone sponsors **1,856** (actual 2024-25: 827 men's + 1,029 women's). RosterWise's 2,235 reconciles — the ~379 difference is a plausible NAIA/NJCAA remainder. | Corrected on `soccer/index` |
+| **"Largest women's college sport"** | Logged as "unsourceable as written" | **Refuted, not merely unsupported.** Women's soccer is **fourth**: basketball 1,082, volleyball 1,055, cross country 1,048, soccer 1,029. Holds in both NCAA sets. | Corrected on `soccer/insights/womens-roster-size` |
+| **Girls Academy founding** | Logged as an unresolved contradiction between two pages | **The 2017 version is affirmatively false.** It conflates U.S. Soccer's Girls' Development Academy (2017, shut down 15 April 2020) with Girls Academy, a separate independent league that began play in 2020. GA publishes no founding year. | Both women's pages now separate the two |
+| **ECNL founding history** | Logged as pending — "no history page found on theecnl.com" | **It exists.** A dated timeline at `theecnl.com/sports/2023/8/28/History.aspx?path=general`: ECNL formed **August 2009 with 40 founding clubs**; **ECNL Boys 2017 with 57 inaugural clubs**. | Now cited on both club-pathways pages |
+| **ODP 1977 / regions / age groups** | Logged as pending | **Found.** US Youth Soccer's 2019-20 annual report, p.16, quoted directly. Four regions East/Midwest/South/West (Region I-IV naming superseded). Age groups are **not** fixed nationally — USYS says they "may vary from state to state." | `soccer/guide/odp` corrected and sourced |
+| **USDA size** | Carried "over 160 clubs / ~20,000 players by 2019" | **Not a U.S. Soccer figure.** U.S. Soccer published 197 clubs / 900 teams for 2017-18 and 178 boys' + 73 girls' clubs for 2018-19, and no total for the final season. | Replaced |
+| **GA's February 2024 status** | Carried "approved as a U.S. Soccer National Affiliate" | **Neither party used that term.** GA says "an Official Member Organization of the U.S. Soccer Federation." | Corrected |
+| **`ecnlsoccer.com`** | "resolves but 301s to lilysoccer.com" | **Confirmed, with the cause:** the domain lapsed and was **re-registered by a new owner in August 2024**. Not a legacy redirect. | Replaced with `theecnl.com` |
+| **A better primary for pre-House limits** | Relied on the April 2025 Board document's struck text | **The 2021-22 D1 Manual is still posted** with Bylaw 15.5 in force, matching it number-for-number. The 2024-25 Manual 404s, so the struck text remains the only source for the final pre-House wording. | Sourcing note added (§B) |
+| **LSDBi** | Not known to this log | **The complete current Manuals download as PDFs** from `getReport/90008` (D1), `/90010` (D2), `/90011` (D3). The single most useful discovery of the exercise. | Header updated |
+
+---
+
 ## A. NCAA Division I roster limits under the House settlement
 
 | Claim | Primary source | Verified | Articles |

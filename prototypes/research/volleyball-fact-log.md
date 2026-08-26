@@ -46,6 +46,48 @@ is an unnamed synthesis.
 
 ---
 
+## VERIFICATION AND REMEDIATION STATUS — updated 2026-08-26
+
+**This log has been through five independent blind verification passes and a
+remediation branch.** Each verifier worked without access to this log, to the site
+copy, or to any conclusion reached here; each was given a neutral research brief and,
+only at the end, asked to adjudicate paired statements presented without labels so it
+could not tell which was the published claim and which the proposed correction.
+
+Every correction this log proposed was upheld. The verifiers also overturned several
+things this log had asserted or left pending, and those are recorded in the sections
+below rather than quietly amended. Where a verifier contradicted this log, the
+verifier won.
+
+**Corrections landed on branch `fix/audit-h1-content-corrections`.** Rows below that
+describe a published error now describe an error that HAS BEEN FIXED — the row is
+kept as the audit trail, per §9's requirement not to quietly rewrite history.
+
+
+
+### What the verifiers changed in this log
+
+| Item | This log said | Verifier finding | Action |
+| --- | --- | --- | --- |
+| **Women's volleyball head-count = 12** | Correct | **Confirmed independently**, and the alternative (both volleyball sports equivalency) rejected. The volleyball copy on this point was right and stands. | No change |
+| **"Each scholarship was a full scholarship"** | Repeated the shorthand | **No bylaw required it.** The cap counts athletes, not dollars (Bylaw 15.02.3) — a partial award still consumed a slot, which is why awards were full in practice. | Copy rewritten |
+| **Non-opt-in schools** | "12 head count scholarships remain in effect" | **Wrong.** Aid limits were removed division-wide; the old 12 survives as a **value threshold measured in equivalencies**, so a non-opt-in program can now spread the same money across more players (House Q&A B2, B4, A11, A16). | Four pages rewritten |
+| **D2 men's volleyball = "roughly 33"** | Flagged as wrong; proposed 43 | **43 is the projection, not the whole story.** The NCAA publishes **three** figures: 44 (actual 2024-25), 43 (projected 2025-26), 36 (active D2 members 2025-26, per an NCAA release of 6 August 2026 — the research report includes provisional members). Reconciling them is inference. | Page gives actual and projected side by side with the basis named |
+| **"The NCAA alone exceeds 200 men's programs"** | Proposed as the correction | **Holds on the projection (206), not on the actual (198).** The conclusion — that "roughly 200 across all five bodies" is too low — survives, because NJCAA (22) and NAIA (~46, a floor) push the total to ~265-275. | Conclusion published; premise dropped |
+| **NFHS "No. 11 most-played boys' sport"** | Logged as verified from the NFHS | **Two Tier 1 statements conflict.** The NFHS says No. 11, but its own participation table puts boys' lacrosse ahead (113,696 vs 95,972), and the NFHS's published boys' top-ten excludes volleyball. | **Cut** under the tier-conflict rule rather than adjudicated |
+| **NFHS "25 state associations"** | Logged as verified | Appears only in a Voice column with no supporting survey data, and 25 is also the 2021-22 states-reporting figure — possibly stale. | Quoted and attributed, not asserted |
+| **The "2021-22" label on 66,487** | Logged as a RosterWise inference | **Confirmed as ours.** The NFHS frames it only as "the past three years." | Label removed |
+| **NFHS growth** | Presented as a clean 44% jump | **Partly a coverage artifact** — states reporting rose from 25 to 32 over the same period, and the NFHS does not separate real growth from wider coverage. | Caveat added that the NFHS itself does not give |
+| **NAIA men's volleyball "first held 2019"** | Flagged via the NAIA handbook's 1969-80 line | **Both halves are true and neither is complete.** NAIA ran a championship **1969-80**, an **emerging sport 1999-2015**, an **invitational 2016-18**, and the current championship from **2019**. Programs holding 2000s NAIA titles earned them. | Full lineage on three pages |
+| **NAIA limits "vary by institution and conference"** | Flagged as wrong | **Confirmed wrong.** One fixed cap per sport, not gender-split: volleyball **8**. Narrow exceptions exist (a school may petition the Council of Presidents; sanctions lower a violator's cap) but do not make limits vary. | Corrected |
+| **NJCAA "less standardized than NCAA divisions"** | Flagged as wrong | **Confirmed wrong, and understated.** The NJCAA publishes a fixed three-division structure **and** per-sport caps on Letter of Intent signees and scholarships (Bylaws Art. VI §3.A.1) — **identical across all three divisions**, counted separately by gender. Men's volleyball **14**. | Corrected |
+| **NJCAA membership** | Logged as unfindable; three site figures in conflict | **514 member colleges across 44 states** (2024-25 Annual Report), 3,761 teams. | All three sport pages corrected |
+| **Volleyball position bands** | Blast-radius miss on four pages | Confirmed. Computed figures applied; men's medians were never computed, so those bands are **cut** rather than corrected. | Four pages fixed; men's page says what is unmeasured |
+| **Yahoo Sports supporting a roster limit** | Flagged as a Tier violation | Confirmed. Bylaw 17.2 carries the 18. | Replaced |
+| **D2 championship threshold** | "50 to 35" | **Confirmed and enriched:** 35 for both genders since 1 Aug 2024, previously **50 men's / 40 women's**, with the Olympic-sport and lacrosse exemptions eliminated, a three-year grace period, **no grandfathering**, and sponsorship measured each **30 September**. D2 men's volleyball clears it on every current figure. | "Approaching the threshold" framing removed |
+
+---
+
 ## A. NCAA Division I roster limits and pre-settlement scholarship structure
 
 | Claim | Primary source | Verified | Articles |
