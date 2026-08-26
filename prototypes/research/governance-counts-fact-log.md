@@ -73,6 +73,26 @@ Primary source for this entire section:
 **"2025-26 NCAA Projected Sport Sponsorship: As of September 2025"**
 (`https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/`).
 
+> **CORRECTION, 2026-08-26.** An earlier version of this section said the projected
+> sponsorship figures were corroborated in the NCAA research PDF
+> `2025-26RES_NCAAMembershipBreakdown.pdf`. **They are not.** That document is
+> membership-only — all five pages were re-parsed and it contains no sport-sponsorship
+> table and no lacrosse or soccer row. The §A *membership* figures (D1 361 / D2 292 /
+> D3 422) genuinely are in it and check out; the *sponsorship* figures in this section
+> have only two NCAA sources: the membership-composition web page above and the
+> by-school spreadsheet at
+> `https://ncaaorg.s3.amazonaws.com/research/sportpart/RES_ProjectedSportsSponsorshipbySchool.xlsx`.
+> Found by an independent blind verification pass.
+>
+> **Also new:** the NCAA publishes a second, different set — *actual* figures in the
+> **Sports Sponsorship and Participation Rates Report (1956-57 through 2024-25)**,
+> updated 2025-09-04, at
+> `https://ncaaorg.s3.amazonaws.com/research/sportpart/2025RES_SportsSponsorshipParticipationRatesReport.pdf`.
+> The two sets are different years from different collection instruments, not
+> actual-vs-projected for the same year, and their divisional splits are attributed
+> differently (sport division vs. primary division). **Never mix splits across the two
+> sets, and always name which set and season a figure comes from.**
+
 **The NCAA's own caveat, carried into the copy:** *"These are projected numbers
 only; actual numbers may change."* Every figure below is therefore published in
 RosterWise copy as a **projection for 2025-26**, never as a settled count.

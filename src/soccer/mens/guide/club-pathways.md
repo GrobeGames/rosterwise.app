@@ -2,7 +2,7 @@
 layout: content.njk
 title: "MLS Next, ECNL Boys, and the Men's College Recruiting Pathway | RosterWise™"
 description: "How MLS Next, ECNL Boys, NPL, USL Academy, and high school soccer feed into men's college recruiting — and why pathway alone doesn't determine outcomes."
-date: 2026-04-26
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -22,10 +22,12 @@ related:
     status: live
   - title: "Women's Club Pathways Guide"
     url: /soccer/womens/guide/club-pathways/
-    status: coming-soon
+    status: live
 sources:
-  - "MLS Next official site: mlsnext.mlssoccer.com"
-  - "ECNL Boys official site: boys.ecnlsoccer.com"
+  - "<a href=\"https://theecnl.com/sports/2023/8/28/History.aspx?path=general\">ECNL</a> — official league history timeline (2009 founding with 40 clubs; ECNL Boys launched 2017 with 57 inaugural clubs)"
+  - "<a href=\"https://www.ussoccer.com/stories/2020/04/a-letter-to-development-academy-clubs\">U.S. Soccer</a> — \"A Letter to Development Academy Clubs\" (April 15, 2020); and \"U.S. Soccer Development Academy Welcomes 16 New Clubs\" (2018), which states the Girls' Development Academy launched in 2017"
+  - "MLS NEXT official site: mlssoccer.com/mlsnext/"
+  - "ECNL official site: theecnl.com"
   - "US Soccer Development Academy transition announcements (2020)"
   - "NCAA.org, recruiting rules and calendar"
 cta:
@@ -53,11 +55,11 @@ Each pathway has strengths, limitations, and different levels of exposure to col
 
 ## MLS Next
 
-MLS Next is the top tier of boys' youth soccer in the United States. It replaced the US Soccer Development Academy (DA), which disbanded in 2020. MLS Next is operated by Major League Soccer and includes academy teams affiliated with MLS clubs as well as independent member clubs.
+MLS Next describes itself as the top tier of boys' youth soccer in the United States. It was launched by MLS in 2020 to fill the gap left when U.S. Soccer shut down its Development Academy on April 15, 2020. MLS Next is operated by Major League Soccer and includes academy teams affiliated with MLS clubs as well as independent member clubs.
 
 **What makes MLS Next distinctive for recruiting:**
 
-- MLS Next showcases and events attract the highest concentration of D1 college coaches. Visibility is a real advantage.
+- MLS Next showcases and events draw substantial D1 college coach attendance. Nobody publishes attendance counts by platform, so we will not rank them — but visibility at national events is a real advantage wherever you find it.
 - MLS Next academies tied to MLS clubs offer a **Homegrown Player pathway** — meaning some players may sign professional contracts rather than attend college. This is unique to MLS Next and affects roster planning for both clubs and college programs.
 - The competition level is generally the highest in the country for boys' youth soccer, though this varies by region and age group.
 - MLS Next clubs often have dedicated college placement staff or relationships with college coaches.
@@ -71,7 +73,7 @@ MLS Next is the top tier of boys' youth soccer in the United States. It replaced
 
 ## ECNL Boys
 
-The ECNL Boys league launched in 2017 and has grown into the second-most-visible boys' platform nationally. ECNL (Elite Clubs National League) was originally founded on the girls' side and brought the same structure to boys' soccer.
+ECNL launched its boys' league in **2017 with 57 inaugural member clubs**, per the ECNL's own published league history; the ECNL itself was formed in **August 2009 with 40 founding clubs** on the girls' side and brought the same structure to boys' soccer. It is one of the two platforms most widely recognised by college coaches on the boys' side.
 
 **What makes ECNL Boys distinctive for recruiting:**
 
@@ -143,7 +145,7 @@ RosterWise exists to help with the roster composition piece — showing families
 
 ## Women's recruiting works differently
 
-Women's college soccer recruiting operates on a different timeline and with different club pathway dynamics. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/club-pathways/) (coming soon).
+Women's college soccer recruiting operates on a different timeline and with different club pathway dynamics. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/club-pathways/).
 
 ---
 

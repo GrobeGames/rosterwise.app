@@ -41,6 +41,12 @@ children:
     url: /volleyball/womens/guide/international-recruiting/
     summary: "How international recruiting affects domestic recruits, patterns by division, and what families should know about roster composition."
     status: live
+sources:
+  - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 17.2 (Roster Limitations: men's and women's volleyball 18) and Bylaw 13 (contact and visit dates) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - "<strong>NCAA Division I Board of Directors, April 2025</strong> — \"Anticipated Actions Contingent Upon Court Final Approval of the House v. NCAA Settlement,\" reproducing pre-House Bylaw 15.5 (women's volleyball 12 head count, men's volleyball 4.5 equivalencies)"
+  - "<a href=\"https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/\">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship (projected 2025-26) and the NCAA Sports Sponsorship and Participation Rates Report (actual 2024-25)"
+  - "<a href=\"https://usavolleyball.org/about/\">USA Volleyball</a> — national governing body; 40 Regional Volleyball Associations"
+  - "<strong>NFHS 2024-25 High School Athletics Participation Survey</strong> and the NFHS Voice column of August 22, 2025"
 ---
 
 Women's college volleyball recruiting has its own rhythm, its own rules, and its own competitive dynamics. This section covers what families of women's volleyball recruits need to know — written honestly, backed by data, and organized for clarity.

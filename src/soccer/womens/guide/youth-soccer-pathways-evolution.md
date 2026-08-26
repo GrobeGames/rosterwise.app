@@ -2,7 +2,7 @@
 layout: content.njk
 title: "How Girls' Youth Soccer Leagues Have Evolved: From the USDA to ECNL and GA | RosterWise™"
 description: "An honest history of the girls' youth soccer landscape — the U.S. Soccer Development Academy era, the rise of ECNL, the founding of Girls Academy, and the new professional pathways through NWSL and USL Super League."
-date: 2026-05-25
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -26,6 +26,7 @@ related:
   - title: "D1 vs. D2 vs. D3 vs. NAIA"
     url: /guide/division-differences/
 sources:
+  - "<a href=\"https://www.ussoccer.com/stories/2020/04/a-letter-to-development-academy-clubs\">U.S. Soccer</a> — \"A Letter to Development Academy Clubs\" (April 15, 2020); \"Five Things to Know About the U.S. Soccer Development Academy\" (2017), which dates the Academy to 2007 and gives 197 clubs / 900 teams for 2017-18; and \"U.S. Soccer Development Academy Welcomes 16 New Clubs\" (2018), which states the Girls' Development Academy launched in 2017 and gives 2018-19 club counts of 178 boys and 73 girls"
   - "ECNL official communications — theecnl.com (founding history, club lists, structure)"
   - "Girls Academy League — girlsacademyleague.com (founding history, league structure)"
   - "MLSSoccer.com — Official MLS news and announcements (April 15, 2020 USDA closure)"
@@ -97,10 +98,10 @@ ECNL's position in the girls' landscape is somewhat analogous to MLS NEXT on the
 
 Per Girls Academy's official site (girlsacademyleague.com):
 
-- Founded in 2020 in the immediate aftermath of the USDA shutdown
+- Began play in 2020, in the months after the USDA shutdown. GA publishes no founding date on its own site; its earliest self-reference is to the cohort that "entered the Girls Academy in 2020 as the league's very first U13 players"
 - Includes 90+ clubs across multiple regional conferences
-- In October 2020, announced a strategic partnership with MLS and U.S. Youth Soccer
-- In February 2024, approved as a U.S. Soccer National Affiliate
+- In October 2020, announced a strategic relationship with MLS, with US Youth Soccer serving as its home for league sanctioning and player registration. **That arrangement has since been superseded** — GA became its own USSF member organisation in February 2024 and announced a strategic alliance with MLS NEXT in December 2024
+- In February 2024, became **an Official Member Organization of the U.S. Soccer Federation** — GA's own wording, approved by vote at the USSF Annual General Meeting. Neither GA nor U.S. Soccer used the term "National Affiliate"
 - Operates a club-driven governance structure distinct from the more centralized ECNL model
 - Runs a similar club/conference/showcase format to ECNL
 - Positions itself as a competitor and alternative to ECNL

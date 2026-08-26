@@ -25,7 +25,7 @@ related:
     status: live
   - title: "Athletic Scholarships (Universal Guide)"
     url: /guide/athletic-scholarships/
-    status: coming-soon
+    status: live
 sources:
   - "NCAA.org, Division I Manual — Bylaw 15 (Financial Aid)"
   - "NCAA.org, \"DI Board of Directors formally adopts changes to roster limits,\" June 23, 2025"

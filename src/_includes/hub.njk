@@ -75,6 +75,17 @@
   </section>
   {% endif %}
 
+  {% if sources %}
+  <section class="sources-section">
+    <h3>Sources &amp; References</h3>
+    <ol class="sources-list">
+      {% for source in sources %}
+      <li>{{ source | safe }}</li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+
   <section class="hub-cta">
     {% include "app-logos.njk" %}
     <h2>Find your athlete&rsquo;s best-fit programs</h2>

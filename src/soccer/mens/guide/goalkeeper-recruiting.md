@@ -25,7 +25,7 @@ related:
     status: live
   - title: "Women's Soccer Goalkeeper Recruiting"
     url: /soccer/womens/guide/goalkeeper-recruiting/
-    status: coming-soon
+    status: live
 sources:
   - "NCAA.org, recruiting rules and roster management"
   - "United Soccer Coaches (formerly NSCAA) goalkeeper coaching resources"
@@ -164,7 +164,7 @@ Experiences vary enormously among GK recruits. Some find the right fit quickly; 
 
 ## Women's recruiting works differently
 
-Women's college soccer goalkeeper recruiting has different roster dynamics, evaluation emphasis, and timeline patterns. If you're navigating women's GK recruiting, [here's the women's version](/soccer/womens/guide/goalkeeper-recruiting/) (coming soon).
+Women's college soccer goalkeeper recruiting has different roster dynamics, evaluation emphasis, and timeline patterns. If you're navigating women's GK recruiting, [here's the women's version](/soccer/womens/guide/goalkeeper-recruiting/).
 
 ---
 

@@ -2,7 +2,7 @@
 layout: content.njk
 title: "How Head Coach Tenure Predicts Program Direction"
 description: "What head coach tenure tells you about a college soccer program's stability, recruiting philosophy, and likely direction — and why it matters for recruiting families."
-date: 2026-04-26
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -108,7 +108,7 @@ We present tenure as a simple data point alongside roster composition, class-yea
 
 ## How to factor tenure into your evaluation
 
-**For families who value stability:** Prioritize programs with established coaches (5+ years). Ask current players about the team culture and whether it has been consistent during their time. Look for programs where both the head coach and key assistants have been together for multiple years.
+**For families who value stability:** Prioritize programs with long-tenured coaches (8+ years), the same threshold we use across the site. Ask current players about the team culture and whether it has been consistent during their time. Look for programs where both the head coach and key assistants have been together for multiple years.
 
 **For families who see opportunity in change:** A new coach at a program that fits your athlete academically and geographically might present an opening that wouldn't exist under an established coaching staff. The risk is higher, but so is the potential for immediate impact.
 

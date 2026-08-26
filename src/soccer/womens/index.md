@@ -57,6 +57,12 @@ children:
     url: /soccer/womens/insights/
     summary: "Data-driven analysis of roster composition, international recruiting patterns, and conference-level intelligence across women's soccer."
     status: coming-soon
+sources:
+  - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 17.2 (Roster Limitations: men's and women's soccer 28) and Bylaw 13 (contact and visit dates) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - "<strong>NCAA Division I Board of Directors, April 2025</strong> — \"Anticipated Actions Contingent Upon Court Final Approval of the House v. NCAA Settlement,\" reproducing pre-House Bylaw 15.5 (men's soccer 9.9 equivalencies, women's soccer 14.0 equivalencies)"
+  - "<a href=\"https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/\">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship"
+  - "RosterWise 2025-26 roster dataset — compiled from publicly available college athletics websites"
+  - "<strong>2026-27 NCAA Recruiting Calendar — Other Division I Sports</strong> (updated August 4, 2026) — women's soccer dead periods, published at ncaaorg.s3.amazonaws.com"
 ---
 
 Women's college soccer recruiting has its own rhythm, its own rules, and its own competitive landscape. This section covers what families of women's soccer recruits need to know — written honestly, backed by data, and organized for clarity.

@@ -29,6 +29,11 @@ children:
     url: /lacrosse/womens/guide/what-coaches-look-for/
     summary: "What coaches evaluate for Attack, Midfield, Defense, Goalie, and draw control specialists."
     status: coming-soon
+sources:
+  - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 17.2 (Roster Limitations: men's lacrosse 48, women's lacrosse 38), Bylaws 13.1.1.1.7 and 13.1.1.1.8 (initial contact dates) and the related telephone, materials, visit and camp provisions — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - "<strong>2026-27 NCAA Division I Men's Lacrosse and Women's Lacrosse Recruiting Calendars</strong> — official NCAA documents at ncaaorg.s3.amazonaws.com"
+  - "<a href=\"https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/\">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship"
+  - "RosterWise 2025-26 roster dataset — compiled from publicly available college athletics websites"
 ---
 
 Women's college lacrosse recruiting has its own rhythm, its own rules, and its own competitive landscape. This section covers what families of women's lacrosse recruits need to know — written honestly, backed by data, and organized for clarity — across NCAA Division I, II, and III, NAIA, and NJCAA.

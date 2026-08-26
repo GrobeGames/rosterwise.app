@@ -2,7 +2,7 @@
 layout: content.njk
 title: "How Boys' Youth Soccer Leagues Have Evolved: From the USDA to MLS NEXT | RosterWise™"
 description: "An honest history of the boys' youth soccer landscape — the rise and fall of the USDA, the birth of MLS NEXT, the role of ECNL Boys, MLS NEXT Pro, and the Homegrown pathway. What families need to understand."
-date: 2026-05-25
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -26,6 +26,7 @@ related:
   - title: "D1 vs. D2 vs. D3 vs. NAIA"
     url: /guide/division-differences/
 sources:
+  - "<a href=\"https://www.ussoccer.com/stories/2020/04/a-letter-to-development-academy-clubs\">U.S. Soccer</a> — \"A Letter to Development Academy Clubs\" (April 15, 2020); \"Five Things to Know About the U.S. Soccer Development Academy\" (2017), which dates the Academy to 2007 and gives 197 clubs / 900 teams for 2017-18; and \"U.S. Soccer Development Academy Welcomes 16 New Clubs\" (2018), which states the Girls' Development Academy launched in 2017 and gives 2018-19 club counts of 178 boys and 73 girls"
   - "MLSSoccer.com — Official MLS news and announcements (April 15, 2020 USDA closure announcement)"
   - "MLS NEXT official site — mlssoccer.com/mlsnext (league structure, age groups, rules)"
   - "MLS NEXT Allstate Homegrown Division page — mlssoccer.com/mlsnext/about/homegrown-division"
@@ -68,7 +69,7 @@ Per MLSSoccer.com's reporting and Sports Illustrated's April 16, 2020 coverage:
 - Banned member-club players from playing high school soccer — one of the most controversial USDA policies
 - Required year-round commitment with a long competitive season
 
-By 2019, the USDA had grown to over 160 member clubs and approximately 20,000 youth players across boys' and girls' programs. For the elite boys' youth soccer landscape, the USDA was the center of gravity — the platform where MLS academy teams competed alongside the strongest non-MLS clubs in the country.
+U.S. Soccer's own releases put the Academy at **197 clubs and 900 teams** across six age groups in 2017-18, and at **178 boys' clubs (676 teams) plus 73 girls' clubs (290 teams)** for 2018-19. U.S. Soccer published no equivalent total for the final 2019-20 season, so we do not give one. For the elite boys' youth soccer landscape, the USDA was the center of gravity — the platform where MLS academy teams competed alongside the strongest non-MLS clubs in the country.
 
 ## The April 2020 USDA shutdown
 

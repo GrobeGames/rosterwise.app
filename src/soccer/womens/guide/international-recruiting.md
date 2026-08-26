@@ -25,7 +25,7 @@ related:
     status: live
   - title: "International Student-Athletes (Universal Guide)"
     url: /guide/international-student-athletes/
-    status: coming-soon
+    status: live
   - title: "Men's Soccer International Recruiting"
     url: /soccer/mens/guide/international-recruiting/
     status: live

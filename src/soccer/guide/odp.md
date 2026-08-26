@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Olympic Development Program (ODP) Explained: What Families Need to Know | RosterWise™"
 description: "What is ODP in youth soccer? How the Olympic Development Program works, how it's changed, and what role it plays in college soccer recruiting today."
-date: 2026-04-26
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -25,8 +25,8 @@ related:
   - title: "Women's College Soccer Recruiting Timeline"
     url: /soccer/womens/guide/recruiting-timeline/
 sources:
+  - "<a href=\"https://www.usyouthsoccer.org/olympic-development-program/\">US Youth Soccer</a> — Olympic Development Program; and the 2019-20 US Youth Soccer Annual Report, p.16, which states ODP was formed in 1977"
   - "US Soccer Federation: ussoccer.com"
-  - "US Youth Soccer: usyouthsoccer.org"
   - "NCAA.org, Recruiting Calendars and Guides"
   - "Individual state soccer association ODP programs"
 cta:
@@ -39,15 +39,15 @@ ${toc}
 
 ## What is ODP?
 
-The Olympic Development Program (ODP) is a player identification and development program originally created by **US Youth Soccer** (formerly the United States Youth Soccer Association). It was established in 1977 with the goal of identifying talented youth players at the state level and providing them with advanced training, competition, and a pathway toward regional and national team selection.
+The Olympic Development Program (ODP) is a player identification and development program run by **US Youth Soccer**. US Youth Soccer's own annual report states that ODP "was formed in **1977** to identify a pool of players in each age group from which a National Team will be selected for international competition; to provide high-level training to benefit and enhance the development of players at all levels; and, through the use of carefully selected and licensed coaches, develop a mechanism for the exchange of ideas and curriculum to improve all levels of coaching."
 
 At its core, ODP operates on a tiered structure:
 
 - **State ODP teams**: Players try out within their home state and, if selected, train and compete as part of a state-level ODP team.
-- **Regional ODP teams**: Top performers from state programs are identified for regional teams (four regions: East, Midwest, South, West).
+- **Regional ODP teams**: Top performers from state programs are identified for regional teams. There are four regions — **East, Midwest, South and West**. (Older material calls them Region I through Region IV; the names changed, and a source using Roman numerals predates the change.)
 - **National ODP teams**: The highest-performing regional players are selected for national-level events and, historically, for identification by US Soccer's youth national team programs.
 
-ODP runs programs for both boys and girls, typically spanning age groups from U-12 through U-17 or U-18, depending on the state.
+ODP runs programs for both boys and girls. **Age groups vary by state** — US Youth Soccer states plainly that "age groups and evaluation dates may vary from state to state, based on seasonal and state considerations," because ODP is delivered through State Associations. National-level ODP events have recently run across the U13-U18 range.
 
 **Every player's experience with ODP is different.** The quality, competitiveness, and structure of ODP programs vary significantly from state to state. A player selected for ODP in a state with a strong program may have a very different experience than one selected in a state where club soccer dominates the talent landscape.
 

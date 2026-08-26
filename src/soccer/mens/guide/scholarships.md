@@ -22,10 +22,10 @@ related:
     status: live
   - title: "Women's Soccer Scholarships Guide"
     url: /soccer/womens/guide/scholarships/
-    status: coming-soon
+    status: live
   - title: "Athletic Scholarships (Universal Guide)"
     url: /guide/athletic-scholarships/
-    status: coming-soon
+    status: live
 sources:
   - "NCAA.org, Division I Manual — Bylaw 15 (Financial Aid)"
   - "NCAA.org, \"DI Board of Directors formally adopts changes to roster limits,\" June 23, 2025"
@@ -173,7 +173,7 @@ Every family's situation is different, and scholarship outcomes vary enormously 
 
 ## Women's recruiting works differently
 
-Women's college soccer has different scholarship rules, roster limits, and financial dynamics. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/scholarships/) (coming soon).
+Women's college soccer has different scholarship rules, roster limits, and financial dynamics. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/scholarships/).
 
 ---
 

@@ -2,7 +2,7 @@
 layout: content.njk
 title: "How to Read a College Soccer Roster Like a Recruiter"
 description: "What college soccer rosters reveal about recruiting opportunities — class-year gaps, position depth, international composition, hometown patterns, and what smart families look for."
-date: 2026-04-26
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -160,3 +160,7 @@ Here's a process for using roster analysis in your recruiting strategy:
 College soccer rosters are the most underused public resource in the recruiting process. They tell you where programs need players, what kinds of players they recruit, and how your athlete compares to the current roster. Families who learn to read rosters gain a significant informational advantage — and make better decisions about where to invest their time and energy.
 
 The information is there. You just need to know how to read it.
+
+---
+
+*Roster limits and division rules changed with the House settlement and continue to change. This article reflects the landscape as of **August 2026**. Verify current roster limits and division rules at NCAA.org and NAIA.org, and confirm a program's own roster plans with its coaching staff.*

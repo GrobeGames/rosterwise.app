@@ -29,6 +29,11 @@ children:
     url: /lacrosse/mens/guide/what-coaches-look-for/
     summary: "What coaches evaluate for Attack, Midfield, Defense, LSM, FOGO, and Goalie."
     status: coming-soon
+sources:
+  - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 17.2 (Roster Limitations: men's lacrosse 48, women's lacrosse 38), Bylaws 13.1.1.1.7 and 13.1.1.1.8 (initial contact dates) and the related telephone, materials, visit and camp provisions — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - "<strong>2026-27 NCAA Division I Men's Lacrosse and Women's Lacrosse Recruiting Calendars</strong> — official NCAA documents at ncaaorg.s3.amazonaws.com"
+  - "<a href=\"https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/\">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship"
+  - "RosterWise 2025-26 roster dataset — compiled from publicly available college athletics websites"
 ---
 
 Men's college lacrosse recruiting operates on its own timeline, with its own dynamics, and families benefit from understanding the specifics. This section is dedicated to men's lacrosse recruiting — the rules, the realities, and the data — across NCAA Division I, II, and III, NAIA, and NJCAA.

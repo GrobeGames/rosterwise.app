@@ -25,7 +25,7 @@ related:
     status: live
   - title: "Women's Soccer Recruiting Video Guide"
     url: /soccer/womens/guide/recruiting-video/
-    status: coming-soon
+    status: live
 sources:
   - "NCAA.org, recruiting rules and permissible recruiting materials"
 cta:
@@ -178,4 +178,4 @@ When you update, re-send to programs you're actively recruiting with. A brief em
 
 ## Women's recruiting works differently
 
-Women's college soccer recruiting video expectations and distribution strategy differ from men's. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/recruiting-video/) (coming soon).
+Women's college soccer recruiting video expectations and distribution strategy differ from men's. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/recruiting-video/).

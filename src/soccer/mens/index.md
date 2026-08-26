@@ -57,6 +57,12 @@ children:
     url: /soccer/mens/insights/
     summary: "Data-driven analysis of roster composition, international recruiting patterns, and conference-level intelligence across men's soccer."
     status: coming-soon
+sources:
+  - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 17.2 (Roster Limitations: men's and women's soccer 28) and Bylaw 13 (contact and visit dates) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - "<strong>NCAA Division I Board of Directors, April 2025</strong> — \"Anticipated Actions Contingent Upon Court Final Approval of the House v. NCAA Settlement,\" reproducing pre-House Bylaw 15.5 (men's soccer 9.9 equivalencies, women's soccer 14.0 equivalencies)"
+  - "<a href=\"https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/\">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship"
+  - "RosterWise 2025-26 roster dataset — compiled from publicly available college athletics websites"
+  - "<strong>2026-27 NCAA Recruiting Calendar — Other Division I Sports</strong> (updated August 4, 2026) — men's soccer dead and quiet periods, published at ncaaorg.s3.amazonaws.com"
 ---
 
 Men's college soccer recruiting operates on its own timeline, with its own dynamics, and families benefit from understanding the specifics. This section is dedicated to men's soccer recruiting — the rules, the realities, and the data.
@@ -65,7 +71,7 @@ Men's college soccer recruiting operates on its own timeline, with its own dynam
 
 Men's soccer has historically recruited later than women's soccer and most other college sports. Physical development continues later in the men's game, late bloomers are common, and coaches know it. The typical D1 verbal commitment window for men's soccer is spring of junior year through fall of senior year — meaningfully later than the women's game.
 
-The club pathway ecosystem also matters. MLS Next (which replaced the Development Academy) is the top tier of boys' youth soccer, but ECNL Boys, NPL, USL Academy, and elite high school programs all produce D1 recruits. Players in MLS Next academies tied to professional clubs have additional pathway options (Homegrown contracts) that can affect recruiting timing and decisions.
+The club pathway ecosystem also matters. MLS Next, which MLS launched in 2020 after U.S. Soccer shut down its Development Academy, describes itself as the top tier of boys' youth soccer — but ECNL Boys, NPL, USL Academy and elite high school programs all produce D1 recruits. Players in MLS Next academies tied to professional clubs have additional pathway options (Homegrown contracts) that can affect recruiting timing and decisions.
 
 ## The House settlement and what it means
 

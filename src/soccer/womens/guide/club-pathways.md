@@ -2,7 +2,7 @@
 layout: content.njk
 title: "ECNL Girls, Girls Academy (GA), and the Women's College Recruiting Pathway | RosterWise™"
 description: "How ECNL Girls, Girls Academy, NPL, and high school soccer feed into women's college recruiting — and why pathway alone doesn't determine outcomes."
-date: 2026-04-26
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -24,7 +24,10 @@ related:
     url: /soccer/mens/guide/club-pathways/
     status: live
 sources:
-  - "ECNL Girls official site: ecnlsoccer.com"
+  - "<a href=\"https://theecnl.com/sports/2023/8/28/History.aspx?path=general\">ECNL</a> — official league history timeline (2009 founding with 40 clubs; ECNL Boys launched 2017 with 57 inaugural clubs)"
+  - "<a href=\"https://girlsacademyleague.com/2024/02/girls-academy-achieves-u-s-soccer-federation-membership/\">Girls Academy</a> — \"Girls Academy Achieves U.S. Soccer Federation Membership\" (February 10, 2024)"
+  - "<a href=\"https://www.ussoccer.com/stories/2020/04/a-letter-to-development-academy-clubs\">U.S. Soccer</a> — \"A Letter to Development Academy Clubs\" (April 15, 2020); and \"U.S. Soccer Development Academy Welcomes 16 New Clubs\" (2018), which states the Girls' Development Academy launched in 2017"
+  - "ECNL official site: theecnl.com"
   - "Girls Academy official site: girlsacademyleague.com"
   - "NCAA.org, recruiting rules and calendar"
 cta:
@@ -49,7 +52,9 @@ The major platforms, roughly ordered by visibility to D1 college coaches:
 
 Each pathway has strengths, limitations, and different levels of exposure to college coaches. No single pathway is "right" for every player.
 
-**Note for families coming from the boys' side:** The girls' landscape is different from the boys'. There is no MLS Next equivalent for girls. ECNL originated on the girls' side (launching in 2009) and later expanded to boys. Girls Academy was created in 2017 when the US Soccer Development Academy added girls' programming, and it continued under its current name after the DA disbanded in 2020.
+**Note for families coming from the boys' side:** The girls' landscape is different from the boys'. There is no MLS Next equivalent for girls. ECNL originated on the girls' side — its own league history records the ECNL forming in **August 2009 with 40 founding clubs** — and expanded to boys in **2017 with 57 inaugural clubs**.
+
+**Two organisations get conflated here, so it is worth separating them.** U.S. Soccer added a **Girls' Development Academy** to its own federation programme in 2017, and shut it down along with the rest of the Development Academy on April 15, 2020. **Girls Academy (GA) is a separate, independent league** that began play in 2020. GA is not a renamed continuation of U.S. Soccer's girls' programme, and GA does not publish a founding year on its own site — its earliest self-reference is to the cohort that "entered the Girls Academy in 2020 as the league's very first U13 players."
 
 ## ECNL Girls
 
@@ -57,7 +62,7 @@ ECNL Girls (Elite Clubs National League) is the longest-established national com
 
 **What makes ECNL Girls distinctive for recruiting:**
 
-- ECNL national events and showcases attract the highest concentration of college coaches evaluating women's soccer recruits. National events, regional showcases, and playoff weekends are major evaluation opportunities.
+- ECNL national events and showcases draw substantial college coach attendance. Nobody publishes attendance counts by platform, so we will not rank them — but national events, regional showcases and playoff weekends are major evaluation opportunities.
 - ECNL has a formal college placement program and publicly tracks college commitments across member clubs.
 - ECNL allows players to participate in high school soccer — a meaningful factor for families in states where high school soccer is competitive and culturally important.
 - The competition level is strong nationally, with some regional variation.
@@ -70,7 +75,7 @@ ECNL Girls (Elite Clubs National League) is the longest-established national com
 
 ## Girls Academy (GA)
 
-Girls Academy launched out of the former US Soccer Girls Development Academy and has grown into the second major national girls' platform. GA operates with a structure that emphasizes year-round development and competitive play.
+Girls Academy is an independent league that began play in 2020, in the months after U.S. Soccer shut down its Development Academy, and has grown into the second major national girls' platform. It is not operated by U.S. Soccer, and it is not a continuation of U.S. Soccer's Girls' Development Academy. GA operates with a structure that emphasizes year-round development and competitive play.
 
 **What makes GA distinctive for recruiting:**
 

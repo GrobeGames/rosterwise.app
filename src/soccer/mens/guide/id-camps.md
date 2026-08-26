@@ -22,7 +22,7 @@ related:
     status: live
   - title: "Women's Soccer ID Camps Guide"
     url: /soccer/womens/guide/id-camps/
-    status: coming-soon
+    status: live
 sources:
   - "<strong>2026-27 NCAA Division I Manual, Bylaw 13.12.1.5.1</strong> (Recruiting Conversations at institutional camps and clinics) and Bylaws 13.1.3.1, 13.4.1, 13.1.1.1, 13.6.2.1.1, 13.7.1.1 (contact and visit dates) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - "NCAA.org, recruiting rules and calendar"
@@ -150,4 +150,4 @@ Families should budget for ID camps as part of the overall recruiting investment
 
 ## Women's recruiting works differently
 
-Women's college soccer ID camps operate on a different timeline with different dynamics. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/id-camps/) (coming soon).
+Women's college soccer ID camps operate on a different timeline with different dynamics. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/id-camps/).

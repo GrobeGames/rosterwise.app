@@ -25,10 +25,10 @@ related:
     status: live
   - title: "International Student-Athletes (Universal Guide)"
     url: /guide/international-student-athletes/
-    status: coming-soon
+    status: live
   - title: "Women's Soccer International Recruiting"
     url: /soccer/womens/guide/international-recruiting/
-    status: coming-soon
+    status: live
 sources:
   - "RosterWise 2025-26 roster dataset — international composition across 1,012 men's and 1,223 women's college soccer programs, compiled from publicly available college athletics websites, captured April-August 2026"
   - "NCAA.org, international student-athlete eligibility requirements"
@@ -143,7 +143,7 @@ This doesn't replace conversations with coaches — nothing does. But it helps f
 
 ## Women's recruiting works differently
 
-International recruiting in women's college soccer has different patterns, percentages, and dynamics. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/international-recruiting/) (coming soon).
+International recruiting in women's college soccer has different patterns, percentages, and dynamics. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/international-recruiting/).
 
 ---
 

@@ -79,7 +79,7 @@ Average height by position shows clear patterns across divisions (based on progr
 | Position | D1 | D2 | D3 | NAIA |
 |----------|----|----|----|----- |
 | Goalkeeper | 6'2" | 6'1" | 6'0" | 6'0" |
-| Defender | 6'0" | 5'12" | 5'11" | 5'11" |
+| Defender | 6'0" | 6'0" | 5'11" | 5'11" |
 | Midfielder | 5'10" | 5'10" | 5'10" | 5'10" |
 | Forward | 5'11" | 5'11" | 5'10" | 5'10" |
 

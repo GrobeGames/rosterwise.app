@@ -15,7 +15,7 @@ related:
     url: /soccer/mens/guide/recruiting-timeline/
   - title: "Women's College Soccer Recruiting Timeline"
     url: /soccer/womens/guide/recruiting-timeline/
-    status: coming-soon
+    status: live
   - title: "NCAA Recruiting Rules Explained"
     url: /guide/ncaa-recruiting-rules/
   - title: "D1 vs. D2 vs. D3 vs. NAIA"

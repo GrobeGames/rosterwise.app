@@ -25,7 +25,7 @@ related:
     status: live
   - title: "Women's Soccer: What Coaches Look For"
     url: /soccer/womens/guide/what-coaches-look-for/
-    status: coming-soon
+    status: live
 sources:
   - "NCAA.org, recruiting rules and evaluation periods"
   - "United Soccer Coaches (formerly NSCAA) coaching education materials"
@@ -258,4 +258,4 @@ A few evaluation factors that coaches weigh but rarely discuss publicly:
 
 ## Women's recruiting works differently
 
-Women's college soccer coaches evaluate many of the same attributes, but the physical profile expectations, tactical emphasis, and positional needs differ. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/what-coaches-look-for/) (coming soon).
+Women's college soccer coaches evaluate many of the same attributes, but the physical profile expectations, tactical emphasis, and positional needs differ. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/what-coaches-look-for/).

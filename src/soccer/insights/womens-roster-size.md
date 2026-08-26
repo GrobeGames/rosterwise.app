@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Average Roster Size in D1, D2, D3, and NAIA Women's College Soccer — 2025 Season Analysis | RosterWise™"
 description: "How many players are on a women's college soccer roster? Average roster sizes for NCAA D1, D2, D3, and NAIA programs based on RosterWise's analysis of 1,223 women's soccer programs, 2025 NCAA season."
-date: 2026-05-17
+date: 2026-08-26
 breadcrumbs:
   - text: Home
     url: /
@@ -44,7 +44,7 @@ For families navigating women's college soccer recruiting, roster size is one of
 
 That number has direct implications for your athlete. A D1 program carrying 28 players has a different recruiting calculus than a D3 program with 27. The number of available spots, the walk-on landscape, the competition for playing time — roster size shapes all of it.
 
-Women's soccer is the largest women's college sport by number of programs in the United States — 1,223 programs across D1, D2, D3, and NAIA. Understanding roster size patterns by division helps narrow the search to programs where the fit is realistic.
+Women's soccer is one of the largest women's college sports by number of programs, though not the largest: on the NCAA's most recent actual figures, for 2024-25, women's basketball leads on 1,082 programs, then volleyball on 1,055 and cross country on 1,048, with soccer fourth on 1,029. Counting the NAIA alongside the NCAA, RosterWise's 2025-26 dataset covers 1,223 women's soccer programs. Understanding roster size patterns by division helps narrow the search to programs where the fit is realistic.
 
 ## Average roster sizes by division
 
