@@ -33,6 +33,8 @@ children:
     url: /soccer/insights/mens-vs-womens-comparison/
     summary: "A side-by-side comparison of men's and women's rosters — sizes, international composition, class-year distributions, and position breakdowns."
     status: live
+sources:
+  - "RosterWise 2025-26 roster dataset — 1,012 men's and 1,223 women's college soccer programs across NCAA D1, D2, D3 and the NAIA, compiled from publicly available college athletics websites"
 ---
 
 These articles present findings from RosterWise's analysis of more than 2,200 college soccer programs during the 2025 NCAA and NAIA season. Every number comes from real roster data — not surveys, estimates, or self-reported statistics.
