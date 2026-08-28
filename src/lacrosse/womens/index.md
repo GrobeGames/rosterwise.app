@@ -14,21 +14,29 @@ children:
     summary: "When commitments actually happen — the September 1 contact rule, typical timelines by division, and the current recruiting landscape."
     status: live
   - title: "How Women's College Lacrosse Scholarships Work"
-    url: /lacrosse/womens/guide/scholarships/
+    url: /lacrosse/womens/guide/scholarships-after-house-settlement/
     summary: "Equivalency scholarships, the House settlement impact, roster limits, and what families should realistically expect."
-    status: coming-soon
+    status: live
   - title: "The Women's College Lacrosse Club & Showcase Pathway"
     url: /lacrosse/womens/guide/club-pathways/
     summary: "How club lacrosse, the summer circuit, and showcases shape recruiting — and why pathway alone doesn't determine outcomes."
-    status: coming-soon
-  - title: "Draw Control Recruiting in Women's College Lacrosse"
-    url: /lacrosse/womens/guide/draw-control/
-    summary: "Why the draw specialist is one of the most valued roles in the women's game, and how coaches evaluate it."
-    status: coming-soon
+    status: live
   - title: "What Women's College Lacrosse Coaches Look for by Position"
-    url: /lacrosse/womens/guide/what-coaches-look-for/
+    url: /lacrosse/womens/guide/coaches-look-for-by-position/
     summary: "What coaches evaluate for Attack, Midfield, Defense, Goalie, and draw control specialists."
-    status: coming-soon
+    status: live
+  - title: "International Recruiting in Women's College Lacrosse"
+    url: /lacrosse/womens/guide/international-recruiting/
+    summary: "How international and Canadian players are recruited, and what it means for roster composition."
+    status: live
+  - title: "Women's College Lacrosse ID Camps & Tournaments"
+    url: /lacrosse/womens/guide/id-camps-and-tournaments/
+    summary: "Which events coaches actually attend, how college ID camps differ from showcase tournaments, and how to choose."
+    status: live
+  - title: "The Women's College Lacrosse Recruiting Video"
+    url: /lacrosse/womens/guide/recruiting-video/
+    summary: "What coaches want to see in a highlight reel, how to structure it, and the mistakes that get videos closed early."
+    status: live
 sources:
   - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 17.2 (Roster Limitations: men's lacrosse 48, women's lacrosse 38), Bylaws 13.1.1.1.7 and 13.1.1.1.8 (initial contact dates) and the related telephone, materials, visit and camp provisions — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - "<strong>2026-27 NCAA Division I Men's Lacrosse and Women's Lacrosse Recruiting Calendars</strong> — official NCAA documents at ncaaorg.s3.amazonaws.com"
@@ -66,7 +74,7 @@ Despite the culture of early identification, programs across all divisions activ
 
 ## Women's lacrosse content
 
-The women's lacrosse guides below are in development and will publish into this section. In the meantime, our universal [Recruiting Guides](/guide/) cover the topics that apply across every sport — NCAA rules, scholarships, the transfer portal, admissions, and financial aid.
+The women's lacrosse guides below are published and linked. Our universal [Recruiting Guides](/guide/) cover the topics that apply across every sport — NCAA rules, scholarships, the transfer portal, admissions, and financial aid.
 
 ---
 

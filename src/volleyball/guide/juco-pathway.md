@@ -181,7 +181,9 @@ Per current NCAA rules, athletes generally have a maximum of four years of athle
 
 Four-year programs — especially NCAA D-I and D-II volleyball — actively recruit JUCO transfers. JUCO transfers are particularly attractive because they arrive with college-level training, competitive experience, and demonstrated ability to perform in a structured program.
 
-**Critical context for 2025-26 and beyond:** The 2025 House v. NCAA settlement increased the NCAA D-I women's volleyball roster cap from the previous 12-scholarship head count structure to an 18-player equivalency roster. This expansion of the four-year landscape may increase transfer opportunities as D-I programs have more roster spots to fill — and experienced JUCO transfers are a proven way to fill those spots.
+**Critical context for 2025-26 and beyond:** The 2025 House v. NCAA settlement **created** an 18-player roster limit in NCAA D-I women's volleyball at opted-in programs. Division I had no roster cap before it. What the settlement removed was the sport-by-sport *scholarship* limit — the NCAA's June 23, 2025 release states that "NCAA rules for Division I programs will no longer include sport-specific scholarship limits" and that opted-in schools "will have roster limits" instead. The old 12 was a limit on how many players could receive athletics aid, not on how many could be on the roster: per the NCAA's House implementation Q&A (June 13, 2025), in 2024-25 "an institution could provide any amount of countable financial aid to up to 12 women's volleyball student-athletes."
+
+The practical direction matters for JUCO families, because it runs opposite to the way it is often described. Opted-in D-I programs may now fund more players than before, but they may carry **fewer**. Rosters contracted against a new ceiling rather than expanding toward one.
 
 ### What changed in 2026
 
@@ -223,7 +225,7 @@ JUCO is a real pathway with real opportunities — and real limitations that fam
 
 For college-bound volleyball athletes, the pathway choices include:
 
-- **NCAA D-I:** Highest competitive tier, now with 18-player roster cap and equivalency scholarships post-House settlement
+- **NCAA D-I:** Highest competitive tier, now with an 18-player roster limit at opted-in programs and no sport-specific scholarship limit post-House settlement
 - **NCAA D-II:** Strong competitive level, equivalency scholarships in women's volleyball
 - **NCAA D-III:** No athletic scholarships, but substantial academic and need-based aid often available
 - **NAIA:** Equivalency model with scholarships in women's volleyball
@@ -234,7 +236,7 @@ For college-bound volleyball athletes, the pathway choices include:
 
 JUCO can serve as either a primary destination — some athletes complete their volleyball careers within the JUCO system — or as a transition pathway to four-year programs. Most JUCO athletes plan to transfer, but both paths are legitimate.
 
-The 2025 House settlement changes to NCAA D-I women's volleyball — particularly the move to an 18-player equivalency roster from the old 12-scholarship head count — may create additional transfer opportunities as D-I programs fill expanded rosters with experienced players.
+The 2025 House settlement capped opted-in NCAA D-I women's volleyball rosters at 18 players, where no roster cap existed before. Ask each four-year program directly how many roster spots it expects to have open in your athlete's entry year, and whether it has opted in.
 
 ## Every recruiting journey is different
 

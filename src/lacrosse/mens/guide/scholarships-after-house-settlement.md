@@ -39,7 +39,7 @@ faq:
   - q: "Will my son be able to walk on at a D1 program?"
     a: "Walk-on opportunities still exist at many D1 men's lacrosse programs, but they're now tighter than before. Programs that previously carried 50-55 players may now cap at 48. Some traditional walk-on spots have been eliminated. Families should ask each program directly about walk-on opportunities under their current roster construction."
   - q: "Do all D1 men's lacrosse programs offer full scholarships now?"
-    a: "No. The cap allows up to 48 scholarships, but most athletes — even at well-funded programs — likely will continue to receive partial rather than full scholarships. Coach John Tillman's quoted assessment is direct: most programs won't fund up to the 48-scholarship maximum due to financial constraints."
+    a: "No. The cap allows up to 48 scholarships, but most athletes — even at well-funded programs — likely will continue to receive partial rather than full scholarships. Maryland coach John Tillman's quoted assessment is direct: he does not see teams carrying 48 scholarships."
   - q: "What if my son's D1 program drops lacrosse?"
     a: "A small number of D1 men's lacrosse programs may eliminate the sport entirely under post-settlement financial pressures. If your son has committed to a program that subsequently drops lacrosse, the transfer portal is the standard pathway to a new opportunity."
   - q: "Should we be more open to D2 or D3 now?"
@@ -80,9 +80,9 @@ This is one of the largest proportional scholarship increases of any sport under
 
 ## The honest framing — three things to understand immediately
 
-**1. The 48 figure is a maximum, not a requirement.** Maryland head coach John Tillman is quoted by USA Lacrosse magazine: "Some of the scuttlebutt of people saying, 'Oh, teams will have 48 scholarships.' I just don't see that happening. That's because there are massive financial ramifications, regardless of the school or conference."
+**1. The 48 figure is a maximum, not a requirement.** Maryland head coach John Tillman is quoted by USA Lacrosse magazine: "Some of the scuttlebutt of people saying, 'Oh, teams will have 48 scholarships.' ... I just don't see that happening." USA Lacrosse attributes the reason to "massive financial ramifications, regardless of the school or conference."
 
-Per Tillman's analysis (via USA Lacrosse coverage), D1 men's lacrosse programs are expected to distribute across approximately five categories:
+Former Denver head coach and current IMLCA president Bill Tierney described a five-way breakdown of how programs might respond, per USA Lacrosse magazine (August 1, 2024):
 
 1. Programs that significantly increase scholarship funding — potentially toward 25 or more scholarships
 2. Programs that continue supporting what previously existed (around 12.6)
@@ -92,7 +92,7 @@ Per Tillman's analysis (via USA Lacrosse coverage), D1 men's lacrosse programs a
 
 The first full recruiting cycles under the new framework will reveal which specific programs land in each category.
 
-**2. The roster cap reduced D1 men's lacrosse opportunities.** Per USA Lacrosse magazine, the average 2024 D1 men's lacrosse roster was 52.7 players. With the new cap at 48, the average D1 program had to reduce its roster by 4.7 players. Across all D1 men's lacrosse programs, approximately 362 players overall lost the opportunity to compete at the D1 level when the new caps took effect.
+**2. The roster cap tightened D1 men's lacrosse opportunities.** Per USA Lacrosse magazine, the average 2024 D1 men's lacrosse roster was 52.7 players, against a new cap of 48. On the day the settlement was approved, USA Lacrosse estimated in June 2025 that this meant "an average of 4.7 players per team - approximately 362 players overall - will lose the opportunity to compete at the Division I level." That was a forecast, not a count of what has since happened; the Designated Student-Athlete exemption also let schools temporarily exceed the limits.
 
 This means: while scholarship potential per athlete increased, total roster opportunities at D1 decreased.
 
@@ -100,7 +100,7 @@ This means: while scholarship potential per athlete increased, total roster oppo
 
 ## The "wider separation" reality
 
-Veteran lacrosse coach Bill Tierney is quoted by USA Lacrosse magazine on the post-settlement landscape: "Schools that decide to go big in lacrosse — Hopkins, maybe Northwestern women — they might do that. If they do, it's going to make the separation even wider."
+Tierney is quoted by USA Lacrosse magazine on the post-settlement landscape: "Schools that decide to go big in lacrosse — Hopkins, maybe Northwestern women — they might do that. If they do, it's going to make the separation even wider."
 
 This honest assessment captures a key reality: the settlement creates structural separation between programs that invest heavily in lacrosse and those that don't. Some D1 men's lacrosse programs will now offer scholarships at levels not previously possible. Others will continue at previous funding. The competitive gap between these tiers may widen as a result.
 
@@ -187,7 +187,7 @@ Walk-on opportunities still exist at many D1 men's lacrosse programs, but they'r
 
 **"Do all D1 men's lacrosse programs offer full scholarships now?"**
 
-No. The cap allows up to 48 scholarships, but most athletes — even at well-funded programs — likely will continue to receive partial rather than full scholarships. Coach John Tillman's quoted assessment is direct: most programs won't fund up to the 48-scholarship maximum due to financial constraints.
+No. The cap allows up to 48 scholarships, but most athletes — even at well-funded programs — likely will continue to receive partial rather than full scholarships. Maryland coach John Tillman's quoted assessment is direct: he does not see teams carrying 48 scholarships.
 
 **"What if my son's D1 program drops lacrosse?"**
 

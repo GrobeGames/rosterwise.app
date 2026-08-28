@@ -45,6 +45,10 @@ children:
     url: /soccer/mens/guide/international-recruiting/
     summary: "How international players are recruited differently, impact on domestic recruits, and what families should know about roster composition."
     status: live
+  - title: "How Youth Men's Soccer Pathways Have Changed"
+    url: /soccer/mens/guide/youth-soccer-pathways-evolution/
+    summary: "MLS NEXT, the Academy Division, ECNL and the rest of the youth landscape — how the pathways evolved and what they mean for recruiting."
+    status: live
   - title: "How to Build a Men's Soccer Recruiting List"
     url: /soccer/mens/guide/building-your-list/
     summary: "A practical guide to identifying target programs across divisions using roster data, academic fit, and geographic preferences."
@@ -53,10 +57,10 @@ children:
     url: /soccer/mens/guide/division-comparison/
     summary: "What's actually different between divisions — competition level, scholarship availability, roster size, and the student-athlete experience."
     status: coming-soon
-  - title: "Men's College Soccer Roster Trends & Insights"
-    url: /soccer/mens/insights/
-    summary: "Data-driven analysis of roster composition, international recruiting patterns, and conference-level intelligence across men's soccer."
-    status: coming-soon
+  - title: "College Soccer Roster Trends & Insights"
+    url: /soccer/insights/
+    summary: "Data-driven analysis of roster composition, international recruiting patterns, and conference-level intelligence across college soccer."
+    status: live
 sources:
   - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 17.2 (Roster Limitations: men's and women's soccer 28) and Bylaw 13 (contact and visit dates) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - "<strong>NCAA Division I Board of Directors, April 2025</strong> — \"Anticipated Actions Contingent Upon Court Final Approval of the House v. NCAA Settlement,\" reproducing pre-House Bylaw 15.5 (men's soccer 9.9 equivalencies, women's soccer 14.0 equivalencies)"

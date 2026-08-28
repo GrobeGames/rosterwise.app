@@ -60,7 +60,7 @@ Per the 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar (published 
 - **Before September 1 of junior year**: D1 college coaches cannot initiate substantive recruiting communication. They cannot call, text, email, or extend verbal offers. They can send camp and clinic information.
 - **September 1 of junior year, at 12 p.m. (noon) Eastern**: D1 coaches can begin direct communication. Calls, texts, emails, and direct messages become permissible. Verbal offers can be extended. Off-campus contact and unofficial visits become possible.
 - **September 1 of junior year, at 12 p.m. Eastern**: D1 official visits can also begin. Under NCAA Division I Bylaw 13.6.2.1.2, a women's lacrosse prospect "may not be provided an expense-paid visit earlier than September 1 (12 p.m. Eastern time for women's lacrosse) of the prospective student-athlete's junior year in high school." The contact date and the official-visit date are the same day.
-- **Senior year fall**: Written Offers of Athletics Aid are extended (replacing the National Letter of Intent, which was [eliminated in October 2024](/guide/verbal-commitment-vs-nli/)).
+- **Senior year fall**: Written offers of athletics aid are extended (replacing the National Letter of Intent in Division I, where it was [eliminated in October 2024](/guide/verbal-commitment-vs-nli/); Division II schools may still use the NLI).
 - **Senior year spring**: Final commitments, signings, and admissions paperwork.
 
 > **One wrinkle worth knowing for 2026-27.** The bylaw date and the recruiting calendar are two separate gates, and this cycle they do not line up. September 1, 2026 falls inside a **dead period that runs August 28 – September 3, 2026**, and a dead period bars in-person contact and campus visits outright. So calls, texts, emails and offers can start on September 1 at noon Eastern, but in-person off-campus contact and visits have to wait until the contact period opens on **September 4, 2026**. Check both the bylaw and the current calendar each year.
@@ -239,7 +239,7 @@ Senior year completes the recruiting process for most women's lacrosse athletes.
 - Complete college admissions applications (recruiting and admissions are separate; see [How College Admissions Actually Works for Recruited Athletes](/guide/recruited-athlete-admissions/))
 
 **Written Offer of Athletics Aid**:
-- Per [NLI elimination in October 2024](/guide/verbal-commitment-vs-nli/), athletes now sign a Written Offer of Athletics Aid (the replacement for the National Letter of Intent)
+- Per the [Division I NLI elimination in October 2024](/guide/verbal-commitment-vs-nli/), Division I athletes now sign a written offer of athletics aid; Division II schools may still use the NLI
 - The Written Offer of Athletics Aid is the binding agreement
 - Initial signing dates for early signing periods typically occur in November of senior year, with later signing windows in April or later
 

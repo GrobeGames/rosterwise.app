@@ -90,7 +90,7 @@ Each sport now has a **roster limit** — the maximum number of athletes on the 
 
 ### Not all schools opted in
 
-Power conference schools (SEC, Big Ten, ACC, Big 12) opted into the settlement. Other D1 conferences had until June 30, 2025 to decide. Schools that did not opt in retain the traditional scholarship structure (sport-specific equivalency/head count caps) but cannot share revenue with athletes.
+Schools in the five defendant conferences (the ACC, Big Ten, Big 12, Pac-12 and SEC) are bound by the settlement as defendants rather than by opting in. Every other D1 school chooses: non-defendant institutions had until June 30, 2025 to opt in for 2025-26, and from 2026-27 onward must give notice of intent by March 1 each year. Schools that did not opt in retain the traditional scholarship structure (sport-specific equivalency/head count caps) but cannot share revenue with athletes.
 
 **Families must ask each D1 program directly:** "Has your school opted into the House settlement? How does this affect the scholarship offer you're making?"
 
@@ -156,7 +156,7 @@ This is a sensitive topic, but worth addressing honestly:
 
 **"D3 means paying full price."** Many D3 schools offer generous academic and need-based aid. The sticker price is not the price most families pay.
 
-**"A verbal scholarship offer is locked in."** A verbal offer is not a binding financial commitment. Only a signed Written Offer of Athletics Aid (or equivalent financial aid letter at D3) is binding. See our [verbal commitment guide](/guide/verbal-commitment-vs-nli/).
+**"A verbal scholarship offer is locked in."** A verbal offer is not a financial commitment at all. The commitment exists once a written offer of athletics aid is signed (or, at D3, in the institution's financial aid award letter) — that is what commits the school to the aid it specifies. See our [verbal commitment guide](/guide/verbal-commitment-vs-nli/).
 
 **"Scholarships are guaranteed for four years."** Historically, most athletic scholarships were annual awards. Multi-year scholarships have become more common, but families should ask about renewal terms and understand the conditions under which a scholarship can be reduced or non-renewed.
 

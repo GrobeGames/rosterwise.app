@@ -38,7 +38,7 @@ faq:
   - q: "How is wrestling's timeline different from lacrosse's?"
     a: "Wrestling uses the June 15 after sophomore year contact date that most NCAA sports follow. Lacrosse runs later: women's lacrosse opens at 12 p.m. Eastern on September 1 of junior year, and men's lacrosse — as of a rule change effective August 1, 2026 — opens at 7 a.m. on the Wednesday immediately following Labor Day of junior year. So wrestling's coach-contact window opens months earlier than either. If you've read our lacrosse guides, don't apply that framing to wrestling."
   - q: "Does the National Letter of Intent still exist for wrestling?"
-    a: "No. The NCAA Division I Council eliminated the National Letter of Intent in October 2024. Commitments are now formalized through a written offer of athletics aid, which serves a similar binding function — once signed, other schools are barred from recruiting that athlete. See our universal guide on verbal commitments, the NLI, and the written offer for the full picture."
+    a: "In Division I, no. The NCAA Division I Council eliminated the National Letter of Intent in October 2024, and Division I commitments are now formalized through a written offer of athletics aid — once signed, other schools are prohibited from recruiting communications with that athlete. NCAA.org states that Division II schools may still use the NLI, so ask a Division II program which document it uses. See our universal guide on verbal commitments, the NLI, and the written offer for the full picture."
   - q: "If a coach hasn't contacted us by June 15, are they not interested?"
     a: "Not necessarily. Coaches often evaluate wrestlers for a year or more before the contact date — at tournaments, on film, and through club and high-school coaches — even though they can't initiate substantive contact yet. Silence in June says more about the calendar and a staff's priorities than about a wrestler's ceiling. Proactive, well-targeted outreach from the athlete still matters."
 sources:
@@ -142,7 +142,7 @@ Every other day on the D1 wrestling calendar is a contact period.
 
 ## The post-NLI signing landscape
 
-One important change: the **National Letter of Intent was eliminated by the NCAA Division I Council in October 2024**. Commitments are now formalized through a **written offer of athletics aid**, which preserves the NLI's core function — once a recruit signs, other schools are prohibited from recruiting them. Practically, a signed written offer is the modern equivalent of "signing." For the full explanation of verbal commitments, the former NLI, and the written offer, see our universal guide: [Verbal Commitment vs. NLI vs. Written Offer of Athletics Aid](/guide/verbal-commitment-vs-nli/).
+One important change: the **National Letter of Intent was eliminated by the NCAA Division I Council in October 2024**. Division I commitments are now formalized through a **written offer of athletics aid**, which preserves the NLI's core function — once a recruit signs, other schools are prohibited from recruiting communications with them. NCAA.org states that **Division II schools may still use the NLI**, so at a Division II program ask which document they use. Practically, a signed written offer is the modern equivalent of "signing." For the full explanation of verbal commitments, the former NLI, and the written offer, see our universal guide: [Verbal Commitment vs. NLI vs. Written Offer of Athletics Aid](/guide/verbal-commitment-vs-nli/).
 
 ## Every recruit's journey is different
 

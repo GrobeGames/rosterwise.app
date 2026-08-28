@@ -42,8 +42,6 @@ faq:
     a: "There's no single answer. A good offer is one that fits your family's financial situation, your daughter's competitive level, and her program preferences. A 60% scholarship at a top D1 program may be excellent for one family; a 30% scholarship at a D2 program may be ideal for another. Compare offers in the context of the total financial picture, not just the percentage."
   - q: "If a D3 school doesn't offer athletic scholarships, why should we consider it?"
     a: "Academic merit aid at many D3 schools can produce financial packages competitive with or exceeding partial athletic scholarships at D1 or D2 schools. The total cost of attendance, not the scholarship percentage, is what matters. Many families discover that the best financial outcome comes from a strong D3 program with substantial merit aid."
-  - q: "What if my daughter's program drops women's lacrosse entirely?"
-    a: "Per USA Lacrosse magazine's coverage of Maryland coach John Tillman's analysis, a small number of programs may eliminate women's lacrosse entirely under the settlement's financial pressures. If your daughter has committed to a program that subsequently drops lacrosse, the transfer portal is the standard pathway to a new opportunity."
 sources:
   - "<strong>NJCAA.org, \"Divisional Structure\"</strong> — Division I / II / III scholarship guidelines, quoted verbatim"
   - "<strong>NJCAA Sports Procedures Chart, 2026-27</strong> — per-sport limits on Letter of Intent signees and scholarships (NJCAA Bylaws Article VI, Section 3.A.1)"
@@ -79,7 +77,7 @@ This expansion is one of the largest proportional scholarship increases of any s
 
 **1. The 38 figure is a maximum, not a requirement.** The new cap allows participating schools to award up to 38 scholarships. It does not require any specific funding level. Per USA Lacrosse magazine's coverage of head coach commentary, women's lacrosse programs are expected to distribute across multiple funding tiers — some increasing significantly toward the cap, others maintaining previous levels, others reducing investment.
 
-**2. Women's lacrosse benefited structurally from the settlement.** Per USA Lacrosse magazine's coverage of head coach reactions, the women's side stands to gain meaningfully. North Carolina head coach Jenny Levy is quoted by USA Lacrosse: "I always felt like we just never had that opportunity to reward our athletes the same way that other sports were rewarding their athletes. That's a positive change." Per the same coverage, North Carolina aims to sustain 38 scholarships on the women's side.
+**2. Women's lacrosse benefited structurally from the settlement.** Per USA Lacrosse magazine's coverage of head coach reactions, the women's side stands to gain meaningfully. North Carolina head coach Jenny Levy is quoted by USA Lacrosse: "I always felt like we just never had that opportunity to reward our athletes the same way that other sports were rewarding their athletes. That's a positive change." Per the same coverage, North Carolina hopes to sustain 38 scholarships on the women's side.
 
 **3. Title IX is a structural tailwind.** Per USA Lacrosse magazine's coverage, schools must meet Title IX rules for equitable scholarship allotment. With football scholarship limits expanded by 20 at opt-in schools, women's sports gain matching scholarship growth potential to maintain Title IX compliance. Women's lacrosse is one of the sports that may benefit from this dynamic at schools with large football programs.
 
@@ -87,7 +85,7 @@ This expansion is one of the largest proportional scholarship increases of any s
 
 The variance across programs is now substantial. Different categories of D1 women's lacrosse programs face very different realities:
 
-**Programs investing heavily in women's lacrosse**: Some D1 programs — particularly those at major conferences with revenue resources — are using the settlement to expand women's lacrosse scholarship funding significantly. North Carolina's stated intention to sustain 38 scholarships is one example. Per USA Lacrosse coverage, schools like Virginia are expected to use portions of the settlement's $2.5 million permitted for new scholarships to increase opportunities for women's lacrosse. Programs in this tier may offer more full scholarships, larger partial scholarships, or both.
+**Programs investing heavily in women's lacrosse**: Some D1 programs — particularly those at major conferences with revenue resources — are using the settlement to expand women's lacrosse scholarship funding significantly. North Carolina, which USA Lacrosse reports hopes to sustain 38 scholarships, is one example. Per USA Lacrosse coverage, schools like Virginia are expected to use portions of the settlement's $2.5 million permitted for new scholarships to increase opportunities for women's lacrosse. Programs in this tier may offer more full scholarships, larger partial scholarships, or both.
 
 **Programs maintaining previous levels**: Other D1 programs continue to fund women's lacrosse at or near the previous 12-scholarship equivalent. For these programs, the settlement's main impact is the elimination of the formal cap rather than dramatic funding increases. Partial scholarships remain the dominant pattern.
 
@@ -133,7 +131,11 @@ For many families, D3 women's lacrosse remains a strong option — but the post-
 
 ## NAIA and NJCAA women's lacrosse scholarships
 
-**NAIA women's lacrosse**: The NAIA operates under its own framework. Per the National Women's Lacrosse League (NWLL) reference data, the NAIA does not currently organize lacrosse as a championship sport for its member institutions, though some NAIA schools sponsor women's lacrosse through conferences like the Wolverine-Hoosier Athletic Conference and the Women's Collegiate Lacrosse Associates (WCLA) framework. NAIA athletic scholarships are available at schools that sponsor varsity women's lacrosse, though scholarship rules and funding vary significantly by school.
+**NAIA women's lacrosse**: NAIA.org states that "NAIA Women's Lacrosse, first recognized as an official association sport in 2016," is an official association sport, and the NAIA runs a national championship in it — Benedictine (Kan.) won back-to-back titles, completing an unbeaten season in the most recent final.
+
+On aid, the NAIA Handbook 2025-2026 (Council of Presidents, "Upper Limits for Institutional Aid") sets an upper limit of **12** for lacrosse. Two things about that number matter for families. The table is **not split by gender** — it carries a single "Lacrosse" row, the way it carries a single "Soccer" row. And the NAIA limit governs **countable institutional aid**, not athletic aid alone, so academic and other institutional awards can count against the same 12. A student-athlete counts toward the team limit once they participate in more than 20% of the maximum allowable contests (5 contests in lacrosse) or in NAIA-approved postseason.
+
+Confirm the current limit and how a specific school applies it with the program and at [NAIA.org](https://www.naia.org), since these limits are set by the Council of Presidents and can change by handbook cycle.
 
 **NJCAA women's lacrosse**: read this one carefully. The NJCAA's scholarship structure is clear — Division I colleges may grant full athletic scholarships (tuition, books, fees, room and board, plus up to $250 in course-required supplies and one round trip a year), Division II is limited to tuition, books, fees and the $250 supplies allowance, and Division III may not offer athletic scholarships. But the NJCAA's Sports Procedures Chart, which sets the per-sport cap on Letter of Intent signees, **carries a men's lacrosse row and no women's lacrosse row**. Families should confirm the current status of NJCAA women's lacrosse directly with [NJCAA.org](https://www.njcaa.org) before planning around it.
 
@@ -168,10 +170,6 @@ There's no single answer. A good offer is one that fits your family's financial 
 **"If a D3 school doesn't offer athletic scholarships, why should we consider it?"**
 
 Academic merit aid at many D3 schools can produce financial packages competitive with or exceeding partial athletic scholarships at D1 or D2 schools. The total cost of attendance, not the scholarship percentage, is what matters. Many families discover that the best financial outcome comes from a strong D3 program with substantial merit aid.
-
-**"What if my daughter's program drops women's lacrosse entirely?"**
-
-Per USA Lacrosse magazine's coverage of Maryland coach John Tillman's analysis, a small number of programs may eliminate women's lacrosse entirely under the settlement's financial pressures. If your daughter has committed to a program that subsequently drops lacrosse, the transfer portal is the standard pathway to a new opportunity. See [The Transfer Portal Explained](/guide/transfer-portal/).
 
 ## Every recruit's financial journey is different
 

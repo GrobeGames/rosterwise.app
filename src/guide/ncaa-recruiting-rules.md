@@ -135,7 +135,7 @@ After the initial contact date, coaches can engage in full recruiting communicat
 
 ### Official visits
 
-- Recruits may begin taking official visits **August 1 of junior year** in most sports — the same date in-person off-campus contact opens (some sports have different dates: women's lacrosse official visits begin January 1 of junior year, and men's lacrosse official visits open on its Wednesday-after-Labor-Day contact date)
+- Recruits may begin taking official visits **August 1 of junior year** in most sports — the same date in-person off-campus contact opens. Some sports have their own dates: in **women's lacrosse**, D1 Bylaw 13.6.2.1.2 provides that a prospect "may not be provided an expense-paid visit earlier than September 1 (12 p.m. Eastern time for women's lacrosse) of the prospective student-athlete's junior year in high school"; **men's lacrosse** official visits open on its Wednesday-after-Labor-Day contact date (Bylaw 13.6.2.1.3). January 1 of junior year is the **Division III** official-visit date (D3 Bylaw 13.6.1.1.1), not a Division I women's lacrosse date
 - A recruit may take up to **five official visits** total across all D1 schools (this limit is being reviewed and may change)
 - An official visit is defined as a visit to campus where the school pays for transportation, meals, and/or lodging
 - Official visits are limited to **48 hours**
@@ -156,15 +156,15 @@ After the initial contact date, coaches can engage in full recruiting communicat
 
 D1 signing periods are sport-specific. Most fall sports have a signing period beginning in November. Some sports (basketball, football) have early signing periods. Soccer has one signing window — there is no early signing period for soccer.
 
-As of October 2024, the National Letter of Intent has been eliminated. Athletes now sign a **Written Offer of Athletics Aid**. See our [verbal commitment vs. NLI guide](/guide/verbal-commitment-vs-nli/).
+In October 2024 the NCAA Division I Council eliminated the National Letter of Intent for Division I; those athletes now sign a **written offer of athletics aid**. NCAA.org states that **Division II schools may still use the NLI**. See our [verbal commitment vs. NLI guide](/guide/verbal-commitment-vs-nli/).
 
 ## Division II rules
 
 D2 recruiting rules are significantly less restrictive than D1:
 
-- **No initial contact date restriction.** D2 coaches can call, text, email, and DM prospects at any time.
+- **No initial contact date restriction on communication.** D2 Bylaw 13.1.3.1 provides that communication with a prospect or their family "shall be made at any time," and athletically related recruiting materials may be sent at any time.
 - **Phone calls:** D2 coaches can make recruiting calls at any time.
-- **Official visits:** Rules are similar to D1, with some differences in timing and limits. Check the D2 manual for sport-specific details.
+- **But D2 does have a June 15 gate, and it is on the in-person side.** Per the 2026-27 NCAA Division II Coaches Off-Campus Recruiting Guide (updated July 30, 2026), **official visits** and **in-person, off-campus recruiting contacts** open "after June 15, immediately preceding a prospective student-athlete's junior year in high school." The corresponding bylaws are 13.1.1.1 (in-person contact), 13.3.1.2 (official visits) and 13.8.2.1 (tryouts); boosters are gated by 13.1.3.1.1.
 - **Evaluation and contact periods:** D2 runs a single recruiting calendar covering all sports except football, and it is far simpler than D1's. For 2026-27 the entire year is a contact period except for a signing-date dead period running from **7 a.m. on November 9 to 7 a.m. on November 11, 2026**.
 - **Signing periods:** D2 has sport-specific signing periods, generally similar to D1 timing.
 

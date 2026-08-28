@@ -125,7 +125,7 @@ This myth creates unnecessary pressure, especially on younger recruits who recei
 
 ### What's actually true
 
-Verbal offers are non-binding for both the athlete and the coach. An offer is the beginning of a conversation, not a deadline. Coaches may set timelines for responses, but a coach who gives your athlete 48 hours to decide on a life-changing decision is telling you something about how they operate. Programs that are genuinely interested will give your family reasonable time to evaluate the opportunity. Written Offers of Athletics Aid (which replaced the NLI) are binding when signed — but verbal offers are not.
+Verbal offers are non-binding for both the athlete and the coach. An offer is the beginning of a conversation, not a deadline. Coaches may set timelines for responses, but a coach who gives your athlete 48 hours to decide on a life-changing decision is telling you something about how they operate. Programs that are genuinely interested will give your family reasonable time to evaluate the opportunity. A signed written offer of athletics aid (which replaced the NLI in Division I) commits the school to the aid it specifies — a verbal offer commits no one to anything.
 
 ### What this means for your family
 

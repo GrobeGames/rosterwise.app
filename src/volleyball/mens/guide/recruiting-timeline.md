@@ -129,7 +129,7 @@ If you haven't committed by senior year, you're not behind — you're following 
 **What to do:**
 
 - Continue evaluating programs and visiting campuses if you have remaining interest.
-- Sign your Written Offer of Athletics Aid at the appropriate signing date once you've committed. (The Written Offer of Athletics Aid replaced the National Letter of Intent in October 2024.)
+- Sign your Written Offer of Athletics Aid at the appropriate signing date once you've committed. (The written offer of athletics aid replaced the National Letter of Intent in Division I in October 2024; Division II schools may still use the NLI.)
 - For those still recruiting through senior year: NAIA, D3, and NJCAA all remain active throughout senior year. Some D2 programs continue recruiting into senior year as well.
 - Stay academically eligible. Initial-eligibility certification through the NCAA Eligibility Center is required for D1 and D2 competition; NAIA has its own eligibility center.
 - Make a final decision based on fit — not just rank. Playing time, coaching style, academic match, and financial picture all matter as much as the conference logo.
@@ -141,7 +141,7 @@ The general patterns above describe NCAA Division I recruiting. The picture diff
 - **NCAA Division I and II:** Use the June 15 / August 1 framework described above. Most active recruiting happens junior year, with significant senior-year activity remaining.
 - **NCAA Division III:** Has the most relaxed NCAA recruiting rules. Coaches can communicate more freely earlier. But D3 programs cannot offer athletic scholarships, so the recruiting conversation typically involves academic merit aid, need-based aid, and program fit rather than scholarship money. Top D3 men's volleyball programs (in conferences like the CCIW, the MIAC, the NESCAC, and the SCIAC, among others) compete at a high level and recruit accordingly.
 - **NAIA:** Operates under its own recruiting framework, which is generally less restrictive than NCAA D1. The NAIA Men's Volleyball Championship is in its 7th annual edition in 2026, with a 12-team field. (The NAIA also crowned men's volleyball national champions from 1969 to 1980, and again as an emerging sport from 1999, before the current championship began in 2019.) Park (Mo.), Grand View (Iowa), and other established programs anchor the competitive top of the NAIA level.
-- **NJCAA:** Junior college men's volleyball recruiting tends to happen later, often during senior year of high school, and a meaningful share of NJCAA recruits use their junior college years as a development pathway to four-year programs. 2026 marks the first year NJCAA men's volleyball is an official championship sport (previously an invitational).
+- **NJCAA:** Junior college men's volleyball recruiting tends to happen later, often during senior year of high school, and a meaningful share of NJCAA recruits use their junior college years as a development pathway to four-year programs. 2026 was the first year NJCAA men's volleyball was an official championship sport (previously an invitational); Finger Lakes (NY) won the inaugural national championship.
 
 ## How the club season shapes the timeline
 

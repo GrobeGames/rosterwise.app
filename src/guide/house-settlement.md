@@ -162,7 +162,11 @@ For more on how the transfer portal works and how to evaluate its impact on a pr
 
 The House settlement was not mandatory. Each Division I school had to decide whether to opt in to the revenue-sharing model.
 
-**The numbers:** Approximately 319 of the roughly 364 Division I schools opted in — about 82%. All Power Five conference schools opted in. Service academies (Army, Navy, Air Force) opted out due to federal employment restrictions.
+**Who is bound, and who chooses.** Per the NCAA's "Q&A: Implementation of the House Settlement" (published June 13, 2025), "any Division I institution that is a member of a defendant conference (i.e., the Atlantic Coast Conference, the Big Ten Conference, the Big 12 Conference, the Pac-12 Conference, and the Southeastern Conference) or is providing additional payments or benefits is a Participating Institution." Members of those five conferences are bound as defendants — they did not "opt in." Every other Division I school chooses.
+
+**And the choice is re-made every year.** For 2025-26, non-defendant institutions had to formally opt in by June 30, 2025. "For the 2026-27 academic year and beyond, Division I institutions that intend to provide additional settlement-related payments or benefits must provide notice of intent to the NCAA no later than March 1 of each year, beginning March 1, 2026." A school that did not opt in one year may opt in the next, and a school that did may return to pre-settlement benefit levels.
+
+**We do not publish a count of how many schools opted in.** The figures that circulate come from secondary reporting rather than an NCAA-published list, and because the election is annual they go stale every March. Since a school's status can change between the year your athlete is recruited and the year they enrol, **ask the program directly whether it has opted in for the year your athlete would arrive** — and ask again if the recruitment spans more than one cycle.
 
 ### What opting in means
 

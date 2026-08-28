@@ -92,7 +92,7 @@ Because the settlement is still being implemented and schools made different cho
 - Are you still awarding full scholarships, or distributing aid differently?
 - How many of your 28 roster spots are expected to carry athletic aid?
 
-**Honest caveat:** There is no comprehensive public database of which specific women's soccer programs opted in. Power conference schools (SEC, Big Ten, ACC, Big 12) opted in at the institutional level. Other D1 schools made individual decisions. The only reliable way to know is to ask the program.
+**Honest caveat:** There is no comprehensive public database of which specific women's soccer programs opted in. Schools in the five defendant conferences (the ACC, Big Ten, Big 12, Pac-12 and SEC) are bound by the settlement as defendants rather than by opting in, at the institutional level. Other D1 schools made individual decisions. The only reliable way to know is to ask the program.
 
 ## D2 women's soccer: the equivalency model
 
@@ -138,7 +138,7 @@ Regardless of division, here's what typically happens:
 
 1. **Verbal offer:** A coach communicates a scholarship amount (or percentage of cost of attendance) during the recruiting process. Verbal offers are not binding for either party.
 
-2. **Written Offer of Athletics Aid:** The formal document (which replaced the National Letter of Intent in 2024) that specifies the scholarship amount and terms. This is binding once signed.
+2. **Written offer of athletics aid:** The formal document (which replaced the National Letter of Intent in Division I in 2024) that specifies the scholarship amount and terms. Once it is signed, the school is committed to the aid it specifies, and other schools are prohibited from recruiting communications with that athlete.
 
 3. **Financial aid package:** The school's financial aid office assembles a total package that may include athletic aid, academic merit aid, need-based grants, federal aid, and loans. The athletic scholarship is one component.
 

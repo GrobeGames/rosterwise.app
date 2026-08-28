@@ -87,7 +87,7 @@ To put the scholarship change in perspective: at an opt-in school, a men's D1 la
 
 ## The numbers also include hard reality
 
-The settlement's roster cap creates a real tradeoff for lacrosse programs. Per USA Lacrosse magazine's coverage, with the average 2024 D1 men's lacrosse roster at 52.7 players and the new cap at 48, the typical men's D1 program had to reduce its roster by approximately 4.7 players to comply with the new limit. Across all D1 men's lacrosse programs, USA Lacrosse estimated that approximately 362 players overall lost the opportunity to compete at the Division I level as the new roster caps took effect.
+The settlement's roster cap creates a real tradeoff for lacrosse programs. Per USA Lacrosse magazine's coverage, the average 2024 D1 men's lacrosse roster was 52.7 players against a new cap of 48. USA Lacrosse estimated in June 2025, the day the settlement was approved, that this meant "an average of 4.7 players per team - approximately 362 players overall - will lose the opportunity to compete at the Division I level." That figure is the magazine's forecast rather than a tally of what has since occurred.
 
 The women's side faced a different reality. The average 2024 D1 women's lacrosse roster was 34.7 — below the new 38-player cap. Most women's D1 programs were not forced to cut players to comply. Some programs that carried larger rosters did need to reduce, but the impact was less widespread than on the men's side.
 
@@ -97,7 +97,7 @@ For families with athletes already rostered at D1 programs in 2024-25, the settl
 
 The most important honest framing for families is this: the settlement simultaneously expanded scholarship opportunity and reduced roster opportunity in NCAA Division I men's lacrosse. More players can now be on scholarship, but fewer players can be on the roster.
 
-For women's NCAA Division I lacrosse, the picture is more straightforwardly positive: roster impact was minimal, and scholarship potential expanded significantly. Per USA Lacrosse magazine's coverage of head coach reactions, North Carolina head coach Jenny Levy described the settlement as a long-overdue opportunity to reward women's lacrosse athletes the way other sports had been rewarding theirs, with North Carolina aiming to sustain 38 scholarships on the women's side.
+For women's NCAA Division I lacrosse, the picture is more straightforwardly positive: roster impact was minimal, and scholarship potential expanded significantly. Per USA Lacrosse magazine's coverage of head coach reactions, North Carolina head coach Jenny Levy described the settlement as a long-overdue opportunity to reward women's lacrosse athletes the way other sports had been rewarding theirs, with USA Lacrosse reporting that North Carolina hopes to sustain 38 scholarships on the women's side.
 
 The Title IX framework also matters significantly. Schools must meet Title IX requirements for equitable allotment of scholarships across men's and women's athletics. With football allowed to increase by 20 scholarships under the settlement, women's sports become eligible for matching scholarship increases to maintain Title IX compliance. Women's lacrosse is one of the sports that may benefit from this dynamic.
 
@@ -105,7 +105,7 @@ The Title IX framework also matters significantly. Schools must meet Title IX re
 
 The most important piece of context that headlines often miss: the new roster caps are MAXIMUMS, not requirements. The settlement allows participating schools to award scholarships up to the cap, but it does not require any specific funding level. Whether a particular men's D1 lacrosse program offers 48 scholarships, 25, or fewer depends entirely on that school's budget, athletic department priorities, and program-specific decisions.
 
-Per USA Lacrosse magazine's coverage of head coach commentary, Maryland head coach John Tillman described the realistic distribution of program responses as falling into approximately five categories:
+Per USA Lacrosse magazine (August 1, 2024), former Denver head coach and current IMLCA president Bill Tierney described the realistic distribution of program responses as falling into five categories:
 
 1. Programs that significantly increase scholarships — potentially funding 25 or more scholarships
 2. Programs that continue to support what previously existed (around 12.6 for men's, around 12 for women's)
@@ -113,7 +113,7 @@ Per USA Lacrosse magazine's coverage of head coach commentary, Maryland head coa
 4. Programs that drop scholarships entirely and move to a club model
 5. Programs that drop lacrosse entirely
 
-Veteran lacrosse coach Bill Tierney is quoted by USA Lacrosse magazine acknowledging the competitive implications: "Schools that decide to go big in lacrosse — Hopkins, maybe Northwestern women — they might do that. If they do, it's going to make the separation even wider."
+Tierney is quoted by USA Lacrosse magazine acknowledging the competitive implications: "Schools that decide to go big in lacrosse — Hopkins, maybe Northwestern women — they might do that. If they do, it's going to make the separation even wider."
 
 The distribution of funding across programs will play out over multiple recruiting cycles. Families should not assume that "up to 48 scholarships" means any specific program will actually award 48.
 

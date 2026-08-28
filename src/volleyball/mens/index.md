@@ -66,7 +66,7 @@ A third NCAA figure exists and is worth knowing if you see it quoted: an NCAA re
 The other two governing bodies:
 
 - **NAIA:** the NAIA publishes no sport-sponsorship table, so there is no NAIA-published program count to quote. Its own 2025-26 men's volleyball statistics list roughly 46 distinct teams, which is a floor rather than an official figure. The NAIA runs a national championship with a 12-team field.
-- **NJCAA:** 22 men's volleyball teams across all divisions on the NJCAA's 2026-27 team list, concentrated in the Northeast. 2026 is the first year NJCAA men's volleyball is an official national championship sport (an 8-team double-elimination bracket); it had previously been run as an invitational.
+- **NJCAA:** 22 men's volleyball teams across all divisions on the NJCAA's 2026-27 team list, concentrated in the Northeast. 2026 was the first year NJCAA men's volleyball was an official national championship sport (an 8-team double-elimination bracket); it had previously been run as an invitational. Finger Lakes (NY) won the inaugural title at College of DuPage, April 23-25, 2026.
 
 Adding those to the NCAA figures puts the all-divisions total somewhere in the **mid-260s to mid-270s** — not the "roughly 200" that circulates widely, which counts only part of the NCAA and none of the rest.
 

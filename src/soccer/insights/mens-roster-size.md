@@ -129,7 +129,7 @@ A practical approach for families:
 
 ## Every recruit's journey is different
 
-These are averages across 1,012 programs. Individual programs vary significantly — the difference between the smallest and largest D1 men's soccer rosters is 29 players. In NAIA, the range is 68 players.
+These are averages across 1,012 programs. Individual programs vary significantly — the difference between the smallest and largest D1 men's soccer rosters is 27 players (15 to 42, per the table above). In NAIA, the range is 68 players (14 to 82).
 
 Families should treat these averages as a starting point, not a conclusion. Every program's roster tells its own story — and reading that story is exactly what RosterWise is built to help with.
 

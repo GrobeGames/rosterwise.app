@@ -66,7 +66,7 @@ That's a sharp contrast with **women's** wrestling, which currently runs a singl
 
 ## Ten weight classes
 
-Men's college wrestling — across the NCAA, NAIA, and NJCAA — is contested at **ten weight classes**: **125, 133, 141, 149, 157, 165, 174, 184, 197, and heavyweight (183–285)**. A program fields one starter per weight, and wrestlers may compete at their certified class or one class above. For the complete weight-class reference (including women's, NAIA/NJCAA, and high-school sets) and how weigh-ins and certification work, see [Understanding College Wrestling Weight Classes](/wrestling/guide/understanding-wrestling-weight-classes/).
+Men's college wrestling — across the NCAA, NAIA, and NJCAA — is contested at **ten weight classes**: **125, 133, 141, 149, 157, 165, 174, 184, 197, and heavyweight (183–285)**. A program fields one starter per weight, and the rules book allows a wrestler who weighs in for one class to be shifted to any higher class in a dual meet (heavyweight's 183-pound minimum is the possible exception). For the complete weight-class reference (including women's, NAIA/NJCAA, and high-school sets) and how weigh-ins and certification work, see [Understanding College Wrestling Weight Classes](/wrestling/guide/understanding-wrestling-weight-classes/).
 
 ## Weight-class depth: the thing that actually decides opportunity
 

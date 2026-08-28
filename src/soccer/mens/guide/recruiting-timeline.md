@@ -97,7 +97,7 @@ These dates apply to the 2026-27 recruiting cycle. The NCAA publishes an updated
 
 ## The major changes you may have heard about (and what they actually mean)
 
-**The NLI is gone.** In October 2024, the NCAA eliminated the National Letter of Intent program. It has been replaced by a **Written Offer of Athletics Aid**. The signing dates and binding nature are essentially the same; the paperwork has changed names. If a family hears "we don't sign NLIs anymore," that's correct — and it doesn't mean commitments are less binding.
+**The NLI is gone in Division I.** In October 2024 the NCAA Division I Council eliminated the National Letter of Intent, replacing it with a **written offer of athletics aid**; the previous formula for determining signing dates applies to those written offers. NCAA.org states that **Division II schools may still use the NLI**, so "we don't sign NLIs anymore" is correct at a Division I program and may not be at a Division II one — ask which document the program uses. What the NCAA states about signing a written offer is that other schools are then prohibited from recruiting communications with that athlete.
 
 **The House v. NCAA settlement.** Approved June 6, 2025, this settlement fundamentally restructured Division I athletics. For men's college soccer, the key changes are:
 
@@ -105,7 +105,7 @@ These dates apply to the 2026-27 recruiting cycle. The NCAA publishes an updated
 - **Roster limit replaces scholarship limit.** D1 men's soccer roster limit is now **28 players** for opt-in schools.
 - **More potential scholarships, and a hard cap on spots where there was none.** Before the settlement no NCAA roster limit existed in Division I; programs worked against the 9.9-equivalency scholarship cap instead. A roster limit of 28 is a genuinely new constraint, even though more of those 28 spots can now be funded. RosterWise's roster data begins with 2025-26 — the first season played under the new limits — so we cannot describe pre-settlement roster sizes and will not estimate them.
 - **Walk-on opportunities are reduced.** A real change for families who were planning a walk-on path.
-- **Schools choose whether to opt in.** Power conference schools (SEC, Big Ten, ACC, Big 12) opted in. Other D1 conferences had until June 30, 2025 to decide. Programs that don't opt in retain older scholarship limits but cannot share revenue with athletes.
+- **Schools choose whether to opt in — except the defendants.** Schools in the five defendant conferences (the ACC, Big Ten, Big 12, Pac-12 and SEC) are bound by the settlement as defendants rather than by opting in. Every other D1 school chooses: the deadline was June 30, 2025 for 2025-26, and from 2026-27 onward notice of intent is due March 1 each year. Programs that don't opt in retain older scholarship limits but cannot share revenue with athletes.
 
 **Honest caveat:** We don't have a comprehensive public list of which men's soccer programs opted in. Families should ask each program directly whether they have opted into the House settlement — this affects how scholarships and roster spots are structured.
 

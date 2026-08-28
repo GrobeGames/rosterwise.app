@@ -14,21 +14,29 @@ children:
     summary: "When commitments actually happen — the new Wednesday-after-Labor-Day contact rule, typical timelines by division, and the current recruiting landscape."
     status: live
   - title: "How Men's College Lacrosse Scholarships Work"
-    url: /lacrosse/mens/guide/scholarships/
+    url: /lacrosse/mens/guide/scholarships-after-house-settlement/
     summary: "Equivalency scholarships, the House settlement impact, roster limits, and what families should realistically expect."
-    status: coming-soon
+    status: live
   - title: "The Men's College Lacrosse Club & Showcase Pathway"
     url: /lacrosse/mens/guide/club-pathways/
     summary: "How club lacrosse, the summer circuit, and showcases shape recruiting — and why pathway alone doesn't determine outcomes."
-    status: coming-soon
-  - title: "Canadian Recruiting in Men's College Lacrosse"
-    url: /lacrosse/mens/guide/canadian-recruiting/
+    status: live
+  - title: "International Recruiting in Men's College Lacrosse"
+    url: /lacrosse/mens/guide/international-recruiting/
     summary: "How Canadian players are recruited, the box-lacrosse influence, and what it means for domestic recruits and roster composition."
-    status: coming-soon
+    status: live
   - title: "What Men's College Lacrosse Coaches Look for by Position"
-    url: /lacrosse/mens/guide/what-coaches-look-for/
+    url: /lacrosse/mens/guide/coaches-look-for-by-position/
     summary: "What coaches evaluate for Attack, Midfield, Defense, LSM, FOGO, and Goalie."
-    status: coming-soon
+    status: live
+  - title: "Men's College Lacrosse ID Camps & Tournaments"
+    url: /lacrosse/mens/guide/id-camps-and-tournaments/
+    summary: "Which events coaches actually attend, how college ID camps differ from showcase tournaments, and how to choose."
+    status: live
+  - title: "The Men's College Lacrosse Recruiting Video"
+    url: /lacrosse/mens/guide/recruiting-video/
+    summary: "What coaches want to see in a highlight reel, how to structure it, and the mistakes that get videos closed early."
+    status: live
 sources:
   - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 17.2 (Roster Limitations: men's lacrosse 48, women's lacrosse 38), Bylaws 13.1.1.1.7 and 13.1.1.1.8 (initial contact dates) and the related telephone, materials, visit and camp provisions — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - "<strong>2026-27 NCAA Division I Men's Lacrosse and Women's Lacrosse Recruiting Calendars</strong> — official NCAA documents at ncaaorg.s3.amazonaws.com"
@@ -66,7 +74,7 @@ Late development is common in men's lacrosse, and the right program depends on f
 
 ## Men's lacrosse content
 
-The men's lacrosse guides below are in development and will publish into this section. In the meantime, our universal [Recruiting Guides](/guide/) cover the topics that apply across every sport — NCAA rules, scholarships, the transfer portal, admissions, and financial aid.
+The men's lacrosse guides below are published and linked. Our universal [Recruiting Guides](/guide/) cover the topics that apply across every sport — NCAA rules, scholarships, the transfer portal, admissions, and financial aid.
 
 ---
 

@@ -76,7 +76,7 @@ The shift from head count to roster-limit-based aid creates new questions:
 
 ### Opt-in vs. non-opt-in: what families need to know
 
-Not all D1 schools opted into the House settlement. Power conference schools (SEC, Big Ten, ACC, Big 12) opted in at the institutional level. Other D1 conferences and schools made individual decisions.
+Not all D1 schools opted into the House settlement. Schools in the five defendant conferences (the ACC, Big Ten, Big 12, Pac-12 and SEC) are bound by the settlement as defendants rather than by opting in, at the institutional level. Other D1 conferences and schools made individual decisions.
 
 **At opt-in schools:** The 12 head count model is replaced by an 18-player roster limit with flexible scholarship distribution.
 
@@ -137,7 +137,7 @@ Regardless of division, here's what typically happens:
 
 1. **Verbal offer:** A coach communicates a scholarship amount (or percentage of cost of attendance) during the recruiting process. Verbal offers are not binding for either party.
 
-2. **Written Offer of Athletics Aid:** The formal document (which replaced the National Letter of Intent in 2024) that specifies the scholarship amount and terms. This is binding once signed.
+2. **Written offer of athletics aid:** The formal document (which replaced the National Letter of Intent in Division I in 2024) that specifies the scholarship amount and terms. Once it is signed, the school is committed to the aid it specifies, and other schools are prohibited from recruiting communications with that athlete.
 
 3. **Financial aid package:** The school's financial aid office assembles a total package that may include athletic aid, academic merit aid, need-based grants, federal aid, and loans. The athletic scholarship is one component.
 

@@ -92,7 +92,7 @@ When a roster is capped at 28 and a coaching staff has more scholarship funding 
 
 ### Not all schools opted in
 
-The House settlement applies to schools that opted into the revenue-sharing model. Power conference schools (SEC, Big Ten, ACC, Big 12) opted in. Other D1 conferences had the option. Programs that did not opt in retain traditional scholarship structures without roster limits — but also cannot share revenue with athletes.
+The House settlement applies to schools that opted into the revenue-sharing model. Schools in the five defendant conferences (the ACC, Big Ten, Big 12, Pac-12 and SEC) are bound by the settlement as defendants rather than by opting in. Every other D1 school chooses, and re-elects annually. Programs that did not opt in retain traditional scholarship structures without roster limits — but also cannot share revenue with athletes.
 
 **Families should ask each program directly:** "Did your school opt into the House settlement? What is your current roster limit? How many walk-on spots do you typically carry?"
 

@@ -83,7 +83,7 @@ This is the scenario that families fear most: your athlete commits to a program,
 
 **Verbal commitments are not binding for either party.** A verbal commitment to a program is essentially a commitment to the coaching staff. When the coach leaves, the moral and practical foundation of that commitment changes. Players are free to reopen their recruiting process, and they often should.
 
-**Written Offers of Athletics Aid are binding to the institution.** If a player has signed a Written Offer of Athletics Aid (which replaced the National Letter of Intent), the financial commitment from the institution remains in effect even if the coach leaves. However, the playing-time expectations, positional plans, and cultural promises that accompanied the offer may not survive the coaching change.
+**Written Offers of Athletics Aid are binding to the institution.** If a player has signed a written offer of athletics aid (which replaced the National Letter of Intent in Division I; Division II schools may still use the NLI), the financial commitment from the institution remains in effect even if the coach leaves. However, the playing-time expectations, positional plans, and cultural promises that accompanied the offer may not survive the coaching change.
 
 **New coaches evaluate the existing roster.** A new coach arrives with their own vision and their own recruiting targets. Players recruited by the previous coach may or may not fit the new coach's plans. This is an uncomfortable reality, but it's the reality.
 

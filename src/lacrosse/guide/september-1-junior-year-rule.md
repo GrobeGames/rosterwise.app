@@ -221,7 +221,7 @@ For lacrosse families, the practical implication of a junior-year contact date i
 
 **Junior year (11th grade)**: Active recruiting. Conversations with coaches, official and unofficial visits, verbal offers, decisions about which programs to seriously pursue.
 
-**Senior year (12th grade)**: Finalize commitments. Sign Written Offers of Athletics Aid (the replacement for the National Letter of Intent, which was [eliminated in October 2024](/guide/verbal-commitment-vs-nli/)). Complete admissions applications.
+**Senior year (12th grade)**: Finalize commitments. Sign the written offer of athletics aid (which replaced the National Letter of Intent in Division I when it was [eliminated in October 2024](/guide/verbal-commitment-vs-nli/); Division II schools may still use the NLI). Complete admissions applications.
 
 This timeline differs meaningfully from sports operating under the June 15 rule — in lacrosse, the active recruiting window opens roughly two and a half months later. Families researching lacrosse should plan accordingly.
 

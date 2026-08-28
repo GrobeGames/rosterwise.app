@@ -1,7 +1,7 @@
 ---
 layout: content.njk
 title: "Verbal Commitment vs. NLI vs. Official Offer: What Each One Really Means | RosterWise™"
-description: "What a verbal commitment actually means, why the NLI was eliminated in 2024, how the Written Offer of Athletics Aid works, and what families need to know about the commitment process."
+description: "What a verbal commitment actually means, why Division I eliminated the NLI in 2024 while Division II may still use it, how the Written Offer of Athletics Aid works, and what families need to know about the commitment process."
 date: 2026-04-26
 breadcrumbs:
   - text: Home
@@ -9,7 +9,7 @@ breadcrumbs:
   - text: Guide
     url: /guide/
   - text: Verbal Commitment vs. NLI
-summary: "The National Letter of Intent was eliminated in October 2024. Verbal commitments remain non-binding. The Written Offer of Athletics Aid is the new signing document. This guide explains what each term means, what changed, and what families should understand about the commitment process — including the reality that commitments fall through more often than social media suggests."
+summary: "Division I eliminated the National Letter of Intent in 2024; Division II schools may still use it. Verbal commitments remain non-binding. In Division I, the written offer of athletics aid is the signing document. This guide explains what each term means, what changed, and what families should understand about the commitment process — including the reality that commitments fall through more often than social media suggests."
 related:
   - title: "The College Recruiting Timeline"
     url: /guide/recruiting-timeline/
@@ -22,7 +22,8 @@ related:
   - title: "Red Flags to Watch for During Recruiting"
     url: /guide/recruiting-red-flags/
 sources:
-  - "NCAA.org, \"National Letter of Intent program ends,\" October 2024"
+  - "<strong>NCAA.org — \"DI Council approves changes to notification-of-transfer windows in basketball, football\" (2024-10-09)</strong> — the Council action transitioning NLI program protections into NCAA signing and recruiting rules, written offers of athletics aid replacing the NLI, and the prohibition on recruiting communications by other schools after a prospect signs"
+  - "<strong>NCAA.org — Scholarships &amp; Financial Aid</strong> (ncaa.org/student-athletes/scholarships-and-financial-aid/, last modified 2026-07-22) — \"Division I eliminated the National Letter of Intent in 2024; Division II schools may still use it\"; sport-specific signing periods; July 1 written notice and appeal rights"
   - "NCAA.org, Written Offer of Athletics Aid guidelines"
   - "NCAA.org, Division I, II, and III Manuals (2025-26)"
   - "NCAA.org, Transfer Portal guidelines"
@@ -77,30 +78,30 @@ A verbal commitment is when an athlete publicly or privately tells a program the
 
 **There is also no standard timeline for how long a verbal commitment lasts before signing.** Some athletes verbally commit years before the signing period. Others commit days before signing. Both are normal.
 
-## The National Letter of Intent: what it was, and why it's gone
+## The National Letter of Intent: what changed, and in which division
 
-For decades, the National Letter of Intent (NLI) was the binding document in college recruiting. An athlete would sign the NLI during the sport-specific signing period, and both the athlete and the school would be bound: the school committed to providing athletic aid for one year, and the athlete committed to attending that school for one year.
+For decades, the National Letter of Intent (NLI) was the standard signing document in college recruiting, administered by the Conference Commissioners Association rather than by the NCAA.
 
-**In October 2024, the NCAA eliminated the NLI program.** The reasons were complex — involving antitrust concerns, the House v. NCAA settlement, and a broader restructuring of how athletic aid works — but the practical effect for families is straightforward:
+**In October 2024, the Division I Council adopted changes to NCAA signing rules that transitioned the NLI program's protections into signing and recruiting rules, effective immediately.** NCAA.org states the position plainly: "Division I eliminated the National Letter of Intent in 2024; Division II schools may still use it."
 
-**The NLI no longer exists. It has been replaced by the Written Offer of Athletics Aid.**
+**So the answer depends on the division.** In Division I, the NLI is gone and written offers of athletics aid replace it. In Division II, schools may still use the NLI. If a coach, a peer, or an article refers to "signing your NLI" in a Division I context, they are using outdated terminology — but in Division II it may be exactly the right term. Ask the program which document they use.
 
-If a coach, a peer, or an article refers to "signing your NLI," they are using outdated terminology. The process and timing are similar, but the document is different.
+## The written offer of athletics aid (Division I)
 
-## Written Offer of Athletics Aid
-
-The Written Offer of Athletics Aid is the new binding document that replaced the NLI.
+Per the October 9, 2024 Division I Council action, "written offers of athletics aid will replace the NLI, and the previous formula for determining signing dates will be applied to those written offers."
 
 **How it works:**
-- During the sport-specific signing period (or after, depending on division), a school presents the athlete with a formal written offer specifying the financial aid being offered
+- During the sport-specific signing period, a school presents the athlete with a formal written offer specifying the financial aid being offered
 - The athlete reviews and signs the offer
-- Once signed by both parties, it is a binding agreement: the school commits to providing the specified aid, and the athlete commits to attending that institution
+- The school commits to providing the specified aid
+
+**What the NCAA states about signing:** "After a prospect signs a written offer of athletics aid, other schools that offer athletically related financial aid will be prohibited from recruiting communications with that prospect." In other words, the published effect of signing is a **recruiting restriction on other schools** — it stops the recruiting of that athlete. The Council action does not describe the written offer as binding the athlete to enrol at that institution, and we are not going to state that it does.
 
 **Key details:**
-- The signing dates and windows are essentially the same as they were under the NLI system
+- The signing dates and windows follow the same formula that applied under the NLI system
 - The document is institution-specific (not managed by a central NLI program)
-- The binding nature is similar: once signed, an athlete who wants to attend a different school may face transfer restrictions or financial aid delays (though the transfer portal process has its own rules — see our [transfer portal guide](/guide/transfer-portal/))
-- The specific terms, release provisions, and penalties may vary somewhat by institution
+- Transfer prospects may be signed by a new school once their names are permissibly entered in the Transfer Portal
+- The specific terms, release provisions, and conditions may vary by institution — which is exactly why the document needs to be read
 
 **Families should read the Written Offer of Athletics Aid carefully before signing.** Understand exactly what financial aid is being offered, for how long, under what conditions it can be renewed, and what happens if the athlete wants to transfer. Ask the coaching staff and the compliance office to explain anything that isn't clear.
 
@@ -113,9 +114,9 @@ The Written Offer of Athletics Aid is the new binding document that replaced the
 - The House settlement has changed scholarship structures at opt-in schools — see our [scholarships guide](/guide/athletic-scholarships/)
 
 ### Division II
-- Similar Written Offer of Athletics Aid process
-- Signing periods align with D1 for most sports
-- Scholarship structures are traditional equivalency (partial scholarships)
+- **Division II schools may still use the National Letter of Intent** — the 2024 elimination was a Division I change, not an NCAA-wide one. Ask each program which document it uses
+- Signing dates are sport-specific; Division I and Division II both have sport-specific signing periods, and signing outside them is not permitted
+- Scholarship structures are equivalency in every sport (partial scholarships are the norm)
 
 ### Division III
 - No athletic scholarships, so there is no Written Offer of Athletics Aid for athletics

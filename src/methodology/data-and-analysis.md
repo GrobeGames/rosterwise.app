@@ -47,7 +47,7 @@ RosterWise's 2025 college soccer analysis draws from four categories of authorit
 
 **Roster data** comes directly from the official athletics websites of every NCAA and NAIA college soccer program in the United States. These are the same roster pages that coaches, athletes, and families access publicly on each program's athletics site. RosterWise captures the full published roster for every program — every player, every position, every class year, every hometown — from the source of record.
 
-**Division and conference data** comes from [NCAA.org](https://www.ncaa.org) and [NAIA.org](https://naia.org), which maintain the authoritative membership lists for their respective associations. Conference assignments in our dataset reflect the 2025 NCAA season membership, including the 2024 conference realignment (Pac-12 dissolution, ACC expansion, Big 12 expansion).
+**Division and conference data** comes from [NCAA.org](https://www.ncaa.org) and [NAIA.org](https://naia.org), which maintain the authoritative membership lists for their respective associations. Conference assignments in our dataset reflect the 2025 NCAA season membership as those bodies published it, including the conference moves that took effect for that season.
 
 **Institutional data** — school enrollment, location, academic profiles, and other characteristics — comes from the [U.S. Department of Education's IPEDS database](https://nces.ed.gov/ipeds/), the federal government's comprehensive source for postsecondary institution data.
 
@@ -107,7 +107,7 @@ Players listed with multiple positions (e.g., "M/F" or "Midfielder/Forward") are
 
 ### Conference assignment
 
-Conference assignments reflect 2025 NCAA season membership as published by NCAA.org and NAIA.org. The 2024 conference realignment — including the Pac-12 dissolution, ACC expansion, and Big 12 expansion — is reflected in our data. Programs that changed conferences between the 2024 and 2025 seasons are listed under their 2025 conference.
+Conference assignments reflect 2025 NCAA season membership as published by NCAA.org and NAIA.org. Programs that changed conferences between the 2024 and 2025 seasons are listed under their 2025 conference.
 
 ## Coverage and completeness
 
@@ -117,9 +117,9 @@ RosterWise's 2025 soccer dataset includes **2,235 programs** out of 2,246 total 
 
 | Division | Men's Programs | Women's Programs | Total |
 |----------|---------------|-----------------|-------|
-| D1 | 211 (98.1%) | 347 (99.1%) | 558 |
+| D1 | 211 (99.1%) | 347 (99.4%) | 558 |
 | D2 | 205 (100%) | 263 (100%) | 468 |
-| D3 | 406 (99.8%) | 416 (99.5%) | 822 |
+| D3 | 406 (99.8%) | 416 (99.3%) | 822 |
 | NAIA | 190 (99.5%) | 197 (99.0%) | 387 |
 | **Total** | **1,012** | **1,223** | **2,235** |
 

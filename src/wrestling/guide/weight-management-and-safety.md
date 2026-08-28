@@ -29,7 +29,7 @@ faq:
   - q: "What is the purpose of the NCAA wrestling weight-management program?"
     a: "To protect athlete health by preventing dangerous weight cutting. The program establishes a scientifically grounded minimum weight for each wrestler and limits how quickly they can lose weight, so that making a weight class is bounded by health rather than by how much a wrestler is willing to dehydrate or starve. It is a safety system first and foremost."
   - q: "How does the NCAA decide the lowest weight class a wrestler can make?"
-    a: "Before the season, each wrestler completes an assessment that includes a hydration check and a body-composition measurement. A minimum body-fat standard — 5% for men and 12% for women — is used to calculate a minimum wrestling weight. A wrestler cannot be certified or compete below that weight. The result is entered into the NCAA's online weight-management system (its Optimal Performance Calculator), which tracks the allowable descent."
+    a: "Before the season, each wrestler completes an assessment that includes a hydration check and a body-composition measurement. A minimum body-fat standard — 5% for men and 17% for women — is used to calculate a minimum wrestling weight. A wrestler cannot be certified or compete below that weight. The result is entered into the NCAA's online weight-management system (its Optimal Performance Calculator), which tracks the allowable descent."
   - q: "How fast are wrestlers allowed to lose weight?"
     a: "The program limits the rate of loss to no more than 1.5% of body weight per week as part of a monitored 'descent plan.' The point is to make gradual, supervised change the only compliant path and to rule out rapid, dangerous cutting."
   - q: "Is this article going to tell my child how to cut weight?"
@@ -65,7 +65,7 @@ Why it matters: this single step is designed to stop a wrestler from arriving de
 
 ### 2. A body-composition assessment sets a minimum weight
 
-Next, the wrestler's **body composition** is measured — by skinfold calipers, hydrostatic (underwater) weighing, or air-displacement plethysmography (a BodPod), depending on the program. From that measurement, a **minimum wrestling weight** is calculated using a minimum body-fat floor: **5% for men and 12% for women**. A wrestler **cannot be certified or compete below** the weight that floor produces.
+Next, the wrestler's **body composition** is measured — by skinfold calipers, hydrostatic (underwater) weighing, or air-displacement plethysmography (a BodPod), depending on the program. From that measurement, a **minimum wrestling weight** is calculated using a minimum body-fat floor: **5% for men and 17% for women**. A wrestler **cannot be certified or compete below** the weight that floor produces.
 
 Why it matters: this is the heart of the protection. It replaces "how low can you go?" with a science-based floor. The lowest class a wrestler can make is decided by physiology, not willpower — and it's the same objective standard for everyone.
 
@@ -81,7 +81,7 @@ The NCAA Men's Wrestling Rules Book (with corresponding women's rules) explicitl
 
 ## Do men's and women's programs use the same rules?
 
-Not identically. There is a **separate women's weight-management packet**, with its own standards (including the 12% minimum body-fat floor versus 5% for men). Families of women wrestlers should reference the women's packet specifically rather than assuming the men's numbers apply. Both share the same purpose and structure — hydration check, minimum-weight assessment, monitored descent — but the specifics differ, and it matters to get them right.
+Not identically. There is a **separate women's weight-management packet**, with its own standards (including the 17% minimum body-fat floor versus 5% for men). The women's packet states that the American College of Sports Medicine "has chosen 17 percent as the essential fat level in collegiate female athletes and the lower limit for safe and normal growth in this group." Families of women wrestlers should reference the women's packet specifically rather than assuming the men's numbers apply. Both share the same purpose and structure — hydration check, minimum-weight assessment, monitored descent — but the specifics differ, and it matters to get them right.
 
 ## What this means for recruiting families
 

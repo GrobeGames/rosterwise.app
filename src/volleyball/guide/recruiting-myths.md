@@ -89,7 +89,7 @@ Families should be skeptical of any service that guarantees results, charges tho
 
 **The reality:** Verbal commitments are not binding for either the athlete or the program. A verbal commitment is an expressed intention — nothing more. The program can continue recruiting other athletes, and the athlete can continue talking to other programs.
 
-The binding document is the Written Offer of Athletics Aid (which replaced the National Letter of Intent in 2024). Until that document is signed during the official signing period, nothing is locked in.
+In Division I the document that carries a commitment is the written offer of athletics aid, which replaced the National Letter of Intent in 2024 (Division II schools may still use the NLI). Until that document is signed during the official signing period, nothing is locked in.
 
 This matters because verbal commitments do sometimes fall through. A coaching change, a shift in program needs, or a change in the athlete's circumstances can all cause a verbal commitment to dissolve. Families should understand that a verbal commitment is an important step in the process but not the final one.
 

@@ -95,7 +95,7 @@ For many Division I sports, junior year is when the most recruiting activity hap
 ## 12th grade (senior year): decisions and signing
 
 - **Signing periods vary by sport.** NCAA D1 signing windows are sport-specific. Check the NCAA recruiting calendar for your sport's exact dates. For most sports, the signing window opens in November of senior year.
-- **The NLI has been replaced.** As of October 2024, the National Letter of Intent program was eliminated. Athletes now sign a **Written Offer of Athletics Aid**. The binding nature and signing dates are essentially the same; the paperwork has changed names. See our [verbal commitment vs. NLI guide](/guide/verbal-commitment-vs-nli/) for details.
+- **The NLI has been replaced in Division I.** In October 2024 the NCAA Division I Council eliminated the National Letter of Intent; Division I athletes now sign a **written offer of athletics aid**, and the previous formula for determining signing dates applies to it. NCAA.org states that **Division II schools may still use the NLI**. See our [verbal commitment vs. NLI guide](/guide/verbal-commitment-vs-nli/) for details.
 - **Late commitments are normal.** D2, D3, NAIA, and NJCAA programs are often actively recruiting through senior spring and into summer. Even some D1 programs have spots available late in the cycle due to transfers, decommitments, or roster changes.
 - **The transfer portal changes the math.** The increasing volume of transfers means rosters are more fluid than they used to be. A program that was "full" in October may have spots in March. See our [transfer portal guide](/guide/transfer-portal/) for context.
 

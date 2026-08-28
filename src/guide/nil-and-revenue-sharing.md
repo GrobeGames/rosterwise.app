@@ -52,7 +52,7 @@ The landscape of college athlete compensation has changed more in the past two y
 
 **July 2021:** The NCAA first allowed athletes to profit from their name, image, and likeness (NIL) through third-party deals. This opened the door for endorsements, social media partnerships, autograph signings, and other commercial activities — but only through deals with parties outside the university itself.
 
-**October 2024:** The NCAA eliminated the National Letter of Intent (NLI), replacing it with the Written Offer of Athletics Aid. See our [verbal commitment guide](/guide/verbal-commitment-vs-nli/) for what this means in practice.
+**October 2024:** The NCAA Division I Council eliminated the National Letter of Intent (NLI) for Division I, replacing it with the written offer of athletics aid. NCAA.org states that Division II schools may still use the NLI. See our [verbal commitment guide](/guide/verbal-commitment-vs-nli/) for what this means in practice.
 
 **June 6, 2025:** Judge Claudia Wilken of the U.S. District Court for the Northern District of California approved the House v. NCAA settlement — the landmark case that fundamentally restructured how schools can compensate athletes directly. See our [House settlement guide](/guide/house-settlement/) for a comprehensive breakdown.
 
@@ -114,7 +114,7 @@ Every athlete's situation is different. But entering the recruiting process expe
 
 ## The international athlete reality
 
-This section is uniquely important for soccer families. According to NCAA data analyzed by McCarter & English, approximately 34% of D1 men's soccer players are international. In D1 men's and women's tennis, the percentage exceeds 60%.
+This section is uniquely important for soccer families. Across the **213 Division I men's soccer programs RosterWise analyzed for the 2025-26 season**, international players held 2,099 of 6,203 roster spots — **33.8%**, or about one in three. That is our own count from published rosters, not an estimate. The share is lower in Division I women's soccer, at **12.4%** across 349 programs.
 
 **Most international student-athletes cannot legally receive NIL compensation under current U.S. immigration law.**
 

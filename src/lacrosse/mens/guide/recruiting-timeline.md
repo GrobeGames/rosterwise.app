@@ -81,7 +81,7 @@ Per the 2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar (published di
 - **Before the contact date**: D1 college coaches cannot initiate substantive recruiting communication. They cannot call, text, email, or extend verbal offers, and they cannot take a recruit's phone call. They can send camp and clinic information.
 - **The Wednesday after Labor Day of junior year, 7 a.m.**: D1 coaches can begin direct communication with the athlete. Calls, texts, emails, and verbal offers become permissible. Off-campus contact becomes possible.
 - **The same date**: Official visits to D1 programs become permissible (NCAA Division I Bylaw 13.6.2.1.3). Women's lacrosse works the same way — its official visits open on its own contact date, September 1 at 12 p.m. Eastern (Bylaw 13.6.2.1.2).
-- **Senior year fall**: Written Offers of Athletics Aid are extended (replacing the National Letter of Intent, which was [eliminated in October 2024](/guide/verbal-commitment-vs-nli/)).
+- **Senior year fall**: Written offers of athletics aid are extended (replacing the National Letter of Intent in Division I, where it was [eliminated in October 2024](/guide/verbal-commitment-vs-nli/); Division II schools may still use the NLI).
 - **Senior year spring**: Final commitments, signings, and admissions paperwork.
 
 This timeline is dramatically different from sports operating under the June 15 rule. In men's lacrosse, the formal recruiting window opens roughly two and a half months later than in most NCAA D1 sports.
@@ -134,7 +134,10 @@ Men's lacrosse is also played outside the NCAA. The NAIA sponsors men's lacrosse
 
 The sport is heavily concentrated geographically in the Mid-Atlantic, Northeast, and parts of the Southeast and Mountain West.
 
-The 2025-26 season has been particularly significant. Per NCAA.com's championship history, Cornell (18-1) defeated Maryland 13-10 at Gillette Stadium in the 2025 D1 Men's Lacrosse Championship on May 26, 2025 — Cornell's first title since 1977 and its fourth overall, capturing Cornell's 4th NCAA title and first since 1977. CJ Kirst of Cornell was named Most Outstanding Player.
+**Recent national champions.** Per NCAA.com's championship history:
+
+- **2026:** No. 1 Princeton defeated No. 2 Notre Dame 16-9 in the championship game on May 25, 2026 at Scott Stadium in Charlottesville, Virginia — Princeton's first title since 2001 and its seventh overall.
+- **2025:** Cornell (18-1) defeated Maryland 13-10 in the championship game at Foxborough, Massachusetts — Cornell's first title since 1977 and its fourth overall. CJ Kirst of Cornell was named Most Outstanding Player.
 
 ## How the House Settlement changed the landscape
 
@@ -146,9 +149,9 @@ A critical contextual layer for men's lacrosse recruiting families today: the [H
 
 For scale on what those rosters actually look like: across the 77 Division I men's lacrosse programs RosterWise analyzed for the 2025-26 season, the median roster carried 49 players, with the middle half of programs between 47 and 53. That sits just above the 48-player cap, which binds only at schools that opted into the settlement. Our roster data begins with the 2025-26 season, so it describes rosters under the new framework rather than the one it replaced.
 
-**Important nuance**: The 48 figure is a maximum, not a requirement. Per USA Lacrosse magazine coverage of Maryland head coach John Tillman's analysis, men's lacrosse programs will distribute across five categories in their funding response — some increasing significantly to 25 or more scholarships, some maintaining previous levels, some reducing, some dropping scholarships entirely, and a small number dropping the sport. Families should ask each program directly about its scholarship funding level under the new framework.
+**Important nuance**: The 48 figure is a maximum, not a requirement. Per USA Lacrosse magazine (August 1, 2024), former Denver head coach and current IMLCA president Bill Tierney described a five-category breakdown of program funding responses — some increasing significantly to 25 or more scholarships, some maintaining previous levels, some reducing, some dropping scholarships entirely, and a small number dropping the sport. Families should ask each program directly about its scholarship funding level under the new framework.
 
-**The roster reduction reality**: With the average 2024 D1 men's lacrosse roster at 52.7 and the new cap at 48, an average of 4.7 players per team — approximately 362 players overall — lost the opportunity to compete at the D1 level when the new roster caps took effect. The Designated Student-Athlete (DSA) exemption protected athletes identified by their schools before the July 6, 2025 deadline.
+**The roster reduction reality**: With the average 2024 D1 men's lacrosse roster at 52.7 and the new cap at 48, USA Lacrosse estimated in June 2025 that an average of 4.7 players per team — approximately 362 players overall — "will lose the opportunity to compete at the Division I level." That is the magazine's forecast, not a count of what has since happened. The Designated Student-Athlete (DSA) exemption protected athletes identified by their schools before the July 6, 2025 deadline.
 
 For recruiting families, the practical implication is that walk-on opportunities at D1 men's lacrosse programs are now tighter than before, and scholarship distribution varies dramatically by program.
 
@@ -290,7 +293,7 @@ Senior year completes the recruiting process for most men's lacrosse athletes.
 - Complete college admissions applications (recruiting and admissions are separate; see [How College Admissions Actually Works for Recruited Athletes](/guide/recruited-athlete-admissions/))
 
 **Written Offer of Athletics Aid**:
-- Per [NLI elimination in October 2024](/guide/verbal-commitment-vs-nli/), athletes now sign a Written Offer of Athletics Aid
+- Per the [Division I NLI elimination in October 2024](/guide/verbal-commitment-vs-nli/), Division I athletes now sign a written offer of athletics aid; Division II schools may still use the NLI
 - The Written Offer of Athletics Aid is the binding agreement
 - Initial signing dates for early signing periods typically occur in November of senior year
 

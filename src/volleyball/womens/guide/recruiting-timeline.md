@@ -12,7 +12,7 @@ breadcrumbs:
     url: /volleyball/womens/
   - text: Guide
   - text: Recruiting Timeline
-summary: "Women's college volleyball recruiting has historically been one of the earliest-moving recruiting timelines in college athletics — sophomore-year verbal commitments are notably more common than in most sports, driven by the intensity of the club volleyball season, Junior National Qualifiers, and concentrated coach evaluation windows. But the NCAA's June 15 contact rule, the elimination of the NLI, and the House settlement have reshaped the landscape. This guide walks through what families of women's volleyball recruits actually need to know — by division, by grade level, and with honest acknowledgment that no two recruiting journeys look the same."
+summary: "Women's college volleyball recruiting has historically been one of the earliest-moving recruiting timelines in college athletics — sophomore-year verbal commitments are notably more common than in most sports, driven by the intensity of the club volleyball season, Junior National Qualifiers, and concentrated coach evaluation windows. But the NCAA's June 15 contact rule, the Division I elimination of the NLI, and the House settlement have reshaped the landscape. This guide walks through what families of women's volleyball recruits actually need to know — by division, by grade level, and with honest acknowledgment that no two recruiting journeys look the same."
 related:
   - title: "How Women's College Volleyball Scholarships Work"
     url: /volleyball/womens/guide/scholarships/
@@ -91,7 +91,7 @@ These dates apply to the 2026-27 recruiting cycle. The NCAA publishes an updated
 
 ## The major changes you may have heard about (and what they actually mean)
 
-**The NLI is gone.** In October 2024, the NCAA eliminated the National Letter of Intent program. It has been replaced by a **Written Offer of Athletics Aid**. The signing dates and binding nature are essentially the same; the paperwork has changed names. If a family hears "we don't sign NLIs anymore," that's correct — and it doesn't mean commitments are less binding.
+**The NLI is gone in Division I.** In October 2024 the NCAA Division I Council eliminated the National Letter of Intent, replacing it with a **written offer of athletics aid**; the previous formula for determining signing dates applies to those written offers. NCAA.org states that **Division II schools may still use the NLI**, so "we don't sign NLIs anymore" is correct at a Division I program and may not be at a Division II one — ask which document the program uses. What the NCAA states about signing a written offer is that other schools are then prohibited from recruiting communications with that athlete.
 
 **The House v. NCAA settlement.** Approved June 6, 2025, this settlement fundamentally restructured Division I athletics. For women's college volleyball, the key changes are:
 
@@ -99,7 +99,7 @@ These dates apply to the 2026-27 recruiting cycle. The NCAA publishes an updated
 - **Sport-specific scholarship caps are gone for opt-in schools.** Schools that opted into the settlement no longer have a per-sport scholarship cap — they may award scholarships up to the new roster limit.
 - **Roster limit of 18 players** for opt-in schools, where Division I previously had no roster limit at all. RosterWise's roster data begins with 2025-26 — the first season played under the new limits — so we cannot describe pre-settlement roster sizes and will not estimate them. What is certain is that a hard cap now exists where none did, so programs must be more selective about roster construction — and walk-on opportunities are likely reduced at opt-in schools.
 - **The shift from head count to equivalency.** Programs could theoretically fund all 18 roster spots, but budget constraints mean most will have a mix of full and partial awards. How programs navigate this transition varies.
-- **Schools choose whether to opt in.** Power conference schools (SEC, Big Ten, ACC, Big 12) opted in. Other D1 conferences had until June 30, 2025 to decide.
+- **Schools choose whether to opt in — except the defendants.** Schools in the five defendant conferences (the ACC, Big Ten, Big 12, Pac-12 and SEC) are bound by the settlement as defendants rather than by opting in. Every other D1 school chooses: the deadline was June 30, 2025 for 2025-26, and from 2026-27 onward notice of intent is due March 1 each year.
 
 **Honest caveat:** We don't have a comprehensive public list of which women's volleyball programs opted in. Families should ask each program directly whether they have opted into the House settlement — this affects how scholarships and roster spots are structured.
 

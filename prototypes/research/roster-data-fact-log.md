@@ -94,9 +94,9 @@ insight pages were.
 
 | Claim | Primary source | Verified | Articles |
 | --- | --- | --- | --- |
-| Across **213** D1 men's soccer programs, international players held **2,099 of 6,203** roster spots — **33.8%** | RosterWise 2025-26 roster dataset | 2026-08-26 | soccer/guide/recruiting-myths |
+| Across **213** D1 men's soccer programs, international players held **2,099 of 6,203** roster spots — **33.8%** | RosterWise 2025-26 roster dataset | 2026-08-26 | soccer/guide/recruiting-myths, **guide/nil-and-revenue-sharing (added 2026-08-28 — replaced an unsourced "approximately 34%" attributed to a law firm's reading of NCAA data)** |
 | **56.3%** of D1 men's and **63.9%** of D2 men's soccer programs carry rosters that are **30% or more** international | RosterWise 2025-26 roster dataset | 2026-08-26 | soccer/guide/recruiting-myths |
-| Women's international share is lower at **every** division: D1 **12.4%** (vs 33.8% men), D2 **11.3%** (vs 37.3%), D3 **2.1%** (vs 11.2%), NAIA **20.0%** (vs 48.2%) | RosterWise 2025-26 roster dataset | 2026-08-26 | soccer/guide/recruiting-myths |
+| Women's international share is lower at **every** division: D1 **12.4%** (vs 33.8% men), D2 **11.3%** (vs 37.3%), D3 **2.1%** (vs 11.2%), NAIA **20.0%** (vs 48.2%) | RosterWise 2025-26 roster dataset | 2026-08-26 | soccer/guide/recruiting-myths, **guide/nil-and-revenue-sharing (D1 women's 12.4%, added 2026-08-28)** |
 | Across all **1,012** men's soccer programs (D1, D2, D3, NAIA), **9,504** players are international — **28.7%** overall | RosterWise 2025-26 roster dataset | 2026-08-26 | soccer/insights/mens-international-conferences |
 | The international flag is not being set on unresolved hometowns: **12,756 of 12,910** flagged players (98.8%) carry a resolved country code | RosterWise 2025-26 roster dataset | 2026-08-26 | (integrity check — supports every row in this section) |
 | Across **211** D1 men's soccer programs (excluding Mercyhurst and New Haven, mid-transition D2→D1), international players hold **2,050 of 6,099** roster spots — **33.6%**. Conference shares run from **11.3%** (Patriot League) to **62.3%** (American Conference) | RosterWise 2025-26 roster dataset | 2026-08-26 | soccer/insights/mens-international-conferences |

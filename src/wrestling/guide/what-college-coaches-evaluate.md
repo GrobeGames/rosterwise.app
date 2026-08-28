@@ -35,7 +35,7 @@ faq:
   - q: "Does a losing record end recruiting chances in wrestling?"
     a: "No. Coaches routinely recruit wrestlers whose records don't jump off the page but whose film, level of competition, and projection suggest a high ceiling. Wrestling a brutal schedule and losing close matches to elite opponents can be more attractive to a coach than a gaudy record against weak competition."
 sources:
-  - "<strong>2025-26 and 2026-27 NCAA Men's Wrestling Rules Book</strong> — weight classes and the one-class-up competition rule that shapes how coaches think about projection. Free PDF at ncaaorg.s3.amazonaws.com/championships/sports/wrestling/rules/PRMWR_RulesBook.pdf"
+  - "<strong>2025-26 and 2026-27 NCAA Men's Wrestling Rules Book</strong> (August 2025) — weight classes and Rule 3, Section 7 (shifts in weight class in dual meets: any higher class, heavyweight's 183 lb minimum excepted), which shapes how coaches think about projection. Free PDF at ncaaorg.s3.amazonaws.com/championships/sports/wrestling/rules/PRMWR_RulesBook.pdf"
   - '<a href="https://nfhs.org/resources/sports/wrestling-rules-changes-2025-26">NFHS — Wrestling Rules Changes 2025-26</a> (high-school weight classes, the starting point for projection)'
   - '<a href="/wrestling/guide/understanding-wrestling-weight-classes/">RosterWise — Understanding College Wrestling Weight Classes</a> (the class map projection works within)'
 cta:
@@ -61,7 +61,7 @@ Projection is judgment, not a formula, but experienced coaches read a consistent
 - **Make-weight comfort.** A wrestler making a class comfortably has room; one grinding hard to hold a low class often projects to a higher, healthier weight (and, per our [weight-management guide](/wrestling/guide/weight-management-and-safety/), that healthier weight is the one to build around).
 - **Family and maturation cues.** General maturation patterns help coaches guess how much growth is left.
 
-The **one-class-up rule** in the rules book — a wrestler may compete at their certified class or one above — is part of why coaches think in ranges: they're projecting a *band* of one or two classes, not a single fixed number.
+The rules book allows a wrestler who weighs in for one weight class to be shifted to **any higher** weight class in a dual meet (Rule 3, Section 7), with heavyweight's 183-pound minimum as the possible exception. That flexibility is part of why coaches think in ranges: they're projecting a *band* of classes, not a single fixed number.
 
 ## What coaches watch beyond the record
 
