@@ -118,6 +118,17 @@ structured_data_type: article
   </section>
   {% endif %}
 
+  {% if sources %}
+  <section class="sources-section">
+    <h3>Sources &amp; References</h3>
+    <ol class="sources-list">
+      {% for source in sources %}
+      <li>{{ source | safe }}</li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+
   <div class="content-byline">
     <p>Written by {{ author | default('the RosterWise team') }} &mdash; Grobe Games LLC</p>
   </div>
