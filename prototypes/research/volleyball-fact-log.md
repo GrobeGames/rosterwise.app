@@ -278,6 +278,47 @@ Every figure here is logged in full, with its dataset definition and method, in
 | ⚠️ **Coach-tenure thresholds differ across sports.** `volleyball/methodology/coach-tenure` uses "long tenure (8+ years) / medium (3-7) / short (1-2)"; `soccer/methodology/coach-tenure` says "established coaches (5+ years)." Neither is sourced or explained as a RosterWise definition. | internal | 2026-08-26 | volleyball/methodology/coach-tenure, soccer/methodology/coach-tenure |
 | **Beach volleyball scope statement is consistent and correct across pages** — "The NCAA sponsors women's beach volleyball as a championship sport but does not sponsor men's beach volleyball"; RosterWise covers indoor only. *(The NCAA's projected sponsorship table does list Women's Beach Volleyball and no men's equivalent, consistent with the claim.)* | NCAA.org projected sport-sponsorship table | 2026-08-26 | volleyball/index, volleyball/mens/index |
 
+## N. Age-based eligibility — redshirt wording on volleyball pages (2026-10-08)
+
+Pages that described redshirting as a current option were reworded to match
+`src/guide/age-based-eligibility.md` and link to it. Every rule below is logged
+in full in `age-based-eligibility-fact-log.md` (re-verified 2026-10-08); the
+NCAA Eligibility 101 page was re-read again in this pass ("Athletics redshirt
+rules" in the eliminated list; the four-row transition table; both clock
+triggers; "Once the five-year period starts, it runs continuously"). The rows
+here exist so the `Articles` index covers these pages.
+
+| Claim | Primary source | Verified | Articles |
+| --- | --- | --- | --- |
+| **Division I adopted the age-based eligibility model in June 2026; Division II's adoption was announced Aug. 5, 2026** (vote date not stated). | NCAA.org, "Division I adopts age-based eligibility model" (2026-06-23); "Division II adopts age-based eligibility model" (2026-08-05) — age-based log §B | 2026-10-08 | volleyball/guide/reading-rosters, volleyball/guide/juco-pathway |
+| The model **eliminated athletics redshirt rules and the cap on seasons of competition** (DI and DII). | NCAA Eligibility Center, "NCAA Division I and II Age-Based Eligibility Rules: Eligibility 101" — age-based log §D | 2026-10-08 | volleyball/guide/reading-rosters, volleyball/guide/juco-pathway, volleyball/womens/guide/scholarships |
+| The **five-year window starts at the earlier of first full-time enrollment at any college (two-year colleges included) or the academic year after the 19th birthday**, and **does not pause** for a season sat out or a transfer. | Eligibility 101 — age-based log §C | 2026-10-08 | volleyball/guide/reading-rosters, volleyball/guide/juco-pathway, volleyball/womens/guide/scholarships |
+| **Transition:** prospects first enrolling full time in **fall 2027 or later: age-based model only**; current athletes with eligibility remaining and 2026-27 initial enrollees: **whichever rules are more beneficial**. | Eligibility 101 transition table — age-based log §F | 2026-10-08 | volleyball/guide/reading-rosters, volleyball/guide/juco-pathway, volleyball/womens/guide/scholarships |
+| **Division III and the NAIA have not adopted the model** (DIII: 2027 Convention membership proposal, not voted on; NAIA: four seasons in the first 10 semesters). | NCAA LSDBi proposal 109408; NAIA.org "High School Students" — age-based log §I | 2026-10-08 | volleyball/guide/reading-rosters, volleyball/guide/juco-pathway |
+| **As of Oct. 8, 2026 the model is in force:** the Tenth Circuit **stayed** the July 31 injunction covering one group of athletes on **Aug. 21, 2026**; oral argument is set for **Oct. 13, 2026**. | 10th Cir. No. 26-1309, Dkt. 28 (2026-08-21) and Dkt. 45 (2026-09-24) — age-based log §G | 2026-10-08 | volleyball/guide/reading-rosters, volleyball/guide/juco-pathway |
+| A **federal court order of Oct. 2, 2026** describes pending lawsuits that challenge "**the NCAA bylaws that count seasons of competition at junior colleges and schools in the National Association of Intercollegiate Athletics** … against the permitted seasons of eligibility"; unresolved. | JPML, MDL No. 3198, Doc. 53, Order Denying Transfer (2026-10-02), p. 1 — age-based log §H | 2026-10-08 | volleyball/guide/juco-pathway |
+
+**Cut or rewritten in this pass:**
+- ❌ **"Per current NCAA rules, athletes generally have a maximum of four years of athletic eligibility. Years at JUCO count toward this total, typically year-for-year. An athlete transferring after two years at JUCO typically has two years of eligibility remaining"** (`volleyball/guide/juco-pathway`) — superseded for DI/DII by the age-based model; it also had no fact-log row. Replaced with the clock rule and the two-year-college trigger; dated correction note.
+- ❌ **"Redshirt patterns reveal coaching philosophy. Programs that regularly redshirt freshmen are investing in long-term player development…"** (`volleyball/guide/reading-rosters`) — treated redshirting as a current option and characterized programs (§4.1) without a source. Replaced; dated correction note.
+- ✏️ **"Redshirt years and reduced course loads mean some athletes take longer than four years to graduate"** (`volleyball/womens/guide/scholarships`) — reworded around the five-year window; not a factual error under the transition, so no correction note.
+- `date:` was **not** bumped on these pages: only the reworded passages were re-verified.
+
+
+## O. Tier-conflict open items 20–25 — live-page check (2026-10-08)
+
+Checked by grep of `src/` (all `.md`, `.njk`, `.html`) for each figure and its
+neighbours, on 2026-10-08:
+
+| Open item | On a live page? | Action |
+| --- | --- | --- |
+| 20 — 2026 D1 women's AQs, **31** (NCAA.com) vs **32** (oversight committee, Feb. 2026) | **No.** No page states an automatic-qualifier count for the women's championship. | None. Tier 1 conflict stays open; copy must not state either number. |
+| 21 — D1 women's sponsor count **344** (NCAA.com, undated) / **348** (2025-26 projection) / **338** (2024-25 actual) | **Yes, partly:** `volleyball/mens/index` states "**338** (actual, 2024-25) or **348** (projected, 2025-26)," each labelled with its basis and season. No page uses 344. | **Kept.** The two published figures are each read from a named NCAA document for a stated season; the undated NCAA.com 344 does not contradict either for the same season, so this is not a same-quantity Tier 1 conflict under the tier-conflict rule. Flagged to Scott in the sign-off for a decision. |
+| 22 — 2027 National Collegiate men's dates, **May 15–17** (NCAA.org) vs bid-spec formula | **No.** No page states 2027 dates or the Las Vegas site. | None. |
+| 23 — NAIA **66** | Resolved 2026-10-08 (row in §E; `volleyball/mens/index` corrected the same day). | None. |
+| 24 — NJCAA **22** / "concentrated in the Northeast" | 22 and "concentrated in the Northeast" are live on `volleyball/mens/index`. Not a tier conflict (single source). | Out of this item's scope; njcaa.org team list unreadable to a fetch on 2026-10-08, so the Northeast characterization is still unchecked against location data. Stays open. |
+| 25 — NAIA 2027 championship (Apr. 27 – May 1, 2027, Cedar Rapids) | **No.** `mens/guide/national-collegiate-championship` describes only the 2026 edition and the approved 16-team 2026-27 format; no 2027 dates. | None. |
+
 ---
 
 ### Open items to re-check before/at publish
@@ -396,3 +437,8 @@ published as a hard number until the conflict is settled.
     If one is going to, read the 2026-27 Administrator Manual fact sheet first: the
     16-team field may change the qualification split (automatic vs at-large),
     which this pass did not find published.
+26. **Age-based eligibility wording (§N)** — the standard paragraph on two
+    volleyball pages carries the Tenth Circuit status "as of October 8, 2026."
+    After the Oct. 13, 2026 argument and again after any ruling, update every
+    page in §N's `Articles` column in the same commit as
+    `src/guide/age-based-eligibility.md`.

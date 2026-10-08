@@ -30,6 +30,10 @@ sources:
   - "NCAA Division II Manual — Bylaw 15 (Financial Aid)"
   - "NCAA Division III Philosophy Statement"
   - "NAIA official scholarship rules: naia.org"
+  - '<a href="https://www.ncaa.org/news/division-i-adopts-age-based-eligibility-model/">NCAA.org — Division I adopts age-based eligibility model</a> (June 23, 2026)'
+  - '<a href="https://www.ncaa.org/news/division-ii-adopts-age-based-eligibility-model/">NCAA.org — Division II adopts age-based eligibility model</a> (Aug. 5, 2026)'
+  - '<a href="https://www.ncaa.org/eligibility-center/division-i-and-division-ii-age-based-eligibility-rules/">NCAA Eligibility Center — NCAA Division I and II Age-Based Eligibility Rules: Eligibility 101</a> (undated; read Oct. 8, 2026) — redshirt rules and seasons-of-competition limits eliminated; the five-year clock; the transition'
+  - '<a href="/guide/age-based-eligibility/">RosterWise — The NCAA''s New Five-Year Eligibility Rule, Explained</a>'
 cta:
   heading: "Scholarship money follows fit. RosterWise shows you where you fit."
   text: "Understanding scholarship rules is step one. Step two is finding programs where your player has a realistic shot at roster time — and scholarship dollars follow playing time. RosterWise analyzes roster depth, class-year gaps, and positional needs at every women's volleyball program so families can target schools where the opportunity is real."
@@ -160,7 +164,7 @@ Athletic scholarships are important, but they're not the only financial lever. F
 - **Academic scholarships:** Many schools offer merit-based awards that have nothing to do with athletics. A strong academic profile can meaningfully reduce cost of attendance.
 - **Need-based aid:** Filing the FAFSA (and CSS Profile where required) is essential. Many families are surprised by the need-based aid available, especially at private institutions.
 - **Cost of attendance varies enormously:** A 50% scholarship at a $30,000/year public university produces a different out-of-pocket cost than a 25% scholarship at a $65,000/year private school that also offers $25,000 in need-based aid.
-- **Budget beyond four years.** Redshirt years and reduced course loads mean some athletes take longer than four years to graduate. We have no measured figure for how common that is in college volleyball; the point is to ask the program and model more than four years of cost.
+- **Budget beyond four years.** Under the NCAA's age-based eligibility model, a Division I or II recruit who first enrolls in fall 2027 or later has a five-year eligibility window rather than four seasons, and athletics redshirt rules are gone (see our [age-based eligibility guide](/guide/age-based-eligibility/)). An athlete who competes across more of that window, or who carries a reduced course load, may take longer than four years to graduate. We have no measured figure for how common that is in college volleyball; the point is to ask the program and model more than four years of cost.
 
 ## Realistic expectations for families
 
