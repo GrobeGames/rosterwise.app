@@ -11,7 +11,7 @@ breadcrumbs:
   - text: Wrestling Guides
     url: /wrestling/guide/
   - text: Scholarships & the House Settlement
-summary: "Wrestling scholarships changed meaningfully with the House v. NCAA settlement, which took effect July 1, 2025. For Division I schools that opt in, sport-by-sport scholarship limits were replaced by roster caps — wrestling's cap is 30 — and schools may fund scholarships up to the full roster, though funding remains discretionary and many programs are not fully funded. Below that, Division II remains an equivalency model, Division III offers no athletic aid, and the NAIA and NJCAA run their own systems. This guide lays out the honest, division-by-division reality for men's and women's wrestling — and why 'more scholarships allowed' does not mean 'more money for every recruit.'"
+summary: "Wrestling scholarships changed meaningfully with the House v. NCAA settlement, which took effect July 1, 2025. For Division I schools covered by the settlement (members of the defendant conferences and schools that opt in), sport-by-sport scholarship limits were replaced by roster caps — 30 for men's wrestling and 30 for women's wrestling — and schools may fund scholarships up to the full roster, though funding remains discretionary and many programs are not fully funded. Below that, Division II remains an equivalency model, Division III offers no athletic aid, and the NAIA and NJCAA run their own systems. This guide lays out the honest, division-by-division reality for men's and women's wrestling — and why 'more scholarships allowed' does not mean 'more money for every recruit.'"
 related:
   - title: "Wrestling Divisions: D1, D2, D3, NAIA & NJCAA"
     url: /wrestling/guide/divisions-explained/
@@ -28,9 +28,9 @@ related:
     url: /guide/athletic-scholarships/
 faq:
   - q: "How many scholarships does college wrestling offer?"
-    a: "It depends on the level and, at Division I, on whether the school opted into the House settlement. For opt-in D1 schools, sport scholarship limits were replaced by a roster cap of 30 for wrestling, and a school may fund scholarships up to that full roster — but funding is discretionary, so many programs fund far fewer. Division II is an equivalency model (historically 9.0 equivalencies for men's wrestling). Division III offers no athletic aid. NAIA schools may offer athletic scholarships as an equivalency sport; NJCAA has its own system."
+    a: "It depends on the level and, at Division I, on whether the school is covered by the House settlement (members of the defendant conferences and schools that opt in). For those D1 schools, sport scholarship limits were replaced by a roster cap of 30 for wrestling, and a school may fund scholarships up to that full roster — but funding is discretionary, so many programs fund far fewer. Division II is an equivalency model (historically 9.0 equivalencies for men's wrestling). Division III offers no athletic aid. NAIA schools may offer athletic scholarships as an equivalency sport; NJCAA has its own system."
   - q: "What is wrestling's roster cap under the House settlement?"
-    a: "For Division I institutions that opt into the settlement, wrestling's roster cap is 30. In place of the old equivalency limit (historically 9.9 for men's D1 wrestling), those schools may now fund scholarships up to the full 30-person roster. Whether they actually do is a budget decision made program by program."
+    a: "For Division I institutions covered by the settlement (members of the defendant conferences and schools that opt in), NCAA Bylaw 17.2 sets the roster limit at 30 for men's wrestling and 30 for women's wrestling. In place of the old equivalency limit (historically 9.9 for men's D1 wrestling), those schools may now fund scholarships up to the full 30-person roster. Whether they actually do is a budget decision made program by program."
   - q: "Does the House settlement mean every D1 wrestler now gets a scholarship?"
     a: "No. The settlement raised the ceiling on how many scholarships a school may award, but it did not require schools to fund them. Scholarships remain discretionary, and many wrestling programs are not fully funded. 'More scholarships allowed' is not the same as 'more money for every recruit' — always ask a program what it actually funds."
   - q: "What is a Designated Student-Athlete?"
@@ -38,8 +38,9 @@ faq:
   - q: "Do Division III wrestlers get athletic scholarships?"
     a: "No — Division III does not award athletic scholarships in any sport. D3 wrestlers are supported through academic scholarships, need-based aid, and other institutional grants. For many wrestling families, a strong D3 aid package plus the right academic and athletic fit is a genuinely competitive option."
 sources:
-  - "<strong>NCAA — Question and Answer: Implementation of the House Settlement</strong> (June 2025) — roster caps, the shift from equivalencies, discretionary funding, and Designated Student-Athletes. Free PDF at ncaaorg.s3.amazonaws.com/governance/d1/legislation/2024-25/June2025D1Gov_PhaseThreeInstSetQuestionandAnswer.pdf"
-  - '<a href="https://www.ncaa.org/news/2025/6/23/media-center-di-board-of-directors-formally-adopts-changes-to-roster-limits.aspx">NCAA.org — "DI Board of Directors formally adopts changes to roster limits"</a> (June 23, 2025)'
+  - '<a href="https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/2024-25/June2025D1Gov_PhaseThreeInstSetQuestionandAnswer.pdf">NCAA — Question and Answer: Implementation of the House Settlement</a> (June 2025) — roster caps, the shift from equivalencies, discretionary funding, and Designated Student-Athletes'
+  - '<a href="https://www.ncaa.org/news/media-center-di-board-of-directors-formally-adopts-changes-to-roster-limits/">NCAA.org — "DI Board of Directors formally adopts changes to roster limits"</a> (June 23, 2025) — roster limits apply to schools in the defendant conferences and others that opt in'
+  - '<a href="https://web3.ncaa.org/lsdbi/search/bylawView?id=145382">NCAA Division I Bylaw 17.2, Roster Limitations</a>, via the NCAA Legislative Services Database (adopted June 6, 2025, effective July 1, 2025; read Oct. 8, 2026) — men''s wrestling 30, women''s wrestling 30'
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Division II financial-aid limits (equivalency sports) and Division III (no athletic aid)'
   - '<a href="https://www.naia.org/sports/mwrest/index">NAIA.org — Wrestling</a> and <a href="https://www.njcaa.org/sports/wrest/index">NJCAA.org — Wrestling</a> (association scholarship structures)'
   - '<a href="/guide/house-settlement/">RosterWise — The House Settlement Explained</a> (universal guide)'
@@ -53,9 +54,9 @@ ${toc}
 
 ## The big change: from equivalencies to roster caps
 
-The **House v. NCAA settlement** — granted final approval on June 6, 2025 and effective **July 1, 2025** — reshaped how Division I scholarships work. For Division I schools that **opt in** ("participating" institutions), the old system of sport-by-sport scholarship limits was replaced by **roster caps**. Instead of a fixed number of scholarship equivalencies, a school may now fund scholarships up to the size of the roster cap.
+The **House v. NCAA settlement** — granted final approval on June 6, 2025 and effective **July 1, 2025** — reshaped how Division I scholarships work. For Division I schools covered by the settlement — members of the **defendant conferences** and schools that **opt in** — the old system of sport-by-sport scholarship limits was replaced by **roster caps**. Instead of a fixed number of scholarship equivalencies, a school may now fund scholarships up to the size of the roster cap.
 
-For **wrestling, the roster cap is 30.** That replaces the historical men's D1 limit of 9.9 equivalencies. On paper, that's a dramatic increase in how much aid a program *may* award. But — and this is the part families must internalize — the ceiling went up; the requirement to spend did not.
+For **wrestling, the roster cap is 30** — NCAA Division I Bylaw 17.2 lists 30 for men's wrestling and 30 for women's wrestling. For men, that replaces the historical men's D1 limit of 9.9 equivalencies. On paper, that's a dramatic increase in how much aid a program *may* award. But — and this is the part families must internalize — the ceiling went up; the requirement to spend did not.
 
 ## The crucial caveat: "allowed" is not "funded"
 
@@ -67,11 +68,11 @@ So the single most important question a recruiting family can ask a D1 wrestling
 
 Because moving to a 30-person cap could have forced current wrestlers off rosters, the settlement created a grandfather mechanism. Athletes who were on a **2024-25 roster** (or were recruited before **April 7, 2025**) can be designated as **"Designated Student-Athletes,"** and a Designated Student-Athlete may be **exempted from the roster cap for the remainder of their eligibility**. In practice, this protected current wrestlers during the transition — the caps bind going forward rather than by cutting existing athletes.
 
-Note too that **non-opt-in schools follow the prior rules**, so the D1 landscape is not uniform. Some programs are operating under roster caps; others aren't yet.
+Note too that **Division I schools outside the settlement follow the prior rules**, so the D1 landscape is not uniform. Some programs are operating under roster caps; others aren't yet.
 
 ## Division by division
 
-**NCAA Division I (opt-in):** roster cap of 30; scholarships may be funded up to the roster, discretionary in practice. Ask what's funded.
+**NCAA Division I (in the settlement):** roster cap of 30 for men's and for women's wrestling; scholarships may be funded up to the roster, discretionary in practice. Ask what's funded.
 
 **NCAA Division II:** an **equivalency** model — historically **9.0 equivalencies** for men's wrestling — meaning a program divides its scholarship budget into partial awards across many wrestlers. Very few D2 wrestlers are on full rides; partial packages combined with other aid are the norm.
 
@@ -86,7 +87,7 @@ Note too that **non-opt-in schools follow the prior rules**, so the D1 landscape
 Women's wrestling became an NCAA championship sport in 2026 (see [Women's College Wrestling Is Now an NCAA Championship Sport](/wrestling/womens/guide/ncaa-championship/)), and its scholarship landscape is **still developing** as the sport matures. The practical realities today:
 
 - The **majority of women's programs are Division III (no athletic aid) and Division II (equivalencies)** — so for most women's recruits, the money conversation follows the D2/D3 models above, not a D1 full-funding assumption.
-- At the **Division I** level, women's wrestling operates within the same House framework as other sports; where a specific women's limit or cap applies, confirm it directly with the program and against NCAA materials rather than assuming it mirrors the men's number.
+- At the **Division I** level, women's wrestling operates within the same House framework as other sports. NCAA Division I Bylaw 17.2 sets the women's wrestling roster limit at **30**, the same as men's, at schools covered by the settlement. As on the men's side, that is a ceiling on roster size, not a promise of funding, so ask each program what it actually funds.
 - Because the sport is **adding programs quickly**, funding levels vary widely by school and are changing season to season.
 
 The honest summary: women's wrestling is real, growing, and increasingly fundable — but the specifics are program-by-program, and families should ask directly.
@@ -104,4 +105,6 @@ Two wrestlers with identical records can end up with completely different schola
 
 ---
 
-*House settlement implementation and scholarship rules are evolving. This article reflects the picture as of the 2025-26 season and the settlement's July 1, 2025 effective date. Verify current specifics against the NCAA House Q&A and each association's materials for the relevant year.*
+*House settlement implementation and scholarship rules are evolving. This article reflects the picture as of the 2025-26 season and the settlement's July 1, 2025 effective date; the Division I wrestling roster limits were re-verified against NCAA Bylaw 17.2 on October 8, 2026. Verify current specifics against the NCAA House Q&A and each association's materials for the relevant year.*
+
+*Correction, October 8, 2026: earlier versions of this page cited an NCAA news release for wrestling's roster cap of 30. That release does not list sport-by-sport limits, so the figure is now cited to NCAA Division I Bylaw 17.2, which sets 30 for both men's and women's wrestling. Earlier versions also described the caps as applying only to schools that opt in; under the bylaw they also apply to members of the settlement's defendant conferences. The number itself has not changed.*

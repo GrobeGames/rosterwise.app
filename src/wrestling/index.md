@@ -13,7 +13,7 @@ children:
     status: live
   - title: "Women's College Wrestling Recruiting"
     url: /wrestling/womens/
-    summary: "Now an NCAA championship sport (2026): the unified National Collegiate format, Olympic-style freestyle, and how to evaluate fit in the fastest-growing sport in college athletics."
+    summary: "Now an NCAA championship sport (2026): the unified National Collegiate format, Olympic-style freestyle, and how to evaluate fit in a sport that is still adding programs."
     status: live
   - title: "Wrestling Recruiting Guides"
     url: /wrestling/guide/

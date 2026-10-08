@@ -64,7 +64,7 @@ The NJCAA contests its wrestling national championship across these divisions, w
 
 ## Women's NJCAA wrestling
 
-Women's college wrestling is the fastest-growing corner of the sport, and the junior-college level reflects that momentum. At the NJCAA, women's wrestling currently competes as an **Invitational** — held alongside the men's national championship — rather than a full, separate national championship on the men's model.
+Women's college wrestling is still adding programs at the four-year level, and it has a place at the junior-college level too. At the NJCAA, women's wrestling currently competes as an **Invitational** — held alongside the men's national championship — rather than a full, separate national championship on the men's model.
 
 This is worth understanding in context: on the four-year side, **women's wrestling became a full NCAA championship sport in 2026**. The NJCAA women's structure is earlier in its development, but growing. If your athlete is a woman wrestler weighing a JUCO year, confirm the current championship status and sponsoring programs directly, because this is exactly the kind of fast-moving area where last year's information goes stale quickly.
 

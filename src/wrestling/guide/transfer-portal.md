@@ -35,6 +35,8 @@ faq:
     a: "Transfer activity is reported through official team announcements and NCAA processes; we intentionally don't rely on third-party aggregators. The most reliable signals are official program communications and the roster itself over time. RosterWise reads roster changes by weight class to show how a program builds — through the portal versus high-school recruiting."
 sources:
   - '<a href="/guide/transfer-portal/">RosterWise — The Transfer Portal</a> (universal, cross-sport mechanics)'
+  - '<a href="https://www.ncaa.org/news/media-center-division-i-cabinet-adopts-new-transfer-windows-in-several-sports/">NCAA.org — "Division I Cabinet adopts new transfer windows in several sports"</a> (Jan. 14, 2026) — the men''s wrestling window: 30 days beginning April 1'
+  - '<a href="https://web3.ncaa.org/lsdbi/search/bylawView?id=145382">NCAA Division I Bylaw 17.2, Roster Limitations</a>, via the NCAA Legislative Services Database (read Oct. 8, 2026) — 30 for men''s and for women''s wrestling'
   - '<a href="/wrestling/guide/scholarships-and-the-house-settlement/">RosterWise — Wrestling Scholarships & the House Settlement</a> (roster caps and how they interact with transfers)'
   - '<a href="https://www.ncaa.org">NCAA.org</a> — transfer rules and the transfer portal process'
 cta:
@@ -67,9 +69,15 @@ Wrestling uses **redshirts** heavily, and they distort a naive read of a roster.
 
 Reading depth accurately means counting **more than the visible starter** — redshirts, the class years behind the starter, and any incoming transfers. That fuller read is exactly what our [weight-class depth methodology](/wrestling/methodology/weight-class-depth/) is built to capture.
 
+## The Division I men's wrestling transfer window
+
+A **transfer window** is the period when a Division I athlete can notify their school that they intend to transfer. On **January 14, 2026**, the NCAA Division I Cabinet changed the window for **men's wrestling** to **30 days, beginning April 1 each year**. The previous men's window was 45 days and began after selections for the Division I Men's Wrestling Championships.
+
+Two things the announcement does not say. It gives no separate effective date for the wrestling change, and it does not mention **women's wrestling**. If your athlete is a women's wrestler, or you need to know exactly which spring the new window first applies to, ask a compliance office. Our [universal transfer-portal guide](/guide/transfer-portal/) covers how windows work across sports.
+
 ## How the portal interacts with roster caps
 
-The House-era **roster caps** (wrestling's D1 cap is 30 for opt-in schools — see [scholarships](/wrestling/guide/scholarships-and-the-house-settlement/)) add another layer. A capped roster is a **finite, contested space**: every transfer a program adds is a spot that isn't going to someone else. That tightens the math at each weight and makes reading roster construction — freshmen vs. transfers, who's on the way out, where the cap leaves room — more valuable, not less.
+The House-era **roster caps** (at Division I schools covered by the settlement, 30 in men's wrestling and 30 in women's wrestling under NCAA Bylaw 17.2 — see [scholarships](/wrestling/guide/scholarships-and-the-house-settlement/)) add another layer. A capped roster is a **finite, contested space**: every transfer a program adds is a spot that isn't going to someone else. That tightens the math at each weight and makes reading roster construction — freshmen vs. transfers, who's on the way out, where the cap leaves room — more valuable, not less.
 
 ## How to read a portal-built roster
 
@@ -88,4 +96,4 @@ The portal cuts both ways for every recruit — the same forces that can crowd a
 
 ---
 
-*Transfer rules and portal windows are set by the NCAA and updated periodically. This article reflects the 2025-26 season; verify current rules at NCAA.org.*
+*Transfer rules and portal windows are set by the NCAA and updated periodically. This article reflects the 2025-26 season; the Division I men's wrestling transfer window and the Division I roster limits were re-verified on October 8, 2026. Verify current rules at NCAA.org.*

@@ -35,9 +35,9 @@ faq:
   - q: "Is this article going to tell my child how to cut weight?"
     a: "No — intentionally. This guide explains what the rules are and why they exist. It does not provide weight-loss methods, dehydration techniques, or caloric targets of any kind. Any individual weight plan should be guided by the athlete's physician and the program's certified medical and coaching staff, never by a website."
 sources:
-  - "<strong>NCAA Wrestling Weight Management Program packet — Men's (2025-26)</strong> — hydration standard, minimum body-fat and minimum-weight calculation, and the descent plan. Free PDF at ncaaorg.s3.amazonaws.com/championships/sports/wrestling/rules/mens/2025-256RMWR_WeightManagementProgramPacket.pdf"
-  - "<strong>NCAA Wrestling Weight Management Program packet — Women's (2025-26)</strong> — the separate women's standards. Free PDF at ncaaorg.s3.amazonaws.com/championships/sports/wrestling/rules/womens/2025PRWWR_WeightManagementProgramPacket.pdf"
-  - "<strong>2025-26 and 2026-27 NCAA Men's Wrestling Rules Book</strong> — weigh-in and certification rules (Rules 8–9) and prohibited practices (Rule 9.5). Free PDF at ncaaorg.s3.amazonaws.com/championships/sports/wrestling/rules/PRMWR_RulesBook.pdf"
+  - '<a href="https://ncaaorg.s3.amazonaws.com/championships/sports/wrestling/rules/mens/2026-27PRMWR_WeightManagementProgramPacket.pdf">NCAA — 2026-27 NCAA Men''s Wrestling Weight Management Packet</a> (memorandum dated Aug. 11, 2026) — no changes to the descent rules; hydration standard, 5% minimum body fat, and the 1.5%-per-week descent plan'
+  - '<a href="https://ncaaorg.s3.amazonaws.com/championships/sports/wrestling/rules/womens/2026PRWWR_WeightManagementProgramPacket.pdf">NCAA — 2026–27 NCAA Women''s Wrestling Weight Management Packet</a> (memorandum dated Aug. 18, 2026) — no changes to the descent rules; the separate women''s standards, including the 17% minimum body fat'
+  - '<a href="https://ncaaorg.s3.amazonaws.com/championships/sports/wrestling/rules/PRMWR_RulesBook.pdf">2025-26 and 2026-27 NCAA Men''s Wrestling Rules Book</a> — weigh-in and certification rules (Rules 8–9) and prohibited practices (Rule 9.5); the 2026–27 National Collegiate Women''s Wrestling Rules Book carries the corresponding women''s rules'
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Sport Science Institute resources on wrestling weight management and athlete health'
 cta:
   heading: "Recruit to a healthy, realistic weight class"
@@ -55,11 +55,11 @@ With that established, here's what families should understand about how college 
 
 ## The three pillars of the program
 
-The NCAA weight-management program, detailed in the association's official packets (men's and women's), rests on three connected ideas.
+The NCAA weight-management program, detailed in the association's official packets (men's and women's), rests on three connected ideas. The 2026-27 packets (the men's dated August 11, 2026, the women's August 18, 2026) both state that "there are no changes to the rules related to weight loss descent," and the standards below are the ones those packets set.
 
 ### 1. A hydration check comes first
 
-Before a wrestler's minimum weight can be assessed, they must demonstrate they are **properly hydrated**. The standard is a **urine specific gravity of 1.020 or lower**, measured with a refractometer. If a wrestler doesn't meet the hydration standard, the assessment can't proceed and can't be repeated for at least 24 hours.
+Before a wrestler's minimum weight can be assessed, they must demonstrate they are **properly hydrated**. The standard is a **urine specific gravity of 1.020 or lower**, measured with a refractometer or urinometer (the packets do not permit test strips). If a wrestler doesn't meet the hydration standard, the assessment can't proceed and can't be repeated for at least 24 hours.
 
 Why it matters: this single step is designed to stop a wrestler from arriving dehydrated in order to game a lower assessed weight. Requiring hydration first makes the measured body a *normal, watered* body — the honest baseline for everything that follows.
 
@@ -77,7 +77,7 @@ Why it matters: rapid weight loss is where the danger historically lived. By mak
 
 ## Prohibited practices (Rule 9.5), and why
 
-The NCAA Men's Wrestling Rules Book (with corresponding women's rules) explicitly **prohibits** a category of unsafe weight-loss practices under **Rule 9.5** — the kinds of rapid-dehydration and artificial-loss methods that endanger health. We're describing this at the **category level on purpose**: the point of naming it here is to explain *why* the certification system exists, not to catalog anything. The rules exist because these practices are dangerous, and the sport has chosen to forbid them and to back that up with an assessment system that makes them pointless.
+The NCAA Men's Wrestling Rules Book and the National Collegiate Women's Wrestling Rules Book each explicitly **prohibit** a category of unsafe weight-loss practices under **Rule 9.5** — the kinds of rapid-dehydration and artificial-loss methods that endanger health. We're describing this at the **category level on purpose**: the point of naming it here is to explain *why* the certification system exists, not to catalog anything. The rules exist because these practices are dangerous, and the sport has chosen to forbid them and to back that up with an assessment system that makes them pointless.
 
 ## Do men's and women's programs use the same rules?
 
@@ -88,7 +88,7 @@ Not identically. There is a **separate women's weight-management packet**, with 
 The weight-management rules should change how families think about targeting programs:
 
 - **Start from a healthy, honest weight.** The best recruiting decisions begin from the class an athlete can make *sustainably* — the one their body-composition assessment supports — not the lowest class they could grind to for one match. Recruiting to an unsustainable weight helps no one.
-- **Projection beats cutting.** Because boys in particular tend to add one to two classes as they mature, the smart long game is projecting the athlete's realistic college weight (see [Understanding Weight Classes](/wrestling/guide/understanding-wrestling-weight-classes/) and [what coaches evaluate](/wrestling/guide/what-college-coaches-evaluate/)), then finding programs with openings there.
+- **Projection beats cutting.** Because many high school wrestlers are still growing, the smart long game is projecting the athlete's realistic college weight (see [Understanding Weight Classes](/wrestling/guide/understanding-wrestling-weight-classes/) and [what coaches evaluate](/wrestling/guide/what-college-coaches-evaluate/)), then finding programs with openings there.
 - **Ask programs about their approach.** How a staff talks about weight — whether they emphasize health, nutrition support, and sustainable performance — tells you something real about the culture your athlete would join.
 - **Defer to medical professionals.** Nothing here is medical advice. Any individual plan belongs with the athlete's physician and the program's certified medical and coaching staff.
 
@@ -98,4 +98,4 @@ Two wrestlers the same age can have completely different healthy weights and com
 
 ---
 
-*NCAA weight-management standards are set in the current season's official packets and rules book. This article reflects the 2025-26 season. Verify current standards in the NCAA Wrestling Weight Management Program packets (men's and women's) for the relevant year.*
+*NCAA weight-management standards are set in the current season's official packets and rules book. This article reflects the 2026-27 NCAA weight-management packets (men's dated August 11, 2026; women's dated August 18, 2026), which report no changes to the descent rules; the hydration standard, body-fat minimums, and descent rate were re-verified against them on October 8, 2026. Verify current standards in the NCAA Wrestling Weight Management Program packets (men's and women's) for the relevant year.*
