@@ -1,0 +1,10 @@
+---
+permalink: /_build/sitemap-lastmod.json
+eleventyExcludeFromCollections: true
+---
+{#- Build artifact for scripts/generate-sitemap.js: page URL → front-matter
+    `date:`. Lives under /_build/, which robots.txt disallows and the sitemap
+    excludes. Pages without `date:` (hubs, legal pages, the paginated program
+    pages, which are excluded from collections) are absent and get no
+    <lastmod>. -#}
+{{ collections.all | sitemapLastmodJson | safe }}
