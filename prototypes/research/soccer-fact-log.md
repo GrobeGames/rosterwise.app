@@ -326,6 +326,34 @@ cut, not a citation hunt.
 | ❌ **No date-anchor footer on `soccer/guide/reading-rosters`.** Every other soccer guide page carries one after the M1/M2 rollout. | build check 2026-08-26 | 2026-08-26 | soccer/guide/reading-rosters |
 | ❌ **No `sources:` block on the four soccer hub pages** (`soccer/index`, `soccer/mens/index`, `soccer/womens/index`, `soccer/guide/index`) or on `blog/how-to-read-a-college-soccer-roster`, yet `soccer/index` and `soccer/mens/index` carry hard claims (the 1,600-program count, the head-count error, the 2026-27 calendar dates, 9.9, 28). The audit's "sources coverage is complete (129/129)" counted `content.njk` pages only; the hubs were never in that denominator. | §7.3 | 2026-08-26 | soccer/index, soccer/mens/index, soccer/womens/index, soccer/guide/index, blog/how-to-read-a-college-soccer-roster |
 
+## S. Age-based eligibility — redshirt wording on soccer pages (2026-10-08)
+
+Pages that described redshirting as a current option were reworded to match
+`src/guide/age-based-eligibility.md` and link to it. Every rule below is logged
+in full in `age-based-eligibility-fact-log.md` (re-verified 2026-10-08); the
+NCAA Eligibility 101 page was re-read again in this pass ("Athletics redshirt
+rules" in the eliminated list; the four-row transition table; both clock
+triggers; "Once the five-year period starts, it runs continuously"). The rows
+here exist so the `Articles` index covers these pages.
+
+| Claim | Primary source | Verified | Articles |
+| --- | --- | --- | --- |
+| **Division I adopted the age-based eligibility model in June 2026; Division II's adoption was announced Aug. 5, 2026** (vote date not stated). | NCAA.org, "Division I adopts age-based eligibility model" (2026-06-23); "Division II adopts age-based eligibility model" (2026-08-05) — age-based log §B | 2026-10-08 | soccer/guide/reading-rosters, soccer/methodology/class-year-gaps, soccer/mens/guide/goalkeeper-recruiting, soccer/womens/guide/goalkeeper-recruiting, soccer/guide/junior-college |
+| The model **eliminated athletics redshirt rules and the cap on seasons of competition** (DI and DII). | NCAA Eligibility Center, "NCAA Division I and II Age-Based Eligibility Rules: Eligibility 101" — age-based log §D | 2026-10-08 | soccer/guide/reading-rosters, soccer/methodology/class-year-gaps, soccer/mens/guide/goalkeeper-recruiting, soccer/womens/guide/goalkeeper-recruiting, soccer/guide/junior-college, soccer/mens/guide/scholarships, soccer/womens/guide/scholarships |
+| The **five-year window starts at the earlier of first full-time enrollment at any college (two-year colleges included) or the academic year after the 19th birthday**, and **does not pause** for a season sat out or a transfer. | Eligibility 101 — age-based log §C | 2026-10-08 | soccer/guide/reading-rosters, soccer/methodology/class-year-gaps, soccer/mens/guide/goalkeeper-recruiting, soccer/womens/guide/goalkeeper-recruiting, soccer/guide/junior-college, soccer/mens/guide/scholarships, soccer/womens/guide/scholarships |
+| **Transition:** prospects first enrolling full time in **fall 2027 or later: age-based model only**; current athletes with eligibility remaining and 2026-27 initial enrollees: **whichever rules are more beneficial**. | Eligibility 101 transition table — age-based log §F | 2026-10-08 | soccer/guide/reading-rosters, soccer/methodology/class-year-gaps, soccer/mens/guide/goalkeeper-recruiting, soccer/womens/guide/goalkeeper-recruiting, soccer/guide/junior-college, soccer/mens/guide/scholarships, soccer/womens/guide/scholarships |
+| **Division III and the NAIA have not adopted the model** (DIII: 2027 Convention membership proposal, not voted on; NAIA: four seasons in the first 10 semesters). | NCAA LSDBi proposal 109408; NAIA.org "High School Students" — age-based log §I | 2026-10-08 | soccer/guide/reading-rosters, soccer/methodology/class-year-gaps, soccer/mens/guide/goalkeeper-recruiting, soccer/womens/guide/goalkeeper-recruiting, soccer/guide/junior-college |
+| **As of Oct. 8, 2026 the model is in force:** the Tenth Circuit **stayed** the July 31 injunction covering one group of athletes on **Aug. 21, 2026**; oral argument is set for **Oct. 13, 2026**. | 10th Cir. No. 26-1309, Dkt. 28 (2026-08-21) and Dkt. 45 (2026-09-24) — age-based log §G | 2026-10-08 | soccer/guide/reading-rosters, soccer/methodology/class-year-gaps, soccer/mens/guide/goalkeeper-recruiting, soccer/womens/guide/goalkeeper-recruiting, soccer/guide/junior-college |
+
+**Cut or rewritten in this pass:**
+- ❌ **"Many GK recruits redshirt their first year"** (men's) / **"Some GK recruits…"** (women's) — described the previous rules, and no source ever supported how often it happened. Replaced with the current rule; dated correction note on both pages.
+- ❌ **"A 'senior' who is actually a redshirt junior has another year of eligibility"; "A graduate student who transferred in … will be gone after one year"** (`soccer/guide/reading-rosters`) — described the previous rules. Rewritten; correction note.
+- ❌ **"Redshirt sophomore with three years of eligibility remaining"; fifth-year players "will be gone after one year"; extra-year players "common after COVID-era eligibility extensions"** (`soccer/methodology/class-year-gaps`) — the first two described the previous rules; the third had no source of any tier. Rewritten; correction note.
+- ❌ **Players "transfer to a JUCO to reset their eligibility clock"** (`soccer/guide/junior-college`) — contradicted by Tier 1: the window "does not pause because a student-athlete … transfers," and two-year colleges start it. Cut; correction note. The page's "Gap-year alternatives" paragraph now notes that two-year enrollment starts the same window.
+- ✏️ **"Redshirt years and reduced course loads mean some athletes take longer than four years to graduate"** (both scholarships pages) — reworded around the five-year window; not a factual error under the transition (current athletes may still carry redshirt years), so no correction note.
+- `date:` was **not** bumped on any of these pages: only the reworded passages were re-verified, not the whole page.
+
+
 ---
 
 ### Open items to re-check before/at publish
@@ -396,3 +424,7 @@ cut, not a citation hunt.
     anchor at the next season rollover. The men's and women's soccer calendars
     diverge sharply — men's has three periods, women's has four, and neither
     resembles the other — so they cannot be updated by analogy.
+19. **Age-based eligibility wording (§S)** — the standard paragraph on five soccer
+    pages carries the Tenth Circuit status "as of October 8, 2026." After the
+    Oct. 13, 2026 argument and again after any ruling, update every page in §S's
+    `Articles` column in the same commit as `src/guide/age-based-eligibility.md`.
