@@ -35,6 +35,8 @@ sources:
   - "USA Volleyball — College Recruitment Timeline guidance and BJNC event details"
   - "National Federation of State High School Associations (NFHS) — High school sports participation data"
   - "NCAA Eligibility Center — Initial eligibility requirements"
+  - '<a href="https://www.naia.org/wp-content/uploads/2026/05/2025-26_NAIA_Administrator_Manual.pdf">NAIA — 2025-2026 Administrator Manual, Men''s Volleyball fact sheet</a> (2026 championship field)'
+  - '<a href="https://www.naia.org/wp-content/uploads/2026/05/2026-NAC-MVB-Updates.pdf">NAIA — 2026-27 Men''s Volleyball Policy Updates</a> (last modified Aug. 20, 2026)'
   - "Publicly available conference and division information"
 cta:
   heading: "RosterWise Volleyball — now available for men's and women's programs"
@@ -140,8 +142,10 @@ The general patterns above describe NCAA Division I recruiting. The picture diff
 
 - **NCAA Division I and II:** Use the June 15 / August 1 framework described above. Most active recruiting happens junior year, with significant senior-year activity remaining.
 - **NCAA Division III:** Has the most relaxed NCAA recruiting rules. Coaches can communicate more freely earlier. But D3 programs cannot offer athletic scholarships, so the recruiting conversation typically involves academic merit aid, need-based aid, and program fit rather than scholarship money. Top D3 men's volleyball programs (in conferences like the CCIW, the MIAC, the NESCAC, and the SCIAC, among others) compete at a high level and recruit accordingly.
-- **NAIA:** Operates under its own recruiting framework, which is generally less restrictive than NCAA D1. The NAIA Men's Volleyball Championship is in its 7th annual edition in 2026, with a 12-team field. (The NAIA also crowned men's volleyball national champions from 1969 to 1980, and again as an emerging sport from 1999, before the current championship began in 2019.) Park (Mo.), Grand View (Iowa), and other established programs anchor the competitive top of the NAIA level.
+- **NAIA:** Operates under its own recruiting framework, which is generally less restrictive than NCAA D1. The NAIA Men's Volleyball Championship held its 7th annual edition in 2026 with a 12-team field; for 2026-27, the NAIA has approved expanding it to a 16-team, single-elimination format. (The NAIA also crowned men's volleyball national champions from 1969 to 1980, and again as an emerging sport from 1999, before the current championship began in 2019.) Park (Mo.), Grand View (Iowa), and other established programs anchor the competitive top of the NAIA level.
 - **NJCAA:** Junior college men's volleyball recruiting tends to happen later, often during senior year of high school, and a meaningful share of NJCAA recruits use their junior college years as a development pathway to four-year programs. 2026 was the first year NJCAA men's volleyball was an official championship sport (previously an invitational); Finger Lakes (NY) won the inaugural national championship.
+
+> **Correction.** An earlier version of this page gave the NAIA championship's 12-team field without noting that it changes for 2026-27. The NAIA has approved a 16-team, single-elimination championship effective 2026-27. Corrected 2026-10-08 against the NAIA's "2026-27 Men's Volleyball Policy Updates" (last modified 8/20/26).
 
 ## How the club season shapes the timeline
 

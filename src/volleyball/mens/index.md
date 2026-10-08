@@ -27,6 +27,10 @@ related:
     status: live
 sources:
   - "NCAA.com — Men's volleyball championship records and division structure"
+  - '<a href="https://www.ncaa.org/division-ii-executive-board-advances-championship-enhancements-approves-2026-27-priorities/">NCAA.org — "Division II Executive Board advances championship enhancements, approves 2026-27 priorities"</a> (Aug. 6, 2026)'
+  - '<a href="https://www.naia.org/wp-content/uploads/2026/05/2025-26_NAIA_Administrator_Manual.pdf">NAIA — 2025-2026 Administrator Manual, Men''s Volleyball fact sheet</a> (2026 championship field)'
+  - '<a href="https://www.naia.org/wp-content/uploads/2026/05/2026-NAC-MVB-Updates.pdf">NAIA — 2026-27 Men''s Volleyball Policy Updates</a> (last modified Aug. 20, 2026)'
+  - '<a href="https://www.njcaa.org/sports/mvball/index">NJCAA.org — Men''s Volleyball Teams</a> (2026-27 season view, read Oct. 8, 2026)'
   - "National Federation of State High School Associations (NFHS) — High school sports participation data"
   - "USA Volleyball — Boys Junior National Championship and club volleyball governance"
   - "House v. NCAA settlement (approved June 6, 2025) — D1 roster cap and scholarship framework"
@@ -39,15 +43,15 @@ cta:
 
 ${toc}
 
-Men's college volleyball is a small, growing, and structurally distinctive sport. There are roughly 265 to 275 men's college volleyball programs across NCAA Division I, Division II, Division III, NAIA, and (starting in 2026) NJCAA — a fraction of the number that exist for women's volleyball. The recruiting landscape, championship structure, scholarship history, and international pipelines are all meaningfully different from the women's game.
+Men's college volleyball is a small, growing, and structurally distinctive sport. There are fewer than 300 men's college volleyball programs across NCAA Division I, Division II, Division III, NAIA, and (starting in 2026) NJCAA — a fraction of the number that exist for women's volleyball. The recruiting landscape, championship structure, scholarship history, and international pipelines are all meaningfully different from the women's game.
 
 This overview is for families navigating men's college volleyball recruiting for the first time. Every recruit's journey is different — what we offer here is context, not prescription.
 
 ## How men's college volleyball is structured
 
-Men's college volleyball is organized across five competitive levels: NCAA Division I, NCAA Division II, NCAA Division III, NAIA, and NJCAA. The total number of programs across all levels is in the mid-260s to mid-270s — significantly smaller than most other college sports. The exact figures, and why the NCAA publishes more than one of them, are below.
+Men's college volleyball is organized across five competitive levels: NCAA Division I, NCAA Division II, NCAA Division III, NAIA, and NJCAA. The total number of programs across all levels is under 300 — significantly smaller than most other college sports. The exact figures, and why the NCAA publishes more than one of them, are below.
 
-Within NCAA, men's volleyball has a structural feature that is genuinely unusual: **Division I and Division II compete in the same national championship**, called the National Collegiate Men's Volleyball Championship. There is no separate D2 championship at this time, though a 2024-25 NCAA rule change lowered the program-count threshold for a future D2 championship from 50 schools to 35. Division III has had its own separate championship since 2012.
+Within NCAA, men's volleyball has a structural feature that is genuinely unusual: **Division I and Division II compete in the same national championship**, called the National Collegiate Men's Volleyball Championship. There is no separate D2 championship at this time, though a 2024-25 NCAA rule change lowered the program-count threshold for a future D2 championship from 50 schools to 35. On August 6, 2026, the Division II Executive Board sponsored legislation for the 2027 NCAA Convention to establish a Division II Men's Volleyball Championship; if the Division II membership adopts it in January 2027, the NCAA projects the first championship for spring 2029. Nothing is decided until that vote. Division III has had its own separate championship since 2012.
 
 This combined-division structure means that, at the top level of the sport, a Division II program can compete directly with a Division I program for a national title. It's a structure that exists in only a small number of NCAA sports, and it shapes everything from conference alignments to the recruiting landscape.
 
@@ -65,10 +69,14 @@ A third NCAA figure exists and is worth knowing if you see it quoted: an NCAA re
 
 The other two governing bodies:
 
-- **NAIA:** the NAIA publishes no sport-sponsorship table, so there is no NAIA-published program count to quote. Its own 2025-26 men's volleyball statistics list roughly 46 distinct teams, which is a floor rather than an official figure. The NAIA runs a national championship with a 12-team field.
+- **NAIA:** the NAIA's 2025-26 Administrator Manual states that "a total of **66** member institutions sponsor Men's Volleyball." The NAIA's men's volleyball national championship had a 12-team field in 2026; for 2026-27, the NAIA has approved expanding it to a 16-team, single-elimination format.
 - **NJCAA:** 22 men's volleyball teams across all divisions on the NJCAA's 2026-27 team list, concentrated in the Northeast. 2026 was the first year NJCAA men's volleyball was an official national championship sport (an 8-team double-elimination bracket); it had previously been run as an invitational. Finger Lakes (NY) won the inaugural title at College of DuPage, April 23-25, 2026.
 
-Adding those to the NCAA figures puts the all-divisions total somewhere in the **mid-260s to mid-270s** — not the "roughly 200" that circulates widely, which counts only part of the NCAA and none of the rest.
+> **Correction.** An earlier version of this page said the NAIA "runs a national championship with a 12-team field." That was the 2026 format. The NAIA has approved a 16-team, single-elimination championship effective 2026-27. Corrected 2026-10-08 against the NAIA's "2026-27 Men's Volleyball Policy Updates" (last modified 8/20/26).
+
+> **Correction.** An earlier version of this page said the NAIA publishes no men's volleyball program count, used a count of roughly 46 NAIA teams taken from its statistics, and put the all-divisions total in the mid-260s to mid-270s. The NAIA's 2025-26 Administrator Manual (men's volleyball fact sheet) states that 66 member institutions sponsor the sport, which puts the total at 286 to 294. Corrected 2026-10-08.
+
+Adding the NAIA's 66 and the NJCAA's 22 to the NCAA figures puts the all-divisions total at **286** (using the NCAA's 2024-25 actual count) to **294** (using its 2025-26 projection) — not the "roughly 200" that circulates widely, which counts only part of the NCAA and none of the rest.
 
 Compared to women's volleyball — **1,055** NCAA programs on both the actual and projected figures, of which **338** (actual, 2024-25) or **348** (projected, 2025-26) are Division I — every level of men's volleyball is smaller. This affects the recruiting math in several ways we'll discuss throughout this guide.
 
