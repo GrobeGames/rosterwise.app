@@ -39,7 +39,7 @@ faq:
   - q: "My daughter is interested in playing goalie. Are there fewer recruiting opportunities?"
     a: "Goalies face a unique market: every team needs one, but each team rosters few. The absolute number of college roster spots for goalies is smaller than for field positions. However, the competition at each program is also more focused. Strong goalies can find competitive recruiting opportunities at all division levels."
 sources:
-  - "<strong>NCAA Women's Lacrosse Rules 2026-2027</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com/championships/sports/lacrosse/rules/women/PRWLA_RulesBook.pdf"
+  - '<a href="https://ncaaorg.s3.amazonaws.com/championships/sports/lacrosse/rules/women/PRWLA_RulesBook.pdf">NCAA — 2026 and 2027 Women''s Lacrosse Rules</a> (February 2026)'
   - "<strong>NCAA Women's Lacrosse Statisticians' Manual</strong> — Official NCAA statistical definitions including draw control, save percentage, caused turnovers"
   - '<a href="https://www.ncaa.com">NCAA.com Women''s Lacrosse Statistics</a> — Official NCAA D1, D2, and D3 women''s lacrosse statistics'
   - '<a href="https://iwlca.org">Intercollegiate Women''s Lacrosse Coaches Association (IWLCA)</a> — "Rules of the Game (All Disciplines)" confirming 12v12 NCAA format'
@@ -129,7 +129,7 @@ Women's college lacrosse has specific rules around the 8-meter arc — the area 
 The midfield is where the most distinctive women's lacrosse evaluation happens. Per the William Jewell College Athletics official 101: "The midfielders are responsible for transitioning the ball from defense to attack and vice versa. They should have speed and endurance and be ready to receive the ball from the defense and run or pass the ball. There are three midfielders, one of which is the Center."
 
 **The three midfielders**:
-- **Center**: Takes the draw at the start of each half and after every goal. Plays both offense and defense.
+- **Center**: Takes the draw, which starts play at the beginning of the game and restarts it after goals. Plays both offense and defense.
 - **Two wing midfielders**: One typically focused more on offense, one on defense, both covering the entire field.
 
 **What college coaches evaluate in midfielders**:

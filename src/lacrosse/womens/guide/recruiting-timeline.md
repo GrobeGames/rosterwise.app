@@ -41,7 +41,7 @@ faq:
 sources:
   - "<strong>2026-27 NCAA Division I Manual, Bylaw 13.1.1.1.7</strong> — revision history recording the 4/26/17 (effective 8/1/17) and 4/25/18 revisions, and the 6/29/26 (effective 8/1/26) split into separate men's and women's provisions — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - '<a href="https://ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D1Rec_WLARecruitingCalendar.pdf">2026-27 NCAA Division I Women''s Lacrosse Recruiting Calendar</a> — Official NCAA document'
-  - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 13.1.1.1.7 (off-campus contact, women's lacrosse), Bylaw 13.1.3.1.2 (telephone calls), Bylaw 13.4.1.2 (recruiting materials), Bylaw 13.6.2.1.2 (official visits) and Bylaw 13.7.1.2 (unofficial visits) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 13.1.1.1.7 (off-campus contact, women's lacrosse), Bylaw 13.1.3.1.2 (telephone calls), Bylaw 13.4.1.2 (recruiting materials), Bylaw 13.6.2.1.2 (official visits), Bylaw 13.7.1.2 (unofficial visits) and Bylaw 13.17.10(h)(2) (the weekend before Thanksgiving, limited to IWLCA Convention events; read 2026-10-08) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - '<a href="https://eligibilitycenter.org">NCAA Eligibility Center</a> — Academic eligibility and registration requirements'
   - "Intercollegiate Women's Lacrosse Coaches Association (IWLCA) — Joint proposer with IMLCA of the 2017 recruiting rule change"
 cta:
@@ -80,13 +80,15 @@ The women's lacrosse calendar is unusually granular — contact stretches with e
 | August 1–14, 2026 | Shutdown |
 | August 15–27, 2026 | Quiet |
 | August 28 – September 3, 2026 | Dead |
-| September 4 – November 30, 2026 | Contact, with evaluation windows November 6–8, 13–15, and 20–22 (5 p.m. Friday through Sunday); dead periods November 9–12 and November 18–20; and a shutdown November 24–29 |
+| September 4 – November 30, 2026 | Contact, with evaluation windows November 6–8, 13–15, and 20–22 (5 p.m. Friday through Sunday; the November 20–22 weekend carries an extra restriction, explained below the table); dead periods November 9–12 and November 18–20; and a shutdown November 24–29 |
 | December 1–30, 2026 | Contact, with a shutdown December 22–26 |
 | December 31, 2026 – January 2, 2027 | Shutdown |
 | January 3 – May 27, 2027 | Contact |
 | May 28–30, 2027 | Dead |
 | May 31 – June 10, 2027 | Contact |
 | June 11 – July 31, 2027 | Evaluation, with a dead period July 2–6 |
+
+**The weekend before Thanksgiving is limited to IWLCA Convention events.** On the weekend immediately before Thanksgiving — November 20–22, 2026 — a Division I coach may evaluate only at the showcase and tournament events held in conjunction with the Intercollegiate Women's Lacrosse Coaches Association (IWLCA) Convention. Both the 2026-27 calendar and Bylaw 13.17.10(h)(2) of the 2026-27 NCAA Division I Manual say so. The calendar also marks November 18–20 as a dead period that ends when the convention adjourns on the 20th, and the bylaw adds: "Other evaluations may begin immediately following the adjournment" of the convention. If your daughter is playing that weekend at an event that is not part of the convention, ask the coaches you hope will see her whether they can attend.
 
 The practical shape: the fall is the heavy in-person recruiting season, with concentrated evaluation weekends in November; the summer closes as a long evaluation period, meaning coaches can watch but not have off-campus conversations.
 
