@@ -11,7 +11,7 @@ breadcrumbs:
   - text: Wrestling Guides
     url: /wrestling/guide/
   - text: What Coaches Evaluate
-summary: "College wrestling coaches are answering one question above all: what will this athlete be at 21? Because wrestlers — especially boys — often move up one or two weight classes as they mature, the central evaluation in wrestling recruiting is projection: reading a multi-year weight and performance trajectory to estimate a recruit's eventual college weight class and ceiling. This guide explains how that projection works, what coaches watch beyond the win-loss record, and how families can do their own honest projection to build a smarter target list. It's descriptive, not a formula — projection is judgment, and we're clear about its limits."
+summary: "College wrestling coaches are answering one question above all: what will this athlete be at 21? Because a wrestler's body can keep changing well past sophomore year, the central evaluation in wrestling recruiting is projection: reading a multi-year weight and performance trajectory to estimate a recruit's eventual college weight class and ceiling. This guide explains how that projection works, what coaches watch beyond the win-loss record, and how families can do their own honest projection to build a smarter target list. It's descriptive, not a formula — projection is judgment, and we're clear about its limits."
 related:
   - title: "Understanding College Wrestling Weight Classes"
     url: /wrestling/guide/understanding-wrestling-weight-classes/
@@ -50,7 +50,7 @@ ${toc}
 
 College coaches aren't primarily recruiting who a wrestler is as a high-school sophomore — they're recruiting who that wrestler will **become** as a 20- or 21-year-old. In a sport organized by [weight class](/wrestling/guide/understanding-wrestling-weight-classes/), that makes **projection** the central skill of evaluation, and it's what separates wrestling recruiting from most other sports.
 
-The reason is physical. Wrestlers — **especially boys** — frequently move **up one or two weight classes** between their sophomore year and their early twenties as they finish growing and add training-driven muscle. A very good 132-pound sophomore might be a college 149 or 157. Girls' bodies also change across those years. So the class an athlete wrestles today is often **not** the class a coach is recruiting them into — and getting that projection right is the whole game.
+The reason is physical. A wrestler's body can keep changing between sophomore year and their early twenties, through growth and training, so the class an athlete wrestles today may **not** be the class a coach is recruiting them into — and getting that projection right is the whole game. How much any one athlete changes varies. We have no source that measures how often or how far wrestlers move up, so we don't put a number on it.
 
 ## How coaches project a college weight class
 
@@ -86,7 +86,7 @@ That last step is where families most often go wrong by eye, and it's exactly wh
 
 ## Every recruit's journey is different
 
-Projection is an estimate, and bodies don't read the memo. Some wrestlers stall at a class everyone thought they'd grow out of; others jump two classes in eighteen months and become a completely different recruit. A wrestler dismissed as "just a good high-school 120" can become a college 141 with a national ceiling — and the reverse happens too. Use projection to ask better questions and target smarter, and stay flexible as your athlete's body and wrestling actually develop.
+Projection is an estimate, and bodies don't read the memo. Some wrestlers stall at a class everyone thought they'd grow out of; others move up faster than anyone expected and become a completely different recruit. A wrestler overlooked at one high-school weight can end up at a very different college weight — and the reverse happens too. Use projection to ask better questions and target smarter, and stay flexible as your athlete's body and wrestling actually develop.
 
 ---
 

@@ -91,7 +91,7 @@ None of these are definitive. They're starting points for conversations and deci
 Honesty about what the analysis can't do is part of the method:
 
 - **Roster data is a snapshot.** Wrestlers transfer, recruits commit, wrestlers move up a class. The analysis reflects the roster as published.
-- **Listed weight may not equal wrestled weight.** A wrestler listed at a body weight may compete at a different certified class, and redshirts complicate depth (see [weight-class depth](/wrestling/methodology/weight-class-depth/)).
+- **Listed weight may not equal wrestled weight.** A wrestler listed at a body weight may compete at a different certified class, and wrestlers outside the lineup complicate depth (see [weight-class depth](/wrestling/methodology/weight-class-depth/)).
 - **Data quality varies by program.** Some publish detailed rosters; others publish little. Our analysis is only as good as what each program makes public.
 - **The women's picture is changing fast.** With the sport adding programs quickly and running a unified championship (through 2027), some structural facts shift season to season — we build the [women's caveat](/wrestling/womens/guide/ncaa-championship/) into how we read "level."
 - **It's the beginning, not the end.** Roster analysis identifies where opportunity might exist; confirming it requires coach conversations and visits.

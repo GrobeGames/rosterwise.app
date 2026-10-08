@@ -43,7 +43,7 @@ RosterWise applies [roster intelligence](/roster-intelligence/) to men's wrestli
 
 ## Weight-class projection matters most in men's wrestling
 
-Because boys often add two full weight classes between their sophomore year and college, the single hardest — and most important — evaluation in men's recruiting is **projection**: what weight will this athlete actually wrestle at 20 or 21? Our guide to [what college coaches evaluate](/wrestling/guide/what-college-coaches-evaluate/) walks through how programs read a multi-year weight trajectory, and why a family's own honest projection changes the target list.
+Because a wrestler's body can keep changing between sophomore year and college, the single hardest — and most important — evaluation in men's recruiting is **projection**: what weight will this athlete actually wrestle at 20 or 21? Our guide to [what college coaches evaluate](/wrestling/guide/what-college-coaches-evaluate/) walks through how programs read a multi-year weight trajectory, and why a family's own honest projection changes the target list.
 
 ## Men's wrestling content
 

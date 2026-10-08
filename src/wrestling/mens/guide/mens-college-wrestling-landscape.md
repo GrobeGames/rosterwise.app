@@ -73,7 +73,7 @@ Men's college wrestling — across the NCAA, NAIA, and NJCAA — is contested at
 Because there's one starter per weight, a recruit's opportunity at any program comes down to **weight-class depth**: who's at your athlete's **projected** weight, and when do they graduate? Two truths follow:
 
 - **Reputation misleads.** A nationally ranked program can be wide open at 141 and immovable at 149. A mid-tier program might have a clear starting path at your athlete's weight. The program's overall stature tells you little about the opportunity at one weight.
-- **Projection is everything.** Since boys commonly grow one to two classes (see [what coaches evaluate](/wrestling/guide/what-college-coaches-evaluate/)), you're matching a **projected** weight to a program's depth in the right **class year** — not today's high-school class to today's starter.
+- **Projection is everything.** Since a wrestler's body can keep changing well past sophomore year (see [what coaches evaluate](/wrestling/guide/what-college-coaches-evaluate/)), you're matching a **projected** weight to a program's depth in the right **class year** — not today's high-school class to today's starter.
 
 This weight-by-weight read is hard to do by eye across hundreds of programs, and it's the core of what RosterWise does for men's wrestling.
 
@@ -85,7 +85,7 @@ Men's wrestling has strong regional roots — traditional hotbeds in parts of th
 
 1. **Fix your athlete's projected weight class** honestly (a band, not a point).
 2. **Choose target levels** based on competitive fit, academics, and finances — remembering men's championships are division-separated.
-3. **Read depth weight by weight** at candidate programs: who's at the projected weight, what class year, and what's behind them (including redshirts).
+3. **Read depth weight by weight** at candidate programs: who's at the projected weight, what class year, and what's behind them (including wrestlers who aren't in the lineup).
 4. **Factor geography** — where a program recruits, and where your athlete fits that map.
 
 ## Every recruit's journey is different
