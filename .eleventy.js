@@ -70,10 +70,13 @@ module.exports = function (eleventyConfig) {
   // Date formatting: "April 26, 2026"
   eleventyConfig.addFilter("dateDisplay", (dateStr) => {
     const date = new Date(dateStr);
+    // Front-matter dates parse as UTC midnight; formatting in the build
+    // machine's local zone shows the previous day west of UTC.
     return date.toLocaleDateString("en-US", {
       year: "numeric",
       month: "long",
       day: "numeric",
+      timeZone: "UTC",
     });
   });
 
