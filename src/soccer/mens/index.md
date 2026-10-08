@@ -91,6 +91,8 @@ NCAA rules govern when Division I coaches can initiate contact with recruits. Fo
 
 The 2026-27 D1 men's soccer calendar is otherwise a contact period all year, with three exceptions: dead periods November 9–12 and December 11–14, 2026, and a quiet period December 23–25, 2026.
 
+**A season-format change is pending.** On October 7, 2026 the NCAA Division I Cabinet narrowly affirmed a proposal to move D1 men's soccer to a fall-and-spring season, with the College Cup in the spring, effective August 1, 2027 unless Division I members rescind it in a 30-day rescission period. It does not apply to women's soccer, and nothing changes for 2026-27. See [where the two-semester season stands](/blog/d1-mens-soccer-two-semester-season/).
+
 D2, D3, and NAIA programs operate under different rules. D2 has no initial-contact date and only a signing-date dead period; D3 has no recruiting calendar at all (its one timing rule is that off-campus contact waits until the athlete has completed sophomore year); NAIA coaches can contact athletes at any time during high school. D3 schools do not offer athletic scholarships.
 
 ## International recruiting in men's soccer

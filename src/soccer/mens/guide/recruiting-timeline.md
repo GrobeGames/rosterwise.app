@@ -91,6 +91,8 @@ This is an observed pattern, not a rule. Individual programs and coaches vary si
 
 All other time on the D1 men's soccer calendar is a contact period.
 
+> **Coming change, not yet final (as of October 8, 2026).** On October 7, 2026 the NCAA Division I Cabinet narrowly affirmed a proposal to move D1 men's soccer to a fall-and-spring season, with the College Cup in the spring, effective August 1, 2027 unless Division I members rescind it in a 30-day rescission period. The 2026-27 calendar above is unaffected. See [where the two-semester season stands](/blog/d1-mens-soccer-two-semester-season/).
+
 During dead periods, coaches cannot have any in-person contact with recruits or families. Phone, text, email, and social media communication remain allowed.
 
 These dates apply to the 2026-27 recruiting cycle. The NCAA publishes an updated calendar each year — verify the current calendar at NCAA.org before relying on specific dates.
