@@ -257,7 +257,7 @@ Junior year is the heart of the men's lacrosse recruiting process.
 - Maintain professional, mature tone throughout all coach communications
 
 **Visits**:
-- Schedule official visits to programs of genuine interest (per NCAA rules, athletes have a cap of 5 official visits across all D1 schools combined)
+- Schedule official visits to programs of genuine interest (NCAA rules limit official visits, so confirm the current limits with each program's compliance office)
 - Unofficial visits are not limited and can be scheduled at any time
 - Plan visit strategy based on which programs are most realistic and most desirable
 
