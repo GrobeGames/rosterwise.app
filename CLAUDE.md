@@ -78,6 +78,16 @@ npm run check-seo            # assert robots.txt + sitemap.xml exist and are val
   `scripts/generate-sitemap.js`. Add priority/changefreq rules for new page
   types by editing its `PATH_CONFIG` array (first match wins — specific before
   catch-all); exclude files via `EXCLUDE_FILES` / `EXCLUDE_PATTERNS`.
+  **`<lastmod>` is the page's front-matter `date:`** (its public "Last
+  updated" stamp, bumped only on real re-verification — so bumping `date:` is
+  what tells search engines a page changed). Eleventy writes the URL → date
+  map to `_site/_build/sitemap-lastmod.json` via `src/sitemap-lastmod.njk` +
+  the `sitemapLastmodJson` filter, and the script reads it. Pages without
+  `date:` (hubs, legal pages, and the paginated program pages, which are
+  excluded from collections) get **no** `<lastmod>` — it is optional in the
+  protocol, and a wrong value is worse than none. Never derive it from file
+  mtime (every build rewrites every file, so it is always the build date) or
+  git history (Cloudflare Pages may build from a shallow clone).
 - **Clean URLs & redirects:** `src/_redirects` (Cloudflare) handles clean URLs
   and legacy 301s (`/terms` → `/privacy/`). Cloudflare issues 308s for
   trailing-slash canonicalization — footers link with trailing slashes to avoid

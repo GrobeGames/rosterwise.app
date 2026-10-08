@@ -13,6 +13,13 @@
  *
  * To add priority/changefreq rules for new page types, edit the
  * PATH_CONFIG array below.
+ *
+ * <lastmod> comes from each page's front-matter `date:` (the public "Last
+ * updated" stamp), which Eleventy writes to _site/_build/sitemap-lastmod.json
+ * (see src/sitemap-lastmod.njk). Pages without `date:` get no <lastmod> — it
+ * is optional in the protocol, and a build-time or git-derived date would be
+ * a false "changed" signal. Never fall back to file mtime: every build
+ * rewrites every file, so mtime is always the build date.
  */
 
 const fs = require("fs");
@@ -29,6 +36,9 @@ const SITE_ROOT = path.resolve(__dirname, "..", "_site");
 
 // Output path for generated sitemap
 const OUTPUT_PATH = path.join(SITE_ROOT, "sitemap.xml");
+
+// URL → front-matter date map emitted by Eleventy (src/sitemap-lastmod.njk)
+const LASTMOD_MAP_PATH = path.join(SITE_ROOT, "_build", "sitemap-lastmod.json");
 
 /**
  * Priority and changefreq rules.  First match wins, so put more specific
@@ -160,11 +170,17 @@ function getConfig(urlPath) {
 }
 
 /**
- * Get file last-modified date in ISO 8601 (YYYY-MM-DD).
+ * Load the URL → lastmod (YYYY-MM-DD) map Eleventy emitted. Fails loudly if
+ * it is missing, rather than silently dropping every <lastmod>.
  */
-function getLastMod(filePath) {
-  const stat = fs.statSync(filePath);
-  return stat.mtime.toISOString().split("T")[0];
+function loadLastModMap() {
+  if (!fs.existsSync(LASTMOD_MAP_PATH)) {
+    console.error(
+      `✗ ${path.relative(process.cwd(), LASTMOD_MAP_PATH)} not found — run Eleventy first (npm run build).`
+    );
+    process.exit(1);
+  }
+  return JSON.parse(fs.readFileSync(LASTMOD_MAP_PATH, "utf-8"));
 }
 
 // ---------------------------------------------------------------------------
@@ -173,12 +189,13 @@ function getLastMod(filePath) {
 
 function main() {
   const htmlFiles = findHtmlFiles(SITE_ROOT);
+  const lastModMap = loadLastModMap();
 
   const urls = htmlFiles
     .map((relPath) => {
       const urlPath = fileToUrlPath(relPath);
       const config = getConfig(urlPath);
-      const lastmod = getLastMod(path.join(SITE_ROOT, relPath));
+      const lastmod = lastModMap[urlPath] || null;
       const loc =
         urlPath === "/" ? `${BASE_URL}/` : `${BASE_URL}${urlPath}`;
 
@@ -197,7 +214,9 @@ function main() {
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     ...urls.map(
       (u) =>
-        `  <url>\n    <loc>${u.loc}</loc>\n    <lastmod>${u.lastmod}</lastmod>\n    <changefreq>${u.changefreq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`
+        `  <url>\n    <loc>${u.loc}</loc>\n` +
+        (u.lastmod ? `    <lastmod>${u.lastmod}</lastmod>\n` : "") +
+        `    <changefreq>${u.changefreq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`
     ),
     "</urlset>",
     "", // trailing newline
@@ -205,9 +224,15 @@ function main() {
 
   fs.writeFileSync(OUTPUT_PATH, xml, "utf-8");
 
-  console.log(`✓ sitemap.xml generated with ${urls.length} URLs:`);
+  const dated = urls.filter((u) => u.lastmod).length;
+  console.log(
+    `✓ sitemap.xml generated with ${urls.length} URLs ` +
+      `(${dated} with <lastmod> from front-matter date, ${urls.length - dated} without):`
+  );
   urls.forEach((u) =>
-    console.log(`  ${u.loc}  (priority=${u.priority}, changefreq=${u.changefreq})`)
+    console.log(
+      `  ${u.loc}  (priority=${u.priority}, changefreq=${u.changefreq}, lastmod=${u.lastmod || "—"})`
+    )
   );
 }
 

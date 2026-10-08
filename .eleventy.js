@@ -111,6 +111,29 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  // Sitemap lastmod map: page URL → front-matter `date:` (YYYY-MM-DD) for
+  // every page that sets one. `date:` is the public "Last updated" stamp,
+  // bumped only on real re-verification, which is exactly what <lastmod>
+  // means. Read `item.data.date`, never `item.page.date` — Eleventy fills
+  // page.date with the file's creation time when front matter has no date.
+  // Consumed by scripts/generate-sitemap.js; see src/sitemap-lastmod.njk.
+  eleventyConfig.addFilter("sitemapLastmodJson", (items) => {
+    const map = {};
+    for (const item of items) {
+      const date = item.data && item.data.date;
+      if (!item.url || !date) continue;
+      const parsed = new Date(date);
+      if (Number.isNaN(parsed.getTime())) {
+        throw new Error(
+          `Unparseable front-matter date ${JSON.stringify(date)} in ${item.inputPath}`
+        );
+      }
+      // Front-matter dates parse as UTC midnight; take the UTC calendar day.
+      map[item.url] = parsed.toISOString().split("T")[0];
+    }
+    return JSON.stringify(map, null, 2);
+  });
+
   // JSON-LD-safe string: JSON-escapes a value (surrounding quotes included)
   // for direct embedding in a JSON-LD <script> block. Use with `| safe` so
   // Nunjucks autoescape doesn't HTML-entity-encode apostrophes/quotes into
