@@ -94,6 +94,13 @@ module.exports = function (eleventyConfig) {
     return /^https?:\/\//i.test(url) ? url : "https://" + url;
   });
 
+  // Drop one trailing period from a value the template ends a sentence
+  // with, so an abbreviated name ("Old Dominion Athletic Conf.") doesn't
+  // render a double period ("…Conf..").
+  eleventyConfig.addFilter("beforePeriod", (s) =>
+    typeof s === "string" ? s.replace(/\.$/, "") : s
+  );
+
   // Resolve the sport (from apps.json) that a given page URL belongs to, e.g.
   // "/wrestling/guide/x/" → the wrestling entry. Returns null for
   // sport-agnostic pages (/guide/, /faq/, /app/, home, …). The slug must be

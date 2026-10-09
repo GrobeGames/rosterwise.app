@@ -148,9 +148,9 @@ eleventyExcludeFromCollections: true
 
     <p class="program-hero-summary">
       {% if program.status == "new" %}
-      {{ program.school_name }} launched a new {{ program.gender_display | lower }} {{ program.sport_display | lower }} program{% if program.new_program_year %} with its first season in {{ program.new_program_year }}{% endif %}. The program competes in {{ divisionLabel }}{% if program.conference %} as a member of the {{ program.conference }}{% endif %}.
+      {{ program.school_name }} launched a new {{ program.gender_display | lower }} {{ program.sport_display | lower }} program{% if program.new_program_year %} with its first season in {{ program.new_program_year }}{% endif %}. The program competes in {{ divisionLabel }}{% if program.conference %} as a member of the {{ program.conference | beforePeriod }}{% endif %}.
       {% else %}
-      The {{ program.school_name }} {{ program.display_name }} compete in {{ divisionLabel }} {{ program.gender_display | lower }} {{ program.sport_display | lower }}{% if program.conference %} as members of the {{ program.conference }}{% endif %}.
+      The {{ program.school_name }} {{ program.display_name }} compete in {{ divisionLabel }} {{ program.gender_display | lower }} {{ program.sport_display | lower }}{% if program.conference %} as members of the {{ program.conference | beforePeriod }}{% endif %}.
       {% if program.control %}{{ program.school_name }} is a {{ program.control | lower }} {% if program.carnegie_classification %}{{ program.carnegie_classification }} research university{% else %}institution{% endif %}{% if program.year_established %} founded in {{ program.year_established }}{% endif %}.{% endif %}
       {% endif %}
     </p>

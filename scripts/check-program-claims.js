@@ -60,6 +60,10 @@ const CHECKS = [
       /&middot;\s*(<\/p>|&middot;)|school-name">\s*,|"(name|addressLocality)":\s*"(,[^"]*)?"/.test(html),
   },
   {
+    label: 'double period after an abbreviated name ("Conf..")',
+    bad: (p, html, text) => /[^.]\.\.(?!\.)/.test(text),
+  },
+  {
     label: "map pin rendered without computed pin coordinates (default position)",
     bad: (p, html) =>
       /class="program-map-pin"/.test(html) &&
