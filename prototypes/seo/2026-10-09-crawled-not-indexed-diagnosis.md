@@ -1,8 +1,13 @@
 # "Crawled – currently not indexed": diagnosis and plan
 
-**Date:** 2026-10-09 · **Scope:** analysis and recommendations only. No page copy
-or data was changed. · **Status:** awaiting Scott's review before any
-implementation.
+**Date:** 2026-10-09 · **Status:** R0 shipped on this branch (see "R0 results"
+below). R1–R7 still need Scott's go-ahead.
+
+**Decisions (Scott, 2026-10-09):**
+- **No roster data on the free pages.** R2 as written below is rejected; what
+  replaces it is open (see the R2 note).
+- **Conference hub URL pattern `/soccer/{gender}/conferences/{slug}/` is approved**
+  (R3).
 
 GSC lists about 180 programmatic program pages (e.g.
 `/soccer/womens/programs/west-liberty-hilltoppers/`,
@@ -42,7 +47,7 @@ Measured in the built site (`src/program-pages.njk`):
 | "**NCAA NAIA**". The division pill and hero hard-code the "NCAA " prefix | **390** | `:139`, `:153`, `:199`; the pipeline meta description (`export_web_programs.py:727`) has the same bug |
 | "*how long has **he** been building this program*", on every women's page (and it assumes a male coach on men's pages too) | **1,230** women's (all pages carry the line) | `:380` |
 | "*Simon Fraser University is a  research university founded in .*". Empty IPEDS fields render as broken sentences (no IPEDS record: Simon Fraser is Canadian; Stanton is the other) | 4 | `:153`, `:364` |
-| Map pin on the wrong spot: `map_pin_left/top` is null for Washington, DC schools, so the pin falls back to the **Notre Dame** coordinates hard-coded at `:321` | 13 (all DC programs: Georgetown, Howard, GW, American, Catholic, Gallaudet, UDC, Trinity Washington) | pipeline `compute_map_pin_position` + template default |
+| Map pin on the wrong spot: `map_pin_left/top` is null for Washington, DC schools. Nunjucks `default()` ignores null, so the pin rendered as `left: %; top: %` (top-left corner of the map) | 13 (all DC programs: Georgetown, Howard, GW, American, Catholic, Gallaudet, UDC, Trinity Washington) | pipeline `compute_map_pin_position` + template |
 
 This is RosterWise's 100%-accuracy rule, independent of Google. It goes first
 whatever else is decided. Every fix is either **removing** template text that
@@ -187,6 +192,12 @@ it ships first regardless,** because it's an accuracy defect.
 
 ### R2. Per-program roster aggregates from published seasons (pipeline, then template)
 
+> **Rejected 2026-10-09:** Scott ruled out roster data on the free pages. Uniqueness
+> has to come from non-roster, program-level first-party fields instead
+> (e.g. conference history, program changes, labeled last-season record, home
+> venue, first season). Which of these count as "roster data" needs Scott's call
+> before an R2 replacement is scoped.
+
 The one change that makes each page different from every other page, men's vs.
 women's included. Candidate fields, all first-party and all **gated on
 `published_seasons` / settled status**, exactly like the app export:
@@ -285,3 +296,60 @@ are covered by R3 (intro prose and division split).
 3. **Conference hub URLs:** `/soccer/{gender}/conferences/{slug}/` OK?
 4. The program pages exist only for soccer; lacrosse, volleyball and wrestling
    have apps but no program pages. Out of scope here; noted for later.
+
+---
+
+## R0 results (2026-10-09)
+
+The fixes are in `src/program-pages.njk`. `scripts/check-program-claims.js` now
+runs in `npm run build` and fails the build if any built program page repeats a
+pattern. Counts are pages, out of 2,264:
+
+| Pattern | Before | After |
+|---|---|---|
+| "research university" without a Carnegie classification | 2,241 | 0 |
+| "NCAA NAIA" | 390 | 0 |
+| Gendered pronoun for the head coach | 2,246 | 0 |
+| Broken sentence from a missing field (`a -sized` ×35, `founded in .` ×8, `located in ,` ×4, hero `, BC` ×4, empty JSON-LD `addressLocality` ×4) | 35 | 0 |
+| Map pin with no computed coordinates | 13 | 0 (map omitted) |
+| `addressCountry: "US"` on a non-US address (Simon Fraser) | 2 | 0 |
+| Governing-body source doesn't match the division (390 NAIA pages cited NCAA.org; 18 discontinued pages with no division) | 408 | 0 |
+| IPEDS cited on a page with no IPEDS data | 17 | 0 |
+| "is launching" a new program whose first season has already started | 3 | 0 |
+
+All 11,302 JSON-LD blocks on program pages parse.
+
+### Pipeline follow-ups (not fixed here: data, so it gets fixed upstream)
+
+1. **Wrong IPEDS joins: the page shows another school's location and
+   institution data.** Programs that share one IPEDS location with a different
+   school include:
+   - Lincoln (Missouri) → Lincoln (PA)
+   - St. Thomas (Minnesota) → St. Thomas (TX)
+   - Anderson (Indiana) → Anderson (SC)
+   - Bethel (Minnesota) → Bethel (TN)
+   - Westminster (Missouri) → Westminster (PA)
+   - Benedictine at Mesa → Benedictine (IL)
+   - Ottawa-Arizona → Ottawa (KS)
+   - Park-Gilbert → Park (MO)
+   - IU Columbus → IU Indianapolis
+   - Saint Joseph's (Maine) / University of New England
+   - Several branch campuses on a parent unit: Vermont State, PennWest,
+     Commonwealth (Bloomsburg/Lock Haven/Mansfield), St. Joseph's NY
+
+   Each one needs its `ipeds_unitid` checked. A 100%-accuracy violation on live
+   pages. (Detection: same gender, identical lat/long, different athletics domain.)
+2. **Wesleyan College (Georgia)** has two women's program records with
+   different conferences (CCS and SSAC), so two pages exist for one program.
+3. **Discontinued meta descriptions** read "*… men's soccer — None, None, None,
+   None.*" on the 18 discontinued pages (R1 scope, exporter).
+4. **The exporter's meta description** still hard-codes "NCAA {division}"
+   (`export_web_programs.py:727`). The next regen would put "NCAA NAIA" into
+   390 descriptions (R1 scope).
+5. **DC map pins:** `compute_map_pin_position` returns null for DC. Once fixed,
+   the map returns automatically.
+6. **Simon Fraser** (Canadian; no IPEDS) has `state_full_name: "BC"`. **Stanton
+   University** has no IPEDS match, and its athletics domain `stantonelks.com`
+   doesn't match its "Titans" nickname. Verify both.
+7. **`status: "new"`** is a May snapshot: Lincoln (2024) and Pittsburg State
+   (2024) are in at least their third season. Decide when "new" expires.
