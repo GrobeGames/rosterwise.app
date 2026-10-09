@@ -32,8 +32,10 @@ sources:
   - "Publicly available college lacrosse rosters from institutional athletics websites"
   - "NCAA.org — Division membership and program listings"
   - "House v. NCAA settlement (approved June 6, 2025) — D1 roster cap framework"
+  - '<a href="https://www.njcaa.org/general/2023-24/releases/20240711fqifcg">NJCAA — "NJCAA Discontinues Women''s Lacrosse"</a> (July 11, 2024; read Oct. 9, 2026) — discontinued as a sponsored sport beginning with 2024-25'
+  - '<a href="https://www.njcaa.org/sports/">NJCAA.org — Sports</a> (2026-27 sport list, read Oct. 9, 2026) — men''s lacrosse listed; no women''s lacrosse'
 cta:
-  heading: "RosterWise gives you this analysis for every D1, D2, D3, NAIA, and NJCAA program. See it in the app."
+  heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program, plus NJCAA men's. See it in the app."
   text: "Roster composition analysis across every college lacrosse program in the country — position depth (including FOGO, LSM, and goalie specialization), class-year gaps, Canadian/international composition, height profiles, and more. Men's and women's. One app. Every program."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
@@ -87,7 +89,7 @@ None of these observations are definitive. They're starting points for conversat
 
 ## How RosterWise approaches roster composition
 
-RosterWise collects and analyzes publicly available roster data from every NCAA D1, D2, D3, NAIA, and NJCAA lacrosse program in the country — both men's and women's. The process involves:
+RosterWise collects and analyzes publicly available roster data from every NCAA D1, D2, D3, and NAIA lacrosse program in the country, men's and women's, plus every NJCAA men's program. (The NJCAA discontinued women's lacrosse beginning with the 2024-25 academic year.) The process involves:
 
 **Data collection.** We pull roster information directly from each program's official athletics website. This is public data that any family could access — the challenge is doing it systematically across more than a thousand programs.
 
@@ -98,6 +100,8 @@ RosterWise collects and analyzes publicly available roster data from every NCAA 
 **Presentation.** The analysis is presented in the RosterWise app in a format designed for families — clear, visual, and actionable. We show you where a program has depth and where it has gaps, how your athlete's profile compares to the current roster, and what the data suggests about opportunity.
 
 **Transparency.** We use only publicly available data from official institutional sources. We don't scrape behind logins, access private databases, or use information that isn't available to any member of the public who visits an athletics website.
+
+> **Correction, October 9, 2026.** An earlier version of this page said RosterWise covers every NJCAA lacrosse program, "both men's and women's" — here and in the closing section and call-to-action. The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only. RosterWise Lacrosse covers NJCAA men's programs.
 
 ## The limits of roster composition analysis
 
@@ -141,7 +145,7 @@ Roster composition analysis has always been possible. The data is public. But do
 
 Coaching staffs have always had this information because it's their job. Expensive recruiting consultants have provided it to families who can afford four-figure fees. Most families have been left with rankings, word of mouth, and hope.
 
-RosterWise exists to democratize access to roster intelligence. We believe every family — regardless of their club connections, their proximity to college programs, or their budget — should be able to make recruiting decisions based on data. That's why the app covers every D1, D2, D3, NAIA, and NJCAA lacrosse program (men's and women's), and why it costs $39.99 with no subscriptions.
+RosterWise exists to democratize access to roster intelligence. We believe every family — regardless of their club connections, their proximity to college programs, or their budget — should be able to make recruiting decisions based on data. That's why the app covers every D1, D2, D3, and NAIA lacrosse program (men's and women's) plus NJCAA men's, and why it costs $39.99 with no subscriptions.
 
 Roster composition analysis isn't magic. It's information. But in a process defined by uncertainty, incomplete information, and high stakes — especially after the House Settlement reshaped D1 lacrosse — having better information matters.
 

@@ -56,9 +56,11 @@ sources:
   - '<a href="https://www.englandlacrosse.co.uk">England Lacrosse</a> — Governing body for English lacrosse'
   - "<strong>2022 World Lacrosse Women's Championship final standings</strong> — USA (1st), Canada (2nd), England (3rd), Australia (4th)"
   - "<strong>U.S. District Court, Northern District of California</strong> — House v. NCAA settlement ruling, approved June 6, 2025"
+  - '<a href="https://www.njcaa.org/general/2023-24/releases/20240711fqifcg">NJCAA — "NJCAA Discontinues Women''s Lacrosse"</a> (July 11, 2024; read Oct. 9, 2026) — discontinued as a sponsored sport beginning with 2024-25'
+  - '<a href="https://www.njcaa.org/sports/">NJCAA.org — Sports</a> (2026-27 sport list, read Oct. 9, 2026) — men''s lacrosse listed; no women''s lacrosse'
 cta:
   heading: "Find programs where your daughter genuinely fits — wherever she's from"
-  text: "International women's lacrosse families face the same fundamental question as American families: which programs genuinely fit your daughter's athletic and academic profile? RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA women's lacrosse program — position depth, class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring. The geographic and pathway analysis helps international families understand which programs actively recruit international talent."
+  text: "International women's lacrosse families face the same fundamental question as American families: which programs genuinely fit your daughter's athletic and academic profile? RosterWise analyzes every NCAA Division I, II, III, and NAIA women's lacrosse program — position depth, class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring. The geographic and pathway analysis helps international families understand which programs actively recruit international talent."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -135,9 +137,11 @@ International student-athletes overwhelmingly attend U.S. colleges on **F-1 stud
 Athletic scholarship eligibility for international women's lacrosse recruits operates similarly to scholarship eligibility for American recruits — but with several nuances:
 
 - International athletes must register with the NCAA Eligibility Center (eligibilitycenter.org) and meet the same academic and amateurism standards as American athletes
-- Athletic scholarships are available at the same divisions and schools (D1, D2, NAIA, NJCAA)
+- Athletic scholarships are available at the same divisions and schools (D1, D2, NAIA). The NJCAA is not an option in women's lacrosse: it discontinued the sport beginning with the 2024-25 academic year
 - The [House settlement-driven expansion](/lacrosse/womens/guide/scholarships-after-house-settlement/) of D1 women's lacrosse scholarship potential from 12 to up to 38 applies equally to programs recruiting international athletes
 - D3 schools do not offer athletic scholarships under any circumstances, including to international recruits — but academic merit aid may be available
+
+> **Correction, October 9, 2026.** An earlier version of this list named the NJCAA as a division offering women's lacrosse athletic scholarships. The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only.
 
 **A practical reality**: Many international families discover that the academic side of college admissions matters significantly. International recruits with strong academic credentials may find competitive financial packages at academically selective D3 schools where academic merit aid can be substantial. For more, see [How College Admissions Actually Works for Recruited Athletes](/guide/recruited-athlete-admissions/) and [How Athletic, Academic, Need-Based, and Outside Aid Actually Stack](/guide/stacking-financial-aid/).
 

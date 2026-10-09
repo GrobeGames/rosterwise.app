@@ -1,7 +1,7 @@
 ---
 layout: hub.njk
 title: "College Lacrosse Recruiting Intelligence — Roster Analysis for D1, D2, D3, NAIA & NJCAA Programs | RosterWise™"
-description: "RosterWise™ Lacrosse analyzes every D1, D2, D3, NAIA, and NJCAA men's and women's lacrosse program. Position depth, geographic recruiting patterns, transfer portal activity, and personalized fit scoring for recruiting families."
+description: "RosterWise™ Lacrosse analyzes every D1, D2, D3, and NAIA men's and women's lacrosse program, plus NJCAA men's. Position depth, geographic recruiting patterns, transfer portal activity, and personalized fit scoring for recruiting families."
 breadcrumbs:
   - text: Home
     url: /
@@ -13,7 +13,7 @@ children:
     status: live
   - title: "Women's College Lacrosse Recruiting"
     url: /lacrosse/womens/
-    summary: "Guides, timelines, and recruiting intelligence specific to women's college lacrosse — NCAA D1, D2, D3, NAIA, and NJCAA."
+    summary: "Guides, timelines, and recruiting intelligence specific to women's college lacrosse — NCAA D1, D2, D3, and NAIA."
     status: live
   - title: "Lacrosse Recruiting Guides"
     url: /lacrosse/guide/
@@ -28,9 +28,12 @@ sources:
   - "<strong>2026-27 NCAA Division I Men's Lacrosse and Women's Lacrosse Recruiting Calendars</strong> — official NCAA documents at ncaaorg.s3.amazonaws.com"
   - "<a href=\"https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/\">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship"
   - "RosterWise 2025-26 roster dataset — compiled from publicly available college athletics websites"
+  - '<a href="https://www.njcaa.org/general/2023-24/releases/20240711fqifcg">NJCAA — "NJCAA Discontinues Women''s Lacrosse"</a> (July 11, 2024; read Oct. 9, 2026) — discontinued as a sponsored sport beginning with 2024-25'
 ---
 
-College lacrosse recruiting rewards preparation, realistic self-assessment, and knowing where to look. RosterWise&trade; Lacrosse exists to give families the intelligence they need to navigate it with confidence — across every men's and women's program at the NCAA Division I, II, and III, NAIA, and NJCAA levels.
+College lacrosse recruiting rewards preparation, realistic self-assessment, and knowing where to look. RosterWise&trade; Lacrosse exists to give families the intelligence they need to navigate it with confidence — across every men's and women's program at the NCAA Division I, II, and III and NAIA levels, plus men's programs in the NJCAA. (The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year.)
+
+> **Correction, October 9, 2026.** An earlier version of this page said RosterWise Lacrosse covers NJCAA women's programs and described the women's game as including the NJCAA. It does not: the NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024).
 
 Lacrosse also follows its own recruiting rhythm. Unlike most college sports — where Division I coaches can first initiate contact on June 15 after a recruit's sophomore year — lacrosse holds contact back to the start of junior year. Women's lacrosse opens **September 1 at 12 p.m. Eastern**; men's lacrosse, following a rule change effective August 1, 2026, opens at **7 a.m. on the Wednesday immediately following Labor Day**. That difference reshapes the entire timeline, and it's one of many lacrosse-specific realities families need to understand.
 

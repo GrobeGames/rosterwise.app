@@ -1,7 +1,7 @@
 ---
 layout: hub.njk
-title: "Women's College Lacrosse Recruiting Intelligence — Roster Analysis for D1, D2, D3, NAIA & NJCAA | RosterWise™"
-description: "Women's college lacrosse roster intelligence — every D1, D2, D3, NAIA, and NJCAA program analyzed. Position depth, draw control specialists, geography, club pathways, transfer portal patterns. RosterWise™ Lacrosse."
+title: "Women's College Lacrosse Recruiting Intelligence — Roster Analysis for D1, D2, D3 & NAIA | RosterWise™"
+description: "Women's college lacrosse roster intelligence — every D1, D2, D3, and NAIA program analyzed. Position depth, draw control specialists, geography, club pathways, transfer portal patterns. RosterWise™ Lacrosse."
 breadcrumbs:
   - text: Home
     url: /
@@ -42,9 +42,13 @@ sources:
   - "<strong>2026-27 NCAA Division I Men's Lacrosse and Women's Lacrosse Recruiting Calendars</strong> — official NCAA documents at ncaaorg.s3.amazonaws.com"
   - "<a href=\"https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/\">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship"
   - "RosterWise 2025-26 roster dataset — compiled from publicly available college athletics websites"
+  - '<a href="https://www.njcaa.org/general/2023-24/releases/20240711fqifcg">NJCAA — "NJCAA Discontinues Women''s Lacrosse"</a> (July 11, 2024; read Oct. 9, 2026) — discontinued as a sponsored sport beginning with 2024-25'
+  - '<a href="https://www.njcaa.org/sports/">NJCAA.org — Sports</a> (2026-27 sport list, read Oct. 9, 2026) — men''s lacrosse listed; no women''s lacrosse'
 ---
 
-Women's college lacrosse recruiting has its own rhythm, its own rules, and its own competitive landscape. This section covers what families of women's lacrosse recruits need to know — written honestly, backed by data, and organized for clarity — across NCAA Division I, II, and III, NAIA, and NJCAA.
+Women's college lacrosse recruiting has its own rhythm, its own rules, and its own competitive landscape. This section covers what families of women's lacrosse recruits need to know — written honestly, backed by data, and organized for clarity — across NCAA Division I, II, and III and the NAIA. The NJCAA no longer sponsors women's lacrosse: it discontinued the sport beginning with the 2024-25 academic year.
+
+> **Correction, October 9, 2026.** An earlier version of this page listed the NJCAA among women's college lacrosse levels — in its title, its description and its text — and described NAIA and NJCAA participation as "growing." The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only. The growth claim had no source and has been removed, as has an unsourced statement that lower-division programs "often have later timelines and can be outstanding fits."
 
 ## What makes women's college lacrosse recruiting different
 
@@ -52,7 +56,7 @@ Three things stand out. First, the recruiting calendar: like all of lacrosse, th
 
 Second, women's lacrosse historically saw some of the most extreme early recruiting in all of college athletics — verbal commitments in eighth and ninth grade were not unheard of — before NCAA rule changes pushed the contact window later. That history still shapes the culture of early identification, even though the formal window now opens September 1 of junior year.
 
-Third, women's lacrosse fields a meaningfully larger pool of Division II programs than the men's game, broadening the landscape of opportunities across divisions. Combined with strong D3 and growing NAIA and NJCAA participation, women's recruits have a wide range of viable pathways.
+Third, women's lacrosse fields a meaningfully larger pool of Division II programs than the men's game, broadening the landscape of opportunities across divisions. Together with Division III and the NAIA, that gives women's recruits pathways across several divisions.
 
 *Researching men's lacrosse instead? Here's the [men's version of this guide](/lacrosse/mens/).*
 
@@ -70,7 +74,7 @@ RosterWise applies [roster intelligence](/roster-intelligence/) — systematic a
 
 ## Every recruit's timeline is different
 
-Despite the culture of early identification, programs across all divisions actively recruit through senior year and beyond. Development curves vary, and the right program depends on factors no timeline can predict. Families who feel behind should know that D2, D3, NAIA, and NJCAA programs often have later timelines and can be outstanding fits. Use these guides as context — not a checklist.
+Despite the culture of early identification, programs across all divisions actively recruit through senior year and beyond. Development curves vary, and the right program depends on factors no timeline can predict. Families who feel behind can ask D2, D3, and NAIA programs directly how their recruiting timelines work. Use these guides as context — not a checklist.
 
 ## Women's lacrosse content
 

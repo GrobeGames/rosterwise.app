@@ -91,8 +91,12 @@ npm run check-seo            # assert robots.txt + sitemap.xml exist and are val
 - **Clean URLs & redirects:** `src/_redirects` (Cloudflare) handles clean URLs
   and legacy 301s (`/terms` → `/privacy/`). Cloudflare issues 308s for
   trailing-slash canonicalization — footers link with trailing slashes to avoid
-  redirect hops. `src/robots.txt` disallows `/terms`, `/admin/`, `/_build/`,
-  `/blog/feed.xml` and points to the sitemap.
+  redirect hops. `src/robots.txt` disallows `/admin/`, `/_build/`,
+  `/blog/feed.xml` and points to the sitemap. **Never `Disallow` a redirect
+  source** — a blocked crawler can't see the 301, so the old URL sits in GSC
+  as "Blocked by robots.txt" forever instead of being followed and dropped.
+  Non-page files the site fetches (e.g. `/search-index.json`) get
+  `X-Robots-Tag: noindex` in `src/_headers` instead.
 - Passthrough-copied as-is (see `.eleventy.js`): `src/assets/`, `robots.txt`,
   `_redirects`, `_headers`.
 

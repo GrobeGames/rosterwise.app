@@ -47,6 +47,7 @@ sources:
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Public information on the House settlement and roster limit implementation'
   - '<a href="https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/Feb2026D1Gov_PhaseSevenSetQuestionandAnswer.pdf">NCAA.org</a> — Question and Answer: Implementation of the House Settlement, Section D (Institutional Benefits and the Benefits Cap), updated February 11, 2026'
   - 'Sports Illustrated / Boston College Sports — Boston College roster limit changes under House settlement (si.com/college/bostoncollege)'
+  - '<a href="https://www.njcaa.org/general/2023-24/releases/20240711fqifcg">NJCAA — "NJCAA Discontinues Women''s Lacrosse"</a> (July 11, 2024; read Oct. 9, 2026) — discontinued as a sponsored sport beginning with 2024-25'
 cta:
   heading: "Find programs where your athlete's reality matches yours."
   text: "The House settlement created winners and losers across D1 lacrosse — not based on competitive level, but based on individual program funding decisions. Knowing which programs are increasing scholarship investment, which are maintaining the status quo, and which are reducing their commitment is now essential information for recruiting families. RosterWise analyzes every D1, D2, D3, NAIA, and NJCAA men's and women's lacrosse program — position depth, class-year gaps, recruiting geography, transfer portal activity, and personalized fit scoring."
@@ -163,7 +164,7 @@ The House settlement primarily reshapes NCAA Division I. Other divisions have th
 
 **NAIA**: The NAIA operates under its own framework and is not directly subject to the House settlement.
 
-**NJCAA**: Junior college lacrosse continues under NJCAA rules.
+**NJCAA**: Junior college lacrosse continues under NJCAA rules — for men only. The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year.
 
 For families considering programs across divisions, the structural changes from the House settlement primarily affect D1. Other divisions have not seen comparable scholarship or roster changes.
 
