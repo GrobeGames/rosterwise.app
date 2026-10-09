@@ -33,13 +33,13 @@ faq:
   - q: "My son is a strong sophomore — can D1 coaches recruit him?"
     a: "Yes, in the limited sense that coaches can attend his games and add him to their recruiting databases. No, in the sense that coaches cannot initiate substantive communication or verbal offers until the contact date at the start of his junior year — the Wednesday after Labor Day. The athlete can initiate contact by sending introductory emails and filling out questionnaires, though phone calls are barred in both directions until the date."
   - q: "What's the difference between recruiting timelines for different positions?"
-    a: "While the NCAA calendar is the same for all positions, recruiting dynamics differ. Specialized positions (goalie, FOGO, LSM) have smaller recruiting pools, often resulting in earlier identification by coaches but fewer competitive offers from a smaller number of programs. Higher-volume positions (attack, midfield) have larger recruiting pools and often more competitive recruiting cycles."
+    a: "The NCAA recruiting calendar is the same for every position, including goalie, faceoff specialist (FOGO) and long-stick midfielder (LSM). How recruiting plays out at a given position is not set by the rules, and we don't have data on it. The useful question for each coach is how many players at your son's position the program expects to add in his class; the program's current roster shows who is already there, by class year."
   - q: "My son is interested in Ivy League men's lacrosse — does the timeline differ?"
     a: "Ivy League programs follow the same NCAA D1 men's lacrosse recruiting calendar for initial contact (the Wednesday after Labor Day of junior year). However, the Ivy League admissions process operates differently from non-Ivy D1 programs, and Ivy League schools do not offer athletic scholarships (need-based aid only)."
   - q: "What about Canadian players?"
-    a: "Canadian recruits operate under the same NCAA calendar but with international student-athlete considerations. Many Canadian players also pursue junior box lacrosse during their developmental years. The recruiting timeline for Canadian players often unfolds similarly to U.S. players, with the same junior-year contact date applying."
+    a: "The NCAA recruiting calendar applies to Canadian recruits the same way it applies to U.S. recruits, including the Wednesday-after-Labor-Day contact date. As international students, Canadian recruits also have additional steps to complete."
   - q: "What if my son isn't committed by spring of junior year?"
-    a: "This is more common than families often realize. Many strong recruits commit between summer of junior year and senior year. Many strong recruits at D2, D3, NAIA, and NJCAA programs commit during senior year or even later. The pressure to commit early is often more about competing for limited roster spots at the most elite D1 programs than about the broader recruiting reality."
+    a: "It's not a reason to panic. Nothing in the NCAA rules ends recruiting in junior year: Division I coaches can extend offers from the Wednesday after Labor Day of junior year onward, and programs outside Division I recruit under their own, separate rules. We don't have data on when men's lacrosse recruits commit, so we won't tell you what's typical. What we can say is that spring of junior year is not a deadline in the rules."
 sources:
   - "<strong>2026-27 NCAA Division I Manual, Bylaw 13.1.1.1.7</strong> — revision history recording the 4/26/17 (effective 8/1/17) and 4/25/18 revisions, and the 6/29/26 (effective 8/1/26) split into separate men's and women's provisions — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - '<a href="https://ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D1Rec_MLARecruitingCalendar.pdf">2026-27 NCAA Division I Men''s Lacrosse Recruiting Calendar</a> — Official NCAA document'
@@ -48,6 +48,7 @@ sources:
   - "<strong>Report of the NCAA Division I Men's Lacrosse Oversight Committee, March 2026</strong> — the committee that introduced the contact-date legislation, with its stated rationale (ncaaorg.s3.amazonaws.com/championships/sports/lacrosse/d1/men/MAR2026D1MLA_Report.pdf)"
   - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 13.1.1.1.8 (off-campus contact, men's lacrosse), 13.1.3.1.3 (telephone calls), 13.1.3.2.7 (calls from a prospect), 13.4.1.3 (recruiting materials), 13.6.2.1.3 (official visits), 13.6.2.2 (number of official visits per school; read 2026-10-09), 13.7.1.3 (unofficial visits) and 13.12.1.5.3 (camp conversations); women's lacrosse counterparts at 13.1.1.1.7, 13.1.3.1.2, 13.1.3.2.6, 13.4.1.2, 13.6.2.1.2, 13.7.1.2 and 13.12.1.5.2 — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - '<a href="https://web3.ncaa.org/lsdbi/search/proposalView?id=106508">NCAA Division I Proposal 2022-32, Recruiting: Official Visits</a> (adopted final June 24, 2023; effective July 1, 2023; read Oct. 9, 2026) — deleted the five-visit limit on recruits'
+  - '<a href="https://ivyleague.com/sports/2017/7/28/information-psa-index.aspx">The Ivy League — Prospective Athlete Information</a> (read Oct. 9, 2026): "There are no academic or athletic scholarships in the Ivy League"; aid only on the basis of financial need'
   - '<a href="https://eligibilitycenter.org">NCAA Eligibility Center</a> — Academic eligibility and registration requirements'
   - "Intercollegiate Men's Lacrosse Coaches Association (IMLCA) — Joint proposer with IWLCA of the 2017 recruiting rule change"
   - "2025 NCAA Division I Men's Lacrosse Championship records — Cornell over Maryland 13-10, Gillette Stadium, May 26, 2025 (per official NCAA records)"
@@ -85,7 +86,7 @@ Per the 2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar (published di
 - **Senior year fall**: Written offers of athletics aid are extended (replacing the National Letter of Intent in Division I, where it was [eliminated in October 2024](/guide/verbal-commitment-vs-nli/); Division II schools may still use the NLI).
 - **Senior year spring**: Final commitments, signings, and admissions paperwork.
 
-This timeline is dramatically different from sports operating under the June 15 rule. In men's lacrosse, the formal recruiting window opens roughly two and a half months later than in most NCAA D1 sports.
+This is later than Division I's general rule, under which coaches' telephone calls may begin June 15 at the conclusion of sophomore year (Bylaw 13.1.3.1). For the class starting junior year in fall 2026, the men's lacrosse date (September 9, 2026) falls 86 days after June 15.
 
 ## The 2026-27 D1 men's lacrosse recruiting calendar
 
@@ -142,7 +143,7 @@ The sport is heavily concentrated geographically in the Mid-Atlantic, Northeast,
 
 ## How the House Settlement changed the landscape
 
-A critical contextual layer for men's lacrosse recruiting families today: the [House v. NCAA settlement](/lacrosse/guide/house-settlement-and-lacrosse/), approved June 6, 2025, dramatically changed the scholarship and roster framework for NCAA D1 men's lacrosse.
+A critical contextual layer for men's lacrosse recruiting families today: the [House v. NCAA settlement](/lacrosse/guide/house-settlement-and-lacrosse/), approved June 6, 2025, changed the scholarship and roster framework for NCAA D1 men's lacrosse.
 
 **Before the House settlement**: D1 men's lacrosse operated under a 12.6 equivalency scholarship cap that programs divided among their entire roster, so most athletes received partial scholarships rather than full rides.
 
@@ -154,7 +155,7 @@ For scale on what those rosters actually look like: across the 77 Division I men
 
 **The roster reduction reality**: With the average 2024 D1 men's lacrosse roster at 52.7 and the new cap at 48, USA Lacrosse estimated in June 2025 that an average of 4.7 players per team — approximately 362 players overall — "will lose the opportunity to compete at the Division I level." That is the magazine's forecast, not a count of what has since happened. The Designated Student-Athlete (DSA) exemption protected athletes identified by their schools before the July 6, 2025 deadline.
 
-For recruiting families, the practical implication is that walk-on opportunities at D1 men's lacrosse programs are now tighter than before, and scholarship distribution varies dramatically by program.
+For recruiting families, the practical implication is that walk-on opportunities at D1 men's lacrosse programs are now tighter than before, and scholarship distribution varies by program.
 
 ## Grade-by-grade timeline
 
@@ -166,7 +167,7 @@ Freshman year is foundational. Coaches are not in a position to communicate subs
 - Develop fundamental stick skills with high-quality coaching
 - Begin competing at appropriate club levels for development
 - Focus on athletic IQ and decision-making
-- Continue physical development; many men's lacrosse players develop significantly between freshman and senior year
+- Keep working on physical development and conditioning
 
 **Academic foundation**:
 - Strong grades from the start matter; freshman GPA is part of the cumulative record
@@ -217,9 +218,9 @@ The summer between sophomore and junior year is the highest-leverage period. The
 - Confirm the exact date for your athlete's class — it is the Wednesday after Labor Day, so it shifts year to year
 
 **Showcase and tournament strategy**:
-- Attend major showcases and tournaments where target program coaches typically evaluate
-- The IMLCA Convention (typically in December for men's lacrosse) and associated showcase events are significant
-- Summer tournaments like the IMLCA Capital Cup, regional tournaments, and major club lacrosse events all serve as evaluation opportunities
+- Ask the coaches at your target programs which showcases and tournaments they plan to attend
+- On the 2026-27 Division I calendar, the December and July dead periods carry an exception that allows evaluation at showcases and tournaments held in conjunction with the IMLCA (Intercollegiate Men's Lacrosse Coaches Association) Convention and the IMLCA July summer meeting
+- Summer tournaments, regional events and club lacrosse events can also be evaluation opportunities during permitted evaluation periods
 - Be intentional about which events are worth the investment
 
 **ID camps**:
@@ -242,11 +243,11 @@ At that hour:
 - The athlete can schedule both unofficial and official visits to D1 programs
 - Off-campus contact between coaches and athletes becomes permissible
 
-Note the 7 a.m. detail: under Bylaw 13.1.1.1.8 of the 2026-27 Division I Manual (adopted June 29, 2026, effective August 1, 2026), the window opens in the morning, not at midnight.
+Note the 7 a.m. detail: under Bylaw 13.1.1.1.8 of the 2026-27 Division I Manual (adopted June 29, 2026, effective August 1, 2026), the window opens in the morning. The committee that proposed the change said it lets conversations begin "at normal hours rather than the middle of the night."
 
 The rule sets when contact may begin, not how quickly any program moves after that. For some athletes, conversations and offers come soon after the date; for others, recruiting unfolds across junior and senior year. We have no data on how common each pattern is, so ask each coach directly where your son stands and what their timeline looks like.
 
-> **Correction, October 9, 2026.** An earlier version of this section said that "top recruits famously fielded calls in the small hours" under the old September 1 rule, and that for "elite-level recruits" the opening hour "often produces multiple communications almost immediately," with "the most competitive recruiting at the top end" in the first weeks of junior year. None of it had a source, and sorting recruits into tiers is outside what we publish. We replaced it with what the rule actually sets.
+> **Correction, October 9, 2026.** An earlier version of this section said that "top recruits famously fielded calls in the small hours" under the old September 1 rule, and that for "elite-level recruits" the opening hour "often produces multiple communications almost immediately," with "the most competitive recruiting at the top end" in the first weeks of junior year. The committee report quoted at the end of this page supports only that the old start meant conversations in "the middle of the night"; the rest had no source, and sorting recruits into tiers is outside what we publish. We replaced it with what the rule actually sets.
 
 ### Junior year (11th grade) — active recruiting
 
@@ -268,13 +269,13 @@ Junior year is the heart of the men's lacrosse recruiting process.
 
 **Evaluation events**:
 - Continue participating in tournaments and showcases
-- Coaches who are actively recruiting often want to evaluate athletes multiple times before extending serious offers
+- A coach evaluating your son may want to watch him play more than once before extending an offer
 - Maintain physical fitness, skill development, and academic performance
 
 **Verbal offers and scholarship reality**:
 - Verbal offers may be extended starting on the contact date
 - A verbal offer is NOT a binding commitment
-- Under the House settlement framework, scholarship structure varies dramatically by program. Ask each program specifically: "How is your program funding scholarships under the new House settlement framework?" The answer may differ significantly across programs at the same competitive level
+- Under the House settlement framework, scholarship structure varies by program. Ask each program specifically: "How is your program funding scholarships under the new House settlement framework?" The answer may differ across programs at the same competitive level
 - Some programs may now offer larger or more numerous scholarships than they could under the previous 12.6 cap; others may continue at previous levels
 
 **Position-specific recruiting**:
@@ -300,38 +301,36 @@ Senior year completes the recruiting process for most men's lacrosse athletes.
 **Written Offer of Athletics Aid**:
 - Per the [Division I NLI elimination in October 2024](/guide/verbal-commitment-vs-nli/), Division I athletes now sign a written offer of athletics aid; Division II schools may still use the NLI
 - The Written Offer of Athletics Aid is the binding agreement
-- Initial signing dates for early signing periods typically occur in November of senior year
+- Ask each program when it will put a written offer in front of your son, and how long he will have to sign it
 
 **Spring of senior year**:
-- Athletes not yet committed may still receive offers at D2, D3, NAIA, and NJCAA programs
-- Some D1 programs continue to recruit through senior year for late roster needs
+- Athletes not yet committed can still receive offers through senior year; nothing in the rules closes recruiting at any division before then
+- Division I programs can continue to recruit through senior year
 - Finalize all admissions, financial aid, and enrollment paperwork
 
-## Realistic recruiting outcomes vary by competitive level
+## Realistic recruiting outcomes vary
 
-It's essential to be honest about how the recruiting process actually plays out for men's lacrosse athletes at different competitive levels.
+Recruiting plays out differently for every athlete, and we don't have data on how those differences are distributed — so we won't sort recruits into tiers or tell you which timeline your son is on. What the rules establish is the frame:
 
-**Elite-level D1 recruits**: Often identified well before the contact date through evaluation events, club coach networks, and program scouting. When the window opens, these athletes often receive multiple immediate offers from top programs. Verbal commitments may happen within weeks.
+- **Before 7 a.m. on the Wednesday after Labor Day of junior year,** Division I coaches can watch and evaluate during permitted periods but cannot initiate contact or extend offers. Your son can email coaches and fill out recruiting questionnaires at any time.
+- **From that Wednesday,** Division I coaches can initiate contact and extend offers, and they can keep recruiting through senior year.
+- **Outside Division I,** programs recruit under their own rules. Division III, for example, has no recruiting calendar at all, and Division III schools may not award financial aid on the basis of athletics (NCAA Division III Bylaw 15.01.3).
+- **How many programs there are.** The NCAA projects **77** Division I, **80** Division II and **236** Division III men's lacrosse programs for 2025-26 (projected numbers only; actual numbers may change).
+- **Athletes who develop later** can still reach out, update their film, and ask coaches to take another look; nothing in the rules closes that door in junior year.
 
-**High-level D1 recruits with regional or specific-school targets**: Recruiting often unfolds across junior year into senior year with multiple visits, evaluations, and progressive offer escalation.
-
-**D2 men's lacrosse recruits**: D2 men's lacrosse has **80** projected 2025-26 programs and a more flexible recruiting environment. D2 coaches can typically communicate with athletes more freely than D1 coaches. The recruiting cycle at D2 is often longer and more deliberate.
-
-**D3 men's lacrosse recruits**: D3 men's lacrosse has the largest pool of programs by far — **236** NCAA D3 programs projected for 2025-26, against 80 at D2 and 77 at D1. D3 programs do not offer athletic scholarships but often have strong academic merit aid programs that can produce competitive financial packages. D3 recruiting often runs through senior year. Elite NESCAC and other academically selective D3 programs have their own recruiting framework (see [How College Admissions Actually Works for Recruited Athletes](/guide/recruited-athlete-admissions/)).
-
-**NAIA and NJCAA recruits**: These divisions operate under their own frameworks with generally more permissive communication rules and longer recruiting cycles.
-
-**Late-developing recruits**: Some men's lacrosse players develop physically and athletically late. These recruits may not be on radars when the contact window opens but may emerge during junior or senior year. Proactive outreach, individual coach communication, and demonstrated improvement are the keys for late-developing recruits.
+> **Correction, October 9, 2026.** An earlier version of this section sorted recruits into "elite-level" and "high-level" tiers and described what "often" happens to each — including "multiple immediate offers from top programs" when the window opens — and said Division II coaches "can typically communicate … more freely," that Division III programs "often have strong academic merit aid," and that NAIA and NJCAA rules are "generally more permissive." None of it had a source, and ranking recruits and programs is outside what we publish. We replaced the section with what the rules establish.
 
 None of these pathways is inherently better. The right outcome is the one that matches the athlete's actual fit.
 
 ## International recruiting in men's lacrosse
 
-Men's college lacrosse has a meaningfully international dimension that women's college lacrosse does not yet share at the same scale.
+Men's college lacrosse rosters include international players, including Canadians.
 
-**Canadian recruiting**: Canada is the most significant source of international men's lacrosse recruits in the United States. Canadian players often arrive with different developmental backgrounds (including box lacrosse experience) that produce a distinct skill profile. Canadian recruiting follows the same general NCAA timeline rules but with some practical adjustments for international student-athletes.
+**Canadian recruiting**: Canadian recruits follow the same NCAA recruiting calendar as U.S. recruits. A Canadian player may have box lacrosse experience as well as field lacrosse; ask coaches how they evaluate it. As international students, Canadian recruits also have additional steps — see [International Student-Athletes](/guide/international-student-athletes/).
 
-**Other international**: Lacrosse is growing internationally — from the Iroquois Nationals to programs in the UK, Australia, Japan, and other nations. International recruiting in men's lacrosse remains smaller in scale than Canadian recruiting but is gradually expanding.
+**Other international players**: we don't publish figures on how many international players are on men's college lacrosse rosters, so we won't characterize the trend. Each program's roster lists hometowns, which shows you where its players come from.
+
+> **Correction, October 9, 2026.** An earlier version of this section said men's lacrosse has "a meaningfully international dimension" that the women's game lacks, that Canada is "the most significant source of international men's lacrosse recruits," that Canadian players "often" arrive with a distinct skill profile, and that international recruiting is "gradually expanding." We have no data supporting those statements, so we removed them.
 
 ## Common questions about the men's lacrosse timeline
 
@@ -341,7 +340,7 @@ Yes, in the limited sense that coaches can attend his games and add him to their
 
 **"What's the difference between recruiting timelines for different positions?"**
 
-While the NCAA calendar is the same for all positions, recruiting dynamics differ. Specialized positions (goalie, FOGO, LSM) have smaller recruiting pools, often resulting in earlier identification by coaches but fewer competitive offers from a smaller number of programs. Higher-volume positions (attack, midfield) have larger recruiting pools and often more competitive recruiting cycles.
+The NCAA recruiting calendar is the same for every position, including goalie, faceoff specialist (FOGO) and long-stick midfielder (LSM). How recruiting plays out at a given position is not set by the rules, and we don't have data on it. The useful question for each coach is how many players at your son's position the program expects to add in his class; the program's current roster shows who is already there, by class year.
 
 **"My son is interested in Ivy League men's lacrosse — does the timeline differ?"**
 
@@ -349,15 +348,17 @@ Ivy League programs follow the same NCAA D1 men's lacrosse recruiting calendar f
 
 **"What about Canadian players?"**
 
-Canadian recruits operate under the same NCAA calendar but with international student-athlete considerations. Many Canadian players also pursue junior box lacrosse during their developmental years. The recruiting timeline for Canadian players often unfolds similarly to U.S. players, with the same junior-year contact date applying.
+The NCAA recruiting calendar applies to Canadian recruits the same way it applies to U.S. recruits, including the Wednesday-after-Labor-Day contact date. As international students, Canadian recruits also have additional steps to complete. See [International Student-Athletes](/guide/international-student-athletes/).
 
 **"What if my son isn't committed by spring of junior year?"**
 
-This is more common than families often realize. Many strong recruits commit between summer of junior year and senior year. Many strong recruits at D2, D3, NAIA, and NJCAA programs commit during senior year or even later. The pressure to commit early is often more about competing for limited roster spots at the most elite D1 programs than about the broader recruiting reality.
+It's not a reason to panic. Nothing in the NCAA rules ends recruiting in junior year: Division I coaches can extend offers from the Wednesday after Labor Day of junior year onward, and programs outside Division I recruit under their own, separate rules. We don't have data on when men's lacrosse recruits commit, so we won't tell you what's typical. What we can say is that spring of junior year is not a deadline in the rules.
 
 ## Every recruit's journey is different
 
-No two men's lacrosse athletes have the same recruiting experience. Some receive multiple D1 offers within hours of the contact window opening; others build their recruiting pathway slowly over the course of two years. Some thrive at the most elite D1 programs; others find better fits at D3 NESCAC programs where the experience suits them better. Some commit early and never reconsider; others change their minds multiple times. The timeline framework in this guide provides the structural context — when coaches can communicate, when offers can be extended, when official visits become possible. But how it unfolds for your specific athlete depends on his development, his position, his academic profile, his geographic preferences, the depth of his recruiting class, and dozens of individual factors. The House settlement adds another layer of variance — scholarship reality now varies dramatically across programs in ways it didn't before. Use this guide as a roadmap, but treat the roadmap as a guide, not as a rigid prescription.
+No two men's lacrosse athletes have the same recruiting experience. Some athletes hear from Division I coaches as soon as the rules allow; others build their recruiting pathway slowly over the course of two years. Some find their fit in Division I; others find it at a Division II or Division III program where the experience suits them better. Some commit early and never reconsider; others change their minds multiple times. The timeline framework in this guide provides the structural context — when coaches can communicate, when offers can be extended, when official visits become possible. But how it unfolds for your specific athlete depends on his development, his position, his academic profile, his geographic preferences and the programs he is considering. The House settlement adds another variable: roster limits and scholarship structures now depend on whether a school is covered by the settlement, so ask each program directly. Use this guide as a roadmap, not as a rigid prescription.
+
+> **Correction, October 9, 2026.** An earlier version of this paragraph said some athletes "receive multiple D1 offers within hours of the contact window opening," contrasted "the most elite D1 programs" with "D3 NESCAC programs," and said scholarship reality "now varies dramatically." Those were unsourced characterizations, and we rewrote them.
 
 
 ## Why the men's date moved, in the NCAA's own words
@@ -366,7 +367,7 @@ The change came from the **NCAA Division I Men's Lacrosse Oversight Committee**,
 
 Its stated reasons: the new date lets families and coaches "celebrate a federal holiday and begin initial conversations at normal hours rather than the middle of the night," it delays the start "by fewer than 10 calendar days," and it was "overwhelmingly supported by the Intercollegiate Men's Lacrosse Coaches Association."
 
-That last point matters for families reading older content: this was not a restriction imposed over coaches' objections, and the practical shift is under a fortnight. What changed most is the **hour** — the old September 1 rule opened at midnight, which is why stories of 12:01 a.m. phone calls were a fixture of lacrosse recruiting. The 7 a.m. trigger ends that.
+That last point matters for families reading older content: this was not a restriction imposed over coaches' objections, and the practical shift is under a fortnight. What changed most is the **hour**: in the committee's words, the new date lets families and coaches begin initial conversations "at normal hours rather than the middle of the night."
 
 ---
 

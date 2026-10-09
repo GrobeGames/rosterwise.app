@@ -499,14 +499,38 @@ wrestling set does not mention. Worth its own pass.
     applied to the women's timeline has not been applied to them.
 32. ✅ **RESOLVED 2026-10-09 — men's timeline, "The Wednesday after Labor Day" section.**
     ❌ Cut: "Under the old September 1 rule, top recruits famously fielded calls in the small hours"
-    (unsourced history; no row shows the former rule opened at midnight — see the PENDING 2017/2018
-    history row); "For elite-level recruits … the opening hour often produces multiple communications
+    (the "famously … top recruits" framing was unsourced; the midnight start itself IS supported by the
+    March 2, 2026 committee report: "begin initial conversations at normal hours rather than the middle of the
+    night" — the section now quotes that instead, and the correction note was amended the same day); "For elite-level recruits … the opening hour often produces multiple communications
     almost immediately … The first weeks of junior year often see the most competitive recruiting at the
     top end" (unsourced "often" claims and recruit tiers, §3/§4.1). Kept and re-sourced: the 7 a.m.
     opening, Bylaw 13.1.1.1.8 (Adopted 6/29/26 effective 8/1/26), 2026-27 DI Manual p.71, text-extracted
-    2026-10-09. Dated correction note added. **Still open from item 30 on the same page:** the recruit-tier
-    section ("Elite-level D1 recruits" / "High-level D1 recruits"), FAQ + body "Many strong recruits …",
-    and the closing "Some receive multiple D1 offers within hours" paragraph.
+    2026-10-09. Dated correction note added. Item 30's men's-timeline items are closed by item 33.
+33. ✅ **RESOLVED 2026-10-09 — full unsourced-claim pass on `mens/guide/recruiting-timeline`** (closes the men's-timeline
+    part of item 30). ❌ Cut, all unsourced "often"/tier/evaluative claims (§3, §4.1): recruit tiers ("Elite-level D1",
+    "High-level D1") and "multiple immediate offers from top programs"; "D2 coaches can typically communicate … more
+    freely"; D3 "often have strong academic merit aid", "Elite NESCAC"; NAIA/NJCAA "generally more permissive";
+    positions FAQ ("often … earlier identification", "fewer competitive offers"); Canadian FAQ ("Many Canadian players …
+    junior box", "often unfolds similarly"); not-committed FAQ ("Many strong recruits …", "most elite D1 programs");
+    "target program coaches typically evaluate"; IMLCA Convention "typically in December"; "IMLCA Capital Cup" (name
+    not verified); "Coaches … often want to evaluate … multiple times"; "Initial signing dates … typically occur in
+    November"; "Some D1 programs continue to recruit … for late roster needs"; international section ("meaningfully
+    international dimension", Canada "the most significant source" — no RosterWise lacrosse international figures exist,
+    see the §N/row-247 note — and "gradually expanding"); closing paragraph ("multiple D1 offers within hours", "most
+    elite D1" vs "D3 NESCAC", "varies dramatically"); "stories of 12:01 a.m. phone calls were a fixture".
+    ✅ Kept / re-sourced: NCAA 2025-26 projections 77/80/236 (§ row "NCAA men's lacrosse, projected 2025-26");
+    D3 no athletics-based aid (Bylaw 15.01.3, row verified 2026-08-26); D3 has no recruiting calendar
+    (`soccer-fact-log.md` §D row); IMLCA Convention / July meeting dead-period exception (row "Calendar detail **not**
+    in copy" — now IN copy; Articles: lacrosse/mens/guide/recruiting-timeline); March 2, 2026 committee report
+    rationale quotes, re-read 2026-10-09 ("celebrate a federal holiday", "normal hours rather than the middle of the
+    night", "fewer than 10 calendar days", "overwhelmingly supported by the Intercollegiate Men's Lacrosse Coaches
+    Association"); Ivy League: "There are no academic or athletic scholarships in the Ivy League" and aid "only on the
+    basis of financial need" — ivyleague.com Prospective Athlete Information, read 2026-10-09 (new source on the page).
+    Four dated correction notes added (contact-date, outcomes, international, closing sections). `date:` not bumped.
+    Also: "roughly two and a half months later than in most NCAA D1 sports" (unsourced "most") → the general-rule
+    comparison from row 112 (Bylaw 13.1.3.1, June 15 at the conclusion of sophomore year) with the computed gap for
+    the fall-2026 junior class (June 15 → September 9, 2026 = 86 days); four "dramatically"/"significantly" intensifiers
+    removed (tone only, no fact change). Row 112 Articles gains lacrosse/mens/guide/recruiting-timeline.
 31. ✅ **RESOLVED 2026-10-09.** Line 262 now states the count (Bylaw 13.7.2) and the
     Bylaw 13.7.1.3 gate, with a dated correction note; see the §A row added 2026-10-09.
     Original item: **Men's timeline line 262 — "Unofficial visits are not limited and can be
