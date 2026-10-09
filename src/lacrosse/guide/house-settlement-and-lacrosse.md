@@ -50,7 +50,7 @@ sources:
   - '<a href="https://www.njcaa.org/general/2023-24/releases/20240711fqifcg">NJCAA — "NJCAA Discontinues Women''s Lacrosse"</a> (July 11, 2024; read Oct. 9, 2026) — discontinued as a sponsored sport beginning with 2024-25'
 cta:
   heading: "Find programs where your athlete's reality matches yours."
-  text: "The House settlement created winners and losers across D1 lacrosse — not based on competitive level, but based on individual program funding decisions. Knowing which programs are increasing scholarship investment, which are maintaining the status quo, and which are reducing their commitment is now essential information for recruiting families. RosterWise analyzes every D1, D2, D3, NAIA, and NJCAA men's and women's lacrosse program — position depth, class-year gaps, recruiting geography, transfer portal activity, and personalized fit scoring."
+  text: "The House settlement created winners and losers across D1 lacrosse — not based on competitive level, but based on individual program funding decisions. Knowing which programs are increasing scholarship investment, which are maintaining the status quo, and which are reducing their commitment is now essential information for recruiting families. RosterWise analyzes every D1, D2, D3, and NAIA men's and women's lacrosse program, plus NJCAA men's — position depth, class-year gaps, recruiting geography, transfer portal activity, and personalized fit scoring."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
