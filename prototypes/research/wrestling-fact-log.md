@@ -177,6 +177,7 @@ Blast radius: the task named two pages; the same claim was on five, and §9.2 re
 | Claim | Primary source | Verified | Articles |
 | --- | --- | --- | --- |
 | ❌ **CUT — "Athletes can take unlimited official visits overall, with one official visit permitted per school (a second is allowed only in limited circumstances)"** (FAQ). No fact-log row, and it contradicts the five-visit cap stated on `/guide/ncaa-recruiting-rules/`, `/guide/official-vs-unofficial-visits/` and both lacrosse timelines (itself pending in `lacrosse-fact-log.md` §A). Two site claims conflict and neither is verified, so the copy now says only that NCAA rules limit official visits and to confirm the current limits with a compliance office. | Not verified: LSDBi Proposal 2022-32 (adopted final 2023-06-24) restates a five-visit prospect limit in plain text but its strikethroughs are not visible to a fetch | 2026-10-08 | recruiting-timeline |
+| ✅ **RESOLVED 2026-10-09 — and the cut FAQ claim was substantially RIGHT.** The current rule (2026-27 DI Manual) has **no prospect-wide limit** on official visits — DI Proposal 2022-32 deleted the five-visit prospect limit effective July 1, 2023 — and a per-school limit: Bylaw 13.6.2.2, "An institution may finance one visit to its campus for a prospective student-athlete before October 15 following completion of high school and one visit beginning October 15 following completion of high school…", plus one additional visit after a head-coach change (13.6.2.2.1). So "unlimited overall, one per school, a second only in limited circumstances" was correct in substance; it was cut on 2026-10-08 because it was unlogged and contradicted by the (wrong) five-visit claim elsewhere on the site. The FAQ now reads: "Under the 2026-27 Division I Manual there is no limit on how many schools a recruit can visit officially, but each school can pay for only one official visit before October 15 following completion of high school (Bylaw 13.6.2.2)." No correction note — the live FAQ on `main` was not wrong. Full detail: `guide-fact-log.md` §C, 2026-10-09 rows. | **NCAA LSDBi — DI Proposal 2022-32** (`proposalView?id=106508`), read with strikethroughs visible; **2026-27 NCAA DI Manual, Bylaws 13.6.2.2, 13.6.2.2.1** (`bylawView?id=128232`) | 2026-10-09 | recruiting-timeline (FAQ, line 35) |
 | ❌ **CUT — "August 1 is typically when the recruiting process accelerates"** (FAQ) — unsourced. | none | 2026-10-08 | recruiting-timeline |
 | ✏️ **"Shutdown periods (the same [as dead periods])"** — wrong: a recruiting shutdown bars all recruiting, including calls and correspondence. Reworded from the calendar's own definitions. | 2026-27 Other Division I Sports calendar, definitions panel | 2026-10-08 | recruiting-timeline |
 
@@ -202,7 +203,8 @@ Blast radius: the task named two pages; the same claim was on five, and §9.2 re
   status "as of October 8, 2026." After the Oct. 13, 2026 argument and again
   after any ruling, update every page in §K's `Articles` column in the same
   commit as `src/guide/age-based-eligibility.md`.
-- **Official-visit limits (§M)** — the site states a five-visit cap on the
-  universal guides and lacrosse timelines; the wrestling FAQ formerly said
-  "unlimited." Resolve against the current DI Manual Bylaw 13.6.2.2 in one
-  cross-site pass.
+- ~~**Official-visit limits (§M)**~~ — RESOLVED 2026-10-09 in one cross-site
+  pass: the five-visit cap was deleted effective July 1, 2023 (Proposal 2022-32);
+  the per-school rule (Bylaw 13.6.2.2) is now stated on the wrestling FAQ, both
+  lacrosse timelines and both universal visit guides. See §M and
+  `guide-fact-log.md` §C.

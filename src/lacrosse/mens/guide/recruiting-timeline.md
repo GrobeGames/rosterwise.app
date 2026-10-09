@@ -46,7 +46,8 @@ sources:
   - "<strong>NCAA Division I men's lacrosse recruiting legislation adopted June 29, 2026, effective August 1, 2026</strong> — moved the initial contact date from September 1 to the Wednesday (7 a.m.) immediately following Labor Day at the beginning of junior year"
   - '<a href="https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship: "2025-26 NCAA Projected Sport Sponsorship," as of September 2025 (men''s lacrosse: 77 DI, 80 DII, 236 DIII)'
   - "<strong>Report of the NCAA Division I Men's Lacrosse Oversight Committee, March 2026</strong> — the committee that introduced the contact-date legislation, with its stated rationale (ncaaorg.s3.amazonaws.com/championships/sports/lacrosse/d1/men/MAR2026D1MLA_Report.pdf)"
-  - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 13.1.1.1.8 (off-campus contact, men's lacrosse), 13.1.3.1.3 (telephone calls), 13.1.3.2.7 (calls from a prospect), 13.4.1.3 (recruiting materials), 13.6.2.1.3 (official visits), 13.7.1.3 (unofficial visits) and 13.12.1.5.3 (camp conversations); women's lacrosse counterparts at 13.1.1.1.7, 13.1.3.1.2, 13.1.3.2.6, 13.4.1.2, 13.6.2.1.2, 13.7.1.2 and 13.12.1.5.2 — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 13.1.1.1.8 (off-campus contact, men's lacrosse), 13.1.3.1.3 (telephone calls), 13.1.3.2.7 (calls from a prospect), 13.4.1.3 (recruiting materials), 13.6.2.1.3 (official visits), 13.6.2.2 (number of official visits per school; read 2026-10-09), 13.7.1.3 (unofficial visits) and 13.12.1.5.3 (camp conversations); women's lacrosse counterparts at 13.1.1.1.7, 13.1.3.1.2, 13.1.3.2.6, 13.4.1.2, 13.6.2.1.2, 13.7.1.2 and 13.12.1.5.2 — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - '<a href="https://web3.ncaa.org/lsdbi/search/proposalView?id=106508">NCAA Division I Proposal 2022-32, Recruiting: Official Visits</a> (adopted final June 24, 2023; effective July 1, 2023; read Oct. 9, 2026) — deleted the five-visit limit on recruits'
   - '<a href="https://eligibilitycenter.org">NCAA Eligibility Center</a> — Academic eligibility and registration requirements'
   - "Intercollegiate Men's Lacrosse Coaches Association (IMLCA) — Joint proposer with IWLCA of the 2017 recruiting rule change"
   - "2025 NCAA Division I Men's Lacrosse Championship records — Cornell over Maryland 13-10, Gillette Stadium, May 26, 2025 (per official NCAA records)"
@@ -257,9 +258,11 @@ Junior year is the heart of the men's lacrosse recruiting process.
 - Maintain professional, mature tone throughout all coach communications
 
 **Visits**:
-- Schedule official visits to programs of genuine interest (NCAA rules limit official visits, so confirm the current limits with each program's compliance office)
+- Schedule official visits to programs of genuine interest. Under the 2026-27 Division I Manual there is no limit on how many schools you visit officially, but each school can pay for only one official visit during high school (Bylaw 13.6.2.2) — see [Official vs. Unofficial Visits](/guide/official-vs-unofficial-visits/)
 - Unofficial visits are not limited and can be scheduled at any time
 - Plan visit strategy based on which programs are most realistic and most desirable
+
+> **Correction, October 9, 2026.** An earlier version of this page said athletes have a cap of five official visits across all Division I schools combined. That limit no longer exists: Division I Proposal 2022-32 deleted it effective July 1, 2023. The current limit is per school (Bylaw 13.6.2.2 of the 2026-27 Division I Manual).
 
 **Evaluation events**:
 - Continue participating in tournaments and showcases

@@ -41,7 +41,8 @@ faq:
 sources:
   - "<strong>2026-27 NCAA Division I Manual, Bylaw 13.1.1.1.7</strong> — revision history recording the 4/26/17 (effective 8/1/17) and 4/25/18 revisions, and the 6/29/26 (effective 8/1/26) split into separate men's and women's provisions — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - '<a href="https://ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D1Rec_WLARecruitingCalendar.pdf">2026-27 NCAA Division I Women''s Lacrosse Recruiting Calendar</a> — Official NCAA document'
-  - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 13.1.1.1.7 (off-campus contact, women's lacrosse), Bylaw 13.1.3.1.2 (telephone calls), Bylaw 13.4.1.2 (recruiting materials), Bylaw 13.6.2.1.2 (official visits), Bylaw 13.7.1.2 (unofficial visits) and Bylaw 13.17.10(h)(2) (the weekend before Thanksgiving, limited to IWLCA Convention events; read 2026-10-08) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 13.1.1.1.7 (off-campus contact, women's lacrosse), Bylaw 13.1.3.1.2 (telephone calls), Bylaw 13.4.1.2 (recruiting materials), Bylaw 13.6.2.1.2 (official visits), Bylaw 13.6.2.2 (number of official visits per school; read 2026-10-09), Bylaw 13.7.1.2 (unofficial visits) and Bylaw 13.17.10(h)(2) (the weekend before Thanksgiving, limited to IWLCA Convention events; read 2026-10-08) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - '<a href="https://web3.ncaa.org/lsdbi/search/proposalView?id=106508">NCAA Division I Proposal 2022-32, Recruiting: Official Visits</a> (adopted final June 24, 2023; effective July 1, 2023; read Oct. 9, 2026) — deleted the five-visit limit on recruits'
   - '<a href="https://eligibilitycenter.org">NCAA Eligibility Center</a> — Academic eligibility and registration requirements'
   - "Intercollegiate Women's Lacrosse Coaches Association (IWLCA) — Joint proposer with IMLCA of the 2017 recruiting rule change"
   - '<a href="https://ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D2Rec_RecruitingCalendar_AllSports.pdf">2026-27 NCAA Division II Recruiting Calendar (All Sports)</a> — Division II''s single all-sports calendar'
@@ -218,7 +219,9 @@ Junior year is the heart of the women's lacrosse recruiting process. The athlete
 **Visits**:
 - Schedule unofficial visits to programs of genuine interest
 - Per NCAA Division I Bylaw 13.6.2.1.2, official visits become permissible starting **September 1 of junior year at 12 p.m. Eastern** — the same date as initial contact
-- Plan visits strategically — NCAA rules limit official visits, so confirm the current limits with each program's compliance office before you build a visit schedule
+- Plan visits strategically. Under the 2026-27 Division I Manual there is no limit on how many schools you visit officially, but each school can pay for only one official visit during high school (Bylaw 13.6.2.2) — see [Official vs. Unofficial Visits](/guide/official-vs-unofficial-visits/)
+
+> **Correction, October 9, 2026.** An earlier version of this page said athletes have a cap of five official visits across all Division I schools combined. That limit no longer exists: Division I Proposal 2022-32 deleted it effective July 1, 2023. The current limit is per school (Bylaw 13.6.2.2 of the 2026-27 Division I Manual).
 
 **Evaluation events**:
 - Continue participating in tournaments and showcases
