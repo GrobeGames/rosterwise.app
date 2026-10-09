@@ -360,7 +360,7 @@ error is recorded here and in the commit message):** the "every D1, D2, D3, NAIA
 and NJCAA program" CTA heading on all five methodology pages (on the three above
 it is covered by their notes); the "every … NAIA, and NJCAA women's lacrosse
 program" CTA text on `womens/guide/club-pathways` and `womens/guide/recruiting-video`;
-`lacrosse/guide/index` description.
+`lacrosse/guide/index` description; and (**missed in the first pass, fixed 2026-10-09 after a live-site check**) the CTA text on `guide/september-1-junior-year-rule` ("every NCAA Division I, II, III, NAIA, and NJCAA lacrosse program in the country"). The first-pass grep output truncated that line before the word NJCAA; the live check matched on rendered HTML instead.
 
 **Clarified (not wrong, but ambiguous for a women's reader):** `guide/house-settlement-and-lacrosse` ("Junior college lacrosse continues under NJCAA rules" → men only), `guide/september-1-junior-year-rule` (NJCAA paragraph), `methodology/class-year-gaps` ("NAIA and NJCAA programs" → NJCAA is men's only).
 
