@@ -55,7 +55,35 @@ file as work lands.
   `EXCLUDE_FILES` to drop 404.html. See CLAUDE.md for the durable rules.
 - **GSC "Page with redirect":** only real items were the same schemeless
   artifacts (fixed); the rest (`/privacy`, `/takedown`, `/disclaimer`, `/support`
-  trailing-slash 308s; http→https; www→apex) are correct expected redirects,
+  trailing-slash 308s; http→https) are correct expected redirects,
   informational only — they age out.
+
+## GSC coverage review (2026-10-09)
+
+- **Not found (404), ~80 program-page URLs ending in an athletics domain**
+  (`…/randolph-macon-yellow-jackets/www.rmcathletics.com`): leftovers of the
+  schemeless-link bug fixed 2026-06-16. A full scan of the built site finds no
+  schemeless or broken internal hrefs, and these URLs now return a real 404 —
+  correct. No action; they age out of the report.
+- **`/guide/questions-to-ask-coaches/` 404:** page removed in cb0f81e
+  (2026-05-20). Now 301 → `/guide/contacting-coaches/` (`_redirects`).
+- **`/terms/` "Blocked by robots.txt":** robots.txt disallowed `/terms`, so
+  Google could never see its 301. Disallow removed.
+- **`/search-index.json` "Crawled – not indexed":** now
+  `X-Robots-Tag: noindex` (`_headers`).
+- **`https://www.rosterwise.app/` "Alternate page with proper canonical":**
+  www is **not** redirected — it serves 200 with a canonical to the apex
+  (`http://www` only upgrades to `https://www`). Needs a Cloudflare dashboard
+  redirect rule (www → apex, 301, preserve path + query); `_redirects` cannot
+  match on host. Canonical tags already cover it, so this is cleanup only.
+- **`/cdn-cgi/l/email-protection` 404:** Cloudflare Email Address
+  Obfuscation (Scrape Shield) rewrites every `mailto:` link. Harmless; turn it
+  off in the dashboard if the report entry matters.
+- **Expected / no action:** `?from=AppAgg.com` UTM URL (canonicalized),
+  http→https, no-slash → slash 308s, the old `/landing/` artifacts.
+- **Open: "Crawled – currently not indexed"** — ~180 program pages plus some
+  guides/hubs. Not a technical fault (all return 200, canonical, in sitemap);
+  it is Google's quality/duplication judgment on templated pages. Separate
+  workstream.
 
 <!-- Sources: ~/.claude/projects/-Users-scottspringman-Developer/memory/project_seo_phase4_status.md; repo peek (src/program-pages.njk, scripts/generate-sitemap.js, src/robots.txt, src/_redirects) -->

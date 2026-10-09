@@ -1,11 +1,12 @@
 User-agent: *
 Allow: /
 
-# Block crawling of admin, build artifacts, and redirect-source URLs
+# Block crawling of admin and build artifacts.
+# Never disallow a redirect source (e.g. /terms): a blocked crawler can't see
+# the 301, so Google keeps the old URL as "Blocked by robots.txt" instead of
+# following it and dropping it.
 Disallow: /admin/
 Disallow: /_build/
-Disallow: /terms
-Disallow: /terms/
 
 # RSS feed should not be indexed as a page
 Disallow: /blog/feed.xml
