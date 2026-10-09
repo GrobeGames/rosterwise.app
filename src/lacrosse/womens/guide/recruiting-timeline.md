@@ -33,20 +33,23 @@ faq:
   - q: "My daughter is interested in Ivy League women's lacrosse — does the timeline differ?"
     a: "Ivy League schools follow the same NCAA D1 recruiting calendar for the initial contact date (September 1 of junior year). However, the Ivy League admissions process — including the Academic Index and pre-read system — operates differently from non-Ivy D1 programs."
   - q: "What if my daughter is interested in D2 or D3 programs?"
-    a: "D2 women's lacrosse coaches generally have more flexibility in initiating communication than D1 coaches. D3 women's lacrosse coaches typically have the most permissive communication rules. For families exclusively interested in D2 or D3, the timeline pressure of September 1 of junior year is less acute, though all the other preparation work still matters."
+    a: "Division II and Division III work differently from Division I. Division II runs a single recruiting calendar for all sports. Division III has no recruiting calendar at all; its one timing rule is that in-person, off-campus contact waits until the prospect has completed sophomore year. Ask each program what its rules allow at your daughter's stage. For families exclusively interested in D2 or D3, the September 1 date matters less, though all the other preparation work still matters."
   - q: "Can my daughter commit before September 1 of junior year?"
     a: "A verbal commitment can technically be made by the athlete at any time — verbal commitments are not formally restricted by NCAA rules. But a coach cannot extend a verbal offer or accept a commitment from a recruit before September 1 of junior year. In practice, meaningful verbal commitments don't happen before that date."
   - q: "What if my daughter doesn't have a verbal commitment by spring of junior year?"
-    a: "This is more common than families often realize, and it's not a problem. Many strong recruits commit between summer of junior year and senior year. Many strong recruits at D2, D3, NAIA, and NJCAA programs commit during senior year or even later. The timeline pressure to commit early is often more about competing for limited roster spots at the most elite D1 programs than about the broader recruiting reality."
+    a: "It's not a reason to panic. Nothing in the NCAA rules ends recruiting in junior year: Division I coaches can extend offers from September 1 of junior year onward, and programs outside Division I recruit under their own, separate rules. We don't have data on when women's lacrosse recruits commit, so we won't tell you what's typical. What we can say is that spring of junior year is not a deadline in the rules."
 sources:
   - "<strong>2026-27 NCAA Division I Manual, Bylaw 13.1.1.1.7</strong> — revision history recording the 4/26/17 (effective 8/1/17) and 4/25/18 revisions, and the 6/29/26 (effective 8/1/26) split into separate men's and women's provisions — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - '<a href="https://ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D1Rec_WLARecruitingCalendar.pdf">2026-27 NCAA Division I Women''s Lacrosse Recruiting Calendar</a> — Official NCAA document'
   - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 13.1.1.1.7 (off-campus contact, women's lacrosse), Bylaw 13.1.3.1.2 (telephone calls), Bylaw 13.4.1.2 (recruiting materials), Bylaw 13.6.2.1.2 (official visits), Bylaw 13.7.1.2 (unofficial visits) and Bylaw 13.17.10(h)(2) (the weekend before Thanksgiving, limited to IWLCA Convention events; read 2026-10-08) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - '<a href="https://eligibilitycenter.org">NCAA Eligibility Center</a> — Academic eligibility and registration requirements'
   - "Intercollegiate Women's Lacrosse Coaches Association (IWLCA) — Joint proposer with IMLCA of the 2017 recruiting rule change"
+  - '<a href="https://ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D2Rec_RecruitingCalendar_AllSports.pdf">2026-27 NCAA Division II Recruiting Calendar (All Sports)</a> — Division II''s single all-sports calendar'
+  - '<a href="https://web3.ncaa.org/lsdbi/reports/getReport/90011">2026-27 NCAA Division III Manual</a>, Bylaw 13.1.1.1 (in-person off-campus contact after completion of sophomore year), via the NCAA Legislative Services Database'
+  - '<a href="https://www.njcaa.org/general/2023-24/releases/20240711fqifcg">NJCAA — "NJCAA Discontinues Women''s Lacrosse"</a> (July 11, 2024; read Oct. 8, 2026) — discontinued as a sponsored sport beginning with 2024-25'
 cta:
   heading: "Find programs where your daughter genuinely fits."
-  text: "The recruiting timeline tells you when things happen. Roster intelligence tells you which programs are actually right for your daughter. RosterWise analyzes every D1, D2, D3, NAIA, and NJCAA women's lacrosse program — position depth, class-year gaps, recruiting geography, transfer portal activity, and personalized fit scoring."
+  text: "The recruiting timeline tells you when things happen. Roster intelligence tells you which programs are actually right for your daughter. RosterWise analyzes women's college lacrosse programs — position depth, class-year gaps, recruiting geography, transfer portal activity, and personalized fit scoring."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -195,15 +198,17 @@ September 1 of junior year is the single most significant date in the women's la
 - The athlete can schedule unofficial visits to D1 programs
 - Off-campus contact between coaches and athletes becomes permissible
 
-For prepared families with athletes who are realistic targets at the programs they're interested in, the September 1 date can feel like a flood. Some elite recruits receive multiple calls within minutes of midnight on September 1, with verbal offers extended within the first 24-48 hours. The early window after September 1 of junior year (September through November) is often when the most competitive recruiting happens.
+Because so much becomes permissible on a single day, September 1 can feel like a flood for families who are ready for it. Two details matter. Contact opens at **12 p.m. (noon) Eastern**, not at midnight. And on the 2026-27 calendar, September 1 falls inside a dead period that runs through September 3, so calls, texts and offers can begin on September 1, but in-person contact and visits wait until September 4 (see the calendar section above).
 
-For families that have not prepared adequately, September 1 of junior year can feel sudden and overwhelming. Coaches may move quickly; programs filling rosters quickly may not have the patience to wait while a family figures out what they want.
+For a family that hasn't prepared, September 1 can feel sudden. A target list, current film, and a set of questions ready before that date are what make the first conversations useful.
 
-The honest reality: athletes at the very top of the recruiting class often have offers in hand by October or November of junior year. Athletes at slightly different competitive levels — or at programs not in the immediate top tier — may have a longer, more deliberate recruiting cycle that extends through senior year. Both pathways are normal.
+How fast things move after that differs from athlete to athlete and program to program. Some recruits hear from coaches right away; others build their recruiting across junior and senior year. We have no data on how those timelines are distributed, and both are consistent with the rules.
+
+> **Correction, October 8, 2026.** An earlier version of this section said some recruits "receive multiple calls within minutes of midnight on September 1." Under Division I Bylaw 13.1.1.1.7 as revised effective August 1, 2026, women's lacrosse contact opens at 12 p.m. Eastern, so there are no midnight calls. We also removed unsourced statements about how quickly "elite" recruits receive offers, and when the "most competitive recruiting happens."
 
 ### Junior year (11th grade) — active recruiting
 
-Junior year is the heart of the women's lacrosse recruiting process. The athlete is now actively engaging with college coaches, evaluating programs, and (often) making verbal commitments.
+Junior year is the heart of the women's lacrosse recruiting process. The athlete is now actively engaging with college coaches, evaluating programs, and, for some, making verbal commitments.
 
 **Communication management**:
 - Track all coach communications: who has contacted, when, what they said, what next steps look like
@@ -213,11 +218,11 @@ Junior year is the heart of the women's lacrosse recruiting process. The athlete
 **Visits**:
 - Schedule unofficial visits to programs of genuine interest
 - Per NCAA Division I Bylaw 13.6.2.1.2, official visits become permissible starting **September 1 of junior year at 12 p.m. Eastern** — the same date as initial contact
-- Plan visits strategically — official visits are limited per athlete (cap of 5 official visits across all D1 schools combined per NCAA rules)
+- Plan visits strategically — NCAA rules limit official visits, so confirm the current limits with each program's compliance office before you build a visit schedule
 
 **Evaluation events**:
 - Continue participating in tournaments and showcases
-- Coaches now actively evaluating recruits will likely watch the athlete play multiple times before extending serious offers
+- Coaches evaluating a recruit may want to watch her play more than once before extending an offer
 - Maintain physical fitness, skill development, and academic performance throughout junior year
 
 **Verbal offers**:
@@ -232,7 +237,7 @@ Junior year is the heart of the women's lacrosse recruiting process. The athlete
 
 ### Senior year (12th grade) — commitment and signing
 
-Senior year completes the recruiting process for most women's lacrosse athletes.
+Senior year is when the recruiting process wraps up for athletes who haven't finished it earlier.
 
 **Fall of senior year**:
 - Continue conversations with serious programs
@@ -243,24 +248,23 @@ Senior year completes the recruiting process for most women's lacrosse athletes.
 **Written Offer of Athletics Aid**:
 - Per the [Division I NLI elimination in October 2024](/guide/verbal-commitment-vs-nli/), Division I athletes now sign a written offer of athletics aid; Division II schools may still use the NLI
 - The Written Offer of Athletics Aid is the binding agreement
-- Initial signing dates for early signing periods typically occur in November of senior year, with later signing windows in April or later
+- Ask each program when it will put a written offer in front of your daughter, and how long she will have to sign it
 
 **Spring of senior year**:
-- Athletes not yet committed may still receive offers at D2, D3, NAIA, and NJCAA programs through senior year and beyond
-- Some D1 programs continue to recruit through senior year for late roster needs
+- Athletes not yet committed can still receive offers through senior year; nothing in the rules closes recruiting at any division before then
+- Division I programs can continue to recruit through senior year
 - Finalize all admissions, financial aid, and enrollment paperwork
 
 ## Realistic recruiting outcomes vary
 
-It's essential to be honest about how the recruiting process actually plays out for athletes at different levels of the sport.
+Recruiting plays out differently for every athlete, and we don't have data on how those differences are distributed — so we won't sort recruits into tiers or tell you which timeline your daughter is on. What the rules establish is the frame:
 
-**For elite-level recruits**: These athletes are often identified by D1 programs before September 1 of junior year through evaluation events, club coach communication channels, and program scouting. On September 1 of junior year, these athletes often receive immediate offers from multiple top programs. Verbal commitments often happen within weeks. The recruiting process feels intense and accelerated.
+- **Before September 1 of junior year,** Division I coaches can watch and evaluate during permitted periods but cannot initiate contact or extend offers. Your daughter can reach out to them at any time.
+- **From September 1 of junior year,** Division I coaches can initiate contact and extend offers, and they can keep recruiting through senior year.
+- **Outside Division I,** programs recruit under their own rules. Division III, for example, has no recruiting calendar at all (see the question below on Division II and III).
+- **Athletes who develop later** can still reach out, update their film, and ask coaches to take another look; nothing in the rules closes that door in junior year.
 
-**For high-level recruits with regional or specific-school targets**: These athletes may have a longer recruiting cycle. Programs are interested but not in the "must commit immediately" tier. Recruiting often unfolds across junior year into senior year with multiple visits, evaluations, and progressive offer escalation.
-
-**For developmental recruits**: These athletes may not receive D1 attention but find excellent fits at D2, D3, NAIA, or NJCAA programs. The recruiting process at these divisions often runs later in senior year, with more direct conversations and fewer competitive pressures.
-
-**For late-developing recruits**: Some athletes physically or athletically develop later. These recruits may not be on radars at September 1 of junior year, but may emerge during junior or senior year as their development accelerates. Late-developing recruits often find their best fits through proactive outreach, individual coach communication, and demonstrating significant improvement.
+> **Correction, October 8, 2026.** An earlier version of this section sorted recruits into "elite-level," "high-level" and "developmental" tiers and described what "often" happens to each — including immediate offers "from multiple top programs" on September 1. None of it had a source, and ranking recruits and programs is outside what we publish. It also listed NJCAA programs as an option in women's lacrosse; the NJCAA discontinued women's lacrosse as a sponsored sport beginning in 2024-25 (NJCAA release, July 11, 2024). We replaced the section with what the rules establish.
 
 None of these pathways is inherently better. The "right" recruiting outcome is the one that matches the athlete's actual fit and circumstances — not the one that matches a generic timeline.
 
@@ -276,7 +280,7 @@ Ivy League schools follow the same NCAA D1 recruiting calendar for initial conta
 
 **"What if my daughter is interested in D2 or D3 programs?"**
 
-D2 women's lacrosse coaches generally have more flexibility in initiating communication than D1 coaches. D3 women's lacrosse coaches typically have the most permissive communication rules — coaches can communicate with prospects at most stages. For families exclusively interested in D2 or D3, the timeline pressure of September 1 of junior year is less acute, though all the other preparation work still matters.
+Division II and Division III work differently from Division I. Division II runs a single recruiting calendar for all sports. Division III has no recruiting calendar at all; its one timing rule is that in-person, off-campus contact waits until the prospect has completed sophomore year. Ask each program what its rules allow at your daughter's stage. For families exclusively interested in D2 or D3, the September 1 date matters less, though all the other preparation work still matters.
 
 **"Can my daughter commit before September 1 of junior year?"**
 
@@ -284,11 +288,11 @@ A verbal commitment can technically be made by the athlete at any time — verba
 
 **"What if my daughter doesn't have a verbal commitment by spring of junior year?"**
 
-This is more common than families often realize, and it's not a problem. Many strong recruits commit between summer of junior year and senior year. Many strong recruits at D2, D3, NAIA, and NJCAA programs commit during senior year or even later. The timeline pressure to commit early is often more about competing for limited roster spots at the most elite D1 programs than about the broader recruiting reality.
+It's not a reason to panic. Nothing in the NCAA rules ends recruiting in junior year: Division I coaches can extend offers from September 1 of junior year onward, and programs outside Division I recruit under their own, separate rules. We don't have data on when women's lacrosse recruits commit, so we won't tell you what's typical. What we can say is that spring of junior year is not a deadline in the rules.
 
 ## Every recruit's journey is different
 
-No two women's lacrosse athletes have the same recruiting experience. Some athletes receive multiple D1 offers within hours of September 1 of their junior year; others build their recruiting pathway slowly over the course of two years. Some athletes thrive at the most elite D1 programs; others find better fits at D3, NAIA, or NJCAA programs where the experience suits them better. Some athletes commit early and never reconsider; others change their minds multiple times. The timeline framework in this guide gives you the structural context — when coaches can communicate, when offers can be extended, when official visits become possible. But how it unfolds for your specific athlete depends on her development, her academic profile, her geographic preferences, the depth of her recruiting class at her position, and dozens of individual factors. Use this guide as a roadmap, but treat the roadmap as a guide — not as a rigid prescription.
+No two women's lacrosse athletes have the same recruiting experience. Some athletes hear from Division I coaches as soon as the rules allow; others build their recruiting pathway slowly over the course of two years. Some find their fit in Division I; others find it at a Division II or Division III program where the experience suits them better. Some athletes commit early and never reconsider; others change their minds multiple times. The timeline framework in this guide gives you the structural context — when coaches can communicate, when offers can be extended, when official visits become possible. But how it unfolds for your specific athlete depends on her development, her academic profile, her geographic preferences, the depth of her recruiting class at her position, and dozens of individual factors. Use this guide as a roadmap, but treat the roadmap as a guide — not as a rigid prescription.
 
 ---
 

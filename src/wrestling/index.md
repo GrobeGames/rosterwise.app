@@ -42,7 +42,7 @@ Explore the gender-specific sections: [Men's College Wrestling](/wrestling/mens/
 RosterWise applies [roster intelligence](/roster-intelligence/) — systematic analysis of every roster at every program — to college wrestling, **by weight class**. The dimensions that matter most:
 
 - **Weight-class depth** — how many wrestlers a program carries at each weight, and where a lineup spot is genuinely open versus stacked with returning starters.
-- **Class-year gaps at your weight** — the fit question in wrestling: who occupies your weight now, and when do they graduate? A senior starter at 149 signals very different opportunity than a redshirt freshman.
+- **Class-year gaps at your weight** — the fit question in wrestling: who occupies your weight now, and when do they graduate? A senior starter at 149 signals very different opportunity than a freshman starter.
 - **Recruiting geography and pipelines** — which states and youth pipelines a program draws from.
 - **Division level, read correctly** — including the women's unified-championship caveat, so "D1 vs. D3" means what it should for each gender.
 - **Coach tenure and program direction** — stability signals that shape recruiting philosophy.
@@ -53,7 +53,7 @@ Some recruiting realities apply across every college sport — NCAA recruiting r
 
 ## Every recruiting journey is different
 
-No two wrestlers follow the same path. Some project cleanly to a college weight as sophomores; many grow two classes before they're done. Some are found at Fargo; others through a strong high-school postseason. The right program depends on athletic fit, academics, geography, finances, and priorities only your family can weigh. Use this site as context — not a script.
+No two wrestlers follow the same path. Some project cleanly to a college weight as sophomores; others keep growing and change classes before they're done. Some are found at Fargo; others through a strong high-school postseason. The right program depends on athletic fit, academics, geography, finances, and priorities only your family can weigh. Use this site as context — not a script.
 
 ---
 

@@ -29,6 +29,14 @@ sources:
   - "Publicly available college wrestling rosters from institutional athletics websites"
   - '<a href="https://www.ncaa.org">NCAA.org</a> — division membership and roster/eligibility framework'
   - "House v. NCAA settlement (effective July 1, 2025) — D1 roster-cap framework (wrestling cap of 30)"
+  - '<a href="https://www.ncaa.org/news/division-i-adopts-age-based-eligibility-model/">NCAA.org — Division I adopts age-based eligibility model</a> (June 23, 2026)'
+  - '<a href="https://www.ncaa.org/news/division-ii-adopts-age-based-eligibility-model/">NCAA.org — Division II adopts age-based eligibility model</a> (Aug. 5, 2026)'
+  - '<a href="https://www.ncaa.org/eligibility-center/division-i-and-division-ii-age-based-eligibility-rules/">NCAA Eligibility Center — NCAA Division I and II Age-Based Eligibility Rules: Eligibility 101</a> (undated; read Oct. 8, 2026) — redshirt rules and seasons-of-competition limits eliminated; the five-year clock; the transition'
+  - '<a href="https://storage.courtlistener.com/recap/gov.uscourts.ca10.92398/gov.uscourts.ca10.92398.28.0_1.pdf">U.S. Court of Appeals for the Tenth Circuit — Wisne v. NCAA, No. 26-1309, Order granting stay pending appeal</a> (Aug. 21, 2026)'
+  - '<a href="https://www.courtlistener.com/docket/74679942/wisne-v-ncaa/">U.S. Court of Appeals for the Tenth Circuit — Wisne v. NCAA, No. 26-1309 docket</a> (oral argument notice, Sept. 24, 2026), via CourtListener''s RECAP archive'
+  - '<a href="/guide/age-based-eligibility/">RosterWise — The NCAA''s New Five-Year Eligibility Rule, Explained</a>'
+  - '<a href="https://web3.ncaa.org/lsdbi/search/proposalView?id=109408">NCAA Legislative Services Database — Division III membership proposal, Eligibility: Five-Year Period of Eligibility, Age-Based Eligibility Model</a> (2027 Convention; submitted June 30, 2026; not voted on)'
+  - '<a href="https://www.naia.org/student-athletes/prospective/high-school-students/">NAIA.org — High School Students</a> (four seasons of competition in the first 10 semesters)'
 cta:
   heading: "See who's at your weight — and when they leave"
   text: "RosterWise reads every program's lineup by weight class and class year, so you can see the openings coming at your athlete's projected weight across every NCAA D1, D2, D3, NAIA, and NJCAA program. That's the fit question, answered with data."
@@ -51,7 +59,10 @@ Reading depth well requires looking past the visible starter:
 
 - **The starter's class year.** A senior signals a coming opening; a freshman signals a closed door.
 - **Who's behind the starter.** A backup junior is different from a backup freshman — and different from *no one* behind the starter.
-- **Redshirts.** Wrestling uses redshirts heavily, so a weight that looks open because the starter graduated may actually have a redshirt freshman ready to step in. True depth includes wrestlers you won't see in a lineup.
+- **Wrestlers you won't see in a lineup.** A weight that looks open because the starter graduated may actually have a younger wrestler ready to step in. True depth includes wrestlers you won't see in a lineup. Rosters may still label some of them redshirts — athletes who sat out a season under the NCAA's previous rules. Under the NCAA's age-based eligibility model — adopted by Division I in June 2026 and by Division II (announced August 5, 2026) — athletics redshirt rules and the cap on seasons of competition are gone. Each athlete instead has a five-year window that starts at the earlier of full-time college enrollment or the academic year after their 19th birthday, and it does not pause for a season sat out. Athletes first enrolling in fall 2027 or later are under the new model only; current athletes and 2026-27 enrollees are evaluated under whichever rules are more beneficial to them. Division III and the NAIA have not adopted the model. As of October 8, 2026 the model is in force: a lower-court injunction covering one group of athletes was stayed by the Tenth Circuit on August 21, and the appeal is set for oral argument on October 13, 2026. Our [age-based eligibility guide](/guide/age-based-eligibility/) explains the details.
+
+> **Correction, October 8, 2026.** An earlier version of this list said "wrestling uses redshirts heavily." That described the NCAA's previous eligibility rules, which Division I replaced in June 2026 (Division II followed, announced August 5, 2026), and we had no source for how heavily it was used. We rewrote the item.
+
 - **Incoming transfers.** A hole a program is filling through the [portal](/wrestling/guide/transfer-portal/) isn't the opening it appears to be.
 - **The projected class, not the current one.** Because wrestlers grow through weights, the analysis has to sit at the athlete's **projected** college weight and **college class year** (see [what coaches evaluate](/wrestling/guide/what-college-coaches-evaluate/)), not their current high-school class.
 
@@ -71,7 +82,7 @@ This is exactly the analysis coaches do internally. Doing it from the outside, a
 
 ## The limits, stated honestly
 
-- **Redshirts and certified weights aren't always public,** so depth reads are strong but not perfect.
+- **Redshirt labels and certified weights aren't always public,** so depth reads are strong but not perfect.
 - **Rosters change** through the season and the portal; a gap can be filled (or opened) after we read it.
 - **Projection is an estimate,** so the "right weight" is a band, not a certainty.
 - **Coaching intent is invisible** — a coach may plan to bump a wrestler up a class or prioritize a transfer. The data shows the current state, not the staff's plans.

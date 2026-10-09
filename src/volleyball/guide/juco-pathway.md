@@ -48,6 +48,15 @@ sources:
   - '<a href="https://ope.ed.gov/athletics">U.S. Department of Education EADA database</a> — ope.ed.gov/athletics'
   - 'House v. NCAA settlement documentation — U.S. District Court, Northern District of California, June 6, 2025'
   - 'Individual California community college athletic department resources — including Citrus College Athletics (citing 3C2A Bylaw 2.11) and College of San Mateo Athletics (citing 3C2A recruiting rules)'
+  - '<a href="https://www.ncaa.org/news/division-i-adopts-age-based-eligibility-model/">NCAA.org — Division I adopts age-based eligibility model</a> (June 23, 2026)'
+  - '<a href="https://www.ncaa.org/news/division-ii-adopts-age-based-eligibility-model/">NCAA.org — Division II adopts age-based eligibility model</a> (Aug. 5, 2026)'
+  - '<a href="https://www.ncaa.org/eligibility-center/division-i-and-division-ii-age-based-eligibility-rules/">NCAA Eligibility Center — NCAA Division I and II Age-Based Eligibility Rules: Eligibility 101</a> (undated; read Oct. 8, 2026) — redshirt rules and seasons-of-competition limits eliminated; the five-year clock; the transition'
+  - '<a href="https://storage.courtlistener.com/recap/gov.uscourts.ca10.92398/gov.uscourts.ca10.92398.28.0_1.pdf">U.S. Court of Appeals for the Tenth Circuit — Wisne v. NCAA, No. 26-1309, Order granting stay pending appeal</a> (Aug. 21, 2026)'
+  - '<a href="https://www.courtlistener.com/docket/74679942/wisne-v-ncaa/">U.S. Court of Appeals for the Tenth Circuit — Wisne v. NCAA, No. 26-1309 docket</a> (oral argument notice, Sept. 24, 2026), via CourtListener''s RECAP archive'
+  - '<a href="/guide/age-based-eligibility/">RosterWise — The NCAA''s New Five-Year Eligibility Rule, Explained</a>'
+  - '<a href="https://web3.ncaa.org/lsdbi/search/proposalView?id=109408">NCAA Legislative Services Database — Division III membership proposal, Eligibility: Five-Year Period of Eligibility, Age-Based Eligibility Model</a> (2027 Convention; submitted June 30, 2026; not voted on)'
+  - '<a href="https://www.naia.org/student-athletes/prospective/high-school-students/">NAIA.org — High School Students</a> (four seasons of competition in the first 10 semesters)'
+  - '<a href="https://storage.courtlistener.com/recap/gov.uscourts.jpml.1761446/gov.uscourts.jpml.1761446.53.0.pdf">Judicial Panel on Multidistrict Litigation — In re NCAA Eligibility Rules Antitrust Litigation, MDL No. 3198, Order Denying Transfer</a> (Oct. 2, 2026)'
 cta:
   heading: "Understand where your athlete actually fits — across every pathway."
   text: "JUCO is one of several legitimate pathways in women's volleyball recruiting. RosterWise Volleyball will analyze every program across NCAA D-I, D-II, D-III, and NAIA — position depth, class-year gaps, recruiting patterns, transfer portal activity, and personalized fit scoring — to help families identify where their athlete genuinely fits."
@@ -175,7 +184,11 @@ Per NCAA.org and the NCAA Eligibility Center, two-year college transfers must:
 
 ### Athletic eligibility after transfer
 
-Per current NCAA rules, athletes generally have a maximum of four years of athletic eligibility. Years at JUCO count toward this total, typically year-for-year. An athlete transferring after two years at JUCO typically has two years of eligibility remaining at a four-year school.
+For athletes headed to NCAA Division I or II, eligibility now runs on a clock, not a count of seasons. Under the NCAA's age-based eligibility model — adopted by Division I in June 2026 and by Division II (announced August 5, 2026) — athletics redshirt rules and the cap on seasons of competition are gone. Each athlete instead has a five-year window that starts at the earlier of full-time college enrollment or the academic year after their 19th birthday, and it does not pause for a season sat out. Athletes first enrolling in fall 2027 or later are under the new model only; current athletes and 2026-27 enrollees are evaluated under whichever rules are more beneficial to them. Division III and the NAIA have not adopted the model. As of October 8, 2026 the model is in force: a lower-court injunction covering one group of athletes was stayed by the Tenth Circuit on August 21, and the appeal is set for oral argument on October 13, 2026. Our [age-based eligibility guide](/guide/age-based-eligibility/) explains the details. The NCAA names two-year colleges explicitly: full-time enrollment at a junior college starts the same five-year window a four-year school would, and the window keeps running through a transfer. Division III and NAIA transfers follow their own rules, so confirm with the receiving school's compliance office.
+
+This is also an area of active litigation. A federal court order from October 2, 2026 describes a group of pending lawsuits that challenge the NCAA bylaws counting seasons of competition at junior colleges and NAIA schools against an athlete's NCAA eligibility. Those cases are unresolved.
+
+> **Correction, October 8, 2026.** An earlier version of this section said that "per current NCAA rules, athletes generally have a maximum of four years of athletic eligibility," that JUCO years count "typically year-for-year," and that an athlete transferring after two JUCO years "typically has two years of eligibility remaining." Division I replaced the four-seasons rule with the age-based model in June 2026 (Division II followed, announced August 5, 2026), so those statements no longer describe Division I or II. We replaced them with the current rule.
 
 ### The recruiting reality
 

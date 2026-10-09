@@ -1,7 +1,7 @@
 ---
 layout: content.njk
 title: "The Transfer Portal in College Wrestling: What Families Should Know | RosterWise™"
-description: "How the transfer portal reshapes college wrestling lineups weight by weight — what it means for high-school recruits, how redshirting interacts with it, and how to read a roster that's built through the portal."
+description: "How the transfer portal reshapes college wrestling lineups weight by weight — what it means for high-school recruits, what the end of redshirt rules means for reading depth, and how to read a roster that's built through the portal."
 date: 2026-07-07
 breadcrumbs:
   - text: Home
@@ -11,7 +11,7 @@ breadcrumbs:
   - text: Wrestling Guides
     url: /wrestling/guide/
   - text: Transfer Portal
-summary: "The transfer portal has become a defining feature of college wrestling roster-building, and it plays out one weight class at a time. A program that needs a starter at 165 can fill that hole from the portal in an offseason — which can open or close opportunities for high-school recruits at that exact weight. This guide explains how the portal works in wrestling, how it interacts with redshirting and the House-era roster caps, what it means for high-school families, and how to read a roster that leans on transfers — with the cross-sport mechanics covered in our universal transfer-portal guide."
+summary: "The transfer portal has become a defining feature of college wrestling roster-building, and it plays out one weight class at a time. A program that needs a starter at 165 can fill that hole from the portal in an offseason — which can open or close opportunities for high-school recruits at that exact weight. This guide explains how the portal works in wrestling, how it interacts with the House-era roster caps and the NCAA's new age-based eligibility rules, what it means for high-school families, and how to read a roster that leans on transfers — with the cross-sport mechanics covered in our universal transfer-portal guide."
 related:
   - title: "Understanding College Wrestling Weight Classes"
     url: /wrestling/guide/understanding-wrestling-weight-classes/
@@ -29,8 +29,8 @@ faq:
     a: "It works weight by weight. If a program fills a lineup hole at your athlete's weight class with a transfer, that opportunity may close for an incoming freshman — and vice versa, a transfer departure can open one. That's why reading a roster by weight class (who's there, who's leaving, and whether holes get filled by transfers) matters more than a program's overall reputation."
   - q: "Is it harder to get recruited out of high school because of the portal?"
     a: "In some rooms and at some weights, yes — programs may prefer a proven college transfer to an unproven freshman at a weight where they need immediate help. But it varies enormously by program, weight class, and level, and many programs still build primarily through high-school recruiting. The portal changes where the openings are, not whether they exist."
-  - q: "How does redshirting interact with the portal?"
-    a: "Wrestling makes heavy use of redshirts, so a program's true depth at a weight includes redshirts you might not see in the starting lineup. A weight that looks 'open' because the starter graduated may actually have a redshirt freshman or a transfer ready to step in. Reading depth accurately means accounting for redshirts and incoming transfers, not just the visible starter."
+  - q: "Do redshirts still matter when reading a wrestling roster?"
+    a: "Less than they used to. Under the NCAA's age-based eligibility model, adopted by Division I in June 2026 and by Division II (announced August 5, 2026), athletics redshirt rules are gone: each athlete has a five-year window that does not pause for a season sat out. As of October 8, 2026 the model is in force while a court challenge over one group of athletes is on appeal. You'll still see redshirt labels on rosters for wrestlers who sat out under the previous rules. Either way, a program's depth at a weight includes wrestlers you won't see in the lineup, so a weight that looks open because the starter graduated may have a younger wrestler or a transfer ready to step in."
   - q: "Where can I see who has entered the portal?"
     a: "Transfer activity is reported through official team announcements and NCAA processes; we intentionally don't rely on third-party aggregators. The most reliable signals are official program communications and the roster itself over time. RosterWise reads roster changes by weight class to show how a program builds — through the portal versus high-school recruiting."
 sources:
@@ -39,6 +39,14 @@ sources:
   - '<a href="https://web3.ncaa.org/lsdbi/search/bylawView?id=145382">NCAA Division I Bylaw 17.2, Roster Limitations</a>, via the NCAA Legislative Services Database (read Oct. 8, 2026) — 30 for men''s and for women''s wrestling'
   - '<a href="/wrestling/guide/scholarships-and-the-house-settlement/">RosterWise — Wrestling Scholarships & the House Settlement</a> (roster caps and how they interact with transfers)'
   - '<a href="https://www.ncaa.org">NCAA.org</a> — transfer rules and the transfer portal process'
+  - '<a href="https://www.ncaa.org/news/division-i-adopts-age-based-eligibility-model/">NCAA.org — Division I adopts age-based eligibility model</a> (June 23, 2026)'
+  - '<a href="https://www.ncaa.org/news/division-ii-adopts-age-based-eligibility-model/">NCAA.org — Division II adopts age-based eligibility model</a> (Aug. 5, 2026)'
+  - '<a href="https://www.ncaa.org/eligibility-center/division-i-and-division-ii-age-based-eligibility-rules/">NCAA Eligibility Center — NCAA Division I and II Age-Based Eligibility Rules: Eligibility 101</a> (undated; read Oct. 8, 2026) — redshirt rules and seasons-of-competition limits eliminated; the five-year clock; the transition'
+  - '<a href="https://storage.courtlistener.com/recap/gov.uscourts.ca10.92398/gov.uscourts.ca10.92398.28.0_1.pdf">U.S. Court of Appeals for the Tenth Circuit — Wisne v. NCAA, No. 26-1309, Order granting stay pending appeal</a> (Aug. 21, 2026)'
+  - '<a href="https://www.courtlistener.com/docket/74679942/wisne-v-ncaa/">U.S. Court of Appeals for the Tenth Circuit — Wisne v. NCAA, No. 26-1309 docket</a> (oral argument notice, Sept. 24, 2026), via CourtListener''s RECAP archive'
+  - '<a href="/guide/age-based-eligibility/">RosterWise — The NCAA''s New Five-Year Eligibility Rule, Explained</a>'
+  - '<a href="https://web3.ncaa.org/lsdbi/search/proposalView?id=109408">NCAA Legislative Services Database — Division III membership proposal, Eligibility: Five-Year Period of Eligibility, Age-Based Eligibility Model</a> (2027 Convention; submitted June 30, 2026; not voted on)'
+  - '<a href="https://www.naia.org/student-athletes/prospective/high-school-students/">NAIA.org — High School Students</a> (four seasons of competition in the first 10 semesters)'
 cta:
   heading: "See how each program actually builds its lineup"
   text: "Some programs build through high-school recruiting; others reload through the portal — and it differs by weight class. RosterWise reads every NCAA D1, D2, D3, NAIA, and NJCAA roster by weight class so you can tell the difference and target where a high-school recruit genuinely fits."
@@ -63,11 +71,15 @@ The honest picture is mixed, and it varies by program, weight, and level:
 
 The takeaway for families: don't evaluate a program's opportunity from its reputation or even its current starter alone. Evaluate it from **how it builds at your athlete's weight** — and whether the holes there tend to be filled by transfers or freshmen.
 
-## Redshirts: the depth you don't see
+## The depth you don't see in a lineup
 
-Wrestling uses **redshirts** heavily, and they distort a naive read of a roster. A weight that looks "open" because the senior starter is graduating might actually have a **redshirt freshman** or a **developing transfer** ready to step in. Conversely, real opportunity can hide behind a starter who's about to move up a class.
+A lineup shows a program's starters; it hides the rest of its depth. A weight that looks "open" because the senior starter is graduating might actually have a **younger wrestler** or a **developing transfer** ready to step in. Conversely, real opportunity can hide behind a starter who's about to move up a class.
 
-Reading depth accurately means counting **more than the visible starter** — redshirts, the class years behind the starter, and any incoming transfers. That fuller read is exactly what our [weight-class depth methodology](/wrestling/methodology/weight-class-depth/) is built to capture.
+Rosters may still label some wrestlers as **redshirts** — athletes who sat out a season under the NCAA's previous rules. Under the NCAA's age-based eligibility model — adopted by Division I in June 2026 and by Division II (announced August 5, 2026) — athletics redshirt rules and the cap on seasons of competition are gone. Each athlete instead has a five-year window that starts at the earlier of full-time college enrollment or the academic year after their 19th birthday, and it does not pause for a season sat out. Athletes first enrolling in fall 2027 or later are under the new model only; current athletes and 2026-27 enrollees are evaluated under whichever rules are more beneficial to them. Division III and the NAIA have not adopted the model. As of October 8, 2026 the model is in force: a lower-court injunction covering one group of athletes was stayed by the Tenth Circuit on August 21, and the appeal is set for oral argument on October 13, 2026. Our [age-based eligibility guide](/guide/age-based-eligibility/) explains the details.
+
+> **Correction, October 8, 2026.** An earlier version of this page said "wrestling uses redshirts heavily" and treated redshirting as a current part of roster-building. That described the NCAA's previous eligibility rules, which Division I replaced in June 2026 (Division II followed, announced August 5, 2026), and we had no source for how heavily it was used. We rewrote this section, the FAQ answer, and the checklist below.
+
+Reading depth accurately means counting **more than the visible starter** — the wrestlers behind the starter, their class years, and any incoming transfers. That fuller read is exactly what our [weight-class depth methodology](/wrestling/methodology/weight-class-depth/) is built to capture.
 
 ## The Division I men's wrestling transfer window
 
@@ -85,7 +97,7 @@ A practical checklist for any program you're evaluating:
 
 1. **Go weight by weight.** At your athlete's projected weight, who's the starter, what's their class year, and what's behind them?
 2. **Spot the pattern.** Does this program tend to fill holes with **transfers** or **high-school recruits**? A portal-heavy program at your weight is a different opportunity than a develop-your-own program.
-3. **Account for redshirts and incoming transfers.** Don't call a weight "open" until you've looked past the graduating starter.
+3. **Account for the wrestlers behind the starter and incoming transfers.** Don't call a weight "open" until you've looked past the graduating starter.
 4. **Watch the timeline.** Portal movement happens in the offseason and can open late opportunities — stay engaged even if a weight looked full earlier.
 
 For the cross-sport mechanics — windows, eligibility, and how the portal actually functions — see our universal guide, [The Transfer Portal](/guide/transfer-portal/). (Note: we read transfer activity from official program and NCAA sources, not third-party aggregators.)
@@ -96,4 +108,4 @@ The portal cuts both ways for every recruit — the same forces that can crowd a
 
 ---
 
-*Transfer rules and portal windows are set by the NCAA and updated periodically. This article reflects the 2025-26 season; the Division I men's wrestling transfer window and the Division I roster limits were re-verified on October 8, 2026. Verify current rules at NCAA.org.*
+*Transfer rules and portal windows are set by the NCAA and updated periodically. This article reflects the 2025-26 season; the Division I men's wrestling transfer window, the Division I roster limits, and the age-based eligibility wording were re-verified on October 8, 2026. Verify current rules at NCAA.org.*

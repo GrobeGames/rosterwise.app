@@ -8,6 +8,8 @@ Before flipping any article to live, check every number/date/rule in its copy ag
 
 **2026-10-08 pass (2026-27 season refresh + corrections):** every row marked 2026-10-08 below was re-read against the named Tier 1 document on that date. Scope: women's championship page correction (sponsorship figures), the House roster-limit citation, 2026-27 weight-management packets, the D1 men's transfer window, Proposal 2026-12, and the new blog post `blog/womens-college-wrestling-2026-27-season`. Rows not marked 2026-10-08 were not re-verified on this pass. Additional Tier 1 domains used on this pass: web3.ncaa.org/lsdbi (NCAA Legislative Services Database) and the schools' own athletics sites (cyclones.com, gocolumbialions.com, kentstatesports.com, hurstathletics.com) for facts about their own programs only. A USA Wrestling (themat.com) notebook of 2026-10-08 surfaced in research and was NOT used as a source for any rule, count, or date.
 
+**2026-10-08 cleanup pass (second pass the same day):** §C rows added for the 2026-27 D1 dead periods/shutdowns and the D2 signing-date dead period (calendar PDFs downloaded and read in full), Proposal 2026-12 re-read in LSDBi for the unofficial-visit date; §K (age-based eligibility wording), §L (weight-class growth claim cut) and §M (other recruiting-timeline fixes) added.
+
 **Sourcing rules honored:** primary/near-primary only (NCAA.org/.com, ncaaorg S3 PDFs, NWCA, USA Wrestling/themat.com, NAIA.org, NJCAA.org, NFHS). NO aggregators (WrestleStat, FloWrestling, TrackWrestling, MatBoss, MaxPreps) and NO recruiting-service blogs (NCSA, SportsRecruits, scholarship-guide blogs) as sources — several surfaced in searches and were deliberately excluded.
 
 ---
@@ -51,6 +53,15 @@ Before flipping any article to live, check every number/date/rule in its copy ag
 | D3: no contact-date restriction (visit/off-campus rules only); NAIA/NJCAA more permissive | NCAA D3 recruiting rules; NAIA/NJCAA | 2026-07-07 | recruiting-timeline |
 | **NLI eliminated by D1 Council Oct 9, 2024**, effective immediately → **Written Offer of Athletics Aid** | NCAA D1 Council action (Oct 2024); existing site /guide/verbal-commitment-vs-nli/ | 2026-07-07 | recruiting-timeline, scholarships |
 | **DI Proposal 2026-12** (Recruiting — Men's Wrestling — First Date for Correspondence, Telephone Calls, Evaluations and Contacts and Campus Visits): **Adopted (Final)** by the DI Cabinet as expedited legislation (Apr 14-15, 2026 meeting; LSDBi history: adopted Apr 15, 2026); effective immediately, **applicable to prospects who initially enroll full time on or after Aug 1, 2028**. Final bylaw text read: phone calls, recruiting materials and electronic correspondence (and calls received from the prospect) not before **April 1 of junior year**; off-campus contacts (and camp recruiting conversations) not before **June 15 at the conclusion of junior year**; official visits and unofficial visits with athletics involvement not before **Aug 15 of senior year**. Men's wrestling only (women's not covered). Exact dates are NO LONGER pending | NCAA Legislative Services Database — Division I Proposal 2026-12 (web3.ncaa.org/lsdbi/search/proposalView?id=109226), bylaws 13.1.1.1.6, 13.1.3.1.6, 13.1.3.2.8, 13.1.5.7, 13.4.1.6, 13.6.2.1.6, 13.7.1.6, 13.12.1.5.6; Report of the NCAA Division I Cabinet, Apr 14-15, 2026 (ncaaorg S3: `.../committees/d1/cabinet/Apr2026D1Cabinet_Apr14Report.pdf`) | 2026-10-08 | recruiting-timeline, blog/womens-college-wrestling-2026-27-season (men's-only scope) |
+| **Proposal 2026-12, unofficial visits (added to copy 2026-10-08):** for the same cohort, "an unofficial visit with athletics department involvement" may not occur before **Aug 15 of senior year** (Bylaw 13.7.1.6); men's wrestling is carved out of the general unofficial-visit rule (13.7.1.1). Official visits: no expense-paid visit before Aug 15 of senior year (13.6.2.1.6). Re-read in this pass. | NCAA LSDBi — Division I Proposal 2026-12 (web3.ncaa.org/lsdbi/search/proposalView?id=109226), status "Adopted Final," history "Apr 15, 2026: Adopted by the Cabinet as expedited legislation" | 2026-10-08 | recruiting-timeline |
+| **2026-27 D1 men's wrestling:** Dead period **Nov 9–12, 2026** ("Monday through Thursday of the initial week for the fall signing date for athletics aid agreements") | 2026-27 NCAA Recruiting Calendar — "Other Division I Sports" (ncaaorg S3: `.../compliance/recruiting/calendar/2026-27/2026%E2%80%9327D1Rec_OtherRecruitingCalendar.pdf`; "Updated: August 4, 2026"), MEN'S WRESTLING / WOMEN'S WRESTLING panels | 2026-10-08 | recruiting-timeline |
+| **2026-27 D1 men's wrestling:** Recruiting Shutdown **Dec 24–26, 2026** | 2026-27 NCAA Recruiting Calendar — "Other Division I Sports" (ncaaorg S3: `.../compliance/recruiting/calendar/2026-27/2026%E2%80%9327D1Rec_OtherRecruitingCalendar.pdf`; "Updated: August 4, 2026"), MEN'S WRESTLING / WOMEN'S WRESTLING panels | 2026-10-08 | recruiting-timeline |
+| **2026-27 D1 men's wrestling:** Recruiting Shutdown **Mar 16–21, 2027** ("Tuesday through Sunday of the NCAA Division I Wrestling Championships") | 2026-27 NCAA Recruiting Calendar — "Other Division I Sports" (ncaaorg S3: `.../compliance/recruiting/calendar/2026-27/2026%E2%80%9327D1Rec_OtherRecruitingCalendar.pdf`; "Updated: August 4, 2026"), MEN'S WRESTLING / WOMEN'S WRESTLING panels | 2026-10-08 | recruiting-timeline |
+| **2026-27 D1 men's wrestling:** Dead period **Jul 26 – Aug 1, 2027** ("Monday before the National Wrestling Coaches Association Convention through the day of adjournment of the convention") | 2026-27 NCAA Recruiting Calendar — "Other Division I Sports" (ncaaorg S3: `.../compliance/recruiting/calendar/2026-27/2026%E2%80%9327D1Rec_OtherRecruitingCalendar.pdf`; "Updated: August 4, 2026"), MEN'S WRESTLING / WOMEN'S WRESTLING panels | 2026-10-08 | recruiting-timeline |
+| **2026-27 D1 men's wrestling:** a further Dead period stated only as a formula — "For four-year prospective student-athletes, **three (3) consecutive weeks starting 21 days following the final date to provide notification of transfer**" — no fixed dates printed | 2026-27 NCAA Recruiting Calendar — "Other Division I Sports" (ncaaorg S3: `.../compliance/recruiting/calendar/2026-27/2026%E2%80%9327D1Rec_OtherRecruitingCalendar.pdf`; "Updated: August 4, 2026"), MEN'S WRESTLING / WOMEN'S WRESTLING panels | 2026-10-08 | recruiting-timeline |
+| **2026-27 D1 women's wrestling:** Dead periods **Nov 9–12, 2026** (fall signing week) and **Jul 26 – Aug 1, 2027** (NWCA Convention); no other periods listed | 2026-27 NCAA Recruiting Calendar — "Other Division I Sports" (ncaaorg S3: `.../compliance/recruiting/calendar/2026-27/2026%E2%80%9327D1Rec_OtherRecruitingCalendar.pdf`; "Updated: August 4, 2026"), MEN'S WRESTLING / WOMEN'S WRESTLING panels | 2026-10-08 | recruiting-timeline |
+| Calendar definitions: a **dead period** bars in-person recruiting contacts and evaluations on or off campus and official or unofficial visits; a **recruiting shutdown** bars all forms of recruiting. The calendar does **not** state that undesignated days are a contact period, so the copy's former sentence "Every other day on the D1 wrestling calendar is a contact period" was replaced with "The 2026-27 calendar lists no other periods for wrestling." | Same calendar, definitions panel (read in full; no default-period statement) | 2026-10-08 | recruiting-timeline |
+| **2026-27 D2 (all other sports):** Signing Date Dead Period **Nov 9 @ 7 a.m. – Nov 11 @ 7 a.m., 2026**; the D2 calendar is otherwise contact period for these sports | 2026-27 NCAA Division II Recruiting Calendar — All Sports (ncaaorg S3: `.../calendar/2026-27/2026-27D2Rec_RecruitingCalendar_AllSports.pdf`) | 2026-10-08 | recruiting-timeline |
 
 ## D. House v. NCAA settlement (wrestling)
 
@@ -127,6 +138,48 @@ Before flipping any article to live, check every number/date/rule in its copy ag
 | --- | --- | --- | --- |
 | **D1 men's wrestling transfer window = 30 days, beginning April 1 each year** (approved by the DI Cabinet **Jan 14, 2026**); previous window was **45 days**, beginning after selections for the D1 Men's Wrestling Championships. The release states **no wrestling-specific effective date** and does **not mention women's wrestling** | NCAA.org — "Division I Cabinet adopts new transfer windows in several sports" (2026-01-14; ncaa.org/news/media-center-division-i-cabinet-adopts-new-transfer-windows-in-several-sports/) | 2026-10-08 | transfer-portal, blog/womens-college-wrestling-2026-27-season |
 
+## K. Age-based eligibility — redshirt wording on wrestling pages (2026-10-08)
+
+Pages that described redshirting as a current option were reworded to match
+`src/guide/age-based-eligibility.md` and link to it. Every rule below is logged
+in full in `age-based-eligibility-fact-log.md` (re-verified 2026-10-08); the
+NCAA Eligibility 101 page was re-read again in this pass ("Athletics redshirt
+rules" in the eliminated list; the four-row transition table; both clock
+triggers; "Once the five-year period starts, it runs continuously"). The rows
+here exist so the `Articles` index covers these pages.
+
+| Claim | Primary source | Verified | Articles |
+| --- | --- | --- | --- |
+| **Division I adopted the age-based eligibility model in June 2026; Division II's adoption was announced Aug. 5, 2026** (vote date not stated). | NCAA.org, "Division I adopts age-based eligibility model" (2026-06-23); "Division II adopts age-based eligibility model" (2026-08-05) — age-based log §B | 2026-10-08 | transfer-portal, methodology/weight-class-depth |
+| The model **eliminated athletics redshirt rules and the cap on seasons of competition** (DI and DII). | NCAA Eligibility Center, "NCAA Division I and II Age-Based Eligibility Rules: Eligibility 101" — age-based log §D | 2026-10-08 | transfer-portal, methodology/weight-class-depth |
+| The **five-year window starts at the earlier of first full-time enrollment at any college (two-year colleges included) or the academic year after the 19th birthday**, and **does not pause** for a season sat out or a transfer. | Eligibility 101 — age-based log §C | 2026-10-08 | transfer-portal, methodology/weight-class-depth |
+| **Transition:** prospects first enrolling full time in **fall 2027 or later: age-based model only**; current athletes with eligibility remaining and 2026-27 initial enrollees: **whichever rules are more beneficial**. | Eligibility 101 transition table — age-based log §F | 2026-10-08 | transfer-portal, methodology/weight-class-depth |
+| **Division III and the NAIA have not adopted the model** (DIII: 2027 Convention membership proposal, not voted on; NAIA: four seasons in the first 10 semesters). | NCAA LSDBi proposal 109408; NAIA.org "High School Students" — age-based log §I | 2026-10-08 | transfer-portal, methodology/weight-class-depth |
+| **As of Oct. 8, 2026 the model is in force:** the Tenth Circuit **stayed** the July 31 injunction covering one group of athletes on **Aug. 21, 2026**; oral argument is set for **Oct. 13, 2026**. | 10th Cir. No. 26-1309, Dkt. 28 (2026-08-21) and Dkt. 45 (2026-09-24) — age-based log §G | 2026-10-08 | transfer-portal, methodology/weight-class-depth |
+
+**Cut or rewritten in this pass:**
+- ❌ **"Wrestling uses redshirts heavily"** (`transfer-portal` body and FAQ; `methodology/weight-class-depth`) — described the previous rules, and no source of any tier measured how heavily. Rewritten around "wrestlers you won't see in a lineup" plus the standard paragraph; dated correction notes on both pages. `transfer-portal`'s H2 changed from "Redshirts: the depth you don't see" to "The depth you don't see in a lineup" (no inbound links to the old anchor found in `src/`).
+- ✏️ Passing redshirt mentions reworded with no rule claim: `methodology/roster-composition` ("redshirts complicate depth" → "wrestlers outside the lineup"), `wrestling/index` ("than a redshirt freshman" → "than a freshman starter"), `mens/guide/mens-college-wrestling-landscape` ("including redshirts" → "including wrestlers who aren't in the lineup"), `methodology/weight-class-depth` limits list ("Redshirts … aren't always public" → "Redshirt labels …").
+- `date:` was **not** bumped on these pages: only the reworded passages were re-verified.
+
+
+## L. Weight-class growth claim — cut (2026-10-08)
+
+| Claim | Primary source | Verified | Articles |
+| --- | --- | --- | --- |
+| ❌ **CUT — "Boys commonly / frequently / often add one to two full weight classes between sophomore year and their early 20s"** and its worked examples ("A 138-pound sophomore may be a 149 or 157 as a college junior"; "A very good 132-pound sophomore might be a college 149 or 157"; "many grow two classes"; "others jump two classes in eighteen months"; "a good high-school 120 can become a college 141"). A distributional, quantified claim with no source of any tier — no NCAA, NFHS, NWCA or USA Wrestling document measures it. Replaced everywhere with the structural statement: a wrestler's body can keep changing between sophomore year and their early 20s, so today's class may not be the college class; how much varies; "we have no source that measures how often or how far wrestlers move up, so we don't put a number on it." | none | 2026-10-08 | guide/understanding-wrestling-weight-classes (FAQ + body), guide/what-college-coaches-evaluate (summary, body, closing), mens/guide/mens-college-wrestling-landscape, mens/index (hub), wrestling/index (hub) |
+| ✏️ **"A senior-year surge is common in wrestling precisely because bodies keep changing"** (`recruiting-timeline`, closing) — an unsourced distributional claim tied to the same premise. Reworded: "Bodies keep changing, so the timeline can too." | none | 2026-10-08 | recruiting-timeline |
+
+Blast radius: the task named two pages; the same claim was on five, and §9.2 requires every page carrying it to change in the same commit. Grep of `src/` for the claim's variants returns nothing after this pass. No correction notes: the claim was unsourced, not shown to be wrong.
+
+## M. recruiting-timeline — other wording fixed while re-verifying (2026-10-08)
+
+| Claim | Primary source | Verified | Articles |
+| --- | --- | --- | --- |
+| ❌ **CUT — "Athletes can take unlimited official visits overall, with one official visit permitted per school (a second is allowed only in limited circumstances)"** (FAQ). No fact-log row, and it contradicts the five-visit cap stated on `/guide/ncaa-recruiting-rules/`, `/guide/official-vs-unofficial-visits/` and both lacrosse timelines (itself pending in `lacrosse-fact-log.md` §A). Two site claims conflict and neither is verified, so the copy now says only that NCAA rules limit official visits and to confirm the current limits with a compliance office. | Not verified: LSDBi Proposal 2022-32 (adopted final 2023-06-24) restates a five-visit prospect limit in plain text but its strikethroughs are not visible to a fetch | 2026-10-08 | recruiting-timeline |
+| ❌ **CUT — "August 1 is typically when the recruiting process accelerates"** (FAQ) — unsourced. | none | 2026-10-08 | recruiting-timeline |
+| ✏️ **"Shutdown periods (the same [as dead periods])"** — wrong: a recruiting shutdown bars all recruiting, including calls and correspondence. Reworded from the calendar's own definitions. | 2026-27 Other Division I Sports calendar, definitions panel | 2026-10-08 | recruiting-timeline |
+
 ---
 
 ### Open items to re-check before/at publish
@@ -138,9 +191,18 @@ Before flipping any article to live, check every number/date/rule in its copy ag
 - **Regional alignment count is moving** (120 in the July 23, 2026 vote → 128 in the posted 2026-27 alignment read 2026-10-08). Copy states both with dates and "more than 100" only. Re-check before any edit.
 - **D1 men's transfer window effective date** — the 2026-01-14 release states none for wrestling; do not state the first spring it applies.
 - **Menlo College** appears in the posted 2026-27 alignment (Region 6) but no Menlo T1 release was opened; Menlo is not mentioned in copy.
-- **"Boys commonly grow one to two classes"** — unsourced quantity; removed from weight-management 2026-10-08, but still present on `mens/guide/mens-college-wrestling-landscape.md` and `guide/understanding-wrestling-weight-classes.md` (FAQ and body). Source or cut.
+- ~~**"Boys commonly grow one to two classes"**~~ — RESOLVED 2026-10-08: cut from all five pages that carried it (§L).
 - **weight-management** opening framing ("built to end the era when wrestlers dropped dangerous amounts of weight…") is a historical claim with no row; source it or soften before the next date bump (date NOT bumped on 2026-10-08 for this reason).
-- **§C has no rows for the 2026-27 D1 dead periods** published on recruiting-timeline (Nov 9–12, Dec 24–26, Mar 16–21, Jul 26–Aug 1, transfer-formula dead period); §C rows still cite the 2025-26 calendar. Add rows against the 2026-27 "Other Sports" calendar (updated Aug 4, 2026).
-- **recruiting-timeline** lists Aug 15 of senior year as the cohort's official-visit date; Proposal 2026-12 also moves *unofficial* visits with athletics involvement to Aug 15 of senior year. Not wrong, but incomplete — consider adding.
+- ~~**§C has no rows for the 2026-27 D1 dead periods**~~ — RESOLVED 2026-10-08: rows added against the 2026-27 "Other Division I Sports" calendar (updated Aug 4, 2026). The two general-rule rows (June 15 after sophomore year; Aug 1 visits) still cite the 2025-26 calendar, which publishes periods, not bylaw dates — re-source them to the DI Manual bylaws (13.1.3.1, 13.1.1.1, 13.6.2.1.1, 13.7.1.1) at the next pass.
+- ~~**recruiting-timeline** omits unofficial visits from the Aug 15 cohort date~~ — RESOLVED 2026-10-08: added, with a dated note (§C).
 - **NJCAA 2026-27 women's status** (Invitational vs. championship) unverified for 2026-27 (NJCAA schedule page unavailable 2026-10-08); divisions-explained footer says NAIA/NJCAA not re-verified.
 - Re-run every "as of 2025-26 / for the 2026 championship / under the current rules book" date anchor at each season rollover.
+- **Age-based eligibility wording (§K)** — the standard paragraph on two
+  wrestling pages (and the `transfer-portal` FAQ) carries the Tenth Circuit
+  status "as of October 8, 2026." After the Oct. 13, 2026 argument and again
+  after any ruling, update every page in §K's `Articles` column in the same
+  commit as `src/guide/age-based-eligibility.md`.
+- **Official-visit limits (§M)** — the site states a five-visit cap on the
+  universal guides and lacrosse timelines; the wrestling FAQ formerly said
+  "unlimited." Resolve against the current DI Manual Bylaw 13.6.2.2 in one
+  cross-site pass.

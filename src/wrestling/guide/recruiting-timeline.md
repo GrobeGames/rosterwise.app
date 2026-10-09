@@ -32,9 +32,9 @@ faq:
   - q: "When can college wrestling coaches start contacting recruits?"
     a: "For NCAA Division I and Division II, coaches may begin initiating contact — calls, texts, emails, direct messages, and verbal offers — on June 15 after the athlete's sophomore year of high school. Before that date, coaches are restricted in what they can initiate, though athletes may reach out to coaches at any time. Men's wrestling prospects who initially enroll full time on or after August 1, 2028 (the high school class of 2028 and younger) follow a separate, later set of dates."
   - q: "When can wrestling recruits take official visits?"
-    a: "Official visits open August 1 of junior year for NCAA Division I, the same date in-person off-campus contact opens. Athletes can take unlimited official visits overall, with one official visit permitted per school (a second is allowed only in limited circumstances). August 1 is typically when the recruiting process accelerates. For men's wrestling prospects enrolling on or after August 1, 2028, official visits instead open August 15 of senior year."
+    a: "Official visits open August 1 of junior year for NCAA Division I, the same date in-person off-campus contact opens. NCAA rules also limit official visits; confirm the current limits with each program's compliance office before you plan a visit schedule. For men's wrestling prospects enrolling on or after August 1, 2028, official visits, and unofficial visits that involve the athletics department, instead open August 15 of senior year."
   - q: "Do the new men's wrestling recruiting dates apply to my athlete?"
-    a: "Only if the athlete initially enrolls full time on or after August 1, 2028 — in practice, the high school class of 2028 and younger. Those prospects get calls and recruiting materials April 1 of junior year, off-campus contact June 15 after junior year, and official visits August 15 of senior year. The class of 2027 and any wrestler enrolling earlier stays on the general rules: June 15 after sophomore year, August 1 of junior year."
+    a: "Only if the athlete initially enrolls full time on or after August 1, 2028 — in practice, the high school class of 2028 and younger. Those prospects get calls and recruiting materials April 1 of junior year, off-campus contact June 15 after junior year, and official visits and athletics-involved unofficial visits August 15 of senior year. The class of 2027 and any wrestler enrolling earlier stays on the general rules: June 15 after sophomore year, August 1 of junior year."
   - q: "How is wrestling's timeline different from lacrosse's?"
     a: "Wrestling uses the June 15 after sophomore year contact date that most NCAA sports follow. Lacrosse runs later: women's lacrosse opens at 12 p.m. Eastern on September 1 of junior year, and men's lacrosse — as of a rule change effective August 1, 2026 — opens at 7 a.m. on the Wednesday immediately following Labor Day of junior year. So wrestling's coach-contact window opens months earlier than either. If you've read our lacrosse guides, don't apply that framing to wrestling."
   - q: "Does the National Letter of Intent still exist for wrestling?"
@@ -42,8 +42,9 @@ faq:
   - q: "If a coach hasn't contacted us by June 15, are they not interested?"
     a: "Not necessarily. Coaches often evaluate wrestlers for a year or more before the contact date — at tournaments, on film, and through club and high-school coaches — even though they can't initiate substantive contact yet. Silence in June says more about the calendar and a staff's priorities than about a wrestler's ceiling. Proactive, well-targeted outreach from the athlete still matters."
 sources:
-  - "<strong>2026-27 NCAA Division I Recruiting Calendar — Other Sports (includes men's and women's wrestling)</strong> — official contact, visit, and dead-period dates. Free PDF at ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026%E2%80%9327D1Rec_OtherRecruitingCalendar.pdf"
-  - "<strong>2026-27 NCAA Division II Recruiting Calendar (All Sports)</strong> — the D2 signing-date dead period. Free PDF at ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D2Rec_RecruitingCalendar_AllSports.pdf"
+  - '<a href="https://web3.ncaa.org/lsdbi/search/proposalView?id=109226">NCAA Legislative Services Database — Division I Proposal 2026-12, Recruiting: Men''s Wrestling: First Date for Correspondence, Telephone Calls, Evaluations and Contacts and Campus Visits</a> (adopted April 15, 2026; applies to prospects initially enrolling full time on or after Aug. 1, 2028; read Oct. 8, 2026)'
+  - '<a href="https://ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026%E2%80%9327D1Rec_OtherRecruitingCalendar.pdf">2026-27 NCAA Recruiting Calendar — Other Division I Sports (includes men''s and women''s wrestling)</a> (updated Aug. 4, 2026; read Oct. 8, 2026) — dead periods and recruiting shutdowns'
+  - '<a href="https://ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D2Rec_RecruitingCalendar_AllSports.pdf">2026-27 NCAA Division II Recruiting Calendar (All Sports)</a> (read Oct. 8, 2026) — the D2 signing-date dead period'
   - '<a href="https://www.ncaa.org">NCAA.org</a> — Division I and Division II recruiting rules and calendars'
   - '<a href="/guide/verbal-commitment-vs-nli/">RosterWise — Verbal Commitment vs. NLI vs. Written Offer of Athletics Aid</a> (the October 2024 elimination of the NLI)'
   - '<a href="/lacrosse/guide/september-1-junior-year-rule/">RosterWise — The September 1 Junior Year Rule (Lacrosse)</a>, for the contrast'
@@ -72,7 +73,9 @@ For that cohort, the men's wrestling dates are:
 
 - **April 1 of junior year** — coaches may begin phone calls and send recruiting materials.
 - **June 15 after junior year** — in-person off-campus contact opens.
-- **August 15 of senior year** — official visits open.
+- **August 15 of senior year** — official visits open, and so do **unofficial visits that involve the athletics department**. Under the general rules, both open earlier.
+
+> **Correction, October 8, 2026.** An earlier version of this section listed August 15 of senior year as the date for official visits only. The adopted legislation (Division I Proposal 2026-12, adopted April 15, 2026) applies the same date to unofficial visits with athletics department involvement. We added it.
 
 **The class of 2027 is not affected.** Wrestlers enrolling before August 1, 2028 continue to follow the general rules described above — June 15 after sophomore year for calls and materials, August 1 of junior year for off-campus contact and official visits. If your athlete is a current junior or senior, the older framework is still the one that governs your recruiting.
 
@@ -111,7 +114,7 @@ For a wrestler considering multiple levels, the practical upshot is that **D1 is
 
 ## The 2026-27 Division I dead periods
 
-Beyond the contact dates, the D1 calendar closes in-person recruiting entirely during **dead periods** (no in-person contact or evaluation anywhere) and **shutdown periods** (the same, applied around championships and holidays). Families planning visits should check these before booking a trip.
+Beyond the contact dates, the D1 calendar closes in-person recruiting entirely during **dead periods** (no in-person contact or evaluation on or off campus, and no official or unofficial visits) and **recruiting shutdowns** (no recruiting of any kind, including calls and correspondence; on the wrestling calendar they fall around the holidays and the Division I championships). Families planning visits should check these before booking a trip.
 
 **Men's wrestling, 2026-27:**
 
@@ -126,7 +129,7 @@ Beyond the contact dates, the D1 calendar closes in-person recruiting entirely d
 - Dead period **November 9–12, 2026** (the fall signing week)
 - Dead period **July 26 – August 1, 2027**
 
-Every other day on the D1 wrestling calendar is a contact period.
+The 2026-27 calendar lists no other periods for wrestling. If you're unsure what a coach may do on a given date, ask the program's compliance office.
 
 ## Year-by-year timeline
 
@@ -146,7 +149,7 @@ One important change: the **National Letter of Intent was eliminated by the NCAA
 
 ## Every recruit's journey is different
 
-The calendar is the same for everyone; the timeline is not. Some wrestlers commit the fall of junior year; others — especially late-maturing athletes who grow into a new weight class — find their best fit deep into senior year at a program that wasn't on their early list. A senior-year surge is common in wrestling precisely because bodies keep changing. Use the dates as a framework for readiness, not as a deadline that defines whether recruiting is "working."
+The calendar is the same for everyone; the timeline is not. Some wrestlers commit the fall of junior year; others — including athletes who grow into a new weight class — find their best fit in senior year at a program that wasn't on their early list. Bodies keep changing, so the timeline can too. Use the dates as a framework for readiness, not as a deadline that defines whether recruiting is "working."
 
 ---
 
