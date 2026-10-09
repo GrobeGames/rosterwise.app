@@ -26,6 +26,8 @@ sources:
   - "NCAA.org, Division II Recruiting Calendar and Guidelines"
   - "NCAA.org, Division III Recruiting Calendar and Guidelines"
   - "NCAA.org, Division I, II, and III Manuals (2026-27)"
+  - '<a href="https://web3.ncaa.org/lsdbi/search/bylawView?id=128232">2026-27 NCAA Division I Manual, Bylaw 13.6.2.2</a> (number of official visits, institutional limitations), with Bylaws 13.6.2.2.1 (additional visit after a head-coach change) and 13.6.4 (length of official visit) — read via the NCAA Legislative Services Database, Oct. 9, 2026'
+  - '<a href="https://web3.ncaa.org/lsdbi/search/proposalView?id=106508">NCAA Division I Proposal 2022-32, Recruiting: Official Visits</a> (adopted final June 24, 2023; effective July 1, 2023) — deleted the five-visit limit on recruits and the 48-hour limit'
   - "NCAA Division I recruiting calendars, 2026-27 (Other Sports, Men's Lacrosse, Women's Lacrosse, Women's Volleyball)"
   - "NCAA Division II Recruiting Calendar (All Sports), 2026-27"
   - "NCAA Eligibility Center: eligibilitycenter.org"
@@ -136,9 +138,11 @@ After the initial contact date, coaches can engage in full recruiting communicat
 ### Official visits
 
 - Recruits may begin taking official visits **August 1 of junior year** in most sports — the same date in-person off-campus contact opens. Some sports have their own dates: in **women's lacrosse**, D1 Bylaw 13.6.2.1.2 provides that a prospect "may not be provided an expense-paid visit earlier than September 1 (12 p.m. Eastern time for women's lacrosse) of the prospective student-athlete's junior year in high school"; **men's lacrosse** official visits open on its Wednesday-after-Labor-Day contact date (Bylaw 13.6.2.1.3). January 1 of junior year is the **Division III** official-visit date (D3 Bylaw 13.6.1.1.1), not a Division I women's lacrosse date
-- A recruit may take up to **five official visits** total across all D1 schools (this limit is being reviewed and may change)
+- **There is no Division I limit on how many schools a recruit can visit officially.** The limit is per school: under Bylaw 13.6.2.2 of the 2026-27 Division I Manual, a school may pay for **one** official visit before October 15 following completion of high school, and one more beginning on that date (including a visit related to a possible transfer). In practice, that is one paid visit to each school during high school. A school that hires a new head coach may pay for one additional visit for a recruit who already took one (Bylaw 13.6.2.2.1)
 - An official visit is defined as a visit to campus where the school pays for transportation, meals, and/or lodging
-- Official visits are limited to **48 hours**
+- A school may provide no more than **two consecutive nights** of lodging on an official visit (Bylaw 13.6.4)
+
+> **Correction, October 9, 2026.** An earlier version of this page said a recruit may take up to five official visits across all Division I schools and that an official visit is limited to 48 hours. Both rules were changed by Division I Proposal 2022-32, adopted in final form on June 24, 2023 and effective July 1, 2023: it deleted the five-visit limit on recruits and replaced the 48-hour limit with the two-night lodging limit. Corrected against the 2026-27 Division I Manual, Bylaws 13.6.2.2 and 13.6.4.
 
 ### Unofficial visits
 

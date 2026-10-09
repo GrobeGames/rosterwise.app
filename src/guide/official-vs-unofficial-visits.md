@@ -24,6 +24,8 @@ related:
 sources:
   - "NCAA.org, Official and Unofficial Visit guidelines"
   - "NCAA.org, Division I, II, and III Manuals (2025-26)"
+  - '<a href="https://web3.ncaa.org/lsdbi/search/bylawView?id=128232">2026-27 NCAA Division I Manual, Bylaw 13.6.2.2</a> (number of official visits, institutional limitations), with Bylaws 13.6.2.2.1 (additional visit after a head-coach change) and 13.6.4 (length of official visit) — read via the NCAA Legislative Services Database, Oct. 9, 2026'
+  - '<a href="https://web3.ncaa.org/lsdbi/search/proposalView?id=106508">NCAA Division I Proposal 2022-32, Recruiting: Official Visits</a> (adopted final June 24, 2023; effective July 1, 2023) — deleted the five-visit limit on recruits and the 48-hour limit'
   - "NAIA.org, Visit policies"
 cta:
   heading: "Visit with purpose. Know the roster before you arrive."
@@ -48,12 +50,14 @@ An official visit is a campus visit where the **school pays for some or all of t
 ### NCAA Division I rules
 
 - Recruits may begin taking official visits **August 1 of junior year** in most sports — the same date in-person off-campus contact opens. The specific date varies by sport: in **women's lacrosse**, D1 Bylaw 13.6.2.1.2 provides that a prospect "may not be provided an expense-paid visit earlier than September 1 (12 p.m. Eastern time for women's lacrosse) of the prospective student-athlete's junior year in high school"; **men's lacrosse** official visits open on its contact date, the Wednesday after Labor Day of junior year (Bylaw 13.6.2.1.3). January 1 of junior year is the **Division III** date (D3 Bylaw 13.6.1.1.1) — it is not the Division I women's lacrosse date. Verify at NCAA.org.
-- A recruit may take up to **five official visits total** across all D1 schools (this limit is under ongoing review and may change)
-- An official visit is limited to **48 hours**
+- **There is no Division I limit on how many schools a recruit can visit officially.** The limit is per school: under Bylaw 13.6.2.2 of the 2026-27 Division I Manual, a school may pay for **one** official visit before October 15 following completion of high school, and one more beginning on that date (including a visit related to a possible transfer). In practice, that is one paid visit to each school during high school. A school that hires a new head coach may pay for one additional visit for a recruit who already took one (Bylaw 13.6.2.2.1)
+- A school may provide no more than **two consecutive nights** of lodging on an official visit (Bylaw 13.6.4)
 - The school can pay for transportation to and from campus, three meals per day, lodging, and entertainment (within limits)
 - Recruits typically stay with a current team member ("host")
 - The school arranges meetings with coaches, academic advisors, and tours of facilities
 - At least one parent or guardian may accompany the recruit, and some expenses may be covered
+
+> **Correction, October 9, 2026.** An earlier version of this page said a recruit may take up to five official visits across all Division I schools and that an official visit is limited to 48 hours. Both rules were changed by Division I Proposal 2022-32, adopted in final form on June 24, 2023 and effective July 1, 2023: it deleted the five-visit limit on recruits and replaced the 48-hour limit with the two-night lodging limit. Corrected against the 2026-27 Division I Manual, Bylaws 13.6.2.2 and 13.6.4.
 
 ### NCAA Division II rules
 
@@ -87,9 +91,8 @@ An unofficial visit is a campus visit where the **recruit's family pays all expe
 
 Unofficial visits are often where the real evaluation happens — for both the family and the coaching staff. Because there's no limit and they can happen earlier, unofficial visits let families:
 
-- See more schools than the five-official-visit limit allows
 - Visit schools before official visits are available
-- Return to a school for a second look before making a commitment
+- Return to a school for a second look before making a commitment, since a Division I school can pay for only one official visit during high school
 - Evaluate schools that haven't yet offered an official visit
 
 **Don't undervalue the unofficial visit.** Many commitments happen after unofficial visits, not official ones.

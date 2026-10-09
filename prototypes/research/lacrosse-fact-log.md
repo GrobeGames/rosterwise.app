@@ -115,6 +115,7 @@ them** — the calendars publish periods only.
 | **Men's lacrosse official visits open on the same Wednesday-after-Labor-Day date** — so the men's page's own statement is correct. | 2026-27 NCAA D1 Manual, Bylaw **13.6.2.1.3** (Adopted 6/29/26 effective 8/1/26) | 2026-08-26 | lacrosse/mens/guide/recruiting-timeline |
 | **Each institution is limited to seven recruiting opportunities (contacts and evaluations combined) per prospect** in both men's and women's lacrosse. | 2026-27 NCAA D1 Manual, Bylaws **13.1.5.6** (women's) and **13.1.5.7** (men's) | 2026-08-26 | *(not stated in copy — worth adding; the pages describe the contact window but never the contact limit)* |
 | ✂️ **CUT 2026-10-08 — "athletes have a cap of 5 official visits across all D1 schools combined."** Never sourced; the wrestling timeline said the opposite ("unlimited official visits overall, one per school"), and a plain-text read of LSDBi Proposal 2022-32 (adopted final 2023-06-24) could not show which words were struck. Both lacrosse timelines now say only that NCAA rules limit official visits and to confirm current limits with a compliance office. The universal guides `/guide/ncaa-recruiting-rules/` and `/guide/official-vs-unofficial-visits/` still state the five-visit cap — outside this pass; see Open items. | not located (Bylaw 13.6.2.2 current text still to be read) | 2026-10-08 | ~~lacrosse/mens/guide/recruiting-timeline, lacrosse/womens/guide/recruiting-timeline~~ (cut) |
+| ✅ **RESOLVED 2026-10-09 — the five-visit cap was WRONG, not merely unsourced.** DI Proposal 2022-32 (Adopted Final **June 24, 2023**, effective **July 1, 2023**) deleted the prospect limit (former Bylaw 13.6.2.2, "a maximum of five expense-paid visits to Division I institutions…"); read in LSDBi with the strikethroughs visible. The current limit is per school — Bylaw 13.6.2.2 of the 2026-27 DI Manual: "An institution may finance one visit to its campus for a prospective student-athlete before October 15 following completion of high school and one visit beginning October 15 following completion of high school…" Both timelines now state: "Under the 2026-27 Division I Manual there is no limit on how many schools you visit officially, but each school can pay for only one official visit during high school (Bylaw 13.6.2.2)," with a dated correction note (the live pages on `main` still showed "cap of 5" on 2026-10-09). Full source detail and blast radius: `guide-fact-log.md` §C, 2026-10-09 rows. | **NCAA LSDBi — DI Proposal 2022-32** (`web3.ncaa.org/lsdbi/search/proposalView?id=106508`); **2026-27 NCAA DI Manual, Bylaw 13.6.2.2** (`web3.ncaa.org/lsdbi/search/bylawView?id=128232`) | 2026-10-09 | lacrosse/mens/guide/recruiting-timeline:261, :265 (correction); lacrosse/womens/guide/recruiting-timeline:222, :224 (correction) |
 | ⚠️ **PENDING — the 2017 and 2018 legislative history.** "In April 2017, the NCAA approved landmark legislation pushing the initial recruiting contact date to September 1 of junior year for men's and women's lacrosse," jointly proposed by the IMLCA and IWLCA; and "men's and women's lacrosse were specifically **exempted**" from the 2018 June 15 reform via **Proposal 2018-93-2**, submitted by the ACC. Attributed on-page to **USA Lacrosse magazine** — Tier 2, supporting a rule and a date, which §1 forbids. NCAA LSDBi holds the proposal records; they were not retrieved. | USA Lacrosse magazine (Tier 2) is the only cited support | 2026-08-26 (Tier 1 not retrieved) | lacrosse/guide/september-1-junior-year-rule, lacrosse/mens/guide/recruiting-timeline, lacrosse/womens/guide/recruiting-timeline |
 
 ## B. 2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar
@@ -379,7 +380,9 @@ page was either replaced with what the rules establish or cut.
     breakdown, high-school quarters, field dimensions), and the World Lacrosse
     international figures (§G). Women's 12 players / four 15-minute quarters /
     90-second clock closed 2026-10-08.
-14. The five-visit official-visit cap (§A).
+14. ~~The five-visit official-visit cap (§A).~~ **RESOLVED 2026-10-09** — deleted
+    by DI Proposal 2022-32 effective July 1, 2023; per-school rule (Bylaw 13.6.2.2) now
+    stated on both timelines (§A).
 
 **Housekeeping that expires or rots**
 
@@ -448,3 +451,9 @@ wrestling set does not mention. Worth its own pass.
 29. **Age-based eligibility wording (§M)** on `methodology/class-year-gaps` carries
     the Tenth Circuit status "as of October 8, 2026." Update with
     `src/guide/age-based-eligibility.md` after the Oct. 13 argument and any ruling.
+30. **Men's timeline line 262 — "Unofficial visits are not limited and can be
+    scheduled at any time"** (found 2026-10-09, not edited). The count half is
+    right (Bylaw 13.7.2: "an unlimited number of times"), but "at any time" is the
+    same error corrected on the soccer timelines on 2026-08-26 — athletics-involved
+    unofficial visits in men's lacrosse are gated by Bylaw 13.7.1.3. Tracked with the
+    universal guides in `guide-fact-log.md` open item 5.
