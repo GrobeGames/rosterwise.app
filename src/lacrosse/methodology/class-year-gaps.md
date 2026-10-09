@@ -1,7 +1,7 @@
 ---
 layout: content.njk
 title: "Why Class-Year Gaps Are the Most Overlooked Recruiting Signal"
-description: "How class-year gap analysis reveals where college lacrosse programs need to recruit — and why most families miss this critical signal."
+description: "How class-year gap analysis reads a college lacrosse roster for where a program may need to recruit next — and what that signal can and cannot tell you."
 date: 2026-06-14
 breadcrumbs:
   - text: Home
@@ -11,7 +11,7 @@ breadcrumbs:
   - text: Methodology
     url: /lacrosse/methodology/
   - text: Class-Year Gaps
-summary: "When a college lacrosse program has three senior close defenders and zero sophomore close defenders, that's a class-year gap — and it's one of the strongest public signals of where the program needs to recruit next. Class-year gap analysis is straightforward, based entirely on public roster data, and almost universally ignored by recruiting families. This page explains what it is, how to read it, and why it matters for your athlete's timing."
+summary: "When a college lacrosse program has three senior close defenders and zero sophomore close defenders, that's a class-year gap — and it's a public signal of where the program may need to recruit next. Class-year gap analysis is straightforward and based entirely on public roster data. This page explains what it is, how to read it, and why it matters for your athlete's timing."
 related:
   - title: "What Is Roster Composition Analysis"
     url: /lacrosse/methodology/roster-composition/
@@ -32,6 +32,8 @@ sources:
   - "Publicly available college lacrosse rosters from institutional athletics websites"
   - "NCAA.org — Division eligibility and class-year rules"
   - "House v. NCAA settlement (approved June 6, 2025) — D1 roster cap framework"
+  - "<strong>2026-27 NCAA Division I Manual, Bylaw 17.2 (Roster Limitations)</strong> — men's lacrosse 48, women's lacrosse 38, at schools covered by the House settlement — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - '<a href="https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/Feb2026D1Gov_PhaseSevenSetQuestionandAnswer.pdf">NCAA — Question and Answer: Implementation of the House Settlement</a> (updated Feb. 11, 2026) — Designated Student-Athletes and roster limits'
   - '<a href="https://www.ncaa.org/news/division-i-adopts-age-based-eligibility-model/">NCAA.org — Division I adopts age-based eligibility model</a> (June 23, 2026)'
   - '<a href="https://www.ncaa.org/news/division-ii-adopts-age-based-eligibility-model/">NCAA.org — Division II adopts age-based eligibility model</a> (Aug. 5, 2026)'
   - '<a href="https://www.ncaa.org/eligibility-center/division-i-and-division-ii-age-based-eligibility-rules/">NCAA Eligibility Center — NCAA Division I and II Age-Based Eligibility Rules: Eligibility 101</a> (undated; read Oct. 8, 2026) — redshirt rules and seasons-of-competition limits eliminated; the five-year clock; the transition'
@@ -52,7 +54,7 @@ ${toc}
 
 ## What class-year gaps are
 
-A class-year gap exists when a program has significantly more players at one class year than another — especially when the imbalance is concentrated at a specific position.
+A class-year gap exists when a program has more players at one class year than another — especially when the imbalance is concentrated at a specific position.
 
 Consider a simplified example. A men's program's close defender group looks like this:
 
@@ -74,39 +76,37 @@ This is a balanced distribution. The program loses one midfielder to graduation 
 
 Class-year gap analysis is simply the process of identifying these imbalances across a program's roster, position by position.
 
-## Why most families miss this signal
+## Why this signal is easy to miss
 
-Class-year gaps are hiding in plain sight. Every college lacrosse roster is published publicly with class-year information. Any family can count the number of players at each class year and each position. And yet almost no one does.
+Class-year gaps are hiding in plain sight. College lacrosse programs publish their rosters on their own athletics websites, and where a roster lists each player's position and class year, any family can count the players at each class year and each position.
 
-**The information is scattered.** To analyze class-year gaps across 20 target programs, a family would need to visit 20 different athletics websites, copy down every player's position and class year, organize the data, and look for patterns. It's tedious work, and most families simply don't have the time or don't realize the information is there.
+**The information is scattered.** To analyze class-year gaps across 20 target programs, a family would need to visit 20 different athletics websites, copy down every player's position and class year, organize the data, and look for patterns. It's tedious work.
 
-**Families focus on the wrong things first.** Rankings, win-loss records, and facilities are more visible and more exciting than counting sophomores and seniors. Class-year analysis feels granular and unglamorous — which is precisely why it's so valuable. The families who do it have an informational advantage over those who don't.
+**Other information is more visible.** Records, rankings, and facilities are easy to find. Class-year counts have to be worked out by hand.
 
-**Coaches don't advertise their needs this explicitly.** A coach won't typically tell a recruit "we're desperate at close defense because we're graduating four of them." But the roster data tells you exactly that. It's the closest thing to reading a program's actual recruiting board that a family will find in public data.
+**A roster lists players, not openings.** The roster shows who is there and in which class; it doesn't say what the program plans to do about it. A class-year count is your own reading of public data, not the program's recruiting board, so ask each coach how they see their needs at your athlete's position.
 
 ## How to read class-year gaps for timing
 
 Class-year gaps don't just tell you where programs need players — they tell you when.
 
-**Immediate needs (gaps creating next-year vacancies).** If a program has multiple seniors at a position and few or no underclassmen behind them, the need is urgent. The program will be actively recruiting for the next class. For a high school senior or transfer, this is the ideal timing alignment.
+**Immediate needs (gaps creating next-year vacancies).** If a program has multiple seniors at a position and few or no underclassmen behind them, the gap opens next year. For a high school senior or a transfer, that is the timing that lines up — ask the coach whether they are recruiting the position for the next class.
 
 **Emerging needs (gaps creating future vacancies).** If a program has a concentration of juniors at a position and few freshmen or sophomores, the need will emerge in one to two years. For a high school sophomore or junior evaluating programs, this is a signal that the program will need players at their position by the time they arrive.
 
-**No clear need.** If a program has a balanced class-year distribution at a position, there's no structural gap driving recruitment. The program might still recruit at that position for talent upgrade or depth, but the urgency is lower.
+**No clear need.** If a program has a balanced class-year distribution at a position, there's no structural gap at that position. The program might still recruit there for depth or for a particular player.
 
-**This is about probability, not certainty.** A class-year gap makes it more likely that a program is recruiting at a specific position. It doesn't guarantee it. Coaches might address the gap through the transfer portal, move a player from another position (a common practice in lacrosse, especially midfield-to-LSM or attack-to-midfield), or decide to play with fewer players at that position. But the signal is strong enough to drive prioritization.
+**This is a signal, not a certainty.** A class-year gap is a reason to ask a program about its plans at a position; it doesn't tell you the answer. Coaches might address the gap through the transfer portal, move a player from another position, or decide to play with fewer players at that position.
 
 ## Class-year gaps across divisions
 
-The signal means slightly different things at different divisions:
+The counting works the same way at every division. What differs is the rule framework around the roster:
 
-**D1 programs** now have roster caps under the House Settlement (48 for men's, 38 for women's). These caps mean less flexibility to carry extra depth, and class-year gaps at D1 programs are more likely to translate directly into recruiting activity because every roster spot matters more than it did pre-settlement.
+**D1 programs** at schools covered by the House settlement work under roster limits of 48 for men's lacrosse and 38 for women's (2026-27 NCAA Division I Manual, Bylaw 17.2). A gap on a roster that is at or near its limit has to be filled within that limit.
 
-**D2 programs** generally have more roster flexibility. Class-year gaps still indicate need, but programs may be more likely to address gaps through a combination of recruiting and walk-ons.
+**D2, D3, NAIA, and NJCAA programs** (NJCAA lacrosse is men's only) are not under those Division I roster limits. Class-year gaps read the same way, but what a gap means for a particular program is a question for its coach.
 
-**D3 programs** often carry larger rosters and have more flexible roster management. Class-year gaps are still meaningful signals, but the larger roster context means a gap is less likely to represent an existential need and more likely to represent a preference. Top D3 lacrosse programs (NESCAC, Centennial Conference, and other competitive D3 conferences) compete at very high levels, and their roster management can be sophisticated.
-
-**NAIA and NJCAA programs** (NJCAA lacrosse is men's only) vary widely in roster size and management approach. Class-year gap analysis applies the same way conceptually, but the practical implications depend on the specific program.
+> **Correction, October 9, 2026.** An earlier version of this section said class-year gaps at D1 programs are "more likely to translate directly into recruiting activity," that D2 programs "generally have more roster flexibility," that D3 programs "often carry larger rosters" and that "top D3 lacrosse programs … compete at very high levels," and that NAIA and NJCAA programs "vary widely in roster size." None of it had a source, and ranking programs is outside what we publish. We replaced it with the roster-limit rule and the question to ask.
 
 ## Complications that affect class-year analysis
 
@@ -114,57 +114,51 @@ Honest assessment of the limitations matters:
 
 **Redshirt labels and remaining eligibility.** A player listed as a "sophomore" might be a redshirt sophomore (one who sat out a season under the NCAA's previous rules) or a true sophomore. Roster data doesn't always distinguish between the two, which means class-year counts can be slightly off — and a class-year label is not a count of seasons left. Under the NCAA's age-based eligibility model — adopted by Division I in June 2026 and by Division II (announced August 5, 2026) — athletics redshirt rules and the cap on seasons of competition are gone. Each athlete instead has a five-year window that starts at the earlier of full-time college enrollment or the academic year after their 19th birthday, and it does not pause for a season sat out. Athletes first enrolling in fall 2027 or later are under the new model only; current athletes and 2026-27 enrollees are evaluated under whichever rules are more beneficial to them. Division III and the NAIA have not adopted the model. As of October 8, 2026 the model is in force: a lower-court injunction covering one group of athletes was stayed by the Tenth Circuit on August 21, and the appeal is set for oral argument on October 13, 2026. Our [age-based eligibility guide](/guide/age-based-eligibility/) explains the details.
 
-**Graduate students and fifth-year players.** They're listed on the roster, but how many seasons each has left depends on which eligibility rules apply to them, so don't assume they leave after one year — ask the coach. Some programs have multiple graduate students who inflate the senior count without representing recruiting-class investments. The House Settlement's grandfather provisions for current rostered players also create some short-term roster anomalies.
+**Graduate students and fifth-year players.** They're listed on the roster, but how many seasons each has left depends on which eligibility rules apply to them, so don't assume they leave after one year — ask the coach. A program with several graduate students can show a senior-heavy count that doesn't reflect one recruiting class. And Designated Student-Athletes — players protected under the House settlement — let a Division I program carry more than its roster limit, by the number of them on its roster (NCAA House settlement implementation Q&A, updated February 11, 2026).
 
 > **Correction, October 8, 2026.** An earlier version of this section said a redshirt sophomore has "three years of eligibility remaining," that graduate students and fifth-year seniors "will be gone after one year," and that extra-year players were common after COVID-era eligibility extensions. The first two described the NCAA's previous eligibility rules, which Division I replaced in June 2026 (Division II followed, announced August 5, 2026); the third was a claim we had no source for. We rewrote the section to reflect the age-based model.
 
-**Transfer portal activity.** A class-year gap that exists on the current roster might already be addressed by an incoming transfer who hasn't appeared on the roster yet. The post-House-settlement environment has accelerated transfer activity in lacrosse — programs are using the portal to fill specific needs more aggressively than before. See our [Transfer Portal guide](/guide/transfer-portal/).
+**Transfer portal activity.** A class-year gap that exists on the current roster might already be addressed by an incoming transfer who hasn't appeared on the roster yet. See our [Transfer Portal guide](/guide/transfer-portal/).
+
+> **Correction, October 9, 2026.** An earlier version of this paragraph said the House settlement "has accelerated transfer activity in lacrosse" and that programs are using the portal "more aggressively than before." We have no source for that trend, so we removed it.
 
 **Incoming recruiting class.** Similarly, high school recruits who have committed but haven't enrolled yet don't appear on the current roster. A program with a class-year gap at goalie might have a committed freshman goalie arriving in the fall.
 
 **Positional flexibility.** A player listed as a midfielder might also play LSM. A defender might also take face-offs. Class-year analysis based on listed positions is approximate. It captures the general picture but not the full coaching picture.
 
-**These complications don't invalidate the analysis — they add nuance.** Class-year gaps remain one of the strongest public signals of recruiting need. They just aren't the only factor, and they should be combined with other research.
+**These complications don't invalidate the analysis — they add nuance.** A class-year gap is a starting point for questions, not the only factor, and it works best alongside your own research and conversations with coaches.
 
 ## Position-specific patterns worth noting
 
-Some positions show class-year gap patterns that are particularly informative in lacrosse:
+How much a gap matters depends on the size of the position group, and group sizes vary by program — so count each roster rather than assuming a number.
 
-**Goalies.** Programs typically carry two to three goalies. A class-year gap at goalie is immediately significant because the position group is so small. If a program's two goalies are both seniors, the goalie need is obvious and urgent. This dynamic is similar across men's and women's lacrosse.
+**Small groups.** When a position group has only a few players, one graduation changes the group a lot. If a program lists two goalies and both are seniors, the gap is plain to see.
 
-**Close defenders (men's lacrosse).** Programs typically need three to five close defenders depending on system. Because close defenders take time to develop (size, positioning, stick checks, and game-reading all take development), class-year gaps at close defense often drive aggressive recruiting.
+**Large groups.** When a position group is large, one graduation changes it less, and a gap has to be wider before it stands out.
 
-**Face-off specialists/FOGOs (men's lacrosse).** Programs typically carry two or three FOGOs. Because the position is so specialized and so hard to develop in college, class-year gaps at FOGO almost always drive recruiting activity. A senior-heavy FOGO group is a near-certain signal of recruiting need.
+**Listed positions are approximate.** A midfielder on the roster might play attack or LSM in the coach's system, so a gap at one listed position may be covered from another. Ask the coach how they count the position.
 
-**LSMs (men's lacrosse).** Programs typically carry two to four LSMs. Class-year gaps at LSM signal a recruiting need at a hard-to-fill specialized position.
-
-**Attackers (men's and women's).** Attack groups tend to be smaller than midfield groups. Class-year gaps at attack are noticeable and often addressed through recruiting rather than position conversion (though midfield-to-attack moves do happen).
-
-**Midfield.** Midfield is typically the deepest position group on any lacrosse roster — particularly in women's lacrosse, where teams typically use five midfielders on the field. Class-year gaps in midfield are less common because programs accumulate midfielders, but when they exist, they represent a real need.
-
-**Defense (women's lacrosse).** Women's programs typically carry three to five defenders. Class-year gaps at defense in women's lacrosse signal recruiting need similar to close defense in men's lacrosse.
+> **Correction, October 9, 2026.** An earlier version of this section said how many goalies, close defenders, FOGOs, LSMs, and women's defenders programs "typically" carry, that women's teams "typically use five midfielders on the field," and that gaps at FOGO "almost always drive recruiting activity." We had no source for those counts or patterns, so we removed them and describe how to read the roster instead.
 
 ## A practical example
 
 Imagine your athlete is a close defender entering their senior year of high school, planning to play men's D1 college lacrosse the following fall. You're evaluating three D1 programs:
 
-**Program A:** Five close defenders — two seniors, one junior, one sophomore, one freshman. After the seniors graduate, three close defenders return. Moderate need — the program will likely recruit one close defender.
+**Program A:** Five close defenders — two seniors, one junior, one sophomore, one freshman. After the seniors graduate, three close defenders return. A moderate structural gap.
 
-**Program B:** Four close defenders — three seniors, one freshman. After the seniors graduate, one close defender returns. Strong need — the program will almost certainly recruit multiple close defenders, especially given the 48-player D1 roster cap and the importance of position depth.
+**Program B:** Four close defenders — three seniors, one freshman. After the seniors graduate, one close defender returns. The largest structural gap of the three.
 
 **Program C:** Four close defenders — one senior, one junior, two sophomores. After the senior graduates, three close defenders return, two of them young. Minimal structural need at close defense.
 
-All three programs might be willing to recruit a close defender. But the data suggests Program B is the strongest opportunity based on class-year gaps alone. Your athlete's outreach to Program B should be a higher priority than outreach to Program C, all else being equal.
+All three programs might be willing to recruit a close defender. On class-year counts alone, Program B shows the largest gap at close defense, which makes it a natural first question: ask its coach how they plan to fill it.
 
-**All else is rarely equal, of course.** Academic fit, geographic preference, coaching tenure, financial picture, and many other factors matter alongside class-year gaps. The point isn't that class-year gaps override everything — it's that they should be part of the analysis, and for most families, they currently aren't.
+**All else is rarely equal, of course.** Academic fit, geographic preference, coaching tenure, financial picture, and many other factors matter alongside class-year gaps. The point isn't that class-year gaps override everything — it's that they belong in the analysis.
 
 ## Why we built class-year gap analysis into RosterWise
 
-Class-year gap analysis is the kind of intelligence that coaching staffs use when evaluating their own rosters and planning their recruiting classes. They know exactly where their gaps are and when they need to fill them.
+A coaching staff knows its own roster plans. Families see only the public roster — and even that has been hard to use, not because the data is hidden, but because it's scattered across hundreds of websites in inconsistent formats and requires systematic effort to compile.
 
-Families haven't had access to this intelligence — not because the data is hidden, but because it's scattered across hundreds of websites in inconsistent formats and requires systematic effort to compile.
-
-RosterWise automates this analysis for every D1, D2, D3, and NAIA lacrosse program (men's and women's), plus NJCAA men's. For each program, you can see the class-year distribution at each position group — including specialized positions like FOGO, LSM, and SSDM in men's lacrosse — identify where gaps exist, and understand what that means for your athlete's timing. It's one of the most powerful features in the app, and it's based on a concept that's deceptively simple: count the players, note their years, and look for the gaps.
+RosterWise automates this analysis for every D1, D2, D3, and NAIA lacrosse program (men's and women's), plus NJCAA men's. For each program, you can see the class-year distribution at each position group — including specialized positions like FOGO, LSM, and SSDM in men's lacrosse — identify where gaps exist, and understand what that means for your athlete's timing. It's based on a concept that's deceptively simple: count the players, note their years, and look for the gaps.
 
 > **Correction, October 9, 2026.** An earlier version of this paragraph and the call-to-action said RosterWise covers NJCAA lacrosse programs for both men and women. The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only. RosterWise Lacrosse covers NJCAA men's programs.
 

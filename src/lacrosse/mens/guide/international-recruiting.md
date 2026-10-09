@@ -1,7 +1,7 @@
 ---
 layout: content.njk
 title: "International Recruiting in Men's College Lacrosse: A Family Guide | RosterWise™"
-description: "Men's college lacrosse has significant international representation, particularly from Canada. Here's what international families need to know about NCAA recruiting, F-1 visas, and the Canadian box lacrosse pathway."
+description: "What Canadian and other international families need to know about NCAA men's lacrosse recruiting — the contact rules, F-1 visas, amateurism, and the Canadian box lacrosse pathway."
 date: 2026-08-26
 breadcrumbs:
   - text: Home
@@ -13,7 +13,7 @@ breadcrumbs:
   - text: Guides
     url: /lacrosse/mens/guide/
   - text: International Recruiting
-summary: "Men's college lacrosse has one of the most distinctive international recruiting landscapes in NCAA sports. Canadian players — many of whom develop through box lacrosse before transitioning to the NCAA field game — have transformed the sport at every division level. The Haudenosaunee Nationals continue the indigenous tradition that gave lacrosse to North America. And smaller but growing international pipelines from England, Australia, Israel, and other nations are gradually expanding the global character of the NCAA men's game. At the same time, the F-1 visa framework creates significant complications around the post-House settlement NIL and revenue-sharing landscape. This guide walks through what international families researching NCAA men's lacrosse need to understand."
+summary: "International recruits, including Canadians, are recruited under the same NCAA rules as U.S. recruits, with extra steps for eligibility, amateurism and visas. Canadian players may come through box lacrosse as well as field lacrosse. The Haudenosaunee Nationals, sanctioned by the Haudenosaunee Grand Council, compete internationally in their own right. And for athletes on F-1 student visas, NIL and revenue-sharing income is an open legal question. This guide walks through what international families researching NCAA men's lacrosse need to understand."
 related:
   - title: "The September 1 Junior Year Rule: Why Lacrosse Recruiting Is Different"
     url: /lacrosse/guide/september-1-junior-year-rule/
@@ -33,11 +33,11 @@ related:
     url: /guide/ncaa-eligibility-center/
 faq:
   - q: "Does my son need to play box lacrosse to be recruited from Canada?"
-    a: "Not strictly, but the documented pattern is that most Canadian recruits at top NCAA programs have meaningful box lacrosse experience. Box lacrosse develops skills (stickwork in tight spaces, creative offense, decision-making under pressure) that NCAA coaches actively value. That said, Canadian field lacrosse is growing, and recruits with strong field lacrosse development can also be competitive."
+    a: "No NCAA rule requires it. We don't have data on how many Canadian recruits played box lacrosse, so we won't tell you what's typical. Ask each coach how they evaluate box lacrosse experience, and what field lacrosse footage they want to see."
   - q: "Will being international hurt my son's recruiting chances?"
-    a: "For Canadian recruits, generally no — NCAA programs actively recruit Canadian talent, and many top programs have specific recruiting infrastructure for Canadian players. For recruits from other countries, the answer depends on the country and the recruit's specific competitive experience. International tournaments and showcases provide evaluation opportunities, but the path may require more proactive planning than for U.S.-based recruits."
+    a: "The NCAA recruiting rules are the same for international and U.S. recruits, including the Wednesday-after-Labor-Day contact date. International recruits have additional steps — Eligibility Center registration with foreign transcripts, amateurism certification, and U.S. student immigration status — so start them early. Ask each coach whether they have recruited players from your son's country before and how they evaluate him."
   - q: "What about NIL income for international recruits?"
-    a: "Generally, F-1 visa restrictions make NIL income largely unavailable for international student-athletes. The legal landscape continues to evolve, but families should plan as if NIL income will not be a meaningful component of the college experience."
+    a: "The NCAA's International Student-Athlete Handbook says international student-athletes on F-1 visas are prohibited from NIL deals while on U.S. land. No U.S. government source has addressed NIL for F-1 students, and there is no published position on revenue-share payments. Treat both as an open legal question and get advice from the school's compliance office and an immigration lawyer before signing anything."
   - q: "How do Canadian Junior A box lacrosse and NCAA amateurism rules interact?"
     a: "This depends on specific circumstances. Some Canadian Junior A box lacrosse contexts can have NCAA amateurism implications. Recruits should work with the NCAA Eligibility Center directly to evaluate their specific situation before accepting any compensation related to lacrosse."
   - q: "Do indigenous lacrosse players have unique NCAA recruiting considerations?"
@@ -71,26 +71,17 @@ cta:
 
 ${toc}
 
-## The Canadian pipeline: the dominant international story
-
-The single most important fact about international recruiting in NCAA men's lacrosse is the size and depth of the Canadian presence.
+## The Canadian pipeline
 
 **What the NCAA actually publishes.** The NCAA's *Trends in the Participation of International Student-Athletes* research reports that first-year international student-athletes in Division I men's lacrosse rose from **41 in 2017 to 45 in 2022** — roughly **7% of first-year players**. Canada is the largest single source country of international student-athletes across the NCAA as a whole (687 first-year Division I international athletes in 2022, 21.9% of the total).
 
 **What nobody publishes.** There is no official count of Canadians on NCAA lacrosse rosters, and no provincial breakdown. The NCAA's demographics database has no nationality dimension at all; its international-athlete research covers first-year non-transfers only, stops at country of origin, and does not publish country-by-sport figures for lacrosse. Lacrosse Canada publishes no such count either.
 
-Figures that circulate — a total of roughly 180 Canadians in Division I with a province-by-province split — come from an independent manual tally by a lacrosse writer who visited every college team's roster page himself, and who says plainly in the same piece that "nobody was tracking the information." That is honest work and it is probably in the right range, but it is one person's spreadsheet rather than a governing-body figure, and the article gives two different totals in two different paragraphs. We are not going to print it as a fact.
+Figures that circulate — a Division I total of Canadian players with a province-by-province split — come from an independent manual tally by a lacrosse writer who visited every college team's roster page himself, and who says plainly in the same piece that "nobody was tracking the information." It is one person's spreadsheet rather than a governing-body figure, and the article gives two different totals in two different paragraphs. We are not going to print it as a fact.
 
-**Why Canadian players are so prominent**:
+**Box lacrosse.** Lacrosse Canada governs box lacrosse, the indoor game, alongside field lacrosse. A Canadian recruit may have played box lacrosse as well as field lacrosse, or mostly box. How a program weighs box experience is a question for each coach; the program's roster lists hometowns, which shows you where its current players come from.
 
-Per the National Lacrosse League's official coverage of Canadian players in NCAA programs:
-
-- Canadian players grow up playing box lacrosse — a faster-paced, more physical, more creative indoor game played in tight spaces
-- Box lacrosse develops specific skills (creative offensive play, tight-space stickwork, two-handed scoring) that translate well to the field game
-- The Ohio State University, under head coach Nick Myers (whose recruiting efforts since 2005 are documented by the NLL), has been a notable program in actively recruiting Canadian talent from Ontario and British Columbia
-- Other top NCAA D1 programs (Duke, Maryland, Johns Hopkins, Syracuse, Virginia, and others) also actively recruit Canadian players
-
-Per analysis cited by USA Lacrosse magazine, current NCAA stars including CJ Kirst (Cornell — 2025 D1 Men's Lacrosse MOP) and Joey Spallina (Syracuse) have played in the Ontario Junior Lacrosse League. The interconnection between the Canadian box system and elite NCAA men's lacrosse is established and well-documented.
+> **Correction, October 9, 2026.** An earlier version of this section called the Canadian presence "the single most important fact about international recruiting" in men's lacrosse and described why Canadian players are "so prominent": box lacrosse as "more creative," its skills translating "well to the field game," named programs as "notable" or "top" recruiters of Canadian players, and named current college players as having played in the Ontario Junior Lacrosse League, concluding that the link between the Canadian box system and "elite NCAA men's lacrosse is established and well-documented." It also said a circulating count of Canadians in Division I was "probably in the right range." None of that has a source we have logged, and characterizing programs is outside what we publish, so we removed it. The NCAA figures above are unchanged.
 
 ## The Canadian box-to-field pathway
 
@@ -101,16 +92,15 @@ Understanding the Canadian path into NCAA men's lacrosse requires understanding 
 - **Lacrosse Canada (lacrosse.ca)** is the national governing body
 - Provincial associations (Ontario Lacrosse Association, BC Lacrosse Association, Alberta Lacrosse Association, etc.) administer competitive lacrosse at the provincial level
 - The **Ontario Junior Lacrosse League (OJLL)** is sanctioned by the Ontario Lacrosse Association (OLA) and Lacrosse Canada. Per the OJLL's own published description, the Ontario champion is awarded the Iroquois Trophy and advances to compete against teams from Alberta and British Columbia for the Minto Cup — the National Junior A Box Lacrosse Championship of Canada
-- The British Columbia Lacrosse Association (BCLA) administers competitive lacrosse in BC, with programs like Junior A box lacrosse feeding both NCAA and NLL pipelines
+- The British Columbia Lacrosse Association (BCLA) administers competitive lacrosse in BC
 
 **The field lacrosse layer**:
 
 - The **Canadian University Field Lacrosse Association (CUFLA)** operates university-level field lacrosse in Canada (though Canadian universities do not offer athletic scholarships in the NCAA sense)
 - The **Maritime University Field Lacrosse League (MUFLL)** serves the Atlantic provinces
-- Provincial Team BC and Team Ontario programs feed both Canadian national team development and NCAA recruiting pathways
-- Field lacrosse continues to develop in Canada, with growing club and high school programs
+- Provincial programs such as Team BC and Team Ontario also exist; ask them directly what their programs involve
 
-**The practical reality**: A Canadian men's lacrosse player heading toward NCAA recruiting typically develops through provincial box lacrosse systems (often playing at high levels including Junior A), with parallel field lacrosse participation that increases through high school. Many Canadian players have already played at the National Lacrosse League youth/junior level by the time they begin serious NCAA recruiting.
+> **Correction, October 9, 2026.** An earlier version of this section said BC Junior A box lacrosse and provincial teams "feed" NCAA pipelines, that field lacrosse in Canada has "growing club and high school programs," that a Canadian player heading to the NCAA "typically" develops through provincial box systems, and that "many" have played at a "National Lacrosse League youth/junior level" before NCAA recruiting. None of it had a source, so we removed it.
 
 ## Recruiting Canadian players: how it actually works
 
@@ -118,18 +108,15 @@ For Canadian families researching NCAA men's lacrosse, several practical realiti
 
 **The junior-year contact rule applies the same way**: Per the 2026-27 NCAA Division I Men's Lacrosse Recruiting Calendar (published directly by the NCAA at `ncaaorg.s3.amazonaws.com`), the initial contact date — 7 a.m. on the Wednesday immediately following Labor Day of junior year, under legislation effective August 1, 2026 — applies to Canadian recruits the same way it applies to American recruits. See [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/).
 
-**Age and birthdate considerations**: the U.S. recruiting class system is birthdate-driven rather than year-of-birth-driven. A Canadian player born after August 31 may need to consider whether to play in their U.S. recruiting class age bracket rather than their Canadian birth-year bracket to align with how NCAA programs evaluate.
+**Which recruiting class he is in**: the NCAA contact rules are written around the athlete's year in high school — "the beginning of the individual's junior year in high school" (Bylaw 13.1.1.1.8). If your son's school year or age group in Canada does not line up neatly with a U.S. high school year, ask the NCAA Eligibility Center and each coach which class they will treat him as.
 
-**Coach evaluation channels**: NCAA coaches actively scout Canadian talent through:
-- The Ontario Junior Lacrosse League (the documented top source of NLL talent and a key recruiting venue)
-- Provincial Team BC and Team Ontario events and camps
-- Major Canadian tournaments and showcase events
-- The Minto Cup and other Junior A championship events
-- U.S. tournaments where Canadian club teams compete
+**Where coaches see Canadian players**: ask the coaches at your target programs which Canadian and U.S. events they attend. Canadian competition includes the Ontario Junior Lacrosse League and the Minto Cup, the National Junior A Box Lacrosse Championship of Canada, alongside provincial team events and U.S. tournaments where Canadian club teams compete.
 
 **Academic and eligibility considerations**: Canadian recruits must register with the NCAA Eligibility Center (eligibilitycenter.org) and meet the same academic and amateurism standards as American recruits. Canadian high school transcripts must be evaluated through the Eligibility Center process.
 
-**Box-to-field transition**: NCAA programs that actively recruit Canadian players are typically prepared to help players transition from box lacrosse to NCAA-style field lacrosse. Some recruits play exclusively box lacrosse through high school and develop field lacrosse skills primarily during their college careers; others have meaningful field experience before arrival.
+**Box-to-field transition**: ask each coach how their program works with a player whose experience is mostly box lacrosse, and what field footage they want to see from him.
+
+> **Correction, October 9, 2026.** An earlier version of this section called the Ontario Junior Lacrosse League "the documented top source of NLL talent" — a superlative we had already removed from this page in August 2026 because it was evaluative — and said programs that recruit Canadians are "typically prepared" to help with the box-to-field transition. It also said the U.S. recruiting class system is "birthdate-driven." None of it had a source; we replaced it with what the rule says and questions for coaches.
 
 ## The Haudenosaunee Nationals and indigenous lacrosse
 
@@ -143,31 +130,27 @@ Per the Haudenosaunee Nationals' own published materials at [haudenosauneenation
 
 **International competitive standing**: Per World Lacrosse's own reporting, the Haudenosaunee finished third at the 2018 FIL Men's World Championship in Netanya, Israel — behind the United States and Canada — beating Australia 14-12 for the bronze medal (World Lacrosse, July 20, 2018). They took bronze again at the 2023 World Lacrosse Men's Championship in San Diego, defeating Australia 11-6 at Snapdragon Stadium; World Lacrosse reported that the Haudenosaunee "have now claimed bronze in the last three men's championships, each time defeating Australia" (World Lacrosse, July 1, 2023).
 
-**Recruiting implications**: Indigenous lacrosse players from Haudenosaunee communities (which include the Mohawk, Oneida, Onondaga, Cayuga, Seneca, and Tuscarora nations across New York State, Ontario, and Quebec) are recruited by NCAA programs through standard recruiting channels. The Thompson brothers (Lyle, Miles, and Jeremy) — extensively documented in mainstream lacrosse media — are among the most prominent examples of indigenous players who have had major impact on NCAA lacrosse and continue to shape the sport. Players from indigenous communities in the Northeast and Ontario often compete in both U.S. and Canadian club systems.
+**Recruiting implications**: Indigenous lacrosse players from Haudenosaunee communities (which include the Mohawk, Oneida, Onondaga, Cayuga, Seneca, and Tuscarora nations across New York State, Ontario, and Quebec) are recruited by NCAA programs through standard recruiting channels.
+
+> **Correction, October 9, 2026.** An earlier version of this paragraph named three brothers as "among the most prominent examples of indigenous players who have had major impact on NCAA lacrosse" and said players from indigenous communities "often compete in both U.S. and Canadian club systems." Neither statement had a logged source, and ranking individual players is outside what we publish, so we removed them.
 
 ## England, Israel, Australia, and beyond
 
-While Canada dominates international representation in NCAA men's lacrosse, smaller but growing pipelines exist from other countries:
+Beyond Canada, the NCAA's published research does not break out lacrosse players by country, and we don't publish figures on how many players from any other country are on men's college lacrosse rosters. Each program's roster lists hometowns, which shows you where its players come from.
 
-**England**: Per England Lacrosse ([englandlacrosse.co.uk](https://www.englandlacrosse.co.uk)), the sport's governing body in England, the country has a long lacrosse tradition. English players occasionally compete at NCAA programs, typically with prior field lacrosse experience through English club and school programs. English Lacrosse has been one of the oldest international lacrosse federations.
+**The international game**: World Lacrosse currently has **97 member nations across four continental federations** — Asia-Pacific, Europe, Pan-America and Africa — and describes the sport as played in all five of its continental regions. Its membership stood at 45 at the end of 2008. National governing bodies, such as England Lacrosse ([englandlacrosse.co.uk](https://www.englandlacrosse.co.uk)) in England, run the sport in their own countries and are the place to ask about development programs there.
 
-**Israel**: Per the Israel Lacrosse Association (founded 2010), Israel has built a notable lacrosse program with multiple international competitions. Israel finished seventh at the 2014, 2018, and 2023 World Lacrosse Championships. Israeli players have entered NCAA programs in growing numbers, particularly through programs at Wingate Institute and other Israeli development pathways.
-
-**Australia**: Australia is one of the long-established nations in international men's lacrosse. Australian players are sometimes recruited by NCAA programs, often through similar field-lacrosse-developed pathways.
-
-**Japan, the Czech Republic, Germany, and emerging nations**: World Lacrosse currently has **97 member nations across four continental federations** — Asia-Pacific, Europe, Pan-America and Africa — and describes the sport as played in all five of its continental regions. Its membership stood at 45 at the end of 2008, so it has more than doubled in under two decades. Per the 2018 World Lacrosse Championship coverage, 46 nations competed (the largest number ever) — the first championship held outside the four traditional hosts (United States, Canada, England, Australia). Players from these emerging-lacrosse nations occasionally reach NCAA programs, though typically in small absolute numbers.
-
-**The implication**: Beyond Canada, international men's lacrosse recruits to NCAA programs come from a globally diverse but smaller-scale set of pathways. Programs that actively recruit beyond Canada often have specific staff relationships, recruiting infrastructure, or program emphasis on international development.
+> **Correction, October 9, 2026.** An earlier version of this section said Canada "dominates" international representation, that "smaller but growing pipelines" exist from England, Israel and Australia, that Israeli players have entered NCAA programs "in growing numbers," that Israel finished seventh at three World Championships, that 46 nations competed in 2018 ("the largest number ever"), and that programs recruiting beyond Canada "often" have specific infrastructure. We could not source those statements, so we removed them. The World Lacrosse membership figures are unchanged.
 
 ## The F-1 visa reality: a critical context
 
-International student-athletes overwhelmingly attend U.S. colleges on **F-1 student visas**, and the F-1 rules on employment are strict: federal regulation bars any unauthorized employment outright, and the list of employment an F-1 student *may* do — on-campus work, curricular practical training, optional practical training, severe-economic-hardship authorisation — is closed and narrow.
+International student-athletes who attend U.S. colleges on **F-1 student visas** are subject to strict employment rules: federal regulation bars any unauthorized employment outright, and the list of employment an F-1 student *may* do — on-campus work, curricular practical training, optional practical training, severe-economic-hardship authorisation — is closed and narrow.
 
 **What that means for NIL is genuinely unresolved, and we are going to be precise about who says what.**
 
 - **The NCAA's own position is a flat prohibition.** Its *International Student-Athlete Handbook* states that "international student-athletes with an F-1 visa are prohibited from engaging in NIL deals while on U.S. land," and advises consulting a compliance officer, a designated school official and an immigration lawyer before any NIL activity abroad or any change of visa status.
 - **No U.S. government source has ever addressed NIL.** The F-1 regulations do not contain the words "name, image," "likeness," or "athlete" anywhere. The immigration agency responsible said in July 2021 that it was still assessing "whether regulatory guidance is required" — and has issued nothing in the years since. So the NCAA's prohibition is the NCAA's reading of federal policy, not a quotation of it.
-- **Revenue sharing is a further step into the unknown.** The NCAA's House implementation guidance, running to well over a hundred pages, does not mention visas, immigration or F-1 status once. There is no published position from the NCAA or from any federal agency on whether an international athlete on an F-1 visa may receive House revenue-share payments.
+- **Revenue sharing is a further step into the unknown.** The NCAA's House implementation guidance does not mention visas, immigration or F-1 status once. There is no published position from the NCAA or from any federal agency on whether an international athlete on an F-1 visa may receive House revenue-share payments.
 - **The litigation is not the breakthrough it is sometimes described as.** One federal case is testing whether an NCAA athlete can switch from an F-1 to a P-1A athlete visa in order to do NIL deals. In September 2025 the court denied the government's motion to dismiss, meaning the case proceeds — it decided nothing about whether college athletes qualify, and as of this writing it remains pending.
 
 **The practical takeaway for a family:** if your athlete is coming on an F-1 visa, treat NIL and revenue-share income as an open legal question rather than a settled entitlement, and get advice from the school's compliance office and an immigration lawyer before signing anything. Do not rely on a recruiting site — including this one — for an answer that no agency has given.
@@ -178,14 +161,14 @@ Athletic scholarship eligibility for international men's lacrosse recruits opera
 
 - International athletes must register with the NCAA Eligibility Center (eligibilitycenter.org) and meet the same academic and amateurism standards as American athletes
 - The post-House settlement expansion of D1 men's lacrosse scholarship potential from 12.6 to up to 48 applies equally to international recruits
-- Programs that have invested heavily in international recruiting (particularly Canadian recruits) typically have the infrastructure and resources to support international scholarship recruits
-- The same warnings apply as in our [Men's Lacrosse Scholarships After the House Settlement](/lacrosse/mens/guide/scholarships-after-house-settlement/) article: the 48 figure is a maximum, not a requirement, and program-by-program scholarship funding varies dramatically
+- Ask each program what support it gives international recruits through the eligibility, admissions and visa steps
+- The same warnings apply as in our [Men's Lacrosse Scholarships After the House Settlement](/lacrosse/mens/guide/scholarships-after-house-settlement/) article: the 48 figure is a maximum, not a requirement, and program-by-program scholarship funding varies
 
 **Amateurism complications**: International recruits with experience in semi-professional or professional leagues (including some Canadian Junior A box lacrosse contexts) should carefully verify amateurism status with the NCAA Eligibility Center before accepting any compensation. The NCAA Eligibility Center's *Guide for the College-Bound Student-Athlete 2025-26* lists "playing with professionals," "signing a contract with a professional team," "participating in tryouts or practices with a professional team," and "receiving payment or preferential treatment/benefits for playing sports" among the circumstances reviewed during amateurism certification. Each athlete's specific situation should be evaluated through the NCAA Eligibility Center process.
 
 ## The 2028 Los Angeles Olympics
 
-The 2028 Olympic inclusion of lacrosse is a major structural factor reshaping international men's lacrosse.
+Lacrosse is on the program for the 2028 Los Angeles Olympics.
 
 Per World Lacrosse:
 
@@ -196,21 +179,23 @@ Per World Lacrosse:
 - The qualification pathway runs through continental championships (September-December 2026), the 2027 World Lacrosse Sixes Championships, and a final qualifying tournament in early 2028
 - Approximately 100 teams are expected to enter the qualification pathway globally
 
-**The implication for NCAA recruiting**: The Olympic stage is dramatically increasing global investment in lacrosse. International men's lacrosse recruits from emerging-lacrosse nations may have more development infrastructure and visibility than in previous generations. The Haudenosaunee Nationals' potential Olympic participation — a topic of ongoing discussion in the lacrosse community — would represent the first time an Indigenous nation secures an Olympic berth, with significant implications for indigenous lacrosse development globally.
+**For NCAA recruiting**: we won't predict how the Olympics will affect international recruiting.
+
+> **Correction, October 9, 2026.** An earlier version of this section said the Olympics are "dramatically increasing global investment in lacrosse" and discussed the Haudenosaunee Nationals' "potential Olympic participation" and its "significant implications." Those were unsourced predictions, so we removed them.
 
 ## Common questions about international men's lacrosse recruiting
 
 **"Does my son need to play box lacrosse to be recruited from Canada?"**
 
-Not strictly, but the documented pattern is that most Canadian recruits at top NCAA programs have meaningful box lacrosse experience. Box lacrosse develops skills (stickwork in tight spaces, creative offense, decision-making under pressure) that NCAA coaches actively value. That said, Canadian field lacrosse is growing, and recruits with strong field lacrosse development can also be competitive.
+No NCAA rule requires it. We don't have data on how many Canadian recruits played box lacrosse, so we won't tell you what's typical. Ask each coach how they evaluate box lacrosse experience, and what field lacrosse footage they want to see.
 
 **"Will being international hurt my son's recruiting chances?"**
 
-For Canadian recruits, generally no — NCAA programs actively recruit Canadian talent, and many top programs have specific recruiting infrastructure for Canadian players. For recruits from other countries, the answer depends on the country and the recruit's specific competitive experience. International tournaments and showcases provide evaluation opportunities, but the path may require more proactive planning than for U.S.-based recruits.
+The NCAA recruiting rules are the same for international and U.S. recruits, including the Wednesday-after-Labor-Day contact date. International recruits have additional steps — Eligibility Center registration with foreign transcripts, amateurism certification, and U.S. student immigration status — so start them early. Ask each coach whether they have recruited players from your son's country before and how they evaluate him.
 
 **"What about NIL income for international recruits?"**
 
-Generally, F-1 visa restrictions make NIL income largely unavailable for international student-athletes. The legal landscape continues to evolve, but families should plan as if NIL income will not be a meaningful component of the college experience. See [NIL and Revenue Sharing for Families](/guide/nil-and-revenue-sharing/).
+The NCAA's International Student-Athlete Handbook says international student-athletes on F-1 visas are prohibited from NIL deals while on U.S. land. No U.S. government source has addressed NIL for F-1 students, and there is no published position on revenue-share payments (see "The F-1 visa reality" above). Treat both as an open legal question and get advice from the school's compliance office and an immigration lawyer before signing anything. See [NIL and Revenue Sharing for Families](/guide/nil-and-revenue-sharing/).
 
 **"How do Canadian Junior A box lacrosse and NCAA amateurism rules interact?"**
 
@@ -220,9 +205,11 @@ This depends on specific circumstances. Some Canadian Junior A box lacrosse cont
 
 Indigenous players from Haudenosaunee communities and other indigenous nations are recruited through standard NCAA processes. The Haudenosaunee Nationals are an international team, not a U.S. or Canadian national team — meaning indigenous players have access to multiple national team pathways including the Haudenosaunee Nationals, the U.S. or Canadian national teams (depending on citizenship), and standard NCAA recruiting.
 
+> **Correction, October 9, 2026.** Earlier versions of these answers said "the documented pattern is that most Canadian recruits at top NCAA programs have meaningful box lacrosse experience," that "many top programs have specific recruiting infrastructure for Canadian players," and that "F-1 visa restrictions make NIL income largely unavailable," advising families to "plan as if NIL income will not be a meaningful component." The first two had no source. The third went further than the sources do: the prohibition is the NCAA's own position, and no federal source has addressed NIL. We rewrote all three to match what is sourced on this page.
+
 ## Every international recruit's journey is different
 
-The international landscape in men's college lacrosse varies enormously by country, by competitive level, and by individual circumstance. A Canadian box lacrosse player from Ontario may follow a recruiting pathway that's well-established and competitive with American recruits. A men's lacrosse recruit from Israel, Australia, or Japan may have a fundamentally different experience requiring more proactive planning. A recruit from a Haudenosaunee community has access to the unique pathway of the Haudenosaunee Nationals alongside NCAA opportunities. The structural realities — the F-1 visa landscape, the post-House settlement scholarship framework, the junior-year contact rule, the 2028 Olympics-driven global growth — all apply. But how they interact for any specific recruit depends on individual circumstances. Use this guide as context; consult immigration attorneys for visa-specific questions; and treat each program conversation as its own evaluation.
+The international landscape in men's college lacrosse varies by country, by competitive level, and by individual circumstance. A Canadian box lacrosse player from Ontario and a recruit from a country where lacrosse is newer may have very different experiences. A recruit from a Haudenosaunee community may also play for the Haudenosaunee Nationals. The structural realities — the F-1 visa landscape, the post-House settlement scholarship framework, the junior-year contact rule — all apply. But how they interact for any specific recruit depends on individual circumstances. Use this guide as context; consult immigration attorneys for visa-specific questions; and treat each program conversation as its own evaluation.
 
 ---
 

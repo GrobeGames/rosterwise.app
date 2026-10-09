@@ -539,3 +539,54 @@ wrestling set does not mention. Worth its own pass.
     same error corrected on the soccer timelines on 2026-08-26 — athletics-involved
     unofficial visits in men's lacrosse are gated by Bylaw 13.7.1.3. Tracked with the
     universal guides in `guide-fact-log.md` open item 5.
+
+## P. 2026-10-09 — lacrosse-wide wording cleanup (all pages except the two timelines)
+
+Three parallel passes applied the item 32–33 treatment (standards §3, §4.1, §4.3) to 24 lacrosse pages.
+The **per-claim audit trail lives in three notes files committed alongside this log** — every cut (old wording
+quoted), rewrite (old → new), kept-and-sourced item (with its row here), heading rename, and open item:
+
+- `research_notes/lacrosse-cleanup-mens.md` — `mens/index`, `mens/guide/index`, and the six `mens/guide/*` pages.
+- `research_notes/lacrosse-cleanup-womens.md` — `womens/index` and the six `womens/guide/*` pages.
+- `research_notes/lacrosse-cleanup-methodology.md` — the five `methodology/*` pages, `guide/house-settlement-and-lacrosse`,
+  `guide/september-1-junior-year-rule`, `guide/junior-college`, `lacrosse/index` (blog post checked, unchanged).
+
+Coordinator review (2026-10-09): `npm run build` exit 0; §7.2 Tier 1 greps clean on all 24 pages; every added line
+scanned for hedge/quantity words (no new unsourced distributional claims found; one "which circulates widely" trimmed);
+internal links resolve (the one miss is a pre-existing `status: coming-soon` card); no `date:` bumped; 24 heading
+renames across the passes, none with an inbound deep link.
+
+| Claim | Primary source | Verified | Articles |
+| --- | --- | --- | --- |
+| **Under the House settlement, sport scholarship limits are eliminated at covered schools: an institution may provide "any amount of an athletics scholarship (up to cost of attendance) to any student-athlete who it includes on a team's submitted roster consistent with the new roster limits."** (Backs "as many as the roster limit" / "up to 48".) | NCAA DI Board of Directors, "Anticipated Actions Contingent Upon Court Final Approval of the House v. NCAA Settlement" (April 2025), Summary of Legislative Changes, **Proposal No. 2025-9** (Bylaws 15.01.7, 15.01.8, 15.02.3, 15.5, 17.2.2) — same document as row "Pre-settlement D1 men's lacrosse = 12.6" | 2026-10-09 (coordinator re-read) | lacrosse/mens/guide/scholarships-after-house-settlement, lacrosse/mens/guide/id-camps-and-tournaments, lacrosse/mens/index, lacrosse/guide/house-settlement-and-lacrosse (and every page stating aid up to the 48/38 limit) |
+| **Men's playing rules: two teams of 10 players (Rule 1-1); positions designated goalkeeper, defense, midfield, attack (Rule 2-1); long crosse 52–72 inches; no height/weight requirement; no prescribed 3-3-3-1 breakdown.** Closes the men's half of the §G pending playing-rules row. | NCAA, *2027 and 2028 Men's Lacrosse Rules and Interpretations* (Aug. 2026), `https://ncaaorg.s3.amazonaws.com/championships/sports/lacrosse/rules/men/PRMLA_RulesBook.pdf`, Rules 1-1, 1-2, 1-17, 2-1, 3-1, 4-3, 4-12, 4-23 | 2026-10-09 | lacrosse/mens/guide/coaches-look-for-by-position |
+| Faceoff, save and clearing percentages and caused turnovers are official NCAA men's lacrosse statistics. | NCAA Men's Lacrosse Statisticians' Manual (undated), `https://s3.amazonaws.com/fs.ncaa.org/Docs/stats/Stats_Manuals/MLacrosse.pdf` | 2026-10-09 | lacrosse/mens/guide/coaches-look-for-by-position, lacrosse/mens/guide/recruiting-video |
+| USA Lacrosse magazine (Justin Feil, Aug. 1, 2024) quotes — Tierney ("go big … separation even wider"), Clarke, Livesay (Middlebury **women's** head coach — a men's page had said "Middlebury head coach") — confirmed verbatim; kept as **attributed** Tier 2 quotes only. | "What the NCAA Antitrust Settlement Means for College Lacrosse," USA Lacrosse magazine, 2024-08-01 | 2026-10-09 | lacrosse/mens/guide/scholarships-after-house-settlement |
+| Computed gap for the fall-2026 junior class: June 15 (general Bylaw 13.1.3.1 call date) → **September 1, 2026** (women's lacrosse) = **78 days**; → September 9, 2026 (men's) = 86 days (item 33). | Arithmetic from row 112 + Bylaws 13.1.1.1.7/13.1.1.1.8 | 2026-10-09 | lacrosse/guide/september-1-junior-year-rule |
+| **NEGATIVE FINDING — dead source:** `ncaaorg.s3.amazonaws.com/research/demographics/2023RES_ISATrendsDivSprt.pdf` returns HTTP 404; its Canada 687 / 21.9% and 41 → 45 first-year international figures have no row and were not reused. | HTTP check | 2026-10-09 | lacrosse/mens/guide/international-recruiting still cites the URL (open) |
+
+**Resolved here:** item 30 (all its lacrosse pages: `september-1` NJCAA hedge, `womens/index` "meaningfully larger pool", the men's
+"often"/"many strong recruits" pages); §E [182] DSA date wording; §E [187] "60-70% of cap value" cut; §J [249] coach-tenure half.
+
+**Material errors corrected in passing (each with a dated on-page note):** the 4.7-per-team USA Lacrosse forecast stated as a completed
+reduction (`mens/guide/club-pathways`, `mens/guide/id-camps-and-tournaments` — blast-radius misses of the 2026-08-28 row); long poles
+"6-foot sticks" (rules: 52–72 in.); an unsourced 3-3-3-1 lineup; NIL FAQ contradicting the sourced F-1 section on both international
+pages; OJLL "top source of NLL talent" superlative re-introduced after its 2026-08-25 cut; Livesay misattribution; promotional
+"only event in the country" / "premier" / "elite clubs" operator claims.
+
+### Open items from this pass (for Scott — not resolved)
+
+34. **Product-claim flags (decision needed).** Row 247 says no RosterWise lacrosse position-depth or international *figures* are
+    published, yet hubs, CTAs and methodology pages promise them; the methodology pass checked the app config and bundled DB
+    read-only and found: SSDM and "Draw specialist" are not app positions; no province view; the RosterFit page's "Eight Factors"
+    do not match the engine (7 core components, 6 scored for lacrosse, no "Pathway Alignment"/"Division Level"); "more than a
+    thousand programs" vs 998 in the DB / "990+" in the app; a house-settlement CTA implies a scholarship-investment view the app
+    lacks. Full file:line lists are in the three notes files under "Product-claim flags."
+35. **Titles left unchanged** that assert claims removed from their bodies: "Most Overlooked Recruiting Signal" (class-year-gaps),
+    "Predicts Program Direction" (coach-tenure), "The Eight Factors" (rosterfit-score).
+36. **Same NIL "classified as employment" error outside lacrosse:** `src/guide/international-student-athletes.md:93`,
+    `src/guide/nil-and-revenue-sharing.md:121` (not edited).
+37. Hard claims left in place pending primaries (listed with file:line in the notes files): 117/82 D2 actual counts; Benedictine
+    "most recent final"; DSA portability; non-opt-in framework; NAIA "not directly subject"; NJCAA "24" cap; 3C2A aid rule; the
+    June 24, 2026 Cabinet GPA-reform claim (§D [170]); LA28 and operator figures (attributed); 8m/12m rule descriptions; four
+    `description:` fields now 179–190 characters.

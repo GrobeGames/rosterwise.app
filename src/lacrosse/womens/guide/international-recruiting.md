@@ -1,7 +1,7 @@
 ---
 layout: content.njk
 title: "International Recruiting in Women's College Lacrosse: An Honest Family Guide | RosterWise™"
-description: "Women's college lacrosse has a smaller international footprint than men's, but the landscape is growing — Canada, England, Australia, and beyond. Here's what international families need to know about NCAA recruiting, F-1 visas, and the 2028 LA Olympics impact."
+description: "What international families — from Canada, England, Australia and beyond — need to know about NCAA women's lacrosse recruiting rules, F-1 visas and NIL, scholarships, and the 2028 LA Olympics."
 date: 2026-08-26
 breadcrumbs:
   - text: Home
@@ -13,7 +13,7 @@ breadcrumbs:
   - text: Guides
     url: /lacrosse/womens/guide/
   - text: International Recruiting
-summary: "Women's college lacrosse in the United States has historically been a predominantly American sport at the collegiate level — but the international picture is changing. The global growth of women's lacrosse, the inclusion of lacrosse in the 2028 Los Angeles Olympics, and the rising competitiveness of national teams from Canada, England, and Australia are all gradually expanding international participation in NCAA women's lacrosse. At the same time, the F-1 visa framework that affects all international student-athletes creates real complications around the post-House settlement NIL and revenue-sharing landscape. This guide walks through what international families researching NCAA women's lacrosse need to understand — what the current landscape looks like, what's changing, and what to be honest about as the sport continues to globalize."
+summary: "This guide is for families of international recruits — from Canada, England, Australia or elsewhere — researching NCAA women's lacrosse. International recruits are recruited under the same NCAA rules as U.S. players. What differs is practical: how coaches see them play, the Eligibility Center steps, and the F-1 visa questions — including real uncertainty about NIL and revenue sharing after the House settlement. This guide walks through what international families researching NCAA women's lacrosse need to understand, including what is on the record about the 2028 Los Angeles Olympics, and what we can't tell you."
 related:
   - title: "The September 1 Junior Year Rule: Why Lacrosse Recruiting Is Different"
     url: /lacrosse/guide/september-1-junior-year-rule/
@@ -33,15 +33,15 @@ related:
     url: /guide/ncaa-eligibility-center/
 faq:
   - q: "Will being international hurt my daughter's recruiting chances?"
-    a: "Not necessarily. NCAA programs actively recruit international athletes, and competitive international recruits can compete for scholarships and roster spots on equal terms with American athletes. The main differences are practical: international recruits may need to navigate more logistics around evaluations (since coaches may evaluate primarily at international tournaments and World Lacrosse events rather than at U.S. high school games) and need to plan for F-1 visa application timelines after committing."
+    a: "Not because of any NCAA rule. The recruiting calendar and contact dates apply to international recruits the same way they apply to U.S. recruits. The differences are practical: international recruits may need to plan more around how coaches can see them play, register with the NCAA Eligibility Center, and plan for F-1 visa application timelines after committing."
   - q: "Can my daughter participate in NIL or revenue sharing if she comes to the U.S. on an F-1 visa?"
-    a: "Generally no — under current U.S. immigration law and F-1 visa restrictions, most NIL activities and direct revenue-sharing payments from schools are classified as employment that F-1 visa holders cannot engage in. The legal landscape continues to evolve, but families should plan as if NIL income will not be available."
+    a: "It's an open question, not a settled yes. The NCAA's International Student-Athlete Handbook says international student-athletes on an F-1 visa are prohibited from engaging in NIL deals while on U.S. land. No U.S. government source has addressed NIL for F-1 students, and neither the NCAA nor any federal agency has published a position on House revenue-share payments to F-1 athletes. Treat NIL and revenue-share income as unavailable unless the school's compliance office and an immigration lawyer tell you otherwise."
   - q: "What's the difference between recruiting from Canada versus other countries?"
-    a: "Canada has the most established pipeline of women's lacrosse recruits to NCAA programs, particularly at D1, due to the depth of Canadian women's lacrosse development through Lacrosse Canada and provincial governing bodies. Recruits from England, Australia, Israel, and other countries with developing women's lacrosse programs also reach NCAA programs, though typically in smaller absolute numbers."
+    a: "The NCAA rules don't differ by country: the same recruiting calendar, contact date and Eligibility Center requirements apply. What differs is practical — how easily coaches can see her play, and the visa and academic-credential steps for her country. We don't publish figures on how many players come from each country, so we won't rank countries as pipelines."
   - q: "What if my daughter hasn't been to a U.S. tournament where coaches could evaluate her?"
-    a: "Many NCAA coaches evaluate international recruits through World Lacrosse events (junior championships, U20 championships, World Cup events), film, and international showcases. Some Canadian families work with U.S.-based recruiting events and tournaments to provide evaluation opportunities. The pathway exists; it requires more proactive planning than for U.S.-based recruits."
+    a: "Ask the coaches at the programs she's interested in how they evaluate international recruits — which events they attend, including World Lacrosse championships and U.S. tournaments, and whether they will review film first. She can send film and contact coaches at any time; Division I coaches just can't respond substantively until September 1 of her junior year."
   - q: "Does the September 1 of junior year contact date apply differently to international recruits?"
-    a: "No. The September 1 of junior year initial contact date for D1 women's lacrosse applies uniformly to all recruits, regardless of nationality. The 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by NCAA.org) does not distinguish between international and domestic recruits for the September 1 contact rule."
+    a: "No. The September 1 of junior year initial contact date for D1 women's lacrosse, set by NCAA Division I Bylaw 13.1.1.1.7, applies to every recruit regardless of nationality; the bylaw makes no distinction between international and domestic recruits."
 sources:
   - "<a href=\"https://worldlacrosse.sport/lacrosse-to-return-to-the-olympic-games-in-2028/\">World Lacrosse</a> — \"Lacrosse to return to the Olympic Games in 2028\" (October 16, 2023): IOC Session approval and the sixes format"
   - "<a href=\"https://worldlacrosse.sport/world-lacrosse-members/\">World Lacrosse</a> — member nations and continental federations (member map dated April 2026); World Lacrosse 2025-28 Strategic Plan"
@@ -68,47 +68,49 @@ ${toc}
 
 ## The current international landscape in women's college lacrosse
 
-Compared to men's college lacrosse — which has a substantial Canadian presence at NCAA Division I — women's college lacrosse has historically been a more domestically-focused sport at the U.S. collegiate level. The international footprint exists but is smaller in absolute numbers.
+We don't publish figures on how many international players are on women's college lacrosse rosters, so we won't compare the women's game with the men's or describe a trend. Each program's roster lists hometowns, which shows you where its players come from.
 
-The reasons are largely structural. Per World Lacrosse and USA Lacrosse coverage:
+What we can say about the international game:
 
-- **Women's lacrosse globally is growing but starts from a smaller base in many countries.** World Lacrosse currently has **97 member nations across four continental federations** — Asia-Pacific, Europe, Pan-America and Africa — and describes the sport as played in all five of its continental regions. Its membership stood at 45 at the end of 2008, so it has more than doubled in under two decades. But the depth of competitive women's lacrosse at the youth and elite levels varies dramatically by country.
+- **World Lacrosse membership.** World Lacrosse currently has **97 member nations across four continental federations** — Asia-Pacific, Europe, Pan-America and Africa — and describes the sport as played in all five of its continental regions. Its membership stood at 45 at the end of 2008, so it has more than doubled in under two decades.
 
-- **The international competitive hierarchy is well-established.** Per the 2022 World Lacrosse Women's Championship final standings — the most recent edition — the United States won (9th title), followed by Canada (silver), England (third place), and Australia (fourth place). These four nations represent the historical top tier of international women's lacrosse, with countries like Scotland, Israel, and Japan playing competitive secondary roles.
+- **The 2022 World Championship.** At the 2022 World Lacrosse Women's Championship, the final standings were the United States first, Canada second, England third, and Australia fourth.
 
-- **No women's lacrosse equivalent of Canadian box lacrosse exists.** Men's college lacrosse has been transformed by Canadian players whose box (indoor) lacrosse backgrounds produce a distinctive skill profile. Women's lacrosse internationally is field-focused, which means the pathways into NCAA women's lacrosse from Canada and elsewhere look more like traditional field-lacrosse development pathways.
+> **Correction, October 9, 2026.** An earlier version of this section said women's college lacrosse "has historically been a more domestically-focused sport" with a "smaller" international footprint than the men's game; that the competitive depth of women's lacrosse "varies dramatically by country"; that the 2022 top four "represent the historical top tier," with Scotland, Israel and Japan in "competitive secondary roles"; and that "no women's lacrosse equivalent of Canadian box lacrosse exists," while men's college lacrosse "has been transformed" by Canadian box players. We have no data supporting those statements, and ranking national programs is outside what we publish, so we removed them. We also removed the description of the 2022 event as "the most recent edition" and the U.S. "9th title," which we have not verified against a current World Lacrosse source.
 
 ## Canada and women's NCAA lacrosse
 
-Canada is the most prominent international source of NCAA women's lacrosse recruits, particularly at the Division I level — but the picture differs meaningfully from the men's side.
+**What's documented**: Lacrosse Canada (lacrosse.ca) is the official Canadian governing body for women's, men's, box, and sixes lacrosse. Canada finished second at the 2022 World Lacrosse Women's Championship.
 
-**What's documented**: Lacrosse Canada (lacrosse.ca) is the official Canadian governing body for women's, men's, box, and sixes lacrosse. Canada's women's national team has consistently ranked among the world's top programs, with multiple silver and bronze medal finishes at World Lacrosse Women's Championships including silver at the 2013 FIL World Cup. Canadian women's college players have historically been recruited at varying levels by NCAA programs, with Ontario and other provinces serving as the primary feeder regions.
+**What applies to Canadian recruits**:
 
-**What's notable about Canadian women's lacrosse compared to men's**:
-
-- The Canadian Women's Field Lacrosse National Team is documented and competitive internationally
-- Canadian women's lacrosse players tend to follow field lacrosse development pathways rather than the box-lacrosse-to-field-lacrosse pathway that defines much of men's recruiting from Canada
 - Women's NCAA recruiting from Canada operates under the same September 1 of junior year contact rule that applies to domestic recruits, set by NCAA Division I Bylaw 13.1.1.1.7
+- A Canadian player may have box lacrosse experience as well as field lacrosse; ask coaches how they evaluate it
+- As international students, Canadian recruits also have additional steps — see [International Student-Athletes](/guide/international-student-athletes/)
+
+> **Correction, October 9, 2026.** An earlier version of this section said Canada is "the most prominent international source of NCAA women's lacrosse recruits," that Canada's team "has consistently ranked among the world's top programs, with multiple silver and bronze medal finishes" including "silver at the 2013 FIL World Cup," that Ontario and other provinces are "the primary feeder regions," and that Canadian women "tend to follow field lacrosse development pathways." We have no data on where NCAA women's lacrosse players come from, and we had no logged source for the medal history, so we removed those statements and kept Canada's 2022 result.
 
 For families with Canadian women's lacrosse athletes considering U.S. college recruiting, the structural realities of NCAA recruiting — the September 1 of junior year contact date, the [House settlement impact on scholarships](/lacrosse/womens/guide/scholarships-after-house-settlement/), the recruiting timeline overall — apply to Canadian recruits just as they apply to American recruits.
 
 ## England, Australia, and the broader international landscape
 
-Beyond Canada, several other nations have established competitive women's lacrosse programs that produce some NCAA women's lacrosse recruits, though typically at smaller absolute numbers.
+We don't publish figures on how many NCAA women's lacrosse players come from each country outside the United States.
 
-**England women's lacrosse**: England has a long lacrosse tradition and consistently fields a competitive national team. Per the 2022 World Lacrosse Women's Championship final results, England finished third, behind only the United States and Canada. England Lacrosse ([englandlacrosse.co.uk](https://www.englandlacrosse.co.uk)) is the governing body for English lacrosse; British Lacrosse ([britishlacrosse.org](https://www.britishlacrosse.org)) is the umbrella body the English, Scottish, and Welsh associations jointly own to field Great Britain squads.
+**England women's lacrosse**: Per the 2022 World Lacrosse Women's Championship final results, England finished third, behind the United States and Canada. England Lacrosse ([englandlacrosse.co.uk](https://www.englandlacrosse.co.uk)) is the governing body for English lacrosse; British Lacrosse ([britishlacrosse.org](https://www.britishlacrosse.org)) is the umbrella body the English, Scottish, and Welsh associations jointly own to field Great Britain squads.
 
-**Australia women's lacrosse**: Australia has been competitive in women's lacrosse at the international level for decades, winning women's field World Championships in 1986 and 2005 (per Olympics.com coverage of the 2028 Games). Australia finished fourth at the 2022 World Championship.
+**Australia women's lacrosse**: Australia won women's field World Championships in 1986 and 2005 (per Olympics.com coverage of the 2028 Games) and finished fourth at the 2022 World Championship.
 
 **Israel women's lacrosse**: Israel has built a women's lacrosse program through the Israel Lacrosse Association (founded 2010), which is a member of World Lacrosse and the European Lacrosse Federation.
 
-**Japan, Scotland, and emerging nations**: Lacrosse is growing across Asia, Europe, and other regions. World Lacrosse currently has **97 member nations across four continental federations** — Asia-Pacific, Europe, Pan-America and Africa — and describes the sport as played in all five of its continental regions. Its membership stood at 45 at the end of 2008, so it has more than doubled in under two decades. Women's lacrosse depth in emerging-lacrosse nations is typically smaller than men's lacrosse depth, but the trajectory is upward.
+**Japan, Scotland, and other member nations**: These are among World Lacrosse's 97 member nations (see above).
 
-**The implication for NCAA recruiting**: International women's lacrosse recruits to NCAA programs come most commonly from Canada, with smaller numbers from England, Australia, and other lacrosse-developing nations. The depth of recruiting pipeline depends significantly on the country, with Canada providing the most established pathway.
+**The implication for NCAA recruiting**: The recruiting rules are the same whatever the country. We don't have data on how many international recruits come from each country, so we won't rank them; each program's roster lists hometowns.
+
+> **Correction, October 9, 2026.** An earlier version of this section said other nations' players reach NCAA rosters "typically at smaller absolute numbers," that England "consistently fields a competitive national team," that Australia "has been competitive … for decades," that women's lacrosse in "emerging-lacrosse nations" has an "upward" trajectory, and that international recruits "come most commonly from Canada." We have no data supporting those statements, so we removed them and kept the 2022 results and Australia's two world titles.
 
 ## The September 1 of junior year rule applies to international recruits too
 
-International women's lacrosse recruits to NCAA Division I programs operate under the same recruiting calendar as American recruits. Per the 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by the NCAA at `ncaaorg.s3.amazonaws.com`), the September 1 of junior year initial contact date applies to all D1 women's lacrosse recruits regardless of nationality.
+International women's lacrosse recruits to NCAA Division I programs operate under the same recruiting calendar as American recruits. Under NCAA Division I Bylaw 13.1.1.1.7, the September 1 of junior year initial contact date (12 p.m. Eastern) applies to all D1 women's lacrosse recruits regardless of nationality, and the 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar sets the same periods for every recruit.
 
 For international families, this means:
 
@@ -121,7 +123,7 @@ For more detail on the September 1 rule and what it means for recruiting prepara
 
 ## The F-1 visa reality: a critical context
 
-International student-athletes overwhelmingly attend U.S. colleges on **F-1 student visas**, and the F-1 rules on employment are strict: federal regulation bars any unauthorized employment outright, and the list of employment an F-1 student *may* do — on-campus work, curricular practical training, optional practical training, severe-economic-hardship authorisation — is closed and narrow.
+If your daughter will attend a U.S. college on an **F-1 student visa**, the F-1 rules on employment are strict: federal regulation bars any unauthorized employment outright, and the list of employment an F-1 student *may* do — on-campus work, curricular practical training, optional practical training, severe-economic-hardship authorisation — is closed and narrow.
 
 **What that means for NIL is genuinely unresolved, and we are going to be precise about who says what.**
 
@@ -143,11 +145,11 @@ Athletic scholarship eligibility for international women's lacrosse recruits ope
 
 > **Correction, October 9, 2026.** An earlier version of this list named the NJCAA as a division offering women's lacrosse athletic scholarships. The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only.
 
-**A practical reality**: Many international families discover that the academic side of college admissions matters significantly. International recruits with strong academic credentials may find competitive financial packages at academically selective D3 schools where academic merit aid can be substantial. For more, see [How College Admissions Actually Works for Recruited Athletes](/guide/recruited-athlete-admissions/) and [How Athletic, Academic, Need-Based, and Outside Aid Actually Stack](/guide/stacking-financial-aid/).
+**Ask about academic aid too**: Division III schools can't award aid based on athletics, but a D3 school may offer academic aid; ask each school's financial aid office what aid, if any, it offers international students. For more, see [How College Admissions Actually Works for Recruited Athletes](/guide/recruited-athlete-admissions/) and [How Athletic, Academic, Need-Based, and Outside Aid Actually Stack](/guide/stacking-financial-aid/).
 
-## The 2028 Los Angeles Olympics: a tailwind for women's international lacrosse
+## The 2028 Los Angeles Olympics and women's lacrosse
 
-For families researching women's college lacrosse internationally, one major structural factor is reshaping the global landscape: the inclusion of lacrosse in the 2028 Los Angeles Olympics.
+Lacrosse is on the program for the 2028 Los Angeles Olympics.
 
 Per World Lacrosse:
 
@@ -158,39 +160,39 @@ Per World Lacrosse:
 - Lacrosse competition will take place July 24-29, 2028 at Exposition Park Stadium in Los Angeles
 - The qualification pathway: continental championships (September-December 2026), the 2027 World Lacrosse Sixes Championships, plus a final qualifying tournament in early 2028
 
-The Olympics inclusion creates structural momentum for international women's lacrosse:
+World Lacrosse expects approximately 100 teams to enter the qualification pathway across continental championships.
 
-- National federations are increasing investment in women's lacrosse development
-- The sixes format is designed specifically to attract countries where lacrosse is a developing sport — fewer experienced players are needed to field competitive teams
-- World Lacrosse expects approximately 100 teams to enter the qualification pathway across continental championships
+We won't predict what the Olympics will mean for NCAA women's lacrosse recruiting.
 
-For international women's lacrosse families, the practical implication is that the depth of women's lacrosse in their country may be growing rapidly — and the pathway from international lacrosse to NCAA recruiting may strengthen in the years ahead.
+> **Correction, October 9, 2026.** An earlier version of this section called the Olympics "a tailwind" that "is reshaping the global landscape," said national federations "are increasing investment in women's lacrosse development," said the sixes format "is designed specifically to attract countries where lacrosse is a developing sport," and said the pathway to NCAA recruiting "may strengthen in the years ahead." Those were unsourced characterizations and forecasts, which we don't publish. We kept World Lacrosse's own published details.
 
 ## Common questions about international women's lacrosse recruiting
 
 **"Will being international hurt my daughter's recruiting chances?"**
 
-Not necessarily. NCAA programs actively recruit international athletes, and competitive international recruits can compete for scholarships and roster spots on equal terms with American athletes. The main differences are practical: international recruits may need to navigate more logistics around evaluations (since coaches may evaluate primarily at international tournaments and World Lacrosse events rather than at U.S. high school games) and need to plan for F-1 visa application timelines after committing.
+Not because of any NCAA rule. The recruiting calendar and contact dates apply to international recruits the same way they apply to U.S. recruits. The differences are practical: international recruits may need to plan more around how coaches can see them play, register with the NCAA Eligibility Center, and plan for F-1 visa application timelines after committing.
 
 **"Can my daughter participate in NIL or revenue sharing if she comes to the U.S. on an F-1 visa?"**
 
-Generally no — under current U.S. immigration law and F-1 visa restrictions, most NIL activities and direct revenue-sharing payments from schools are classified as employment that F-1 visa holders cannot engage in. The legal landscape continues to evolve, but families should plan as if NIL income will not be available.
+It's an open question, not a settled yes. The NCAA's International Student-Athlete Handbook says international student-athletes on an F-1 visa are prohibited from engaging in NIL deals while on U.S. land. No U.S. government source has addressed NIL for F-1 students, and neither the NCAA nor any federal agency has published a position on House revenue-share payments to F-1 athletes. Treat NIL and revenue-share income as unavailable unless the school's compliance office and an immigration lawyer tell you otherwise.
 
 **"What's the difference between recruiting from Canada versus other countries?"**
 
-Canada has the most established pipeline of women's lacrosse recruits to NCAA programs, particularly at D1, due to the depth of Canadian women's lacrosse development through Lacrosse Canada and provincial governing bodies. Recruits from England, Australia, Israel, and other countries with developing women's lacrosse programs also reach NCAA programs, though typically in smaller absolute numbers.
+The NCAA rules don't differ by country: the same recruiting calendar, contact date and Eligibility Center requirements apply. What differs is practical — how easily coaches can see her play, and the visa and academic-credential steps for her country. We don't publish figures on how many players come from each country, so we won't rank countries as pipelines.
 
 **"What if my daughter hasn't been to a U.S. tournament where coaches could evaluate her?"**
 
-Many NCAA coaches evaluate international recruits through World Lacrosse events (junior championships, U20 championships, World Cup events), film, and international showcases. Some Canadian families work with U.S.-based recruiting events and tournaments to provide evaluation opportunities. The pathway exists; it requires more proactive planning than for U.S.-based recruits.
+Ask the coaches at the programs she's interested in how they evaluate international recruits — which events they attend, including World Lacrosse championships and U.S. tournaments, and whether they will review film first. She can send film and contact coaches at any time; Division I coaches just can't respond substantively until September 1 of her junior year.
 
 **"Does the September 1 of junior year contact date apply differently to international recruits?"**
 
-No. The September 1 of junior year initial contact date for D1 women's lacrosse applies uniformly to all recruits, regardless of nationality. The 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar (published directly by NCAA.org) does not distinguish between international and domestic recruits for the September 1 contact rule.
+No. The September 1 of junior year initial contact date for D1 women's lacrosse, set by NCAA Division I Bylaw 13.1.1.1.7, applies to every recruit regardless of nationality; the bylaw makes no distinction between international and domestic recruits.
+
+> **Correction, October 9, 2026.** An earlier version of these answers said that under "current U.S. immigration law and F-1 visa restrictions, most NIL activities and direct revenue-sharing payments from schools are classified as employment" — the same misattribution we had already corrected in the F-1 section above, but missed here. The prohibition is the NCAA's own position; no government source has addressed NIL. The answers also said NCAA programs "actively recruit international athletes," that Canada "has the most established pipeline," that other countries' recruits arrive "in smaller absolute numbers," and that "many NCAA coaches evaluate international recruits through World Lacrosse events." None of that had a source, and we rewrote the answers to what the rules and the NCAA say.
 
 ## Every international recruit's journey is different
 
-The international landscape in women's college lacrosse varies enormously by country, by competitive level, and by individual circumstance. A Canadian women's lacrosse player from Ontario may follow a recruiting pathway that closely resembles an American player's pathway, with regular U.S. tournament exposure and direct relationships with NCAA coaches. A women's lacrosse recruit from Australia or Japan may have a fundamentally different experience, relying more on international tournaments and film for evaluation. A recruit with strong academic credentials may find the best fit at a D3 program with academic merit aid; a recruit with strong athletic profile may find the best fit at a D1 program with athletic aid. The structural realities — the F-1 visa landscape, the post-House settlement scholarship framework, the September 1 of junior year contact rule, the 2028 Olympics-driven global growth of the sport — all apply. But how they interact for any specific recruit depends on individual circumstances. Use this guide as context; consult immigration attorneys for visa-specific questions; and treat each program conversation as its own evaluation.
+The international landscape in women's college lacrosse varies by country, by competitive level, and by individual circumstance. A Canadian women's lacrosse player from Ontario may follow a recruiting pathway that closely resembles an American player's pathway, with regular U.S. tournament exposure and direct relationships with NCAA coaches. A women's lacrosse recruit from Australia or Japan may have a fundamentally different experience, relying more on international tournaments and film for evaluation. A recruit with strong academic credentials may find the best fit at a D3 program with academic merit aid; a recruit with strong athletic profile may find the best fit at a D1 program with athletic aid. The structural realities — the F-1 visa landscape, the post-House settlement scholarship framework, the September 1 of junior year contact rule — all apply. But how they interact for any specific recruit depends on individual circumstances. Use this guide as context; consult immigration attorneys for visa-specific questions; and treat each program conversation as its own evaluation.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: content.njk
 title: "What Men's Lacrosse College Coaches Look For By Position | RosterWise™"
-description: "Men's college lacrosse coaches evaluate attack, midfield, defense, LSM, FOGO, and goalie on very different criteria. Here's what coaches actually look for at each position, with primary-source guidance from NCAA rules and named college coaches."
+description: "What each men's college lacrosse position does under the NCAA rules — attack, midfield, defense, LSM, FOGO and goalie — and the questions to ask coaches about how they evaluate it."
 date: 2026-08-26
 breadcrumbs:
   - text: Home
@@ -13,7 +13,7 @@ breadcrumbs:
   - text: Guides
     url: /lacrosse/mens/guide/
   - text: What Coaches Look For By Position
-summary: "Men's college lacrosse has the most specialized positional structure of any major NCAA sport. With six distinct positions — attack, midfield, defense, long-stick midfielder (LSM), face-off specialist (FOGO), and goalie — plus role variations like the short-stick defensive midfielder (SSDM), evaluation criteria differ significantly by position. A FOGO and a goalie are recruited on almost entirely different criteria. An attack and an LSM evaluate completely differently. This guide walks through what college coaches actually look for at each men's lacrosse position, with primary-source guidance from the NCAA, USA Lacrosse, and direct quotes from named college coaches."
+summary: "The NCAA men's lacrosse rules designate four positions — goalkeeper, defense, midfield and attack — and allow up to four long crosses on the field besides the goalie's, which is where the long-stick midfielder (LSM) comes from. Faceoffs start every period and restart play after every goal, which is where the faceoff specialist (FOGO) comes from. This guide explains what each of those roles does on the field, what statistics the NCAA keeps for them, and the questions to ask each coaching staff about how they evaluate your son at his position. How much weight a given staff puts on any one quality is something only that staff can tell you."
 related:
   - title: "The September 1 Junior Year Rule: Why Lacrosse Recruiting Is Different"
     url: /lacrosse/guide/september-1-junior-year-rule/
@@ -31,19 +31,18 @@ faq:
   - q: "My son plays midfield but specializes in offense. Should he be listed as an attacker?"
     a: "If he plays primarily on the offensive side and doesn't substitute back to defend, 'offensive midfielder' is a common designation. Talk to his coach about whether to list him as an offensive midfielder or attacker for recruiting purposes — both designations are used."
   - q: "What if my son plays multiple positions?"
-    a: "Many men's lacrosse recruits play multiple positions, especially at the youth and high school levels. Highlight versatility in recruiting materials — but be specific about which is his primary and which he could play in college."
+    a: "Show it in his recruiting materials — but be specific about which position is his primary one and which he could play in college, and ask each coach which position they see him at."
   - q: "My son is a great FOGO. Is that enough to get recruited?"
-    a: "A strong FOGO with high win percentage can find competitive recruiting opportunities. Modern coaches increasingly want FOGOs who can also contribute as field midfielders. Pure face-off specialists who can't contribute in field play have a more limited market — but exceptional face-off specialists (60%+ win rate against quality competition) can still find paths to competitive programs."
+    a: "We can't answer that for any program, and we don't publish faceoff-percentage thresholds. Faceoff win percentage is an official NCAA statistic, so coaches can compare it across players. Ask each coach directly whether they recruit faceoff specialists who leave the field after the faceoff, or want a FOGO who can also play midfield."
   - q: "How important is size for men's lacrosse positions?"
-    a: "Attackers range across all heights and weights, with skill mattering more than size. Midfielders prioritize speed and endurance over size. Defenders benefit significantly from height and reach, plus physical strength for body contact and ground balls. LSMs need height and athleticism, with speed often the differentiator. FOGOs rely on strength and quickness more than height. Goalies benefit from reach but range across all heights."
+    a: "The NCAA playing rules set no height or weight requirement at any position, and we don't publish size thresholds. How much a particular staff weighs size at your son's position is a question for that staff."
   - q: "My son is a late developer at his position. Are there still opportunities?"
-    a: "Yes. Late-developing recruits often find their best fits at D2, D3, NAIA, and NJCAA programs where roster construction allows development time. Some positions (LSM, defender, goalie) are particularly suited to late developers because physical and mental maturity matters significantly."
+    a: "Nothing in the NCAA rules ends recruiting in junior year: Division I coaches can recruit from the Wednesday after Labor Day of junior year through senior year, and programs outside Division I recruit under their own, separate rules. We don't have data on which positions or divisions late developers end up at, so ask each coach how they handle players who are still developing."
 sources:
-  - "<strong>NCAA Men's Lacrosse Rules</strong> — Official NCAA rules and statistical definitions"
+  - '<a href="https://ncaaorg.s3.amazonaws.com/championships/sports/lacrosse/rules/men/PRMLA_RulesBook.pdf">2027 and 2028 NCAA Men''s Lacrosse Rules and Interpretations</a> (NCAA, August 2026; read Oct. 9, 2026) — Rule 1-1 (10 players), 1-2 (field 110 × 60 yards), 1-17 (crosse lengths), 2-1 (position designations; maximum four long crosses), 3-1 (four 15-minute periods), 4-3 (faceoffs), 4-12 (offside), 4-23 (live-ball substitution)'
+  - '<a href="https://s3.amazonaws.com/fs.ncaa.org/Docs/stats/Stats_Manuals/MLacrosse.pdf">NCAA Men''s Lacrosse Statisticians'' Manual</a> (linked from Appendix V of the rules book; read Oct. 9, 2026) — saves, faceoffs, clears, caused turnovers; faceoff, save and clearing percentages'
   - '<a href="https://www.ncaa.com">NCAA.com Men''s Lacrosse Statistics</a> — Official NCAA D1, D2, and D3 men''s lacrosse statistics including face-off win percentage, save percentage, caused turnovers'
   - "<strong>Intercollegiate Men's Lacrosse Coaches Association (IMLCA)</strong> — Coaching association referenced for men's lacrosse coaching guidance"
-  - "<strong>USA Lacrosse magazine</strong> — Coverage of men's lacrosse and the recruiting funnel"
-  - '<a href="https://www.nll.com">National Lacrosse League</a> — Coverage of Canadian box lacrosse developmental pathways and their influence on field lacrosse'
 cta:
   heading: "Find programs where your son genuinely fits — at his position"
   text: "The position-based framework tells you what coaches are evaluating. The deeper question is whether the programs evaluating your son are actually a fit for him at his specific position. RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA men's lacrosse program — position depth (including specialized positions like FOGO and LSM), class year gaps, recruiting geography, Canadian recruiting patterns, transfer portal activity, and personalized fit scoring. The position-by-position analysis helps families identify the programs where their son genuinely fits both athletically and at his specific role."
@@ -54,89 +53,88 @@ ${toc}
 
 ## The structure of men's college lacrosse
 
-NCAA men's lacrosse is played with 10 players on the field per team:
-- 3 attackers
-- 3 midfielders (typically including specialized roles)
-- 3 defenders
-- 1 goalie
+Under the 2027 and 2028 NCAA Men's Lacrosse Rules (published August 2026), the rules that shape the positions are:
 
-Plus the following rules-based realities:
+**Players**: Lacrosse is played by two teams of 10 players each (Rule 1-1). The rules designate them as goalkeeper, defense, midfield and attack (Rule 2-1); they do not set how many players a team must use at each.
 
-**Field size**: 110 yards by 60 yards
+**Field size**: 110 yards by 60 yards (Rule 1-2).
 
-**Long pole rule**: Each team can have a maximum of 4 long poles (6-foot sticks) on the field at any time. This means the 3 close defenders typically all carry long poles, and the 4th long pole can be used by a Long-Stick Midfielder (LSM) when the team is playing defense.
+**Long pole rule**: A team may have a maximum of four players using long crosses — sticks 52 to 72 inches long — on the field at any time, not counting the goalkeeper's crosse (Rule 2-1). A short crosse is 40 to 42 inches (Rule 1-17). That four-pole limit is why a team can use a long pole in the midfield as well as at close defense: that player is the long-stick midfielder (LSM).
 
-**Offside rule**: There must be 3 players on the offensive end and 4 on the defensive end at all times during play. The midfielders can move freely between sides.
+**Offside rule**: A team is offside if it has more than six players in its offensive half or more than seven in its defensive half (Rule 4-12). With a full team of 10, that means at least four players stay in the defensive half (counting the goalie) and at least three stay in the offensive half.
 
-**Substitution**: On-the-fly substitution is permitted (similar to hockey), which is how specialized positions like FOGO operate — they come on for face-offs and leave the field after the play.
+**Faceoffs and substitution**: Absent certain penalty situations, play starts at the beginning of each of the four 15-minute periods, and restarts after each goal, with a faceoff at the center of the field (Rules 3-1 and 4-3). Teams may substitute during live play through the substitution area (Rule 4-23). Together, those two rules are what make the faceoff specialist (FOGO) possible: a player can come on for the faceoff and leave the field after it.
 
-## Universal qualities every college coach evaluates
+> **Correction, October 9, 2026.** An earlier version of this section described long poles as "6-foot sticks"; the rules set a long crosse at 52 to 72 inches. It also stated a fixed line-up of three attackers, three midfielders, three defenders and a goalie, and that "the 3 close defenders typically all carry long poles." The rules designate the positions but do not fix those numbers. We now cite the rules book for each statement.
 
-Before the position-specific criteria, some qualities come up across every position in published coaching guidance.
+## Questions that apply at every position
 
-**The two-handed player advantage.** This is probably the single most repeated evaluation point in men's lacrosse. A player who can receive, carry, dodge, shoot and feed with both hands is harder to defend, easier to slot into a system, and does not become predictable under pressure. A one-handed player can be scouted and shaded.
+Before the position-specific detail, a few things come up at every position. Ask each coaching staff how much weight they put on them — staffs differ, and we don't publish a ranking.
 
-**How an athlete competes, not just what they finish.** The qualities coaches describe wanting to see are consistent and unglamorous: two-way play rather than a single strength, energy and hustle, competitive intensity, athleticism, sound fundamentals, sportsmanship, and evidence of being a good teammate. Hustle on ground balls, communication on defence, and effort off the ball are all visible on film and all get evaluated.
+**Two-handed play.** A player who can receive, carry, dodge, shoot and feed with either hand gives a defense more to cover than one who goes to one hand. Ask: *"How much does his off hand matter at his position in your system?"*
 
-## Attackers (3 positions)
+**How he competes, not just what he finishes.** Ground balls, communication on defense, riding and effort off the ball all show up on film. Ask: *"Beyond the highlight plays, what do you watch for when you evaluate him in a game?"*
 
-Attackmen are the primary offensive players. They typically stay on the offensive side of the field per the offside rules (with limited exceptions when a midfielder rotates back).
+> **Correction, October 9, 2026.** An earlier version of this section called two-handed play "probably the single most repeated evaluation point in men's lacrosse" and listed qualities that "coaches describe wanting to see." Neither had a source we could name, so we turned them into questions to ask coaches.
 
-**What college coaches evaluate in attackers**:
+## Attackers
 
-**Scoring ability in competitive game situations**:
-- Goals scored against challenging defense
+Attackmen are the primary offensive players and play mostly in the offensive half of the field.
+
+**What the attacker's job involves**:
+
+**Scoring in game situations**:
+- Goals against set defenses
 - Variety of shot types — high, low, time-and-room, on-the-run, behind-the-back
 - Shot accuracy under defensive pressure
 - Finishing in tight spaces around the crease
 
-**Vision and feeding ability**:
+**Vision and feeding**:
 - Making the play that creates the goal, not just scoring it
 - Reading defenses and finding the open teammate
-- Feeding from X (behind the goal) — a key area for men's attackers
+- Feeding from X (the area behind the goal)
 - Skip passes and cross-field finds
 
 **Dodging and offensive movement**:
 - Change-of-direction dodges that get past defenders
 - Split dodges, hitch dodges, roll dodges
 - Continuous off-ball movement that creates space for teammates
-- Confidence handling the ball in high-pressure situations
+- Handling the ball under pressure
 
-**Ride and defensive pressure**:
-- Defensive contribution from offensive positions
+**Riding**:
 - Riding (preventing the opposing defense from clearing the ball)
 - Causing turnovers in transition
 
 **Stick skills**:
-- **Two-handed dexterity** (see "Universal qualities" above — essential)
+- Two-handed play (see "Questions that apply at every position" above)
 - Quick release on shots
 - Catching and finishing in traffic
 - Stick protection while dodging against long poles
 
-**Quick decision-making under pressure**:
-- The ability to process information rapidly when defenders close
-- Reading the slide and reacting appropriately
+**Decisions under pressure**:
+- Processing the play quickly when defenders close
+- Reading the slide and reacting
 
-## Midfielders (3 positions)
+## Midfielders
 
-Midfielders cover the entire field, playing both offense and defense. Midfielders are typically the only players who cover the full 110 yards regularly. The position has become increasingly specialized.
+Midfielders play at both ends of the field, on offense and on defense.
 
-**Modern midfield specialization**:
+**Midfield roles**:
 
-- **Two-way midfielder**: Traditional player who plays both offense and defense. Among the fittest players on the team.
-- **Offensive midfielder**: Specialized for offense, may substitute off when team plays defense
-- **Defensive midfielder / Short-Stick Defensive Midfielder (SSDM)**: Two midfielders who play defense with a short stick (not a long pole). Tough, hustle players who defend midfielders and pick up ground balls.
+- **Two-way midfielder**: plays both offense and defense.
+- **Offensive midfielder**: focused on offense; may substitute off when the team plays defense.
+- **Defensive midfielder / Short-Stick Defensive Midfielder (SSDM)**: a midfielder who defends with a short stick (not a long pole), guarding opposing midfielders and contesting ground balls.
 
-**What college coaches evaluate in midfielders**:
+**What the midfielder's job involves**:
 
 **Two-way play**:
-- Both offensive and defensive contributions
-- The ability to defend midfielders effectively while also contributing offensively
-- Coaches at the top level often evaluate whether a midfielder is a true two-way player or a specialized offensive/defensive player
+- Contributions at both ends
+- Defending opposing midfielders while also contributing on offense
+- Ask each coach whether they see your son as a two-way midfielder or in a specialized offensive or defensive role
 
 **Transition play**:
 - Running the field — finishing fast breaks, defending in transition
-- Ground ball play that converts turnovers into offense
+- Ground balls that turn defense into offense
 - Outlet passing and clearing
 
 **Scoring versatility**:
@@ -144,20 +142,19 @@ Midfielders cover the entire field, playing both offense and defense. Midfielder
 - Dodging from up top into the offensive set
 - Inside finishing
 
-**Ground ball play**:
-- The 50/50 ground ball wins games
+**Ground balls**:
+- Contesting loose balls
 - Boxing out opposing players
 - Two-handed cradling after pickups
 
-**Stamina and athleticism**:
-- The midfield demands the highest fitness level in the game
-- Conditioning that allows maintained intensity through the full game
+**Conditioning**:
+- Covering both ends of the field shift after shift
 
-## Defense (3 close defenders)
+## Defense (close defenders)
 
-Close defenders are the three defensive players using 6-foot long poles. They typically stay on the defensive half of the field per the offside rules. Their primary responsibility is guarding the opposing team's attackers and preventing scoring opportunities.
+Close defenders carry long poles and play mostly in the defensive half of the field. Their primary job is guarding the opposing attackers and preventing scoring chances.
 
-**What college coaches evaluate in defenders**:
+**What the defender's job involves**:
 
 **One-versus-one defensive technique**:
 - Body position and stance
@@ -166,173 +163,153 @@ Close defenders are the three defensive players using 6-foot long poles. They ty
 - Reading the dodger and anticipating moves
 
 **Stick work with the long pole**:
-- Clearing the ball — outlet passes that create fast-break offense
+- Clearing the ball — outlet passes that start the offense
 - Cradling cleanly under pressure
-- Two-handed dexterity even with the long pole
+- Handling the long pole with both hands
 - Shooting from defensive midfield in transition
 
-**Ground ball play in transition**:
-- Converting turnovers into offense
+**Ground balls in transition**:
+- Turning turnovers into offense
 - Boxing out attackers on ground balls
 - Body positioning on 50/50 plays
 
 **Caused turnovers**:
-- The defensive equivalent of goals scored
-- A key NCAA-tracked statistic at all divisions
+- The NCAA Men's Lacrosse Statisticians' Manual defines caused turnovers as an official statistic
 
 **Communication on team defense**:
 - Calling switches, slides, and recoveries
-- Vocal leadership visible from game footage
 - Organizing the defense before the offense attacks
 
 **Slide and recovery work**:
-- How the defender functions within team defensive systems
+- How the defender functions within the team's defensive system
 - Recognizing when to slide to help
 - Recovering to original assignments after slides
 
 ## Long-Stick Midfielder (LSM)
 
-The LSM is a hybrid position. He's a midfielder (which means he can cross midfield freely) but he uses a 6-foot long pole. Per the maximum 4 long poles rule, teams typically deploy the LSM to disrupt offensive midfielders, contest ground balls, and create transition opportunities.
+The LSM is a midfielder who carries a long pole — possible because the rules allow up to four long crosses on the field besides the goalie's (Rule 2-1). The LSM's job is to defend opposing midfielders, contest ground balls and start transition.
 
-**What college coaches evaluate in LSMs**:
+**What the LSM's job involves**:
 
-**Defensive presence at the midfield**:
+**Defensive presence in the midfield**:
 - Taking the ball from offensive midfielders
 - Disrupting passing lanes with long-pole reach
 - Aggressive but controlled defense
 
-**Ground ball play in transition**:
-- LSMs are often the players who convert ground balls into transition opportunities
+**Ground balls in transition**:
 - Boxing out and securing 50/50 balls
-- Athletic ability to run after pickups
+- Running after pickups
 
 **Stick work with the long pole in space**:
 - Clearing the ball when defenders are pressured
 - Outlet passes in transition
-- Comfort handling the long pole in open field situations
+- Handling the long pole in the open field
 
-**Athleticism**:
-- LSMs are typically among the most athletic players on the field
-- Combination of defender's reach and midfielder's endurance
-
-**Defensive midfield endurance**:
+**Endurance**:
 - Running the length of the field repeatedly
 - Maintaining intensity through long shifts
 
 ## Face-Off, Get Off (FOGO)
 
-The FOGO is a specialized face-off player who takes face-offs at the start of each quarter and after every goal. The position has become increasingly specialized — many FOGOs come on the field exclusively for face-offs and substitute off after the play.
+The FOGO is a faceoff specialist. Faceoffs start each period and restart play after each goal (Rule 4-3), and because teams can substitute during live play (Rule 4-23), a FOGO can come on for the faceoff and leave the field after it.
 
-**What college coaches evaluate in FOGOs**:
+**What the FOGO's job involves**:
 
-**Face-off win percentage in competitive situations**:
-- The single most important FOGO statistic
-- Coaches look for face-off win rates in real games against quality opposing face-off specialists
-- NCAA tracks face-off win percentage at all divisions as an official statistic
+**Faceoff results**:
+- Faceoff win percentage is a calculated statistic in the NCAA Men's Lacrosse Statisticians' Manual, so coaches can compare it across players
+- Ask each coach what they look at beyond the percentage — for example, the level of the opposing faceoff players
 
-**Face-off technique**:
+**Faceoff technique**:
 - Clamp work — the speed and effectiveness of the initial move
-- Counter moves — responding to opposing FOGO strategies
-- Exits — getting the ball out of the face-off scrum cleanly
+- Counter moves — responding to the opposing player's approach
+- Exits — getting the ball out of the faceoff cleanly
 - Body positioning and stance
 
-**Ground ball play after the face-off scrum**:
-- When the face-off doesn't go cleanly, the ability to recover and win the resulting ground ball
+**Ground balls after the faceoff**:
+- Recovering and winning the ball when the faceoff doesn't go cleanly
 - Pushing through opposing wing players
-- Securing possession from scrums
+- Securing possession
 
-**Athletic ability when the face-off doesn't go as planned**:
+**Athleticism when the faceoff doesn't go as planned**:
 - Sprint speed to the ball
-- Strength in scrums
-- Hand-eye coordination on poorly-bouncing balls
+- Strength
+- Hand-eye coordination on bad bounces
 
-**Field play versatility**:
-- Increasingly, modern FOGOs need to stay on the field after the face-off rather than substituting off immediately
-- Modern FOGOs often need to contribute as midfielders after winning the face-off
-- Some FOGOs are evaluated based on their ability to score after winning their own face-off
+**Field play**:
+- Some FOGOs stay on the field after the faceoff and play as midfielders; others leave immediately
+- Ask each coach which they want at their program
 
-**Face-off rule compliance**:
-- FOGO-specific technical rules (clamp positioning, timing, illegal moves)
-- Avoiding violations that result in lost possessions
+**Faceoff rules**:
+- The rules book sets a detailed faceoff procedure (Rule 4-3), and a faceoff player who commits a violation is barred from taking the next faceoff
+- Avoiding violations that give away possession
 
-For FOGO recruits, dedicated face-off footage is critical. Coaches need to see face-off mechanics in detail. Many FOGOs include close-up footage of clamp work and exits in addition to standard game footage.
+For FOGO recruits, ask coaches whether they want dedicated faceoff footage, including close-ups of clamp work and exits, in addition to game film.
 
-## Goalies (1 position)
+## Goalies
 
-Goalies are the last line of defense. They protect the goal with a wider-headed goalie stick, wear specialized protective gear (chest protector, throat guard, helmet with specific facemask), and direct the entire defense.
+Goalies are the last line of defense. A goalkeeper's crosse head is 10 to 12 inches wide, against 6 to 10 inches for a field player's (Rule 1-17), and the rules require the goalkeeper to wear a chest protector and throat protector. Goalies also organize the defense in front of them.
 
-**What college coaches evaluate in goalies**:
+**What the goalie's job involves**:
 
-**Save percentage and consistency**:
+**Saves and consistency**:
 - Saves of varying difficulty and shot types
 - Consistency across game situations — not just highlight-reel saves
-- Save percentage tracked by NCAA at all divisions as an official statistic
+- Save percentage is a calculated statistic in the NCAA Men's Lacrosse Statisticians' Manual
 
-**Clear-game ability**:
-- Outlet passes that create fast-break offense
-- Clearing percentage is an NCAA-tracked team statistic
-- Two-handed dexterity in clearing (per the universal two-handed principle)
+**Clearing**:
+- Outlet passes that start the offense
+- Clearing percentage is a calculated team statistic in the same manual
+- Two-handed play in clearing
 
 **Communication and leadership**:
-- Goalies direct the entire defense
-- Vocal organization — calling out attackers, slides, switches
-- Body language and on-field presence visible from highlight clips
-- Mental toughness after goals scored
+- Directing the defense
+- Calling out attackers, slides, switches
+- Composure after goals against
 
-**Athletic positioning**:
-- Both inside the cage and outside it
-- Body and foot positioning that demonstrates fundamentals
-- Athleticism to come out of the cage and play outside
+**Positioning**:
+- In the cage and outside it
+- Body and foot positioning
+- Coming out of the cage to play the ball
 
-**Save consistency across shot types**:
+**Saves across shot types**:
 - High shots vs. low shots
 - Off-stick side vs. stick side
 - Inside vs. outside shots
 - Free-position saves
 
-**Quick reflexes**:
-- Lacrosse balls can travel 80-100 miles per hour
-- The goalie has a fraction of a second to react
+> **Correction, October 9, 2026.** Earlier versions of the position sections above made claims we could not source: that the midfield "demands the highest fitness level in the game," that LSMs are "typically among the most athletic players on the field," that the midfield and FOGO positions have become "increasingly specialized," that faceoff percentage is "the single most important FOGO statistic," and that "lacrosse balls can travel 80-100 miles per hour." We removed them and kept the descriptions of what each position does, with the rules and official statistics behind them.
 
 ## How recruiting profiles differ by position
 
-The post-House settlement [scholarship landscape](/lacrosse/mens/guide/scholarships-after-house-settlement/) has expanded what's possible for men's lacrosse recruits, but position-specific recruiting realities remain:
+The NCAA recruiting rules are the same at every position, and the [scholarship and roster framework](/lacrosse/mens/guide/scholarships-after-house-settlement/) applies across the whole roster. How recruiting plays out at a given position is not set by the rules, and we don't have data on it — how deep the recruiting pool is, how many players at each position a program carries, or when players at a given position commit.
 
-**Attackers and midfielders**: Face deep recruiting pools at the most competitive levels. The competition for top spots is intense, particularly at offensive positions.
+The useful question for each coach is how many players at your son's position the program expects to add in his class. The program's current roster shows who is already there, by class year.
 
-**Defenders**: Face a slightly different recruiting environment. Coaches need a balance of physical and skilled defenders. Athletes with strong defensive skills and two-handed long-pole dexterity can find spots even at competitive levels.
-
-**LSMs**: Face a unique market. The position requires the rare combination of long-pole defender skills and midfielder endurance/athleticism. Top LSMs at competitive levels are highly sought because of the rarity of the skill combination.
-
-**FOGOs**: Face perhaps the most position-specific market. Programs typically need 1-2 FOGOs per recruiting class. The recruiting pool is smaller, but the competition is intense. Top FOGOs at competitive levels often commit early because of the high demand for the specialized skill.
-
-**Goalies**: Face a unique recruiting market. Every team needs goalies, but each team typically rosters only 2-3. The absolute number of college roster spots is smaller, but each program needs to fill those spots, meaning the competition is focused.
+> **Correction, October 9, 2026.** An earlier version of this section described the recruiting market at each position — "deep recruiting pools" at attack and midfield, LSMs "highly sought," FOGOs committing early, programs "typically" needing one or two FOGOs per class and rostering two or three goalies. None of it had a source, so we removed it.
 
 ## Specific position evaluation guidance
 
-For families with athletes at each position, several practical considerations:
+Questions worth asking each coaching staff, by position:
 
-**For attackers**: Develop two-handed dexterity above almost everything else. Focus on shot variety, vision, and the ability to create space through dodging. Game footage matters more than skills footage.
+**For attackers**: *"How do you weigh scoring against feeding at attack? How much does his off hand matter? Do you want game film only, or skills footage too?"*
 
-**For midfielders**: Develop both offensive and defensive skills. Conditioning is non-negotiable. Two-way midfielders have the broadest recruiting market; specialized midfielders need to be exceptional in their specialty.
+**For midfielders**: *"Do you see him as a two-way midfielder or in an offensive or defensive role? What would he need to show to play both ends?"*
 
-**For defenders**: Master one-versus-one technique with the long pole. Strong stick work in clearing makes you stand out. Communication ability is often the difference between top defenders and average ones.
+**For defenders**: *"What do you look for in one-versus-one defense and in clearing? How much does communication factor into your evaluation?"*
 
-**For LSMs**: Demonstrate the rare combination of long-pole defensive technique, midfielder athleticism, and ground ball excellence. LSM-specific game footage (showing the LSM defending against midfielders and converting ground balls into transition) is essential.
+**For LSMs**: *"What do you want to see from an LSM on film — defense against midfielders, ground balls, transition?"*
 
-**For FOGOs**: Focus on technique and win percentage above all else. Build a video that includes substantial face-off footage with clear close-ups of clamp work. Modern FOGOs should also include field-play footage demonstrating the ability to stay on the field after winning the face-off.
+**For FOGOs**: *"Do you want close-up faceoff footage? Do you want a FOGO who stays on the field after the faceoff?"*
 
-**For goalies**: Focus on save technique fundamentals, clearing game development, and communication. Leadership presence matters as much as save percentage. Direct outreach to coaches is particularly important since teams roster few goalies.
+**For goalies**: *"How do you evaluate a goalie beyond save percentage — clearing, communication? How many goalies do you plan to add in his class?"*
+
+> **Correction, October 9, 2026.** An earlier version of this section told families what to prioritize at each position — for example, that attackers should "develop two-handed dexterity above almost everything else" and that for goalies "leadership presence matters as much as save percentage." Those were unsourced judgments about how coaches weigh skills, so we replaced them with questions for coaches.
 
 ## Special considerations for Canadian recruits
 
-For Canadian men's lacrosse recruits (see [International Recruiting in Men's College Lacrosse](/lacrosse/mens/guide/international-recruiting/)), several position-specific considerations apply:
+Canadian recruits (see [International Recruiting in Men's College Lacrosse](/lacrosse/mens/guide/international-recruiting/)) may have box lacrosse experience as well as field lacrosse. The position descriptions above are for the NCAA field game. Ask each coach how they evaluate box lacrosse experience at your son's position, and what field footage they want to see alongside it.
 
-- **Attackers**: Canadian box lacrosse develops creative offensive skills that translate exceptionally well to the field game. Two-handed dexterity is particularly strong in many Canadian players.
-- **Midfielders**: Canadian players often develop strong ball-handling and decision-making through box lacrosse, which translates to midfielder versatility.
-- **Defenders and LSMs**: Box lacrosse develops aggressive defensive instincts that translate to field defense, though long-pole technique typically requires development at the field game.
-- **FOGOs**: Box lacrosse face-offs differ structurally from field lacrosse face-offs. Canadian FOGOs may need to develop field-specific technique even if their general athletic ability is strong.
-- **Goalies**: Box lacrosse goalies face higher-volume shots from shorter distances, which can develop strong reflexes. Field goalie technique may require adjustments.
+> **Correction, October 9, 2026.** An earlier version of this section described how box lacrosse shapes Canadian players at each position — that box skills "translate exceptionally well" at attack, that two-handed play is "particularly strong in many Canadian players," and that box goalies face "higher-volume shots from shorter distances." We have no source for those statements, so we removed them.
 
 ## Common questions about position-based evaluation
 
@@ -342,29 +319,26 @@ If he plays primarily on the offensive side and doesn't substitute back to defen
 
 **"What if my son plays multiple positions?"**
 
-Many men's lacrosse recruits play multiple positions, especially at the youth and high school levels. Highlight versatility in recruiting materials — but be specific about which is his primary and which he could play in college.
+Show it in his recruiting materials — but be specific about which position is his primary one and which he could play in college, and ask each coach which position they see him at.
 
 **"My son is a great FOGO. Is that enough to get recruited?"**
 
-A strong FOGO with high win percentage can find competitive recruiting opportunities. Modern coaches increasingly want FOGOs who can also contribute as field midfielders. Pure face-off specialists who can't contribute in field play have a more limited market — but exceptional face-off specialists (60%+ win rate against quality competition) can still find paths to competitive programs.
+We can't answer that for any program, and we don't publish faceoff-percentage thresholds. Faceoff win percentage is an official NCAA statistic, so coaches can compare it across players. Ask each coach directly whether they recruit faceoff specialists who leave the field after the faceoff, or want a FOGO who can also play midfield.
 
 **"How important is size for men's lacrosse positions?"**
 
-- **Attackers**: Range across all heights and weights. Skill matters more than size.
-- **Midfielders**: Variable. Speed and endurance more important than size.
-- **Defenders**: Height and reach help significantly. Physical strength matters for body contact and ground ball work.
-- **LSMs**: Height and athleticism both matter. Speed is often the differentiator.
-- **FOGOs**: Strength and quickness matter. Height is less critical than for other positions.
-- **Goalies**: Reach matters for saves. Height ranges across all levels.
+The NCAA playing rules set no height or weight requirement at any position, and we don't publish size thresholds. How much a particular staff weighs size at your son's position is a question for that staff.
 
 **"My son is a late developer at his position. Are there still opportunities?"**
 
-Yes. Late-developing recruits often find their best fits at D2, D3, NAIA, and NJCAA programs where roster construction allows development time. Some positions (LSM, defender, goalie) are particularly suited to late developers because physical and mental maturity matters significantly.
+Nothing in the NCAA rules ends recruiting in junior year: Division I coaches can recruit from the Wednesday after Labor Day of junior year through senior year, and programs outside Division I recruit under their own, separate rules. We don't have data on which positions or divisions late developers end up at, so ask each coach how they handle players who are still developing.
+
+> **Correction, October 9, 2026.** Earlier versions of these answers said FOGOs with a "60%+ win rate against quality competition" can still find paths to competitive programs, that "modern coaches increasingly want FOGOs who can also contribute as field midfielders," gave size guidance for each position, and said late developers "often find their best fits at D2, D3, NAIA, and NJCAA programs." None of it had a source, so we replaced it with what the rules set and questions for coaches.
 
 ## Every recruit's position story is different
 
-Position evaluation is a starting framework, not a rigid prescription. Some athletes transition between positions during their development — a freshman midfielder may become a senior FOGO; an attack may switch to midfield; a defender may grow into an LSM role. Some athletes have skills that don't fit neatly into traditional categories. Use this position-based framework to understand what coaches are evaluating, but treat your son's actual development as the driver — not a position label. Talk with his coaches about what positions match his current development and where he might be most competitive in the recruiting process.
+Position evaluation is a starting framework, not a rigid prescription. Some athletes transition between positions during their development — a freshman midfielder may become a senior FOGO; an attack may switch to midfield; a defender may grow into an LSM role. Some athletes have skills that don't fit neatly into traditional categories. Use this position-based framework to understand what the positions ask of a player, but treat your son's actual development as the driver — not a position label. Talk with his coaches about what positions match his current development and where he might be most competitive in the recruiting process.
 
 ---
 
-*Playing rules and position structures are set separately at each level and change by rules cycle. This article reflects NCAA men's lacrosse as of **June 2026**. Verify the current rules at NCAA.org, and check USA Lacrosse and the NFHS for youth and high school rules. Confirm specific position preferences directly with the coaches at programs you're considering.*
+*Playing rules and position structures are set separately at each level and change by rules cycle. Rule references on this page are to the **2027 and 2028 NCAA Men's Lacrosse Rules** (published August 2026). Verify the current rules at NCAA.org, and check USA Lacrosse and the NFHS for youth and high school rules. Confirm specific position preferences directly with the coaches at programs you're considering.*

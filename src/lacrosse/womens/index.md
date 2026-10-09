@@ -11,7 +11,7 @@ breadcrumbs:
 children:
   - title: "Women's College Lacrosse Recruiting Timeline"
     url: /lacrosse/womens/guide/recruiting-timeline/
-    summary: "When commitments actually happen — the September 1 contact rule, typical timelines by division, and the current recruiting landscape."
+    summary: "The September 1 contact rule, the 2026-27 Division I calendar, and how recruiting works outside Division I."
     status: live
   - title: "How Women's College Lacrosse Scholarships Work"
     url: /lacrosse/womens/guide/scholarships-after-house-settlement/
@@ -23,24 +23,24 @@ children:
     status: live
   - title: "What Women's College Lacrosse Coaches Look for by Position"
     url: /lacrosse/womens/guide/coaches-look-for-by-position/
-    summary: "What coaches evaluate for Attack, Midfield, Defense, Goalie, and draw control specialists."
+    summary: "What each position does — Attack, Midfield, Defense, Goalie, and the draw — and what to ask coaches about how they evaluate it."
     status: live
   - title: "International Recruiting in Women's College Lacrosse"
     url: /lacrosse/womens/guide/international-recruiting/
-    summary: "How international and Canadian players are recruited, and what it means for roster composition."
+    summary: "How the NCAA recruiting rules, F-1 visa questions, and the 2028 Olympics apply to Canadian and other international recruits."
     status: live
   - title: "Women's College Lacrosse ID Camps & Tournaments"
     url: /lacrosse/womens/guide/id-camps-and-tournaments/
-    summary: "Which events coaches actually attend, how college ID camps differ from showcase tournaments, and how to choose."
+    summary: "How college ID camps differ from showcase tournaments, the NCAA rule on recruiting conversations at camps, and the questions to ask."
     status: live
   - title: "The Women's College Lacrosse Recruiting Video"
     url: /lacrosse/womens/guide/recruiting-video/
-    summary: "What coaches want to see in a highlight reel, how to structure it, and the mistakes that get videos closed early."
+    summary: "How to structure a highlight reel, what to include with it, when to send it, and what to ask coaches about what they want to see."
     status: live
 sources:
   - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 17.2 (Roster Limitations: men's lacrosse 48, women's lacrosse 38), Bylaws 13.1.1.1.7 and 13.1.1.1.8 (initial contact dates) and the related telephone, materials, visit and camp provisions — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - "<strong>2026-27 NCAA Division I Men's Lacrosse and Women's Lacrosse Recruiting Calendars</strong> — official NCAA documents at ncaaorg.s3.amazonaws.com"
-  - "<a href=\"https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/\">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship"
+  - "<a href=\"https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/\">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship: 2025-26 NCAA Projected Sport Sponsorship (as of September 2025)"
   - "RosterWise 2025-26 roster dataset — compiled from publicly available college athletics websites"
   - '<a href="https://www.njcaa.org/general/2023-24/releases/20240711fqifcg">NJCAA — "NJCAA Discontinues Women''s Lacrosse"</a> (July 11, 2024; read Oct. 9, 2026) — discontinued as a sponsored sport beginning with 2024-25'
   - '<a href="https://www.njcaa.org/sports/">NJCAA.org — Sports</a> (2026-27 sport list, read Oct. 9, 2026) — men''s lacrosse listed; no women''s lacrosse'
@@ -52,11 +52,11 @@ Women's college lacrosse recruiting has its own rhythm, its own rules, and its o
 
 ## What makes women's college lacrosse recruiting different
 
-Three things stand out. First, the recruiting calendar: like all of lacrosse, the women's game uses a junior-year initial-contact date rather than the June 15 rule most sports follow — **September 1 of junior year, at 12 p.m. Eastern**. (Men's lacrosse moved off September 1 as of August 1, 2026; the women's date is unchanged.) Before that date, athletes can reach out to coaches, but coaches' responses are limited.
+Two things stand out. First, the recruiting calendar: like all of lacrosse, the women's game uses a junior-year initial-contact date — **September 1 of junior year, at 12 p.m. Eastern** — rather than Division I's general rule, under which coaches' telephone calls may begin June 15 at the conclusion of sophomore year (Bylaw 13.1.3.1). (Men's lacrosse moved off September 1 as of August 1, 2026; the women's date is unchanged.) Before that date, athletes can reach out to coaches, but coaches' responses are limited.
 
-Second, women's lacrosse historically saw some of the most extreme early recruiting in all of college athletics — verbal commitments in eighth and ninth grade were not unheard of — before NCAA rule changes pushed the contact window later. That history still shapes the culture of early identification, even though the formal window now opens September 1 of junior year.
+Second, the number of programs. The NCAA projects **134** Division I, **112** Division II and **279** Division III women's lacrosse programs for 2025-26, against **77**, **80** and **236** on the men's side (the NCAA notes these are projected numbers only, and actual numbers may change). With the NAIA, which also sponsors women's lacrosse, that gives women's recruits programs at four levels to consider.
 
-Third, women's lacrosse fields a meaningfully larger pool of Division II programs than the men's game, broadening the landscape of opportunities across divisions. Together with Division III and the NAIA, that gives women's recruits pathways across several divisions.
+> **Correction, October 9, 2026.** An earlier version of this section said women's lacrosse "historically saw some of the most extreme early recruiting in all of college athletics," with verbal commitments in eighth and ninth grade, and that "that history still shapes the culture of early identification." None of it had a source, and we removed it. It also said women's lacrosse fields "a meaningfully larger pool of Division II programs than the men's game"; that comparison now gives the NCAA's projected 2025-26 program counts.
 
 *Researching men's lacrosse instead? Here's the [men's version of this guide](/lacrosse/mens/).*
 
@@ -64,9 +64,9 @@ Third, women's lacrosse fields a meaningfully larger pool of Division II program
 
 RosterWise applies [roster intelligence](/roster-intelligence/) — systematic analysis of every roster at every program — to women's lacrosse. The dimensions that matter most:
 
-- **Position depth** — how many players a program carries at Attack, Midfield, Defense, Goalie, and as draw control specialists, and when roster spots are opening. The draw specialist role in particular carries small numbers and outsized value.
+- **Position depth** — how many players a program carries at Attack, Midfield, Defense, Goalie, and as draw control specialists, and when roster spots are opening.
 - **Class-year gaps and roster turnover** — which positions are about to graduate, revealing where a program needs to recruit next.
-- **Geographic recruiting patterns** — which states and regions a program draws from. Women's lacrosse remains concentrated in the Mid-Atlantic and Northeast, with strong growth elsewhere.
+- **Geographic recruiting patterns** — which states and regions a program draws from.
 - **Pathway analysis** — club programs, the summer tournament circuit, and recruiting showcases.
 - **International composition** — tracked program by program where relevant.
 - **Transfer portal patterns** — how a program builds through the portal versus high-school recruiting.
@@ -74,7 +74,9 @@ RosterWise applies [roster intelligence](/roster-intelligence/) — systematic a
 
 ## Every recruit's timeline is different
 
-Despite the culture of early identification, programs across all divisions actively recruit through senior year and beyond. Development curves vary, and the right program depends on factors no timeline can predict. Families who feel behind can ask D2, D3, and NAIA programs directly how their recruiting timelines work. Use these guides as context — not a checklist.
+Nothing in the NCAA rules ends recruiting in junior year: Division I coaches can extend offers from September 1 of junior year onward, and programs outside Division I recruit under their own, separate rules. Development curves vary, and the right program depends on factors no timeline can predict. Families who feel behind can ask D2, D3, and NAIA programs directly how their recruiting timelines work. Use these guides as context — not a checklist.
+
+> **Correction, October 9, 2026.** An earlier version of this page said "the draw specialist role in particular carries small numbers and outsized value," that women's lacrosse "remains concentrated in the Mid-Atlantic and Northeast, with strong growth elsewhere," and that "programs across all divisions actively recruit through senior year and beyond." We have no data supporting those statements, so we removed them and stated what the rules establish instead.
 
 ## Women's lacrosse content
 

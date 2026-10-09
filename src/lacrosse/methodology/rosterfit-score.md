@@ -33,6 +33,9 @@ sources:
   - "Publicly available college lacrosse rosters from institutional athletics websites"
   - "NCAA.org — Division membership and program data"
   - "House v. NCAA settlement (approved June 6, 2025) — D1 roster cap framework"
+  - "<strong>2026-27 NCAA Division I Manual, Bylaw 17.2 (Roster Limitations)</strong> — men's lacrosse 48, women's lacrosse 38, at schools covered by the House settlement — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
+  - "<strong>NCAA Division I Board of Directors, Anticipated Actions Contingent Upon Court Final Approval of the House v. NCAA Settlement</strong> (April 2025) — pre-settlement lacrosse scholarship limits of 12.6 (men's) and 12 (women's)"
+  - "<strong>2026-27 NCAA Division III Manual, Bylaw 15.01.3</strong> — no financial aid awarded on the basis of athletics ability"
   - "U.S. Department of Education — IPEDS data"
 cta:
   heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program, plus NJCAA men's. See it in the app."
@@ -64,15 +67,13 @@ My RosterFit evaluates eight factors. Each factor captures a different dimension
 
 **What we look at:** Number of players at the position, their class years, how many are likely departing (graduation, typical transfer rates), and the resulting depth after departures.
 
-**The nuance:** Position Need is especially important in lacrosse for specialized positions — FOGO, LSM, SSDM, and goalie. These positions have small group sizes, are difficult to develop quickly, and create concentrated recruiting need when class-year gaps emerge. Position Need is based on publicly available roster data. It cannot account for players the coach plans to convert from another position (a common practice in lacrosse, particularly midfield-to-LSM conversions), recruits who have already committed but aren't yet on the roster, or transfer portal additions. It's an indicator of likely need, not a guarantee.
+**The nuance:** Position Need is especially important in lacrosse for specialized positions — FOGO, LSM, SSDM, and goalie. When a position group is small, a single departure moves the need more than it would in a large group. Position Need is based on publicly available roster data. It cannot account for players the coach plans to move from another position, recruits who have already committed but aren't yet on the roster, or transfer portal additions. It's an indicator of likely need, not a guarantee.
 
 ### 2. Academic Match
 
 **What it measures:** How well the recruit's academic profile aligns with the institution's academic profile.
 
-**Why it matters:** College is a four-year academic commitment, not just an athletic one. A recruit whose academic profile is well below an institution's typical range will face admissions challenges. A recruit whose profile significantly exceeds an institution's range might find a better academic match elsewhere. The sweet spot is alignment — where the recruit is academically competitive and the institution offers the academic experience the recruit wants.
-
-This is particularly important in lacrosse because the sport has a strong concentration of programs at highly academic institutions — the Ivy League, NESCAC, Centennial Conference, Patriot League, and many private institutions. Academic Match matters more in lacrosse than in some other sports because the academic-athletic alignment is more often a deciding factor.
+**Why it matters:** College is a four-year academic commitment, not just an athletic one. A recruit whose academic profile is well below an institution's typical range may face admissions challenges. A recruit whose profile significantly exceeds an institution's range might find a better academic match elsewhere. The sweet spot is alignment — where the recruit is academically competitive and the institution offers the academic experience the recruit wants.
 
 **What we look at:** Publicly available institutional data on admission rates, academic profiles, and available programs of study.
 
@@ -90,7 +91,7 @@ This is particularly important in lacrosse because the sport has a strong concen
 
 **What it measures:** How well the recruit's development pathway (club, prep school, high school) aligns with the pathways that have historically fed into the program.
 
-**Why it matters:** Lacrosse programs have particularly strong pathway pipelines compared to many sports. The MIAA (Maryland Interscholastic Athletic Association), IAAM (girls), Inter-Academic League (Philadelphia area), FCIAC (Connecticut), NESCAC feeder schools, and elite club teams (NLF members, IWLCA tournament regulars) all have established relationships with specific college programs. A recruit from a club or prep school that has sent multiple players to a program benefits from an existing relationship between the club coach and the college coach. Pathway Alignment identifies these connections.
+**Why it matters:** If a club, prep school, or high school has sent players to a program before, there may be an existing connection between that coach and the college staff. Pathway Alignment identifies these connections.
 
 **What we look at:** The previous schools and clubs listed for current roster players, identifying patterns in where the program recruits from.
 
@@ -100,17 +101,17 @@ This is particularly important in lacrosse because the sport has a strong concen
 
 **What it measures:** How the recruit's height compares to the program's roster at the same position group.
 
-**Why it matters:** Different coaches and programs have different physical profiles they prefer at each position. In men's lacrosse, this is especially evident at close defense (where programs that consistently recruit 6'2"+ defenders have a clear preference) and at goalie. In women's lacrosse, height preferences are typically less pronounced but still vary by program and position. Height Fit tells the recruit whether their physical profile matches what the program has historically valued at their position.
+**Why it matters:** A program's current roster shows the heights of the players it has at each position. If those players are consistently taller or shorter than your athlete, that's worth knowing — and worth asking the coach about. Height Fit tells the recruit how their height compares with the players the program has rostered at their position.
 
 **What we look at:** Heights of current roster players at the recruit's position, compared to the recruit's height.
 
-**The nuance:** Height is one physical dimension among many. A program that has historically recruited taller players at a position might still value a shorter player with exceptional stick skills, lacrosse IQ, or athleticism. Height Fit is a data point, not a disqualifier. It matters more at some positions (close defense, goalie) than others (attack, midfield).
+**The nuance:** Height is one physical dimension among many. A program that has historically recruited taller players at a position might still value a shorter player with exceptional stick skills, lacrosse IQ, or athleticism. Height Fit is a data point, not a disqualifier.
 
 ### 6. Geographic Fit
 
 **What it measures:** The geographic relationship between the recruit's location and the program's location and recruiting patterns.
 
-**Why it matters:** Lacrosse has more pronounced geographic recruiting patterns than many sports. Programs in the Mid-Atlantic and Northeast often recruit heavily from those regions; programs in emerging lacrosse regions (West Coast, Southeast, Midwest) often draw from a mix of local talent and Mid-Atlantic transplants. A recruit from Georgia applying to a program in Vermont that recruits almost exclusively from New England faces a different dynamic than a recruit from Massachusetts applying to the same program. Geographic Fit identifies whether the recruit's location aligns with the program's typical geographic reach.
+**Why it matters:** A program's roster hometowns show whether it draws mostly from nearby states or recruits more widely. Say a program's roster comes almost entirely from New England: a recruit from Massachusetts and a recruit from Georgia are in different positions there. Geographic Fit identifies whether the recruit's location aligns with where the program's current players come from.
 
 For Canadian recruits in men's lacrosse, geographic fit takes on a unique meaning — see [International Composition](/lacrosse/methodology/international-composition/) for more on Canadian recruiting pipelines.
 
@@ -126,17 +127,19 @@ For Canadian recruits in men's lacrosse, geographic fit takes on a unique meanin
 
 **What we look at:** Publicly available data including published cost of attendance, average financial aid awards, and institutional financial aid generosity metrics. We use institutional-level data from federal sources.
 
-**The nuance:** Financial Fit is based on aggregate institutional data, not individual family circumstances. Actual financial aid offers depend on family income, assets, the FAFSA, and institutional policies. The score provides a general indicator, not a specific prediction. The post-House-settlement era has changed the financial picture at D1 — D1 men's lacrosse can now offer up to 48 athletic scholarships (up from 12.6 equivalencies); D1 women's lacrosse can offer up to 38 (up from 12). D2, D3, NAIA, and NJCAA programs are assessed differently. D3 programs cannot offer athletic scholarships, but academic merit aid at strong-academic D3 schools can produce competitive financial outcomes. See [Scholarships After the House Settlement](/lacrosse/mens/guide/scholarships-after-house-settlement/) for more.
+**The nuance:** Financial Fit is based on aggregate institutional data, not individual family circumstances. Actual financial aid offers depend on family income, assets, the FAFSA, and institutional policies. The score provides a general indicator, not a specific prediction. The House settlement changed the financial picture at D1 schools it covers: sport-specific scholarship limits (12.6 equivalencies for men's lacrosse, 12 for women's) were replaced by roster limits of 48 and 38, so a program can offer athletic aid to every player on its roster, up to that limit. D2, D3, NAIA, and NJCAA programs are assessed differently. D3 programs cannot award financial aid on the basis of athletics (NCAA Division III Bylaw 15.01.3). See [Scholarships After the House Settlement](/lacrosse/mens/guide/scholarships-after-house-settlement/) for more.
 
 ### 8. Division Level
 
 **What it measures:** How the recruit's competitive profile aligns with the program's competitive level and division.
 
-**Why it matters:** The competitive level varies not just across divisions (D1, D2, D3, NAIA, NJCAA) but within them. A recruit who would start at a mid-tier D2 program but sit on the bench at a top D1 program needs to weigh the value of playing time against the division label. Division Level helps calibrate expectations about competitive fit. In lacrosse, this distinction is especially important because top D3 programs (NESCAC, Centennial Conference, others) play at very high levels — sometimes higher than the bottom of D1.
+**Why it matters:** The division label alone doesn't tell you where your athlete would play. A recruit weighing playing time against a division label needs a sense of where they fit at each program. Division Level helps calibrate expectations about competitive fit.
 
 **What we look at:** The program's division, recent competitive results, and conference strength — contextualized against the recruit's self-assessed competitive level.
 
 **The nuance:** Competitive level is the most subjective dimension because it depends on an honest self-assessment from the recruit and family. RosterWise cannot evaluate a player's talent from data alone. We provide the competitive context; the family provides the self-assessment.
+
+> **Correction, October 9, 2026.** An earlier version of the factor descriptions above said position conversions are "a common practice in lacrosse"; that lacrosse has "a strong concentration of programs at highly academic institutions" and that academic alignment is "more often a deciding factor" than in other sports; that named school leagues and club groups "all have established relationships with specific college programs"; that women's height preferences are "typically less pronounced"; that lacrosse has "more pronounced geographic recruiting patterns than many sports"; that academic merit aid at D3 schools "can produce competitive financial outcomes"; and that "top D3 programs … play at very high levels — sometimes higher than the bottom of D1." None of it had a source, and ranking programs is outside what we publish. We rewrote those passages to describe what the roster shows. The descriptions of what each factor measures are unchanged.
 
 ## How the factors combine
 
@@ -157,9 +160,11 @@ We believe in being transparent about the limits of any scoring system:
 - **A coach's subjective evaluation.** Coaches recruit based on film, in-person evaluation, personal interaction, and factors no database captures.
 - **Team chemistry.** Some recruits will thrive in a program's culture; others won't. This is invisible to data analysis.
 - **Incoming recruiting class.** RosterFit is based on the current roster. Recruits who have already committed but aren't yet on the roster can change the picture.
-- **Transfer portal dynamics.** Programs actively recruiting the transfer portal may fill needs that the current roster suggests exist. The post-House-settlement environment has accelerated transfer activity in lacrosse.
-- **Position conversions.** Lacrosse coaches frequently convert players across positions — midfielder to LSM, attacker to midfielder, etc. RosterFit reads stated positions, not conversion plans.
+- **Transfer portal dynamics.** Programs actively recruiting the transfer portal may fill needs that the current roster suggests exist.
+- **Position conversions.** A coach may move a player to a different position — midfielder to LSM, attacker to midfielder, and so on. RosterFit reads stated positions, not conversion plans.
 - **Personal preferences.** Campus feel, distance from home, social environment, and other personal factors that matter enormously to individual families.
+
+> **Correction, October 9, 2026.** An earlier version of this list said the House settlement "has accelerated transfer activity in lacrosse" and that lacrosse coaches "frequently convert players across positions." We have no source for either, so we removed the first and softened the second.
 
 RosterFit provides a structured, data-driven foundation. The best recruiting decisions combine that foundation with personal judgment, campus visits, coach conversations, and family values.
 

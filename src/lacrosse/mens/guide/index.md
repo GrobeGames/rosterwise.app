@@ -13,11 +13,11 @@ breadcrumbs:
 children:
   - title: "Men's College Lacrosse Recruiting Timeline"
     url: /lacrosse/mens/guide/recruiting-timeline/
-    summary: "The new Wednesday-after-Labor-Day contact rule, typical timelines by division, and the current recruiting landscape."
+    summary: "The new Wednesday-after-Labor-Day contact rule, the 2026-27 Division I calendar, and a grade-by-grade guide to what the rules allow."
     status: live
   - title: "Men's Lacrosse Scholarships After the House Settlement"
     url: /lacrosse/mens/guide/scholarships-after-house-settlement/
-    summary: "The House settlement moved D1 men's lacrosse from 12.6 to up to 48 scholarships — but the reality varies dramatically by program. An honest, division-by-division family guide."
+    summary: "The House settlement moved D1 men's lacrosse from 12.6 to up to 48 scholarships at the schools it covers — but each program decides what it funds. An honest, division-by-division family guide."
     status: live
   - title: "The Men's College Lacrosse Club & Showcase Pathway"
     url: /lacrosse/mens/guide/club-pathways/
@@ -33,15 +33,15 @@ children:
     status: live
   - title: "Recruiting Video for Men's Lacrosse"
     url: /lacrosse/mens/guide/recruiting-video/
-    summary: "What coaches actually want to see — by position, including FOGO and LSM — with direct guidance from named D1 head coaches and the pre-contact-date reality."
+    summary: "What the footage can show at each position, including FOGO and LSM, what to include and avoid, and how the contact date affects it."
     status: live
   - title: "What Men's College Lacrosse Coaches Look for by Position"
     url: /lacrosse/mens/guide/coaches-look-for-by-position/
-    summary: "What coaches evaluate for Attack, Midfield, Defense, LSM, FOGO, and Goalie — with primary-source NCAA rules and named-coach guidance."
+    summary: "What each position does under the NCAA playing rules — Attack, Midfield, Defense, LSM, FOGO, and Goalie — and the questions to ask coaches about how they evaluate it."
     status: live
 ---
 
-Men's lacrosse-specific recruiting guides — covering timelines, scholarships, pathways, and position-specific evaluation. These guides are in development and will publish into this section as they're completed.
+Men's lacrosse-specific recruiting guides — covering timelines, scholarships, pathways, and position-specific evaluation.
 
 For topics that apply across every sport, see our universal [Recruiting Guides](/guide/). For the broader men's lacrosse landscape, see the [Men's College Lacrosse](/lacrosse/mens/) hub.
 

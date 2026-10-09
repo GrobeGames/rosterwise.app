@@ -1,7 +1,7 @@
 ---
 layout: content.njk
 title: "What Women's Lacrosse College Coaches Look For By Position | RosterWise™"
-description: "Women's college lacrosse coaches evaluate attackers, midfielders, defenders, and goalies on different criteria. Here's what coaches actually look for at each position, with primary-source guidance from NCAA rules and named college coaches."
+description: "Attackers, midfielders, defenders and goalies do different jobs in women's college lacrosse. What each position does, what film can show, and what to ask coaches about how they evaluate it."
 date: 2026-08-26
 breadcrumbs:
   - text: Home
@@ -13,7 +13,7 @@ breadcrumbs:
   - text: Guides
     url: /lacrosse/womens/guide/
   - text: What Coaches Look For By Position
-summary: "Women's college lacrosse has a distinctive positional structure that affects how college coaches evaluate recruits. Unlike most other sports, NCAA women's lacrosse plays with 12 players on the field — divided across four positional groups — while international women's lacrosse plays 10v10. The structure of evaluation differs by position, and the draw control specialist role inside the midfield is one of the most distinctive features of the sport. This guide walks through what college coaches actually look for at each women's lacrosse position, with primary-source guidance from the NCAA Women's Lacrosse Rules, the Intercollegiate Women's Lacrosse Coaches Association (IWLCA), and direct quotes from named college coaches."
+summary: "NCAA women's lacrosse plays with up to 12 players per side, against 10 in international women's field lacrosse. This guide walks through what each position does — attack, midfield (including the center, who takes the draw), defense and goalie — drawing on the NCAA Women's Lacrosse Rules and the Intercollegiate Women's Lacrosse Coaches Association (IWLCA). How much a coach weighs any one skill differs from program to program, so we describe the jobs and give you the questions to ask; the weighting is for the coaches you talk to."
 related:
   - title: "The September 1 Junior Year Rule: Why Lacrosse Recruiting Is Different"
     url: /lacrosse/guide/september-1-junior-year-rule/
@@ -29,15 +29,15 @@ related:
     url: /guide/recruiting-questionnaires/
 faq:
   - q: "My daughter plays midfield but mainly focuses on scoring. Should she be listed as an attacker?"
-    a: "Talk to her coach. If she plays primarily on the offensive side, 'attacking midfielder' is a common designation. If she'd be best evaluated as an attacker by college coaches, the high school or club coach may want to play her as an attacker. Position designation matters for evaluation but isn't fixed — many recruits transition between positions during their development."
+    a: "Talk to her coach. If she plays primarily on the offensive side, 'attacking midfielder' is one way to describe it. If she'd be best evaluated as an attacker by college coaches, the high school or club coach may want to play her as an attacker. Position designation matters for evaluation but isn't fixed — some recruits change positions as they develop."
   - q: "What if my daughter plays multiple positions?"
-    a: "Many women's lacrosse recruits play multiple positions, especially at the youth and high school levels. Highlight that versatility in recruiting materials — but be specific about which position is her primary and which positions she could play in college."
+    a: "That's worth showing. Highlight that versatility in recruiting materials — but be specific about which position is her primary and which positions she could play in college."
   - q: "My daughter is a great draw specialist. Is that enough to get recruited?"
-    a: "A strong draw specialist who can also contribute as a midfielder is valuable. A draw specialist who can only win draws (and not contribute meaningfully in field play) has a more limited recruiting market. How much a program values a pure specialist varies, so ask each coach how draw specialists fit their roster."
+    a: "It depends on the program, and no rule settles it. We don't have data on how programs value draw specialists, so ask each coach how draw specialists fit their roster, and whether they want the player taking the draw to play in the field as well."
   - q: "How important is height for women's lacrosse positions?"
-    a: "Height matters more for goalies (where reach matters for saves) and less for other positions. Defenders benefit from height for closeout reach and ground ball boxing. Attackers and midfielders span the full range of heights at every competitive level."
+    a: "No rule sets a height requirement for any position, and we don't have data on height by position in women's college lacrosse. Ask coaches directly whether height factors into how they evaluate your daughter at her position."
   - q: "My daughter is interested in playing goalie. Are there fewer recruiting opportunities?"
-    a: "Goalies face a unique market: every team needs one, but each team rosters few. The absolute number of college roster spots for goalies is smaller than for field positions. However, the competition at each program is also more focused. Strong goalies can find competitive recruiting opportunities at all division levels."
+    a: "We don't have data on how many goalies programs carry or recruit, so we won't characterize the market. Each program's roster shows how many goalies it has now, by class year; ask its coaches how many it expects to add in your daughter's class."
 sources:
   - '<a href="https://ncaaorg.s3.amazonaws.com/championships/sports/lacrosse/rules/women/PRWLA_RulesBook.pdf">NCAA — 2026 and 2027 Women''s Lacrosse Rules</a> (February 2026)'
   - "<strong>NCAA Women's Lacrosse Statisticians' Manual</strong> — Official NCAA statistical definitions including draw control, save percentage, caused turnovers"
@@ -77,21 +77,23 @@ Per the IWLCA (iwlca.org) and the NCAA Women's Lacrosse Rules 2026-2027 (publish
 
 **Field size** (per USA Lacrosse Girls Youth Rule Book): maximum playing area 140 × 70 yards, minimum 110 × 60 yards.
 
-The 12-player structure at NCAA level means evaluation by position is more granular than in international women's lacrosse. College coaches evaluate athletes specifically against the 4-3-4-1 positional framework — and they look for different things in each role.
+Each position does a different job, so the sections below describe each one. How heavily a given coach weighs each skill is not something we can source, so the page closes with questions to ask.
 
-## Universal qualities every college coach evaluates
+> **Correction, October 9, 2026.** An earlier version of this page said evaluation by position is "more granular" at the NCAA level than internationally, that coaches evaluate "specifically against the 4-3-4-1 positional framework," and presented the lists below as what coaches "evaluate," including qualities that "come up across every position in published coaching guidance." We could not name the guidance behind those statements. The lists now describe each position's job, and the weighting is a question for the coaches you talk to.
 
-Before the position-specific criteria, some qualities come up across every position in published coaching guidance.
+## Qualities that show at every position
 
-**How an athlete competes, not just what they finish.** The qualities coaches describe wanting to see are consistent and unglamorous: two-way play rather than a single strength, energy and hustle, competitive intensity, athleticism, sound fundamentals, sportsmanship, and evidence of being a good teammate. Hustle on ground balls, communication on defence, and effort off the ball are all visible on film and all get evaluated.
+Some things show up on film at every position.
 
-**Two-handed play.** A player who can receive, carry, dodge, shoot and feed with both hands is harder to defend and easier to slot into a system. It is a point made just as often in the women's game as the men's.
+**How an athlete competes, not just what she finishes.** Two-way play, energy and hustle, competitiveness, athleticism, sound fundamentals, sportsmanship, and how she plays with teammates. Ground balls, communication on defense, and effort off the ball are all visible on film. Ask coaches which of these they weigh most.
+
+**Two-handed play.** Receiving, carrying, dodging, shooting and feeding with either hand is a skill film can show directly. Ask coaches how much it factors into their evaluation.
 
 ## Attackers (4 positions)
 
 Per the William Jewell College Athletics official women's lacrosse 101: "There are four attackers, all who look to score. Attackers must continually cut toward the goal for a shot or cut away from the goal to make room for another player. All should have excellent stick work and be able to shoot well from every angle and distance from the goal."
 
-**What college coaches evaluate in attackers**:
+**What the attack job involves**:
 
 **Scoring ability**:
 - Goals scored in competitive game situations against challenging defense
@@ -102,14 +104,14 @@ Per the William Jewell College Athletics official women's lacrosse 101: "There a
 **Vision and feeding**:
 - Making the assist pass that creates the goal
 - Reading defenses and finding the open teammate
-- Vision behind the goal (X) — a key area for women's attackers
+- Vision from behind the goal (X)
 - Skip passes and behind-the-back finds
 
 **Dodging and offensive movement**:
 - Change-of-direction dodges that beat defenders
 - Split dodges, hitch dodges
 - Continuous off-ball movement that creates space for teammates
-- Cutting toward goal — the constant motion that defines effective women's attack play
+- Cutting toward goal
 
 **Ride and pressure**:
 - Defensive contribution from offensive positions
@@ -117,61 +119,61 @@ Per the William Jewell College Athletics official women's lacrosse 101: "There a
 - Causing turnovers in transition
 
 **Stick skills**:
-- Two-handed dexterity (essential for high-level evaluation)
+- Two-handed dexterity
 - Quick release on shots
 - Catching and finishing in traffic
 - Stick protection while dodging
 
 ### The "8-meter" reality
 
-Women's college lacrosse has specific rules around the 8-meter arc — the area directly in front of the goal where defenders must be within a stick length of their attacker. Per the NCAA Women's Lacrosse Rules 2026-2027, this creates a distinctive offensive evaluation criterion: how an attacker uses cuts inside the 8-meter and the threat she poses to draw a defender into a foul. Coaches look for attackers who understand how to draw fouls in the 8-meter and capitalize on free-position opportunities.
+Women's college lacrosse has specific rules around the 8-meter arc — the area directly in front of the goal where defenders must be within a stick length of their attacker. How an attacker uses cuts inside the 8-meter, draws fouls, and finishes free-position shots are part of the attack job; ask coaches how much weight they give them.
 
 ## Midfielders (3 positions)
 
-The midfield is where the most distinctive women's lacrosse evaluation happens. Per the William Jewell College Athletics official 101: "The midfielders are responsible for transitioning the ball from defense to attack and vice versa. They should have speed and endurance and be ready to receive the ball from the defense and run or pass the ball. There are three midfielders, one of which is the Center."
+Per the William Jewell College Athletics official 101: "The midfielders are responsible for transitioning the ball from defense to attack and vice versa. They should have speed and endurance and be ready to receive the ball from the defense and run or pass the ball. There are three midfielders, one of which is the Center."
 
 **The three midfielders**:
 - **Center**: Takes the draw, which starts play at the beginning of the game and restarts it after goals. Plays both offense and defense.
-- **Two wing midfielders**: One typically focused more on offense, one on defense, both covering the entire field.
+- **Two other midfielders**: Both play at both ends of the field.
 
-**What college coaches evaluate in midfielders**:
+**What the midfield job involves**:
 
 **Two-way play**:
 - Both offensive and defensive contribution
-- The midfielders cover the most ground in the game
-- Coaches actively evaluate whether a midfielder can defend as well as score
+- Defending as well as scoring
 
 **Draw control work** (especially for the center):
 - Per the NCAA Women's Lacrosse Statisticians' Manual, draw control is an official women's-lacrosse-specific statistic tracked by NCAA at all divisions
-- Centers who win draws give their team possession and shift the entire game
-- Coaches evaluate draw mechanics, body positioning, and the ability to direct the ball to specific spots
+- Winning the draw gives her team possession
+- Draw mechanics, body positioning, and the ability to direct the ball to specific spots
 
 **Transition play**:
-- Running the field — the midfielders cover the entire 110-140 yards
+- Running the full length of the field
 - Finishing fast breaks
 - Defending against fast breaks
 - Outlet passing from defense to attack
 
 **Ground ball play**:
-- The 50/50 ground ball wins games and coaches notice
+- Winning 50/50 ground balls
 - Boxing out opposing players
 - Cradling cleanly after pickups
 - Transitioning the ground ball into offense
 
 **Stamina and athleticism**:
-- The midfield demands the highest fitness level
-- Coaches evaluate whether a midfielder can maintain intensity through the full game
+- Keeping up intensity through a full game
 
 ### The draw specialist consideration
 
-The center who specializes in winning draws holds one of the most influential roles in women's lacrosse. Some teams have a dedicated draw specialist who substitutes in primarily for draws and then leaves the field. Coaches who recruit draw specialists actively look for:
+A team may use a dedicated draw specialist who comes in primarily for draws. If the draw is your daughter's strength, things to show and to ask about:
 
 - Draw control percentage in competitive games
 - Draw technique — body angle, stick position, body strength
 - Athleticism on the draw — the ability to react to the loose ball
-- Versatility — many draw specialists also contribute as field players
+- Whether she also plays in the field — ask each coach how draw specialists fit their roster
 
-For recruits whose primary strength is the draw, dedicated draw footage is essential. Coaches need to see consistent draw mechanics in real game situations, including against high-quality opposing draw specialists.
+Include draw footage from real games, so coaches can see her mechanics against live opponents.
+
+> **Correction, October 9, 2026.** An earlier version of this section said the draw specialist "holds one of the most influential roles in women's lacrosse," that "many draw specialists also contribute as field players," and that coaches "actively look for" the items listed. It also said the midfielders "cover the most ground in the game" and that "the midfield demands the highest fitness level." None of it had a source, and we rewrote it as a description of the job and questions to ask.
 
 ## Defenders (4 positions)
 
@@ -179,10 +181,9 @@ Per the William Jewell College Athletics official 101: "There are four defenders
 
 **The four defenders**:
 - The four defenders work together to defend against the opposing four attackers
-- One defender is typically responsible for the opposing point attack (the most dangerous attacker)
 - Defenders work within team defensive systems including slides, recoveries, and double teams
 
-**What college coaches evaluate in defenders**:
+**What the defense job involves**:
 
 **One-versus-one defensive technique**:
 - Body position and stance
@@ -202,27 +203,24 @@ Per the William Jewell College Athletics official 101: "There are four defenders
 - Body positioning on 50/50 plays
 
 **Caused turnovers**:
-- The defensive equivalent of goals scored
 - An NCAA-tracked statistic
-- Coaches actively look at how a defender creates turnovers
 
 **Communication on team defense**:
 - Calling switches, slides, recoveries
-- Vocal leadership visible even in highlight clips
+- Vocal leadership, where it shows on film
 - Organizing the defense before the offense attacks
 
 **The 8-meter and 12-meter discipline**:
 - Per the NCAA Women's Lacrosse Rules 2026-2027, defenders inside the 8-meter arc must be within a stick length of their attacker
 - The 12-meter fan governs administration of minor fouls
-- Defenders who consistently maintain proper position in these zones are evaluated favorably
 
 ## Goalies (1 position)
 
 Per the William Jewell College Athletics official 101: "The goalie's responsibility is to protect the goal. She should have good stick work, courage and confidence."
 
-But the goalie's role extends far beyond protecting the goal. Goalies are typically the leaders of the defense.
+A goalie also organizes the defense in front of her.
 
-**What college coaches evaluate in goalies**:
+**What the goalie job involves**:
 
 **Save percentage and consistency**:
 - Saves of varying difficulty and shot types
@@ -230,16 +228,15 @@ But the goalie's role extends far beyond protecting the goal. Goalies are typica
 - Save percentage tracked by NCAA at all divisions
 
 **Communication and leadership**:
-- Per multiple coaching guidance sources, leadership is one of the most important qualities college coaches look for in goalies
 - Vocal organization of the defense
 - Calling out attackers, slides, switches, and assignments
-- Leadership that's visible even in highlight clips through body language and on-field presence
+- Leadership and presence, which can show on film
 
 **Clearing game**:
 - Outlet passes that create fast-break offense
-- A goalie's clear-game ability can transform defensive stops into offensive opportunities
+- Turning saves into clears and transition offense
 - Clearing percentage is an NCAA-tracked team statistic
-- Two-handed dexterity in outlet passing matters
+- Two-handed outlet passing
 
 **Athletic positioning**:
 - Both inside the cage and outside it
@@ -253,48 +250,51 @@ But the goalie's role extends far beyond protecting the goal. Goalies are typica
 
 ## How recruiting profiles differ by position
 
-The post-House settlement [scholarship landscape](/lacrosse/womens/guide/scholarships-after-house-settlement/) has expanded what's possible for women's lacrosse recruits, but the position-specific recruiting reality remains:
+The House settlement changed the [scholarship and roster framework](/lacrosse/womens/guide/scholarships-after-house-settlement/), not the positions. We don't have data on how recruiting differs by position — how deep each position's recruiting pool is, or how many goalies or draw specialists programs carry — so we won't characterize it.
 
-- **Attackers and midfielders** typically face the deepest recruiting pools at the most competitive levels — there are many strong offensive players, and the competition for top spots is intense
-- **Defenders** face a slightly different recruiting environment — coaches need a balance of physical and skilled defenders, and athletes with strong defensive skills can find spots even at competitive levels
-- **Goalies** face a unique recruiting market — every team needs goalies, but each team typically rosters only 2-3, meaning competition for the top spots can be very intense, but the absolute numbers needed are smaller
-- **Specialized draw specialists** can sometimes find paths into competitive programs through their distinctive skill, even if they don't fit traditional all-around midfielder profiles
+The useful questions are for each program: how many players at your daughter's position it expects to add in her class, and who is already there by class year. The program's roster shows the second.
 
 ## Specific position evaluation guidance
 
 For families with athletes at each position, several practical considerations:
 
-**For attackers**: Focus development on scoring variety, two-handed dexterity, and offensive vision. The competition is steep at the top level, so distinguishing skills (e.g., behind-the-back finishing, time-and-room shooting, the ability to draw fouls in the 8-meter) can separate.
+For families with athletes at each position, questions worth asking each coaching staff:
 
-**For midfielders**: Develop both offensive and defensive skills. Draw control is a meaningful differentiator. Conditioning is non-negotiable — coaches expect midfielders to maintain intensity for the full game.
+**For attackers**: Which matters most to you in an attacker — scoring variety, two-handed play, feeding, or play inside the 8-meter? What would you want to see more of on her film?
 
-**For defenders**: Master one-versus-one technique and team defense. Strong stick work in clearing makes you stand out. Communication ability is often the difference between top defenders and average ones.
+**For midfielders**: Do you want midfielders who play both ends, or do you use specialists? Does she need to take the draw to fit your roster? How do you assess conditioning?
 
-**For goalies**: Focus on save technique fundamentals, clearing game development, and communication. Leadership presence matters as much as save percentage. Goalie-specific recruiting can be more relationship-driven (since teams roster few goalies), so direct outreach to coaches is particularly important.
+**For defenders**: How do you weigh one-versus-one defending, team defense, clearing, and communication? What would you want to see more of on her film?
+
+**For goalies**: How many goalies do you carry, and how many do you expect to add in her class? How do you weigh saves, clearing, and communication?
+
+> **Correction, October 9, 2026.** An earlier version of these two sections said attackers and midfielders "typically face the deepest recruiting pools," that each team "typically rosters only 2-3" goalies, that "communication ability is often the difference between top defenders and average ones," that "leadership presence matters as much as save percentage," that "draw control is a meaningful differentiator," and that goalie recruiting "can be more relationship-driven." None of it had a source, so we replaced it with the questions to ask.
 
 ## Common questions about position-based evaluation
 
 **"My daughter plays midfield but mainly focuses on scoring. Should she be listed as an attacker?"**
 
-Talk to her coach. If she plays primarily on the offensive side, "attacking midfielder" is a common designation. If she'd be best evaluated as an attacker by college coaches, the high school or club coach may want to play her as an attacker. Position designation matters for evaluation but isn't fixed — many recruits transition between positions during their development.
+Talk to her coach. If she plays primarily on the offensive side, "attacking midfielder" is one way to describe it. If she'd be best evaluated as an attacker by college coaches, the high school or club coach may want to play her as an attacker. Position designation matters for evaluation but isn't fixed — some recruits change positions as they develop.
 
 **"What if my daughter plays multiple positions?"**
 
-Many women's lacrosse recruits play multiple positions, especially at the youth and high school levels. Highlight that versatility in recruiting materials — but be specific about which position is her primary and which positions she could play in college.
+That's worth showing. Highlight that versatility in recruiting materials — but be specific about which position is her primary and which positions she could play in college.
 
 **"My daughter is a great draw specialist. Is that enough to get recruited?"**
 
-A strong draw specialist who can also contribute as a midfielder is valuable. A draw specialist who can only win draws (and not contribute meaningfully in field play) has a more limited recruiting market. How much a program values a pure specialist varies, so ask each coach how draw specialists fit their roster.
+It depends on the program, and no rule settles it. We don't have data on how programs value draw specialists, so ask each coach how draw specialists fit their roster, and whether they want the player taking the draw to play in the field as well.
 
-> **Correction, October 9, 2026.** An earlier version of this answer said top D1 programs "typically" want draw specialists who play field minutes and that "lower competitive levels (D3, NAIA, NJCAA)" may roster pure specialists. Neither statement had a source, and ranking divisions is outside what we publish. It also named the NJCAA, which discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only.
+> **Correction, October 9, 2026.** An earlier version of this answer said top D1 programs "typically" want draw specialists who play field minutes and that "lower competitive levels (D3, NAIA, NJCAA)" may roster pure specialists. Neither statement had a source, and ranking divisions is outside what we publish. It also named the NJCAA, which discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only. It also said a draw specialist who can only win draws "has a more limited recruiting market"; that had no source either, and we removed it.
 
 **"How important is height for women's lacrosse positions?"**
 
-Height matters more for goalies (where reach matters for saves) and less for other positions. Defenders benefit from height for closeout reach and ground ball boxing. Attackers and midfielders span the full range of heights at every competitive level.
+No rule sets a height requirement for any position, and we don't have data on height by position in women's college lacrosse. Ask coaches directly whether height factors into how they evaluate your daughter at her position.
 
 **"My daughter is interested in playing goalie. Are there fewer recruiting opportunities?"**
 
-Goalies face a unique market: every team needs one, but each team rosters few. The absolute number of college roster spots for goalies is smaller than for field positions. However, the competition at each program is also more focused. Strong goalies can find competitive recruiting opportunities at all division levels.
+We don't have data on how many goalies programs carry or recruit, so we won't characterize the market. Each program's roster shows how many goalies it has now, by class year; ask its coaches how many it expects to add in your daughter's class.
+
+> **Correction, October 9, 2026.** An earlier version of the last two answers said height "matters more for goalies," that defenders "benefit from height," that each team "rosters few" goalies, and that "strong goalies can find competitive recruiting opportunities at all division levels." None of it had a source, and we rewrote both answers.
 
 ## Every recruit's position story is different
 

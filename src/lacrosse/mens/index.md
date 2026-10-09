@@ -11,7 +11,7 @@ breadcrumbs:
 children:
   - title: "Men's College Lacrosse Recruiting Timeline"
     url: /lacrosse/mens/guide/recruiting-timeline/
-    summary: "When commitments actually happen — the new Wednesday-after-Labor-Day contact rule, typical timelines by division, and the current recruiting landscape."
+    summary: "The new Wednesday-after-Labor-Day contact rule, the 2026-27 Division I calendar, and a grade-by-grade guide to what the rules allow."
     status: live
   - title: "How Men's College Lacrosse Scholarships Work"
     url: /lacrosse/mens/guide/scholarships-after-house-settlement/
@@ -23,7 +23,7 @@ children:
     status: live
   - title: "International Recruiting in Men's College Lacrosse"
     url: /lacrosse/mens/guide/international-recruiting/
-    summary: "How Canadian players are recruited, the box-lacrosse influence, and what it means for domestic recruits and roster composition."
+    summary: "How Canadian and other international players are recruited under NCAA rules, the box-lacrosse pathway, and the F-1 visa questions."
     status: live
   - title: "What Men's College Lacrosse Coaches Look for by Position"
     url: /lacrosse/mens/guide/coaches-look-for-by-position/
@@ -31,11 +31,11 @@ children:
     status: live
   - title: "Men's College Lacrosse ID Camps & Tournaments"
     url: /lacrosse/mens/guide/id-camps-and-tournaments/
-    summary: "Which events coaches actually attend, how college ID camps differ from showcase tournaments, and how to choose."
+    summary: "How college ID camps differ from showcase tournaments, the lacrosse camp bylaw, the event operators we can verify, and the questions to ask."
     status: live
   - title: "The Men's College Lacrosse Recruiting Video"
     url: /lacrosse/mens/guide/recruiting-video/
-    summary: "What coaches want to see in a highlight reel, how to structure it, and the mistakes that get videos closed early."
+    summary: "What a highlight reel can show at each position, how to structure it, what to avoid, and what to ask coaches."
     status: live
 sources:
   - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 17.2 (Roster Limitations: men's lacrosse 48, women's lacrosse 38), Bylaws 13.1.1.1.7 and 13.1.1.1.8 (initial contact dates) and the related telephone, materials, visit and camp provisions — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
@@ -48,11 +48,13 @@ Men's college lacrosse recruiting operates on its own timeline, with its own dyn
 
 ## What makes men's college lacrosse recruiting different
 
-Three things set men's lacrosse apart. First, the recruiting calendar: like all of lacrosse, the men's game opens contact at the start of junior year rather than under the June 15 rule most sports follow. As of August 1, 2026 the men's date is no longer September 1 — it is **7 a.m. on the Wednesday immediately following Labor Day** of junior year. Before that date, athletes can email coaches, but coaches' responses are limited and phone calls are barred in both directions.
+Three things set men's lacrosse apart. First, the recruiting calendar: like all of lacrosse, the men's game opens contact at the start of junior year rather than under Division I's general rule, which allows coaches' calls from June 15 at the end of sophomore year. As of August 1, 2026 the men's date is no longer September 1 — it is **7 a.m. on the Wednesday immediately following Labor Day** of junior year. Before that date, athletes can email coaches, but coaches' responses are limited and phone calls are barred in both directions.
 
-Second, men's lacrosse has a meaningful international presence — Canada in particular has long shaped men's college rosters, with box-lacrosse-developed players valued for their stick skills and finishing. Some programs carry a notable Canadian contingent; others recruit almost entirely domestically.
+Second, men's college rosters include international players, including Canadians, some of whom come through box lacrosse as well as the field game. The NCAA's recruiting rules apply to them the same way.
 
-Third, men's lacrosse is heavily concentrated geographically. The Mid-Atlantic and Northeast remain the sport's heartland, though the game continues to grow in the Southeast, Midwest, and West. Where a program recruits tells you a great deal about how an athlete from a given region fits.
+Third, where a program recruits matters. Each program's roster lists hometowns, which shows you where its players come from.
+
+> **Correction, October 9, 2026.** An earlier version of this section said Canada "has long shaped men's college rosters," with box-lacrosse players "valued for their stick skills and finishing," that "some programs carry a notable Canadian contingent; others recruit almost entirely domestically," and that the Mid-Atlantic and Northeast "remain the sport's heartland, though the game continues to grow" elsewhere. We have no data supporting those statements, so we removed them.
 
 *Researching women's lacrosse instead? Here's the [women's version of this guide](/lacrosse/womens/).*
 
@@ -70,7 +72,7 @@ RosterWise applies [roster intelligence](/roster-intelligence/) — systematic a
 
 ## Every recruit's timeline is different
 
-Late development is common in men's lacrosse, and the right program depends on factors no timeline can predict. Some athletes are identified early at national events; others emerge through a strong junior or senior season. Use these guides as context — not a checklist.
+The right program depends on factors no timeline can predict. Some athletes hear from coaches as soon as the rules allow; others emerge through a strong junior or senior season. Use these guides as context — not a checklist.
 
 ## Men's lacrosse content
 

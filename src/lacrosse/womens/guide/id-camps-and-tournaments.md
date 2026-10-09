@@ -13,7 +13,7 @@ breadcrumbs:
   - text: Guides
     url: /lacrosse/womens/guide/
   - text: ID Camps & Tournaments
-summary: "For most women's lacrosse recruits, the path to college recruitment runs through some combination of two distinct types of events: college ID camps and prospect days (run by specific colleges to evaluate potential recruits) and tournaments and showcases (run by independent organizers where many college coaches gather to evaluate recruits). These two event types operate under different NCAA rules, serve different recruiting functions, and require different planning approaches from families. This guide walks through the official structures we can verify from primary sources — including the specific NCAA bylaw that governs lacrosse-specific recruiting conversations at camps — and provides a framework for understanding how the broader event landscape fits together."
+summary: "Women's lacrosse recruiting events come in two broad types: college ID camps and prospect days (run by specific colleges to evaluate potential recruits) and tournaments and showcases (run by independent organizers, where college coaches attend to evaluate recruits). These two event types operate under different NCAA rules, serve different recruiting functions, and require different planning approaches from families. This guide walks through the official structures we can verify from primary sources — including the specific NCAA bylaw that governs lacrosse-specific recruiting conversations at camps — and provides a framework for understanding how the broader event landscape fits together."
 related:
   - title: "The September 1 Junior Year Rule: Why Lacrosse Recruiting Is Different"
     url: /lacrosse/guide/september-1-junior-year-rule/
@@ -56,14 +56,14 @@ ${toc}
 
 ## A note about what this guide does and doesn't claim
 
-The women's lacrosse event landscape — including both college ID camps and independent tournaments/showcases — is large enough that no single guide can responsibly catalog every event. The reality:
+The women's lacrosse event landscape — including both college ID camps and independent tournaments/showcases — is too large and changes too often for any single guide to catalog every event. What we can say:
 
-- **Hundreds of college ID camps and prospect days** are held annually across NCAA D1, D2, D3, and NAIA programs
-- **Dozens of major tournament organizers** operate national and regional events
-- **The landscape changes annually** as events are added, dropped, rebranded, or restructured
+- **College ID camps and prospect days** are run by individual college programs
+- **Independent organizers** run national and regional tournaments and showcases; the ones we could verify from their own sites are listed below
+- **Events change** as they are added, dropped, rebranded, or restructured
 - **The "right" events for any specific recruit** depend on her position, competitive level, geography, recruiting timeline, and the specific programs she's targeting
 
-> **Correction, October 9, 2026.** An earlier version of this list counted NJCAA programs among those holding women's lacrosse ID camps. The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only.
+> **Correction, October 9, 2026.** An earlier version of this list counted NJCAA programs among those holding women's lacrosse ID camps. The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only. The same list also said "hundreds" of college ID camps are held each year and that "dozens of major tournament organizers" operate; neither count had a source, and we removed both.
 
 This guide focuses on the official structures and major operators we can verify from primary sources. It does NOT attempt to rank events, recommend specific tournaments, or provide the kind of granular guidance about "which camps to attend at which programs" that should come from people closer to your specific situation.
 
@@ -116,9 +116,9 @@ The women's lacrosse event landscape includes three broad event categories that 
 
 ### 1. College ID Camps and Prospect Days
 
-**What they are**: Events run by specific colleges (typically 1 day, sometimes 2) where the college's own coaching staff conducts instruction, drills, and small-sided games. Designed for the coaching staff to evaluate potential recruits up close in a controlled environment.
+**What they are**: Events run by a specific college where the college's own coaching staff conducts instruction, drills, and small-sided games. Designed for the coaching staff to evaluate potential recruits up close in a controlled environment.
 
-**Coach attendance**: Primarily the host program's coaches. Sometimes neighboring program coaches attend as observers.
+**Coach attendance**: The host program's coaches. Coaches from other programs may also attend; ask the host program who will be there.
 
 **Recruiting value**:
 - Direct evaluation by the program's own coaching staff
@@ -126,9 +126,9 @@ The women's lacrosse event landscape includes three broad event categories that 
 - Opportunity to interact with current players (subject to NCAA rules)
 - More controlled environment than tournaments
 
-**Typical structure**:
+**What a camp may include**:
 - Check-in and stretching
-- Instructional sessions (often run by the college coaching staff and current players)
+- Instructional sessions led by the host coaching staff
 - Small-sided games where evaluators watch closely
 - Position-specific instruction
 - Sometimes campus tour
@@ -140,31 +140,30 @@ The women's lacrosse event landscape includes three broad event categories that 
 
 **What they are**: Tournament-format events where club teams compete against each other. College coaches attend to evaluate many athletes across many games over a weekend (or week).
 
-**Coach attendance**: Many coaches from many programs — often dozens to hundreds at major events.
+**Coach attendance**: Coaches from multiple programs. Ask the organizer which programs' coaches are registered to attend.
 
 **Recruiting value**:
-- Broad exposure to many programs at once
-- Game-context evaluation against quality competition
-- Tournament organizers often provide film and roster information to coaches
+- Exposure to more than one program at once
+- Game-context evaluation against other club teams
+- Some organizers provide film and roster information to coaches
 
-**Typical structure**:
-- Pool play and bracket play over 1-3 days
+**What a tournament may include**:
+- Pool play and bracket play over one or more days
 - Multiple games per team
-- College coaches lining the sidelines
-- Sometimes featuring all-star selections and showcases
+- Sometimes all-star selections and showcases
 
 ### 3. Individual Player Showcases
 
-**What they are**: Events designed for individual player evaluation, not team competition. Players are typically grouped by age/class year and play with assigned teammates rather than their club teams.
+**What they are**: Events designed for individual player evaluation, not team competition. Players may be grouped by age or class year and play with assigned teammates rather than their club teams.
 
-**Coach attendance**: Sometimes invite-only events with focused coach attendance; sometimes broad coach attendance similar to tournaments.
+**Coach attendance**: Varies by event; ask the organizer.
 
 **Recruiting value**:
 - Individual evaluation without dependence on a club team
-- Often graded with standardized evaluation processes
-- Useful for athletes whose club team may not attend top tournaments
+- Some use a standardized evaluation or grading process
+- An option for athletes whose club team doesn't attend the events she's targeting
 
-**Typical structure**:
+**What a showcase may include**:
 - Drill stations with college coaches running instruction
 - Small-sided games with mixed teams
 - Individual evaluation grading
@@ -172,7 +171,7 @@ The women's lacrosse event landscape includes three broad event categories that 
 
 ## Major Women's Lacrosse Tournament Organizers and Events
 
-This section covers what we can verify from primary sources about the major event operators. It is not comprehensive — many additional organizers and events exist.
+This section covers what we can verify from primary sources about the major event operators. It is not comprehensive — other organizers and events exist.
 
 ### IWLCA Tournament Series
 
@@ -188,7 +187,7 @@ Already covered in detail in our [Women's Club Pathways guide](/lacrosse/womens/
 
 Per the IWLCA, the Tournament Series was created by college coaches "to streamline the recruiting process and make a more effective and affordable process for both college coaches and prospective student-athlete families."
 
-**Why these matter**: The IWLCA Tournament Series is the recruiting event series most directly organized BY the college coaches association. College coaches at D1, D2, D3, and NAIA programs attend in significant numbers.
+**Why these matter**: The IWLCA Tournament Series is the recruiting event series organized by the college coaches' association itself. The IWLCA says its events draw college coaches from Division I, Division II, Division III, and NAIA institutions; ask the coaches at your target programs which ones they plan to attend.
 
 ### NLF Events (Boys-Focused but Some Crossover)
 
@@ -199,7 +198,7 @@ Per the National Lacrosse Federation (nationallacrossefederation.com), the NLF r
 Per NXT Sports (nxtsports.com), NXT operates 65+ team, individual, and recruiting events nationwide. NXT events include both boys and girls programming.
 
 Girls events at NXT include:
-- **Girls Fall Continental Cup** — partnership with Deemer Class / Best in Class Lacrosse / First Class. Per NXT: includes "Continent's best club teams" (United States and Canada). Games filmed and uploaded to IWLCARecruits platform.
+- **Girls Fall Continental Cup** — partnership with Deemer Class / Best in Class Lacrosse / First Class, with club teams from the United States and Canada. Games filmed and uploaded to IWLCARecruits platform.
 - Various girls camps, clinics, and showcases throughout the year
 
 Per NXT's own published statistics: "In the summer of 2023, 512 college coaches attended NXT Showcase & Invitationals."
@@ -208,7 +207,7 @@ NXT is part of the **3STEP Sports** network (per 3STEP Sports company informatio
 
 ### Summit Lacrosse Ventures / PLL Tournaments
 
-Per Premier Lacrosse League (premierlacrosseleague.com), Summit Lacrosse Ventures runs major Northeast tournaments. As of 2024, Summit Classic events are owned by the Premier Lacrosse League (PLL).
+Per Premier Lacrosse League (premierlacrosseleague.com), Summit Lacrosse Ventures runs tournaments in the Northeast. As of 2024, Summit Classic events are owned by the Premier Lacrosse League (PLL).
 
 Per Lake Placid official tourism communications (lakeplacid.com):
 
@@ -228,11 +227,11 @@ Per Adrenaline Lacrosse (adrln.com), a USA Lacrosse-sanctioned tournament operat
 ### Hogan Lacrosse Events
 
 Per Hogan Lacrosse (hoganlax.com):
-- **Naptown National Challenge** — Annapolis, MD; major recruiting tournament
+- **Naptown National Challenge** — Annapolis, MD; a recruiting tournament
 
-### Other Significant Operators
+### Other Operators
 
-Many additional tournament operators run major women's lacrosse events. The landscape changes frequently, and families should verify current event lineups directly with operators. Other operators include those running:
+Other tournament operators also run women's lacrosse events. Lineups change, so verify current events directly with operators. Other operators include those running:
 - Regional showcases and tournaments
 - High-school-team-specific tournaments
 - College-specific ID camps and prospect days
@@ -244,7 +243,7 @@ Because we cannot responsibly recommend specific events for your daughter's spec
 **About college ID camps and prospect days**:
 
 1. Which programs that are realistic targets for our daughter run ID camps that are worth attending?
-2. What's the realistic cost commitment for ID camps (most ID camps charge a registration fee)?
+2. What's the realistic cost commitment for ID camps, including registration fees and travel?
 3. How many ID camps make sense in a given recruiting year — and at what programs?
 4. Does it make sense to attend an ID camp before September 1 of junior year (when the coaches can watch but cannot have recruiting conversations)?
 5. After September 1 of junior year, which programs' ID camps should be priorities based on her recruiting list?
@@ -269,7 +268,7 @@ Because we cannot responsibly recommend specific events for your daughter's spec
 
 A practical framework for thinking about ID camps and tournaments together:
 
-**ID camps are typically MORE useful AFTER September 1 of junior year**, because:
+**After September 1 of junior year, an ID camp can include recruiting conversations**, because:
 - Coaches can now have substantive recruiting conversations with athletes
 - The camp becomes a direct evaluation tool tied to ongoing recruiting communication
 - The athlete can ask specific questions about the program and recruiting status
@@ -283,19 +282,17 @@ A practical framework for thinking about ID camps and tournaments together:
 - The role is primarily evaluation and visibility
 
 *Post-September 1 of junior year*:
-- Coaches actively recruit athletes during and around events
+- Coaches can recruit athletes around events, within what the recruiting calendar allows
 - Specific events become important based on which coaches the athlete is talking with
-- Communication between events and conversations accelerates
+- Communication can continue between events
 
-**A common general pattern** (which varies significantly by athlete situation):
+We don't have data on how families sequence camps and tournaments from grade to grade, so we won't suggest a typical pattern. The questions above, asked of people who know your daughter, are the better guide.
 
-- 8th-10th grade: Tournament/showcase focus, building game body of work; some early ID camp attendance to develop familiarity with specific programs
-- 10th-11th grade: Heavy tournament/showcase calendar; targeted ID camps at programs becoming serious targets
-- Post-September 1 of junior year through senior year: Focused on specific recruiting conversations through both tournament participation and ID camps at top target programs
+> **Correction, October 9, 2026.** An earlier version of this section said ID camps are "typically MORE useful AFTER September 1 of junior year" and laid out "a common general pattern" of events by grade. Neither had a source. We replaced the first with what the rule changes on that date and removed the second.
 
 ## Pre-September 1 ID Camps: A Specific Strategic Question
 
-A practical question many families face: **Is it worth attending an ID camp before September 1 of junior year, when coaches can't have recruiting conversations?**
+A practical question: **Is it worth attending an ID camp before September 1 of junior year, when coaches can't have recruiting conversations?**
 
 **Arguments for attending pre-September 1**:
 - Coaches can evaluate the athlete up close (just not converse)
@@ -308,23 +305,21 @@ A practical question many families face: **Is it worth attending an ID camp befo
 - The cost and time without direct recruiting communication
 - The coach cannot answer specific recruiting questions
 - An athlete who attends might think she's being recruited when she isn't
-- The same coaches will attend tournaments where they can watch in game context anyway
+- The same coaches may also be at tournaments where they can watch her in game context
 
 **The honest answer**: It depends on the program, the athlete's competitive level, the family's resources, and the specific timing. This is exactly the kind of question that local sources can answer for your specific situation.
 
 ## A reminder about the post-House settlement landscape
 
-The [House v. NCAA settlement](/lacrosse/womens/guide/scholarships-after-house-settlement/) (approved June 6, 2025) has significantly reshaped the women's lacrosse scholarship landscape, with D1 scholarship potential expanded from 12 to up to 38 at participating schools. This may affect:
+The [House v. NCAA settlement](/lacrosse/womens/guide/scholarships-after-house-settlement/) (approved June 6, 2025) reshaped the women's lacrosse scholarship and roster framework: D1 schools that opted in can fund up to 38 scholarships, up from 12 equivalencies before, and carry up to 38 players. We don't have data on how that has changed which events coaches attend or when recruits commit, so ask the programs you meet at camps and tournaments how they are funding scholarships under the settlement.
 
-- Which programs become more or less competitive recruiting targets
-- The relative importance of various events as coaches reallocate their recruiting bandwidth
-- The dynamics around earlier vs. later commitment timing
-
-These shifts continue to play out, and the implications for ID camp and tournament strategy will become clearer over time. Families should expect the landscape to keep evolving.
+> **Correction, October 9, 2026.** An earlier version of this section said the settlement "may affect" which programs become more competitive targets, which events coaches prioritize, and commitment timing, and that "these shifts continue to play out." Those were forecasts, which we don't publish. We replaced them with what the settlement sets.
 
 ## Every recruit's event journey is different
 
-The ID camp and tournament path for any specific women's lacrosse recruit varies based on her position, her competitive level, her family's resources and geography, her target programs, and dozens of other factors. Some recruits attend 8-10 ID camps in a recruiting year; others attend 2-3. Some recruits play in 6-8 tournaments a summer; others play in 2-3. Some find their best fit through one specific tournament where a coach saw them; others build their recruiting profile across many events over years. The honest reality is that there is no "correct" event calendar — there is only the calendar that makes sense for your daughter's specific situation. Use this guide as context. Treat decisions about specific events as ones that should be informed by people closer to your specific local situation.
+The ID camp and tournament path for any specific women's lacrosse recruit varies based on her position, her competitive level, her family's resources and geography, her target programs, and dozens of other factors. Some recruits attend many ID camps in a recruiting year; others attend few. Some find their best fit through one specific tournament where a coach saw them; others build their recruiting profile across many events over years. The honest reality is that there is no "correct" event calendar — there is only the calendar that makes sense for your daughter's specific situation. Use this guide as context. Treat decisions about specific events as ones that should be informed by people closer to your specific local situation.
+
+> **Correction, October 9, 2026.** An earlier version of this paragraph said some recruits attend "8-10 ID camps in a recruiting year" and others "2-3," and that some play in "6-8 tournaments a summer." Those figures had no source, and we removed them.
 
 ---
 

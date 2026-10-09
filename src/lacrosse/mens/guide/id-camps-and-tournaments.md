@@ -13,7 +13,7 @@ breadcrumbs:
   - text: Guides
     url: /lacrosse/mens/guide/
   - text: ID Camps & Tournaments
-summary: "For most men's lacrosse recruits, the path to college recruitment runs through some combination of two distinct types of events: college ID camps and prospect days (run by specific colleges to evaluate potential recruits) and tournaments and showcases (run by independent organizers where many college coaches gather to evaluate recruits). These two event types operate under different NCAA rules, serve different recruiting functions, and require different planning approaches from families. This guide walks through the official structures we can verify from primary sources — including the specific NCAA bylaw that governs lacrosse-specific recruiting conversations at camps — and provides a framework for understanding how the broader event landscape fits together."
+summary: "Men's lacrosse recruiting events fall into two distinct types: college ID camps and prospect days (run by specific colleges to evaluate potential recruits) and tournaments and showcases (run by independent organizers where many college coaches gather to evaluate recruits). These two event types operate under different NCAA rules, serve different recruiting functions, and require different planning approaches from families. This guide walks through the official structures we can verify from primary sources — including the specific NCAA bylaw that governs lacrosse-specific recruiting conversations at camps — and provides a framework for understanding how the broader event landscape fits together."
 related:
   - title: "The September 1 Junior Year Rule: Why Lacrosse Recruiting Is Different"
     url: /lacrosse/guide/september-1-junior-year-rule/
@@ -57,15 +57,17 @@ ${toc}
 
 ## A note about what this guide does and doesn't claim
 
-The men's lacrosse event landscape — including both college ID camps and independent tournaments/showcases — is large enough that no single guide can responsibly catalog every event. The reality:
+The men's lacrosse event landscape — including both college ID camps and independent tournaments/showcases — is too large for any single guide to catalog responsibly. The reality:
 
-- **Hundreds of college ID camps and prospect days** are held annually across NCAA D1, D2, D3, NAIA, and NJCAA programs
-- **Dozens of major tournament organizers** operate national and regional events
+- **College ID camps and prospect days** are run by individual programs across NCAA D1, D2, D3, NAIA, and NJCAA, and no one publishes a complete count
+- **Independent tournament organizers** run national and regional events
 - **The landscape changes annually** as events are added, dropped, rebranded, or restructured
 - **The "right" events for any specific recruit** depend on his position, competitive level, geography, recruiting timeline, and the specific programs he's targeting
 - **Position-specific considerations matter especially in men's lacrosse**, where specialized positions (FOGO, LSM, goalie) may have distinct evaluation event paths
 
-This guide focuses on the official structures and major operators we can verify from primary sources. It does NOT attempt to rank events, recommend specific tournaments, or provide the kind of granular guidance about "which camps to attend at which programs" that should come from people closer to your specific situation.
+This guide focuses on the official structures and the operators we can verify from primary sources.
+
+> **Correction, October 9, 2026.** An earlier version of this section said "hundreds of college ID camps and prospect days are held annually" and that "dozens of major tournament organizers" operate events. Neither count had a source, so we removed them. It does NOT attempt to rank events, recommend specific tournaments, or provide the kind of granular guidance about "which camps to attend at which programs" that should come from people closer to your specific situation.
 
 ## NCAA Rules Specific to Lacrosse ID Camps
 
@@ -116,7 +118,7 @@ The men's lacrosse event landscape includes three broad event categories that se
 
 ### 1. College ID Camps and Prospect Days
 
-**What they are**: Events run by specific colleges (typically 1 day, sometimes 2) where the college's own coaching staff conducts instruction, drills, and small-sided games. Designed for the coaching staff to evaluate potential recruits up close in a controlled environment.
+**What they are**: Events run by specific colleges where the college's own coaching staff conducts instruction, drills, and small-sided games. Designed for the coaching staff to evaluate potential recruits up close in a controlled environment.
 
 **Coach attendance**: Primarily the host program's coaches. Sometimes neighboring program coaches attend as observers.
 
@@ -128,9 +130,9 @@ The men's lacrosse event landscape includes three broad event categories that se
 
 **Typical structure**:
 - Check-in and stretching
-- Instructional sessions (often run by the college coaching staff and current players)
+- Instructional sessions run by the college coaching staff (ask whether current players help)
 - Small-sided games where evaluators watch closely
-- Position-specific instruction (especially valuable for FOGOs, LSMs, and goalies)
+- Position-specific instruction (ask whether the camp offers it for FOGOs, LSMs and goalies)
 - Sometimes campus tour
 - Cost: Variable by program
 
@@ -140,30 +142,30 @@ The men's lacrosse event landscape includes three broad event categories that se
 
 **What they are**: Tournament-format events where club teams compete against each other. College coaches attend to evaluate many athletes across many games over a weekend (or week).
 
-**Coach attendance**: Many coaches from many programs — often dozens to hundreds at major events.
+**Coach attendance**: Coaches from multiple programs. Some organizers publish attendance figures for their own events (see below); ask which programs' coaches attended last year.
 
 **Recruiting value**:
 - Broad exposure to many programs at once
 - Game-context evaluation against quality competition
-- Tournament organizers often provide film and roster information to coaches
+- Some tournament organizers provide film and roster information to coaches
 
 **Typical structure**:
-- Pool play and bracket play over 1-3 days
+- Pool play and bracket play over one or more days
 - Multiple games per team
 - College coaches lining the sidelines
 - Sometimes featuring all-star selections and showcases
 
 ### 3. Individual Player Showcases
 
-**What they are**: Events designed for individual player evaluation, not team competition. Players are typically grouped by age/class year and play with assigned teammates rather than their club teams.
+**What they are**: Events designed for individual player evaluation, not team competition. Players may be grouped by age or class year and play with assigned teammates rather than their club teams.
 
 **Coach attendance**: Sometimes invite-only events with focused coach attendance; sometimes broad coach attendance similar to tournaments.
 
 **Recruiting value**:
 - Individual evaluation without dependence on a club team
-- Often graded with standardized evaluation processes
-- Useful for athletes whose club team may not attend top tournaments
-- Particularly important for specialized positions like FOGO and goalie where focused evaluation matters
+- Some showcases grade players with a standardized evaluation; ask the organizer how theirs works
+- An option for athletes whose club team doesn't attend the events their target coaches attend
+- Ask whether the showcase includes dedicated evaluation for specialized positions like FOGO and goalie
 
 **Typical structure**:
 - Drill stations with college coaches running instruction
@@ -173,7 +175,7 @@ The men's lacrosse event landscape includes three broad event categories that se
 
 ## Major Men's Lacrosse Tournament Organizers and Events
 
-This section covers what we can verify from primary sources about the major event operators. It is not comprehensive — many additional organizers and events exist.
+This section covers what we can verify from primary sources about some of the event operators. It is not comprehensive — other organizers and events exist.
 
 ### IMLCA Players Summit
 
@@ -182,9 +184,9 @@ Per the IMLCA (imlcacoaches.com), the IMLCA Players Summit is an annual recruiti
 - **IMLCA Winter Players Summit** — Held annually in Orlando, Florida. Coaches attend coaches' professional development sessions during the day and watch a recruiting tournament. The 2026 Winter Players Summit is scheduled.
 - **IMLCA Summer Players Summit 2026** — Scheduled in greater Philadelphia area July 9-10, 2026, in partnership with NXTsports and HoganLax.
 
-Per the IMLCA's own published statements, with NCAA legislation adopted in October 2023, the IMLCA Players Summit is described by the IMLCA as "the only event in the country that all NCAA Men's [Lacrosse coaches can attend]."
-
 Per IMLCARecruits (imlcarecruits.org): 750+ collegiate men's lacrosse coaches use the platform. That is the platform's own marketing figure, not an audited or association-published one.
+
+> **Correction, October 9, 2026.** An earlier version of this section relayed the IMLCA's description of the Players Summit as "the only event in the country that all NCAA Men's [Lacrosse coaches can attend]," tied to "NCAA legislation adopted in October 2023." We could not locate the legislation, and an organization's description of its own event as the only one of its kind is a promotional claim, so we removed it. For the same reason we removed the NLF's description of its events as "elite teams" and Adrenaline's description of the Platinum Cup as "one of the premier invite-only club lacrosse tournaments in the country."
 
 ### National Lacrosse Federation (NLF) Events
 
@@ -198,16 +200,16 @@ Per the National Lacrosse Federation (nationallacrossefederation.com), the NLF r
 - **NLF Fall Invitational**
 - **NLF 2027 Uncommitted Showcase**
 
-Founded in 2015, the NLF describes its events as designed to "consist of a small number of elite teams with talented players, such that every game is extremely competitive." Per the NLF: events "always consist of a small number of elite teams with talented players."
+Per the NLF, it was founded in 2015.
 
 The NLF has a partnership with USA Lacrosse for age verification (since the 2023-24 season per usalacrosse.com/nlf).
 
 ### Adrenaline Lacrosse Events
 
-Per Adrenaline Lacrosse (adrln.com), a USA Lacrosse-sanctioned tournament operator. Adrenaline operates major boys events including:
+Per Adrenaline Lacrosse (adrln.com), Adrenaline is a USA Lacrosse-sanctioned tournament operator. Its boys events include:
 
 - **Adrenaline Black Card Showcase** — invitation-only individual showcase
-- **Adrenaline Platinum Cup** — invitation-only team tournament. Per adrln.com: "Platinum Cup is recognized as one of the premier invite-only club lacrosse tournaments in the country" and "annually attracts hundreds of NCAA Division I, II, and III coaches"
+- **Adrenaline Platinum Cup** — invitation-only team tournament. Per adrln.com, it "annually attracts hundreds of NCAA Division I, II, and III coaches"
 - **Adrenaline Summer Invitational**
 - **Adrenaline Summer Showcase** (Frederica, DE)
 - **Vail Lacrosse Tournament** (Vail, Colorado)
@@ -223,11 +225,11 @@ Per NXT Sports (nxtsports.com), NXT operates 65+ team, individual, and recruitin
 
 Per NXT's own published statistics: "In the summer of 2023, 512 college coaches attended NXT Showcase & Invitationals."
 
-NXT is part of the **3STEP Sports** network and operates as a major partner of the IMLCA for the 2026 Summer Players Summit.
+NXT is part of the **3STEP Sports** network and is a partner of the IMLCA for the 2026 Summer Players Summit.
 
 ### Summit Lacrosse Ventures / PLL Tournaments
 
-Per Premier Lacrosse League (premierlacrosseleague.com), Summit Lacrosse Ventures runs major Northeast tournaments. As of 2024, Summit Classic events are owned by the Premier Lacrosse League (PLL).
+Per Premier Lacrosse League (premierlacrosseleague.com), Summit Lacrosse Ventures runs Northeast tournaments. As of 2024, Summit Classic events are owned by the Premier Lacrosse League (PLL).
 
 Per Lake Placid official tourism communications (lakeplacid.com):
 
@@ -237,16 +239,16 @@ Per Lake Placid official tourism communications (lakeplacid.com):
 
 Per the PLL: "Features of the Scholastic portion of the event include the Girls Nike Northstar (committed) Division, the Boys Summit Division, and an expansive vendor village."
 
-The Lake Placid Summit Classic has a distinctive role in lacrosse culture — per USA Lacrosse magazine coverage, the event is "going somewhat against the grain on the summertime lacrosse circuit. With the growth of club lacrosse, many of those events are oriented around recruiting and showcasing a player for college. But in Lake Placid" the event has a vacation/celebration culture in addition to the competitive elements.
+Per USA Lacrosse magazine coverage, the Lake Placid Summit Classic is "going somewhat against the grain on the summertime lacrosse circuit. With the growth of club lacrosse, many of those events are oriented around recruiting and showcasing a player for college. But in Lake Placid" the event has a vacation/celebration culture in addition to the competitive elements.
 
 ### Hogan Lacrosse Events
 
 Per Hogan Lacrosse (hoganlax.com):
-- **Naptown National Challenge** — held in Annapolis, MD; major recruiting tournament; partnership with IMLCA for 2026 Summer Players Summit
+- **Naptown National Challenge** — held in Annapolis, MD; partnership with IMLCA for 2026 Summer Players Summit
 
 ### Other Significant Operators
 
-Many additional tournament operators run major men's lacrosse events. The landscape changes frequently, and families should verify current event lineups directly with operators. Other notable structures include:
+Other tournament operators also run men's lacrosse events. The landscape changes, and families should verify current event lineups directly with operators. Other structures include:
 - D3 Lacrosse Showcase (owned by 3STEP Sports) — focused specifically on D3 recruiting
 - Regional showcases and tournaments
 - High-school-team-specific tournaments
@@ -254,24 +256,24 @@ Many additional tournament operators run major men's lacrosse events. The landsc
 
 ## Position-Specific Event Considerations
 
-Men's lacrosse has several specialized positions where event selection can differ:
+Men's lacrosse has several specialized positions, and the questions to ask about an event can differ by position. We don't have data on which events serve which positions best, so these are questions, not recommendations:
 
-**For attackers and midfielders**: Most major team tournaments offer strong evaluation opportunities. Individual showcases (NXT Showcases, Adrenaline Black Card) provide structured individual evaluation.
+**For attackers and midfielders**: Will the coaches you're targeting be at the event, and will your son get game time in front of them? Individual showcases (NXT Showcases, Adrenaline Black Card) are one format for individual evaluation.
 
-**For defenders and LSMs**: Team tournaments are essential for showing defensive ability in game context. Position-specific drills at individual showcases can help demonstrate fundamentals.
+**For defenders and LSMs**: Does the event let him show defense in game situations? Does it include position-specific drills?
 
-**For FOGOs**: Specialized face-off events and individual showcases that include dedicated face-off competition can be valuable. The technical nature of the FOGO position means coaches need to see specific face-off mechanics, which may be harder to evaluate at general tournaments.
+**For FOGOs**: Does the event include dedicated faceoff competition or faceoff evaluation? Ask coaches whether they can evaluate faceoff technique at general tournaments or want to see it elsewhere.
 
-**For goalies**: Goalies face a unique market — every team needs goalies but each program rosters few. ID camps at specific target programs can be particularly valuable for goalies, since the coaching staff can do focused evaluation. Position-specific goalie clinics also exist as a category.
+**For goalies**: Does the event or camp include goalie-specific evaluation? Ask target programs whether their ID camps give the staff a close look at goalies.
+
+> **Correction, October 9, 2026.** An earlier version of this section said that "most major team tournaments offer strong evaluation opportunities," that team tournaments are "essential" for defenders, and that ID camps "can be particularly valuable for goalies" because "each program rosters few." We have no source for those statements, so we turned them into questions.
 
 ## Special Considerations for Canadian Recruits
 
 For Canadian men's lacrosse recruits (see [International Recruiting in Men's College Lacrosse](/lacrosse/mens/guide/international-recruiting/)):
 
-- U.S. tournaments and showcases provide essential exposure to NCAA coaches
-- Canadian tournaments and box lacrosse events serve different developmental purposes
+- Ask the coaches at your target programs which U.S. and Canadian events they attend
 - The NXT Girls Fall Continental Cup explicitly includes Canadian club teams (boys events may also include Canadian teams; verify with NXT)
-- Canadian recruits often integrate U.S. event participation strategically alongside their Canadian club competition
 
 ## Questions Families Should Ask Local Sources
 
@@ -280,7 +282,7 @@ Because we cannot responsibly recommend specific events for your son's specific 
 **About college ID camps and prospect days**:
 
 1. Which programs that are realistic targets for our son run ID camps that are worth attending?
-2. What's the realistic cost commitment for ID camps (most ID camps charge a registration fee)?
+2. What's the realistic cost commitment for ID camps, including registration fees and travel?
 3. How many ID camps make sense in a given recruiting year — and at what programs?
 4. Does it make sense to attend an ID camp before the contact date (the Wednesday after Labor Day of junior year) (when the coaches can watch but cannot have recruiting conversations)?
 5. After the contact date, which programs' ID camps should be priorities based on his recruiting list?
@@ -306,8 +308,8 @@ Because we cannot responsibly recommend specific events for your son's specific 
 
 A practical framework for thinking about ID camps and tournaments together:
 
-**ID camps are typically MORE useful AFTER the contact date**, because:
-- Coaches can now have substantive recruiting conversations with athletes
+**After the contact date, the camp-conversation restriction lifts**, which changes what a camp can do:
+- The Bylaw 13.12.1.5.3 bar on recruiting conversations at institutional camps no longer applies (confirm anything else with the host program's compliance office)
 - The camp becomes a direct evaluation tool tied to ongoing recruiting communication
 - The athlete can ask specific questions about the program and recruiting status
 
@@ -320,19 +322,16 @@ A practical framework for thinking about ID camps and tournaments together:
 - The role is primarily evaluation and visibility
 
 *After the contact date*:
-- Coaches actively recruit athletes during and around events
+- Coaches can recruit athletes around events, within what the recruiting calendar allows
 - Specific events become important based on which coaches the athlete is talking with
-- Communication between events and conversations accelerates
 
-**A common general pattern** (which varies significantly by athlete situation):
+We don't publish a grade-by-grade event plan, because we have no data on how recruits actually spread their events across high school. Ask the coaches at your target programs which events they attend for your son's class, and plan from there.
 
-- 8th-10th grade: Tournament/showcase focus, building game body of work; some early ID camp attendance to develop familiarity with specific programs
-- 10th-11th grade: Heavy tournament/showcase calendar; targeted ID camps at programs becoming serious targets
-- From the contact date through senior year: Focused on specific recruiting conversations through both tournament participation and ID camps at top target programs
+> **Correction, October 9, 2026.** An earlier version of this section said ID camps are "typically MORE useful AFTER the contact date," that communication "accelerates" after it, and laid out "a common general pattern" of events by grade. None of it had a source; the bylaw itself is what changes at the contact date, so we now say that instead.
 
 ## ID Camps Before the Contact Date: A Specific Strategic Question
 
-A practical question many families face: **Is it worth attending an ID camp before the contact date (the Wednesday after Labor Day of junior year), when coaches can't have recruiting conversations?**
+A practical question: **Is it worth attending an ID camp before the contact date (the Wednesday after Labor Day of junior year), when coaches can't have recruiting conversations?**
 
 **Arguments for attending before the contact date**:
 - Coaches can evaluate the athlete up close (just not converse)
@@ -345,24 +344,21 @@ A practical question many families face: **Is it worth attending an ID camp befo
 - The cost and time without direct recruiting communication
 - The coach cannot answer specific recruiting questions
 - An athlete who attends might think he's being recruited when he isn't
-- The same coaches will attend tournaments where they can watch in game context anyway
+- The same coaches may attend tournaments where they can watch in game context
 
 **The honest answer**: It depends on the program, the athlete's competitive level, the family's resources, and the specific timing. This is exactly the kind of question that local sources can answer for your specific situation.
 
 ## A reminder about the post-House settlement landscape
 
-The [House v. NCAA settlement](/lacrosse/mens/guide/scholarships-after-house-settlement/) (approved June 6, 2025) has significantly reshaped the men's lacrosse scholarship landscape, with D1 scholarship potential expanded from 12.6 to up to 48 at participating schools — but with reduced roster sizes (48 cap; 4.7 fewer roster spots per team on average). This may affect:
+The [House v. NCAA settlement](/lacrosse/mens/guide/scholarships-after-house-settlement/) (approved June 6, 2025) changed the men's lacrosse scholarship landscape at schools covered by it: D1 scholarship potential expanded from 12.6 equivalencies to as many as the roster limit, and the roster is capped at 48 players (NCAA Division I Bylaw 17.2). Ask each program how those limits affect how many players it plans to add in your son's class, and which events its coaches plan to attend.
 
-- Which programs become more or less competitive recruiting targets
-- The relative importance of various events as coaches reallocate their recruiting bandwidth
-- The dynamics around earlier vs. later commitment timing
-- The competition for spots at D2, D3, and NAIA programs as displaced athletes seek opportunities
-
-These shifts continue to play out, and the implications for ID camp and tournament strategy will become clearer over time. Families should expect the landscape to keep evolving.
+> **Correction, October 9, 2026.** An earlier version of this section said the settlement left "4.7 fewer roster spots per team on average." That figure is USA Lacrosse magazine's June 2025 forecast of what the 48-player limit would mean, not a count of what happened, and RosterWise has no pre-settlement roster data to check it. The section also predicted effects on recruiting targets, events, commitment timing and lower-division competition that we can't source. We removed them.
 
 ## Every recruit's event journey is different
 
-The ID camp and tournament path for any specific men's lacrosse recruit varies based on his position, his competitive level, his family's resources and geography, his target programs, and dozens of other factors. Some recruits attend 8-10 ID camps in a recruiting year; others attend 2-3. Some recruits play in 6-8 tournaments a summer; others play in 2-3. Some find their best fit through one specific tournament where a coach saw them; others build their recruiting profile across many events over years. Specialized position recruits (FOGOs, goalies, LSMs) may follow event paths that look quite different from a position attacker's. The honest reality is that there is no "correct" event calendar — there is only the calendar that makes sense for your son's specific situation. Use this guide as context. Treat decisions about specific events as ones that should be informed by people closer to your specific local situation.
+The ID camp and tournament path for any specific men's lacrosse recruit varies based on his position, his competitive level, his family's resources and geography, his target programs, and dozens of other factors. Some recruits attend many ID camps; others attend a few. Some find their best fit through one specific tournament where a coach saw them; others build their recruiting profile across many events over years. Specialized position recruits (FOGOs, goalies, LSMs) may follow event paths that look quite different from an attacker's. The honest reality is that there is no "correct" event calendar — there is only the calendar that makes sense for your son's specific situation. Use this guide as context. Treat decisions about specific events as ones that should be informed by people closer to your specific local situation.
+
+> **Correction, October 9, 2026.** An earlier version of this paragraph said "some recruits attend 8-10 ID camps in a recruiting year; others attend 2-3" and "some recruits play in 6-8 tournaments a summer; others play in 2-3." Those ranges had no source, so we removed them.
 
 ---
 
