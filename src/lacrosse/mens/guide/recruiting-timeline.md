@@ -242,11 +242,11 @@ At that hour:
 - The athlete can schedule both unofficial and official visits to D1 programs
 - Off-campus contact between coaches and athletes becomes permissible
 
-Note the 7 a.m. detail: the men's window no longer opens at midnight. Under the old September 1 rule, top recruits famously fielded calls in the small hours. The current rule pushes the first legal contact to the morning.
+Note the 7 a.m. detail: under Bylaw 13.1.1.1.8 of the 2026-27 Division I Manual (adopted June 29, 2026, effective August 1, 2026), the window opens in the morning, not at midnight.
 
-For elite-level recruits already on coaches' radars, the opening hour often produces multiple communications almost immediately. Verbal offers may follow within days or weeks. The first weeks of junior year often see the most competitive recruiting at the top end.
+The rule sets when contact may begin, not how quickly any program moves after that. For some athletes, conversations and offers come soon after the date; for others, recruiting unfolds across junior and senior year. We have no data on how common each pattern is, so ask each coach directly where your son stands and what their timeline looks like.
 
-For other recruits, the contact date is the start — not the end — of active recruiting. Conversations may unfold over weeks and months rather than hours.
+> **Correction, October 9, 2026.** An earlier version of this section said that "top recruits famously fielded calls in the small hours" under the old September 1 rule, and that for "elite-level recruits" the opening hour "often produces multiple communications almost immediately," with "the most competitive recruiting at the top end" in the first weeks of junior year. None of it had a source, and sorting recruits into tiers is outside what we publish. We replaced it with what the rule actually sets.
 
 ### Junior year (11th grade) — active recruiting
 

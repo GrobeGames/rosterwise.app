@@ -497,6 +497,16 @@ wrestling set does not mention. Worth its own pass.
     (`mens/guide/recruiting-timeline:42/:351`, `mens/guide/coaches-look-for-by-position:40/:362`,
     `mens/guide/scholarships-after-house-settlement:48/:202`) — the §N treatment
     applied to the women's timeline has not been applied to them.
+32. ✅ **RESOLVED 2026-10-09 — men's timeline, "The Wednesday after Labor Day" section.**
+    ❌ Cut: "Under the old September 1 rule, top recruits famously fielded calls in the small hours"
+    (unsourced history; no row shows the former rule opened at midnight — see the PENDING 2017/2018
+    history row); "For elite-level recruits … the opening hour often produces multiple communications
+    almost immediately … The first weeks of junior year often see the most competitive recruiting at the
+    top end" (unsourced "often" claims and recruit tiers, §3/§4.1). Kept and re-sourced: the 7 a.m.
+    opening, Bylaw 13.1.1.1.8 (Adopted 6/29/26 effective 8/1/26), 2026-27 DI Manual p.71, text-extracted
+    2026-10-09. Dated correction note added. **Still open from item 30 on the same page:** the recruit-tier
+    section ("Elite-level D1 recruits" / "High-level D1 recruits"), FAQ + body "Many strong recruits …",
+    and the closing "Some receive multiple D1 offers within hours" paragraph.
 31. ✅ **RESOLVED 2026-10-09.** Line 262 now states the count (Bylaw 13.7.2) and the
     Bylaw 13.7.1.3 gate, with a dated correction note; see the §A row added 2026-10-09.
     Original item: **Men's timeline line 262 — "Unofficial visits are not limited and can be
