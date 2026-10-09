@@ -65,13 +65,11 @@ eleventyExcludeFromCollections: true
   "@context": "https://schema.org",
   "@type": "SportsTeam",
   "name": {{ [program.school_name, program.display_name, program.gender_display, program.sport_display] | join(" ") | jsonLd | safe }},
-  "sport": {{ program.sport_display | jsonLd | safe }},
-  {% if program.conference %}
+  "sport": {{ program.sport_display | jsonLd | safe }}{% if program.conference %},
   "memberOf": {
     "@type": "SportsOrganization",
     "name": {{ program.conference | jsonLd | safe }}
-  },
-  {% endif %}
+  }{% endif %}{% if program.city %},
   "location": {
     "@type": "Place",
     "name": {{ [program.city, program.state_full_name] | join(", ") | jsonLd | safe }}{% if program.latitude and program.longitude %},
@@ -80,7 +78,7 @@ eleventyExcludeFromCollections: true
       "latitude": {{ program.latitude }},
       "longitude": {{ program.longitude }}
     }{% endif %}
-  }
+  }{% endif %}
 }
 </script>
 {% endif %}
@@ -93,9 +91,9 @@ eleventyExcludeFromCollections: true
   "name": {{ program.school_name | jsonLd | safe }},
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": {{ program.city | jsonLd | safe }},
-    "addressRegion": "{{ program.state }}",
-    "addressCountry": "US"
+    {% if program.city %}"addressLocality": {{ program.city | jsonLd | safe }},
+    {% endif %}"addressRegion": "{{ program.state }}"{% if program.control %},
+    "addressCountry": "US"{% endif %}
   }{% if program.latitude and program.longitude %},
   "geo": {
     "@type": "GeoCoordinates",
@@ -107,6 +105,9 @@ eleventyExcludeFromCollections: true
 {% endblock %}
 
 {% block content %}
+
+{# Governing body + division as one label: "NCAA D1" / "NAIA". Never prefix NAIA with NCAA. #}
+{% set divisionLabel %}{% if program.division == "NAIA" %}NAIA{% elif program.division %}NCAA {{ program.division }}{% endif %}{% endset %}
 
 {# Set school color CSS custom properties for the entire page #}
 <div style="--school-primary: {{ program.primary_color | default('#c8a44e') }}; --school-secondary: {{ program.secondary_color | default('#c8a44e') }};{% if program.pill_text_color %} --school-pill-text: {{ program.pill_text_color }};{% endif %}">
@@ -135,7 +136,7 @@ eleventyExcludeFromCollections: true
     {% endif %}
 
     <div class="program-hero-pills">
-      <span class="program-pill program-pill--division">NCAA {{ program.division }}</span>
+      <span class="program-pill program-pill--division">{{ divisionLabel }}</span>
       <span class="program-pill program-pill--school">{{ program.display_name }}</span>
       {% if program.conference %}
       <span class="program-pill program-pill--conference">{{ program.conference }}</span>
@@ -143,13 +144,14 @@ eleventyExcludeFromCollections: true
     </div>
 
     <h1>{{ program.school_name }}<br><span class="program-hero-sport">{{ program.gender_display }} {{ program.sport_display }}</span></h1>
-    <p class="program-hero-school-name">{{ program.city }}, {{ program.state_full_name }}{% if program.first_season_year %} &middot; Est. {{ program.first_season_year }}{% endif %}{% if program.ncaa_championships_count and program.ncaa_championships_count > 0 %} &middot; {{ program.ncaa_championships_count }}× NCAA Champion{{ "s" if program.ncaa_championships_count > 1 else "" }}{% endif %}</p>
+    <p class="program-hero-school-name">{% if program.city %}{{ program.city }}, {% endif %}{{ program.state_full_name }}{% if program.first_season_year %} &middot; Est. {{ program.first_season_year }}{% endif %}{% if program.ncaa_championships_count and program.ncaa_championships_count > 0 %} &middot; {{ program.ncaa_championships_count }}× NCAA Champion{{ "s" if program.ncaa_championships_count > 1 else "" }}{% endif %}</p>
 
     <p class="program-hero-summary">
       {% if program.status == "new" %}
-      {{ program.school_name }} is launching a new {{ program.gender_display | lower }} {{ program.sport_display | lower }} program{% if program.new_program_year %} beginning in {{ program.new_program_year }}{% endif %}. The program will compete in NCAA {{ program.division }} as part of the {{ program.conference | default("their conference") }}.
+      {{ program.school_name }} launched a new {{ program.gender_display | lower }} {{ program.sport_display | lower }} program{% if program.new_program_year %} with its first season in {{ program.new_program_year }}{% endif %}. The program competes in {{ divisionLabel }}{% if program.conference %} as a member of the {{ program.conference }}{% endif %}.
       {% else %}
-      The {{ program.school_name }} {{ program.display_name }} compete in NCAA {{ program.division }} {{ program.gender_display | lower }} {{ program.sport_display | lower }} as members of the {{ program.conference | default("their conference") }}. {{ program.school_name }} is a {{ program.control | lower }}{% if program.carnegie_classification %} {{ program.carnegie_classification }}{% endif %} research university founded in {{ program.year_established }}.
+      The {{ program.school_name }} {{ program.display_name }} compete in {{ divisionLabel }} {{ program.gender_display | lower }} {{ program.sport_display | lower }}{% if program.conference %} as members of the {{ program.conference }}{% endif %}.
+      {% if program.control %}{{ program.school_name }} is a {{ program.control | lower }} {% if program.carnegie_classification %}{{ program.carnegie_classification }} research university{% else %}institution{% endif %}{% if program.year_established %} founded in {{ program.year_established }}{% endif %}.{% endif %}
       {% endif %}
     </p>
   </div>
@@ -195,7 +197,7 @@ eleventyExcludeFromCollections: true
         <svg class="program-fact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
         <div>
           <div class="program-fact-label">Division</div>
-          <div class="program-fact-value">NCAA {{ program.division }}</div>
+          <div class="program-fact-value">{{ divisionLabel }}</div>
         </div>
       </div>
       {% endif %}
@@ -303,7 +305,7 @@ eleventyExcludeFromCollections: true
    Full 50-state SVG with highlighted state and location pin.
    Pin position computed from lat/long in export script.
    ============================================================ #}
-{% if program.latitude and program.longitude %}
+{% if program.latitude and program.longitude and program.map_pin_left and program.map_pin_top %}
 <section class="program-map" aria-label="Location map">
   <div class="program-map-card">
     <div class="program-map-header">
@@ -317,12 +319,12 @@ eleventyExcludeFromCollections: true
          Pin position is computed as percentage of the map container.
          The SVG viewBox is 174 100 959 593, so we convert SVG coords to %.
          Notre Dame: SVG x≈821, y≈321 → left: (821-174)/959 = 67.5%, top: (321-100)/593 = 37.3% #}
-      <div class="program-map-pin" style="left: {{ program.map_pin_left | default('67.5') }}%; top: {{ program.map_pin_top | default('37.3') }}%;">
+      <div class="program-map-pin" style="left: {{ program.map_pin_left }}%; top: {{ program.map_pin_top }}%;">
         <div class="program-map-pin-label">{{ program.city }}, {{ program.state }}</div>
         <div class="program-map-pin-dot"></div>
       </div>
     </div>
-    <p class="program-map-caption"><strong>{{ program.city }}, {{ program.state_full_name }}</strong> &middot; {{ program.region | default("") }}{% if program.locale_desc %} &middot; {{ program.locale_desc }}{% endif %}</p>
+    <p class="program-map-caption"><strong>{{ program.city }}, {{ program.state_full_name }}</strong>{% if program.region %} &middot; {{ program.region }}{% endif %}{% if program.locale_desc %} &middot; {{ program.locale_desc }}{% endif %}</p>
   </div>
 </section>
 {% endif %}
@@ -357,26 +359,32 @@ eleventyExcludeFromCollections: true
   </section>
   {% endif %}
 
-  {# Section 6: Academic and Institutional Profile #}
+  {# Section 6: Academic and Institutional Profile — IPEDS-backed; omitted when the
+     school has no IPEDS record (e.g. non-US members). Each clause renders only
+     when its field exists. #}
+  {% if program.control %}
   <section class="program-section">
     <h2>Academic and Institutional Profile</h2>
-    <p>{{ program.school_name }} is a {{ program.control | lower }} institution{% if program.carnegie_classification %} classified as an {{ program.carnegie_classification }} research university{% endif %}, founded in {{ program.year_established }}. The university is categorized as a {{ program.school_size_category | lower }}-sized institution{% if program.locale_desc %} in a {{ program.locale_desc | lower }} setting{% endif %}.</p>
+    <p>{{ program.school_name }} is a {{ program.control | lower }} institution{% if program.carnegie_classification %} classified as an {{ program.carnegie_classification }} research university{% endif %}{% if program.year_established %}, founded in {{ program.year_established }}{% endif %}.{% if program.school_size_category %} It is categorized as a {{ program.school_size_category | lower }}-sized institution{% if program.locale_desc %} in a {{ program.locale_desc | lower }} setting{% endif %}.{% endif %}</p>
     <p>Families considering {{ program.display_name }} {{ program.gender_display | lower }} {{ program.sport_display | lower }} should weigh the academic environment alongside the athletic program. The academic profile, campus culture, and institutional resources all factor into the overall recruiting decision — and these are dimensions where every family's priorities differ.</p>
   </section>
+  {% endif %}
 
   {# Section 7: Location and Campus Context #}
+  {% if program.city %}
   <section class="program-section">
     <h2>Location and Campus Context</h2>
     <p>{{ program.school_name }} is located in {{ program.city }}, {{ program.state_full_name }}{% if program.region %}, in the {{ program.region }} region of the United States{% endif %}. The {{ program.locale_desc | default("campus") | lower }} setting shapes the day-to-day experience for student-athletes, from training conditions and travel schedules to the social environment outside of competition.</p>
     <p>Geography matters in college recruiting. Travel distances to conference opponents, proximity to home, climate considerations for training, and the local community all influence how a program fits a particular athlete's needs and preferences.</p>
   </section>
+  {% endif %}
 
   {# Section 8: How RosterWise Analyzes [Program] — polished pitch card #}
   <div class="program-analysis-card">
     <h2>How RosterWise Analyzes {{ program.display_name }} {{ program.gender_display }} {{ program.sport_display }}</h2>
     <p>Public information about a program — its location, conference, and history — only gets a recruiting family so far. The questions that matter for an actual recruiting decision require current, dynamic analysis:</p>
     <ul class="program-analysis-list">
-      <li>Who is the current head coach, and how long has he been building this program?</li>
+      <li>Who is the current head coach, and how long have they been building this program?</li>
       <li>How is the current roster composed at your athlete's position, and when are slots opening over the next two recruiting cycles?</li>
       <li>Where does this program recruit from geographically — what states and regions are represented, and how heavily does it recruit internationally?</li>
       <li>What club, academy, and high school pathways did current players come from? Does this program favor MLS Next, ECNL, particular clubs, or specific regions?</li>
@@ -482,16 +490,26 @@ eleventyExcludeFromCollections: true
    Section 13: Last Updated and Author
    ============================================================ #}
 <div class="program-footer-meta">
+  {# Cite only sources whose data this page actually shows: the governing body
+     matching the program's division, and IPEDS only when IPEDS fields exist. #}
+  {% if program.division or program.athletics_domain or program.control %}
   <div class="program-sources">
     <h3>Sources Cited</h3>
     <ul>
+      {% if program.division == "NAIA" %}
+      <li><a href="https://www.naia.org" rel="noopener noreferrer" target="_blank">NAIA.org</a></li>
+      {% elif program.division %}
       <li><a href="https://www.ncaa.org" rel="noopener noreferrer" target="_blank">NCAA.org</a></li>
+      {% endif %}
       {% if program.athletics_domain %}
       <li><a href="{{ program.athletics_domain | absUrl }}" rel="noopener noreferrer" target="_blank">{{ program.school_name }} Athletics</a></li>
       {% endif %}
+      {% if program.control %}
       <li><a href="https://nces.ed.gov/ipeds/" rel="noopener noreferrer" target="_blank">U.S. Department of Education IPEDS</a></li>
+      {% endif %}
     </ul>
   </div>
+  {% endif %}
   <p class="program-last-updated">
     Last verified: May 2026. Author: RosterWise (Grobe Games LLC).
   </p>

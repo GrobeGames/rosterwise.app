@@ -83,7 +83,9 @@ file as work lands.
   http→https, no-slash → slash 308s, the old `/landing/` artifacts.
 - **Open: "Crawled – currently not indexed"** — ~180 program pages plus some
   guides/hubs. Not a technical fault (all return 200, canonical, in sitemap);
-  it is Google's quality/duplication judgment on templated pages. Separate
-  workstream.
+  it is Google's quality/duplication judgment on templated pages. Diagnosis
+  and ranked plan: `prototypes/seo/2026-10-09-crawled-not-indexed-diagnosis.md`
+  (template states false facts on most program pages, 74% duplicate titles,
+  ~1% page-unique text, M/W pages ~identical). Awaiting review.
 
 <!-- Sources: ~/.claude/projects/-Users-scottspringman-Developer/memory/project_seo_phase4_status.md; repo peek (src/program-pages.njk, scripts/generate-sitemap.js, src/robots.txt, src/_redirects) -->

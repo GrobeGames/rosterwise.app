@@ -6,7 +6,8 @@
   "scripts": {
     "generate-sitemap": "node scripts/generate-sitemap.js",
     "check-seo": "node scripts/check-seo.js",
-    "build": "npx @11ty/eleventy && node scripts/generate-sitemap.js && node scripts/check-seo.js"
+    "check-program-claims": "node scripts/check-program-claims.js",
+    "build": "npx @11ty/eleventy && node scripts/generate-sitemap.js && node scripts/check-seo.js && node scripts/check-program-claims.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.5",
