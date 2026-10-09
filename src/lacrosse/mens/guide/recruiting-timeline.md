@@ -259,10 +259,12 @@ Junior year is the heart of the men's lacrosse recruiting process.
 
 **Visits**:
 - Schedule official visits to programs of genuine interest. Under the 2026-27 Division I Manual there is no limit on how many schools you visit officially, but each school can pay for only one official visit during high school (Bylaw 13.6.2.2) — see [Official vs. Unofficial Visits](/guide/official-vs-unofficial-visits/)
-- Unofficial visits are not limited and can be scheduled at any time
+- Unofficial visits — at your family's own expense — are unlimited in number (Bylaw 13.7.2), but one with athletics-department involvement (contact with athletics staff, an athletics-specific tour, complimentary admission) may not happen before **7 a.m. on the Wednesday after Labor Day** of junior year (Bylaw 13.7.1.3). Dead periods on the recruiting calendar also bar visits while they run.
 - Plan visit strategy based on which programs are most realistic and most desirable
 
 > **Correction, October 9, 2026.** An earlier version of this page said athletes have a cap of five official visits across all Division I schools combined. That limit no longer exists: Division I Proposal 2022-32 deleted it effective July 1, 2023. The current limit is per school (Bylaw 13.6.2.2 of the 2026-27 Division I Manual).
+
+> **Correction, October 9, 2026.** An earlier version of this checklist said unofficial visits "can be scheduled at any time." The number is unlimited, but under Bylaw 13.7.1.3 of the 2026-27 Division I Manual an unofficial visit with athletics-department involvement in men's lacrosse may not occur before 7 a.m. on the Wednesday immediately following Labor Day at the beginning of junior year, and dead periods bar visits.
 
 **Evaluation events**:
 - Continue participating in tournaments and showcases
