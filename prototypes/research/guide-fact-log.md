@@ -128,3 +128,29 @@ Recorded so that a future pass does not reintroduce an error by acting on them.
    rows). The per-school rule in Bylaw 13.6.2.2 is stated with a 2026-27 Manual
    anchor on five pages; re-read 13.6.2 at the 2027-28 rollover and after any
    Council/Cabinet action on official visits.
+
+## G. F-1 visas and NIL (corrected 2026-10-09)
+
+Material correction on two sport-wide guides. Both said NIL is "classified as employment under federal regulations"
+(the NIL guide cited 8 CFR § 274a.1). That attributes the NCAA's own prohibition to federal law. Same error already
+corrected on the lacrosse international pages (lacrosse-fact-log row "F-1 visas and NIL"; §P).
+
+| Claim | Primary source | Verified | Articles |
+| --- | --- | --- | --- |
+| The NCAA states that "international student-athletes with an F-1 visa are prohibited from engaging in NIL deals while on U.S. land," and advises consulting the compliance officer, the DSO and/or an immigration lawyer before NIL activity abroad or a change to P-1, O-1 or EB-1 status. | NCAA, *International Student-Athlete Handbook*, Name, Image and Likeness section (PDF p.36), `https://ncaaorg.s3.amazonaws.com/inclusion/inter/INC_IntlStudentHandbook.pdf` | 2026-10-09 | guide/international-student-athletes, guide/nil-and-revenue-sharing |
+| F-1 students may work only in specific authorized categories (on-campus employment, practical training). | 8 CFR 214.2(f)(9) "Employment" and (f)(10) "Practical training", eCFR (versioner, as of 2026-10-01) | 2026-10-09 | guide/international-student-athletes, guide/nil-and-revenue-sharing |
+| "Any unauthorized employment by a nonimmigrant constitutes a failure to maintain status." | 8 CFR 214.1(e)(2), eCFR (as of 2026-10-01) | 2026-10-09 | guide/international-student-athletes, guide/nil-and-revenue-sharing |
+| **NEGATIVE FINDING — neither 8 CFR 214.2 nor 8 CFR 274a.1 contains "likeness" or "name, image."** (214.2 does contain "athlete" — in other visa classes — so copy does not claim the rules never say "athlete.") | Full-text search of both eCFR sections (as of 2026-10-01) | 2026-10-09 | guide/international-student-athletes, guide/nil-and-revenue-sharing |
+| SEVP said it "continues to assess" F and M student-athletes' NIL compensation and "whether regulatory guidance is required." Copy adds only "we have not found later guidance." | SEVP Broadcast Message 2107-02, July 19, 2021, `https://www.ice.gov/doclib/sevis/pdf/bcm2107-02.pdf` | 2026-10-09 | guide/international-student-athletes, guide/nil-and-revenue-sharing |
+| The NCAA's House implementation guidance does not mention visas or F-1 status. | **Reused** — lacrosse-fact-log row "F-1 visas and NIL" (NCAA House Q&A searched for visa/immigration/F-1: zero hits) | (reused) | guide/nil-and-revenue-sharing |
+
+❌ **Cut** (NIL guide): "Most international student-athletes cannot legally receive NIL compensation under current U.S. immigration
+law"; "typically classified as employment … (8 CFR § 274a.1)"; "NIL deals … typically do not qualify under any authorized work
+category"; the penalties list (replaced by 214.1(e)); O-1/P-1 "very high eligibility standards that most college athletes cannot
+meet"; the Lowndes and Hofstra characterizations; "most will not have meaningful NIL income" (international sentence, closing
+paragraph). Sources removed: McCarter & English, Lowndes, Hofstra (law-firm/journal analysis standing in for primaries).
+❌ **Cut** (international guide): "Most NIL activities are classified as employment under federal regulations"; "limited work
+authorization outside of athletics".
+
+**Open (not edited):** the NIL guide's `sources:` still lists Opendorse and On3 (an NIL-valuation/recruiting-news brand — check
+against the §0.4 aggregator ban) and the rest of its closing paragraph has unsourced "most will not" claims.

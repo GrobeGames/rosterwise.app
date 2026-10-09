@@ -28,6 +28,9 @@ sources:
   - "U.S. Citizenship and Immigration Services (USCIS): uscis.gov"
   - "U.S. Department of State, Bureau of Consular Affairs: travel.state.gov"
   - "SEVP (Student and Exchange Visitor Program): ice.gov/sevp"
+  - '<a href="https://ncaaorg.s3.amazonaws.com/inclusion/inter/INC_IntlStudentHandbook.pdf">NCAA — International Student-Athlete Handbook</a> (Name, Image and Likeness section; read Oct. 9, 2026)'
+  - '<a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.2">8 CFR 214.2(f)(9)–(10)</a> — F-1 employment and practical training; <a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.1">8 CFR 214.1(e)</a> — unauthorized employment is a failure to maintain status (eCFR, read Oct. 9, 2026)'
+  - '<a href="https://www.ice.gov/doclib/sevis/pdf/bcm2107-02.pdf">SEVP Broadcast Message 2107-02, "SEVP Continues to Discuss Compensation for International Student Athletes"</a> (July 19, 2021)'
 cta:
   heading: "See where international athletes fit on every roster."
   text: "RosterWise tracks international composition on every D1, D2, D3, and NAIA roster. For international families, that means understanding which programs actively recruit internationally — and where roster composition suggests opportunity."
@@ -89,8 +92,10 @@ The F-1 is the standard student visa for academic studies in the US. Most intern
 - The school must issue an I-20 form before you can apply for the visa
 - The I-20 process typically begins after the student is admitted and financial aid is finalized
 - F-1 visa holders can participate in college athletics as part of their educational program
-- Employment restrictions apply — F-1 students have limited work authorization outside of athletics
-- **NIL restrictions:** F-1 visa employment restrictions also affect NIL eligibility. Most NIL activities are classified as employment under federal regulations, which means most international student-athletes on F-1 visas cannot legally participate in NIL deals. See our [NIL and revenue sharing guide](/guide/nil-and-revenue-sharing/) for detailed information on this important restriction
+- Employment is tightly restricted: federal regulation allows F-1 students only specific categories of work, such as limited on-campus employment and authorized practical training (8 CFR 214.2(f)(9)–(10)), and any unauthorized employment is a failure to maintain status (8 CFR 214.1(e))
+- **NIL is an open question, not a settled yes.** The NCAA's *International Student-Athlete Handbook* states that international student-athletes with an F-1 visa "are prohibited from engaging in NIL deals while on U.S. land." That is the NCAA's statement: the F-1 regulations themselves do not mention name, image or likeness, and the Student and Exchange Visitor Program said in July 2021 that it was still assessing "whether regulatory guidance is required." We have not found later federal guidance. Treat NIL income as unavailable unless the school's compliance office and an immigration lawyer tell you otherwise, and see our [NIL and revenue sharing guide](/guide/nil-and-revenue-sharing/)
+
+> **Correction, October 9, 2026.** An earlier version of this list said that "most NIL activities are classified as employment under federal regulations." No federal regulation says that: the F-1 rules bar unauthorized employment but do not mention NIL, and the immigration agency has not issued guidance on it. The prohibition families hear about is the NCAA's own statement in its International Student-Athlete Handbook. We rewrote the item to separate the two.
 
 ### J-1 exchange visitor visa
 

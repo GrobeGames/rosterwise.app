@@ -34,10 +34,10 @@ sources:
   - 'Opendorse — NIL deal data and "NIL at Four" report'
   - 'On3 — NCAA NIL deal database analysis'
   - 'Butler Snow (law firm) — "NIL After House: What Name, Image, and Likeness Means for Colleges and Higher-Education Institutions in 2026"'
-  - 'McCarter &amp; English (law firm) — "Changing Immigration Policies Pose New Challenges for NCAA Institutions and NIL Opportunities for International Student-Athletes"'
-  - 'Lowndes (law firm) — "International Student-Athletes: Navigating the Conflict Between NIL Rules and U.S. Visa Restrictions"'
-  - 'Hofstra Journal of International Business &amp; Law — "Visa Declined: International Student-Athletes and the Restrictions on NIL Compensation"'
-  - '8 CFR § 274a.1 — U.S. Code of Federal Regulations on employment'
+  - '<a href="https://ncaaorg.s3.amazonaws.com/inclusion/inter/INC_IntlStudentHandbook.pdf">NCAA — International Student-Athlete Handbook</a> (Name, Image and Likeness section; read Oct. 9, 2026)'
+  - '<a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.2">8 CFR 214.2(f)(9)–(10)</a> — F-1 employment and practical training; <a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.1">8 CFR 214.1(e)</a> — unauthorized employment is a failure to maintain status (eCFR, read Oct. 9, 2026)'
+  - '<a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-274a/subpart-A/section-274a.1">8 CFR 274a.1</a> — federal definition of employment (does not mention NIL; read Oct. 9, 2026)'
+  - '<a href="https://www.ice.gov/doclib/sevis/pdf/bcm2107-02.pdf">SEVP Broadcast Message 2107-02, "SEVP Continues to Discuss Compensation for International Student Athletes"</a> (July 19, 2021)'
 cta:
   heading: "Make recruiting decisions based on what actually matters for your athlete."
   text: "Headlines about NIL deals make for good reading but rarely reflect the reality for soccer and volleyball families. The factors that actually shape a successful college experience — fit at the program, position depth, recruiting patterns, coaching stability, academic match — are what RosterWise analyzes. Every D1, D2, D3, and NAIA program. Position depth, class-year gaps, recruiting geography, transfer portal patterns, personalized fit scoring."
@@ -116,20 +116,15 @@ Every athlete's situation is different. But entering the recruiting process expe
 
 This section is uniquely important for soccer families. Across the **213 Division I men's soccer programs RosterWise analyzed for the 2025-26 season**, international players held 2,099 of 6,203 roster spots — **33.8%**, or about one in three. That is our own count from published rosters, not an estimate. The share is lower in Division I women's soccer, at **12.4%** across 349 programs.
 
-**Most international student-athletes cannot legally receive NIL compensation under current U.S. immigration law.**
+**For an athlete on an F-1 student visa, NIL is an open legal question — and the NCAA treats it as off-limits on U.S. soil.** Here is who says what:
 
-F-1 student visa restrictions prohibit most forms of employment, and NIL activities are typically classified as employment under federal regulations (8 CFR § 274a.1). Specifically:
+- **The NCAA's position is a flat prohibition.** Its *International Student-Athlete Handbook* states that international student-athletes with an F-1 visa "are prohibited from engaging in NIL deals while on U.S. land," and advises consulting the athletics compliance officer, the school's designated school official and/or an immigration lawyer before any NIL activity outside the country or any change to a P-1, O-1 or EB-1 status.
+- **The federal rules do not address NIL.** F-1 regulations allow only specific categories of work, such as limited on-campus employment and authorized practical training (8 CFR 214.2(f)(9)–(10)), and "any unauthorized employment by a nonimmigrant constitutes a failure to maintain status" (8 CFR 214.1(e)). Neither those rules nor the federal definition of employment (8 CFR 274a.1) mentions name, image or likeness. In July 2021 the Student and Exchange Visitor Program said it was still assessing "whether regulatory guidance is required"; we have not found later guidance.
+- **Revenue sharing is less settled still.** The NCAA's House settlement implementation guidance does not mention visas or F-1 status, so there is no published NCAA position on whether an F-1 athlete may receive revenue-share payments.
 
-- F-1 visa holders generally may not work off-campus without specific authorization
-- NIL deals — including endorsements, paid social media content, autograph sessions, and paid appearances — typically do not qualify under any authorized work category
-- The penalties for unauthorized work can include loss of visa status, removal from the United States, and ineligibility for future immigration benefits
-- Some elite athletes pursue O-1 visas (extraordinary ability) or P-1 visas (internationally recognized athlete) to enable NIL income, but these have very high eligibility standards that most college athletes cannot meet
+**For families with international athletes:** treat NIL and revenue-share income as unavailable for planning purposes unless the school's compliance office and an immigration lawyer tell you otherwise. Don't rely on any website, including this one, for an answer no agency has given.
 
-The Department of Homeland Security has not issued clear guidance on NIL for F-1 visa holders, leaving universities and athletes in a precarious legal position. As the Lowndes law firm analysis notes, this creates a situation where international athletes are theoretically eligible for NIL under NCAA rules but practically barred from participating under immigration law.
-
-The Hofstra Journal of International Business & Law has published detailed analysis of this conflict, concluding that the current regulatory framework effectively excludes the majority of international student-athletes from NIL participation.
-
-**For families with international athletes:** NIL should be treated as unavailable for planning purposes. The handful of exceptions are not the rule.
+> **Correction, October 9, 2026.** An earlier version of this section said that "most international student-athletes cannot legally receive NIL compensation under current U.S. immigration law" and that NIL activities are "typically classified as employment under federal regulations (8 CFR § 274a.1)." Neither regulation mentions NIL, and no federal agency has classified it. The prohibition is the NCAA's own statement. We also removed unsourced statements about visa penalties and about O-1 and P-1 eligibility, and two law-firm and law-journal citations that were standing in for primary sources.
 
 ## The NIL Go portal and what it means for new recruits
 
@@ -182,7 +177,7 @@ But none of these should drive program selection. They're outcomes that can emer
 
 ## Every recruiting journey is different
 
-No two athletes have the same NIL experience, just as no two athletes have the same recruiting journey. Some soccer and volleyball athletes will end up at programs that include their sport in revenue-share allocations; most will not. Some will land local NIL deals that provide meaningful supplemental income; most will earn modest amounts at best. Some international athletes will work with their universities to navigate the visa-and-NIL intersection; most will not have meaningful NIL income.
+No two athletes have the same NIL experience, just as no two athletes have the same recruiting journey. Some soccer and volleyball athletes will end up at programs that include their sport in revenue-share allocations; most will not. Some will land local NIL deals that provide meaningful supplemental income; most will earn modest amounts at best. International athletes on F-1 visas face an open legal question about NIL, covered above.
 
 The honest answer for most families is that NIL and revenue sharing are real parts of the modern college landscape — but for soccer and volleyball recruits specifically, they should be understood, not over-weighted in decision-making. The recruiting process has always been about finding the right fit: the right program, the right academics, the right coaching staff, the right culture. NIL hasn't changed that fundamental truth — even if the headlines suggest otherwise.
 
