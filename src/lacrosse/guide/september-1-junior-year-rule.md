@@ -49,6 +49,7 @@ sources:
   - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 13.1.1.1.8 (off-campus contact, men's lacrosse), 13.1.3.1.3 (telephone calls), 13.1.3.2.7 (calls from a prospect), 13.4.1.3 (recruiting materials), 13.6.2.1.3 (official visits), 13.7.1.3 (unofficial visits) and 13.12.1.5.3 (camp conversations); women's lacrosse counterparts at 13.1.1.1.7, 13.1.3.1.2, 13.1.3.2.6, 13.4.1.2, 13.6.2.1.2, 13.7.1.2 and 13.12.1.5.2 — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - '<strong>NCAA Eligibility Center</strong> — <a href="https://eligibilitycenter.org">eligibilitycenter.org</a> (registration and academic eligibility requirements)'
   - "<strong>NCAA Division I Bylaw 13</strong> — Recruiting bylaws including Bylaw 13.1.7.3.1 (Evaluations During Contact Periods — Women's Lacrosse)"
+  - '<a href="https://www.njcaa.org/general/2023-24/releases/20240711fqifcg">NJCAA — "NJCAA Discontinues Women''s Lacrosse"</a> (July 11, 2024; read Oct. 9, 2026) — discontinued as a sponsored sport beginning with 2024-25'
 cta:
   heading: "Find programs where your athlete genuinely fits"
   text: "Understanding the September 1 of junior year rule is essential context — but knowing the rule doesn't tell you which programs to pursue. The deeper question is whether your athlete's profile actually matches the kinds of recruits a program targets, whether roster spots will open at the right times, and how the program builds its recruiting class year over year. RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA lacrosse program in the country — position depth, class year gaps, geographic recruiting patterns, transfer portal activity, and personalized fit scoring."
@@ -151,7 +152,7 @@ The junior-year contact date described above is the **Division I** rule. Other d
 
 **NAIA**: The National Association of Intercollegiate Athletics (NAIA) operates under its own framework with generally more permissive recruiting communication rules than NCAA Division I.
 
-**NJCAA**: National Junior College Athletic Association programs follow their own rules; communication with junior college coaches generally is permissible across timeframes.
+**NJCAA**: National Junior College Athletic Association programs follow their own rules; communication with junior college coaches generally is permissible across timeframes. NJCAA lacrosse is men's only; the NJCAA discontinued women's lacrosse beginning with the 2024-25 academic year.
 
 For families considering programs across multiple divisions, the practical reality is that Division I recruits face the most restrictive communication timeline. Recruits at other divisions often have more direct communication with coaches earlier in the process.
 

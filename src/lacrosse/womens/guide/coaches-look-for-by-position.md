@@ -33,7 +33,7 @@ faq:
   - q: "What if my daughter plays multiple positions?"
     a: "Many women's lacrosse recruits play multiple positions, especially at the youth and high school levels. Highlight that versatility in recruiting materials — but be specific about which position is her primary and which positions she could play in college."
   - q: "My daughter is a great draw specialist. Is that enough to get recruited?"
-    a: "A strong draw specialist who can also contribute as a midfielder is valuable. A draw specialist who can only win draws (and not contribute meaningfully in field play) has a more limited recruiting market. Top D1 programs typically want draw specialists who also play meaningful field minutes. Lower competitive levels (D3, NAIA, NJCAA) may be more willing to roster pure specialists."
+    a: "A strong draw specialist who can also contribute as a midfielder is valuable. A draw specialist who can only win draws (and not contribute meaningfully in field play) has a more limited recruiting market. How much a program values a pure specialist varies, so ask each coach how draw specialists fit their roster."
   - q: "How important is height for women's lacrosse positions?"
     a: "Height matters more for goalies (where reach matters for saves) and less for other positions. Defenders benefit from height for closeout reach and ground ball boxing. Attackers and midfielders span the full range of heights at every competitive level."
   - q: "My daughter is interested in playing goalie. Are there fewer recruiting opportunities?"
@@ -48,9 +48,11 @@ sources:
   - "<strong>William Jewell College Athletics</strong> — Official Women's Lacrosse 101 description of positions and rules"
   - "<strong>Duke University (The Duke Chronicle)</strong> — Women's college lacrosse 101 beginner's guide"
   - '<a href="https://worldlacrosse.sport/discipline-womens-field/">World Lacrosse — "Women''s Field"</a> — international governing body; international women''s field lacrosse is played with ten players per team'
+  - '<a href="https://www.njcaa.org/general/2023-24/releases/20240711fqifcg">NJCAA — "NJCAA Discontinues Women''s Lacrosse"</a> (July 11, 2024; read Oct. 9, 2026) — discontinued as a sponsored sport beginning with 2024-25'
+  - '<a href="https://www.njcaa.org/sports/">NJCAA.org — Sports</a> (2026-27 sport list, read Oct. 9, 2026) — men''s lacrosse listed; no women''s lacrosse'
 cta:
   heading: "Find programs where your daughter genuinely fits — at her position"
-  text: "The position-based framework tells you what coaches are evaluating. The deeper question is whether the programs evaluating your daughter are actually a fit for her at her specific position. RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA women's lacrosse program — position depth (including the specialized draw specialist role), class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring. The position-by-position analysis helps families identify the programs where their daughter genuinely fits both athletically and at her specific role."
+  text: "The position-based framework tells you what coaches are evaluating. The deeper question is whether the programs evaluating your daughter are actually a fit for her at her specific position. RosterWise analyzes every NCAA Division I, II, III, and NAIA women's lacrosse program — position depth (including the specialized draw specialist role), class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring. The position-by-position analysis helps families identify the programs where their daughter genuinely fits both athletically and at her specific role."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -282,7 +284,9 @@ Many women's lacrosse recruits play multiple positions, especially at the youth 
 
 **"My daughter is a great draw specialist. Is that enough to get recruited?"**
 
-A strong draw specialist who can also contribute as a midfielder is valuable. A draw specialist who can only win draws (and not contribute meaningfully in field play) has a more limited recruiting market. Top D1 programs typically want draw specialists who also play meaningful field minutes. Lower competitive levels (D3, NAIA, NJCAA) may be more willing to roster pure specialists.
+A strong draw specialist who can also contribute as a midfielder is valuable. A draw specialist who can only win draws (and not contribute meaningfully in field play) has a more limited recruiting market. How much a program values a pure specialist varies, so ask each coach how draw specialists fit their roster.
+
+> **Correction, October 9, 2026.** An earlier version of this answer said top D1 programs "typically" want draw specialists who play field minutes and that "lower competitive levels (D3, NAIA, NJCAA)" may roster pure specialists. Neither statement had a source, and ranking divisions is outside what we publish. It also named the NJCAA, which discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only.
 
 **"How important is height for women's lacrosse positions?"**
 

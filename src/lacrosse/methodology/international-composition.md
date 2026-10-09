@@ -35,7 +35,7 @@ sources:
   - "Lacrosse Canada (formerly Canadian Lacrosse Association) — National governing body for lacrosse in Canada"
   - "National Lacrosse League (NLL) — Canadian and U.S. box lacrosse league"
 cta:
-  heading: "RosterWise gives you this analysis for every D1, D2, D3, NAIA, and NJCAA program. See it in the app."
+  heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program, plus NJCAA men's. See it in the app."
   text: "See the international composition of every college lacrosse program — percentage, countries and provinces represented, and how it affects opportunity for domestic and Canadian/international recruits. Men's and women's."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---

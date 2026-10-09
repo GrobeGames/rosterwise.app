@@ -163,7 +163,8 @@ evaluation, dead and shutdown windows.**
 | ⚠️ **PARTIAL — "D2 runs a single recruiting calendar for all sports, and for 2026-27 the whole year is a contact period except for a signing-date dead period."** The single all-sports D2 calendar is confirmed (`ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D2Rec_RecruitingCalendar_AllSports.pdf`), and it uses three categories — Contact Period, Dead Period and **Signing Date Dead Period**. The published D2 calendar shows **more than one** dead period, so "except for a signing-date dead period" understates it. Also note D2 **does** gate in-person off-campus contact and official visits at "After June 15, immediately preceding a prospective student-athlete's junior year." | **2026-27 D2 Recruiting Calendar (All Sports)** and **Division II Coaches Off-Campus Recruiting Guide 2026–27** (updated 2026-07-30) | 2026-08-26 | lacrosse/guide/september-1-junior-year-rule |
 | **The NJCAA's published three-division scholarship structure**, quoted verbatim: D1 "may grant full athletic scholarships (tuition, books, fees, room & board), up to $250 in course required supplies, and transportation costs one time per academic year"; D2 "limited to tuition, books, fees, and up to $250 in course required supplies"; D3 "not permitted to offer any athletic scholarships"; and "Each sport has limits on the number of scholarships that can be granted." | **NJCAA.org, "Divisional Structure"** (`https://www.njcaa.org/member_colleges/Divisional_Structure`). The page is client-rendered and returns an empty body to a plain fetch; read via a rendering browser on the verification date. | 2026-08-26 | lacrosse/womens/guide/scholarships-after-house-settlement, lacrosse/guide/junior-college |
 | ⚠️ **PENDING — NJCAA membership, and a three-way disagreement inside RosterWise.** `lacrosse/guide/junior-college` says "**more than 500 member colleges in 44 states**, by its own figures"; `volleyball/guide/juco-pathway` says "over 500"; `soccer/guide/junior-college` says "more than 400." The figure could not be found on NJCAA.org — the About/Overview and `/compete/` paths **404 as of 2026-08-26** (the NJCAA moved to a new platform on 2026-07-01) and the home page carries no membership count. | NJCAA.org searched via a rendering browser 2026-08-26 — count not located, cited paths dead | 2026-08-26 (primary not found) | lacrosse/guide/junior-college:7 — and volleyball/guide/juco-pathway, soccer/guide/junior-college |
-| ✅ **VERIFIED 2026-10-08 (rendering-browser read) — the NJCAA discontinued Women's Lacrosse as an NJCAA-sponsored sport "beginning with the upcoming 2024-25 academic year."** Release "NJCAA Discontinues Women's Lacrosse," dated **July 11, 2024**, Charlotte, N.C.; quotes NJCAA President & CEO Dr. Christopher Parker; says it had been sponsored since 2004 and became an invitational in 2022-23. | NJCAA.org — `https://www.njcaa.org/general/2023-24/releases/20240711fqifcg` (read in the in-app browser; plain fetch returns only "NJCAA") | 2026-10-08 | lacrosse/guide/junior-college:15, lacrosse/womens/guide/recruiting-timeline (correction: the page listed NJCAA as a women's lacrosse option) |
+| ✅ **VERIFIED 2026-10-08 (rendering-browser read) — the NJCAA discontinued Women's Lacrosse as an NJCAA-sponsored sport "beginning with the upcoming 2024-25 academic year."** Release "NJCAA Discontinues Women's Lacrosse," dated **July 11, 2024**, Charlotte, N.C.; quotes NJCAA President & CEO Dr. Christopher Parker; says it had been sponsored since 2004 and became an invitational in 2022-23. | NJCAA.org — `https://www.njcaa.org/general/2023-24/releases/20240711fqifcg` (read in the in-app browser; plain fetch returns only "NJCAA") | 2026-10-08; **re-read 2026-10-09** (same text, same date) | lacrosse/guide/junior-college:15, lacrosse/womens/guide/recruiting-timeline (correction: the page listed NJCAA as a women's lacrosse option); **2026-10-09 (§O):** lacrosse/index, lacrosse/womens/index, lacrosse/womens/guide/scholarships-after-house-settlement, womens/guide/id-camps-and-tournaments, womens/guide/international-recruiting, womens/guide/coaches-look-for-by-position, methodology/roster-composition, methodology/coach-tenure, methodology/class-year-gaps, guide/house-settlement-and-lacrosse, guide/september-1-junior-year-rule |
+| **The NJCAA's current sport list carries men's lacrosse and no women's lacrosse** — i.e. the sport has not been re-added since the 2024 release (which said the NJCAA hopes "one day" to add it back). | NJCAA.org — `https://www.njcaa.org/sports/` ("2026-27 · All divisions" sport list; JS-rendered, read in the in-app browser) | 2026-10-09 | same pages as the row above (cited in their `sources:` where the correction note states it) |
 | ⚠️ **PENDING — "Adopted by the NCAA Division I Cabinet on June 24, 2026 … a reform lowers the transferable GPA requirement for two-year transfers."** **2026-10-08: an NJCAA release dated 2026-06-24 in its path was located but STILL NEEDS A BROWSER READ:** `https://www.njcaa.org/general/2025-26/releases/20260624sx2a0g` (titled in search results "NJCAA wins landmark victory as NCAA approves eligibility …"). It renders empty to a plain fetch, so its text — and whether it supports the Cabinet action, the date and the GPA change — is unverified. Earlier: searched NCAA.org's media centre and legislation index; **not found**. NJCAA's own site carries a July 9, 2026 op-ed on its "#SameGameSameRules" campaign, consistent with the campaign existing but not establishing the Cabinet action or its date. **Same claim as `volleyball/guide/juco-pathway` — fix both together.** | NCAA.org searched 2026-08-26 — action not located | 2026-08-26 (primary not found) | lacrosse/guide/junior-college:40 — and volleyball/guide/juco-pathway |
 | ⚠️ **PENDING — "NJCAA.org — Junior college lacrosse scholarship framework, including the 20-scholarship maximum at NJCAA D-I."** The NJCAA publishes that per-sport limits exist but does not publish the numbers; the 20 could not be verified. The audit's governance pass already flagged the body-prose version of this claim ("Per multiple sources, the NJCAA offers 20 men's lacrosse scholarships maximum per team at D-I") as unnamed authority; it now sits in the `sources:` block attributed to NJCAA.org, which is worse — it asserts a source that does not carry it. | NJCAA.org "Divisional Structure" (limits exist, numbers not published) | 2026-08-26 (primary not found) | lacrosse/mens/guide/scholarships-after-house-settlement (`sources:`) |
 | ⚠️ **PENDING — NAIA lacrosse.** The pages correctly state that the NAIA sponsors men's lacrosse and publishes no verifiable program count (the §7 fix from the governance pass). For reference, the **NAIA does publish a lacrosse aid limit: 12** — see `governance-counts-fact-log.md` and the NAIA Handbook 2026-2027, Section XIII.H, p.122. No lacrosse page states it. | NAIA Official & Policy Handbook 2026-2027, XIII.H | 2026-08-26 | *(available and unused)* |
@@ -331,6 +332,45 @@ page was either replaced with what the rules establish or cut.
 - ✏️ "(often) making verbal commitments" → "for some"; "will likely watch … multiple times" → "may want to watch … more than once"; "completes the recruiting process for most" → structural; "Some D1 programs continue to recruit" → "Division I programs can continue to recruit"; closing paragraph's "most elite D1 programs" and "NAIA, or NJCAA" removed; CTA's "every … NJCAA women's lacrosse program" removed.
 - `date:` not bumped (only the rewritten passages were re-verified).
 
+## O. NJCAA women's lacrosse removed from every live page (2026-10-09)
+
+Resolves Open item 28. Every page under `src/` that presented NJCAA women's
+lacrosse as current was found by grep (`grep -rn -i njcaa src/`, every lacrosse
+hit read in context, plus the site-wide product-coverage strings on `/`, `/app/`,
+`/faq/`, `/roster-intelligence/` and the 2027 rules blog post — those already said
+"NJCAA (men's)" and were left alone). Facts used: the two §D rows above
+(release re-read and sport list read 2026-10-09).
+
+| Claim | Primary source | Verified | Articles |
+| --- | --- | --- | --- |
+| **RosterWise Lacrosse covers NCAA D1, D2, D3 and NAIA men's and women's programs, plus NJCAA men's** — the product's own coverage statement. | `src/_data/apps.json` lacrosse `subtext` ("Men's & Women's · D1, D2, D3, NAIA · NJCAA (men's)"), matching `/app/` and `/faq/` (product claim, standards §3) | 2026-10-09 | lacrosse/index, lacrosse/guide/index, lacrosse/womens/index, the five lacrosse methodology CTAs (roster-composition, class-year-gaps, coach-tenure, international-composition, rosterfit-score), roster-composition:90 and closing section, coach-tenure:101, class-year-gaps closing section, and the women's CTAs on club-pathways, recruiting-video, id-camps-and-tournaments, international-recruiting, coaches-look-for-by-position, scholarships-after-house-settlement |
+
+**Corrected (dated correction note on the page, "Correction, October 9, 2026"):**
+- `lacrosse/index` — description ("every D1, D2, D3, NAIA, and NJCAA men's and women's lacrosse program"), the women's card summary ("NCAA D1, D2, D3, NAIA, and NJCAA"), and the intro paragraph ("every men's and women's program at … NAIA, and NJCAA levels"). Title kept: NJCAA men's programs exist.
+- `womens/index` — title and description ("D1, D2, D3, NAIA & NJCAA"), intro ("across … NAIA, and NJCAA"), "growing NAIA and NJCAA participation", "D2, D3, NAIA, and NJCAA programs often have later timelines".
+- `womens/guide/scholarships-after-house-settlement` — the NJCAA paragraph said the status was unclear and to confirm it; now states the discontinuation. Description fixed. **Heading renamed** "NAIA and NJCAA women's lacrosse scholarships" → "NAIA women's lacrosse scholarships (and why the NJCAA is not an option)" — anchor changes; no internal links pointed at it. The NJCAA "Divisional Structure" source entry was replaced by the release and the sport list, since the page no longer quotes that structure for women.
+- `womens/guide/id-camps-and-tournaments:59` — "ID camps … across NCAA D1, D2, D3, NAIA, and NJCAA programs".
+- `womens/guide/international-recruiting:138` — "Athletic scholarships are available at … (D1, D2, NAIA, NJCAA)".
+- `womens/guide/coaches-look-for-by-position` (FAQ + body) — "Lower competitive levels (D3, NAIA, NJCAA)".
+- `methodology/roster-composition:90` and closing section, `methodology/coach-tenure:101`, `methodology/class-year-gaps` closing section — "every … NJCAA lacrosse program … both men's and women's".
+
+**Corrected without an on-page note (call-to-action product lines only; the
+error is recorded here and in the commit message):** the "every D1, D2, D3, NAIA,
+and NJCAA program" CTA heading on all five methodology pages (on the three above
+it is covered by their notes); the "every … NAIA, and NJCAA women's lacrosse
+program" CTA text on `womens/guide/club-pathways` and `womens/guide/recruiting-video`;
+`lacrosse/guide/index` description.
+
+**Clarified (not wrong, but ambiguous for a women's reader):** `guide/house-settlement-and-lacrosse` ("Junior college lacrosse continues under NJCAA rules" → men only), `guide/september-1-junior-year-rule` (NJCAA paragraph), `methodology/class-year-gaps` ("NAIA and NJCAA programs" → NJCAA is men's only).
+
+**Cut:**
+- ❌ "Top D1 programs typically want draw specialists who also play meaningful field minutes. Lower competitive levels (D3, NAIA, NJCAA) may be more willing to roster pure specialists." (`womens/guide/coaches-look-for-by-position`, FAQ + body) — unsourced "typically", ranks divisions (§4.1), and names the NJCAA. Replaced with a question to ask coaches.
+- ❌ "growing NAIA and NJCAA participation" (`womens/index`) — unsourced growth claim (§3).
+- ❌ "D2, D3, NAIA, and NJCAA programs often have later timelines and can be outstanding fits" (`womens/index`) — unsourced "often", evaluative.
+
+**Not added:** no new claim about NAIA women's lacrosse; existing NAIA mentions were left as they were.
+`date:` not bumped on any page (only the NJCAA statements were re-verified).
+
 ---
 
 ### Open items to re-check before/at publish
@@ -438,13 +478,18 @@ wrestling set does not mention. Worth its own pass.
 27. **Open item 26 RESOLVED 2026-10-08** (§N). Item 14 (five-visit cap) CUT from
     both lacrosse timelines (§A). Item 11: the July 11, 2024 NJCAA release is now
     read (§D); the June 24, 2026 release is still unread.
-28. **NJCAA women's lacrosse is still named on other live pages** (found
-    2026-10-08, not edited — outside this pass): `womens/index` title and
-    description ("D1, D2, D3, NAIA & NJCAA"), `womens/guide/id-camps-and-tournaments:59`,
-    `womens/guide/international-recruiting:138`, `lacrosse/index` women's card summary,
-    and the methodology pages that say RosterWise covers NJCAA programs "both men's
-    and women's" (`roster-composition:90`, `coach-tenure:101`). Correct with a
-    note in one pass; `apps.json` already says "NJCAA (men's)".
+28. ~~**NJCAA women's lacrosse is still named on other live pages**~~ —
+    **RESOLVED 2026-10-09 (§O).** Every live page corrected; the release was
+    re-read and the NJCAA's 2026-27 sport list confirms men's lacrosse only.
 29. **Age-based eligibility wording (§M)** on `methodology/class-year-gaps` carries
     the Tenth Circuit status "as of October 8, 2026." Update with
     `src/guide/age-based-eligibility.md` after the Oct. 13 argument and any ruling.
+30. **Found during the §O pass, not edited (outside its scope):**
+    `guide/september-1-junior-year-rule` says NJCAA "communication with junior
+    college coaches generally is permissible across timeframes" — an unsourced rule
+    in a hedge (§3); `womens/index` "a meaningfully larger pool of Division II
+    programs than the men's game" has no row here; the men's pages still carry
+    unsourced "often"/"many strong recruits" statements about D2, D3, NAIA and NJCAA
+    (`mens/guide/recruiting-timeline:42/:351`, `mens/guide/coaches-look-for-by-position:40/:362`,
+    `mens/guide/scholarships-after-house-settlement:48/:202`) — the §N treatment
+    applied to the women's timeline has not been applied to them.
