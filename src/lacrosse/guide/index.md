@@ -1,7 +1,7 @@
 ---
 layout: hub.njk
 title: "Lacrosse College Recruiting Guides | RosterWise™"
-description: "Lacrosse-specific college recruiting guides for families researching men's and women's lacrosse programs across D1, D2, D3, NAIA, and NJCAA."
+description: "Lacrosse-specific college recruiting guides for families researching men's and women's lacrosse programs across D1, D2, D3, and NAIA, plus NJCAA men's lacrosse."
 breadcrumbs:
   - text: Home
     url: /

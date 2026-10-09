@@ -32,8 +32,10 @@ sources:
   - "Publicly available coaching biographies from institutional athletics websites"
   - "NCAA.org — Division membership and program listings"
   - "House v. NCAA settlement (approved June 6, 2025) — D1 roster cap framework"
+  - '<a href="https://www.njcaa.org/general/2023-24/releases/20240711fqifcg">NJCAA — "NJCAA Discontinues Women''s Lacrosse"</a> (July 11, 2024; read Oct. 9, 2026) — discontinued as a sponsored sport beginning with 2024-25'
+  - '<a href="https://www.njcaa.org/sports/">NJCAA.org — Sports</a> (2026-27 sport list, read Oct. 9, 2026) — men''s lacrosse listed; no women''s lacrosse'
 cta:
-  heading: "RosterWise gives you this analysis for every D1, D2, D3, NAIA, and NJCAA program. See it in the app."
+  heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program, plus NJCAA men's. See it in the app."
   text: "Head coach tenure, roster composition, class-year gaps, and more — for every college lacrosse program in the country. Men's and women's. Know the program before you commit."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
@@ -98,7 +100,9 @@ This is the scenario that families fear most: your athlete commits to a program,
 
 ## How RosterWise tracks coaching tenure
 
-RosterWise includes head coach tenure data for every program we cover — D1, D2, D3, NAIA, and NJCAA, both men's and women's. This data is sourced from publicly available coaching biographies on institutional athletics websites, which typically include the year the coach was hired or the number of years they've been at the program.
+RosterWise includes head coach tenure data for every program we cover — D1, D2, D3, and NAIA, both men's and women's, plus NJCAA men's. (The NJCAA discontinued women's lacrosse beginning with the 2024-25 academic year.) This data is sourced from publicly available coaching biographies on institutional athletics websites, which typically include the year the coach was hired or the number of years they've been at the program.
+
+> **Correction, October 9, 2026.** An earlier version of this paragraph and the call-to-action said RosterWise covers NJCAA lacrosse programs, "both men's and women's." The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only. RosterWise Lacrosse covers NJCAA men's programs.
 
 We present tenure as a simple data point alongside roster composition, class-year analysis, and other metrics. We don't assign a "good" or "bad" label to any tenure length — the interpretation depends on the family's priorities and risk tolerance.
 

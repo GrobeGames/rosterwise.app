@@ -1,7 +1,7 @@
 ---
 layout: content.njk
 title: "Women's Lacrosse Scholarships After the House Settlement: An Honest Family Guide | RosterWise™"
-description: "The House settlement changed NCAA D1 women's lacrosse scholarships from 12 to up to 38, but the reality is more complex. Here's what scholarship offers actually look like across D1, D2, D3, NAIA, and NJCAA."
+description: "The House settlement changed NCAA D1 women's lacrosse scholarships from 12 to up to 38, but the reality is more complex. Here's what scholarship offers actually look like across D1, D2, D3, and NAIA."
 date: 2026-08-26
 breadcrumbs:
   - text: Home
@@ -43,7 +43,8 @@ faq:
   - q: "If a D3 school doesn't offer athletic scholarships, why should we consider it?"
     a: "Academic merit aid at many D3 schools can produce financial packages competitive with or exceeding partial athletic scholarships at D1 or D2 schools. The total cost of attendance, not the scholarship percentage, is what matters. Many families discover that the best financial outcome comes from a strong D3 program with substantial merit aid."
 sources:
-  - "<strong>NJCAA.org, \"Divisional Structure\"</strong> — Division I / II / III scholarship guidelines, quoted verbatim"
+  - '<a href="https://www.njcaa.org/general/2023-24/releases/20240711fqifcg">NJCAA — "NJCAA Discontinues Women''s Lacrosse"</a> (July 11, 2024; read Oct. 9, 2026) — discontinued as a sponsored sport beginning with 2024-25'
+  - '<a href="https://www.njcaa.org/sports/">NJCAA.org — Sports</a> (2026-27 sport list, read Oct. 9, 2026) — men''s lacrosse listed; no women''s lacrosse'
   - "<strong>NJCAA Sports Procedures Chart, 2026-27</strong> — per-sport limits on Letter of Intent signees and scholarships (NJCAA Bylaws Article VI, Section 3.A.1)"
   - "<strong>2026-27 NCAA Division II Manual, Bylaw 15.4.2.1</strong> (Maximum Equivalency Limits — men's lacrosse 10.8, women's lacrosse 9.9) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
   - "<strong>U.S. District Court, Northern District of California</strong> — House v. NCAA settlement ruling, approved by Judge Claudia Wilken, June 6, 2025"
@@ -56,7 +57,7 @@ sources:
   - "RosterWise 2025-26 roster dataset — roster sizes for 133 Division I women's lacrosse programs, compiled from publicly available college athletics websites, captured June-August 2026"
 cta:
   heading: "Find programs where the scholarship reality matches your family's needs"
-  text: "Generic scholarship rules don't tell you what any specific program is actually offering. The House settlement created winners and losers across women's D1 lacrosse — not based on competitive level, but based on individual program funding decisions. RosterWise analyzes every D1, D2, D3, NAIA, and NJCAA women's lacrosse program — position depth, class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring to help families identify the programs where their daughter genuinely fits both athletically and academically."
+  text: "Generic scholarship rules don't tell you what any specific program is actually offering. The House settlement created winners and losers across women's D1 lacrosse — not based on competitive level, but based on individual program funding decisions. RosterWise analyzes every D1, D2, D3, and NAIA women's lacrosse program — position depth, class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring to help families identify the programs where their daughter genuinely fits both athletically and academically."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -129,7 +130,7 @@ However, D3 women's lacrosse remains a meaningful pathway for many recruits — 
 
 For many families, D3 women's lacrosse remains a strong option — but the post-settlement landscape means D1 and D3 are now competing more directly for the same recruits than they were before.
 
-## NAIA and NJCAA women's lacrosse scholarships
+## NAIA women's lacrosse scholarships (and why the NJCAA is not an option)
 
 **NAIA women's lacrosse**: NAIA.org states that "NAIA Women's Lacrosse, first recognized as an official association sport in 2016," is an official association sport, and the NAIA runs a national championship in it — Benedictine (Kan.) won back-to-back titles, completing an unbeaten season in the most recent final.
 
@@ -137,7 +138,9 @@ On aid, the NAIA Handbook 2025-2026 (Council of Presidents, "Upper Limits for In
 
 Confirm the current limit and how a specific school applies it with the program and at [NAIA.org](https://www.naia.org), since these limits are set by the Council of Presidents and can change by handbook cycle.
 
-**NJCAA women's lacrosse**: read this one carefully. The NJCAA's scholarship structure is clear — Division I colleges may grant full athletic scholarships (tuition, books, fees, room and board, plus up to $250 in course-required supplies and one round trip a year), Division II is limited to tuition, books, fees and the $250 supplies allowance, and Division III may not offer athletic scholarships. But the NJCAA's Sports Procedures Chart, which sets the per-sport cap on Letter of Intent signees, **carries a men's lacrosse row and no women's lacrosse row**. Families should confirm the current status of NJCAA women's lacrosse directly with [NJCAA.org](https://www.njcaa.org) before planning around it.
+**NJCAA women's lacrosse**: not an option. The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year, per its July 11, 2024 release, and its 2026-27 sports list carries men's lacrosse only. That matches the NJCAA's Sports Procedures Chart, which sets the per-sport cap on Letter of Intent signees and **carries a men's lacrosse row and no women's lacrosse row**. Junior-college lacrosse — and the NJCAA scholarship structure described in our [JUCO lacrosse guide](/lacrosse/guide/junior-college/) — applies to men's programs only.
+
+> **Correction, October 9, 2026.** An earlier version of this section treated the status of NJCAA women's lacrosse as unclear and advised families to confirm it, and this page's description listed the NJCAA among women's lacrosse levels. The NJCAA discontinued women's lacrosse beginning in 2024-25 (NJCAA release, July 11, 2024); we have updated the section and the description.
 
 ## What this means for family scholarship planning
 

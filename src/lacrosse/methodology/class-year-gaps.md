@@ -40,8 +40,10 @@ sources:
   - '<a href="/guide/age-based-eligibility/">RosterWise — The NCAA''s New Five-Year Eligibility Rule, Explained</a>'
   - '<a href="https://web3.ncaa.org/lsdbi/search/proposalView?id=109408">NCAA Legislative Services Database — Division III membership proposal, Eligibility: Five-Year Period of Eligibility, Age-Based Eligibility Model</a> (2027 Convention; submitted June 30, 2026; not voted on)'
   - '<a href="https://www.naia.org/student-athletes/prospective/high-school-students/">NAIA.org — High School Students</a> (four seasons of competition in the first 10 semesters)'
+  - '<a href="https://www.njcaa.org/general/2023-24/releases/20240711fqifcg">NJCAA — "NJCAA Discontinues Women''s Lacrosse"</a> (July 11, 2024; read Oct. 9, 2026) — discontinued as a sponsored sport beginning with 2024-25'
+  - '<a href="https://www.njcaa.org/sports/">NJCAA.org — Sports</a> (2026-27 sport list, read Oct. 9, 2026) — men''s lacrosse listed; no women''s lacrosse'
 cta:
-  heading: "RosterWise gives you this analysis for every D1, D2, D3, NAIA, and NJCAA program. See it in the app."
+  heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program, plus NJCAA men's. See it in the app."
   text: "Class-year gap analysis across every college lacrosse program — automatically computed from current roster data and broken down by position (including FOGO, LSM, SSDM, and goalie for men's; attack, midfield, defense, and goalie for women's). See which programs need players at your athlete's position, in your athlete's incoming class year."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
@@ -104,7 +106,7 @@ The signal means slightly different things at different divisions:
 
 **D3 programs** often carry larger rosters and have more flexible roster management. Class-year gaps are still meaningful signals, but the larger roster context means a gap is less likely to represent an existential need and more likely to represent a preference. Top D3 lacrosse programs (NESCAC, Centennial Conference, and other competitive D3 conferences) compete at very high levels, and their roster management can be sophisticated.
 
-**NAIA and NJCAA programs** vary widely in roster size and management approach. Class-year gap analysis applies the same way conceptually, but the practical implications depend on the specific program.
+**NAIA and NJCAA programs** (NJCAA lacrosse is men's only) vary widely in roster size and management approach. Class-year gap analysis applies the same way conceptually, but the practical implications depend on the specific program.
 
 ## Complications that affect class-year analysis
 
@@ -162,6 +164,8 @@ Class-year gap analysis is the kind of intelligence that coaching staffs use whe
 
 Families haven't had access to this intelligence — not because the data is hidden, but because it's scattered across hundreds of websites in inconsistent formats and requires systematic effort to compile.
 
-RosterWise automates this analysis for every D1, D2, D3, NAIA, and NJCAA lacrosse program (men's and women's). For each program, you can see the class-year distribution at each position group — including specialized positions like FOGO, LSM, and SSDM in men's lacrosse — identify where gaps exist, and understand what that means for your athlete's timing. It's one of the most powerful features in the app, and it's based on a concept that's deceptively simple: count the players, note their years, and look for the gaps.
+RosterWise automates this analysis for every D1, D2, D3, and NAIA lacrosse program (men's and women's), plus NJCAA men's. For each program, you can see the class-year distribution at each position group — including specialized positions like FOGO, LSM, and SSDM in men's lacrosse — identify where gaps exist, and understand what that means for your athlete's timing. It's one of the most powerful features in the app, and it's based on a concept that's deceptively simple: count the players, note their years, and look for the gaps.
+
+> **Correction, October 9, 2026.** An earlier version of this paragraph and the call-to-action said RosterWise covers NJCAA lacrosse programs for both men and women. The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only. RosterWise Lacrosse covers NJCAA men's programs.
 
 The signal has always been there. Now families can see it.
