@@ -36,7 +36,7 @@ sources:
   - '<a href="/lacrosse/mens/guide/international-recruiting/">RosterWise — International Recruiting in Men''s College Lacrosse</a> — what the NCAA does and does not publish about international lacrosse players'
 cta:
   heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program, plus NJCAA men's. See it in the app."
-  text: "See the international composition of every college lacrosse program — percentage, countries and provinces represented, and how it affects opportunity for domestic and Canadian/international recruits. Men's and women's."
+  text: "See the international players on every college lacrosse roster in the app — how many, what share of the roster, and which countries they come from — and, for men's programs, how that share figures in your athlete's My RosterFit score. Men's and women's."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -96,7 +96,7 @@ Beyond the simple "how many spots are available for domestic recruits" question,
 
 **Look for programs that have enrolled international players before.** A roster with players from outside the U.S. shows the program has done it. Ask any program, with or without that history, what support it offers — I-20/visa processing, academic advising for international students, box-to-field coaching, and help adjusting to campus.
 
-**Look at which provinces (or countries) are represented.** If a program has multiple players from your province or region, there may be a direct connection between the coaching staff and player networks in your area. This can facilitate the recruiting process.
+**Look at where the program's players come from.** Each roster lists hometowns, and the app groups a program's international players by country. If a program has players from your province or region, ask the coaches how they found them.
 
 **Ask about the international experience specifically.** How do Canadian/international players integrate into team culture? Is there support for box-to-field transition? Is there support for players adjusting to the American academic system? What is the process for arriving on campus and getting set up?
 
@@ -114,7 +114,11 @@ Determining whether a player is international from roster data isn't always stra
 
 RosterWise uses the hometown information available on each program's roster to identify international players. When a player's hometown is listed with a non-U.S. country or province, we classify them as international. When the data is ambiguous (for example, a player listed with a U.S. city who may have Canadian origins), we err on the side of not classifying them as international.
 
-This means our international composition numbers are generally conservative — the actual international percentage at some programs may be slightly higher than we report. We believe understating is better than overstating when families are making decisions based on this data.
+This means a program's international count can understate its international players — an unclear entry is not counted as international — but an unclear entry never inflates it. We believe understating is better than overstating when families are making decisions based on this data.
+
+**What the app shows.** On each program's page, the app gives the number of international players and their share of the roster, and lists them by country, with counts, in its "Where Players Come From" breakdown. It groups international players by country only: it does not break Canadian players down by province. Each player's hometown appears in the roster list as the school published it, so a province shows there when the roster gives one. For men's programs, the international share also feeds the Roster Composition factor in [My RosterFit](/lacrosse/methodology/rosterfit-score/); for women's programs that factor isn't scored.
+
+> **Correction, October 9, 2026.** An earlier version of this page's call-to-action said the app shows the provinces represented on each roster, and its footer referred to "the international-composition figures here." The app groups international players by country and does not break Canadian players down by province, and this page publishes no international figures. We corrected both, described what the app does show, and replaced "generally conservative … may be slightly higher" with how an unclear hometown entry is actually counted.
 
 ## Patterns worth watching
 
@@ -134,4 +138,4 @@ The rosters are public. Read them position by position, and take what you find t
 
 ---
 
-*The international-composition figures here describe patterns in the rosters RosterWise analyzed — they are not NCAA rules and they shift season to season. This article reflects the landscape as of **June 2026**. See the [methodology](/methodology/data-and-analysis/) page for how the data is collected, verify current eligibility rules at NCAA.org, and check Lacrosse Canada for Canadian pathway structures.*
+*This page describes how to read the international players on a roster; it does not publish international figures, and a roster's international share shifts season to season. This article reflects the landscape as of **June 2026**. See the [methodology](/methodology/data-and-analysis/) page for how the data is collected, verify current eligibility rules at NCAA.org, and check Lacrosse Canada for Canadian pathway structures.*

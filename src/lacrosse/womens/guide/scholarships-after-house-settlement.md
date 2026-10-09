@@ -56,7 +56,7 @@ sources:
   - "RosterWise 2025-26 roster dataset — roster sizes for 133 Division I women's lacrosse programs, compiled from publicly available college athletics websites, captured June-August 2026"
 cta:
   heading: "Find programs where the scholarship reality matches your family's needs"
-  text: "Generic scholarship rules don't tell you what any specific program is actually offering. Under the House settlement, each women's D1 lacrosse program makes its own funding decisions. RosterWise analyzes every D1, D2, D3, and NAIA women's lacrosse program — position depth, class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring to help families identify the programs where their daughter genuinely fits both athletically and academically."
+  text: "Generic scholarship rules don't tell you what any specific program is actually offering. Under the House settlement, each women's D1 lacrosse program makes its own funding decisions. RosterWise covers every D1, D2, D3, and NAIA women's lacrosse program — position depth, class-year gaps, where each roster's players come from, recruiting pathways, transfers listed on each roster, and personalized fit scoring — to help families identify the programs where their daughter genuinely fits both athletically and academically."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 

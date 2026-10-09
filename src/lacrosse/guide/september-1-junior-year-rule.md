@@ -53,7 +53,7 @@ sources:
   - '<a href="https://www.njcaa.org/general/2023-24/releases/20240711fqifcg">NJCAA — "NJCAA Discontinues Women''s Lacrosse"</a> (July 11, 2024; read Oct. 9, 2026) — discontinued as a sponsored sport beginning with 2024-25'
 cta:
   heading: "Find programs where your athlete genuinely fits"
-  text: "Understanding the September 1 of junior year rule is essential context — but knowing the rule doesn't tell you which programs to pursue. The deeper question is whether your athlete's profile actually matches the kinds of recruits a program targets, whether roster spots will open at the right times, and how the program builds its recruiting class year over year. RosterWise analyzes every NCAA Division I, II, III, and NAIA lacrosse program in the country, men's and women's, plus NJCAA men's — position depth, class year gaps, geographic recruiting patterns, transfer portal activity, and personalized fit scoring."
+  text: "Understanding the September 1 of junior year rule is essential context — but knowing the rule doesn't tell you which programs to pursue. The deeper question is whether your athlete's profile actually matches the kinds of recruits a program targets, whether roster spots will open at the right times, and how the program builds its recruiting class year over year. RosterWise covers every NCAA Division I, II, III, and NAIA lacrosse program in the country, men's and women's, plus NJCAA men's — position depth, class-year gaps, where each roster's players come from, transfers listed on each roster, and personalized fit scoring."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 

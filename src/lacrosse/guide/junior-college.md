@@ -37,7 +37,7 @@ sources:
   - "California Community College Athletic Association (3C2A / CCCAA) — membership information"
 cta:
   heading: "See where your lacrosse athlete actually fits."
-  text: "JUCO is one of several lacrosse pathways. RosterWise Lacrosse analyzes every program — position depth, class-year gaps, recruiting geography, and personalized fit scoring — across NCAA D1, D2, D3, NAIA, and (men's) NJCAA."
+  text: "JUCO is one of several lacrosse pathways. RosterWise Lacrosse covers every program — position depth, class-year gaps, where each roster's players come from, and personalized fit scoring — across NCAA D1, D2, D3, NAIA, and (men's) NJCAA."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 

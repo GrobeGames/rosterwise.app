@@ -1,6 +1,6 @@
 ---
 layout: content.njk
-title: "How Head Coach Tenure Predicts Program Direction"
+title: "Coach Tenure in College Lacrosse | RosterWise™"
 description: "What head coach tenure can and can't tell you about a college lacrosse program, how RosterWise shows it, and the questions it raises for recruiting families."
 date: 2026-06-14
 breadcrumbs:
@@ -19,7 +19,7 @@ related:
   - title: "How My RosterFit Scoring Works"
     url: /lacrosse/methodology/rosterfit-score/
     status: live
-  - title: "Why Class-Year Gaps Are the Most Overlooked Recruiting Signal"
+  - title: "Class-Year Gaps in College Lacrosse Recruiting"
     url: /lacrosse/methodology/class-year-gaps/
     status: live
   - title: "Recruiting Red Flags"
@@ -103,20 +103,23 @@ RosterWise includes head coach tenure data for every program we cover — D1, D2
 
 > **Correction, October 9, 2026.** An earlier version of this paragraph and the call-to-action said RosterWise covers NJCAA lacrosse programs, "both men's and women's." The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only. RosterWise Lacrosse covers NJCAA men's programs.
 
-We present tenure as a simple data point alongside roster composition, class-year analysis, and other metrics. We don't assign a "good" or "bad" label to any tenure length — the interpretation depends on the family's priorities and risk tolerance.
+We present tenure alongside roster composition, class-year analysis, and other metrics. For a head coach whose start year we have, the app shows which season they are in — for example, "5th season (2025-26)" — and a stage label based only on that count: **New Era** (first season), **Developing** (second through fourth), **Building** (fifth and sixth), **Established** (seventh through eleventh), **Program Pillar** (twelfth and beyond), or **Incoming** for an announced hire who hasn't started yet. The labels describe length, not quality: none of them says a program is good or bad, and what a given length means depends on the family's priorities and risk tolerance.
 
 **What we show:**
 
-- Head coach name
-- Start year (when available)
-- Tenure in years
-- Title (Head Coach, Associate Head Coach, etc.)
+- Head coach name and title, with interim and co-head coaches marked
+- The head coach's season count and stage label (when a start year is available)
+- A short summary of the head coach's biography, where one is available
+- Assistant coaches' names and titles
+- On each conference's page: the average head-coach tenure across its programs, and its longest- and shortest-serving head coaches
 
 **What we don't show (because the data doesn't reliably exist in public sources):**
 
 - Assistant coach tenure (this is informative but inconsistently published)
-- Previous coaching positions (some bios include this; not all do)
-- Win-loss record under the current coach (available for some programs, not all)
+- Previous coaching positions as a separate item (a head coach's biography summary may mention them)
+- Win-loss record under the current coach (the program page shows the most recent completed season's record, labeled with that season)
+
+> **Correction, October 9, 2026.** An earlier version of this section said the app shows each head coach's start year and "tenure in years," and that "we don't assign a 'good' or 'bad' label to any tenure length." The app shows the season a head coach is in and attaches a stage label based on that count (New Era through Program Pillar); it also shows assistant coaches, a biography summary, and conference-level tenure figures. We rewrote the list from the app. The page title, which said tenure "predicts program direction," was also changed — tenure describes time in the job, not where a program is headed.
 
 ## How to factor tenure into your evaluation
 

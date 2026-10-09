@@ -13,7 +13,7 @@ breadcrumbs:
 children:
   - title: "Women's College Lacrosse Recruiting Timeline"
     url: /lacrosse/womens/guide/recruiting-timeline/
-    summary: "The September 1 contact rule, typical timelines by division, and the current recruiting landscape."
+    summary: "The September 1 contact rule, what each division's rules allow, and what to ask coaches."
     status: live
   - title: "Women's Lacrosse Scholarships After the House Settlement"
     url: /lacrosse/womens/guide/scholarships-after-house-settlement/
@@ -21,11 +21,11 @@ children:
     status: live
   - title: "International Recruiting in Women's College Lacrosse"
     url: /lacrosse/womens/guide/international-recruiting/
-    summary: "The growing international landscape — Canada, England, Australia — plus the F-1 visa/NIL reality and the 2028 Olympics, the first to include women's lacrosse."
+    summary: "What international families — from Canada, England, Australia and beyond — need to know, plus the F-1 visa and NIL question and the 2028 Los Angeles Olympics."
     status: live
   - title: "Recruiting Video for Women's Lacrosse"
     url: /lacrosse/womens/guide/recruiting-video/
-    summary: "What coaches actually want to see — by position, including draw control — with direct guidance from named D1 head coaches and the pre-September 1 reality."
+    summary: "What to include in a women's lacrosse recruiting video — by position, including draw control — and what the rules allow before September 1."
     status: live
   - title: "The Women's College Lacrosse Club & Showcase Pathway"
     url: /lacrosse/womens/guide/club-pathways/
@@ -37,11 +37,11 @@ children:
     status: live
   - title: "Draw Control Recruiting in Women's College Lacrosse"
     url: /lacrosse/womens/guide/draw-control/
-    summary: "Why the draw specialist is one of the most valued roles, and how coaches evaluate it."
+    summary: "How the draw specialist role works, and what to ask coaches about it."
     status: coming-soon
   - title: "What Women's College Lacrosse Coaches Look for by Position"
     url: /lacrosse/womens/guide/coaches-look-for-by-position/
-    summary: "What coaches evaluate for Attack, Midfield, Defense, Goalie, and draw control specialists — with primary-source NCAA rules and named-coach guidance."
+    summary: "What coaches evaluate for Attack, Midfield, Defense, Goalie, and draw control specialists — with primary-source NCAA rules and questions to ask coaches."
     status: live
 ---
 

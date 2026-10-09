@@ -35,9 +35,9 @@ faq:
   - q: "My daughter is a great draw specialist. Is that enough to get recruited?"
     a: "It depends on the program, and no rule settles it. We don't have data on how programs value draw specialists, so ask each coach how draw specialists fit their roster, and whether they want the player taking the draw to play in the field as well."
   - q: "How important is height for women's lacrosse positions?"
-    a: "No rule sets a height requirement for any position, and we don't have data on height by position in women's college lacrosse. Ask coaches directly whether height factors into how they evaluate your daughter at her position."
+    a: "No rule sets a height requirement for any position, and we haven't published figures on height by position across women's college lacrosse. Each program's page in RosterWise shows the heights its roster lists at each position, where the school publishes them. Ask coaches directly whether height factors into how they evaluate your daughter at her position."
   - q: "My daughter is interested in playing goalie. Are there fewer recruiting opportunities?"
-    a: "We don't have data on how many goalies programs carry or recruit, so we won't characterize the market. Each program's roster shows how many goalies it has now, by class year; ask its coaches how many it expects to add in your daughter's class."
+    a: "We haven't published figures on how many goalies programs carry or recruit, so we won't characterize the market. Each program's roster — and its page in RosterWise — shows how many goalies it has now, by class year; ask its coaches how many it expects to add in your daughter's class."
 sources:
   - '<a href="https://ncaaorg.s3.amazonaws.com/championships/sports/lacrosse/rules/women/PRWLA_RulesBook.pdf">NCAA — 2026 and 2027 Women''s Lacrosse Rules</a> (February 2026)'
   - "<strong>NCAA Women's Lacrosse Statisticians' Manual</strong> — Official NCAA statistical definitions including draw control, save percentage, caused turnovers"
@@ -52,7 +52,7 @@ sources:
   - '<a href="https://www.njcaa.org/sports/">NJCAA.org — Sports</a> (2026-27 sport list, read Oct. 9, 2026) — men''s lacrosse listed; no women''s lacrosse'
 cta:
   heading: "Find programs where your daughter genuinely fits — at her position"
-  text: "The position-based framework tells you what coaches are evaluating. The deeper question is whether the programs evaluating your daughter are actually a fit for her at her specific position. RosterWise analyzes every NCAA Division I, II, III, and NAIA women's lacrosse program — position depth (including the specialized draw specialist role), class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring. The position-by-position analysis helps families identify the programs where their daughter genuinely fits both athletically and at her specific role."
+  text: "This guide covers what coaches evaluate at each position. The deeper question is whether the programs evaluating your daughter are actually a fit for her at her specific position. RosterWise covers every NCAA Division I, II, III, and NAIA women's lacrosse program — position depth at attack, midfield, defense, and goalie, class-year gaps, where each roster's players come from, recruiting pathways, transfers listed on each roster, and personalized fit scoring. The position-by-position view shows how each program's roster is built at your daughter's position."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -288,17 +288,19 @@ It depends on the program, and no rule settles it. We don't have data on how pro
 
 **"How important is height for women's lacrosse positions?"**
 
-No rule sets a height requirement for any position, and we don't have data on height by position in women's college lacrosse. Ask coaches directly whether height factors into how they evaluate your daughter at her position.
+No rule sets a height requirement for any position, and we haven't published figures on height by position across women's college lacrosse. Each program's page in RosterWise shows the heights its roster lists at each position, where the school publishes them. Ask coaches directly whether height factors into how they evaluate your daughter at her position.
 
 **"My daughter is interested in playing goalie. Are there fewer recruiting opportunities?"**
 
-We don't have data on how many goalies programs carry or recruit, so we won't characterize the market. Each program's roster shows how many goalies it has now, by class year; ask its coaches how many it expects to add in your daughter's class.
+We haven't published figures on how many goalies programs carry or recruit, so we won't characterize the market. Each program's roster — and its page in RosterWise — shows how many goalies it has now, by class year; ask its coaches how many it expects to add in your daughter's class.
 
 > **Correction, October 9, 2026.** An earlier version of the last two answers said height "matters more for goalies," that defenders "benefit from height," that each team "rosters few" goalies, and that "strong goalies can find competitive recruiting opportunities at all division levels." None of it had a source, and we rewrote both answers.
 
 ## Every recruit's position story is different
 
 Position evaluation is a starting framework, not a rigid prescription. Some athletes transition between positions during their development. Some are recruited as one position and end up playing another in college. Some athletes have skills that don't fit neatly into traditional position categories (athletic, versatile midfielders who can be deployed offensively or defensively, for example). Use this position-based framework to understand what coaches are evaluating, but treat your daughter's actual development as the driver — not a position label. Talk with her coaches about what positions match her current development and where she might be most competitive in the recruiting process.
+
+> **Correction, October 9, 2026.** An earlier version of this page's call-to-action said RosterWise analyzes position depth "including the specialized draw specialist role." The RosterWise Lacrosse app's women's positions are attack, midfield, defense, and goalie; a player a roster lists as a draw specialist is counted under another position, so the app has no draw-specialist depth view. We corrected the call-to-action.
 
 ---
 

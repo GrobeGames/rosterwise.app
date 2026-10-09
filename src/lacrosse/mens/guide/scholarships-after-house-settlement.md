@@ -61,7 +61,7 @@ sources:
   - "RosterWise 2025-26 roster dataset — roster sizes for 77 Division I men's lacrosse programs, compiled from publicly available college athletics websites, captured June-August 2026"
 cta:
   heading: "Find programs where the scholarship reality matches your family's needs"
-  text: "Generic scholarship rules don't tell you what any specific program is actually offering. RosterWise analyzes every D1, D2, D3, NAIA, and NJCAA men's lacrosse program — position depth (including specialized positions like FOGO and LSM), class year gaps, recruiting geography, Canadian recruiting patterns, transfer portal activity, and personalized fit scoring."
+  text: "Generic scholarship rules don't tell you what any specific program is actually offering. RosterWise covers every D1, D2, D3, NAIA, and NJCAA men's lacrosse program — position depth (including long-stick midfield and face-off), class-year gaps, where each roster's players come from (states, and countries for international players, Canada included), recruiting pathways, transfers listed on each roster, and personalized fit scoring."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 

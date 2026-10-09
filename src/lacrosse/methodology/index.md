@@ -13,21 +13,21 @@ children:
     url: /lacrosse/methodology/roster-composition/
     summary: "How roster composition analysis works for lacrosse, and why families should use it to make smarter recruiting decisions."
     status: live
-  - title: "Why Class-Year Gaps Are the Most Overlooked Recruiting Signal"
+  - title: "Class-Year Gaps in College Lacrosse Recruiting"
     url: /lacrosse/methodology/class-year-gaps/
-    summary: "How class-year gap analysis reveals where lacrosse programs need to recruit next."
+    summary: "How class-year gap analysis reads a lacrosse roster for where a program may need to recruit next."
     status: live
   - title: "What International Roster Composition Tells You"
     url: /lacrosse/methodology/international-composition/
-    summary: "How international player composition shapes lacrosse rosters — and why the Canadian pipeline in men's lacrosse is uniquely meaningful."
+    summary: "How to read the international players on a college lacrosse roster — what the share can and can't tell domestic and Canadian recruits."
     status: live
-  - title: "How Head Coach Tenure Predicts Program Direction"
+  - title: "Coach Tenure in College Lacrosse"
     url: /lacrosse/methodology/coach-tenure/
-    summary: "What coaching tenure tells you about a lacrosse program's stability and direction."
+    summary: "What a head coach's time at a lacrosse program can and can't tell you, and how RosterWise shows it."
     status: live
-  - title: "How My RosterFit™ Scoring Works: The Eight Factors"
+  - title: "RosterFit™ Score in College Lacrosse: Six Factors for Men's, Five for Women's"
     url: /lacrosse/methodology/rosterfit-score/
-    summary: "A transparent explanation of how RosterWise calculates personalized fit scores for lacrosse recruits — the eight factors that determine fit."
+    summary: "How RosterWise calculates personalized fit scores for lacrosse recruits — the six factors scored for men's programs and five for women's, and their standard weights."
     status: live
 ---
 
@@ -45,9 +45,11 @@ RosterWise analyzes every college lacrosse program across five key dimensions:
 
 1. **[Roster composition](/lacrosse/methodology/roster-composition/)** — the foundation of everything else
 2. **[Class-year gaps](/lacrosse/methodology/class-year-gaps/)** — where programs need to recruit next
-3. **[International composition](/lacrosse/methodology/international-composition/)** — the Canadian pipeline and what it means for opportunity
-4. **[Coach tenure](/lacrosse/methodology/coach-tenure/)** — stability and program direction signals
-5. **[RosterFit scoring](/lacrosse/methodology/rosterfit-score/)** — personalized fit based on your athlete's profile
+3. **[International composition](/lacrosse/methodology/international-composition/)** — the international players on a roster, by country, and what they mean for opportunity
+4. **[Coach tenure](/lacrosse/methodology/coach-tenure/)** — how long the head coach has been in place, and what that can and can't tell you
+5. **[RosterFit scoring](/lacrosse/methodology/rosterfit-score/)** — personalized fit based on your athlete's profile: six factors for men's programs, five for women's
+
+> **Correction, October 9, 2026.** An earlier version of this page described the RosterFit page as covering "the eight factors that determine fit." The RosterWise Lacrosse app scores six factors for men's programs and five for women's; see the [RosterFit page](/lacrosse/methodology/rosterfit-score/).
 
 Together, these dimensions produce a complete picture of every program's recruiting landscape — not based on rankings or reputation, but on what the roster data actually shows. For the underlying approach that applies across every sport, see our [roster intelligence methodology](/roster-intelligence/).
 

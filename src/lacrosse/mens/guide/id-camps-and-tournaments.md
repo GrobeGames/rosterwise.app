@@ -49,7 +49,7 @@ sources:
   - "<strong>USA Lacrosse magazine</strong> — Coverage of Lake Placid Summit Classic 30th anniversary; coverage of major events"
 cta:
   heading: "Find programs where your son genuinely fits — and prioritize events accordingly"
-  text: "The right ID camps and tournaments depend on which programs are realistic fits for your son's specific profile. RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA men's lacrosse program — position depth (including specialized positions like FOGO and LSM), class year gaps, recruiting geography, Canadian recruiting patterns, transfer portal activity, and personalized fit scoring. The program-by-program analysis helps families identify the realistic targets — which then drives which specific ID camps and tournaments make sense to attend."
+  text: "The right ID camps and tournaments depend on which programs are realistic fits for your son's specific profile. RosterWise covers every NCAA Division I, II, III, NAIA, and NJCAA men's lacrosse program — position depth (including long-stick midfield and face-off), class-year gaps, where each roster's players come from (states, and countries for international players, Canada included), recruiting pathways, transfers listed on each roster, and personalized fit scoring. The program-by-program analysis helps families identify the realistic targets — which then drives which specific ID camps and tournaments make sense to attend."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 

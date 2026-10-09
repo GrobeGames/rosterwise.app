@@ -1,7 +1,7 @@
 ---
 layout: hub.njk
 title: "Women's College Lacrosse Recruiting Intelligence — Roster Analysis for D1, D2, D3 & NAIA | RosterWise™"
-description: "Women's college lacrosse roster intelligence — every D1, D2, D3, and NAIA program analyzed. Position depth, draw control specialists, geography, club pathways, transfer portal patterns. RosterWise™ Lacrosse."
+description: "Women's college lacrosse roster intelligence for every D1, D2, D3, and NAIA program: position depth, class-year gaps, geography, recruiting pathways, transfers. RosterWise™ Lacrosse."
 breadcrumbs:
   - text: Home
     url: /
@@ -64,13 +64,15 @@ Second, the number of programs. The NCAA projects **134** Division I, **112** Di
 
 RosterWise applies [roster intelligence](/roster-intelligence/) — systematic analysis of every roster at every program — to women's lacrosse. The dimensions that matter most:
 
-- **Position depth** — how many players a program carries at Attack, Midfield, Defense, Goalie, and as draw control specialists, and when roster spots are opening.
-- **Class-year gaps and roster turnover** — which positions are about to graduate, revealing where a program needs to recruit next.
-- **Geographic recruiting patterns** — which states and regions a program draws from.
-- **Pathway analysis** — club programs, the summer tournament circuit, and recruiting showcases.
-- **International composition** — tracked program by program where relevant.
-- **Transfer portal patterns** — how a program builds through the portal versus high-school recruiting.
-- **Coach tenure and program direction** — stability and recruiting-philosophy signals.
+- **Position depth** — how many players a program carries at Attack, Midfield, Defense, and Goalie, and how each group is spread across class years.
+- **Class-year gaps and roster turnover** — how many seniors and graduate students at each position leave after this season, and how many return.
+- **Geographic recruiting patterns** — the states a program's players come from, and the countries for any international players.
+- **Recruiting pathways** — how many players came through a club, a prep school, a high school, or another college, based on the last school each roster entry lists.
+- **International players** — how many, their share of the roster, and which countries they come from.
+- **Transfers** — players whose roster entry lists a previous college, and the colleges they came from.
+- **Coach tenure** — how long the head coach has been in place.
+
+> **Correction, October 9, 2026.** An earlier version of this list (and the page description) said RosterWise shows position depth for "draw control specialists," promised "transfer portal patterns," described pathway analysis of "the summer tournament circuit, and recruiting showcases," and described coach tenure as a signal of "program direction." The app's women's positions are attack, midfield, defense, and goalie — a player a roster lists as a draw specialist is counted under another position; it shows the transfers listed on each roster, not transfer-portal data; its pathway view comes from the last school each roster lists; and tenure describes time in the job, not where a program is headed. We rewrote the list from the app.
 
 ## Every recruit's timeline is different
 

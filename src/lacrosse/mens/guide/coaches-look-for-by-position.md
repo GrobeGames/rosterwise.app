@@ -45,7 +45,7 @@ sources:
   - "<strong>Intercollegiate Men's Lacrosse Coaches Association (IMLCA)</strong> — Coaching association referenced for men's lacrosse coaching guidance"
 cta:
   heading: "Find programs where your son genuinely fits — at his position"
-  text: "The position-based framework tells you what coaches are evaluating. The deeper question is whether the programs evaluating your son are actually a fit for him at his specific position. RosterWise analyzes every NCAA Division I, II, III, NAIA, and NJCAA men's lacrosse program — position depth (including specialized positions like FOGO and LSM), class year gaps, recruiting geography, Canadian recruiting patterns, transfer portal activity, and personalized fit scoring. The position-by-position analysis helps families identify the programs where their son genuinely fits both athletically and at his specific role."
+  text: "This guide covers what coaches evaluate at each position. The deeper question is whether the programs evaluating your son are actually a fit for him at his specific position. RosterWise covers every NCAA Division I, II, III, NAIA, and NJCAA men's lacrosse program — position depth (including long-stick midfield and face-off), class-year gaps, where each roster's players come from (states, and countries for international players, Canada included), recruiting pathways, transfers listed on each roster, and personalized fit scoring. The position-by-position view shows how each program's roster is built at your son's position."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 

@@ -60,7 +60,7 @@ sources:
   - '<a href="https://www.njcaa.org/sports/">NJCAA.org — Sports</a> (2026-27 sport list, read Oct. 9, 2026) — men''s lacrosse listed; no women''s lacrosse'
 cta:
   heading: "Find programs where your daughter genuinely fits — wherever she's from"
-  text: "International women's lacrosse families face the same fundamental question as American families: which programs genuinely fit your daughter's athletic and academic profile? RosterWise analyzes every NCAA Division I, II, III, and NAIA women's lacrosse program — position depth, class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring. The geographic and pathway analysis helps international families understand which programs actively recruit international talent."
+  text: "International women's lacrosse families face the same fundamental question as American families: which programs genuinely fit your daughter's athletic and academic profile? RosterWise covers every NCAA Division I, II, III, and NAIA women's lacrosse program — position depth, class-year gaps, where each roster's players come from, recruiting pathways, transfers listed on each roster, and personalized fit scoring. Each program's page shows how many international players it carries, their share of the roster, and which countries they come from."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -104,7 +104,7 @@ We don't publish figures on how many NCAA women's lacrosse players come from eac
 
 **Japan, Scotland, and other member nations**: These are among World Lacrosse's 97 member nations (see above).
 
-**The implication for NCAA recruiting**: The recruiting rules are the same whatever the country. We don't have data on how many international recruits come from each country, so we won't rank them; each program's roster lists hometowns.
+**The implication for NCAA recruiting**: The recruiting rules are the same whatever the country. We haven't published figures on how many international players come from each country, so we won't rank them; each program's roster lists hometowns, and its page in RosterWise lists its international players by country.
 
 > **Correction, October 9, 2026.** An earlier version of this section said other nations' players reach NCAA rosters "typically at smaller absolute numbers," that England "consistently fields a competitive national team," that Australia "has been competitive … for decades," that women's lacrosse in "emerging-lacrosse nations" has an "upward" trajectory, and that international recruits "come most commonly from Canada." We have no data supporting those statements, so we removed them and kept the 2022 results and Australia's two world titles.
 

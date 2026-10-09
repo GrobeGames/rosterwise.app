@@ -54,7 +54,7 @@ sources:
   - '<a href="https://www.njcaa.org/general/2023-24/releases/20240711fqifcg">NJCAA — "NJCAA Discontinues Women''s Lacrosse"</a> (July 11, 2024; read Oct. 9, 2026) — discontinued as a sponsored sport beginning with 2024-25'
 cta:
   heading: "Find programs where your athlete's reality matches yours."
-  text: "Under the House settlement, what a D1 lacrosse program funds depends on its own school's decisions, not on its competitive level. Knowing which programs are increasing scholarship investment, which are maintaining the status quo, and which are reducing their commitment is now essential information for recruiting families. RosterWise analyzes every D1, D2, D3, and NAIA men's and women's lacrosse program, plus NJCAA men's — position depth, class-year gaps, recruiting geography, transfer portal activity, and personalized fit scoring."
+  text: "Under the House settlement, what a D1 lacrosse program funds depends on its own school's decisions, not on its competitive level — so ask each coach what the program actually funds. RosterWise covers every D1, D2, D3, and NAIA men's and women's lacrosse program, plus NJCAA men's — position depth, class-year gaps, where each roster's players come from, transfers listed on each roster, and personalized fit scoring. It does not track what any program spends on scholarships."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -211,6 +211,8 @@ For families considering programs across divisions, the structural changes on th
 ## Every recruit's journey is different
 
 The House settlement reshaped the structural framework of NCAA Division I lacrosse. But how it plays out for any individual recruit depends entirely on the specific schools she or he is considering. At some schools, a program may now fund more athletic aid than it could before; at others, funding may be unchanged; and a program operating at its roster limit may have no room to add a walk-on. Use this guide as context to inform conversations with each program your athlete is considering — and ask direct, specific questions about scholarship funding and roster planning under the new framework. The headline numbers are real, but the program-by-program reality is what will actually shape your athlete's experience.
+
+> **Correction, October 9, 2026.** An earlier version of this page's call-to-action said knowing "which programs are increasing scholarship investment, which are maintaining the status quo, and which are reducing their commitment" is essential information, beside a description of what RosterWise analyzes — implying the app shows it. It doesn't: the RosterWise Lacrosse app has no program-level scholarship or funding data. The call-to-action also promised "transfer portal activity"; the app shows the transfers listed on each roster, not transfer-portal data. We corrected both.
 
 ---
 

@@ -244,7 +244,7 @@ single 2aDays reference as "worth a Tier ruling." The full extent is larger.
 | --- | --- | --- | --- |
 | Across **77** D1 men's lacrosse programs, the median roster carried **49** players, IQR **47–53** (mean 49.7, range 34–63) | RosterWise 2025-26 roster dataset — logged in full in `roster-data-fact-log.md` §C | 2026-08-26 | lacrosse/mens/guide/recruiting-timeline, lacrosse/mens/guide/scholarships-after-house-settlement |
 | Across **133** D1 women's lacrosse programs, the median roster carried **34** players, IQR **31–37** (mean 34.0, range 20–46); **84%** are at or below the 38-player cap | RosterWise 2025-26 roster dataset — `roster-data-fact-log.md` §C | 2026-08-26 | lacrosse/womens/guide/scholarships-after-house-settlement |
-| ⚠️ **No RosterWise position-depth or international figures exist for lacrosse.** `lacrosse/index` and `lacrosse/methodology/*` promise position-depth analysis across the men's (Attack, Midfield, Defense, LSM, FOGO, Goalie) and women's (Attack, Midfield, Defense, Goalie, Draw specialist) taxonomies and Canadian composition, and `methodology/international-composition` states "Some men's D1 programs have rosters with 20% or more Canadian representation" and "a women's program with 10%+ international representation." **None of it is computed.** `roster-data-fact-log.md` covers lacrosse for roster size only. | RosterWise dataset — position depth and international share not computed for lacrosse | 2026-08-26 | lacrosse/index, lacrosse/methodology/international-composition, lacrosse/methodology/roster-composition, lacrosse/methodology/class-year-gaps |
+| ⚠️ **No RosterWise position-depth or international figures exist for lacrosse.** `lacrosse/index` and `lacrosse/methodology/*` promise position-depth analysis across the men's (Attack, Midfield, Defense, LSM, FOGO, Goalie) and women's (Attack, Midfield, Defense, Goalie, Draw specialist) taxonomies and Canadian composition, and `methodology/international-composition` states "Some men's D1 programs have rosters with 20% or more Canadian representation" and "a women's program with 10%+ international representation." **None of it is computed.** `roster-data-fact-log.md` covers lacrosse for roster size only. **Product claims aligned to the app 2026-10-09 — see §Q** (the app computes per-program position depth and international share; no cross-program lacrosse figure is published). | RosterWise dataset — position depth and international share not computed for lacrosse | 2026-08-26 | lacrosse/index, lacrosse/methodology/international-composition, lacrosse/methodology/roster-composition, lacrosse/methodology/class-year-gaps |
 | **Pre-settlement lacrosse roster claims were correctly cut** — `roster-data-fact-log.md` records that "typically 50+ players" (men's) and "typically 30-35+ players" (women's) were removed and replaced with the 2025-26 figures, explicitly labelled post-settlement. That cut held; no lacrosse page still carries the old wording. | `roster-data-fact-log.md`, "Claims cut for lack of supporting data" | 2026-08-26 | *(verified clean)* |
 | ⚠️ **UNSOURCED — "Many head coaches have long tenures (15+ years…)"** on the lacrosse coach-tenure methodology page; and "**hundreds** of college ID camps and prospect days are held annually" on both ID-camp pages. Distributional claims RosterWise could compute (it tracks coach tenure) or should cut. | RosterWise tracks coach tenure; not computed | 2026-08-26 | lacrosse/methodology/coach-tenure:13, lacrosse/mens/guide/id-camps-and-tournaments:7, lacrosse/womens/guide/id-camps-and-tournaments:7 |
 
@@ -441,6 +441,9 @@ program" CTA text on `womens/guide/club-pathways` and `womens/guide/recruiting-v
     gates and will drift apart again next cycle.
 18. **RosterWise has no lacrosse position-depth or international figures (§J)**,
     though `lacrosse/index` and three methodology pages promise both.
+    **RESOLVED 2026-10-09 (§Q)** — the app does show per-program position depth and international
+    counts/shares/countries; every page now describes those views from the app, and still publishes no
+    cross-program lacrosse figures.
 19. Re-run every "2026-27 calendar," "2025-26 projected sponsorship," "as of June
     2026" and "House settlement first year" anchor at the next rollover.
 20. **2027 rule text (§L).** The blog post summarizes the 2027 changes from the
@@ -576,13 +579,13 @@ pages; OJLL "top source of NLL talent" superlative re-introduced after its 2026-
 
 ### Open items from this pass (for Scott — not resolved)
 
-34. **Product-claim flags (decision needed).** Row 247 says no RosterWise lacrosse position-depth or international *figures* are
+34. ~~**Product-claim flags (decision needed).**~~ **RESOLVED 2026-10-09 — see §Q.** Row 247 says no RosterWise lacrosse position-depth or international *figures* are
     published, yet hubs, CTAs and methodology pages promise them; the methodology pass checked the app config and bundled DB
     read-only and found: SSDM and "Draw specialist" are not app positions; no province view; the RosterFit page's "Eight Factors"
     do not match the engine (7 core components, 6 scored for lacrosse, no "Pathway Alignment"/"Division Level"); "more than a
     thousand programs" vs 998 in the DB / "990+" in the app; a house-settlement CTA implies a scholarship-investment view the app
     lacks. Full file:line lists are in the three notes files under "Product-claim flags."
-35. **Titles left unchanged** that assert claims removed from their bodies: "Most Overlooked Recruiting Signal" (class-year-gaps),
+35. ~~**Titles left unchanged**~~ **RESOLVED 2026-10-09 — retitled; see §Q.** that assert claims removed from their bodies: "Most Overlooked Recruiting Signal" (class-year-gaps),
     "Predicts Program Direction" (coach-tenure), "The Eight Factors" (rosterfit-score).
 36. **Same NIL "classified as employment" error outside lacrosse:** `src/guide/international-student-athletes.md:93`,
     `src/guide/nil-and-revenue-sharing.md:121` (not edited).
@@ -590,3 +593,84 @@ pages; OJLL "top source of NLL talent" superlative re-introduced after its 2026-
     "most recent final"; DSA portability; non-opt-in framework; NAIA "not directly subject"; NJCAA "24" cap; 3C2A aid rule; the
     June 24, 2026 Cabinet GPA-reform claim (§D [170]); LA28 and operator figures (attributed); 8m/12m rule descriptions; four
     `description:` fields now 179–190 characters.
+
+## Q. Product claims aligned to the app (2026-10-09)
+
+Resolves §P items 34 and 35 and the product half of §J [247] / open item 18. **Source of record for every row:
+`research_notes/lacrosse-app-ground-truth.md`**, which quotes the code and the SQL in full. Standards §3: product
+descriptions are sourced from the product itself, so the "primary source" here is the RosterWise Lacrosse app — its
+lacrosse configuration, the shared RosterWiseCore engine and views, and the bundled database — read-only, nothing built
+or run. Abbreviations: **LSC** = `app-lacrosse/RosterWiseLacrosse/Config/LacrosseSportConfig.swift`; **LFV** =
+`app-lacrosse/RosterWiseLacrosse/Views/LacrosseFieldView.swift`; **Core/** = `RosterWiseCore/Sources/RosterWiseCore/`;
+**FSS** = `Core/Services/FitScoreService.swift`; **PDV** = `Core/Views/Explore/ProgramDetailView.swift`; **DB** =
+`app-lacrosse/RosterWiseLacrosse/Resources/rosterwise.db` (file dated 2026-09-26, `bundle_meta.anchor_season` 2025-26).
+Re-verify every row on each app release (standards §8).
+
+| Claim | Primary source | Verified | Articles |
+| --- | --- | --- | --- |
+| Men's app positions: **Attack, Midfield, Long-Stick Midfielder (LSM), Face-off, Defense, Goalie**; women's: **Attack, Midfield, Defense, Goalie**. The app's label is "Face-off"; "FOGO" is a glossary term pointing at it. | LSC:28-42, 50-54, 491; DB `sports.position_taxonomy_json` | 2026-10-09 | lacrosse/index, lacrosse/mens/index, lacrosse/womens/index, lacrosse/methodology/class-year-gaps, lacrosse/methodology/roster-composition, lacrosse/methodology/rosterfit-score, lacrosse/womens/guide/coaches-look-for-by-position, all seven lacrosse/mens/guide/* CTAs |
+| **SSDM is not an app position**; a player a roster lists as an SSDM is counted under another position — usually midfield, sometimes defense. | LSC:19-54 (no SSDM code); DB, displayed rosters: SSDM/short-stick raw → MID 300, DEF 116, LSM 5, FO 2 (query in ground-truth §1) | 2026-10-09 | lacrosse/methodology/class-year-gaps, lacrosse/methodology/roster-composition |
+| **Draw specialist is not an app position**; a player a roster lists as one is counted under another position. | LSC:492 ("a midfield skill, not a separate roster position"); DB: draw/DS raw → MID 19, ATT 10, DEF 3 | 2026-10-09 | lacrosse/index, lacrosse/womens/index, lacrosse/womens/guide/coaches-look-for-by-position |
+| **Position depth** per program: players at each position, and each group by class year (field chart Open/Competitive/Stacked; "Roster Composition" class-year × position chart; "By Position" / "By Class Year" counts). | LFV:1-43, 175-253; PDV:529-543, 1054-1367 | 2026-10-09 | lacrosse/index, lacrosse/mens/index, lacrosse/womens/index, lacrosse/methodology/roster-composition, every lacrosse guide CTA, blog/college-lacrosse-rule-changes-2027 (CTA) |
+| **Class-year gaps**: per position, how many seniors and graduate students leave after this season and how many return, plus a position × class-year (FR–GR) grid. | `Core/Views/Explore/ClassYearGapView.swift`:1-12, 127-185, 254-286; `Core/Services/RosterDepthBuckets.swift`:42 | 2026-10-09 | lacrosse/index, lacrosse/mens/index, lacrosse/womens/index, lacrosse/methodology/class-year-gaps |
+| **Where players come from**: states (domestic) and countries (international) with counts, number of each, and a "Local / Regional / National recruiting" label (+ "International" at ≥10% and ≥2 players). | `Core/Views/Explore/GeographicRecruitingMapView.swift`:1-5, 137, 195-241, 355-389; `Core/Services/RecruitingFootprint.swift`:48-53, 98-99 | 2026-10-09 | lacrosse/index, lacrosse/mens/index, lacrosse/womens/index, every lacrosse guide CTA |
+| **Recruiting pathways** = players by Club / Prep School / High School / International / Online School / College Transfer / JUCO Transfer, "based on last school listed on roster." No event or showcase data. | PDV:1977-2093; LSC:82-93 | 2026-10-09 | lacrosse/index, lacrosse/mens/index, lacrosse/womens/index, lacrosse/methodology/roster-composition, gender guide CTAs |
+| **International players** per program: count and share of roster; listed **by country**; **no province breakdown** (provinces appear only inside an individual player's hometown text when published). Conference pages: international % and top countries. | PDV:2096-2111; GeographicRecruitingMapView.swift:355-381; `Core/Views/Explore/ConferenceProfileView.swift`:613-650; `Core/Database/Models/DBPlayer.swift`:82-99 | 2026-10-09 | lacrosse/index, lacrosse/mens/index, lacrosse/womens/index, lacrosse/methodology/international-composition, lacrosse/methodology/roster-composition (CTA), lacrosse/mens/guide/international-recruiting (CTA), lacrosse/womens/guide/international-recruiting (CTA, body) |
+| A player counts as international only on a clear non-U.S. origin in the roster's location field; an unclear entry is **not** counted as international (so the count can understate, never inflate). | `pipeline/src/rosterwise/normalize.py`:972-996, 1047-1066 | 2026-10-09 | lacrosse/methodology/international-composition |
+| **Transfers** = roster players whose school-published roster lists a previous college: count, % of roster, source colleges. **No transfer-portal data** ("a roster page, not a transfer portal"). | `Core/Views/Explore/TransferTrackerView.swift`:16-63; `Core/Theme/Components/RWRosterDeltaSection.swift`:16-18 | 2026-10-09 | lacrosse/index, lacrosse/mens/index, lacrosse/womens/index, lacrosse/guide/house-settlement-and-lacrosse, lacrosse/guide/september-1-junior-year-rule, gender guide CTAs |
+| **Coach tenure**: head coach "Nth season (YYYY-YY)" and a stage label — New Era (1st), Developing (2nd–4th), Building (5th–6th), Established (7th–11th), Program Pillar (12th+), Incoming — when a start year is known (976 of 996 head coaches); interim/co-head marked; bio summary when available (357); assistants by name and title, no tenure; conference avg/longest/newest tenure; program record shown is the last completed season's. | `Core/Database/Models/DBCoach.swift`:100-131; PDV:678-680, 1471-1660; ConferenceProfileView.swift:541-575; DB `coaches` query (ground-truth §4) | 2026-10-09 | lacrosse/methodology/coach-tenure |
+| **Height by position** is shown per program (heights published for 12,229 of 14,495 women's and 15,349 of 17,386 men's players on displayed rosters). | PDV:1814; DB effective-season height query (ground-truth §4) | 2026-10-09 | lacrosse/womens/guide/coaches-look-for-by-position, lacrosse/methodology/roster-composition (CTA) |
+| **RosterFit engine has seven components** (Position Need, Academic Match, Roster Composition, Competitive Level, Height Fit, Geographic Fit, Financial Fit); **no "Pathway Alignment," no "Division Level."** | FSS:339-342, 349-357, 417-423 | 2026-10-09 | lacrosse/methodology/rosterfit-score, lacrosse/methodology/index |
+| **Lacrosse hides Competitive Level** (both genders); **women's Roster Composition weight = 0**, which removes it → **6 factors scored men's, 5 women's**. | LSC:236, 283-289; FSS:450; `Core/Environment/SportContext.swift`:471-480 | 2026-10-09 | lacrosse/methodology/rosterfit-score (title, summary, body), lacrosse/methodology/index |
+| **Standard weights** — men's: Position 28, Academic 20, Roster Composition 6, Height 6, Geographic 24, Financial 16; women's: Position 30, Academic 20, Height 6, Geographic 26, Financial 18. Visible and editable in Settings › My RosterFit™ › Customize Score Weights; custom scores marked. | LSC:283-289; `Core/Views/More/FitScoreExplanationView.swift`:151-153; `RosterWiseCore/CLAUDE.md`:182-190 | 2026-10-09 | lacrosse/methodology/rosterfit-score |
+| Factor mechanics as stated on the page: Position Need next-intake departures vs. typical annual intake (players ÷ 4, ÷ 2 at NJCAA); Academic Match vs. IPEDS 25th/50th/75th, open admission = match; Roster Composition bands 70/50 domestic, 25/10 international; Height Fit needs ≥3 published heights, shorter-only at DEF/LSM/GOAL; Geographic distance (1.5×) or footprint (3+ state / 1–2 / region 3+); Financial sticker tuition, 25% band, "no limit" = not a factor. | FSS:572-856, 982-1128, 1445-1487, 892-977 + LSC:139-143 + SportContext.swift:556, 1155-1241, 1316-1422 | 2026-10-09 | lacrosse/methodology/rosterfit-score |
+| Combination: Green 5 / Yellow 2.5 / Red 1 weighted average, 0–100; **fixed denominator** (unverified = neutral at full weight); no score with no roster or < 50% verified; caps **49** (2 Reds) / **35** (3+); "X of Y factors scored." | FSS:485-548; `RosterWiseCore/CLAUDE.md`:135-151; `Core/Theme/Components/RWFitScoreBadge.swift`:118 | 2026-10-09 | lacrosse/methodology/rosterfit-score |
+| RosterFit does not evaluate playing ability (stick skills, face-off ability, lacrosse IQ…). | LSC:116 (in-app disclaimer) | 2026-10-09 | lacrosse/methodology/rosterfit-score |
+| **998 programs in the app's current database (440 men's, 558 women's)**; by division M D1 77 · D2 81 · D3 238 · NAIA 28 · NJCAA 16; W D1 133 · D2 113 · D3 282 · NAIA 30 (980 active; 18 discontinued/departed/suspended). App's own copy: **"990+ Programs."** | DB: `SELECT gender, division, COUNT(*) FROM programs GROUP BY 1,2;` and `SELECT COUNT(*) FROM programs;` → 998; LSC:306-308; `Core/Database/DatabaseManager.swift`:2095-2139 | 2026-10-09 | lacrosse/methodology/roster-composition |
+| Coverage wording "every D1, D2, D3, NAIA (and NJCAA men's) program" — the app's own copy, with no women's NJCAA programs in the DB. | LSC:307, 377-397; DB division query above | 2026-10-09 | every lacrosse CTA, lacrosse/index, lacrosse/mens/index, lacrosse/womens/index |
+| The app has **no program-level scholarship / funding data**. | `Core/Views/More/ResourcesView.swift`:193-246 (division-level copy only); LSC:447-457 | 2026-10-09 | lacrosse/guide/house-settlement-and-lacrosse |
+| RosterWise Lacrosse is one of the RosterWise apps alongside Soccer, Volleyball, and Wrestling (all `live: true`). | website `src/_data/apps.json` (`sports[].live`) | 2026-10-09 | lacrosse/index |
+
+**Claims removed or corrected (old → new in the coordinator's report; dated on-page notes where material):**
+- "Draw specialist" / "draw control specialists" as a position-depth category (lacrosse/index, womens/index, womens/guide/coaches-look-for-by-position CTA). *Note added on all three.*
+- SSDM as an app position (methodology/class-year-gaps body + CTA; methodology/roster-composition ×2; methodology/rosterfit-score CTA + Position Need). *Notes on class-year-gaps, roster-composition, rosterfit-score.*
+- "Which Canadian provinces a program draws from" (mens/index) and "countries and provinces represented" (methodology/international-composition CTA). *Notes on both.*
+- "Transfer portal patterns / activity" as an app view (lacrosse/index, mens/index, womens/index bullets and descriptions; every guide CTA). *Notes on the three hubs and house-settlement; CTA-only pages treated as phrasing.*
+- "Pathway analysis" of the summer tournament circuit and recruiting showcases (lacrosse/index, mens/index, womens/index). *Notes.*
+- "Specialist roles like FOGO and LSM carry small numbers, so a single graduation can open real opportunity" (mens/index; unsourced distributional claim). *Note.*
+- "Coach tenure and program direction — stability and recruiting-philosophy signals" (mens/index, womens/index); methodology hub "stability and program direction signals." *Notes on mens/womens index.*
+- "The eight factors," "Pathway Alignment," "Division Level," and "we don't publish the exact weights" (methodology/rosterfit-score; methodology/index). *Notes on both.*
+- "Typical playing rotation" comparison and "more than a thousand programs" (methodology/roster-composition). *Note.*
+- Named prep-school leagues (MIAA, IAAM/IAAML) as pathway categories (methodology/roster-composition). *Covered by the same note.*
+- "Which programs are increasing scholarship investment …" implied as app information (guide/house-settlement-and-lacrosse CTA). *Note.*
+- Coach-tenure "What we show" (start year, "tenure in years") and "we don't assign a 'good' or 'bad' label" (methodology/coach-tenure). *Note.*
+- Footer "the international-composition figures here" and "generally conservative … may be slightly higher" (methodology/international-composition). *Note.*
+- "Will analyze" (future tense; lacrosse/guide/index) and "launches … alongside Soccer and Volleyball" (lacrosse/index) — phrasing, no note.
+- "We don't have data on height by position" / "on how many goalies programs carry" (womens/guide/coaches-look-for-by-position, FAQ + body) and "on how many international recruits come from each country" (womens/guide/international-recruiting) — the app holds those per program; reworded to "we haven't published figures across programs." Understatements; no note.
+
+**Titles (item 35):** methodology/class-year-gaps → "Class-Year Gaps in College Lacrosse Recruiting | RosterWise™"; methodology/coach-tenure →
+"Coach Tenure in College Lacrosse | RosterWise™"; methodology/rosterfit-score → "RosterFit™ Score in College Lacrosse: Six Factors for
+Men's, Five for Women's | RosterWise™" (modeled on `src/volleyball/methodology/*.md`). Related cards updated on rosterfit-score,
+class-year-gaps, coach-tenure, roster-composition, methodology/index. URLs unchanged. The sidebar uses short labels and needed no
+change. Heading `## The eight factors` → `## The factors lacrosse scores` (anchor changes; no `src/` link to the old anchor).
+
+**Not changed, flagged:** `src/_data/apps.json` lacrosse `scenario` (outside this pass's scope) says the app shows "whether a starting
+spot opens" and "whether the program builds through high-school recruiting or the transfer portal" — the app models neither starters
+nor the portal. Same soccer/wrestling titles ("Most Overlooked", "Predicts Program Direction", "Eight Factors") remain on those sports'
+own pages. App-side copy discrepancies are listed in `research_notes/lacrosse-app-ground-truth.md` → "Discrepancies inside the app's
+own copy" (report only).
+
+**§Q addendum (coordinator, 2026-10-09):** `src/_data/apps.json` lacrosse `scenario` (renders on `/lacrosse/app/`) aligned to the
+ground truth — removed "whether a starting spot opens … sit behind returning starters" (the app models no starters), "whether the
+program builds through high-school recruiting or the transfer portal" (no portal data; transfers = roster-listed previous colleges,
+`RWRosterDeltaSection.swift`:16-18), and "concentrated, as lacrosse recruiting often is, in particular regions" (unsourced §3);
+"folds athletic and academic fit" → position need, academics, location, cost (LacrosseSportConfig.swift:283-289). Coordinator
+re-verified: DB `SELECT COUNT(*) FROM programs` = 998 (M 77/81/238/28/16, W 133/113/282/30); hidden `competitive_level`; women's
+`rosterComposition: 0`; Core `orderedIDs` = 7 components.
+**§Q addendum 2 (coordinator, 2026-10-09):** `womens/guide/index` card summaries (missed by all three §P passes) aligned to the
+cleaned pages — "typical timelines by division", "the growing international landscape", "the first [Olympics] to include women's
+lacrosse" (unverified, §P open item 37), "direct guidance from named D1 head coaches" (quotes cut 2026-08-26), "one of the most
+valued roles", "named-coach guidance" removed. `methodology/international-composition` province advice reworded to point at roster
+hometowns and the app's by-country grouping (no province view exists, §Q item 3); "there may be a direct connection … can facilitate"
+cut as speculation.
+

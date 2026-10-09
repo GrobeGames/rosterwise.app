@@ -1,6 +1,6 @@
 ---
 layout: content.njk
-title: "Why Class-Year Gaps Are the Most Overlooked Recruiting Signal"
+title: "Class-Year Gaps in College Lacrosse Recruiting | RosterWise™"
 description: "How class-year gap analysis reads a college lacrosse roster for where a program may need to recruit next — and what that signal can and cannot tell you."
 date: 2026-06-14
 breadcrumbs:
@@ -25,7 +25,7 @@ related:
   - title: "The House Settlement and Lacrosse"
     url: /lacrosse/guide/house-settlement-and-lacrosse/
     status: live
-  - title: "How Head Coach Tenure Predicts Program Direction"
+  - title: "Coach Tenure in College Lacrosse"
     url: /lacrosse/methodology/coach-tenure/
     status: live
 sources:
@@ -46,7 +46,7 @@ sources:
   - '<a href="https://www.njcaa.org/sports/">NJCAA.org — Sports</a> (2026-27 sport list, read Oct. 9, 2026) — men''s lacrosse listed; no women''s lacrosse'
 cta:
   heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program, plus NJCAA men's. See it in the app."
-  text: "Class-year gap analysis across every college lacrosse program — automatically computed from current roster data and broken down by position (including FOGO, LSM, SSDM, and goalie for men's; attack, midfield, defense, and goalie for women's). See which programs need players at your athlete's position, in your athlete's incoming class year."
+  text: "Class-year gap analysis for every college lacrosse program in the app — computed from each program's current roster and broken down by position (attack, midfield, long-stick midfield, face-off, defense, and goalie for men's; attack, midfield, defense, and goalie for women's). See how many players at your athlete's position leave after this season, and how the rest of the group is spread across class years."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -158,7 +158,9 @@ All three programs might be willing to recruit a close defender. On class-year c
 
 A coaching staff knows its own roster plans. Families see only the public roster — and even that has been hard to use, not because the data is hidden, but because it's scattered across hundreds of websites in inconsistent formats and requires systematic effort to compile.
 
-RosterWise automates this analysis for every D1, D2, D3, and NAIA lacrosse program (men's and women's), plus NJCAA men's. For each program, you can see the class-year distribution at each position group — including specialized positions like FOGO, LSM, and SSDM in men's lacrosse — identify where gaps exist, and understand what that means for your athlete's timing. It's based on a concept that's deceptively simple: count the players, note their years, and look for the gaps.
+RosterWise automates this analysis for every D1, D2, D3, and NAIA lacrosse program (men's and women's), plus NJCAA men's. For each program, you can see how many players at each position leave after this season and how many return, and a grid of the whole roster by position and class year — including long-stick midfield and face-off in men's lacrosse — so you can spot where gaps exist and what that means for your athlete's timing. It's based on a concept that's deceptively simple: count the players, note their years, and look for the gaps.
+
+> **Correction, October 9, 2026.** An earlier version of this paragraph and the call-to-action listed SSDM (short-stick defensive midfielder) among the positions RosterWise breaks class years down by. The app has no SSDM position: a player a roster lists as an SSDM is counted under another position — usually midfield, sometimes defense. The app's men's positions are attack, midfield, long-stick midfield, face-off, defense, and goalie.
 
 > **Correction, October 9, 2026.** An earlier version of this paragraph and the call-to-action said RosterWise covers NJCAA lacrosse programs for both men and women. The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only. RosterWise Lacrosse covers NJCAA men's programs.
 

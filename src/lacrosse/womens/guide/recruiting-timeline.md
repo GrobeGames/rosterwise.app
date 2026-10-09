@@ -50,7 +50,7 @@ sources:
   - '<a href="https://www.njcaa.org/general/2023-24/releases/20240711fqifcg">NJCAA — "NJCAA Discontinues Women''s Lacrosse"</a> (July 11, 2024; read Oct. 8, 2026) — discontinued as a sponsored sport beginning with 2024-25'
 cta:
   heading: "Find programs where your daughter genuinely fits."
-  text: "The recruiting timeline tells you when things happen. Roster intelligence tells you which programs are actually right for your daughter. RosterWise analyzes women's college lacrosse programs — position depth, class-year gaps, recruiting geography, transfer portal activity, and personalized fit scoring."
+  text: "The recruiting timeline tells you when things happen. Roster intelligence tells you which programs are actually right for your daughter. RosterWise covers every NCAA Division I, II, III, and NAIA women's lacrosse program — position depth, class-year gaps, where each roster's players come from, recruiting pathways, transfers listed on each roster, and personalized fit scoring."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 

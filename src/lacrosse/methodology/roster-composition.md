@@ -13,7 +13,7 @@ breadcrumbs:
   - text: Roster Composition
 summary: "Roster composition analysis is the practice of examining every player on a college lacrosse roster — their positions, class years, heights, hometowns, and backgrounds — to understand a program's structure, needs, and recruiting patterns. It's the foundation of everything RosterWise does, and it turns public roster data into something families can use."
 related:
-  - title: "Why Class-Year Gaps Are the Most Overlooked Recruiting Signal"
+  - title: "Class-Year Gaps in College Lacrosse Recruiting"
     url: /lacrosse/methodology/class-year-gaps/
     status: live
   - title: "What International Roster Composition Tells You"
@@ -22,7 +22,7 @@ related:
   - title: "How My RosterFit Scoring Works"
     url: /lacrosse/methodology/rosterfit-score/
     status: live
-  - title: "How Head Coach Tenure Predicts Program Direction"
+  - title: "Coach Tenure in College Lacrosse"
     url: /lacrosse/methodology/coach-tenure/
     status: live
   - title: "The House Settlement and Lacrosse"
@@ -38,7 +38,7 @@ sources:
   - '<a href="https://www.njcaa.org/sports/">NJCAA.org — Sports</a> (2026-27 sport list, read Oct. 9, 2026) — men''s lacrosse listed; no women''s lacrosse'
 cta:
   heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program, plus NJCAA men's. See it in the app."
-  text: "Roster composition analysis across every college lacrosse program in the country — position depth (including FOGO, LSM, and goalie specialization), class-year gaps, Canadian/international composition, height profiles, and more. Men's and women's. One app. Every program."
+  text: "Roster composition analysis for every college lacrosse program in the app — position depth (including long-stick midfield and face-off for men's), class-year gaps, international players by country (Canada included), height by position, and more. Men's and women's. One app. Every program."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -50,12 +50,12 @@ Roster composition analysis examines the structure of a college sports team's ro
 
 For college lacrosse, this means looking at every player on a program's roster and analyzing dimensions including:
 
-- **Position distribution** — for men's lacrosse, how many attackers, midfielders, LSMs (long-stick midfielders), SSDMs (short-stick defensive midfielders), defenders, face-off specialists (FOGOs), and goalies are on the roster; for women's lacrosse, how many attackers, midfielders, defenders, and goalies — and how that compares to the program's typical playing rotation and post-House-settlement roster cap
+- **Position distribution** — for men's lacrosse, how many attackers, midfielders, long-stick midfielders (LSMs), face-off specialists, defenders, and goalies are on the roster; for women's lacrosse, how many attackers, midfielders, defenders, and goalies — and how the total compares with the Division I roster limit at schools covered by the House settlement
 - **Class-year distribution** — how many freshmen, sophomores, juniors, seniors, and graduate students, and what that means for upcoming roster turnover
 - **Height profiles** — the physical characteristics of players at each position, revealing coaching preferences
 - **Geographic origin** — where players come from, revealing recruiting pipelines and geographic tendencies
 - **International composition** — the share of players from outside the United States, including Canadian players
-- **Previous school and pathway** — whether players came from MIAA prep schools, IAAM/IAAML programs, public high schools, or transferred from other four-year schools or junior colleges
+- **Previous school and pathway** — whether players came through a club, a prep school, or a high school, or transferred from another four-year school or a junior college, as far as the roster lists it
 
 Each of these dimensions tells a different part of the story. Together, they paint a detailed picture of how a program is built and where it may need players.
 
@@ -95,15 +95,17 @@ None of these observations are definitive. They're starting points for conversat
 
 RosterWise collects and analyzes publicly available roster data from every NCAA D1, D2, D3, and NAIA lacrosse program in the country, men's and women's, plus every NJCAA men's program. (The NJCAA discontinued women's lacrosse beginning with the 2024-25 academic year.) The process involves:
 
-**Data collection.** We pull roster information directly from each program's official athletics website. This is public data that any family could access — the challenge is doing it systematically across more than a thousand programs.
+**Data collection.** We pull roster information directly from each program's official athletics website. This is public data that any family could access — the challenge is doing it systematically across the 998 men's and women's programs in the app's current database.
 
-**Normalization.** College lacrosse rosters are published in wildly different formats. One program might list a player as "M," another as "Midfielder," another as "Mid/LSM," and another as "ATT/MID." Heights might be listed as 5'10", 5-10, or 178 cm. Hometowns might include a state, a country, or just a city name. We normalize all of this into a consistent format — including the lacrosse-specific position taxonomies for men's (attack, midfield, LSM, SSDM, defense, FOGO, goalie) and women's (attack, midfield, defense, goalie) — so that meaningful comparisons are possible.
+**Normalization.** College lacrosse rosters are published in wildly different formats. One program might list a player as "M," another as "Midfielder," another as "Mid/LSM," and another as "ATT/MID." Heights might be listed as 5'10", 5-10, or 178 cm. Hometowns might include a state, a country, or just a city name. We normalize all of this into a consistent format — including the lacrosse-specific position taxonomies for men's (attack, midfield, long-stick midfield, face-off, defense, goalie) and women's (attack, midfield, defense, goalie) — so that meaningful comparisons are possible.
 
 **Analysis.** Once the data is normalized, we compute the metrics that matter: position depth at each position group, class-year distribution, international composition, height profiles by position, geographic recruiting patterns, and more.
 
 **Presentation.** The analysis is presented in the RosterWise app in a format designed for families — clear, visual, and actionable. We show you where a program has depth and where it has gaps, how your athlete's profile compares to the current roster, and what the data suggests about opportunity.
 
 **Transparency.** We use only publicly available data from official institutional sources. We don't scrape behind logins, access private databases, or use information that isn't available to any member of the public who visits an athletics website.
+
+> **Correction, October 9, 2026.** An earlier version of this page listed SSDMs (short-stick defensive midfielders) among the men's positions RosterWise counts and normalizes, said the analysis compares a program's position counts with its "typical playing rotation," said it covers "more than a thousand programs," and named specific prep-school leagues among the pathways it identifies. The app has no SSDM position — a player a roster lists as an SSDM is counted under another position, usually midfield and sometimes defense — and no playing-rotation data; it sorts pathways into categories such as club, prep school, high school, and college transfer rather than by league; and its current database holds 998 men's and women's programs. We rewrote those lines from the app.
 
 > **Correction, October 9, 2026.** An earlier version of this page said RosterWise covers every NJCAA lacrosse program, "both men's and women's" — here and in the closing section and call-to-action. The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only. RosterWise Lacrosse covers NJCAA men's programs.
 

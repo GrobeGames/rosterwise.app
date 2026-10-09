@@ -1,7 +1,7 @@
 ---
 layout: hub.njk
 title: "College Lacrosse Recruiting Intelligence — Roster Analysis for D1, D2, D3, NAIA & NJCAA Programs | RosterWise™"
-description: "RosterWise™ Lacrosse analyzes every D1, D2, D3, and NAIA men's and women's lacrosse program, plus NJCAA men's. Position depth, geographic recruiting patterns, transfer portal activity, and personalized fit scoring for recruiting families."
+description: "RosterWise™ Lacrosse covers every D1, D2, D3, and NAIA men's and women's lacrosse program, plus NJCAA men's: position depth, class-year gaps, where players come from, transfers, and personalized fit scoring."
 breadcrumbs:
   - text: Home
     url: /
@@ -37,7 +37,7 @@ College lacrosse recruiting rewards preparation, realistic self-assessment, and 
 
 Lacrosse also follows its own recruiting rhythm. Under Division I's general rules, coaches' calls and electronic correspondence may begin June 15 after a recruit's sophomore year; lacrosse holds contact back to the start of junior year. Women's lacrosse opens **September 1 at 12 p.m. Eastern**; men's lacrosse, following a rule change effective August 1, 2026, opens at **7 a.m. on the Wednesday immediately following Labor Day**. That difference changes the whole timeline, and it's one of several lacrosse-specific realities families need to understand.
 
-RosterWise Lacrosse launches as part of the broader RosterWise platform alongside [Soccer](/soccer/) and [Volleyball](/volleyball/). Every recruit's journey is different — timelines vary, development curves differ, and the right program depends on factors no checklist can capture. Use these resources as a starting point, not a script.
+RosterWise Lacrosse is one of the RosterWise apps, alongside [Soccer](/soccer/), [Volleyball](/volleyball/), and [Wrestling](/wrestling/). Every recruit's journey is different — timelines vary, development curves differ, and the right program depends on factors no checklist can capture. Use these resources as a starting point, not a script.
 
 ## Men's vs. women's college lacrosse recruiting
 
@@ -53,13 +53,15 @@ Explore the gender-specific sections: [Men's College Lacrosse](/lacrosse/mens/) 
 
 RosterWise applies [roster intelligence](/roster-intelligence/) — systematic analysis of every roster at every program — to college lacrosse. The dimensions that matter most:
 
-- **Position depth** — how many players a program carries at each position (Attack, Midfield, Defense, LSM, FOGO, and Goalie for men's; Attack, Midfield, Defense, Goalie, and Draw specialist for women's), and where roster spots are opening.
-- **Class-year gaps and roster turnover** — which positions are about to graduate, revealing where a program actually needs to recruit.
-- **Geographic recruiting patterns** — where a program's players come from. Knowing where a program recruits helps families assess fit.
-- **Pathway analysis** — club lacrosse, the summer tournament circuit, and recruiting showcases shape how players are identified.
-- **International composition** — the share of a roster from outside the United States, including Canada.
-- **Transfer portal patterns** — how a program builds through the portal versus high-school recruiting.
+- **Position depth** — how many players a program carries at each position (Attack, Midfield, Long-Stick Midfielder, Face-off, Defense, and Goalie for men's; Attack, Midfield, Defense, and Goalie for women's), and how each position group is spread across class years.
+- **Class-year gaps and roster turnover** — how many seniors and graduate students at each position leave after this season, and how many players return.
+- **Geographic recruiting patterns** — the states and countries a program's players come from, and whether its domestic recruiting is mostly local, regional, or national. Knowing where a program recruits helps families assess fit.
+- **Recruiting pathways** — how many of a program's players came through a club, a prep school, a high school, or another college, based on the last school each roster entry lists.
+- **International players** — how many, what share of the roster, and which countries they come from, Canada included.
+- **Transfers** — players whose roster entry lists a previous college, and the colleges they came from.
 - **Coach tenure** — how long the head coach has been in place.
+
+> **Correction, October 9, 2026.** An earlier version of this list named a "Draw specialist" position for women's lacrosse, described "pathway analysis" of the summer tournament circuit and recruiting showcases, and promised "transfer portal patterns" (the page description said "transfer portal activity"). The app's women's positions are attack, midfield, defense, and goalie — a player a roster lists as a draw specialist is counted under another position; its pathway view is built from the last school each roster lists, not from events; and it shows the transfers listed on each roster, not transfer-portal data. We rewrote the list from the app.
 
 ## Universal recruiting context vs. lacrosse-specific
 

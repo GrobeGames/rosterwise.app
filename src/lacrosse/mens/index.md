@@ -1,7 +1,7 @@
 ---
 layout: hub.njk
 title: "Men's College Lacrosse Recruiting Intelligence — Roster Analysis for D1, D2, D3, NAIA & NJCAA | RosterWise™"
-description: "Men's college lacrosse roster intelligence — every D1, D2, D3, NAIA, and NJCAA program analyzed. Position depth, class year gaps, geography, Canadian recruiting patterns, transfer portal patterns. RosterWise™ Lacrosse."
+description: "Men's college lacrosse roster intelligence for every D1, D2, D3, NAIA, and NJCAA program: position depth including LSM and face-off, class-year gaps, geography, international players, transfers."
 breadcrumbs:
   - text: Home
     url: /
@@ -62,13 +62,15 @@ Third, where a program recruits matters. Each program's roster lists hometowns, 
 
 RosterWise applies [roster intelligence](/roster-intelligence/) — systematic analysis of every roster at every program — to men's lacrosse. The dimensions that matter most:
 
-- **Position depth** — how many players a program carries at Attack, Midfield, Defense, long-stick midfield (LSM), face-off (FOGO), and Goalie, and when roster spots are opening. Specialist roles like FOGO and LSM carry small numbers, so a single graduation can open real opportunity.
-- **Class-year gaps and roster turnover** — which positions are about to graduate, revealing where a program needs to recruit next.
-- **Geographic recruiting patterns** — which states and regions (and which Canadian provinces) a program draws from.
-- **Pathway analysis** — club programs, the summer tournament circuit, and recruiting showcases.
-- **International composition** — the Canadian influence in particular, tracked program by program.
-- **Transfer portal patterns** — how a program builds through the portal versus high-school recruiting.
-- **Coach tenure and program direction** — stability and recruiting-philosophy signals.
+- **Position depth** — how many players a program carries at Attack, Midfield, Long-Stick Midfielder (LSM), Face-off (the app's name for the FOGO position), Defense, and Goalie, and how each group is spread across class years.
+- **Class-year gaps and roster turnover** — how many seniors and graduate students at each position leave after this season, and how many return.
+- **Geographic recruiting patterns** — the states a program's players come from, and the countries its international players come from.
+- **Recruiting pathways** — how many players came through a club, a prep school, a high school, or another college, based on the last school each roster entry lists.
+- **International players** — how many, their share of the roster, and which countries they come from. Canadian players are counted under Canada, not by province.
+- **Transfers** — players whose roster entry lists a previous college, and the colleges they came from.
+- **Coach tenure** — how long the head coach has been in place.
+
+> **Correction, October 9, 2026.** An earlier version of this list said RosterWise shows "which Canadian provinces a program draws from," promised "transfer portal patterns," described pathway analysis of "the summer tournament circuit, and recruiting showcases," said specialist roles like FOGO and LSM "carry small numbers, so a single graduation can open real opportunity," and described coach tenure as a signal of "program direction." The app groups international players by country, not province; it shows the transfers listed on each roster, not transfer-portal data; its pathway view comes from the last school each roster lists; we had no source for the claim about specialist group sizes; and tenure describes time in the job, not where a program is headed. We rewrote the list from the app.
 
 ## Every recruit's timeline is different
 

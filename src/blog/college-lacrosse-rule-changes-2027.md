@@ -45,7 +45,7 @@ sources:
   - '<a href="https://web3.ncaa.org/lsdbi/reports/getReport/90008">NCAA — 2026-27 Division I Manual</a>, Bylaw 13.17.10, via the NCAA Legislative Services Database'
 cta:
   heading: "See how every college lacrosse roster is actually built."
-  text: "RosterWise™ Lacrosse covers men's and women's college lacrosse — D1, D2, D3, and NAIA, plus NJCAA men's — showing who is on each roster by position and class year, with athletic and academic fit folded into one My RosterFit™ score."
+  text: "RosterWise™ Lacrosse covers men's and women's college lacrosse — D1, D2, D3, and NAIA, plus NJCAA men's — showing who is on each roster by position and class year, with roster, academic, location, and cost fit folded into one My RosterFit™ score."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 

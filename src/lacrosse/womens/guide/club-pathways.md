@@ -40,7 +40,7 @@ sources:
   - "<strong>2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar</strong> — Official NCAA document at ncaaorg.s3.amazonaws.com"
 cta:
   heading: "Find programs where your daughter genuinely fits — regardless of club pathway"
-  text: "Where your daughter plays club is important. Where she ultimately ends up in college depends on much more — including which programs are actually the right fit for her specific development, academic profile, and goals. RosterWise analyzes every NCAA Division I, II, III, and NAIA women's lacrosse program — position depth, class year gaps, recruiting geography, transfer portal activity, and personalized fit scoring. The geographic and pathway analysis helps families identify the programs that are realistic targets for their daughter regardless of her current club affiliation."
+  text: "Where your daughter plays club is important. Where she ultimately ends up in college depends on much more — including which programs are actually the right fit for her specific development, academic profile, and goals. RosterWise covers every NCAA Division I, II, III, and NAIA women's lacrosse program — position depth, class-year gaps, where each roster's players come from, recruiting pathways, transfers listed on each roster, and personalized fit scoring. Seeing where each program's players came from helps families identify realistic targets for their daughter regardless of her current club affiliation."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
