@@ -76,6 +76,27 @@ file as work lands.
   (`http://www` only upgrades to `https://www`). Needs a Cloudflare dashboard
   redirect rule (www → apex, 301, preserve path + query); `_redirects` cannot
   match on host. Canonical tags already cover it, so this is cleanup only.
+  **Steps (Cloudflare dashboard, Scott):**
+  1. Open the **rosterwise.app** zone (not the Pages project) → **Rules** →
+     **Overview** → **Create rule** → **Redirect Rule**. (The "Redirect from
+     WWW to root" template pre-fills steps 2–4.)
+  2. Name: `www → apex`. If incoming requests match: **Custom filter
+     expression**, field **Hostname**, operator **equals**, value
+     `www.rosterwise.app`.
+  3. Then: type **Dynamic**, expression
+     `concat("https://rosterwise.app", http.request.uri.path)`, status code
+     **301**, **Preserve query string** checked.
+  4. Deploy. Leave the `www` DNS record **proxied** (orange cloud) and leave
+     `www` attached to the Pages project: the rule only fires on proxied
+     traffic, and it runs at the edge before Pages serves anything.
+  5. Verify (path and query must both carry over; expect `301` to the apex):
+     `curl -sI "https://www.rosterwise.app/guide/?x=1" | grep -iE '^(HTTP|location)'`
+     → `location: https://rosterwise.app/guide/?x=1`. Also check
+     `http://www.rosterwise.app/` ends on `https://rosterwise.app/` (one or two
+     hops is fine).
+  6. Search Console: nothing to submit. The www URLs leave "Alternate page
+     with proper canonical tag" for "Page with redirect" as Google recrawls,
+     which is the expected end state.
 - **`/cdn-cgi/l/email-protection` 404:** Cloudflare Email Address
   Obfuscation (Scrape Shield) rewrites every `mailto:` link. Harmless; turn it
   off in the dashboard if the report entry matters.
