@@ -87,7 +87,36 @@ const CHECKS = [
     label: '"is launching" for a new program (not true once its first season starts)',
     bad: (p, html, text) => /is launching/.test(text),
   },
+  {
+    label: "<title> or meta description not led by the school name (R1)",
+    bad: (p, html) =>
+      !headTag(html, "title").startsWith(decodeEntities(p.school_name)) ||
+      !headTag(html, "description").startsWith(decodeEntities(p.school_name)),
+  },
+  {
+    label: 'meta description over 160 chars or containing "None"',
+    bad: (p, html) => {
+      const d = headTag(html, "description");
+      return d.length > 160 || /\bNone\b/.test(d);
+    },
+  },
 ];
+
+function decodeEntities(s) {
+  return String(s)
+    .replace(/&#39;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, "&");
+}
+
+// The page's <title> text or <meta name="description"> content, decoded.
+function headTag(html, which) {
+  const m =
+    which === "title"
+      ? html.match(/<title>([\s\S]*?)<\/title>/)
+      : html.match(/<meta name="description" content="([^"]*)"/);
+  return m ? decodeEntities(m[1].trim()) : "";
+}
 
 // Free-text data fields may legitimately contain pronouns (e.g. a history
 // blurb about a person); the pronoun check is about template copy only.
@@ -100,6 +129,8 @@ function templateText(p, text) {
 }
 
 const failures = CHECKS.map(() => []);
+// Cross-page: no two program pages may share a <title> or meta description.
+const seen = { title: new Map(), description: new Map() };
 let scanned = 0;
 for (const p of programs) {
   const file = path.join(SITE_ROOT, p.page_url, "index.html");
@@ -110,6 +141,15 @@ for (const p of programs) {
   CHECKS.forEach((c, i) => {
     if (c.bad(p, html, text)) failures[i].push(p.page_url);
   });
+  for (const which of ["title", "description"]) {
+    const v = headTag(html, which);
+    seen[which].set(v, [...(seen[which].get(v) || []), p.page_url]);
+  }
+}
+for (const which of ["title", "description"]) {
+  const dups = [...seen[which].values()].filter((urls) => urls.length > 1);
+  CHECKS.push({ label: `no two program pages share a ${which === "title" ? "<title>" : "meta description"}` });
+  failures.push(dups.map((urls) => urls.join(" = ")));
 }
 
 console.log(`Program-page claim check (${scanned} pages):`);

@@ -341,11 +341,10 @@ All 11,302 JSON-LD blocks on program pages parse.
    pages. (Detection: same gender, identical lat/long, different athletics domain.)
 2. **Wesleyan College (Georgia)** has two women's program records with
    different conferences (CCS and SSAC), so two pages exist for one program.
-3. **Discontinued meta descriptions** read "*… men's soccer — None, None, None,
-   None.*" on the 18 discontinued pages (R1 scope, exporter).
-4. **The exporter's meta description** still hard-codes "NCAA {division}"
-   (`export_web_programs.py:727`). The next regen would put "NCAA NAIA" into
-   390 descriptions (R1 scope).
+3. ~~**Discontinued meta descriptions** read "*… None, None, None, None.*"~~
+   Fixed in R1.
+4. ~~**The exporter's meta description** hard-codes "NCAA {division}".~~ Fixed
+   in R1.
 5. **DC map pins:** `compute_map_pin_position` returns null for DC. Once fixed,
    the map returns automatically.
 6. **Simon Fraser** (Canadian; no IPEDS) has `state_full_name: "BC"`. **Stanton
@@ -353,3 +352,60 @@ All 11,302 JSON-LD blocks on program pages parse.
    doesn't match its "Titans" nickname. Verify both.
 7. **`status: "new"`** is a May snapshot: Lincoln (2024) and Pittsburg State
    (2024) are in at least their third season. Decide when "new" expires.
+
+---
+
+## R1 results (2026-10-09)
+
+**Pipeline** (`GrobeGames/rosterwise-pipeline`, branch `claude/r1-web-titles`),
+`scripts/export_web_programs.py`:
+
+- New `build_seo_fields` builds the title, meta description and JSON-LD
+  headline, all led by the school name.
+  - Active: "*{School} {Gender} Soccer Recruiting | RosterWise™*"
+  - New: "*…: New Program*"; discontinued: "*…: Program Discontinued*"
+  - Meta descriptions: "NCAA D1" or "NAIA", only facts present in the data,
+    ≤160 characters (the tagline shortens, then location and conference drop
+    if needed).
+- `lookup_short_school_name` matches exactly instead of by substring. That
+  fixes UAB and UAH (shown as "Alabama") and UALR and UAPB (shown as
+  "Arkansas"). URL slugs keep the old behavior, so no live URL moves.
+- `assert_unique_seo_fields` makes the export fail on any duplicate title or
+  description, or an over-length description. Covered by
+  `tests/test_export_web_programs.py` (27 tests).
+
+**Website:** `programs.json` was rewritten for the SEO fields only (Scott's
+choice; no full regeneration), using `prototypes/seo/r1_merge_titles.py`:
+
+- Changed fields: `title_tag` ×2,251, `meta_description` ×2,264, `h1` ×2,251,
+  `school_name` ×6 (the mislabeled schools). Nothing else changed.
+- Re-running with the final exporter produces byte-identical JSON, so the next
+  full regen keeps these values.
+
+`scripts/check-program-claims.js` now also fails the build if two program pages
+share a `<title>` or meta description, if either doesn't lead with the school
+name, or if a description is over 160 characters or contains "None".
+
+| Metric | Before | After |
+|---|---|---|
+| Pages sharing a `<title>` | 1,666 | 0 |
+| Pages sharing a JSON-LD headline | 1,667 | 0 |
+| Pages sharing a meta description | 4 | 0 |
+| Pages with the wrong school name | 6 | 0 |
+| Active title length: median / over 60 chars | 62 / 1,298 | (school, gender and sport always in the first 60) |
+
+### Blocking the next full regeneration (pipeline follow-ups)
+
+8. **`query_discontinued_from_changes` ignores `program_changes.sport_id`.**
+   Volleyball closures (e.g. Academy of Art, Sonoma State, St. Francis,
+   Rosemont 2026-27) also become *soccer* "discontinued" pages, which duplicate
+   the real soccer ones. The new guard fails the export on exactly these 27
+   duplicates, so it blocks a full regen until the query filters by sport.
+9. **A full export now includes every sport** (5,832 records: soccer 2,311,
+   volleyball 1,907, lacrosse 998, wrestling 616). The website only has
+   templates and hubs for soccer, so a full regen would publish about 3,500 new
+   pages under soccer-specific copy. Decide on scope before any full regen.
+10. **About 60 school-name changes are waiting in the DB** (disambiguations such
+    as "Carroll College" → "Carroll College (Montana)", and renames such as
+    "University of Houston-Victoria" → "Texas A&M University-Victoria").
+    Intentionally not applied in R1; they belong to the full-refresh milestone.
