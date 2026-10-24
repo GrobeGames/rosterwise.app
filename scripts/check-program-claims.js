@@ -100,7 +100,25 @@ const CHECKS = [
       return d.length > 160 || /\bNone\b/.test(d);
     },
   },
+  {
+    label: "unknown program status (the template has no page design for it)",
+    bad: (p) => !KNOWN_STATUSES.has(p.status),
+  },
+  {
+    label: "suspended/departed page worded as discontinued (the team still exists)",
+    bad: (p, html, text) =>
+      (p.status === "suspended" || p.status === "departed") &&
+      /discontinued its|program discontinued|no longer recruiting/i.test(templateText(p, text)),
+  },
+  {
+    label: 'inactive program shows a current "Division" in Quick Facts',
+    bad: (p, html) =>
+      p.status !== "active" && p.status !== "new" &&
+      /program-fact-label">Division</.test(html),
+  },
 ];
+
+const KNOWN_STATUSES = new Set(["active", "new", "discontinued", "suspended", "departed"]);
 
 function decodeEntities(s) {
   return String(s)
@@ -122,7 +140,7 @@ function headTag(html, which) {
 // blurb about a person); the pronoun check is about template copy only.
 function templateText(p, text) {
   let t = text;
-  for (const s of [p.notable_history, p.discontinuation_context, ...(p.notable_alumni || [])]) {
+  for (const s of [p.notable_history, p.discontinuation_context, p.status_change_context, ...(p.notable_alumni || [])]) {
     if (s) t = t.split(s).join(" ");
   }
   return t;
@@ -150,6 +168,20 @@ for (const which of ["title", "description"]) {
   const dups = [...seen[which].values()].filter((urls) => urls.length > 1);
   CHECKS.push({ label: `no two program pages share a ${which === "title" ? "<title>" : "meta description"}` });
   failures.push(dups.map((urls) => urls.join(" = ")));
+}
+// Cross-page: every program page is linked from its gender's hub, so no page
+// is reachable only through the sitemap (the 3 "new" programs once were).
+{
+  const hubs = {};
+  const orphans = [];
+  for (const p of programs) {
+    const g = p.gender === "M" ? "mens" : "womens";
+    const hubFile = path.join(SITE_ROOT, p.page_url.split("/programs/")[0], "programs", "index.html");
+    if (!(g in hubs)) hubs[g] = fs.existsSync(hubFile) ? fs.readFileSync(hubFile, "utf8") : "";
+    if (!hubs[g].includes(`href="${p.page_url}"`)) orphans.push(p.page_url);
+  }
+  CHECKS.push({ label: "every program page is linked from its programs hub" });
+  failures.push(orphans);
 }
 
 console.log(`Program-page claim check (${scanned} pages):`);

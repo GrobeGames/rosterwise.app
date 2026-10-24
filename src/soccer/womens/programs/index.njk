@@ -66,7 +66,7 @@ description: "Browse all NCAA D1, D2, D3, and NAIA women's college soccer progra
   {# Program grid — rendered from data #}
   <div id="program-grid" class="program-hub-grid">
     {% for program in programs %}
-    {% if program.gender == genderCode and program.status == "active" %}
+    {% if program.gender == genderCode and (program.status == "active" or program.status == "new") %}
     <a href="{{ program.page_url }}" class="program-hub-card"
        data-division="{{ program.division }}"
        data-state="{{ program.state }}"
@@ -120,6 +120,39 @@ description: "Browse all NCAA D1, D2, D3, and NAIA women's college soccer progra
         </div>
       </a>
       {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {# Suspended / departed: the team exists but isn't competing in NCAA or NAIA play #}
+  {% set changedPrograms = [] %}
+  {% for program in programs %}
+    {% if program.gender == genderCode and (program.status == "suspended" or program.status == "departed") %}
+      {% set changedPrograms = (changedPrograms.push(program), changedPrograms) %}
+    {% endif %}
+  {% endfor %}
+  {% if changedPrograms.length > 0 %}
+  <section class="program-hub-discontinued">
+    <h2>Suspended and Departed Programs</h2>
+    <p class="program-hub-discontinued-intro">
+      These {{ genderDisplay | lower }} soccer programs are suspended, or no longer compete in the NCAA or NAIA.
+      Each page explains what changed.
+    </p>
+    <div class="program-hub-discontinued-grid">
+      {% for program in changedPrograms %}
+      <a href="{{ program.page_url }}" class="program-hub-card program-hub-card--discontinued">
+        <div class="program-hub-card-color" style="background: #b45309"></div>
+        <div class="program-hub-card-body">
+          <div class="program-hub-card-name">{{ program.school_name }}</div>
+          <div class="program-hub-card-meta">
+            <span class="program-hub-pill program-hub-pill--status-change">{% if program.status == "suspended" %}Suspended{% elif program.departed_to == "club" %}Club sport{% elif program.departed_to %}Now {{ program.departed_to }}{% else %}Departed{% endif %}{% if program.status_change_date %} {{ program.status_change_date }}{% endif %}</span>
+          </div>
+          {% if program.city and program.state %}
+          <div class="program-hub-card-loc">{{ program.city }}, {{ program.state }}</div>
+          {% endif %}
+        </div>
+      </a>
       {% endfor %}
     </div>
   </section>
