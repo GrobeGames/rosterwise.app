@@ -643,6 +643,28 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
+/* Suspended / departed: the team still exists, so amber, not discontinued red */
+.program-status-badge--status-change {
+  background: #b45309;
+  box-shadow: 0 2px 8px rgba(180, 83, 9, 0.3);
+}
+
+.program-hero--status-change .program-discontinued-notice {
+  background: rgba(255, 251, 235, 0.1);
+  border-color: rgba(253, 230, 138, 0.3);
+  border-left-color: #f59e0b;
+}
+
+.program-status-source {
+  font-size: 0.875rem;
+}
+
+.program-status-source a {
+  color: inherit;
+  text-decoration: underline;
+  overflow-wrap: anywhere;
+}
+
 /* Standalone header (for discontinued pages without hero) */
 .program-header {
   max-width: 900px;

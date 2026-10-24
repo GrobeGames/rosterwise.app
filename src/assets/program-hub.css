@@ -285,6 +285,11 @@
   color: #991b1b;
 }
 
+.program-hub-pill--status-change {
+  background: #fef3c7;
+  color: #92400e;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .program-hub-grid {

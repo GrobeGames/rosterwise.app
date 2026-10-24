@@ -108,6 +108,8 @@ eleventyExcludeFromCollections: true
 
 {# Governing body + division as one label: "NCAA D1" / "NAIA". Never prefix NAIA with NCAA. #}
 {% set divisionLabel %}{% if program.division == "NAIA" %}NAIA{% elif program.division %}NCAA {{ program.division }}{% endif %}{% endset %}
+{# Suspended / departed headline, from the change record's own fields. #}
+{% set statusLabel %}{% if program.status == "suspended" %}Program Suspended{% elif program.departed_to == "club" %}Now a Club Sport{% elif program.departed_to %}Now in the {{ program.departed_to }}{% else %}No Longer in {{ divisionLabel }}{% endif %}{% endset %}
 
 {# Set school color CSS custom properties for the entire page #}
 <div style="--school-primary: {{ program.primary_color | default('#c8a44e') }}; --school-secondary: {{ program.secondary_color | default('#c8a44e') }};{% if program.pill_text_color %} --school-pill-text: {{ program.pill_text_color }};{% endif %}">
@@ -183,6 +185,44 @@ eleventyExcludeFromCollections: true
     </div>
   </div>
 </section>
+
+{% elif program.status == "suspended" or program.status == "departed" %}
+{# Suspended, or left NCAA/NAIA (now a club sport, or another association).
+   The team still exists, so never call it discontinued. Show the change
+   record's own context and source; with neither, say only status + date. #}
+<section class="program-hero program-hero--discontinued program-hero--status-change">
+  <div class="program-hero-inner">
+    <nav class="program-breadcrumbs" aria-label="Breadcrumb">
+      <ol>
+        {% for crumb in program.breadcrumbs %}
+        <li>
+          {% if crumb.url %}<a href="{{ crumb.url }}">{{ crumb.text }}</a>
+          {% else %}<span aria-current="page">{{ crumb.text }}</span>{% endif %}
+        </li>
+        {% endfor %}
+      </ol>
+    </nav>
+
+    <div class="program-status-badge program-status-badge--discontinued program-status-badge--status-change" role="status">
+      {{ statusLabel | upper }}{% if program.status_change_date %} ({{ program.status_change_date }}){% endif %}
+    </div>
+
+    <h1>{{ program.school_name }}<br><span class="program-hero-sport">{{ program.gender_display }} {{ program.sport_display }}</span></h1>
+
+    <div class="program-discontinued-notice">
+      {% if program.status_change_context %}
+      <p>{{ program.status_change_context }}</p>
+      {% elif program.status == "suspended" %}
+      <p>{{ program.school_name }} has suspended its {{ program.gender_display | lower }} {{ program.sport_display | lower }} program{% if program.status_change_date %} ({{ program.status_change_date }}){% endif %}.</p>
+      {% else %}
+      <p>{{ program.school_name }}'s {{ program.gender_display | lower }} {{ program.sport_display | lower }} program no longer competes in {{ divisionLabel }}{% if program.departed_to == "club" %} and is now a club sport{% elif program.departed_to %} and now competes in the {{ program.departed_to }}{% endif %}{% if program.status_change_date %} ({{ program.status_change_date }}){% endif %}.</p>
+      {% endif %}
+      {% if program.status_change_source_url %}
+      <p class="program-status-source">Source: <a href="{{ program.status_change_source_url | absUrl }}" rel="noopener noreferrer" target="_blank">{{ program.status_change_source_url | absUrl | replace("https://", "") | replace("http://", "") }}</a></p>
+      {% endif %}
+    </div>
+  </div>
+</section>
 {% endif %}
 
 {# ============================================================
@@ -196,7 +236,7 @@ eleventyExcludeFromCollections: true
       <div class="program-fact">
         <svg class="program-fact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
         <div>
-          <div class="program-fact-label">Division</div>
+          <div class="program-fact-label">{% if program.status == "active" or program.status == "new" %}Division{% else %}Last competed in{% endif %}</div>
           <div class="program-fact-value">{{ divisionLabel }}</div>
         </div>
       </div>
@@ -425,12 +465,29 @@ eleventyExcludeFromCollections: true
 </div>
 
 {# ============================================================
-   Discontinued program content sections
+   Discontinued / suspended / departed program content sections
    ============================================================ #}
 {% else %}
 
 <div class="program-content">
 
+  {% if program.status == "suspended" or program.status == "departed" %}
+  {# The hero already carries the change record's context and source. #}
+  <section class="program-section">
+    <h2>For Families Researching This Program</h2>
+    <p>If you or your athlete were considering {{ program.school_name }} for {{ program.gender_display | lower }} {{ program.sport_display | lower }}, here's what you need to know:</p>
+    <ul>
+      {% if program.status == "suspended" %}
+      <li>The program is listed as suspended{% if program.status_change_date %} ({{ program.status_change_date }}){% endif %}. Check with {{ program.school_name }}'s athletics department for its current status and any announced return before building plans around it.</li>
+      <li>Keep active programs that match your athlete's profile on your list in the meantime.</li>
+      {% else %}
+      <li>The program no longer competes in {{ divisionLabel }}{% if program.departed_to == "club" %}; it is now a club sport{% elif program.departed_to %}; it now competes in the {{ program.departed_to }}{% endif %}.</li>
+      <li>RosterWise&trade; covers NCAA Division I, II and III and NAIA programs, so this program is no longer part of its roster analysis.</li>
+      <li>Families looking for NCAA or NAIA {{ program.gender_display | lower }} {{ program.sport_display | lower }} should focus on active programs that match their athlete's profile.</li>
+      {% endif %}
+    </ul>
+  </section>
+  {% else %}
   {# Section 5: About this discontinuation #}
   <section class="program-section">
     <h2>About This Discontinuation</h2>
@@ -451,6 +508,7 @@ eleventyExcludeFromCollections: true
       <li>Families should redirect their research to active programs that match their athlete's profile and preferences.</li>
     </ul>
   </section>
+  {% endif %}
 
   {# Section 8: How RosterWise Tracks Program Changes #}
   <section class="program-section">
@@ -479,7 +537,7 @@ eleventyExcludeFromCollections: true
     <p>See which programs are actually recruiting players like yours. One payment of $39.99. No subscriptions. Lifetime access to every program.</p>
     {% else %}
     <h2>Find the programs that are actively recruiting your athlete.</h2>
-    <p>This program is no longer active, but 2,200+ others are. RosterWise&trade; Soccer gives you <strong>comprehensive roster analysis</strong> for every D1, D2, D3, and NAIA {{ program.gender_display | lower }} program — plus a <strong>personalized RosterFit&trade; score</strong> that shows which programs match your athlete's position, size, pathway, and academic profile. One payment of $39.99. No subscriptions. Lifetime access.</p>
+    <p>{% if program.status == "suspended" %}This program is suspended{% else %}This program is no longer active{% endif %}, but 2,200+ others are. RosterWise&trade; Soccer gives you <strong>comprehensive roster analysis</strong> for every D1, D2, D3, and NAIA {{ program.gender_display | lower }} program — plus a <strong>personalized RosterFit&trade; score</strong> that shows which programs match your athlete's position, size, pathway, and academic profile. One payment of $39.99. No subscriptions. Lifetime access.</p>
     {% endif %}
     <a href="/app/" class="program-cta-btn">Get the full analysis &rarr;</a>
   </div>
