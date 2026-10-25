@@ -648,7 +648,7 @@ pages, as its own PR stacked on rosterwise.app#13, priority A first. The invento
 | "The families who navigate it best are the ones who …" | soccer/guide/recruiting-myths | Outcome claim (§4.4) |
 | Sources "NCAA.org, Division III Facts and Figures", "NCAA.org, Recruiting Rules by Division", "United Soccer Coaches Annual Survey Data" | soccer/guide/recruiting-myths | Named no document or supported nothing (§R); replaced by the Manuals and NCAA.org's aid page |
 | "computed 2026-08-26"; "as of April 2026" | soccer/guide/recruiting-myths | Stale; now the stats file's computed date and the 2026-27 Manuals |
-| "Women's soccer has historically recruited earlier … Men's soccer tends to recruit later …"; "recruit differently … different competitive dynamics"; "meaningfully different"; "less than families are often told"; club pathways "that feed into the college game"; "every roster at every program" | soccer (hub) | §P (no commitment-timing data; the same claim was cut from mens-vs-womens, §U); no rows; product overstatement |
+| "Women's soccer has historically recruited earlier … Men's soccer tends to recruit later …"; "recruit differently … different competitive dynamics"; "meaningfully different"; "less than families are often told"; club pathways "that feed into the college game"; "every roster at every program" | soccer (hub) | §P (no commitment-timing data; the same claim was cut from mens-vs-womens, §U); no rows; product overstatement. The women's-earlier point was restored 2026-10-25 as RosterWise's own hedged observation (below) |
 | "how the House settlement is changing D1"; "recruit heavily from abroad, affecting domestic opportunity"; "in every division" | soccer/insights (hub) | One season and no pre-House rosters (§P, `roster-data-fact-log.md`); causal; NJCAA isn't counted |
 | "every NCAA and NAIA college soccer program in the United States" (and "every settled roster", "every program" in the description, summary and panel); "(common for international players)"; "may offer more playing time"; "may provide a better overall experience"; the two-point grouping threshold; bare `ncaa.org` / `naia.org` sources | methodology/data-and-analysis | Contradicted by the left-out list and the NAIA's British Columbia members; distributional; §4.1; inconsistent with the insights pages; §R bare domains |
 
@@ -675,6 +675,12 @@ pages, as its own PR stacked on rosterwise.app#13, priority A first. The invento
 | "captures the full published roster for every program"; conferences "as those bodies published it"; "a little more than the roster"; "for every D1, D2, D3, and NAIA … program" | methodology/data-and-analysis | Overstated against the left-out list; the figures use the season's affiliation (§U rules); hedged quantity |
 | "Everything families need to know"; "roster composition trends, recruiting patterns"; "rewards preparation"; "varies by program"; "the leading youth club pathways"; "replacing scholarship caps with roster limits at … schools" | soccer (hub) | Overclaim; one season (no trends); causal; unmeasured; ranking; the aid limits are gone for every D1 school |
 | "a larger factor … than in women's" (no season); "at every program" | soccer/mens/index | Season anchor (§5.5); product overstatement |
+
+### Restored at Scott's direction, 2026-10-25 (Review Board rs1-gate, ga-rest)
+
+| Claim | Primary source | Verified | Articles |
+| --- | --- | --- | --- |
+| "In our experience, women's soccer recruiting tends to move earlier than men's — that is our own observation, not a published figure, so ask each coach about their timeline." | **No Tier 1 or Tier 2 source exists** (§P: no governing body publishes when offers are made or commitments happen; the D1 contact dates are the same for both, §I). Stated as RosterWise's own observation, on Scott's direct experience: his Review Board note on ga-rest (2026-10-25) — "My experience directly is that women's soccer recruits earlier -- for this reason, I'm okay keeping that one specific reference." Hedged and attributed in the copy, with no number and no "historically"; the cut freshman/sophomore and junior/senior commitment years stay cut | 2026-10-25 | soccer (hub) |
 
 ### Open items to re-check before/at publish
 
@@ -783,3 +789,5 @@ pages, as its own PR stacked on rosterwise.app#13, priority A first. The invento
     the gaps between them"; `soccer/womens/guide/international-recruiting` "Growing but from a lower base" and the
     source-country bullets; `guide/nil-and-revenue-sharing` cites On3 in `sources:` (check against the §0.4 banned
     list).
+    **Done 2026-10-24** (§W): each was cut or rewritten in the gate pass. The soccer hub's women's-earlier point came
+    back 2026-10-25 as RosterWise's own hedged observation, at Scott's direction (§W, "Restored").
