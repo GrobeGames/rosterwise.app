@@ -160,6 +160,7 @@ module.exports = function (eleventyConfig) {
   for (const name of [
     "stat", "statDiff", "statShare", "statRatio", "statNote", "statSource",
     "statConferenceTable", "statCountAbove", "statRowRange", "statStateTable", "statStateAt",
+    "statCountryList",
     "statBundle", "statRead", "statLeftOut",
   ]) {
     eleventyConfig.addShortcode(name, rosterStats[name]);

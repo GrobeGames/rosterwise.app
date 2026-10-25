@@ -1,14 +1,14 @@
 ---
 layout: content.njk
 title: "RosterWise™ Data and Analysis Methodology — How We Build College Soccer Roster Intelligence"
-description: "RosterWise™ analyzes every settled 2025-26 college soccer roster — D1, D2, D3, NAIA, men's and women's. Methodology, definitions, coverage, and data sourcing for transparent recruiting intelligence."
+description: "RosterWise™ analyzes settled 2025-26 college soccer rosters — D1, D2, D3, NAIA, men's and women's. Methodology, definitions, coverage, and data sourcing for transparent recruiting intelligence."
 date: 2026-10-24
 breadcrumbs:
   - text: Home
     url: /
   - text: Methodology
   - text: Data and Analysis
-summary: "RosterWise™ analyzes every settled college soccer roster across D1, D2, D3, and NAIA — men's and women's — and uses that analysis to produce both the RosterWise Soccer app and the publicly available aggregate insights on this site. This page documents how we do it: our data sources, capture process, definitions, coverage, and analytical methods."
+summary: "RosterWise™ analyzes settled college soccer rosters across D1, D2, D3, and NAIA — men's and women's — and uses that analysis to produce both the RosterWise Soccer app and the publicly available aggregate insights on this site. This page documents how we do it: our data sources, capture process, definitions, coverage, and analytical methods."
 related:
   - title: "Men's Soccer Roster Sizes by Division"
     url: /soccer/insights/mens-roster-size/
@@ -31,12 +31,12 @@ related:
 eleventyComputed:
   sources:
     - "{{ 'soccer' | statSource('2025-26') | safe }}"
-    - '<a href="https://www.ncaa.org">NCAA.org</a> — Division membership, program listings, and eligibility rules'
-    - '<a href="https://naia.org">NAIA.org</a> — NAIA membership and program information'
+    - '<a href="https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/">NCAA.org — NCAA Membership Composition and Sport Sponsorship</a> (division membership)'
+    - '<a href="https://www.naia.org/explore/schools/">NAIA.org — NAIA Schools</a> (NAIA membership)'
     - '<a href="https://nces.ed.gov/ipeds/">U.S. Department of Education IPEDS</a> — Institutional data (enrollment, location, academic profiles)'
 cta:
-  heading: "See this analysis for every program — in the app"
-  text: "RosterWise Soccer gives you program-by-program roster intelligence across every D1, D2, D3, and NAIA men's and women's program. Position depth, class-year gaps, international composition, recruiting pathways, coach tenure, and personalized My RosterFit scoring."
+  heading: "See this analysis program by program — in the app"
+  text: "RosterWise Soccer gives you program-by-program roster intelligence across D1, D2, D3, and NAIA men's and women's programs. Position depth, class-year gaps, international composition, recruiting pathways, coach tenure, and personalized My RosterFit scoring."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -46,11 +46,11 @@ ${toc}
 
 RosterWise's 2025 college soccer analysis draws from four categories of authoritative sources. We do not use data from third-party recruiting services, aggregator sites, or unverified databases.
 
-**Roster data** comes directly from the official athletics websites of every NCAA and NAIA college soccer program in the United States. These are the same roster pages that coaches, athletes, and families access publicly on each program's athletics site. RosterWise captures the full published roster for every program — every player, every position, every class year, every hometown — from the source of record.
+**Roster data** comes directly from the official athletics websites of the NCAA and NAIA college soccer programs RosterWise covers. These are the same roster pages that coaches, athletes, and families access publicly on each program's athletics site. For each program, RosterWise captures the roster as published — each player, and whatever position, class year and hometown the program lists — from the source of record.
 
-**Division and conference data** comes from [NCAA.org](https://www.ncaa.org) and [NAIA.org](https://naia.org), which maintain the authoritative membership lists for their respective associations. Conference assignments in our dataset reflect the 2025 NCAA season membership as those bodies published it, including the conference moves that took effect for that season.
+**Division and conference data** comes from [NCAA.org](https://www.ncaa.org) and [NAIA.org](https://naia.org), which maintain the authoritative membership lists for their respective associations. Each figure uses a program's division and conference for the figure's season (2025-26 here), including conference moves that took effect that season.
 
-**Institutional data** — school enrollment, location, academic profiles, and other characteristics — comes from the [U.S. Department of Education's IPEDS database](https://nces.ed.gov/ipeds/), the federal government's comprehensive source for postsecondary institution data.
+**Institutional data** — school enrollment, location, academic profiles, and other characteristics — comes from the [U.S. Department of Education's IPEDS database](https://nces.ed.gov/ipeds/), the federal government's source for postsecondary institution data.
 
 **Historical context** — such as NCAA championship records — comes from official NCAA and NAIA sources. RosterWise does not use crowd-sourced data, Wikipedia, or unverified aggregators for any factual claims published on this site.
 
@@ -69,7 +69,7 @@ Player names are captured for internal data integrity but are not published in a
 
 ## Capture date and dataset vintage
 
-The figures on this site's soccer pages are computed from the rosters the RosterWise Soccer app ships — the app's own bundle, **{% statBundle "soccer" %}** — for the **2025-26 season** (the 2025 NCAA season). Those rosters were read from official athletics websites between **{% statRead "soccer", "2025-26", "from" %}** and **{% statRead "soccer", "2025-26", "to" %}**. Each figure carries the date its latest roster was read, printed as "Rosters as of …", and the figures are recomputed when the app ships new rosters.
+The figures on this site's soccer pages are computed from the rosters the RosterWise Soccer app ships — the app's own bundle, **{% statBundle "soccer" %}** — for the **2025-26 season** (the 2025 NCAA season). Those rosters were read from official athletics websites between **{% statRead "soccer", "2025-26", "from" %}** and **{% statRead "soccer", "2025-26", "to" %}**; {% stat "soccer.2025-26.all.all.programs", "rosters_read.undated_programs" %} of the rosters carry no read date. Each figure carries the date its latest roster was read, printed as "Rosters as of …", and the figures are recomputed when the app ships new rosters.
 
 College rosters are living documents. Players commit, transfer, graduate, and depart throughout the academic year. Our analysis represents each program's roster as it stood when it was read. This is a point-in-time snapshot — not a continuously updated feed.
 
@@ -91,7 +91,7 @@ A player is classified as **international** if their hometown, as listed on the 
 
 **Domestic** includes players from the 50 U.S. states, the District of Columbia, Puerto Rico, Guam, the U.S. Virgin Islands, American Samoa, and the Northern Mariana Islands.
 
-Classification is based on the hometown information published on the roster. When a roster lists only a country name (common for international players), that country is used for classification. When a roster lists a city and U.S. state abbreviation, the player is classified as domestic.
+Classification is based on the hometown information published on the roster. When a roster lists only a country name, that country is used for classification. When a roster lists a city and U.S. state abbreviation, the player is classified as domestic.
 
 ### Class year
 
@@ -106,7 +106,7 @@ For soccer, positions are normalized into four groups:
 - **Midfielder (MID)** — midfielders, central midfielders, attacking midfielders, defensive midfielders
 - **Forward (FWD)** — forwards, strikers, attackers, wingers
 
-Players listed at more than one position (e.g., "M/F" or "Midfielder/Forward") count at each position listed, as the RosterWise Soccer app counts them, so position counts add up to a little more than the roster.
+Players listed at more than one position (e.g., "M/F" or "Midfielder/Forward") count at each position listed, as the RosterWise Soccer app counts them, so position counts add up to more than the roster.
 
 ### Conference assignment
 
@@ -156,14 +156,14 @@ RosterWise computes aggregate statistics through a three-step process designed f
 
 **Step 3: The record.** Every figure is written to a dated file with its id, value, sample size, the dates its rosters were read, its query and the app bundle it came from. The query runs as-is against that bundle and returns the players the figure was computed from. When the app ships new rosters, the figures are recomputed, and any figure a page cites that moved is listed for review before the page changes.
 
-Every figure on the Insights pages prints from that file by its id, so a page cannot show a number the file does not hold.
+Every roster figure on the Insights pages prints from that file by its id, so a page cannot show a roster number the file does not hold. The few figures that don't come from rosters — NCAA team counts, scholarship and roster limits — cite their own documents.
 
 ## What we don't do
 
 Transparency about our methods includes being clear about what we don't do:
 
 - **We don't estimate or interpolate.** If data is missing — for example, if a program doesn't publish player heights — we leave those players out of height averages rather than guessing. Missing data is documented, not filled in.
-- **We don't publish strict rankings where the differences are too small to be meaningful.** When conferences are separated by less than two percentage points in international composition, we describe them as a group rather than ranking them 1st, 2nd, 3rd. A 0.2% gap between two conferences doesn't mean one meaningfully recruits more internationally than the other.
+- **We don't publish strict rankings where the differences are small.** When conferences' international shares are close, we describe them as a group and give the span between them, rather than ranking them 1st, 2nd, 3rd. A 0.2% gap between two conferences doesn't mean one meaningfully recruits more internationally than the other.
 - **We don't publish individual player data.** Aggregate insights on this site describe patterns across programs. Individual player names, hometowns, and other details appear only within the RosterWise app, where they come from publicly available roster pages.
 - **We don't share data with third parties.** RosterWise does not sell, license, or share individual player data or program-level data with other companies, recruiting services, or data brokers.
 
@@ -175,7 +175,7 @@ Every dataset has limitations. Here are ours:
 - **Hometown data is sometimes limited.** Some programs list international players with only a country name rather than a city and country. This is sufficient for international/domestic classification but limits geographic analysis within countries.
 - **Graduate students include redshirts and fifth-year players.** The "Graduate" class year category captures a range of situations — true graduate students, fifth-year seniors, and players using additional eligibility. Programs don't always distinguish between these on their roster pages.
 - **Transfer portal timing.** A player who entered the transfer portal after their roster was read would still appear on the program's roster in our data. A player who entered the portal and was removed before it was read would not appear. This is inherent to point-in-time data.
-- **This is a snapshot, not a continuous feed.** Our analysis represents the 2025-26 season rosters as they stood when they were read, between {% statRead "soccer", "2025-26", "from" %} and {% statRead "soccer", "2025-26", "to" %}. Rosters before and after may differ.
+- **This is a snapshot, not a continuous feed.** Our analysis represents the 2025-26 season rosters as they stood when they were read, between {% statRead "soccer", "2025-26", "from" %} and {% statRead "soccer", "2025-26", "to" %} ({% stat "soccer.2025-26.all.all.programs", "rosters_read.undated_programs" %} rosters carry no read date). Rosters before and after may differ.
 
 ## Every recruit's journey is different
 
@@ -183,7 +183,7 @@ Aggregate statistics describe patterns across programs. They tell you that, on a
 
 But they don't determine outcomes for any individual recruit.
 
-A program with a higher-than-average international percentage may still be the perfect fit for a domestic recruit. A program with a smaller-than-average roster may offer more playing time. A D3 program with no athletic scholarships may provide a better overall experience than a D1 program with a partial scholarship.
+A program with a higher-than-average international percentage may still be a good fit for a domestic recruit: an average says nothing about one program's needs at your athlete's position. The same goes for roster size, and for division.
 
 The numbers provide context. The decisions are yours. RosterWise gives families the data to ask better questions and make more informed choices — but no aggregate statistic can replace the personal research, campus visits, coach conversations, and honest self-assessment that every recruiting family needs to do.
 
@@ -193,7 +193,7 @@ RosterWise uses its 2025-26 soccer data in two ways:
 
 **Aggregate insights published on this site.** The [Insights pages](/soccer/insights/mens-roster-size/) present aggregate statistics — roster sizes, international composition, class-year distributions, conference-level comparisons — drawn from the full dataset. These are free, publicly available, and documented with the methodology described on this page.
 
-**Program-by-program analysis in the RosterWise™ Soccer app.** The app provides the same roster intelligence at the individual program level — position depth, class-year gaps, international composition, recruiting pathways, coach tenure, and personalized My RosterFit™ scoring for every D1, D2, D3, and NAIA men's and women's soccer program. The app costs $39.99, one time. No subscriptions, no ads, and access for your athlete's entire recruiting journey.
+**Program-by-program analysis in the RosterWise™ Soccer app.** The app provides the same roster intelligence at the individual program level — position depth, class-year gaps, international composition, recruiting pathways, coach tenure, and personalized My RosterFit™ scoring for D1, D2, D3, and NAIA men's and women's soccer programs. The app costs $39.99, one time. No subscriptions, no ads, and access for your athlete's entire recruiting journey.
 
 ## Corrections
 
@@ -204,3 +204,5 @@ If we discover an error in published data, we correct it promptly and note the c
 *Figures described here are computed from the 2025-26 rosters in the RosterWise Soccer app's own bundle ({% statBundle "soccer" %}). Analysis by RosterWise (Grobe Games LLC).*
 
 *Updated October 24, 2026: this page now describes how the soccer figures are computed from the app's own rosters — settled rosters only, with players counted at every position listed — in place of the April–May 2026 capture it described before, and its coverage and completeness tables print from those figures.*
+
+*Corrected October 24, 2026, after a fact check of the page: "every NCAA and NAIA college soccer program in the United States" was wrong twice over — RosterWise counts settled rosters and leaves some programs out (listed above), and NAIA members include schools in British Columbia — and now reads "the programs RosterWise covers". The rule for grouping close conferences no longer gives a two-point threshold the insights pages don't follow (they group conferences up to 2.9 points apart and give the span). Removed: "(common for international players)", "may offer more playing time", and that a D3 program "may provide a better overall experience" than a D1 program. The NCAA and NAIA sources now name their pages. The page no longer says RosterWise captures "the full published roster for every program", or that "every figure" on the insights pages comes from the roster file (the NCAA team counts and rule figures cite their own documents), and the read window now says how many rosters carry no read date.*

@@ -99,7 +99,7 @@ These dates apply to the 2026-27 recruiting cycle. The NCAA publishes an updated
 - **Sport-specific scholarship caps are gone for opt-in schools.** Schools that opted into the settlement no longer have a per-sport scholarship cap — they may award scholarships up to the new roster limit.
 - **Roster limit of 18 players** for opt-in schools, where Division I previously had no roster limit at all. RosterWise's roster data begins with 2025-26 — the first season played under the new limits — so we cannot describe pre-settlement roster sizes and will not estimate them. What is certain is that a hard cap now exists where none did, so programs must be more selective about roster construction — and walk-on opportunities are likely reduced at opt-in schools.
 - **The shift from head count to equivalency.** Programs could theoretically fund all 18 roster spots, but budget constraints mean most will have a mix of full and partial awards. How programs navigate this transition varies.
-- **Schools choose whether to opt in — except the defendants.** Schools in the five defendant conferences (the ACC, Big Ten, Big 12, Pac-12 and SEC) are bound by the settlement as defendants rather than by opting in. Every other D1 school chooses: the deadline was June 30, 2025 for 2025-26, and from 2026-27 onward notice of intent is due March 1 each year.
+- **Schools choose whether to opt in — except the defendants.** Schools in the five defendant conferences (the ACC, Big Ten, Big 12, Pac-12 and SEC) are bound by the settlement as defendants rather than by opting in. Every other D1 school chooses: the deadline was June 30, 2025 for 2025-26, and a school may opt in for any later year of the settlement's ten-year term; for 2026-27, the NCAA's current Q&A says the College Sports Commission would circulate the opt-in process by March 1, 2026.
 
 **Honest caveat:** We don't have a comprehensive public list of which women's volleyball programs opted in. Families should ask each program directly whether they have opted into the House settlement — this affects how scholarships and roster spots are structured.
 
@@ -209,3 +209,5 @@ Families who feel "behind" relative to peers often catch up quickly when fit and
 ---
 
 *NCAA recruiting calendars are updated annually. This article reflects the **2026-27** NCAA Division I Women's Volleyball Recruiting Calendar. Verify the current calendar at `ncaaorg.s3.amazonaws.com` for the relevant academic year, check NAIA.org and NJCAA.org for those associations' rules, and confirm academic timing with the NCAA Eligibility Center.*
+
+*Corrected October 24, 2026: an earlier version said that from 2026-27 a school's notice of intent to opt in is due to the NCAA by March 1 each year. That rule was in the June 2025 edition of the NCAA's House implementation Q&A; the current edition (February 11, 2026) replaced it, and this page now says what the current edition does.*

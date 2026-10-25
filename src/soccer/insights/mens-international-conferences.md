@@ -1,7 +1,7 @@
 ---
 layout: content.njk
 title: "Men's Soccer Conferences with the Highest International Roster Composition — 2025 Season Analysis | RosterWise™"
-description: "Which college soccer conferences have the most international players? Conference-by-conference international composition data for NCAA D1, D2, D3, and NAIA men's soccer, 2025 season."
+description: "Which college soccer conferences have the most international players? Conference-by-conference international composition for D1, D2, and NAIA men's soccer, with division shares for D3 too, 2025 season."
 date: 2026-10-24
 breadcrumbs:
   - text: Home
@@ -131,3 +131,5 @@ This approach has limitations — some rosters list incomplete hometown data, an
 *Figures on this page print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle; each table carries the date its rosters were read. See [methodology](/methodology/data-and-analysis/) for full documentation.*
 
 *Updated October 24, 2026: every figure on this page now comes from that file. The conference tables were already computed from these rosters and are unchanged; four figures in the text moved slightly, and the D2 heading now says what the data shows: D2 has the highest share in the NCAA, and the NAIA is higher still. A section on what drives these patterns was removed: no data behind it measures cause.*
+
+*Corrected October 24, 2026: the page description promised conference-by-conference data for D3, which this page gives only as a division share.*

@@ -97,9 +97,9 @@ D2, D3, and NAIA programs operate under different rules. D2 has no initial-conta
 
 ## International recruiting in men's soccer
 
-International recruiting is a larger factor in men's college soccer than in women's. Some D1 programs carry 30-40% international players; others build rosters almost entirely from domestic recruits. This composition matters for families trying to assess opportunity and fit.
+International players hold a larger share of men's college soccer roster spots than women's (on RosterWise's 2025-26 rosters), and the international share of roster spots differs by division and by conference — the [men's international recruiting guide](/soccer/mens/guide/international-recruiting/) has the figures. This composition matters for families trying to assess opportunity and fit.
 
-RosterWise tracks international player composition at every program as part of our [roster intelligence](/roster-intelligence/) methodology, so families can see these patterns and factor them into their target list.
+RosterWise tracks international player composition at D1, D2, D3, and NAIA programs as part of our [roster intelligence](/roster-intelligence/) methodology, so families can see these patterns and factor them into their target list.
 
 ## Where to start
 
@@ -110,3 +110,5 @@ If you're new to men's college soccer recruiting, start with the **[Recruiting T
 **Researching women's soccer?** See the [Women's College Soccer Recruiting](/soccer/womens/) section for women's-specific guides and timelines.
 
 **Ready to go deeper?** [RosterWise Soccer](/app/) analyzes every program's roster — position depth, class-year gaps, geographic patterns, and personalized fit scoring — for $39.99, one time.
+
+*Corrected October 24, 2026: a sentence saying some D1 programs carry 30-40% international players was removed. No RosterWise figure computes a range across programs.*

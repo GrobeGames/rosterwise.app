@@ -1,8 +1,8 @@
 ---
 layout: content.njk
 title: "What International Roster Composition Tells You (Men's vs. Women's Patterns)"
-description: "How international player composition differs between men's and women's college soccer programs — and what those patterns mean for domestic and international recruits."
-date: 2026-08-26
+description: "How the share of international players differs between men's and women's college soccer, by division and home country — and how to read it for a recruit."
+date: 2026-10-24
 breadcrumbs:
   - text: Home
     url: /
@@ -10,7 +10,7 @@ breadcrumbs:
     url: /soccer/
   - text: Methodology
   - text: International Composition
-summary: "International players are a significant part of college soccer rosters, but the patterns differ dramatically between men's and women's programs. Men's programs tend to have higher percentages of international players, especially at D1 and D2. Women's programs recruit internationally too, but at generally lower rates and from different regions. Understanding these patterns helps both domestic and international recruits evaluate their realistic opportunity at any given program."
+summary: "International players hold a larger share of men's college soccer roster spots than women's at every division, and on RosterWise's 2025-26 rosters the share was highest at NAIA for both. Women's international players also come from a different mix of countries, with Canada first. This page sets out those patterns and how a domestic or international recruit can use them to read a specific program's roster."
 related:
   - title: "What Is Roster Composition Analysis"
     url: /soccer/methodology/roster-composition/
@@ -27,11 +27,10 @@ related:
 eleventyComputed:
   sources:
     - "{{ 'soccer' | statSource('2025-26') | safe }}"
-    - "Publicly available college soccer rosters from institutional athletics websites"
-    - "NCAA.org — Division membership and program listings"
+    - '<a href="/methodology/data-and-analysis/">RosterWise — How RosterWise Builds and Analyzes College Soccer Roster Data</a> (how players are classified as international)'
 cta:
-  heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program. See it in the app."
-  text: "See the international composition of every college soccer program — percentage, countries represented, and how it affects opportunity for domestic and international recruits."
+  heading: "RosterWise gives you this analysis for D1, D2, D3, and NAIA programs. See it in the app."
+  text: "See the international composition of each college soccer program — percentage, countries represented, and how it affects opportunity for domestic and international recruits."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -39,65 +38,57 @@ ${toc}
 
 ## Why international composition matters
 
-Every roster spot occupied by an international player is a spot not available to a domestic recruit, and vice versa. This isn't a value judgment — international recruiting enriches the college game, raises competitive levels, and benefits programs in many ways. But for a family trying to assess where their athlete fits, understanding the international composition of a program's roster is essential practical intelligence.
+Every roster spot held by an international player is a spot not held by a domestic recruit, and vice versa. That isn't a value judgment. But for a family trying to assess where their athlete fits, the international composition of a program's roster is practical information.
 
-A domestic recruit evaluating a program where 40% of the roster is international players is operating in a different competitive landscape than one evaluating a program where 5% of the roster is international. Neither is inherently better, but the context matters.
+A domestic recruit looking at a program where 40% of the roster is international is in a different competitive position from one looking at a program where 5% is — the arithmetic of who holds the spots is different. Neither program is better for it.
 
-For international recruits, the calculation is reversed: a program with a strong history of international recruiting is more likely to have the infrastructure (visa processing experience, cultural support, prior success with international student-athletes) that makes the transition smoother.
+For an international recruit the question turns around: a roster with international players on it shows that the program has recruited and enrolled players from abroad before, which is worth asking the coaches about.
 
 ## Men's vs. women's: different patterns
 
-The most important thing to understand about international composition in college soccer is that men's and women's programs recruit internationally at very different rates and from different pipelines.
+The first thing to understand about international composition in college soccer is that men's and women's rosters differ — in how many international players they carry and in where those players are from.
 
 ### Men's college soccer
 
-International players represent a substantial portion of many men's college soccer rosters, particularly at the D1 and D2 levels. Some men's D1 programs have rosters where international players comprise 30-50% or more of the team. Others have very few.
+International players held {% stat "soccer.2025-26.m.all.intl_share", "pct" %} of men's college soccer roster spots on RosterWise's 2025-26 rosters. By division the share was highest at NAIA ({% stat "soccer.2025-26.m.naia.intl_share", "pct" %}) and lowest at D3 ({% stat "soccer.2025-26.m.d3.intl_share", "pct" %}).
 
-The variation across programs is enormous, and it reflects coaching philosophy, international connections, and program identity rather than a division-wide mandate. A men's D1 program in the ACC might have a very different international composition than a men's D1 program in the Summit League — even though both are D1.
+Within Division I it also differs by conference: the [conference table](/soccer/insights/mens-international-conferences/) runs from {% statRowRange "soccer.2025-26.m.d1.intl_share_by_conference" %}. A division or conference figure is an average; a single program can sit above or below it.
 
-**Common source regions for men's programs:** International players on men's college soccer rosters frequently come from the United Kingdom, Germany, Scandinavia (Sweden, Norway, Denmark), South America (Brazil, Colombia, Argentina), Africa (Nigeria, Ghana, Cameroon, South Africa), and the Caribbean. But the specific mix varies significantly by program and by the coaching staff's international connections.
-
-**Why men's programs recruit more internationally:** Men's soccer is a global sport with deep talent pools outside the United States. College soccer in the US represents a pathway that combines education with competitive play — an attractive proposition for international players who may not have professional opportunities at home or who want an American degree. Men's college coaches have developed extensive international scouting networks, and successful international recruiting tends to build on itself as former international players refer peers and younger players from their clubs and countries.
+**Home countries:** of the international players on 2025-26 men's rosters who list a home country, the most common were {% statCountryList "soccer.2025-26.m.all.top_countries", 10 %}.
 
 ### Women's college soccer
 
-Women's college soccer programs also recruit internationally, but at generally lower overall rates than men's programs. The domestic talent pool for women's soccer in the US is exceptionally deep — the US is the dominant country in women's soccer globally, and the club infrastructure (ECNL, GA, and other pathways) produces a large number of college-ready players.
+International players held {% stat "soccer.2025-26.w.all.intl_share", "pct" %} of women's roster spots — below the men's share at every division. By division the women's share was highest at NAIA ({% stat "soccer.2025-26.w.naia.intl_share", "pct" %}) and lowest at D3 ({% stat "soccer.2025-26.w.d3.intl_share", "pct" %}).
 
-Some women's programs still recruit significant international contingents, particularly at the D1 and D2 levels. But a women's program with 20-30% international players stands out more than a men's program at the same percentage, simply because the overall norm is lower.
+**Home countries:** of the international players on 2025-26 women's rosters who list a home country, the most common were {% statCountryList "soccer.2025-26.w.all.top_countries", 10 %}. Canada's share of women's international players is far larger than its share of men's.
 
-**Common source regions for women's programs:** International players on women's college soccer rosters frequently come from Canada, the United Kingdom, Australia, Scandinavia, and various European countries. The geographic mix tends to lean more heavily toward English-speaking or northern European countries compared to men's programs, though this varies by program.
-
-**Why the pattern differs:** The relative depth of the domestic women's talent pool means women's college coaches have less need to recruit internationally to fill roster spots. International recruiting in women's college soccer tends to be more targeted — seeking specific skill sets or profiles rather than filling large portions of the roster.
+*Home-country shares are of the international players who list a home country. {% statNote "soccer.2025-26.w.all.top_countries" %}.*
 
 ## What international composition tells you about a program
 
-Beyond the simple "how many spots are available for domestic recruits" question, international composition reveals several things about a program:
+Beyond "how many spots are held by domestic players", a roster can show you:
 
-**Coaching philosophy and connections.** A program with significant international recruiting has a coach or coaching staff with established international networks. This reflects a philosophy about the kind of team the coach wants to build — often one that values tactical diversity and global perspectives.
+**Where the international players are.** Where a roster lists positions and hometowns, you can count international players by position group. A program whose international players are concentrated at one position offers a different picture at that position from the overall share.
 
-**Playing style.** Programs with large international contingents sometimes play differently than programs built primarily from domestic players. International players often bring different tactical backgrounds, technical training, and playing styles. This isn't universal, but it's a factor that affects what it feels like to play on the team.
+**When they leave.** Class years tell you when a program's international players will graduate, and so where spots may open.
 
-**Program investment in international support.** Programs that recruit heavily from abroad typically have established processes for visas, international student orientation, and cultural adjustment support. This matters for international recruits considering these programs.
-
-**Roster turnover patterns.** International players sometimes have different retention patterns than domestic players. Some international recruits arrive for all four years; others come for one or two years on exchange programs or return home after a shorter period. Understanding the international retention pattern at a specific program gives you a better picture of true roster stability.
+**Where they are from.** The hometowns on a roster show which countries a program has recruited from. That's a question to raise with the coaching staff, not a conclusion to draw.
 
 ## How to use this information
 
 ### For domestic recruits
 
-**Factor international composition into your opportunity assessment.** If a program's roster is 40% international and you're a domestic recruit at a position where international players are concentrated, your competition for a roster spot includes both domestic and international candidates. This doesn't mean you shouldn't pursue the program — it means you should understand the full competitive picture.
+**Count international composition into your opportunity assessment.** If a program's roster is 40% international and your athlete plays a position where its international players are concentrated, the competition for that spot includes both domestic and international candidates. That doesn't mean you shouldn't pursue the program — it means you should understand the full picture.
 
-**Look at where international players are concentrated.** Some programs concentrate international players at specific positions. If a program has international players primarily at forward and midfield but recruits domestically for its defensive players, a domestic defender faces less international competition at that program.
+**Look at the position, not just the total.** If a program's international players are mostly forwards and midfielders and its defenders are domestic, a domestic defender's competition there looks different from a domestic forward's.
 
-**Don't assume programs with high international percentages aren't interested in domestic recruits.** Many programs with significant international rosters actively want domestic players as well. The presence of international players changes the composition, not necessarily the openness to domestic talent.
+**Don't assume a high international share means no interest in domestic recruits.** Ask the coaching staff how they recruit.
 
 ### For international recruits
 
-**Programs with established international recruiting are lower-risk.** A program that has successfully integrated international players for years has the institutional knowledge to support you — visa processing, academic advising for international students, cultural adjustment resources. A program that has never had an international player might be willing to recruit you but may lack the infrastructure.
+**Ask how the program supports international players.** How do international players settle into the team? What support is there for adjusting to the American academic system? How does arriving on campus and getting set up work? Ask them of each program you consider.
 
-**Look at which countries are represented.** If a program has multiple players from your country or region, there may be a direct connection between the coaching staff and player networks in your area. This can facilitate the recruiting process.
-
-**Ask about the international experience specifically.** How do international players integrate into team culture? Is there support for players adjusting to the American academic system? What is the process for arriving on campus and getting set up? These questions are more important than rankings.
+**Look at which countries are represented.** If a program has players from your country or region, ask the coaches how they found them.
 
 ## The data challenge
 
@@ -107,30 +98,30 @@ Determining whether a player is international from roster data isn't always stra
 - Some list only a hometown and state — or a hometown and country for international players
 - Some list only the player's previous school, which might be an international school or an American school
 
-RosterWise uses the hometown and country information available on each program's roster to identify international players. When a player's hometown is listed with a non-US country, we classify them as international. When the data is ambiguous (for example, a player listed with a US city who may have international origins), we err on the side of not classifying them as international.
-
-This means our international composition numbers are generally conservative — the actual international percentage at some programs may be slightly higher than we report. We believe understating is better than overstating when families are making decisions based on this data.
+RosterWise uses the hometown and country information on each program's roster to identify international players. When a player's hometown is listed with a non-US country, we classify the player as international. When the roster doesn't make it clear, we don't classify the player as international. So where a roster is unclear, the figure leans toward understating a program's international share rather than overstating it. We believe understating is better than overstating when families are making decisions based on this data.
 
 ## Patterns worth watching
 
-**Programs where international composition is changing.** A program that historically had low international recruiting but is now adding international players is shifting its identity. This affects both domestic and international recruits — domestic recruits face a changing competitive landscape, and international recruits are joining a program still building its international infrastructure.
+**A program whose international composition is changing.** Compare a program's roster across seasons. If the international share is moving, ask the coaching staff why and how they expect the roster to look when your athlete would arrive.
 
-**Conference-level patterns.** Some conferences tend to have higher international composition across most of their programs. Understanding conference-level norms gives you context for evaluating individual programs.
+**Conference-level patterns.** International shares differ by conference as well as by division — see the [men's](/soccer/insights/mens-international-conferences/) and [women's](/soccer/insights/womens-international-conferences/) conference tables. They give you context for evaluating individual programs.
 
-**Division-level patterns.** On the 2025-26 rosters RosterWise analysed, the international share of men's soccer roster spots was highest at **NAIA ({% stat "soccer.2025-26.m.naia.intl_share", "pct" %})**, then D2 ({% stat "soccer.2025-26.m.d2.intl_share", "pct" %}), then D1 ({% stat "soccer.2025-26.m.d1.intl_share", "pct" %}), with D3 far lower ({% stat "soccer.2025-26.m.d3.intl_share", "pct" %}). The women's ordering differs — NAIA ({% stat "soccer.2025-26.w.naia.intl_share", "pct" %}), D1 ({% stat "soccer.2025-26.w.d1.intl_share", "pct" %}), D2 ({% stat "soccer.2025-26.w.d2.intl_share", "pct" %}), D3 ({% stat "soccer.2025-26.w.d3.intl_share", "pct" %}) — and every women's figure sits below the men's at the same division. Note that NAIA leads on both sides: international composition is not a Division I phenomenon. These are tendencies, not rules — individual programs can deviate significantly from the division norm.
+**Division-level patterns.** On the 2025-26 rosters RosterWise analysed, the international share of men's soccer roster spots was highest at **NAIA ({% stat "soccer.2025-26.m.naia.intl_share", "pct" %})**, then D2 ({% stat "soccer.2025-26.m.d2.intl_share", "pct" %}), then D1 ({% stat "soccer.2025-26.m.d1.intl_share", "pct" %}), with D3 far lower ({% stat "soccer.2025-26.m.d3.intl_share", "pct" %}). The women's ordering differs — NAIA ({% stat "soccer.2025-26.w.naia.intl_share", "pct" %}), D1 ({% stat "soccer.2025-26.w.d1.intl_share", "pct" %}), D2 ({% stat "soccer.2025-26.w.d2.intl_share", "pct" %}), D3 ({% stat "soccer.2025-26.w.d3.intl_share", "pct" %}) — and every women's figure sits below the men's at the same division. Note that NAIA leads on both sides: international composition is not a Division I phenomenon. These are averages, not rules — a single program can sit above or below its division's figure.
 
-**Position-specific concentrations.** At some programs, international players cluster at attacking positions. At others, the distribution is more even. Position-specific international composition is more actionable than overall team percentage for a recruit evaluating fit.
+**Position-specific composition.** For a recruit evaluating fit, the count of international players at their own position is more useful than the team's overall share.
 
 ## The bigger picture
 
-International recruiting is one of the dynamics that makes college soccer interesting and competitive. It raises the level of play, introduces diverse perspectives, and gives American players experience competing alongside and against players from different soccer cultures.
-
 For recruiting families, the practical question isn't whether international recruiting is good or bad — it's what it means for your athlete's realistic opportunity at a specific program. Understanding international composition is part of the broader roster analysis that turns a vague sense of "maybe that program" into an informed assessment of fit.
 
-The data is there. Knowing how to read it — and understanding that patterns differ significantly between men's and women's soccer — gives families an advantage in a process where information is power.
+The data is on the rosters. Knowing how to read it — and that the patterns differ between men's and women's soccer — helps families ask better questions.
 
 ---
 
-*The international-composition figures here describe patterns in the rosters RosterWise analyzed — they are not NCAA rules and they shift season to season. This article reflects the landscape as of **April 2026**. See the [methodology](/methodology/data-and-analysis/) page for how the data is collected, and verify current eligibility and division rules at NCAA.org and NAIA.org.*
+*The international-composition figures here describe patterns in the rosters RosterWise analyzed — they are not NCAA rules and they shift season to season. See the [methodology](/methodology/data-and-analysis/) page for how the data is collected, and verify current eligibility and division rules at NCAA.org and NAIA.org.*
 
 *Updated October 24, 2026: the division figures on this page now print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle. They leave out Mercyhurst University and the University of New Haven, mid-transition from Division II to Division I that season, so the D1 men's share is {% stat "soccer.2025-26.m.d1.intl_share", "pct" %} (it read 33.8% with them).*
+
+*Corrected October 24, 2026: an earlier version said men's and women's international shares were highest "at D1 and D2"; on RosterWise's 2025-26 rosters NAIA is highest for both. Claims that some programs run 30-50% (men's) or 20-30% (women's) international were removed, because no RosterWise figure computes a range across programs, and the home countries now print from the roster stats.*
+
+*Corrected October 24, 2026, after a fact check of the whole page: unsourced statements were removed — that international recruiting "enriches the college game, raises competitive levels" and "raises the level of play", why men's and women's programs recruit internationally (including that the US is "the dominant country in women's soccer"), what international recruiting says about coaching philosophy and playing style, that programs "typically have established processes for visas", that some international players come "on exchange programs", that they "cluster at attacking positions", that programs with international recruiting are "lower-risk", that conferences are higher "across most of their programs", and that the figures are "generally conservative". The men's home-country list, which named regions the roster data doesn't show, now prints from the roster stats. Also removed: that reading the data "gives families an advantage in a process where information is power" and that "many programs … actively want domestic players". The RS-1 update also moved the NAIA men's share this page prints from 48.2% to 48.3%.*
