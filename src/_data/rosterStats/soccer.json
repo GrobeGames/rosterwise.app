@@ -2,7 +2,7 @@
  "schema": 1,
  "sport": "soccer",
  "computed": "2026-10-24",
- "generator": "rosterwise-pipeline scripts/roster_stats.py @ 770da90",
+ "generator": "rosterwise-pipeline scripts/roster_stats.py @ 0000dc9",
  "bundle": {
   "label": "app-soccer v2.0.2-12",
   "released": true,
@@ -19,6 +19,7 @@
   "Managers and staff left out (is_non_player).",
   "Division and conference as of the figure's season (program_season_facts, else programs).",
   "Cells sport_scope rules out are left out, and named in left_out.",
+  "A season program_season_facts marks suspended is left out, and named in left_out (Scott, board rs1-built q0).",
   "Transfers: transfer_source_type = 'us_college' (RW-2), the app's own test.",
   "A player listed at two positions counts at both (RW-27), as the app counts.",
   "Freshmen: FR and RS-FR, out of players whose class year is listed.",
@@ -59,8 +60,8 @@
   {
    "season": "2025-26",
    "gender": "W",
-   "counted": 1220,
-   "in_scope": 1223,
+   "counted": 1218,
+   "in_scope": 1221,
    "coverage_pct": 99.8,
    "used": true
   },
@@ -131,6 +132,20 @@
     "gender": "W",
     "division": "D1",
     "reason": "mid-transition from NCAA Division II to Division I; the soccer insights pages' methodology leaves them out (rosterwise.app, 2026-05)"
+   },
+   {
+    "program_id": 1633,
+    "school_name": "Alverno College",
+    "gender": "W",
+    "division": "D3",
+    "reason": "2025-26 season suspended (program_season_facts)"
+   },
+   {
+    "program_id": 1816,
+    "school_name": "Medgar Evers College",
+    "gender": "W",
+    "division": "D3",
+    "reason": "2025-26 season suspended (program_season_facts)"
    },
    {
     "program_id": 2095,
@@ -249,36 +264,36 @@
   ]
  },
  "queries": {
-  "2025-26.m.d1": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'M'\n  AND COALESCE(f.division, p.division) = 'D1'\nORDER BY pl.program_id, pl.id",
-  "2025-26.m.d2": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'M'\n  AND COALESCE(f.division, p.division) = 'D2'\nORDER BY pl.program_id, pl.id",
-  "2025-26.m.d3": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'M'\n  AND COALESCE(f.division, p.division) = 'D3'\nORDER BY pl.program_id, pl.id",
-  "2025-26.m.naia": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'M'\n  AND COALESCE(f.division, p.division) = 'NAIA'\nORDER BY pl.program_id, pl.id",
-  "2025-26.m.all": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'M'\nORDER BY pl.program_id, pl.id",
-  "2025-26.w.d1": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'W'\n  AND COALESCE(f.division, p.division) = 'D1'\nORDER BY pl.program_id, pl.id",
-  "2025-26.w.d2": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'W'\n  AND COALESCE(f.division, p.division) = 'D2'\nORDER BY pl.program_id, pl.id",
-  "2025-26.w.d3": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'W'\n  AND COALESCE(f.division, p.division) = 'D3'\nORDER BY pl.program_id, pl.id",
-  "2025-26.w.naia": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'W'\n  AND COALESCE(f.division, p.division) = 'NAIA'\nORDER BY pl.program_id, pl.id",
-  "2025-26.w.all": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'W'\nORDER BY pl.program_id, pl.id",
-  "2025-26.all.d1": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND COALESCE(f.division, p.division) = 'D1'\nORDER BY pl.program_id, pl.id",
-  "2025-26.all.d2": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND COALESCE(f.division, p.division) = 'D2'\nORDER BY pl.program_id, pl.id",
-  "2025-26.all.d3": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND COALESCE(f.division, p.division) = 'D3'\nORDER BY pl.program_id, pl.id",
-  "2025-26.all.naia": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND COALESCE(f.division, p.division) = 'NAIA'\nORDER BY pl.program_id, pl.id",
-  "2025-26.all.all": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.id NOT IN (84, 173, 1138, 1292)\nORDER BY pl.program_id, pl.id",
-  "2026-27.m.d1": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.gender = 'M'\n  AND COALESCE(f.division, p.division) = 'D1'\nORDER BY pl.program_id, pl.id",
-  "2026-27.m.d2": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.gender = 'M'\n  AND COALESCE(f.division, p.division) = 'D2'\nORDER BY pl.program_id, pl.id",
-  "2026-27.m.d3": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.gender = 'M'\n  AND COALESCE(f.division, p.division) = 'D3'\nORDER BY pl.program_id, pl.id",
-  "2026-27.m.naia": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.gender = 'M'\n  AND COALESCE(f.division, p.division) = 'NAIA'\nORDER BY pl.program_id, pl.id",
-  "2026-27.m.all": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.gender = 'M'\nORDER BY pl.program_id, pl.id",
-  "2026-27.w.d1": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.gender = 'W'\n  AND COALESCE(f.division, p.division) = 'D1'\nORDER BY pl.program_id, pl.id",
-  "2026-27.w.d2": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.gender = 'W'\n  AND COALESCE(f.division, p.division) = 'D2'\nORDER BY pl.program_id, pl.id",
-  "2026-27.w.d3": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.gender = 'W'\n  AND COALESCE(f.division, p.division) = 'D3'\nORDER BY pl.program_id, pl.id",
-  "2026-27.w.naia": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.gender = 'W'\n  AND COALESCE(f.division, p.division) = 'NAIA'\nORDER BY pl.program_id, pl.id",
-  "2026-27.w.all": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND p.gender = 'W'\nORDER BY pl.program_id, pl.id",
-  "2026-27.all.d1": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.division, p.division) = 'D1'\nORDER BY pl.program_id, pl.id",
-  "2026-27.all.d2": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.division, p.division) = 'D2'\nORDER BY pl.program_id, pl.id",
-  "2026-27.all.d3": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.division, p.division) = 'D3'\nORDER BY pl.program_id, pl.id",
-  "2026-27.all.naia": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.division, p.division) = 'NAIA'\nORDER BY pl.program_id, pl.id",
-  "2026-27.all.all": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\nORDER BY pl.program_id, pl.id"
+  "2025-26.m.d1": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'M'\n  AND COALESCE(f.division, p.division) = 'D1'\nORDER BY pl.program_id, pl.id",
+  "2025-26.m.d2": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'M'\n  AND COALESCE(f.division, p.division) = 'D2'\nORDER BY pl.program_id, pl.id",
+  "2025-26.m.d3": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'M'\n  AND COALESCE(f.division, p.division) = 'D3'\nORDER BY pl.program_id, pl.id",
+  "2025-26.m.naia": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'M'\n  AND COALESCE(f.division, p.division) = 'NAIA'\nORDER BY pl.program_id, pl.id",
+  "2025-26.m.all": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'M'\nORDER BY pl.program_id, pl.id",
+  "2025-26.w.d1": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'W'\n  AND COALESCE(f.division, p.division) = 'D1'\nORDER BY pl.program_id, pl.id",
+  "2025-26.w.d2": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'W'\n  AND COALESCE(f.division, p.division) = 'D2'\nORDER BY pl.program_id, pl.id",
+  "2025-26.w.d3": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'W'\n  AND COALESCE(f.division, p.division) = 'D3'\nORDER BY pl.program_id, pl.id",
+  "2025-26.w.naia": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'W'\n  AND COALESCE(f.division, p.division) = 'NAIA'\nORDER BY pl.program_id, pl.id",
+  "2025-26.w.all": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND p.gender = 'W'\nORDER BY pl.program_id, pl.id",
+  "2025-26.all.d1": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND COALESCE(f.division, p.division) = 'D1'\nORDER BY pl.program_id, pl.id",
+  "2025-26.all.d2": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND COALESCE(f.division, p.division) = 'D2'\nORDER BY pl.program_id, pl.id",
+  "2025-26.all.d3": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND COALESCE(f.division, p.division) = 'D3'\nORDER BY pl.program_id, pl.id",
+  "2025-26.all.naia": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.id NOT IN (84, 173, 1138, 1292)\n  AND COALESCE(f.division, p.division) = 'NAIA'\nORDER BY pl.program_id, pl.id",
+  "2025-26.all.all": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2025-26'\nWHERE s.code = 'soccer' AND pl.roster_season = '2025-26'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.id NOT IN (84, 173, 1138, 1292)\nORDER BY pl.program_id, pl.id",
+  "2026-27.m.d1": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.gender = 'M'\n  AND COALESCE(f.division, p.division) = 'D1'\nORDER BY pl.program_id, pl.id",
+  "2026-27.m.d2": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.gender = 'M'\n  AND COALESCE(f.division, p.division) = 'D2'\nORDER BY pl.program_id, pl.id",
+  "2026-27.m.d3": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.gender = 'M'\n  AND COALESCE(f.division, p.division) = 'D3'\nORDER BY pl.program_id, pl.id",
+  "2026-27.m.naia": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.gender = 'M'\n  AND COALESCE(f.division, p.division) = 'NAIA'\nORDER BY pl.program_id, pl.id",
+  "2026-27.m.all": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.gender = 'M'\nORDER BY pl.program_id, pl.id",
+  "2026-27.w.d1": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.gender = 'W'\n  AND COALESCE(f.division, p.division) = 'D1'\nORDER BY pl.program_id, pl.id",
+  "2026-27.w.d2": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.gender = 'W'\n  AND COALESCE(f.division, p.division) = 'D2'\nORDER BY pl.program_id, pl.id",
+  "2026-27.w.d3": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.gender = 'W'\n  AND COALESCE(f.division, p.division) = 'D3'\nORDER BY pl.program_id, pl.id",
+  "2026-27.w.naia": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.gender = 'W'\n  AND COALESCE(f.division, p.division) = 'NAIA'\nORDER BY pl.program_id, pl.id",
+  "2026-27.w.all": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND p.gender = 'W'\nORDER BY pl.program_id, pl.id",
+  "2026-27.all.d1": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND COALESCE(f.division, p.division) = 'D1'\nORDER BY pl.program_id, pl.id",
+  "2026-27.all.d2": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND COALESCE(f.division, p.division) = 'D2'\nORDER BY pl.program_id, pl.id",
+  "2026-27.all.d3": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND COALESCE(f.division, p.division) = 'D3'\nORDER BY pl.program_id, pl.id",
+  "2026-27.all.naia": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\n  AND COALESCE(f.division, p.division) = 'NAIA'\nORDER BY pl.program_id, pl.id",
+  "2026-27.all.all": "SELECT pl.program_id,\n       pl.is_international,\n       pl.class_year_normalized,\n       pl.state_or_country,\n       pl.country_code,\n       pl.position_normalized,\n       pl.position_detail,\n       NULL AS weight_classes_listed,\n       pl.height_inches,\n       pl.pathway_type,\n       pl.transfer_source_type,\n       pl.previous_college\nFROM players pl\nJOIN programs p ON p.id = pl.program_id\nJOIN sports s ON s.id = p.sport_id\nJOIN program_seasons ps ON ps.program_id = p.id AND ps.roster_season = pl.roster_season\nLEFT JOIN program_season_facts f ON f.program_id = p.id AND f.season = '2026-27'\nWHERE s.code = 'soccer' AND pl.roster_season = '2026-27'\n  AND ps.completeness = 'settled'\n  AND COALESCE(pl.is_non_player, 0) = 0\n  AND NOT EXISTS (SELECT 1 FROM sport_scope sc\n                   WHERE sc.sport_id = p.sport_id AND sc.gender = p.gender\n                     AND sc.division = COALESCE(f.division, p.division) AND sc.status IN ('out_of_scope', 'not_sponsored'))\n  AND COALESCE(f.program_status, '') <> 'suspended'\nORDER BY pl.program_id, pl.id"
  },
  "figures": {
   "soccer.2025-26.m.d1.programs": {
@@ -5727,25 +5742,25 @@
    "measure": "programs",
    "population": "Programs in scope with a settled 2025-26 D3 women's soccer roster",
    "value": {
-    "programs": 417,
-    "players": 11333,
-    "in_scope": 417
+    "programs": 415,
+    "players": 11318,
+    "in_scope": 415
    },
    "n": {
-    "players": 11333,
-    "programs": 417
+    "players": 11318,
+    "programs": 415
    },
    "coverage": {
-    "counted": 417,
-    "in_scope": 417
+    "counted": 415,
+    "in_scope": 415
    },
    "aside": [],
    "rosters_read": {
     "from": "2026-04-26",
-    "to": "2026-08-12",
+    "to": "2026-05-16",
     "undated_programs": 3
    },
-   "footnote": "Rosters as of Aug 12, 2026 · 2025-26 season",
+   "footnote": "Rosters as of May 16, 2026 · 2025-26 season",
    "method": "Counted programs (settled roster, in scope); in_scope adds those whose roster for the season isn't settled.",
    "query": "2025-26.w.d3",
    "publishable": true
@@ -5759,30 +5774,30 @@
    "measure": "roster_size",
    "population": "Settled 2025-26 D3 women's soccer rosters, managers and staff left out",
    "value": {
-    "programs": 417,
-    "players": 11333,
+    "programs": 415,
+    "players": 11318,
     "median": 28,
     "p25": 23,
     "p75": 31,
-    "mean": 27.2,
-    "min": 6,
+    "mean": 27.3,
+    "min": 13,
     "max": 44
    },
    "n": {
-    "players": 11333,
-    "programs": 417
+    "players": 11318,
+    "programs": 415
    },
    "coverage": {
-    "counted": 417,
-    "in_scope": 417
+    "counted": 415,
+    "in_scope": 415
    },
    "aside": [],
    "rosters_read": {
     "from": "2026-04-26",
-    "to": "2026-08-12",
+    "to": "2026-05-16",
     "undated_programs": 3
    },
-   "footnote": "Rosters as of Aug 12, 2026 · 2025-26 season",
+   "footnote": "Rosters as of May 16, 2026 · 2025-26 season",
    "method": "Players per program; median and inclusive quartiles of those counts.",
    "query": "2025-26.w.d3",
    "publishable": true
@@ -5797,16 +5812,16 @@
    "population": "Players on settled 2025-26 D3 women's soccer rosters whose class year is listed",
    "value": {
     "pct": 29.9,
-    "freshmen": 3367,
-    "class_listed": 11247
+    "freshmen": 3359,
+    "class_listed": 11232
    },
    "n": {
-    "players": 11247,
-    "programs": 417
+    "players": 11232,
+    "programs": 415
    },
    "coverage": {
-    "counted": 417,
-    "in_scope": 417
+    "counted": 415,
+    "in_scope": 415
    },
    "aside": [
     {
@@ -5816,10 +5831,10 @@
    ],
    "rosters_read": {
     "from": "2026-04-26",
-    "to": "2026-08-12",
+    "to": "2026-05-16",
     "undated_programs": 3
    },
-   "footnote": "Rosters as of Aug 12, 2026 · 2025-26 season",
+   "footnote": "Rosters as of May 16, 2026 · 2025-26 season",
    "method": "Freshmen and redshirt freshmen (FR, RS-FR), out of players with a class year.",
    "query": "2025-26.w.d3",
    "publishable": true
@@ -5834,34 +5849,34 @@
    "population": "Players on settled 2025-26 D3 women's soccer rosters whose class year is listed",
    "value": {
     "FR": {
-     "players": 3367,
+     "players": 3359,
      "pct": 29.9
     },
     "SO": {
-     "players": 2965,
+     "players": 2962,
      "pct": 26.4
     },
     "JR": {
-     "players": 2496,
+     "players": 2494,
      "pct": 22.2
     },
     "SR": {
-     "players": 2332,
+     "players": 2330,
      "pct": 20.7
     },
     "GR": {
      "players": 87,
      "pct": 0.8
     },
-    "class_listed": 11247
+    "class_listed": 11232
    },
    "n": {
-    "players": 11247,
-    "programs": 417
+    "players": 11232,
+    "programs": 415
    },
    "coverage": {
-    "counted": 417,
-    "in_scope": 417
+    "counted": 415,
+    "in_scope": 415
    },
    "aside": [
     {
@@ -5871,10 +5886,10 @@
    ],
    "rosters_read": {
     "from": "2026-04-26",
-    "to": "2026-08-12",
+    "to": "2026-05-16",
     "undated_programs": 3
    },
-   "footnote": "Rosters as of Aug 12, 2026 · 2025-26 season",
+   "footnote": "Rosters as of May 16, 2026 · 2025-26 season",
    "method": "Class years with each RS- label counted in its year (RS-FR as FR); share of players with one of FR, SO, JR, SR, GR.",
    "query": "2025-26.w.d3",
    "publishable": true
@@ -5888,25 +5903,25 @@
    "measure": "intl_share",
    "population": "Players on settled 2025-26 D3 women's soccer rosters",
    "value": {
-    "pct": 2.2,
-    "international": 244,
-    "players": 11333
+    "pct": 2.1,
+    "international": 242,
+    "players": 11318
    },
    "n": {
-    "players": 11333,
-    "programs": 417
+    "players": 11318,
+    "programs": 415
    },
    "coverage": {
-    "counted": 417,
-    "in_scope": 417
+    "counted": 415,
+    "in_scope": 415
    },
    "aside": [],
    "rosters_read": {
     "from": "2026-04-26",
-    "to": "2026-08-12",
+    "to": "2026-05-16",
     "undated_programs": 3
    },
-   "footnote": "Rosters as of Aug 12, 2026 · 2025-26 season",
+   "footnote": "Rosters as of May 16, 2026 · 2025-26 season",
    "method": "Players flagged international (is_international = 1), out of all players.",
    "query": "2025-26.w.d3",
    "publishable": true
@@ -5924,12 +5939,12 @@
      {
       "country": "CA",
       "players": 51,
-      "pct": 20.9
+      "pct": 21.1
      },
      {
       "country": "LB",
       "players": 19,
-      "pct": 7.8
+      "pct": 7.9
      },
      {
       "country": "GB",
@@ -5972,24 +5987,24 @@
       "pct": 2.5
      }
     ],
-    "with_country": 244,
-    "international": 244
+    "with_country": 242,
+    "international": 242
    },
    "n": {
-    "players": 244,
-    "programs": 417
+    "players": 242,
+    "programs": 415
    },
    "coverage": {
-    "counted": 417,
-    "in_scope": 417
+    "counted": 415,
+    "in_scope": 415
    },
    "aside": [],
    "rosters_read": {
     "from": "2026-04-26",
-    "to": "2026-08-12",
+    "to": "2026-05-16",
     "undated_programs": 3
    },
-   "footnote": "Rosters as of Aug 12, 2026 · 2025-26 season",
+   "footnote": "Rosters as of May 16, 2026 · 2025-26 season",
    "method": "International players by country_code (ISO 3166 alpha-2); share of those with one.",
    "query": "2025-26.w.d3",
    "publishable": true
@@ -6006,7 +6021,7 @@
     "top": [
      {
       "state": "NY",
-      "players": 1245,
+      "players": 1239,
       "pct": 11.3
      },
      {
@@ -6047,7 +6062,7 @@
      {
       "state": "VA",
       "players": 435,
-      "pct": 3.9
+      "pct": 4.0
      },
      {
       "state": "MN",
@@ -6055,16 +6070,16 @@
       "pct": 3.8
      }
     ],
-    "state_listed": 11013,
-    "domestic": 11089
+    "state_listed": 11000,
+    "domestic": 11076
    },
    "n": {
-    "players": 11013,
-    "programs": 417
+    "players": 11000,
+    "programs": 415
    },
    "coverage": {
-    "counted": 417,
-    "in_scope": 417
+    "counted": 415,
+    "in_scope": 415
    },
    "aside": [
     {
@@ -6074,10 +6089,10 @@
    ],
    "rosters_read": {
     "from": "2026-04-26",
-    "to": "2026-08-12",
+    "to": "2026-05-16",
     "undated_programs": 3
    },
-   "footnote": "Rosters as of Aug 12, 2026 · 2025-26 season",
+   "footnote": "Rosters as of May 16, 2026 · 2025-26 season",
    "method": "Domestic players (is_international = 0) by state_or_country, counted only where it is already a USPS code; share of those players.",
    "query": "2025-26.w.d3",
    "publishable": true
@@ -6093,28 +6108,28 @@
    "value": {
     "pct": 3.7,
     "transfers": 420,
-    "players": 11333
+    "players": 11318
    },
    "n": {
-    "players": 11333,
-    "programs": 417
+    "players": 11318,
+    "programs": 415
    },
    "coverage": {
-    "counted": 417,
-    "in_scope": 417
+    "counted": 415,
+    "in_scope": 415
    },
    "aside": [
     {
-     "count": 66,
+     "count": 65,
      "reason": "list a previous school not matched to a college"
     }
    ],
    "rosters_read": {
     "from": "2026-04-26",
-    "to": "2026-08-12",
+    "to": "2026-05-16",
     "undated_programs": 3
    },
-   "footnote": "Rosters as of Aug 12, 2026 · 2025-26 season",
+   "footnote": "Rosters as of May 16, 2026 · 2025-26 season",
    "method": "transfer_source_type = 'us_college' (a previous school matched to a US college, RW-2), out of all players.",
    "query": "2025-26.w.d3",
    "publishable": true
@@ -6129,11 +6144,11 @@
    "population": "Players on settled 2025-26 D3 women's soccer rosters",
    "value": {
     "high_school": {
-     "players": 9936,
+     "players": 9924,
      "pct": 87.7
     },
     "transfer": {
-     "players": 491,
+     "players": 490,
      "pct": 4.3
     },
     "club": {
@@ -6141,7 +6156,7 @@
      "pct": 4.1
     },
     "international": {
-     "players": 207,
+     "players": 205,
      "pct": 1.8
     },
     "ecnl": {
@@ -6166,24 +6181,24 @@
     }
    },
    "n": {
-    "players": 11333,
-    "programs": 417
+    "players": 11318,
+    "programs": 415
    },
    "coverage": {
-    "counted": 417,
-    "in_scope": 417
+    "counted": 415,
+    "in_scope": 415
    },
    "aside": [],
    "rosters_read": {
     "from": "2026-04-26",
-    "to": "2026-08-12",
+    "to": "2026-05-16",
     "undated_programs": 3
    },
-   "footnote": "Rosters as of Aug 12, 2026 · 2025-26 season",
+   "footnote": "Rosters as of May 16, 2026 · 2025-26 season",
    "method": "Players by pathway_type as the app's Recruiting pipeline groups them.",
    "query": "2025-26.w.d3",
    "publishable": false,
-   "blocked": "pathway 'transfer' counts 491 but the transfer test counts 420; the bundle predates the RW-2 pathway write"
+   "blocked": "pathway 'transfer' counts 490 but the transfer test counts 420; the bundle predates the RW-2 pathway write"
   },
   "soccer.2025-26.w.d3.position_counts": {
    "id": "soccer.2025-26.w.d3.position_counts",
@@ -6196,33 +6211,33 @@
    "value": {
     "GK": {
      "label": "Goalkeeper",
-     "players": 1186,
-     "per_program": 2.8
+     "players": 1184,
+     "per_program": 2.9
     },
     "DEF": {
      "label": "Defender",
-     "players": 3854,
-     "per_program": 9.2
+     "players": 3850,
+     "per_program": 9.3
     },
     "MID": {
      "label": "Midfielder",
-     "players": 4475,
-     "per_program": 10.7
+     "players": 4468,
+     "per_program": 10.8
     },
     "FWD": {
      "label": "Forward",
-     "players": 3070,
+     "players": 3068,
      "per_program": 7.4
     },
     "listed_at_two_or_more": 1403
    },
    "n": {
-    "players": 11333,
-    "programs": 417
+    "players": 11318,
+    "programs": 415
    },
    "coverage": {
-    "counted": 417,
-    "in_scope": 417
+    "counted": 415,
+    "in_scope": 415
    },
    "aside": [
     {
@@ -6232,10 +6247,10 @@
    ],
    "rosters_read": {
     "from": "2026-04-26",
-    "to": "2026-08-12",
+    "to": "2026-05-16",
     "undated_programs": 3
    },
-   "footnote": "Rosters as of Aug 12, 2026 · 2025-26 season",
+   "footnote": "Rosters as of May 16, 2026 · 2025-26 season",
    "method": "Each player counted at every position listed (RW-27), so the counts add up to more than the roster; per program = players at the position / programs.",
    "query": "2025-26.w.d3",
    "publishable": true
@@ -6251,38 +6266,38 @@
    "value": {
     "GK": {
      "label": "Goalkeeper",
-     "players": 1022,
-     "mean_inches": 66.58,
+     "players": 1020,
+     "mean_inches": 66.59,
      "text": "5'7\""
     },
     "DEF": {
      "label": "Defender",
-     "players": 3348,
+     "players": 3344,
      "mean_inches": 65.29,
      "text": "5'5\""
     },
     "MID": {
      "label": "Midfielder",
-     "players": 3921,
+     "players": 3914,
      "mean_inches": 64.69,
      "text": "5'5\""
     },
     "FWD": {
      "label": "Forward",
-     "players": 2669,
+     "players": 2667,
      "mean_inches": 64.98,
      "text": "5'5\""
     },
-    "height_listed": 9786,
+    "height_listed": 9771,
     "height_listed_pct": 86.3
    },
    "n": {
-    "players": 9786,
-    "programs": 417
+    "players": 9771,
+    "programs": 415
    },
    "coverage": {
-    "counted": 417,
-    "in_scope": 417
+    "counted": 415,
+    "in_scope": 415
    },
    "aside": [
     {
@@ -6292,10 +6307,10 @@
    ],
    "rosters_read": {
     "from": "2026-04-26",
-    "to": "2026-08-12",
+    "to": "2026-05-16",
     "undated_programs": 3
    },
-   "footnote": "Rosters as of Aug 12, 2026 · 2025-26 season",
+   "footnote": "Rosters as of May 16, 2026 · 2025-26 season",
    "method": "Mean of roster-listed heights (not measured) at every listed position (RW-27); text rounded to the inch as the app rounds.",
    "query": "2025-26.w.d3",
    "publishable": true
@@ -6316,13 +6331,6 @@
       "players": 272,
       "international": 21,
       "pct": 7.7
-     },
-     {
-      "conference": "City University of New York Athletic Conference",
-      "programs": 6,
-      "players": 100,
-      "international": 6,
-      "pct": 6.0
      },
      {
       "conference": "Midwest Conference",
@@ -6351,6 +6359,13 @@
       "players": 212,
       "international": 10,
       "pct": 4.7
+     },
+     {
+      "conference": "City University of New York Athletic Conference",
+      "programs": 5,
+      "players": 91,
+      "international": 4,
+      "pct": 4.4
      },
      {
       "conference": "New England Small College Athletic Conference",
@@ -6396,8 +6411,8 @@
      },
      {
       "conference": "Northern Athletics Collegiate Conference",
-      "programs": 14,
-      "players": 372,
+      "programs": 13,
+      "players": 366,
       "international": 10,
       "pct": 2.7
      },
@@ -6622,20 +6637,20 @@
     "conferences": 44
    },
    "n": {
-    "players": 11333,
-    "programs": 417
+    "players": 11318,
+    "programs": 415
    },
    "coverage": {
-    "counted": 417,
-    "in_scope": 417
+    "counted": 415,
+    "in_scope": 415
    },
    "aside": [],
    "rosters_read": {
     "from": "2026-04-26",
-    "to": "2026-08-12",
+    "to": "2026-05-16",
     "undated_programs": 3
    },
-   "footnote": "Rosters as of Aug 12, 2026 · 2025-26 season",
+   "footnote": "Rosters as of May 16, 2026 · 2025-26 season",
    "method": "Per conference: international players / players; conference from program_season_facts for the season, else programs.",
    "query": "2025-26.w.d3",
    "publishable": true
@@ -7392,17 +7407,17 @@
    "measure": "programs",
    "population": "Programs in scope with a settled 2025-26 women's soccer, all divisions roster",
    "value": {
-    "programs": 1220,
-    "players": 33777,
-    "in_scope": 1223
+    "programs": 1218,
+    "players": 33762,
+    "in_scope": 1221
    },
    "n": {
-    "players": 33777,
-    "programs": 1220
+    "players": 33762,
+    "programs": 1218
    },
    "coverage": {
-    "counted": 1220,
-    "in_scope": 1223
+    "counted": 1218,
+    "in_scope": 1221
    },
    "aside": [],
    "rosters_read": {
@@ -7424,22 +7439,22 @@
    "measure": "roster_size",
    "population": "Settled 2025-26 women's soccer, all divisions rosters, managers and staff left out",
    "value": {
-    "programs": 1220,
-    "players": 33777,
+    "programs": 1218,
+    "players": 33762,
     "median": 28,
     "p25": 25,
     "p75": 30,
     "mean": 27.7,
-    "min": 6,
+    "min": 12,
     "max": 55
    },
    "n": {
-    "players": 33777,
-    "programs": 1220
+    "players": 33762,
+    "programs": 1218
    },
    "coverage": {
-    "counted": 1220,
-    "in_scope": 1223
+    "counted": 1218,
+    "in_scope": 1221
    },
    "aside": [],
    "rosters_read": {
@@ -7462,16 +7477,16 @@
    "population": "Players on settled 2025-26 women's soccer, all divisions rosters whose class year is listed",
    "value": {
     "pct": 30.2,
-    "freshmen": 10122,
-    "class_listed": 33542
+    "freshmen": 10114,
+    "class_listed": 33527
    },
    "n": {
-    "players": 33542,
-    "programs": 1220
+    "players": 33527,
+    "programs": 1218
    },
    "coverage": {
-    "counted": 1220,
-    "in_scope": 1223
+    "counted": 1218,
+    "in_scope": 1221
    },
    "aside": [
     {
@@ -7499,34 +7514,34 @@
    "population": "Players on settled 2025-26 women's soccer, all divisions rosters whose class year is listed",
    "value": {
     "FR": {
-     "players": 10122,
+     "players": 10114,
      "pct": 30.2
     },
     "SO": {
-     "players": 8342,
+     "players": 8339,
      "pct": 24.9
     },
     "JR": {
-     "players": 7624,
+     "players": 7622,
      "pct": 22.7
     },
     "SR": {
-     "players": 6726,
+     "players": 6724,
      "pct": 20.1
     },
     "GR": {
      "players": 728,
      "pct": 2.2
     },
-    "class_listed": 33542
+    "class_listed": 33527
    },
    "n": {
-    "players": 33542,
-    "programs": 1220
+    "players": 33527,
+    "programs": 1218
    },
    "coverage": {
-    "counted": 1220,
-    "in_scope": 1223
+    "counted": 1218,
+    "in_scope": 1221
    },
    "aside": [
     {
@@ -7554,16 +7569,16 @@
    "population": "Players on settled 2025-26 women's soccer, all divisions rosters",
    "value": {
     "pct": 9.9,
-    "international": 3331,
-    "players": 33777
+    "international": 3329,
+    "players": 33762
    },
    "n": {
-    "players": 33777,
-    "programs": 1220
+    "players": 33762,
+    "programs": 1218
    },
    "coverage": {
-    "counted": 1220,
-    "in_scope": 1223
+    "counted": 1218,
+    "in_scope": 1221
    },
    "aside": [],
    "rosters_read": {
@@ -7637,16 +7652,16 @@
       "pct": 2.1
      }
     ],
-    "with_country": 3331,
-    "international": 3331
+    "with_country": 3329,
+    "international": 3329
    },
    "n": {
-    "players": 3331,
-    "programs": 1220
+    "players": 3329,
+    "programs": 1218
    },
    "coverage": {
-    "counted": 1220,
-    "in_scope": 1223
+    "counted": 1218,
+    "in_scope": 1221
    },
    "aside": [],
    "rosters_read": {
@@ -7681,8 +7696,8 @@
      },
      {
       "state": "NY",
-      "players": 1974,
-      "pct": 6.6
+      "players": 1968,
+      "pct": 6.5
      },
      {
       "state": "PA",
@@ -7720,16 +7735,16 @@
       "pct": 3.3
      }
     ],
-    "state_listed": 30116,
-    "domestic": 30446
+    "state_listed": 30103,
+    "domestic": 30433
    },
    "n": {
-    "players": 30116,
-    "programs": 1220
+    "players": 30103,
+    "programs": 1218
    },
    "coverage": {
-    "counted": 1220,
-    "in_scope": 1223
+    "counted": 1218,
+    "in_scope": 1221
    },
    "aside": [
     {
@@ -7758,19 +7773,19 @@
    "value": {
     "pct": 7.2,
     "transfers": 2419,
-    "players": 33777
+    "players": 33762
    },
    "n": {
-    "players": 33777,
-    "programs": 1220
+    "players": 33762,
+    "programs": 1218
    },
    "coverage": {
-    "counted": 1220,
-    "in_scope": 1223
+    "counted": 1218,
+    "in_scope": 1221
    },
    "aside": [
     {
-     "count": 335,
+     "count": 334,
      "reason": "list a previous school not matched to a college"
     }
    ],
@@ -7794,15 +7809,15 @@
    "population": "Players on settled 2025-26 women's soccer, all divisions rosters",
    "value": {
     "high_school": {
-     "players": 26712,
+     "players": 26700,
      "pct": 79.1
     },
     "international": {
-     "players": 2667,
+     "players": 2665,
      "pct": 7.9
     },
     "transfer": {
-     "players": 2631,
+     "players": 2630,
      "pct": 7.8
     },
     "club": {
@@ -7851,12 +7866,12 @@
     }
    },
    "n": {
-    "players": 33777,
-    "programs": 1220
+    "players": 33762,
+    "programs": 1218
    },
    "coverage": {
-    "counted": 1220,
-    "in_scope": 1223
+    "counted": 1218,
+    "in_scope": 1221
    },
    "aside": [],
    "rosters_read": {
@@ -7868,7 +7883,7 @@
    "method": "Players by pathway_type as the app's Recruiting pipeline groups them.",
    "query": "2025-26.w.all",
    "publishable": false,
-   "blocked": "pathway 'transfer' counts 2631 but the transfer test counts 2419; the bundle predates the RW-2 pathway write"
+   "blocked": "pathway 'transfer' counts 2630 but the transfer test counts 2419; the bundle predates the RW-2 pathway write"
   },
   "soccer.2025-26.w.all.position_counts": {
    "id": "soccer.2025-26.w.all.position_counts",
@@ -7881,33 +7896,33 @@
    "value": {
     "GK": {
      "label": "Goalkeeper",
-     "players": 3608,
+     "players": 3606,
      "per_program": 3.0
     },
     "DEF": {
      "label": "Defender",
-     "players": 11145,
+     "players": 11141,
      "per_program": 9.1
     },
     "MID": {
      "label": "Midfielder",
-     "players": 12644,
+     "players": 12637,
      "per_program": 10.4
     },
     "FWD": {
      "label": "Forward",
-     "players": 9380,
+     "players": 9378,
      "per_program": 7.7
     },
     "listed_at_two_or_more": 3393
    },
    "n": {
-    "players": 33777,
-    "programs": 1220
+    "players": 33762,
+    "programs": 1218
    },
    "coverage": {
-    "counted": 1220,
-    "in_scope": 1223
+    "counted": 1218,
+    "in_scope": 1221
    },
    "aside": [
     {
@@ -7936,38 +7951,38 @@
    "value": {
     "GK": {
      "label": "Goalkeeper",
-     "players": 3165,
+     "players": 3163,
      "mean_inches": 67.21,
      "text": "5'7\""
     },
     "DEF": {
      "label": "Defender",
-     "players": 9845,
+     "players": 9841,
      "mean_inches": 65.75,
      "text": "5'6\""
     },
     "MID": {
      "label": "Midfielder",
-     "players": 11142,
+     "players": 11135,
      "mean_inches": 64.92,
      "text": "5'5\""
     },
     "FWD": {
      "label": "Forward",
-     "players": 8267,
+     "players": 8265,
      "mean_inches": 65.35,
      "text": "5'5\""
     },
-    "height_listed": 29514,
+    "height_listed": 29499,
     "height_listed_pct": 87.4
    },
    "n": {
-    "players": 29514,
-    "programs": 1220
+    "players": 29499,
+    "programs": 1218
    },
    "coverage": {
-    "counted": 1220,
-    "in_scope": 1223
+    "counted": 1218,
+    "in_scope": 1221
    },
    "aside": [
     {
@@ -8504,17 +8519,17 @@
    "measure": "programs",
    "population": "Programs in scope with a settled 2025-26 D3 men's and women's soccer roster",
    "value": {
-    "programs": 823,
-    "players": 24282,
-    "in_scope": 823
+    "programs": 821,
+    "players": 24267,
+    "in_scope": 821
    },
    "n": {
-    "players": 24282,
-    "programs": 823
+    "players": 24267,
+    "programs": 821
    },
    "coverage": {
-    "counted": 823,
-    "in_scope": 823
+    "counted": 821,
+    "in_scope": 821
    },
    "aside": [],
    "rosters_read": {
@@ -8539,7 +8554,7 @@
     "rows": [
      {
       "state": "NY",
-      "programs": 118
+      "programs": 117
      },
      {
       "state": "PA",
@@ -8554,11 +8569,11 @@
       "programs": 44
      },
      {
-      "state": "WI",
-      "programs": 43
+      "state": "OH",
+      "programs": 42
      },
      {
-      "state": "OH",
+      "state": "WI",
       "programs": 42
      },
      {
@@ -8680,12 +8695,12 @@
     ]
    },
    "n": {
-    "players": 24282,
-    "programs": 823
+    "players": 24267,
+    "programs": 821
    },
    "coverage": {
-    "counted": 823,
-    "in_scope": 823
+    "counted": 821,
+    "in_scope": 821
    },
    "aside": [],
    "rosters_read": {
@@ -8898,17 +8913,17 @@
    "measure": "programs",
    "population": "Programs in scope with a settled 2025-26 men's and women's soccer, all divisions roster",
    "value": {
-    "programs": 2228,
-    "players": 66736,
-    "in_scope": 2234
+    "programs": 2226,
+    "players": 66721,
+    "in_scope": 2232
    },
    "n": {
-    "players": 66736,
-    "programs": 2228
+    "players": 66721,
+    "programs": 2226
    },
    "coverage": {
-    "counted": 2228,
-    "in_scope": 2234
+    "counted": 2226,
+    "in_scope": 2232
    },
    "aside": [],
    "rosters_read": {
@@ -8933,7 +8948,7 @@
     "rows": [
      {
       "state": "NY",
-      "programs": 182
+      "programs": 181
      },
      {
       "state": "PA",
@@ -8985,7 +9000,7 @@
      },
      {
       "state": "WI",
-      "programs": 56
+      "programs": 55
      },
      {
       "state": "MI",
@@ -9142,12 +9157,12 @@
     ]
    },
    "n": {
-    "players": 66736,
-    "programs": 2228
+    "players": 66721,
+    "programs": 2226
    },
    "coverage": {
-    "counted": 2228,
-    "in_scope": 2234
+    "counted": 2226,
+    "in_scope": 2232
    },
    "aside": [],
    "rosters_read": {
