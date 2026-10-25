@@ -1,15 +1,15 @@
 ---
 layout: content.njk
 title: "NIL and Revenue Sharing: What It Means for Soccer, Volleyball, and Non-Revenue Sport Families | RosterWise™"
-description: "An honest explanation of NIL and revenue sharing for college soccer, volleyball, and non-revenue sport families — what's real, what's hyped, and what should actually shape recruiting decisions."
-date: 2026-08-25
+description: "NIL and revenue sharing for college soccer, volleyball, and non-revenue sport families — what the rules actually say, what no one publishes, and what to ask each program."
+date: 2026-10-24
 breadcrumbs:
   - text: Home
     url: /
   - text: Guide
     url: /guide/
   - text: NIL and Revenue Sharing
-summary: "Name, Image, and Likeness (NIL) compensation and the new revenue-sharing model are reshaping college athletics — but probably not in the ways your family thinks. Headlines about million-dollar NIL deals and eight-figure revenue-sharing pools describe a reality that exists almost entirely in football and basketball. For soccer, volleyball, and most other sports, NIL is real but small; revenue sharing is real but minimal. This guide explains the actual landscape for families researching non-revenue sports — what's verified, what's hyped, and what should genuinely factor into your recruiting decisions."
+summary: "Name, Image, and Likeness (NIL) deals and the House settlement's revenue sharing are both now part of Division I college athletics. What reaches a soccer or volleyball athlete is decided program by program: the NCAA caps what each school may pay its athletes in total but sets no split among sports, and no governing body publishes what athletes in these sports earn from NIL. This guide explains the rules that do exist, what they mean for international athletes, and the questions to ask each program."
 related:
   - title: "Understanding the House v. NCAA Settlement"
     url: /guide/house-settlement/
@@ -27,9 +27,10 @@ related:
     url: /guide/division-differences/
 eleventyComputed:
   sources:
-    - '<a href="https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/Feb2026D1Gov_PhaseSevenSetQuestionandAnswer.pdf">NCAA.org</a> — Question and Answer: Implementation of the House Settlement, Section D (Institutional Benefits and the Benefits Cap), updated February 11, 2026'
-    - 'U.S. District Court, Northern District of California — Judge Claudia Wilken''s June 6, 2025 ruling on House v. NCAA'
+    - '<a href="https://www.ncaa.org/student-athletes/scholarships-and-financial-aid/">NCAA.org — Scholarships & Financial Aid</a> (the National Letter of Intent in Division I and Division II)'
+    - "U.S. District Court, Northern District of California, House v. NCAA, Case No. 4:20-cv-03919 (final approval June 6, 2025)"
     - '<a href="https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/2024-25/June2025D1Gov_PhaseThreeInstSetQuestionandAnswer.pdf">NCAA — Q&A: Implementation of the House Settlement</a> (published June 13, 2025), Questions A1, A8 and A9: who is a Participating Institution, and the annual opt-in'
+    - '<a href="https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/Feb2026D1Gov_PhaseSevenSetQuestionandAnswer.pdf">NCAA — Q&A: Implementation of the House Settlement</a>, updated February 11, 2026: Section D (Institutional Benefits and the Benefits Cap), Section E (Noninstitutional NIL and NIL Go) and Question A11'
     - '<a href="https://ncaaorg.s3.amazonaws.com/inclusion/inter/INC_IntlStudentHandbook.pdf">NCAA — International Student-Athlete Handbook</a> (Name, Image and Likeness section; read Oct. 9, 2026)'
     - '<a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.2">8 CFR 214.2(f)(9)–(10)</a> — F-1 employment and practical training; <a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.1">8 CFR 214.1(e)</a> — unauthorized employment is a failure to maintain status (eCFR, read Oct. 9, 2026)'
     - '<a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-274a/subpart-A/section-274a.1">8 CFR 274a.1</a> — federal definition of employment (does not mention NIL; read Oct. 9, 2026)'
@@ -37,7 +38,7 @@ eleventyComputed:
     - "{{ 'soccer' | statSource('2025-26') | safe }}"
 cta:
   heading: "Make recruiting decisions based on what actually matters for your athlete."
-  text: "Headlines about NIL deals make for good reading but rarely reflect the reality for soccer and volleyball families. The factors that actually shape a successful college experience — fit at the program, position depth, recruiting patterns, coaching stability, academic match — are what RosterWise analyzes. Every D1, D2, D3, and NAIA program. Position depth, class-year gaps, recruiting geography, transfer portal patterns, personalized fit scoring."
+  text: "NIL headlines are mostly about other sports. The factors that shape a college experience — fit at the program, position depth, recruiting patterns, coaching stability, academic match — are what RosterWise analyzes, at D1, D2, D3, and NAIA programs. Position depth, class-year gaps, recruiting geography, transfer portal patterns, personalized fit scoring."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -45,19 +46,15 @@ ${toc}
 
 ## What changed in 2024-2025
 
-The landscape of college athlete compensation has changed more in the past two years than in the previous century. Here's the timeline:
-
-**July 2021:** The NCAA first allowed athletes to profit from their name, image, and likeness (NIL) through third-party deals. This opened the door for endorsements, social media partnerships, autograph signings, and other commercial activities — but only through deals with parties outside the university itself.
+Here's the timeline:
 
 **October 2024:** The NCAA Division I Council eliminated the National Letter of Intent (NLI) for Division I, replacing it with the written offer of athletics aid. NCAA.org states that Division II schools may still use the NLI. See our [verbal commitment guide](/guide/verbal-commitment-vs-nli/) for what this means in practice.
 
-**June 6, 2025:** Judge Claudia Wilken of the U.S. District Court for the Northern District of California approved the House v. NCAA settlement — the landmark case that fundamentally restructured how schools can compensate athletes directly. See our [House settlement guide](/guide/house-settlement/) for a comprehensive breakdown.
+**June 6, 2025:** The court approved the House v. NCAA settlement, which lets Division I schools that take part pay athletes directly. See our [House settlement guide](/guide/house-settlement/) for a comprehensive breakdown.
 
-**June 11, 2025:** The NIL Go portal launched under the newly established College Sports Commission (CSC). All third-party NIL deals exceeding $600 must now be submitted to NIL Go for fair-market-value review by Deloitte.
+**July 1, 2025:** Revenue sharing began with the 2025-26 academic year, allowing those schools to pay athletes directly from institutional revenue.
 
-**July 1, 2025:** Revenue sharing officially began with the 2025-26 academic year, allowing schools to pay athletes directly from institutional revenue for the first time.
-
-These are real, consequential changes. But what they mean for your family depends almost entirely on your athlete's sport — and that's where the honest conversation gets uncomfortable.
+These are real, consequential changes. What they mean for your family depends on your athlete's sport and school — which is why the questions below matter more than any headline.
 
 ## Revenue sharing — what it actually is and who gets it
 
@@ -73,19 +70,19 @@ The NCAA's House implementation Q&A is explicit about what the cap is. It define
 
 So the allocation is a decision each school makes on its own — school by school, year by year, and not published in any single place.
 
-You will see percentage splits quoted in the press and repeated across recruiting content, usually assigning most of the pool to football and men's basketball. Those are reports of what particular schools have chosen to do. They are not a rule, they are not a structure your family can count on, and no governing body publishes them — so we will not state one here as though it were fact. The honest answer is that the share reaching a soccer or volleyball roster varies enormously between schools, and at many programs it is zero.
+You will see percentage splits quoted in the press and repeated across recruiting content, usually assigning most of the pool to football and men's basketball. Those are reports of what particular schools have chosen to do. They are not a rule, they are not a structure your family can count on, and no governing body publishes them — so we will not state one here as though it were fact. What reaches a soccer or volleyball roster is each school's decision.
 
 **Which is why the only number that matters is the one for that program.** Ask for it directly:
 
-- Has this school opted into the House settlement?
+- Is this school a Participating Institution for the year my athlete would arrive?
 - Does this program receive any revenue-share money at all?
 - If it does, what was the total for this program last year, and how was it divided among players?
 - Would any offer to my athlete be guaranteed beyond one year, and what conditions attach to it?
 - Who decides the allocation, and at what point in the year is it decided?
 
-A coach who cannot answer these is telling you something useful. A coach who answers them plainly is giving you the only figure that actually applies to your family.
+The program's answers are the only figures that apply to your family.
 
-## Third-party NIL — what's real for soccer and volleyball
+## Third-party NIL — what's known for soccer and volleyball
 
 **No governing body publishes what soccer or volleyball athletes earn from NIL.** The figures that circulate — team totals, averages, medians by sport — come from news analyses and from companies that run NIL marketplaces, so we do not repeat them here as facts.
 
@@ -95,7 +92,7 @@ For your athlete, the useful questions are concrete: what NIL activity have this
 
 ## The international athlete reality
 
-This section is uniquely important for soccer families. Across the **{% stat "soccer.2025-26.m.d1.intl_share", "n.programs" %} Division I men's soccer programs RosterWise analyzed for the 2025-26 season**, international players held {% stat "soccer.2025-26.m.d1.intl_share", "international" %} of {% stat "soccer.2025-26.m.d1.intl_share", "players" %} roster spots — **{% stat "soccer.2025-26.m.d1.intl_share", "pct" %}**, or about one in three. That is our own count from published rosters, not an estimate. The share is lower in Division I women's soccer, at **{% stat "soccer.2025-26.w.d1.intl_share", "pct" %}** across {% stat "soccer.2025-26.w.d1.intl_share", "n.programs" %} programs.
+This section matters especially for soccer families. Across the **{% stat "soccer.2025-26.m.d1.intl_share", "n.programs" %} Division I men's soccer programs RosterWise analyzed for the 2025-26 season**, international players held {% stat "soccer.2025-26.m.d1.intl_share", "international" %} of {% stat "soccer.2025-26.m.d1.intl_share", "players" %} roster spots — **{% stat "soccer.2025-26.m.d1.intl_share", "pct" %}**, or about one in three. That is our own count from published rosters, not an estimate. The share is lower in Division I women's soccer, at **{% stat "soccer.2025-26.w.d1.intl_share", "pct" %}** across {% stat "soccer.2025-26.w.d1.intl_share", "n.programs" %} programs.
 
 **For an athlete on an F-1 student visa, NIL is an open legal question — and the NCAA treats it as off-limits on U.S. soil.** Here is who says what:
 
@@ -111,32 +108,30 @@ This section is uniquely important for soccer families. Across the **{% stat "so
 
 ## The NIL Go portal and what it means for new recruits
 
-The compliance framework matters for families to understand, even if the dollar amounts for non-revenue sports are small.
+The reporting rules matter for families to understand, even if your athlete's deals are small. Under the NCAA's House implementation Q&A (updated February 11, 2026):
 
-The College Sports Commission (CSC) administers the NIL Go portal, which launched June 11, 2025. Under the current framework:
-
-- All third-party NIL deals exceeding $600 must be submitted to NIL Go for review
-- Deloitte serves as the fair-market-value reviewer
-- Deals deemed "pay-for-play" or disguised recruiting inducements can be denied
-- Athletes whose deals are not cleared face NCAA eligibility risk if they accept payment
-- As of early 2026, only approximately $166 million in deals had been cleared through NIL Go — a small fraction of the estimated NIL market, suggesting significant non-compliance or reporting gaps in the broader system
+- **Every Division I athlete must report each third-party NIL contract or payment worth $600 or more to NIL Go** — including several payments from the same payor that add up to $600 — within five business days of agreeing the terms. That applies at schools outside the settlement too.
+- **A "third party" is anyone other than the school** or an entity the school owns, operates or controls.
+- **NIL Go is a platform created by the College Sports Commission, with assistance from Deloitte,** to determine whether a deal with an associated entity or individual advances "a valid business purpose" and stays within "a reasonable range of compensation."
+- **An athlete may submit a proposed deal for review before signing it.**
 
 **For families during recruiting:** if a coach or a collective's representative promises specific NIL dollars, ask for the terms in writing and take them to the school's compliance office before relying on them.
 
-If you encounter NIL promises during recruiting conversations, treat them as you would any unverifiable claim — note them, but don't make decisions based on them.
+If you encounter NIL promises during recruiting conversations, treat them as you would any unverifiable claim — note them, and check them before they shape a decision.
 
-## What NIL should and shouldn't factor into recruiting decisions
+## What NIL and revenue sharing can tell you in recruiting
 
-This is the practical guidance section — the part that actually helps your family make better decisions.
+This is the practical section — what you can actually learn, and what you can't.
 
-**Should NOT factor heavily into soccer or volleyball recruiting decisions:**
+**What you can't learn from outside a program:** what a soccer or volleyball roster receives from the school's revenue-sharing pool, and what its players earn from NIL. No one publishes either, so a comparison of programs on these points rests on whatever each program tells you.
 
-- **The promise of large NIL earnings.** Mathematically unlikely for the vast majority of athletes in these sports.
-- **Comparing programs based on revenue-sharing budgets.** The differences for non-revenue sports are mostly negligible. A program sharing at the cap and one sharing a fraction of it may allocate functionally similar amounts to soccer or volleyball — which is to say, very little.
-- **Promises made by collectives during recruiting.** These carry compliance risk and are not enforceable. Collective landscapes change, leadership turns over, and what's promised today may not exist tomorrow.
-- **The "NIL star" narratives in media coverage.** Statistical outliers, not representative of typical experience.
+**What you can ask:**
 
-**SHOULD factor into recruiting decisions** — these are the variables that actually matter for soccer and volleyball recruits:
+- **For the revenue-share figure for your athlete's sport** at each program — the questions above.
+- **About any NIL promise** made during recruiting, in writing, and run it past the compliance office.
+- **Whether any figure is guaranteed** beyond the first year, and what conditions attach.
+
+**The factors that have always shaped a college choice are still there to weigh:**
 
 - **Athletic fit at the program** — position depth, class-year gaps, recruiting style (see [roster intelligence](/roster-intelligence/))
 - **Academic fit and major availability** — test scores, acceptance rates, graduation rates
@@ -145,27 +140,18 @@ This is the practical guidance section — the part that actually helps your fam
 - **Cost reality** — including how athletic scholarships, academic aid, and need-based aid stack together (see our [athletic scholarships guide](/guide/athletic-scholarships/))
 - **Roster opportunities and realistic playing-time projections**
 
-For most soccer and volleyball recruits, **the variables that have always mattered for college decisions still matter most.** NIL is real but secondary. Revenue sharing is real but minimal. Treating these as primary factors in choosing a program means optimizing for a small possibility while ignoring the substance of the college experience.
-
-## A few honest exceptions
-
-There are cases where NIL does meaningfully impact non-revenue sport athletes. Being honest about them is part of being honest about the landscape:
-
-- **Athletes with significant social media followings** can earn meaningful NIL through influencer-style deals — though this usually depends on the athlete's individual brand and audience, not the sport itself
-- **Top-tier women's volleyball athletes** at programs with large fan bases — Wisconsin, Nebraska, Texas, and a few others — can attract larger NIL deals than the typical pattern suggests
-- **Athletes from in-state with strong local business connections** sometimes find more NIL opportunities than out-of-state recruits, simply because local businesses want local faces
-- **Athletes whose families help cultivate brand opportunities** — with awareness of compliance rules — sometimes earn more than the baseline
-
-But none of these should drive program selection. They're outcomes that can emerge once an athlete is at a program — not factors to predict or optimize during recruiting.
+How much weight NIL and revenue sharing deserve beside them is your family's call, and it is easier to make once a program has given you its actual figures.
 
 ## Every recruiting journey is different
 
-No two athletes have the same NIL experience, just as no two athletes have the same recruiting journey. Some soccer and volleyball athletes will end up at programs that include their sport in revenue-share allocations; most will not. Some will land local NIL deals that provide meaningful supplemental income; most will earn modest amounts at best. International athletes on F-1 visas face an open legal question about NIL, covered above.
+No two athletes have the same NIL experience, just as no two athletes have the same recruiting journey. Some soccer and volleyball athletes will be at programs whose sport receives revenue-share money and some will not; some will have NIL deals and some will not. International athletes on F-1 visas face an open legal question about NIL, covered above.
 
-The honest answer for most families is that NIL and revenue sharing are real parts of the modern college landscape — but for soccer and volleyball recruits specifically, they should be understood, not over-weighted in decision-making. The recruiting process has always been about finding the right fit: the right program, the right academics, the right coaching staff, the right culture. NIL hasn't changed that fundamental truth — even if the headlines suggest otherwise.
+NIL and revenue sharing are real parts of the modern college landscape. For soccer and volleyball recruits, the way to understand them is program by program, from the program's own answers — alongside the fit questions that have always mattered.
 
 ---
 
-*NIL and revenue-sharing rules continue to evolve rapidly. The revenue-sharing figures here reflect the **2025-26** academic year — the settlement's first year and the most recent the NCAA has published a cap for — re-verified against the NCAA's House implementation Q&A (updated February 11, 2026) on 2026-08-26. That Q&A caps what a school may provide in total and leaves the split among sports to each institution's discretion; it publishes no allocation, and neither do we. The NIL market data and immigration analysis reflect the landscape as of May 2026. Verify current rules with the NCAA and the College Sports Commission, and confirm program-level revenue sharing with each school.*
+*NIL and revenue-sharing rules continue to evolve rapidly. The revenue-sharing figures here reflect the **2025-26** academic year — the settlement's first year and the most recent the NCAA has published a cap for — re-verified against the NCAA's House implementation Q&A (updated February 11, 2026) on 2026-08-26; the NIL Go rules and who is a Participating Institution were read in the same Q&A, and its June 13, 2025 edition, on 2026-10-24. That Q&A caps what a school may provide in total and leaves the split among sports to each institution's discretion; it publishes no allocation, and neither do we. The immigration sources were read October 9, 2026. Verify current rules with the NCAA and the College Sports Commission, and confirm program-level revenue sharing with each school.*
 
 *Updated October 24, 2026: the soccer international shares on this page now print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle. They leave out Mercyhurst University and the University of New Haven, mid-transition from Division II to Division I that season, so the D1 men's share is {% stat "soccer.2025-26.m.d1.intl_share", "pct" %} (it read 33.8% with them).*
+
+*Corrected October 24, 2026, after a fact check of the whole page: unsourced statements were removed — "changed more in the past two years than in the previous century", the July 2021 NCAA policy entry (its NCAA release is no longer online to check), the judge's name, the NIL Go launch date and "only approximately $166 million in deals had been cleared", "at many programs it is zero", that a coach who can't answer "is telling you something", that collective promises "are not enforceable", and the "A few honest exceptions" section (named volleyball programs, in-state and social-media advantages). The "should and shouldn't factor" lists, which told families what to weigh, are now a list of what can and can't be learned. NIL Go's rules now quote the NCAA's Q&A.*
