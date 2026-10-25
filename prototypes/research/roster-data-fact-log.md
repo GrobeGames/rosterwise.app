@@ -86,11 +86,15 @@ insight pages were.
 
 ## E. D1 men's soccer roster size under the House roster limit
 
+**Superseded 2026-10-24 (RS-1)** for the pages in these rows: they now print from the 2025-26 roster-stats ids, which leave out Mercyhurst and New Haven (211 D1 men's programs, 33.6%) — see `soccer-fact-log.md` §U. The rows below are kept as the audit trail.
+
 | Claim | Primary source | Verified | Articles |
 | --- | --- | --- | --- |
 | Across **213** D1 men's soccer programs in the first season played under the new limits, the median roster was **28** players — matching the cap — IQR **27–30** (mean 29.1, range 15–58) | RosterWise 2025-26 roster dataset | 2026-08-26 | guide/house-settlement |
 
 ## F. Soccer international composition (M4)
+
+**Superseded 2026-10-24 (RS-1)** for the pages in these rows: they now print from the 2025-26 roster-stats ids, which leave out Mercyhurst and New Haven (211 D1 men's programs, 33.6%) — see `soccer-fact-log.md` §U. The rows below are kept as the audit trail.
 
 | Claim | Primary source | Verified | Articles |
 | --- | --- | --- | --- |

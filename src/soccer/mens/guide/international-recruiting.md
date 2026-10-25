@@ -29,10 +29,11 @@ related:
   - title: "Women's Soccer International Recruiting"
     url: /soccer/womens/guide/international-recruiting/
     status: live
-sources:
-  - "RosterWise 2025-26 roster dataset — international composition across 1,012 men's and 1,223 women's college soccer programs, compiled from publicly available college athletics websites, captured April-August 2026"
-  - "NCAA.org, international student-athlete eligibility requirements"
-  - "NCAA Eligibility Center, international student guidelines"
+eleventyComputed:
+  sources:
+    - "{{ 'soccer' | statSource('2025-26') | safe }}"
+    - "NCAA.org, international student-athlete eligibility requirements"
+    - "NCAA Eligibility Center, international student guidelines"
 cta:
   heading: "See exactly how international each program's roster is."
   text: "RosterWise tracks international player composition at every D1, D2, D3, and NAIA men's soccer program — so families can see which programs recruit heavily internationally, which build primarily from domestic talent, and what that means for roster opportunities at each school."
@@ -82,10 +83,12 @@ International recruiting patterns differ by division — and not in the order mo
 
 | Division | International share of roster spots |
 | --- | --- |
-| **NAIA** | **48.2%** |
-| **NCAA D2** | **37.3%** |
-| **NCAA D1** | **33.8%** |
-| **NCAA D3** | **11.2%** |
+| **NAIA** | **{% stat "soccer.2025-26.m.naia.intl_share", "pct" %}** |
+| **NCAA D2** | **{% stat "soccer.2025-26.m.d2.intl_share", "pct" %}** |
+| **NCAA D1** | **{% stat "soccer.2025-26.m.d1.intl_share", "pct" %}** |
+| **NCAA D3** | **{% stat "soccer.2025-26.m.d3.intl_share", "pct" %}** |
+
+*{% statNote "soccer.2025-26.m.all.intl_share" %}.*
 
 **NAIA is the highest, not D1.** Nearly half of all men's soccer roster spots at NAIA programs went to international players, and D2 sat above D1 as well. If you have been told that international recruiting is a Division I phenomenon, the data says otherwise.
 
@@ -148,3 +151,5 @@ International recruiting in women's college soccer has different patterns, perce
 ---
 
 *Eligibility, amateurism, and visa rules for international recruits change independently of one another. This article reflects the landscape as of **April 2026**. Verify current eligibility rules at NCAA.org and NAIA.org, confirm amateurism certification with the NCAA Eligibility Center, and consult a qualified immigration attorney for visa questions.*
+
+*Updated October 24, 2026: the division figures on this page now print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle. They leave out Mercyhurst University and the University of New Haven, mid-transition from Division II to Division I that season, so the D1 men's share is {% stat "soccer.2025-26.m.d1.intl_share", "pct" %} (it read 33.8% with them).*

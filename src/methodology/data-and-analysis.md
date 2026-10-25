@@ -1,14 +1,14 @@
 ---
 layout: content.njk
 title: "RosterWise™ Data and Analysis Methodology — How We Build College Soccer Roster Intelligence"
-description: "RosterWise™ analyzes every 2025 college soccer roster — D1, D2, D3, NAIA, men's and women's. Methodology, definitions, coverage, and data sourcing for transparent recruiting intelligence."
-date: 2026-05-17
+description: "RosterWise™ analyzes every settled 2025-26 college soccer roster — D1, D2, D3, NAIA, men's and women's. Methodology, definitions, coverage, and data sourcing for transparent recruiting intelligence."
+date: 2026-10-24
 breadcrumbs:
   - text: Home
     url: /
   - text: Methodology
   - text: Data and Analysis
-summary: "RosterWise™ analyzes every published college soccer roster across D1, D2, D3, and NAIA — men's and women's — and uses that analysis to produce both the RosterWise Soccer app and the publicly available aggregate insights on this site. This page documents how we do it: our data sources, capture process, definitions, coverage, and analytical methods."
+summary: "RosterWise™ analyzes every settled college soccer roster across D1, D2, D3, and NAIA — men's and women's — and uses that analysis to produce both the RosterWise Soccer app and the publicly available aggregate insights on this site. This page documents how we do it: our data sources, capture process, definitions, coverage, and analytical methods."
 related:
   - title: "Men's Soccer Roster Sizes by Division"
     url: /soccer/insights/mens-roster-size/
@@ -28,11 +28,12 @@ related:
   - title: "Divisions by the Numbers"
     url: /soccer/insights/division-by-numbers/
     status: live
-sources:
-  - '<a href="https://www.ncaa.org">NCAA.org</a> — Division membership, program listings, and eligibility rules'
-  - '<a href="https://naia.org">NAIA.org</a> — NAIA membership and program information'
-  - '<a href="https://nces.ed.gov/ipeds/">U.S. Department of Education IPEDS</a> — Institutional data (enrollment, location, academic profiles)'
-  - "Official athletics websites for 2,235 college soccer programs — the primary source for all roster data"
+eleventyComputed:
+  sources:
+    - "{{ 'soccer' | statSource('2025-26') | safe }}"
+    - '<a href="https://www.ncaa.org">NCAA.org</a> — Division membership, program listings, and eligibility rules'
+    - '<a href="https://naia.org">NAIA.org</a> — NAIA membership and program information'
+    - '<a href="https://nces.ed.gov/ipeds/">U.S. Department of Education IPEDS</a> — Institutional data (enrollment, location, academic profiles)'
 cta:
   heading: "See this analysis for every program — in the app"
   text: "RosterWise Soccer gives you program-by-program roster intelligence across every D1, D2, D3, and NAIA men's and women's program. Position depth, class-year gaps, international composition, recruiting pathways, coach tenure, and personalized My RosterFit scoring."
@@ -68,11 +69,13 @@ Player names are captured for internal data integrity but are not published in a
 
 ## Capture date and dataset vintage
 
-Roster data was captured in **April–May 2026** (specifically April 26 through May 16, 2026), reflecting the **2025 NCAA season** rosters as published on official athletics websites at the time of capture.
+The figures on this site's soccer pages are computed from the rosters the RosterWise Soccer app ships — the app's own bundle, **{% statBundle "soccer" %}** — for the **2025-26 season** (the 2025 NCAA season). Those rosters were read from official athletics websites between **{% statRead "soccer", "2025-26", "from" %}** and **{% statRead "soccer", "2025-26", "to" %}**. Each figure carries the date its latest roster was read, printed as "Rosters as of …", and the figures are recomputed when the app ships new rosters.
 
-College rosters are living documents. Players commit, transfer, graduate, and depart throughout the academic year. Our analysis represents each program's roster as it appeared during this three-week capture window. This is a point-in-time snapshot — not a continuously updated feed.
+College rosters are living documents. Players commit, transfer, graduate, and depart throughout the academic year. Our analysis represents each program's roster as it stood when it was read. This is a point-in-time snapshot — not a continuously updated feed.
 
-Players who had entered the transfer portal and been removed from the program's published roster at the time of capture are not included. Incoming recruits who had committed but did not yet appear on the published roster are not included. The data reflects what was published, as published.
+**Settled rosters only.** A program's roster counts once the program has published its roster for the season in full; a provisional roster is left out until it settles. A season is used for a gender only once 95% of that gender's programs have a settled roster in it.
+
+Players who had entered the transfer portal and been removed from the program's published roster when it was read are not included. Incoming recruits who had committed but did not yet appear on the published roster are not included. The data reflects what was published, as published.
 
 ## How we define key terms
 
@@ -80,7 +83,7 @@ Clear definitions matter when publishing aggregate statistics. Here's how Roster
 
 ### Roster member
 
-A roster member is any player listed on the program's official athletics website roster at the time of capture. This includes active players, redshirt players, and players listed as injured — as long as they appear on the published roster. It excludes coaching staff, support staff, and committed recruits not yet listed.
+A roster member is any player listed on the program's official athletics website roster when it was read. This includes active players, redshirt players, and players listed as injured — as long as they appear on the published roster. It excludes coaching staff, support staff, managers, and committed recruits not yet listed.
 
 ### International vs. domestic
 
@@ -103,73 +106,63 @@ For soccer, positions are normalized into four groups:
 - **Midfielder (MID)** — midfielders, central midfielders, attacking midfielders, defensive midfielders
 - **Forward (FWD)** — forwards, strikers, attackers, wingers
 
-Players listed with multiple positions (e.g., "M/F" or "Midfielder/Forward") are classified by the first position listed, which is treated as the primary position.
+Players listed at more than one position (e.g., "M/F" or "Midfielder/Forward") count at each position listed, as the RosterWise Soccer app counts them, so position counts add up to a little more than the roster.
 
 ### Conference assignment
 
-Conference assignments reflect 2025 NCAA season membership as published by NCAA.org and NAIA.org. Programs that changed conferences between the 2024 and 2025 seasons are listed under their 2025 conference.
+Each figure uses the division and conference a program held in the figure's season, so a program that changed conferences between the 2024 and 2025 seasons is counted under its 2025-26 conference.
 
 ## Coverage and completeness
 
-RosterWise's 2025 soccer dataset includes **2,235 programs** out of 2,246 total — a **99.5% coverage rate** across all divisions and genders. The dataset contains **66,888 players**.
+RosterWise's 2025-26 soccer figures count **{% stat "soccer.2025-26.all.all.programs", "programs" %} programs** with a settled roster, out of {% stat "soccer.2025-26.all.all.programs", "coverage.in_scope" %} in scope — {% statShare "soccer.2025-26.all.all.programs", "coverage.counted", "soccer.2025-26.all.all.programs", "coverage.in_scope" %} — and **{% stat "soccer.2025-26.all.all.programs", "players" %} players**. Men's coverage is {% statShare "soccer.2025-26.m.all.programs", "coverage.counted", "soccer.2025-26.m.all.programs", "coverage.in_scope" %} and women's {% statShare "soccer.2025-26.w.all.programs", "coverage.counted", "soccer.2025-26.w.all.programs", "coverage.in_scope" %}.
 
 ### Coverage by division and gender
 
+Programs with a settled 2025-26 roster, and what share of the programs in scope that is:
+
 | Division | Men's Programs | Women's Programs | Total |
 |----------|---------------|-----------------|-------|
-| D1 | 211 (99.1%) | 347 (99.4%) | 558 |
-| D2 | 205 (100%) | 263 (100%) | 468 |
-| D3 | 406 (99.8%) | 416 (99.3%) | 822 |
-| NAIA | 190 (99.5%) | 197 (99.0%) | 387 |
-| **Total** | **1,012** | **1,223** | **2,235** |
+| D1 | {% stat "soccer.2025-26.m.d1.programs", "programs" %} ({% statShare "soccer.2025-26.m.d1.programs", "coverage.counted", "soccer.2025-26.m.d1.programs", "coverage.in_scope" %}) | {% stat "soccer.2025-26.w.d1.programs", "programs" %} ({% statShare "soccer.2025-26.w.d1.programs", "coverage.counted", "soccer.2025-26.w.d1.programs", "coverage.in_scope" %}) | {% stat "soccer.2025-26.all.d1.programs", "programs" %} |
+| D2 | {% stat "soccer.2025-26.m.d2.programs", "programs" %} ({% statShare "soccer.2025-26.m.d2.programs", "coverage.counted", "soccer.2025-26.m.d2.programs", "coverage.in_scope" %}) | {% stat "soccer.2025-26.w.d2.programs", "programs" %} ({% statShare "soccer.2025-26.w.d2.programs", "coverage.counted", "soccer.2025-26.w.d2.programs", "coverage.in_scope" %}) | {% stat "soccer.2025-26.all.d2.programs", "programs" %} |
+| D3 | {% stat "soccer.2025-26.m.d3.programs", "programs" %} ({% statShare "soccer.2025-26.m.d3.programs", "coverage.counted", "soccer.2025-26.m.d3.programs", "coverage.in_scope" %}) | {% stat "soccer.2025-26.w.d3.programs", "programs" %} ({% statShare "soccer.2025-26.w.d3.programs", "coverage.counted", "soccer.2025-26.w.d3.programs", "coverage.in_scope" %}) | {% stat "soccer.2025-26.all.d3.programs", "programs" %} |
+| NAIA | {% stat "soccer.2025-26.m.naia.programs", "programs" %} ({% statShare "soccer.2025-26.m.naia.programs", "coverage.counted", "soccer.2025-26.m.naia.programs", "coverage.in_scope" %}) | {% stat "soccer.2025-26.w.naia.programs", "programs" %} ({% statShare "soccer.2025-26.w.naia.programs", "coverage.counted", "soccer.2025-26.w.naia.programs", "coverage.in_scope" %}) | {% stat "soccer.2025-26.all.naia.programs", "programs" %} |
+| **Total** | **{% stat "soccer.2025-26.m.all.programs", "programs" %}** | **{% stat "soccer.2025-26.w.all.programs", "programs" %}** | **{% stat "soccer.2025-26.all.all.programs", "programs" %}** |
 
-### Excluded programs
+*{% statNote "soccer.2025-26.all.all.programs" %}.*
 
-Eleven programs are excluded from the dataset:
+### Programs left out of the 2025-26 figures
 
-- **Rosemont College** (D3, men's and women's) — program discontinued, transitioning to club status
-- **Alverno College** (D3, women's) — program paused for the 2025 season; did not compete
-- **Medgar Evers College** (D3, women's) — 2025 season cancelled; all games cancelled
-- **Jarvis Christian University** (NAIA, men's and women's) — no roster data available on athletics site
-- **Mission University** (NAIA, women's) — roster page published only coaching staff information
-- **Mercyhurst University** (D1, men's and women's) — mid-transition from D2 to D1 (NEC); roster sizes of 58 (men's) and 49 (women's) are not representative of established D1 programs
-- **University of New Haven** (D1, men's and women's) — mid-transition from D2 to D1 (NEC); roster sizes of 46 (men's) and 36 (women's) are not representative of established D1 programs
-
-No division/gender combination falls below 98% coverage.
+{% statLeftOut "soccer", "2025-26" %}
 
 ### Data completeness per field
 
-Not every program publishes every data point for every player. Here's how complete our data is across key fields:
+Not every program publishes every data point for every player. Here is how many players on settled 2025-26 rosters are missing each field the figures use:
 
-| Field | Records with Valid Data | Coverage |
+| Field | Men's players without it | Women's players without it |
 |-------|----------------------|----------|
-| Player name | 66,888 | 100% |
-| Position | 66,136 | 98.6% |
-| Height | 59,516 | 88.7% |
-| Class year | 66,453 | 99.1% |
-| Hometown | 66,387 | 99.0% |
-| International classification | 66,888 | 100% |
-| Previous school / club | 59,272 | 88.3% |
+| Position | {% stat "soccer.2025-26.m.all.position_counts", "aside[no position listed].count" %} | {% stat "soccer.2025-26.w.all.position_counts", "aside[no position listed].count" %} |
+| Height | {% stat "soccer.2025-26.m.all.height_by_position", "aside[no height listed].count" %} | {% stat "soccer.2025-26.w.all.height_by_position", "aside[no height listed].count" %} |
+| Class year | {% stat "soccer.2025-26.m.all.class_year_mix", "aside[no class year listed].count" %} | {% stat "soccer.2025-26.w.all.class_year_mix", "aside[no class year listed].count" %} |
 
-Height and previous school coverage are lower because some programs simply don't publish these fields on their roster pages. Aggregate statistics involving height are computed only from programs that publish height data and are labeled accordingly.
+Out of {% stat "soccer.2025-26.m.all.programs", "players" %} men's and {% stat "soccer.2025-26.w.all.programs", "players" %} women's players. Every player is classified as international or domestic. Height is the least complete field — listed for {% stat "soccer.2025-26.m.all.height_by_position", "height_listed_pct" %} of men's and {% stat "soccer.2025-26.w.all.height_by_position", "height_listed_pct" %} of women's players — because some programs don't publish heights. Height averages are computed only from players whose height is listed.
 
 ## How we compute aggregate statistics
 
 RosterWise computes aggregate statistics through a three-step process designed for accuracy and reproducibility.
 
-**Step 1: Program-level aggregates.** For each of the 2,235 programs in the dataset, we compute roster size, international count and percentage, class-year distribution, position distribution, average heights by position, and geographic diversity. These program-level aggregates are the building blocks for everything else.
+**Step 1: The players behind a figure.** For each season, division and gender, RosterWise selects the players on settled rosters, leaving out managers and staff and the programs listed above.
 
-**Step 2: Division-level and conference-level aggregates.** We roll up program-level data into division × gender combinations (e.g., "D1 men's") and conference × division × gender combinations (e.g., "Big Ten D1 men's"). Division-level statistics include averages, medians, minimums, and maximums. Conference-level statistics include averages and totals.
+**Step 2: The figure.** Each figure — a program count, a roster-size distribution with its median and range, a share, a conference table — is computed from those players by one stored query. Shares are rounded to one decimal, and the counts behind each share are kept.
 
-**Step 3: Sanity checking.** Every aggregate is cross-checked against the raw data. Total players in program aggregates must exactly match the total players in the raw dataset. Division totals must exactly match the sum of their program-level components. A sample of individual programs is spot-checked against raw roster data to verify counts. Any discrepancy is investigated and resolved before publication.
+**Step 3: The record.** Every figure is written to a dated file with its id, value, sample size, the dates its rosters were read, its query and the app bundle it came from. The query runs as-is against that bundle and returns the players the figure was computed from. When the app ships new rosters, the figures are recomputed, and any figure a page cites that moved is listed for review before the page changes.
 
-All aggregate statistics published on the Insights pages of this site trace directly to documented queries against these pre-computed tables. The queries are stored in the project repository for reproducibility.
+Every figure on the Insights pages prints from that file by its id, so a page cannot show a number the file does not hold.
 
 ## What we don't do
 
 Transparency about our methods includes being clear about what we don't do:
 
-- **We don't estimate or interpolate.** If data is missing for a program — for example, if a program doesn't publish player heights — we exclude that program from height-related aggregates rather than guessing. Missing data is documented, not filled in.
+- **We don't estimate or interpolate.** If data is missing — for example, if a program doesn't publish player heights — we leave those players out of height averages rather than guessing. Missing data is documented, not filled in.
 - **We don't publish strict rankings where the differences are too small to be meaningful.** When conferences are separated by less than two percentage points in international composition, we describe them as a group rather than ranking them 1st, 2nd, 3rd. A 0.2% gap between two conferences doesn't mean one meaningfully recruits more internationally than the other.
 - **We don't publish individual player data.** Aggregate insights on this site describe patterns across programs. Individual player names, hometowns, and other details appear only within the RosterWise app, where they come from publicly available roster pages.
 - **We don't share data with third parties.** RosterWise does not sell, license, or share individual player data or program-level data with other companies, recruiting services, or data brokers.
@@ -181,12 +174,12 @@ Every dataset has limitations. Here are ours:
 - **Roster data reflects what programs publish.** Programs that publish incomplete rosters — for example, listing some players without a position or without a height — have incomplete data in our dataset. We work with what's published.
 - **Hometown data is sometimes limited.** Some programs list international players with only a country name rather than a city and country. This is sufficient for international/domestic classification but limits geographic analysis within countries.
 - **Graduate students include redshirts and fifth-year players.** The "Graduate" class year category captures a range of situations — true graduate students, fifth-year seniors, and players using additional eligibility. Programs don't always distinguish between these on their roster pages.
-- **Transfer portal timing.** A player who entered the transfer portal after our capture date would still appear on the program's roster in our data. A player who entered the portal and was removed before capture would not appear. This is inherent to point-in-time data.
-- **This is a snapshot, not a continuous feed.** Our analysis represents the 2025 NCAA season rosters as they existed during our April–May 2026 capture window. Rosters before and after that window may differ.
+- **Transfer portal timing.** A player who entered the transfer portal after their roster was read would still appear on the program's roster in our data. A player who entered the portal and was removed before it was read would not appear. This is inherent to point-in-time data.
+- **This is a snapshot, not a continuous feed.** Our analysis represents the 2025-26 season rosters as they stood when they were read, between {% statRead "soccer", "2025-26", "from" %} and {% statRead "soccer", "2025-26", "to" %}. Rosters before and after may differ.
 
 ## Every recruit's journey is different
 
-Aggregate statistics describe patterns across programs. They tell you that, on average, D1 men's soccer rosters carry about 29 players, or that NAIA men's programs have the highest international percentage of any division. These are real patterns based on real data.
+Aggregate statistics describe patterns across programs. They tell you that, on average, D1 men's soccer rosters carry {% stat "soccer.2025-26.m.d1.roster_size", "mean" %} players, or that NAIA men's programs have the highest international percentage of any division. These are real patterns based on real data.
 
 But they don't determine outcomes for any individual recruit.
 
@@ -196,7 +189,7 @@ The numbers provide context. The decisions are yours. RosterWise gives families 
 
 ## How RosterWise uses this data
 
-RosterWise uses its 2025 soccer dataset in two ways:
+RosterWise uses its 2025-26 soccer data in two ways:
 
 **Aggregate insights published on this site.** The [Insights pages](/soccer/insights/mens-roster-size/) present aggregate statistics — roster sizes, international composition, class-year distributions, conference-level comparisons — drawn from the full dataset. These are free, publicly available, and documented with the methodology described on this page.
 
@@ -208,4 +201,6 @@ If we discover an error in published data, we correct it promptly and note the c
 
 ---
 
-*Data reflects 2025 NCAA season rosters as published on official athletics websites, captured April–May 2026. Analysis by RosterWise (Grobe Games LLC).*
+*Figures described here are computed from the 2025-26 rosters in the RosterWise Soccer app's own bundle ({% statBundle "soccer" %}). Analysis by RosterWise (Grobe Games LLC).*
+
+*Updated October 24, 2026: this page now describes how the soccer figures are computed from the app's own rosters — settled rosters only, with players counted at every position listed — in place of the April–May 2026 capture it described before, and its coverage and completeness tables print from those figures.*

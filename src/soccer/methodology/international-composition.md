@@ -24,10 +24,11 @@ related:
   - title: "Men's International Recruiting"
     url: /soccer/mens/guide/international-recruiting/
     status: live
-sources:
-  - "RosterWise 2025-26 roster dataset — international composition across 1,012 men's and 1,223 women's college soccer programs, compiled from publicly available college athletics websites, captured April-August 2026"
-  - "Publicly available college soccer rosters from institutional athletics websites"
-  - "NCAA.org — Division membership and program listings"
+eleventyComputed:
+  sources:
+    - "{{ 'soccer' | statSource('2025-26') | safe }}"
+    - "Publicly available college soccer rosters from institutional athletics websites"
+    - "NCAA.org — Division membership and program listings"
 cta:
   heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program. See it in the app."
   text: "See the international composition of every college soccer program — percentage, countries represented, and how it affects opportunity for domestic and international recruits."
@@ -116,7 +117,7 @@ This means our international composition numbers are generally conservative — 
 
 **Conference-level patterns.** Some conferences tend to have higher international composition across most of their programs. Understanding conference-level norms gives you context for evaluating individual programs.
 
-**Division-level patterns.** On the 2025-26 rosters RosterWise analysed, the international share of men's soccer roster spots was highest at **NAIA (48.2%)**, then D2 (37.3%), then D1 (33.8%), with D3 far lower (11.2%). The women's ordering differs — NAIA (20.0%), D1 (12.4%), D2 (11.3%), D3 (2.1%) — and every women's figure sits below the men's at the same division. Note that NAIA leads on both sides: international composition is not a Division I phenomenon. These are tendencies, not rules — individual programs can deviate significantly from the division norm.
+**Division-level patterns.** On the 2025-26 rosters RosterWise analysed, the international share of men's soccer roster spots was highest at **NAIA ({% stat "soccer.2025-26.m.naia.intl_share", "pct" %})**, then D2 ({% stat "soccer.2025-26.m.d2.intl_share", "pct" %}), then D1 ({% stat "soccer.2025-26.m.d1.intl_share", "pct" %}), with D3 far lower ({% stat "soccer.2025-26.m.d3.intl_share", "pct" %}). The women's ordering differs — NAIA ({% stat "soccer.2025-26.w.naia.intl_share", "pct" %}), D1 ({% stat "soccer.2025-26.w.d1.intl_share", "pct" %}), D2 ({% stat "soccer.2025-26.w.d2.intl_share", "pct" %}), D3 ({% stat "soccer.2025-26.w.d3.intl_share", "pct" %}) — and every women's figure sits below the men's at the same division. Note that NAIA leads on both sides: international composition is not a Division I phenomenon. These are tendencies, not rules — individual programs can deviate significantly from the division norm.
 
 **Position-specific concentrations.** At some programs, international players cluster at attacking positions. At others, the distribution is more even. Position-specific international composition is more actionable than overall team percentage for a recruit evaluating fit.
 
@@ -131,3 +132,5 @@ The data is there. Knowing how to read it — and understanding that patterns di
 ---
 
 *The international-composition figures here describe patterns in the rosters RosterWise analyzed — they are not NCAA rules and they shift season to season. This article reflects the landscape as of **April 2026**. See the [methodology](/methodology/data-and-analysis/) page for how the data is collected, and verify current eligibility and division rules at NCAA.org and NAIA.org.*
+
+*Updated October 24, 2026: the division figures on this page now print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle. They leave out Mercyhurst University and the University of New Haven, mid-transition from Division II to Division I that season, so the D1 men's share is {% stat "soccer.2025-26.m.d1.intl_share", "pct" %} (it read 33.8% with them).*

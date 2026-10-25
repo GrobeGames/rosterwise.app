@@ -25,19 +25,21 @@ related:
     url: /guide/ncaa-recruiting-rules/
   - title: "D1 vs. D2 vs. D3 vs. NAIA"
     url: /guide/division-differences/
-sources:
-  - '<a href="https://www.ncaa.org">NCAA.org</a> — House v. NCAA settlement summary and current recruiting rules'
-  - '<a href="https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/Feb2026D1Gov_PhaseSevenSetQuestionandAnswer.pdf">NCAA.org</a> — Question and Answer: Implementation of the House Settlement, Section D (Institutional Benefits and the Benefits Cap), updated February 11, 2026'
-  - 'U.S. District Court, Northern District of California — Judge Claudia Wilken''s June 6, 2025 ruling on House v. NCAA'
-  - '<a href="https://www.washingtonpost.com">The Washington Post</a> — "The hidden NIL economy of college sports," October 21, 2024 (investigative analysis of $125 million in NIL payments)'
-  - '<a href="https://usavolleyball.org">USA Volleyball</a> (usavolleyball.org) — Getting Started in Name, Image, and Likeness guidance'
-  - 'Opendorse — NIL deal data and "NIL at Four" report'
-  - 'On3 — NCAA NIL deal database analysis'
-  - 'Butler Snow (law firm) — "NIL After House: What Name, Image, and Likeness Means for Colleges and Higher-Education Institutions in 2026"'
-  - '<a href="https://ncaaorg.s3.amazonaws.com/inclusion/inter/INC_IntlStudentHandbook.pdf">NCAA — International Student-Athlete Handbook</a> (Name, Image and Likeness section; read Oct. 9, 2026)'
-  - '<a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.2">8 CFR 214.2(f)(9)–(10)</a> — F-1 employment and practical training; <a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.1">8 CFR 214.1(e)</a> — unauthorized employment is a failure to maintain status (eCFR, read Oct. 9, 2026)'
-  - '<a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-274a/subpart-A/section-274a.1">8 CFR 274a.1</a> — federal definition of employment (does not mention NIL; read Oct. 9, 2026)'
-  - '<a href="https://www.ice.gov/doclib/sevis/pdf/bcm2107-02.pdf">SEVP Broadcast Message 2107-02, "SEVP Continues to Discuss Compensation for International Student Athletes"</a> (July 19, 2021)'
+eleventyComputed:
+  sources:
+    - '<a href="https://www.ncaa.org">NCAA.org</a> — House v. NCAA settlement summary and current recruiting rules'
+    - '<a href="https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/Feb2026D1Gov_PhaseSevenSetQuestionandAnswer.pdf">NCAA.org</a> — Question and Answer: Implementation of the House Settlement, Section D (Institutional Benefits and the Benefits Cap), updated February 11, 2026'
+    - 'U.S. District Court, Northern District of California — Judge Claudia Wilken''s June 6, 2025 ruling on House v. NCAA'
+    - '<a href="https://www.washingtonpost.com">The Washington Post</a> — "The hidden NIL economy of college sports," October 21, 2024 (investigative analysis of $125 million in NIL payments)'
+    - '<a href="https://usavolleyball.org">USA Volleyball</a> (usavolleyball.org) — Getting Started in Name, Image, and Likeness guidance'
+    - 'Opendorse — NIL deal data and "NIL at Four" report'
+    - 'On3 — NCAA NIL deal database analysis'
+    - 'Butler Snow (law firm) — "NIL After House: What Name, Image, and Likeness Means for Colleges and Higher-Education Institutions in 2026"'
+    - '<a href="https://ncaaorg.s3.amazonaws.com/inclusion/inter/INC_IntlStudentHandbook.pdf">NCAA — International Student-Athlete Handbook</a> (Name, Image and Likeness section; read Oct. 9, 2026)'
+    - '<a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.2">8 CFR 214.2(f)(9)–(10)</a> — F-1 employment and practical training; <a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.1">8 CFR 214.1(e)</a> — unauthorized employment is a failure to maintain status (eCFR, read Oct. 9, 2026)'
+    - '<a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-274a/subpart-A/section-274a.1">8 CFR 274a.1</a> — federal definition of employment (does not mention NIL; read Oct. 9, 2026)'
+    - '<a href="https://www.ice.gov/doclib/sevis/pdf/bcm2107-02.pdf">SEVP Broadcast Message 2107-02, "SEVP Continues to Discuss Compensation for International Student Athletes"</a> (July 19, 2021)'
+    - "{{ 'soccer' | statSource('2025-26') | safe }}"
 cta:
   heading: "Make recruiting decisions based on what actually matters for your athlete."
   text: "Headlines about NIL deals make for good reading but rarely reflect the reality for soccer and volleyball families. The factors that actually shape a successful college experience — fit at the program, position depth, recruiting patterns, coaching stability, academic match — are what RosterWise analyzes. Every D1, D2, D3, and NAIA program. Position depth, class-year gaps, recruiting geography, transfer portal patterns, personalized fit scoring."
@@ -114,7 +116,7 @@ Every athlete's situation is different. But entering the recruiting process expe
 
 ## The international athlete reality
 
-This section is uniquely important for soccer families. Across the **213 Division I men's soccer programs RosterWise analyzed for the 2025-26 season**, international players held 2,099 of 6,203 roster spots — **33.8%**, or about one in three. That is our own count from published rosters, not an estimate. The share is lower in Division I women's soccer, at **12.4%** across 349 programs.
+This section is uniquely important for soccer families. Across the **{% stat "soccer.2025-26.m.d1.intl_share", "n.programs" %} Division I men's soccer programs RosterWise analyzed for the 2025-26 season**, international players held {% stat "soccer.2025-26.m.d1.intl_share", "international" %} of {% stat "soccer.2025-26.m.d1.intl_share", "players" %} roster spots — **{% stat "soccer.2025-26.m.d1.intl_share", "pct" %}**, or about one in three. That is our own count from published rosters, not an estimate. The share is lower in Division I women's soccer, at **{% stat "soccer.2025-26.w.d1.intl_share", "pct" %}** across {% stat "soccer.2025-26.w.d1.intl_share", "n.programs" %} programs.
 
 **For an athlete on an F-1 student visa, NIL is an open legal question — and the NCAA treats it as off-limits on U.S. soil.** Here is who says what:
 
@@ -184,3 +186,5 @@ The honest answer for most families is that NIL and revenue sharing are real par
 ---
 
 *NIL and revenue-sharing rules continue to evolve rapidly. The revenue-sharing figures here reflect the **2025-26** academic year — the settlement's first year and the most recent the NCAA has published a cap for — re-verified against the NCAA's House implementation Q&A (updated February 11, 2026) on 2026-08-26. That Q&A caps what a school may provide in total and leaves the split among sports to each institution's discretion; it publishes no allocation, and neither do we. The NIL market data and immigration analysis reflect the landscape as of May 2026. Verify current rules with the NCAA and the College Sports Commission, and confirm program-level revenue sharing with each school.*
+
+*Updated October 24, 2026: the soccer international shares on this page now print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle. They leave out Mercyhurst University and the University of New Haven, mid-transition from Division II to Division I that season, so the D1 men's share is {% stat "soccer.2025-26.m.d1.intl_share", "pct" %} (it read 33.8% with them).*

@@ -29,10 +29,11 @@ related:
   - title: "Men's Soccer International Recruiting"
     url: /soccer/mens/guide/international-recruiting/
     status: live
-sources:
-  - "RosterWise 2025-26 roster dataset — international composition across 1,012 men's and 1,223 women's college soccer programs, compiled from publicly available college athletics websites, captured April-August 2026"
-  - "NCAA.org, international student-athlete eligibility requirements"
-  - "NCAA Eligibility Center, international student guidelines"
+eleventyComputed:
+  sources:
+    - "{{ 'soccer' | statSource('2025-26') | safe }}"
+    - "NCAA.org, international student-athlete eligibility requirements"
+    - "NCAA Eligibility Center, international student guidelines"
 cta:
   heading: "See exactly how international each program's roster is."
   text: "RosterWise tracks international player composition at every D1, D2, D3, and NAIA women's soccer program — so families can see which programs recruit internationally, which build primarily from domestic talent, and what that means for roster opportunities at each school."
@@ -93,14 +94,16 @@ International recruiting patterns differ by division — and not in the order mo
 
 | Division | International share of roster spots |
 | --- | --- |
-| **NAIA** | **20.0%** |
-| **NCAA D1** | **12.4%** |
-| **NCAA D2** | **11.3%** |
-| **NCAA D3** | **2.1%** |
+| **NAIA** | **{% stat "soccer.2025-26.w.naia.intl_share", "pct" %}** |
+| **NCAA D1** | **{% stat "soccer.2025-26.w.d1.intl_share", "pct" %}** |
+| **NCAA D2** | **{% stat "soccer.2025-26.w.d2.intl_share", "pct" %}** |
+| **NCAA D3** | **{% stat "soccer.2025-26.w.d3.intl_share", "pct" %}** |
 
-**NAIA is the highest, not D1** — by a wide margin, at one roster spot in five. D1 and D2 are close to each other, and D3 is very low at roughly one spot in fifty.
+*{% statNote "soccer.2025-26.w.all.intl_share" %}.*
 
-Every one of these figures is below the men's equivalent at the same division. The gap is widest at NAIA (20.0% against 48.2%) and narrowest at D3 (2.1% against 11.2%).
+**NAIA is the highest, not D1** — by a wide margin, at one roster spot in five. D1 and D2 are close to each other, and D3 is very low, at {% stat "soccer.2025-26.w.d3.intl_share", "pct" %}.
+
+Every one of these figures is below the men's equivalent at the same division. The gap is widest at NAIA ({% stat "soccer.2025-26.w.naia.intl_share", "pct" %} against {% stat "soccer.2025-26.m.naia.intl_share", "pct" %}) and narrowest at D3 ({% stat "soccer.2025-26.w.d3.intl_share", "pct" %} against {% stat "soccer.2025-26.m.d3.intl_share", "pct" %}).
 
 **The variance within each division is larger than the gaps between them.** Individual programs run the full range. The only reliable way to know a specific program's composition is to look at its roster.
 
@@ -159,3 +162,5 @@ International recruiting in men's college soccer has different patterns, percent
 ---
 
 *Eligibility, amateurism, and visa rules for international recruits change independently of one another. This article reflects the landscape as of **April 2026**. Verify current eligibility rules at NCAA.org and NAIA.org, confirm amateurism certification with the NCAA Eligibility Center, and consult a qualified immigration attorney for visa questions.*
+
+*Updated October 24, 2026: the division figures on this page now print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle; the NAIA men's share they are set against reads {% stat "soccer.2025-26.m.naia.intl_share", "pct" %} (it read 48.2%).*
