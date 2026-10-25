@@ -13,6 +13,7 @@ eleventyComputed:
   description: "How many players are on a women's college soccer roster? Average roster sizes for NCAA D1, D2, D3, and NAIA programs based on RosterWise's analysis of {{ 'soccer.2025-26.w.all.programs' | stat('programs') }} women's soccer programs, 2025 NCAA season."
   summary: "Based on RosterWise™'s analysis of every settled 2025 NCAA season women's college soccer roster across D1, D2, D3, and NAIA — {{ 'soccer.2025-26.w.all.programs' | stat('programs') }} programs and {{ 'soccer.2025-26.w.all.programs' | stat('players') }} players — here is what the data shows about roster construction across women's college soccer. Roster size patterns differ meaningfully from men's programs."
   sources:
+    - '<a href="https://ncaaorg.s3.amazonaws.com/research/sportpart/RES_SportsSponsorshipParticipationRatesReport.xlsx">NCAA Research — Sports Sponsorship and Participation spreadsheet, 2000-01 through 2025-26</a> (published October 2026), “Women''s Sports - Teams” tab, 2025-26 rows'
     - "{{ 'soccer' | statSource('2025-26') | safe }}"
     - '<a href="https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/2024-25/APRIL2025D1Gov_Anticipated%20Actions%20Contingent%20Upon%20Court%20Final%20Approval%20of%20the%20House%20v.%20NCAA%20Settlement.pdf">NCAA Division I Board of Directors — Anticipated Actions Contingent Upon Court Final Approval of the House v. NCAA Settlement</a> (April 2025), pre-settlement Bylaws 15.5.2.1 and 15.5.3.1'
     - '<a href="https://web3.ncaa.org/lsdbi/reports/getReport/90008">2026-27 NCAA Division I Manual</a> — Bylaw 17.2, Roster Limitations (adopted June 6, 2025); Article 15, no sport-specific aid limits'
@@ -48,7 +49,7 @@ For families navigating women's college soccer recruiting, roster size is one of
 
 That number has direct implications for your athlete. A D1 program carrying 28 players has a different recruiting calculus than a D3 program with 27. The number of available spots, the walk-on landscape, the competition for playing time — roster size shapes all of it.
 
-Counting the NAIA alongside the NCAA, {% stat "soccer.2025-26.w.all.programs", "programs" %} women's soccer programs have a settled 2025-26 roster in RosterWise's figures. Understanding roster size patterns by division helps narrow the search to programs where the fit is realistic.
+Women's soccer is one of the largest women's college sports by number of programs, though not the largest. On the NCAA's figures for 2025-26, published in October 2026, women's basketball leads on 1,066 teams, then volleyball on 1,042 and cross country on 1,041, with soccer fourth on 1,015. Counting the NAIA alongside the NCAA, {% stat "soccer.2025-26.w.all.programs", "programs" %} women's soccer programs have a settled 2025-26 roster in RosterWise's figures. Understanding roster size patterns by division helps narrow the search to programs where the fit is realistic.
 
 ## Average roster sizes by division
 
@@ -145,4 +146,4 @@ No two athletes follow the same path. A walk-on opportunity at a D3 program with
 
 *Figures on this page print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle; each table carries the date its rosters were read. See [methodology](/methodology/data-and-analysis/) for full documentation.*
 
-*Updated October 24, 2026: every figure on this page now comes from that file. Earlier versions used an April–May 2026 capture; most figures moved slightly. Position counts now count a player listed at two positions at both, so they are higher than before.*
+*Updated October 24, 2026: every figure on this page now comes from that file. Earlier versions used an April–May 2026 capture; most figures moved slightly. Position counts now count a player listed at two positions at both, so they are higher than before. The NCAA's counts of women's teams by sport are now its 2025-26 figures, published in October 2026, in place of 2024-25's (basketball 1,082, volleyball 1,055, cross country 1,048, soccer 1,029); soccer is fourth in both.*

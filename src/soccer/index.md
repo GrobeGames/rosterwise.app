@@ -50,13 +50,13 @@ eleventyComputed:
   sources:
     - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 17.2 (Roster Limitations: men's and women's soccer 28) and Bylaw 13 (contact and visit dates) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"
     - "<strong>NCAA Division I Board of Directors, April 2025</strong> — \"Anticipated Actions Contingent Upon Court Final Approval of the House v. NCAA Settlement,\" reproducing pre-House Bylaw 15.5 (men's soccer 9.9 equivalencies, women's soccer 14.0 equivalencies)"
-    - "<a href=\"https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/\">NCAA.org</a> — NCAA Membership Composition and Sport Sponsorship"
+    - '<a href="https://ncaaorg.s3.amazonaws.com/research/sportpart/RES_SportsSponsorshipParticipationRatesReport.xlsx">NCAA Research — Sports Sponsorship and Participation spreadsheet, 2000-01 through 2025-26</a> (published October 2026), men''s and women''s soccer teams, 2025-26'
     - "{{ 'soccer' | statSource('2025-26') | safe }}"
 ---
 
 College soccer recruiting is a process that rewards preparation, realistic self-assessment, and knowing where to look. RosterWise exists to give families the intelligence they need to navigate it with confidence.
 
-The NCAA alone sponsors **1,856** soccer programs across Divisions I, II and III — 827 men's and 1,029 women's on its most recent actual figures, for 2024-25 — before the NAIA and NJCAA are counted. RosterWise's own 2025-26 figures, which span the NCAA and the NAIA, count {% stat "soccer.2025-26.all.all.programs", "programs" %} programs with a settled roster. Men's and women's programs recruit differently, operate under different timelines, and face different competitive dynamics. The resources on this site are organized accordingly.
+The NCAA alone sponsors **1,826** soccer programs across Divisions I, II and III — 811 men's and 1,015 women's on its figures for 2025-26, published in October 2026 — before the NAIA and NJCAA are counted. RosterWise's own 2025-26 figures, which span the NCAA and the NAIA, count {% stat "soccer.2025-26.all.all.programs", "programs" %} programs with a settled roster. Men's and women's programs recruit differently, operate under different timelines, and face different competitive dynamics. The resources on this site are organized accordingly.
 
 ## Men's and women's soccer: why the split matters
 
@@ -77,3 +77,5 @@ Every family's recruiting journey is different. Timelines vary, priorities diffe
 **New here?** Start with [Men's College Soccer Recruiting](/soccer/mens/) or [Women's College Soccer Recruiting](/soccer/womens/) depending on your athlete.
 
 **Ready to go deeper?** [RosterWise Soccer](/app/) analyzes every program's roster — position depth, class-year gaps, geographic patterns, and personalized fit scoring — for $39.99, one time.
+
+*Updated October 24, 2026: the NCAA's soccer program counts are now its 2025-26 figures, published in October 2026 (they read 1,856 — 827 men's and 1,029 women's — for 2024-25), and RosterWise's own count now prints from its roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle (it read 2,235, from the earlier capture).*
