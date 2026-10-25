@@ -106,7 +106,7 @@ The following table shows the new hard roster limits for opt-in D1 schools. Thes
 
 **These numbers are the ceiling, not the floor.** Programs are not required to fill every roster spot. Some may carry fewer athletes than the limit allows, depending on budget, competitive needs, and institutional priorities.
 
-**Compare these to pre-settlement rosters.** Many programs previously carried significantly more athletes than these limits allow. A D1 men's soccer program that carried 32 players now has a limit of 28. A baseball program that carried 40 now has a limit of 34. The math is straightforward: fewer spots exist.
+**There was no roster limit before.** Until July 1, 2025, Division I sports had limits on athletic aid but none on roster size, so a program could carry more players than it funded. The limits above are the first cap on how many players a Division I roster may hold.
 
 ## What happened to scholarship caps
 
@@ -139,8 +139,6 @@ The combination of hard roster limits and expanded scholarship funding has signi
 
 Under the old system, 9.9 equivalencies could not fund a full scholarship for every athlete on a roster, and no rule capped how many additional athletes a program carried. Under the new system the roster limit itself is the binding constraint at opt-in schools. Across the {% stat "soccer.2025-26.m.d1.roster_size", "programs" %} Division I men's soccer programs RosterWise analyzed for the 2025-26 season — the first season played under the new limits — the median roster was exactly {% stat "soccer.2025-26.m.d1.roster_size", "median" %} players, matching the cap, with the middle half of programs between {% stat "soccer.2025-26.m.d1.roster_size", "p25" %} and {% stat "soccer.2025-26.m.d1.roster_size", "p75" %}. With more scholarship money available and a hard ceiling on roster spots, coaches are filling the spots they have with funded athletes. There is less room — and less incentive — to carry walk-ons.
 
-**Estimates suggest between 5,000 and 13,000 roster spots have been eliminated across Division I** as a result of the new limits. The range is wide because implementation varies by school and sport, but the direction is clear: fewer total spots, and the spots that remain are more likely to go to funded athletes.
-
 For families whose athlete was planning a walk-on path at a D1 program, this is a significant shift. It does not mean walk-on opportunities are gone entirely, but they are substantially reduced at opt-in schools.
 
 For a detailed breakdown of how this affects different types of walk-ons, see our [walk-on guide](/guide/walk-on-types/).
@@ -161,7 +159,7 @@ For more on how the transfer portal works and how to evaluate its impact on a pr
 
 ## Schools that opted in vs. opted out
 
-The House settlement was not mandatory. Each Division I school had to decide whether to opt in to the revenue-sharing model.
+Division I schools are not all in the same position, and for most of the biggest programs it was never a choice.
 
 **Who is bound, and who chooses.** Per the NCAA's "Q&A: Implementation of the House Settlement" (published June 13, 2025), "any Division I institution that is a member of a defendant conference (i.e., the Atlantic Coast Conference, the Big Ten Conference, the Big 12 Conference, the Pac-12 Conference, and the Southeastern Conference) or is providing additional payments or benefits is a Participating Institution." Members of those five conferences are bound as defendants — they did not "opt in." Every other Division I school chooses.
 
@@ -180,7 +178,7 @@ The House settlement was not mandatory. Each Division I school had to decide whe
 
 - The school cannot share revenue with athletes
 - The school retains the traditional scholarship structure (sport-specific equivalency and headcount limits)
-- Roster limits may not apply in the same way (though the NCAA may still impose limits)
+- Roster size "may be governed by the conference or institution and not legislated at the national level" — unless the school gives athletic aid above the 2024-25 Division I limits, which brings it under the settlement, roster limits included (NCAA House Q&A, Question A16)
 - The school may be at a recruiting disadvantage against opt-in schools that can offer revenue sharing
 
 **What this means for families:** You need to know whether a school your athlete is considering has opted in. The answer changes how scholarships work, how many athletes are on the roster, and what financial package might be available. Ask directly. Do not assume.
@@ -217,13 +215,13 @@ D3 offers no athletic scholarships and is built on a different model entirely. D
 
 ### NAIA
 
-NAIA programs set their own scholarship and roster policies. Like D2, NAIA may benefit from athletes who are displaced by D1 roster limit reductions. NAIA programs that can offer competitive financial packages (athletic scholarship plus academic aid) may become more attractive to athletes who can no longer find D1 roster spots.
+The NAIA has its own rules: a limit on athletic aid in each sport (12 equivalencies in soccer, for example) and no roster limit at all. Like D2, NAIA may benefit from athletes who are displaced by D1 roster limit reductions. NAIA programs that can offer competitive financial packages (athletic scholarship plus academic aid) may become more attractive to athletes who can no longer find D1 roster spots.
 
 **The bottom line for non-D1 divisions:** The settlement may push more talent into D2, D3, and NAIA. Families who were already considering these divisions should not view them as "lesser" — they may become more competitive and offer more opportunity than before.
 
 ## What is still uncertain
 
-The House settlement is a year old. Its implementation is ongoing, and many things remain uncertain. Families should approach the current landscape with the understanding that it will continue to change.
+The settlement took effect July 1, 2025; 2026-27 is its second academic year. Its implementation is ongoing, and many things remain uncertain. Families should approach the current landscape with the understanding that it will continue to change.
 
 **Revenue-sharing norms are not established.** Schools are figuring out how to distribute revenue-sharing money in real time. There is no standard approach, and offers to recruits will vary widely by school, sport, and individual athlete. What a program offers this year may be very different from what it offers next year.
 
@@ -259,6 +257,8 @@ The House settlement is a year old. Its implementation is ongoing, and many thin
 
 ---
 
-*House settlement implementation is still moving, and the money figures are dated. The revenue-sharing figures here reflect the **2025-26** academic year — the settlement's first year and the most recent for which the NCAA has published a cap — verified against the NCAA's House implementation Q&A (updated February 11, 2026) on 2026-08-25. Verify current roster limits and benefits-cap rules at NCAA.org and with the College Sports Commission, and ask each program what it actually funds. Roster-size figures come from RosterWise's analysis of **2025-26** Division I men's soccer rosters, computed 2026-08-26.*
+*House settlement implementation is still moving, and the money figures are dated. The revenue-sharing figures here reflect the **2025-26** academic year — the settlement's first year and the most recent for which the NCAA has published a cap — verified against the NCAA's House implementation Q&A (updated February 11, 2026) on 2026-08-25. Verify current roster limits and benefits-cap rules at NCAA.org and with the College Sports Commission, and ask each program what it actually funds. Roster-size figures print from RosterWise's roster stats for **2025-26** Division I men's soccer rosters, computed {% statRead "soccer", "2025-26", "computed" %}.*
 
 *Updated October 24, 2026: the soccer roster figures on this page now print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle. They leave out Mercyhurst University and the University of New Haven, mid-transition from Division II to Division I that season; the median and middle half are unchanged.*
+
+*Corrected October 24, 2026: an earlier version said each Division I school "had to decide whether to opt in"; schools in the five defendant conferences are bound as defendants. It also gave pre-settlement roster sizes ("a program that carried 32 players"), an unsourced estimate of 5,000 to 13,000 roster spots eliminated, a claim that the NCAA "may still impose" roster limits on schools outside the settlement (its own Q&A says roster size there is a conference or institutional matter), and said NAIA programs "set their own scholarship" policies (the NAIA limits athletic aid by sport). All were corrected or removed.*

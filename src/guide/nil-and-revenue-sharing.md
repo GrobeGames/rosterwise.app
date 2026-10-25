@@ -27,14 +27,9 @@ related:
     url: /guide/division-differences/
 eleventyComputed:
   sources:
-    - '<a href="https://www.ncaa.org">NCAA.org</a> — House v. NCAA settlement summary and current recruiting rules'
     - '<a href="https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/Feb2026D1Gov_PhaseSevenSetQuestionandAnswer.pdf">NCAA.org</a> — Question and Answer: Implementation of the House Settlement, Section D (Institutional Benefits and the Benefits Cap), updated February 11, 2026'
     - 'U.S. District Court, Northern District of California — Judge Claudia Wilken''s June 6, 2025 ruling on House v. NCAA'
-    - '<a href="https://www.washingtonpost.com">The Washington Post</a> — "The hidden NIL economy of college sports," October 21, 2024 (investigative analysis of $125 million in NIL payments)'
-    - '<a href="https://usavolleyball.org">USA Volleyball</a> (usavolleyball.org) — Getting Started in Name, Image, and Likeness guidance'
-    - 'Opendorse — NIL deal data and "NIL at Four" report'
-    - 'On3 — NCAA NIL deal database analysis'
-    - 'Butler Snow (law firm) — "NIL After House: What Name, Image, and Likeness Means for Colleges and Higher-Education Institutions in 2026"'
+    - '<a href="https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/2024-25/June2025D1Gov_PhaseThreeInstSetQuestionandAnswer.pdf">NCAA — Q&A: Implementation of the House Settlement</a> (published June 13, 2025), Questions A1, A8 and A9: who is a Participating Institution, and the annual opt-in'
     - '<a href="https://ncaaorg.s3.amazonaws.com/inclusion/inter/INC_IntlStudentHandbook.pdf">NCAA — International Student-Athlete Handbook</a> (Name, Image and Likeness section; read Oct. 9, 2026)'
     - '<a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.2">8 CFR 214.2(f)(9)–(10)</a> — F-1 employment and practical training; <a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.1">8 CFR 214.1(e)</a> — unauthorized employment is a failure to maintain status (eCFR, read Oct. 9, 2026)'
     - '<a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-274a/subpart-A/section-274a.1">8 CFR 274a.1</a> — federal definition of employment (does not mention NIL; read Oct. 9, 2026)'
@@ -70,7 +65,7 @@ Under the House settlement, participating schools could share up to $20.5 millio
 
 **The NCAA has not published a 2026-27 dollar figure.** Treat $20.5 million as the 2025-26 number it is, not as the current one, and ask each program what its pool actually is.
 
-Participation is voluntary — schools "opt in." Most Power Four schools have opted in. Most D2, D3, and NAIA schools either cannot afford to participate at meaningful levels or are not structured to do so.
+The cap applies to what the NCAA calls Participating Institutions, a Division I term. Every Division I school in one of the five defendant conferences — the ACC, Big Ten, Big 12, Pac-12 and SEC — is one: it is bound by the settlement as a defendant and did not "opt in." Any other Division I school chooses each year, by notice to the NCAA no later than March 1 for the following academic year.
 
 **Here's what matters for soccer and volleyball families: the cap is a school-wide number, and nothing in the settlement divides it among sports.**
 
@@ -92,27 +87,11 @@ A coach who cannot answer these is telling you something useful. A coach who ans
 
 ## Third-party NIL — what's real for soccer and volleyball
 
-This is where the gap between perception and reality is widest — and where families most need honest information.
+**No governing body publishes what soccer or volleyball athletes earn from NIL.** The figures that circulate — team totals, averages, medians by sport — come from news analyses and from companies that run NIL marketplaces, so we do not repeat them here as facts.
 
-The Washington Post published an investigative analysis in October 2024, examining $125 million in actual NIL disclosures across major universities. The findings for non-revenue sports:
+One thing is true by arithmetic, whatever the sport: a few very large deals pull an average far above what a typical athlete earns. If one athlete signs a $3 million deal and 99 others each earn $50, the average is $30,050, while the typical deal is $50. When you see an "average NIL" figure, ask for the median, for which sport, and from whose data.
 
-- **Colorado women's volleyball:** 112 NIL deals totaling approximately $36,000 — averaging around $320 per deal
-- **Oregon State men's soccer:** Approximately $5,700 across the entire team
-- **LSU women's tennis:** Zero disclosed NIL deals, despite reaching the second round of the NCAA tournament
-- **UCLA rowing:** 11 deals totaling $490 — about $45 per deal on average
-
-USA Volleyball, the national governing body, has published guidance explaining to athletes that while average NIL compensation across all D1 athletes is reported around $4,000, the **median is approximately $60 per deal.** The few extremely high-value deals distort the average dramatically. When a quarterback signs a $3 million deal and 99 other athletes each earn $50, the "average" is $30,050 — but the typical experience is $50.
-
-Per Opendorse and On3 reporting, Power Four women's sports average NIL earnings of $7,947 annually — a number heavily distorted by outliers. Group of Five women's athletes average $1,425 annually. The median across all women's NIL deals remains approximately $55-$60.
-
-**What soccer and volleyball families should realistically expect:**
-
-- Most college soccer and volleyball athletes will earn modest amounts through NIL — typically local business partnerships, camp coaching, or in-kind product deals
-- A small number of athletes with significant social media followings can earn meaningful amounts, but this depends on the athlete's individual brand, not the sport
-- The headline-grabbing six-figure NIL deals for women athletes are almost exclusively in basketball, gymnastics, and a small handful of volleyball players with large social media presences
-- NIL for soccer and volleyball is much more often $500-$2,000 per deal than $50,000
-
-Every athlete's situation is different. But entering the recruiting process expecting NIL to be a significant income stream for a soccer or volleyball player means planning around an outcome that the data shows is unlikely for the vast majority.
+For your athlete, the useful questions are concrete: what NIL activity have this program's current players actually had, and is any of it something your athlete could realistically expect? Treat a figure without a named source as a story, not a forecast.
 
 ## The international athlete reality
 
@@ -125,6 +104,8 @@ This section is uniquely important for soccer families. Across the **{% stat "so
 - **Revenue sharing is less settled still.** The NCAA's House settlement implementation guidance does not mention visas or F-1 status, so there is no published NCAA position on whether an F-1 athlete may receive revenue-share payments.
 
 **For families with international athletes:** treat NIL and revenue-share income as unavailable for planning purposes unless the school's compliance office and an immigration lawyer tell you otherwise. Don't rely on any website, including this one, for an answer no agency has given.
+
+> **Correction, October 24, 2026.** An earlier version of this page said participation in revenue sharing was voluntary and that "most Power Four schools have opted in." Schools in the five defendant conferences are bound by the settlement as defendants; they did not opt in. It also gave NIL earnings figures — per-team totals from a news analysis, and averages and medians ($7,947, $1,425, $55-$60 per deal) from an NIL marketplace company and a recruiting-news site — and a recruiting-inducement rule from a law firm's summary. None is a primary source, and all were removed.
 
 > **Correction, October 9, 2026.** An earlier version of this section said that "most international student-athletes cannot legally receive NIL compensation under current U.S. immigration law" and that NIL activities are "typically classified as employment under federal regulations (8 CFR § 274a.1)." Neither regulation mentions NIL, and no federal agency has classified it. The prohibition is the NCAA's own statement. We also removed unsourced statements about visa penalties and about O-1 and P-1 eligibility, and two law-firm and law-journal citations that were standing in for primary sources.
 
@@ -140,7 +121,7 @@ The College Sports Commission (CSC) administers the NIL Go portal, which launche
 - Athletes whose deals are not cleared face NCAA eligibility risk if they accept payment
 - As of early 2026, only approximately $166 million in deals had been cleared through NIL Go — a small fraction of the estimated NIL market, suggesting significant non-compliance or reporting gaps in the broader system
 
-**For families during recruiting:** Per the Butler Snow analysis of the post-House framework, coaches and collectives cannot use NIL as an explicit recruiting inducement. If a coach or collective representative promises specific NIL dollars during the recruiting process, that promise is technically a violation under current rules. The reality on the ground varies, but families should recognize that any NIL promise made during recruiting carries real risk for the athlete's future eligibility.
+**For families during recruiting:** if a coach or a collective's representative promises specific NIL dollars, ask for the terms in writing and take them to the school's compliance office before relying on them.
 
 If you encounter NIL promises during recruiting conversations, treat them as you would any unverifiable claim — note them, but don't make decisions based on them.
 

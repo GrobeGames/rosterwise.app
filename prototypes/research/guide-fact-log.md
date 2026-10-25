@@ -154,3 +154,41 @@ authorization outside of athletics".
 
 **Open (not edited):** the NIL guide's `sources:` still lists Opendorse and On3 (an NIL-valuation/recruiting-news brand — check
 against the §0.4 aggregator ban) and the rest of its closing paragraph has unsourced "most will not" claims.
+
+## H. Gate pass on the House and NIL guides (n-older, 2026-10-24)
+
+**What changed.** Scott, Review Board rs1-built "n-older": put the older claims on the nine RS-1 pages through the §7
+gate (rs1-ranking follow-up; his chat answer: its own PR stacked on rosterwise.app#13, priority A first). The
+claim-by-claim inventory is in the session notes (`n-older-claim-inventory.md`); this section holds the rows the
+two guide pages now rest on and what was cut. Documents read 2026-10-24: the NCAA House Q&A published June 13, 2025
+(`ncaaorg.s3.amazonaws.com/governance/d1/legislation/2024-25/June2025D1Gov_PhaseThreeInstSetQuestionandAnswer.pdf`) and updated February 11, 2026 (`ncaaorg.s3.amazonaws.com/governance/d1/legislation/Feb2026D1Gov_PhaseSevenSetQuestionandAnswer.pdf`); the 2026-27 Division I Manual dated 10/24/26
+(LSDBi `getReport/90008`).
+
+### Priority A — corrected 2026-10-24 (contradicted by a row, or resting on a banned or Tier 2 source)
+
+| Claim | Primary source | Verified | Articles |
+| --- | --- | --- | --- |
+| The benefits cap applies to **Participating Institutions**, a Division I term; every school in the five defendant conferences (ACC, Big Ten, Big 12, Pac-12, SEC) is one as a defendant and **did not opt in**; any other D1 school elects each year, by notice **no later than March 1** for the following academic year | **Reused** — §D rows (House Q&A A1, A8, A9) | 2026-10-24 | guide/nil-and-revenue-sharing (new), guide/house-settlement |
+| A school outside the settlement: roster sizes "may be governed by the conference or institution and not legislated at the national level," **unless** it gives athletic aid above the 2024-25 Division I limits, which makes it subject to the settlement "including roster limits" | NCAA House Q&A, **Question A16** (identical in the June 13, 2025 and February 11, 2026 editions), verbatim | 2026-10-24 | guide/house-settlement |
+| The NAIA limits athletic aid by sport (**12** equivalencies in soccer) and has **no roster limit** | **Reused** — `soccer-fact-log.md` rows "NAIA soccer: upper limit of 12" and "The NAIA imposes no roster limit" (NAIA Official & Policy Handbook 2026-27, Section XIII) | 2026-10-24 | guide/house-settlement |
+| There was **no Division I roster limit before July 1, 2025** (Bylaw 17.2 "Adopted: 6/6/25 effective 7/1/25") | **Reused** — `soccer-fact-log.md` row "Before the settlement there was no NCAA cap on Division I roster size"; re-read in the 10/24/26 Manual | 2026-10-24 | guide/house-settlement |
+| The settlement took effect **July 1, 2025**; 2026-27 is its second academic year | Reused — wrestling-fact-log "Final approval June 6, 2025; effective July 1, 2025"; the second year is arithmetic | 2026-10-24 | guide/house-settlement |
+
+| Cut 2026-10-24 | Page | Why |
+| --- | --- | --- |
+| "Participation is voluntary — schools 'opt in.' Most Power Four schools have opted in." | nil-and-revenue-sharing | Contradicted by §D (Q&A A1): defendant-conference members are bound, not opted in. Same class as the §D cut "All Power Five conference schools opted in" |
+| "Most D2, D3, and NAIA schools either cannot afford to participate … or are not structured to do so" | nil-and-revenue-sharing | Causal, no row; the cap is a Division I arrangement and the copy now says so |
+| The Washington Post team figures (Colorado volleyball 112 deals ≈ $36,000; Oregon State men's soccer ≈ $5,700; LSU women's tennis zero; UCLA rowing 11 deals, $490), "$125 million" | nil-and-revenue-sharing | Tier 2 supporting counts and dollar totals, which §1 bars |
+| USA Volleyball's reported D1 average ≈ $4,000 and median ≈ $60 per deal | nil-and-revenue-sharing | Third-party figures relayed by a governing body that did not produce them; no row. The mean-vs-median arithmetic stays, as an illustration |
+| "Per Opendorse and On3 reporting … $7,947 … $1,425 … $55-$60" and both sources | nil-and-revenue-sharing | On3 is Tier X (§0.4, a recruiting-rankings brand of the 247Sports/Rivals class; governance-counts-fact-log open finding); Opendorse is a commercial NIL marketplace. Closes the §G open item |
+| The "realistically expect" list ("$500-$2,000 per deal", "almost exclusively in basketball, gymnastics …") and "the data shows is unlikely" | nil-and-revenue-sharing | No rows; rested on the figures above |
+| "Per the Butler Snow analysis … cannot use NIL as an explicit recruiting inducement … technically a violation" | nil-and-revenue-sharing | A rule from a law firm's summary (§1: Tier 2 never supports a rule); same reason as the §G law-firm removals. Replaced with advice to take any NIL promise to compliance |
+| `sources:` — bare `ncaa.org` link, Washington Post, USA Volleyball, Opendorse, On3, Butler Snow | nil-and-revenue-sharing | Each removed with the claim it carried; the June 2025 Q&A added for A1/A8/A9 |
+| "Each Division I school had to decide whether to opt in" | house-settlement | Contradicted by §D (and by the page's own next paragraph) |
+| "A D1 men's soccer program that carried 32 players … A baseball program that carried 40" | house-settlement | Pre-House roster sizes; the same class was cut in `roster-data-fact-log.md` ("30 or more"), and no pre-House rosters are held. Replaced by the sourced fact that no roster limit existed |
+| "Estimates suggest between 5,000 and 13,000 roster spots have been eliminated across Division I" | house-settlement | Unnamed authority (§4.3) |
+| "(though the NCAA may still impose limits)" | house-settlement | Contradicted by Q&A A16 (row above) |
+| "NAIA programs set their own scholarship and roster policies" | house-settlement | The scholarship half is contradicted by the NAIA's aid limits (row above) |
+| "The House settlement is a year old" | house-settlement | Stale |
+| "Roster-size figures … computed 2026-08-26" | house-settlement | Stale; now prints the stats file's computed date |
+

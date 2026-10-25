@@ -556,6 +556,34 @@ are not the PDF's. Each figure names one release and one season. These are actua
 | The NCAA sponsors **1,826** soccer programs across D1, D2 and D3 in **2025-26**: **811** men's (D1 213, D2 198, D3 400) and **1,015** women's | Same spreadsheet, tab "3. Men's Sports -Teams" (Soccer 213/198/400 = 811) and tab "4. Women's Sports -Teams" (Soccer 349/255/411 = 1,015), Academic Year 2026 rows | 2026-10-24 | soccer |
 | *Superseded 2026-10-24 (kept as the trail):* 2024-25 women's teams, basketball **1,082**, volleyball **1,055**, cross country **1,048**, soccer **1,029**; men's soccer **827** (so 1,856 NCAA soccer programs) | NCAA, Sports Sponsorship and Participation Rates Report (1956-57 through 2024-25), "Updated September 04, 2025", p. 93 (men's) and p. 94 (women's) 2024-25 Participation Studies, Overall Teams; "Provisional members are included in these numbers". `https://ncaaorg.s3.amazonaws.com/research/sportpart/2025RES_SportsSponsorshipParticipationRatesReport.pdf` | 2026-10-24 | none now (was soccer, soccer/insights/womens-roster-size) |
 
+## W. Gate pass on the soccer pages RS-1 touched (n-older, 2026-10-24)
+
+**What changed.** Scott, Review Board rs1-built "n-older" (now), then in chat: the full §7 gate pass on the nine RS-1
+pages, as its own PR stacked on rosterwise.app#13, priority A first. The inventory is in the session notes
+(`n-older-claim-inventory.md`). House settlement and NIL rows are in `guide-fact-log.md` §H.
+
+### Priority A — corrected 2026-10-24
+
+| Claim | Primary source | Verified | Articles |
+| --- | --- | --- | --- |
+| `soccer.2025-26.w.all.top_countries` — of the **3,329** international players on settled 2025-26 women's rosters, all with a country code: Canada **19.6%**, United Kingdom **14.5%**, Spain **7.1%**, Germany **7.1%**, Sweden **6.3%** (then Brazil 3.5%, Australia 3.2%, France 2.8%, Japan 2.2%, Mexico 2.1%) | RosterWise roster stats, `src/_data/rosterStats/soccer.json`, computed 2026-10-24 from app-soccer `v2.0.2-12` (see §U); printed by `{% statCountryList %}` (`lib/roster-stats.js`), which names each ISO code | 2026-10-24 | soccer/womens/guide/international-recruiting, soccer/methodology/international-composition |
+| `soccer.2025-26.m.all.top_countries` — of **9,434** international men's players with a country code (one has none): United Kingdom **12.5%**, Spain **8.3%**, Germany **7.1%**, Brazil **6.3%**, Canada **5.0%** (then France 3.8%, Italy 3.4%, Norway 2.9%, Sweden 2.9%, Colombia 2.8%) | Same file | 2026-10-24 | soccer/womens/guide/international-recruiting, soccer/methodology/international-composition |
+| International share of roster spots, 2025-26: men's all divisions **28.6%**, NAIA highest, D3 lowest; women's all divisions **9.9%**, NAIA highest, D3 lowest | `.{m,w}.{all,naia,d3}.intl_share` (§U rows; the all-division rows print here for the first time) | 2026-10-24 | soccer/methodology/international-composition |
+| Roster limits bind Division I schools in the five defendant conferences **and** those that opt in | §A row "D1 men's soccer roster limit = 28" (Bylaw 17.2: "a member of a defendant conference or opts in"); `guide-fact-log.md` §D | 2026-10-24 | soccer (hub) |
+
+| Cut 2026-10-24 | Page | Why |
+| --- | --- | --- |
+| "especially at D1 and D2" / "particularly at the D1 and D2 levels" (men's and women's) | soccer/methodology/international-composition | Contradicted by the data (the ❌ row in §N: NAIA is highest for both) |
+| "30-50% or more of the team" (men's); "a women's program with 20-30% international players stands out more" | soccer/methodology/international-composition | ⚠️ §P row "not computed as stated": no id computes a range across programs (n-progdist would) |
+| "Some D1 programs carry 30-40% international players"; "40% or more … fewer than 10%"; "equally competitive" | soccer/mens/guide/international-recruiting, soccer/mens/index | Same ⚠️ row; "equally competitive" is §4.1 |
+| "some D1 men's programs carry 30-40% international rosters" | soccer/womens/guide/international-recruiting | Same ⚠️ row |
+| Source countries — women's "Scandinavia, the United Kingdom, Australia, and New Zealand … reflecting the strength of women's soccer development"; men's "Central America, South America, Western Europe, and parts of Africa"; the methodology page's women's list | soccer/womens/guide/international-recruiting, soccer/methodology/international-composition | Wrong against the rows above (Canada, first for women, was missing; New Zealand is not in the top ten; the men's list matched neither the data nor the methodology page). Both now print from the ids |
+| "Some D3 schools with large endowments meet 100% of demonstrated financial need" | soccer/guide/recruiting-myths | The ❌ row in §P (no source) |
+| "Paid recruiting services can be useful for organization and structure" | soccer/guide/recruiting-myths | Evaluates a competitor category (§0.4, §4.1) |
+| "Keep it under five minutes"; "will get more interest from a simple game clip" | soccer/guide/recruiting-myths | The ❌ video-model row in §P; a prediction (§4.2) |
+| CTA "2,200+ men's and women's rosters" | soccer/guide/recruiting-myths | Typed round number (§4.3) |
+| "replacing scholarship caps with roster limits for schools that opted in" | soccer (hub) | Scope narrower than Bylaw 17.2; replaced |
+
 ### Open items to re-check before/at publish
 
 **Must fix before this content set can pass §7 again**

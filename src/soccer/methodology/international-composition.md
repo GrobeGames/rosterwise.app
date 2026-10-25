@@ -10,7 +10,7 @@ breadcrumbs:
     url: /soccer/
   - text: Methodology
   - text: International Composition
-summary: "International players are a significant part of college soccer rosters, but the patterns differ dramatically between men's and women's programs. Men's programs tend to have higher percentages of international players, especially at D1 and D2. Women's programs recruit internationally too, but at generally lower rates and from different regions. Understanding these patterns helps both domestic and international recruits evaluate their realistic opportunity at any given program."
+summary: "International players are a significant part of college soccer rosters, but the patterns differ dramatically between men's and women's programs. On RosterWise's 2025-26 rosters the international share is higher in men's soccer than in women's at every division, and highest at NAIA for both. Women's international players also come from a different mix of countries. Understanding these patterns helps both domestic and international recruits evaluate their realistic opportunity at any given program."
 related:
   - title: "What Is Roster Composition Analysis"
     url: /soccer/methodology/roster-composition/
@@ -51,7 +51,7 @@ The most important thing to understand about international composition in colleg
 
 ### Men's college soccer
 
-International players represent a substantial portion of many men's college soccer rosters, particularly at the D1 and D2 levels. Some men's D1 programs have rosters where international players comprise 30-50% or more of the team. Others have very few.
+International players held {% stat "soccer.2025-26.m.all.intl_share", "pct" %} of men's college soccer roster spots on RosterWise's 2025-26 rosters. By division the share was highest at NAIA ({% stat "soccer.2025-26.m.naia.intl_share", "pct" %}) and lowest at D3 ({% stat "soccer.2025-26.m.d3.intl_share", "pct" %}).
 
 The variation across programs is enormous, and it reflects coaching philosophy, international connections, and program identity rather than a division-wide mandate. A men's D1 program in the ACC might have a very different international composition than a men's D1 program in the Summit League — even though both are D1.
 
@@ -63,9 +63,9 @@ The variation across programs is enormous, and it reflects coaching philosophy, 
 
 Women's college soccer programs also recruit internationally, but at generally lower overall rates than men's programs. The domestic talent pool for women's soccer in the US is exceptionally deep — the US is the dominant country in women's soccer globally, and the club infrastructure (ECNL, GA, and other pathways) produces a large number of college-ready players.
 
-Some women's programs still recruit significant international contingents, particularly at the D1 and D2 levels. But a women's program with 20-30% international players stands out more than a men's program at the same percentage, simply because the overall norm is lower.
+International players held {% stat "soccer.2025-26.w.all.intl_share", "pct" %} of women's roster spots. By division the women's share was highest at NAIA ({% stat "soccer.2025-26.w.naia.intl_share", "pct" %}) and lowest at D3 ({% stat "soccer.2025-26.w.d3.intl_share", "pct" %}).
 
-**Common source regions for women's programs:** International players on women's college soccer rosters frequently come from Canada, the United Kingdom, Australia, Scandinavia, and various European countries. The geographic mix tends to lean more heavily toward English-speaking or northern European countries compared to men's programs, though this varies by program.
+**Home countries:** of the international players on 2025-26 women's rosters who list a home country, the most common were {% statCountryList "soccer.2025-26.w.all.top_countries", 5 %}. On men's rosters they were {% statCountryList "soccer.2025-26.m.all.top_countries", 5 %}. *{% statNote "soccer.2025-26.w.all.top_countries" %}.*
 
 **Why the pattern differs:** The relative depth of the domestic women's talent pool means women's college coaches have less need to recruit internationally to fill roster spots. International recruiting in women's college soccer tends to be more targeted — seeking specific skill sets or profiles rather than filling large portions of the roster.
 
@@ -134,3 +134,5 @@ The data is there. Knowing how to read it — and understanding that patterns di
 *The international-composition figures here describe patterns in the rosters RosterWise analyzed — they are not NCAA rules and they shift season to season. This article reflects the landscape as of **April 2026**. See the [methodology](/methodology/data-and-analysis/) page for how the data is collected, and verify current eligibility and division rules at NCAA.org and NAIA.org.*
 
 *Updated October 24, 2026: the division figures on this page now print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle. They leave out Mercyhurst University and the University of New Haven, mid-transition from Division II to Division I that season, so the D1 men's share is {% stat "soccer.2025-26.m.d1.intl_share", "pct" %} (it read 33.8% with them).*
+
+*Corrected October 24, 2026: an earlier version said men's and women's international shares were highest "at D1 and D2"; on RosterWise's 2025-26 rosters NAIA is highest for both. Claims that some programs run 30-50% (men's) or 20-30% (women's) international were removed, because no RosterWise figure computes a range across programs, and the home countries now print from the roster stats.*

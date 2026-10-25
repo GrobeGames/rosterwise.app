@@ -12,7 +12,7 @@ breadcrumbs:
     url: /soccer/mens/
   - text: Guide
   - text: International Recruiting
-summary: "International recruiting is a bigger factor in men's college soccer than in almost any other college sport. Some D1 programs carry 30-40% international players; others build rosters almost entirely from domestic recruits. This isn't good or bad — it's a program-level decision driven by coaching philosophy, competitive goals, institutional identity, and recruiting networks. But for domestic families navigating the recruiting process, understanding international roster composition matters. It affects the number of available spots, the competition for those spots, and the overall recruiting dynamic at each program."
+summary: "International recruiting is a bigger factor in men's college soccer than in almost any other college sport. This isn't good or bad — it's a program-level decision driven by coaching philosophy, competitive goals, institutional identity, and recruiting networks. But for domestic families navigating the recruiting process, understanding international roster composition matters. It affects the number of available spots, the competition for those spots, and the overall recruiting dynamic at each program."
 related:
   - title: "Men's College Soccer Recruiting Timeline"
     url: /soccer/mens/guide/recruiting-timeline/
@@ -50,8 +50,6 @@ Men's college soccer has a higher percentage of international players than most 
 - Recruiting networks between college coaches and international academies, clubs, and scouts have deepened over decades.
 - International players often arrive with professional academy training backgrounds that are difficult to replicate in the US youth development system.
 - Some programs have built institutional identities around international recruiting — it's a deliberate competitive strategy.
-
-**The range across programs is enormous.** Some D1 men's soccer programs have rosters where 40% or more of the players are from outside the United States. Other D1 programs — equally competitive — carry fewer than 10% international players. This is not a quality signal; it's a program philosophy signal.
 
 ## Why this matters for domestic recruits and their families
 
@@ -153,3 +151,5 @@ International recruiting in women's college soccer has different patterns, perce
 *Eligibility, amateurism, and visa rules for international recruits change independently of one another. This article reflects the landscape as of **April 2026**. Verify current eligibility rules at NCAA.org and NAIA.org, confirm amateurism certification with the NCAA Eligibility Center, and consult a qualified immigration attorney for visa questions.*
 
 *Updated October 24, 2026: the division figures on this page now print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle. They leave out Mercyhurst University and the University of New Haven, mid-transition from Division II to Division I that season, so the D1 men's share is {% stat "soccer.2025-26.m.d1.intl_share", "pct" %} (it read 33.8% with them).*
+
+*Corrected October 24, 2026: claims that some D1 programs carry "30-40%" or "40% or more" international players and others "fewer than 10%" were removed; no RosterWise figure computes a range across programs.*

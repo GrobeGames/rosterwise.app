@@ -30,7 +30,7 @@ eleventyComputed:
     - "{{ 'soccer' | statSource('2025-26') | safe }}"
 cta:
   heading: "Replace myths with data."
-  text: "RosterWise™ analyzes every D1, D2, D3, and NAIA soccer program — 2,200+ men's and women's rosters. Position depth, class-year gaps, international composition, recruiting patterns, and personalized My RosterFit™ scoring. See the reality behind every program, not the assumptions."
+  text: "RosterWise™ analyzes the men's and women's soccer rosters at D1, D2, D3, and NAIA programs. Position depth, class-year gaps, international composition, recruiting patterns, and personalized My RosterFit™ scoring. See the reality behind every program, not the assumptions."
   price: "One payment of $39.99. No subscriptions. No ads. Available now on the App Store."
 ---
 
@@ -50,7 +50,7 @@ This one comes up constantly. Parents hear "Division III" and assume it means ze
 
 ### What's actually true
 
-D3 schools cannot offer athletic scholarships. That part is accurate. But many D3 institutions are generous with academic merit scholarships, need-based financial aid, and institutional grants that can significantly reduce the cost of attendance. Some D3 schools with large endowments meet 100% of demonstrated financial need. A strong student-athlete at a D3 program can receive a financial aid package that rivals or exceeds what a partial D1 athletic scholarship would cover.
+D3 schools cannot offer athletic scholarships. That part is accurate. But many D3 institutions are generous with academic merit scholarships, need-based financial aid, and institutional grants that can significantly reduce the cost of attendance. A strong student-athlete at a D3 program can receive a financial aid package that rivals or exceeds what a partial D1 athletic scholarship would cover.
 
 ### What this means for your family
 
@@ -102,7 +102,7 @@ This one persists because the recruiting service industry has a financial incent
 
 ### What's actually true
 
-College coaches recruit primarily through direct evaluation — attending events, reviewing game film, and responding to athlete-initiated outreach. A well-written email from a recruit with a solid highlight video and academic transcript is how the vast majority of recruiting conversations begin. Paid recruiting services can be useful for organization and structure, but they are not a prerequisite for being recruited. No coach has ever said "I would have offered that player, but they weren't in my recruiting service's database."
+College coaches recruit primarily through direct evaluation — attending events, reviewing game film, and responding to athlete-initiated outreach. A well-written email from a recruit with a solid highlight video and academic transcript is how the vast majority of recruiting conversations begin. No coach has ever said "I would have offered that player, but they weren't in my recruiting service's database."
 
 ### What this means for your family
 
@@ -138,11 +138,11 @@ Parents and players sometimes invest heavily in polished, music-driven highlight
 
 ### What's actually true
 
-College coaches want to see game footage — real competition that shows your athlete's decision-making, positioning, work rate, and technical ability in context. A simple, well-edited video with clear clips from actual games is far more useful than a heavily produced reel of isolated touches set to music. Coaches are evaluating how your athlete plays the game, not how well your video editor works. Include your athlete's name, jersey number, position, and graduation year. Keep it under five minutes. Let the play speak for itself.
+College coaches want to see game footage — real competition that shows your athlete's decision-making, positioning, work rate, and technical ability in context. A simple, well-edited video with clear clips from actual games is far more useful than a heavily produced reel of isolated touches set to music. Coaches are evaluating how your athlete plays the game, not how well your video editor works. Include your athlete's name, jersey number, position, and graduation year. Let the play speak for itself.
 
 ### What this means for your family
 
-Save the production budget. Use a free video editor, pull your best clips from game footage, and focus on showing the qualities that matter for your athlete's position. A midfielder who reads the game well and makes smart passes will get more interest from a simple game clip than from a flashy highlight of one great goal.
+Save the production budget. Use a free video editor, pull your best clips from game footage, and focus on showing the qualities that matter for your athlete's position.
 
 ## Myth: "If a coach hasn't responded, they're not interested"
 
@@ -169,3 +169,5 @@ That's why we built RosterWise — to replace assumptions with analysis, and to 
 *Recruiting rules, roster limits, and the composition of college rosters all change year to year. The roster-composition figures on this page come from RosterWise's analysis of **2025-26** rosters, computed 2026-08-26; the rule references reflect the landscape as of April 2026. Verify current rules at NCAA.org and NAIA.org, confirm league structures with ECNL and MLS NEXT, and treat roster-composition figures as descriptions of the season RosterWise analyzed rather than fixed rates.*
 
 *Updated October 24, 2026: the division figures on this page now print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle. They leave out Mercyhurst University and the University of New Haven, mid-transition from Division II to Division I that season, so the D1 men's share is {% stat "soccer.2025-26.m.d1.intl_share", "pct" %} (it read 33.8% with them).*
+
+*Corrected October 24, 2026: four unsourced statements were removed — that some D3 schools meet 100% of demonstrated financial need, that paid recruiting services "can be useful for organization and structure," a five-minute limit for highlight videos, and a prediction about which video gets more interest. The count of rosters in the closing panel was a typed round number and was removed.*

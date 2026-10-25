@@ -44,7 +44,7 @@ ${toc}
 
 ## The big picture: international players in women's college soccer
 
-International recruiting in women's college soccer is a real and growing factor, but it's less prevalent than in the men's game. Men's college soccer has long had a higher percentage of international players — some D1 men's programs carry 30-40% international rosters. Women's programs generally have lower international percentages, though this varies widely and the trend has been increasing.
+International recruiting in women's college soccer is a real and growing factor, but it's less prevalent than in the men's game. Women's programs generally have lower international percentages, though this varies widely and the trend has been increasing.
 
 Several factors shape the women's international recruiting landscape:
 
@@ -84,7 +84,7 @@ International recruiting in women's soccer works differently from domestic recru
 A few key differences families should understand:
 
 - **Lower overall percentages.** Women's college soccer programs generally have lower international composition than men's programs, though this is changing gradually.
-- **Different source countries.** Men's international recruiting draws heavily from Central America, South America, Western Europe, and parts of Africa. Women's international recruiting has different geographic patterns — Scandinavia, the United Kingdom, Australia, and New Zealand are common sources, reflecting the strength of women's soccer development in those regions.
+- **A different mix of home countries.** Of the international players on 2025-26 women's rosters who list a home country, the most common were {% statCountryList "soccer.2025-26.w.all.top_countries", 5 %}. On men's rosters they were {% statCountryList "soccer.2025-26.m.all.top_countries", 5 %}.
 - **Growing but from a lower base.** The trend in women's soccer is toward more international recruiting, driven by global women's soccer growth and increased awareness of US college opportunities. But the growth is from a lower starting point than men's.
 - **The professional pathway factor.** As the NWSL has grown, some international players who might have come to college in the past may now pursue professional careers directly. This is still a small factor compared to the men's game (where MLS academies and European clubs absorb significant talent before college), but it's worth noting.
 
@@ -164,3 +164,5 @@ International recruiting in men's college soccer has different patterns, percent
 *Eligibility, amateurism, and visa rules for international recruits change independently of one another. This article reflects the landscape as of **April 2026**. Verify current eligibility rules at NCAA.org and NAIA.org, confirm amateurism certification with the NCAA Eligibility Center, and consult a qualified immigration attorney for visa questions.*
 
 *Updated October 24, 2026: the division figures on this page now print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle; the NAIA men's share they are set against reads {% stat "soccer.2025-26.m.naia.intl_share", "pct" %} (it read 48.2%).*
+
+*Corrected October 24, 2026: the list of source countries was wrong against RosterWise's own rosters — Canada, the most common home country of international players on women's rosters, was missing, and New Zealand is not among the ten most common. Both lists now print from the roster stats. A claim that some D1 men's programs carry 30-40% international rosters was removed; no RosterWise figure computes a range across programs.*
