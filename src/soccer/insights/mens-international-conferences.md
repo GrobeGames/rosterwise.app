@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Men's Soccer Conferences with the Highest International Roster Composition — 2025 Season Analysis | RosterWise™"
 description: "Which college soccer conferences have the most international players? Conference-by-conference international composition data for NCAA D1, D2, D3, and NAIA men's soccer, 2025 season."
-date: 2026-05-17
+date: 2026-10-24
 breadcrumbs:
   - text: Home
     url: /
@@ -10,7 +10,12 @@ breadcrumbs:
     url: /soccer/
   - text: Insights
   - text: Men's International Conferences
-summary: "Based on RosterWise™'s analysis of every published 2025 NCAA season men's college soccer roster, international players make up 33.6% of D1 men's soccer rosters, 37.4% of D2, 11.2% of D3, and 48.1% of NAIA. But these division-level averages mask enormous conference-by-conference variation. This page breaks down international composition by conference to help families understand the competitive landscape."
+eleventyComputed:
+  summary: "Based on RosterWise™'s analysis of every settled 2025 NCAA season men's college soccer roster, international players make up {{ 'soccer.2025-26.m.d1.intl_share' | stat('pct') }} of D1 men's soccer rosters, {{ 'soccer.2025-26.m.d2.intl_share' | stat('pct') }} of D2, {{ 'soccer.2025-26.m.d3.intl_share' | stat('pct') }} of D3, and {{ 'soccer.2025-26.m.naia.intl_share' | stat('pct') }} of NAIA. But these division-level averages mask enormous conference-by-conference variation. This page breaks down international composition by conference to help families understand the competitive landscape."
+  sources:
+    - "{{ 'soccer' | statSource('2025-26') | safe }}"
+    - '<a href="https://web3.ncaa.org/lsdbi/reports/getReport/90011">2026-27 NCAA Division III Manual</a> — Bylaw 15.01.3, no aid on the basis of athletics'
+    - '<a href="/methodology/data-and-analysis/">RosterWise — Data and Analysis Methodology</a> (how a player is classified as international, and how conferences are assigned)'
 related:
   - title: "Women's International Conference Composition"
     url: /soccer/insights/womens-international-conferences/
@@ -24,10 +29,6 @@ related:
   - title: "International Student-Athletes Guide"
     url: /guide/international-student-athletes/
     status: live
-sources:
-  - "RosterWise 2025-26 roster dataset — publicly available college athletics websites, captured April–August 2026; conference aggregates recomputed 2026-08-26"
-  - "Roster hometown and country data parsed from official athletics websites"
-  - '<a href="https://www.ncaa.org">NCAA.org</a> — Division membership and conference listings'
 cta:
   heading: "RosterWise™ shows you international composition for every program."
   text: "See exactly how many international players each program carries, which countries they come from, and what that means for domestic recruits targeting those programs. Conference-level patterns are a starting point — program-level data is where the real insight lives."
@@ -40,7 +41,7 @@ ${toc}
 
 ## Why international composition matters for domestic recruits
 
-International recruiting is one of the most significant factors shaping men's college soccer rosters — and one of the least discussed in recruiting circles. Across all 1,012 men's programs in the 2025-26 dataset, 9,504 players are classified as international — 28.7% overall, and higher still in D1, D2, and NAIA.
+International recruiting is one of the most significant factors shaping men's college soccer rosters — and one of the least discussed in recruiting circles. Across all {% stat "soccer.2025-26.m.all.programs", "programs" %} men's programs with a settled 2025-26 roster, {% stat "soccer.2025-26.m.all.intl_share", "international" %} players are classified as international — {% stat "soccer.2025-26.m.all.intl_share", "pct" %} overall, and higher still in D1, D2, and NAIA.
 
 For families with a domestic recruit, understanding how many roster spots go to international players is not about objecting to their presence. It is about understanding the competitive landscape honestly.
 
@@ -50,81 +51,47 @@ RosterWise tracks [roster intelligence](/roster-intelligence/) at the program le
 
 ## D1 men's soccer: conference-level international composition
 
-Across 211 D1 men's soccer programs, international players make up **33.6%** of all roster spots — 2,050 of 6,099 — roughly one in three players. But the conference-by-conference variation is dramatic, ranging from 11.3% to 62.3%.
+Across {% stat "soccer.2025-26.m.d1.intl_share", "n.programs" %} D1 men's soccer programs, international players make up **{% stat "soccer.2025-26.m.d1.intl_share", "pct" %}** of all roster spots — {% stat "soccer.2025-26.m.d1.intl_share", "international" %} of {% stat "soccer.2025-26.m.d1.intl_share", "players" %} — roughly one in three players. But the conference-by-conference variation is dramatic, ranging from {% statRowRange "soccer.2025-26.m.d1.intl_share_by_conference" %}.
 
-The tables below cover the 22 D1 conferences. One D1 program competes as an independent and is counted in the division total but sits in no conference tier.
+The tables below cover every D1 conference. One D1 program competes as an independent and is counted in the division total but sits in no conference tier.
 
 Because many conferences are separated by fewer than two percentage points, we group them into tiers rather than publishing strict 1-2-3 rankings. A 0.5% gap between conferences does not indicate a meaningful difference in recruiting approach.
 
 ### Notably high international composition (45%+)
 
-| Conference | Programs | Players | Intl Players | Intl % |
-|------------|----------|---------|-------------|--------|
-| American Conference | 9 | 236 | 147 | 62.3% |
-| Sun Belt Conference | 10 | 267 | 144 | 53.9% |
-| Big South Conference | 8 | 260 | 123 | 47.3% |
+{% statConferenceTable "soccer.2025-26.m.d1.intl_share_by_conference", 45 %}
 
-These conferences have programs where international players routinely outnumber domestic players. The American Conference leads D1 with more than 6 in 10 roster spots going to international recruits.
+In the American and Sun Belt conferences, international players outnumber domestic players across the conference as a whole. The American Conference leads D1 with more than 6 in 10 roster spots ({% stat "soccer.2025-26.m.d1.intl_share_by_conference", "rows[American Conference].pct" %}) going to international recruits.
 
 ### Above D1 average (35–45%)
 
-| Conference | Programs | Players | Intl Players | Intl % |
-|------------|----------|---------|-------------|--------|
-| America East Conference | 8 | 231 | 102 | 44.2% |
-| Atlantic Sun Conference | 8 | 248 | 109 | 44.0% |
-| The Summit League | 7 | 195 | 74 | 37.9% |
-| Metro Atlantic Athletic Conference | 13 | 387 | 145 | 37.5% |
-| Atlantic 10 Conference | 13 | 376 | 137 | 36.4% |
+{% statConferenceTable "soccer.2025-26.m.d1.intl_share_by_conference", 35, 45 %}
 
 ### Near D1 average (25–35%)
 
-| Conference | Programs | Players | Intl Players | Intl % |
-|------------|----------|---------|-------------|--------|
-| Coastal Athletic Association | 10 | 284 | 98 | 34.5% |
-| Horizon League | 10 | 285 | 98 | 34.4% |
-| Ohio Valley Conference | 8 | 224 | 76 | 33.9% |
-| Southern Conference | 6 | 169 | 55 | 32.5% |
-| BIG EAST Conference | 12 | 343 | 110 | 32.1% |
-| Atlantic Coast Conference | 15 | 430 | 136 | 31.6% |
-| West Coast Conference | 10 | 293 | 83 | 28.3% |
-| Northeast Conference | 8 | 244 | 66 | 27.0% |
-| Missouri Valley Conference | 8 | 238 | 63 | 26.5% |
-| Western Athletic Conference | 8 | 219 | 57 | 26.0% |
+{% statConferenceTable "soccer.2025-26.m.d1.intl_share_by_conference", 25, 35 %}
 
-Note: Many conferences in this tier are clustered tightly — the Coastal Athletic Association (34.5%) through the ACC (31.6%) are separated by less than 3 percentage points.
+Note: Many conferences in this tier are clustered tightly — the Coastal Athletic Association ({% stat "soccer.2025-26.m.d1.intl_share_by_conference", "rows[Coastal Athletic Association].pct" %}) through the ACC ({% stat "soccer.2025-26.m.d1.intl_share_by_conference", "rows[Atlantic Coast Conference].pct" %}) are separated by {% statDiff "soccer.2025-26.m.d1.intl_share_by_conference", "rows[Coastal Athletic Association].pct", "soccer.2025-26.m.d1.intl_share_by_conference", "rows[Atlantic Coast Conference].pct" %} percentage points.
 
 ### Below D1 average (<25%)
 
-| Conference | Programs | Players | Intl Players | Intl % |
-|------------|----------|---------|-------------|--------|
-| Big Ten Conference | 11 | 313 | 71 | 22.7% |
-| The Ivy League | 8 | 240 | 50 | 20.8% |
-| Big West Conference | 10 | 299 | 59 | 19.7% |
-| Patriot League | 10 | 292 | 33 | 11.3% |
+{% statConferenceTable "soccer.2025-26.m.d1.intl_share_by_conference", 0, 25 %}
 
-The Patriot League stands out as the D1 conference with the lowest international composition — roughly one in nine players.
+*{% statNote "soccer.2025-26.m.d1.intl_share_by_conference" %}. Conferences as of the 2025-26 season. Mercyhurst University and the University of New Haven are left out of the D1 figures for 2025-26: both were mid-transition from Division II to Division I that season.*
 
-## What drives these patterns
+The Patriot League stands out as the D1 conference with the lowest international composition — roughly one in nine players ({% stat "soccer.2025-26.m.d1.intl_share_by_conference", "rows[Patriot League].pct" %}).
 
-Several factors explain why some conferences lean heavily international:
+## D2 men's soccer: the highest international share in the NCAA
 
-**Scholarship structure.** In equivalency sports like men's soccer, coaches split scholarship dollars across the roster. International recruits sometimes accept partial scholarships that domestic recruits in the same talent range would not, making them a cost-effective way to build roster depth. Under the House settlement, this calculus is changing for opt-in schools.
-
-**Conference competitiveness.** Coaches recruit internationally to compete. When one program in a conference starts bringing in international talent and winning, others follow. This creates a conference-level dynamic that pushes the average international percentage higher over time.
-
-**Academic profile and institutional mission.** Schools with globally-oriented student bodies tend to have programs that recruit globally. Conferences with many such schools often show higher international soccer percentages.
-
-**Geography.** Conferences in regions with fewer high-level domestic club programs may lean more heavily on international recruiting to fill roster spots.
-
-## D2 men's soccer: highest international percentage across divisions
-
-D2 men's soccer programs carry an overall international percentage of **37.3%** — higher than D1. Conference-level patterns are similarly varied, and many D2 conferences exceed 50% international composition.
+D2 men's soccer programs carry an overall international percentage of **{% stat "soccer.2025-26.m.d2.intl_share", "pct" %}** — higher than D1. Conference-level patterns are similarly varied, and {% statCountAbove "soccer.2025-26.m.d2.intl_share_by_conference", 50 %} D2 conferences exceed 50% international composition.
 
 ## D3 and NAIA patterns
 
-D3 men's soccer programs average **11.2%** international players — substantially lower than D1 and D2. Without athletic scholarships, D3 international recruiting works differently — international players come for the academic and cultural experience, and the financial equation is based on institutional aid rather than athletic scholarships.
+D3 men's soccer programs average **{% stat "soccer.2025-26.m.d3.intl_share", "pct" %}** international players — substantially lower than D1 and D2. D3 programs offer no athletic scholarships, so any aid an international player receives is academic or need-based.
 
-NAIA men's soccer programs average **48.2%** international — the highest of any division. Some NAIA conferences carry international composition above 60%. This reflects the NAIA's distinct institutional profile and scholarship model, which has attracted strong international recruiting networks.
+NAIA men's soccer programs average **{% stat "soccer.2025-26.m.naia.intl_share", "pct" %}** international — the highest of any division. In {% statCountAbove "soccer.2025-26.m.naia.intl_share_by_conference", 60 %} NAIA conferences, international composition is above 60%.
+
+*{% statNote "soccer.2025-26.m.all.intl_share" %}.*
 
 ## What this means for domestic recruits
 
@@ -159,8 +126,8 @@ RosterWise identifies international players by parsing hometown and country data
 
 This approach has limitations — some rosters list incomplete hometown data, and some international players may be listed with U.S. hometowns if they attended a U.S. high school or preparatory academy. Our [methodology page](/methodology/data-and-analysis/) describes these limitations in detail.
 
-Despite these limitations, the conference-level patterns are robust and directionally accurate.
-
 ---
 
-*Data reflects **2025-26** NCAA season rosters as published on official athletics websites, captured April–August 2026. Every figure on this page — the division totals and all four conference tables — was recomputed from the full dataset on 2026-08-26, so the whole page now comes from a single capture. Conference aggregates exclude Mercyhurst and New Haven, which were mid-transition from D2 to D1 and carry unrepresentative rosters. See [methodology](/methodology/data-and-analysis/) for full documentation.*
+*Figures on this page print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle; each table carries the date its rosters were read. See [methodology](/methodology/data-and-analysis/) for full documentation.*
+
+*Updated October 24, 2026: every figure on this page now comes from that file. The conference tables were already computed from these rosters and are unchanged; four figures in the text moved slightly, and the D2 heading now says what the data shows: D2 has the highest share in the NCAA, and the NAIA is higher still. A section on what drives these patterns was removed: no data behind it measures cause.*

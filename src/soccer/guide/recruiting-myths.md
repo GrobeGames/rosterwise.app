@@ -22,11 +22,12 @@ related:
     url: /soccer/guide/walk-on-pathways/
   - title: "Division Differences Explained"
     url: /guide/division-differences/
-sources:
-  - "NCAA.org, Division III Facts and Figures"
-  - "NCAA.org, Recruiting Rules by Division"
-  - "United Soccer Coaches Annual Survey Data"
-  - "RosterWise 2025-26 roster dataset — international composition across 1,012 men's and 1,221 women's college soccer programs, compiled from publicly available college athletics websites, captured April-August 2026"
+eleventyComputed:
+  sources:
+    - "NCAA.org, Division III Facts and Figures"
+    - "NCAA.org, Recruiting Rules by Division"
+    - "United Soccer Coaches Annual Survey Data"
+    - "{{ 'soccer' | statSource('2025-26') | safe }}"
 cta:
   heading: "Replace myths with data."
   text: "RosterWise™ analyzes every D1, D2, D3, and NAIA soccer program — 2,200+ men's and women's rosters. Position depth, class-year gaps, international composition, recruiting patterns, and personalized My RosterFit™ scoring. See the reality behind every program, not the assumptions."
@@ -85,9 +86,9 @@ This myth creates anxiety among domestic families — the sense that programs ar
 
 ### What's actually true
 
-International recruiting varies dramatically by program, division, conference, and gender — and it is more common than most families assume. Across the 213 Division I men's soccer programs RosterWise analyzed for the 2025-26 season, international players held 2,099 of 6,203 roster spots — 33.8%, or about one in three. Recruiting 30% or more from overseas is not the exception at that level: 56.3% of D1 men's programs and 63.9% of D2 men's programs are at or above 30%. Individual programs still run the full range, from none at all to nearly the entire roster.
+International recruiting varies dramatically by program, division, conference, and gender — and it is more common than most families assume. Across the {% stat "soccer.2025-26.m.d1.intl_share", "n.programs" %} Division I men's soccer programs RosterWise analyzed for the 2025-26 season, international players held {% stat "soccer.2025-26.m.d1.intl_share", "international" %} of {% stat "soccer.2025-26.m.d1.intl_share", "players" %} roster spots — {% stat "soccer.2025-26.m.d1.intl_share", "pct" %}, or about one in three. Recruiting heavily from overseas is not the exception at that level: in {% statCountAbove "soccer.2025-26.m.d1.intl_share_by_conference", 30 %} D1 men's conferences, international players hold more than 30% of roster spots. Individual programs still run the full range, from none at all to nearly the entire roster.
 
-Women's soccer is lower at every division. Across 349 D1 women's programs the international share is 12.4%, against 33.8% for D1 men; the same gap holds at D2 (11.3% against 37.3%), D3 (2.1% against 11.2%), and NAIA (20.0% against 48.2%).
+Women's soccer is lower at every division. Across {% stat "soccer.2025-26.w.d1.intl_share", "n.programs" %} D1 women's programs the international share is {% stat "soccer.2025-26.w.d1.intl_share", "pct" %}, against {% stat "soccer.2025-26.m.d1.intl_share", "pct" %} for D1 men; the same gap holds at D2 ({% stat "soccer.2025-26.w.d2.intl_share", "pct" %} against {% stat "soccer.2025-26.m.d2.intl_share", "pct" %}), D3 ({% stat "soccer.2025-26.w.d3.intl_share", "pct" %} against {% stat "soccer.2025-26.m.d3.intl_share", "pct" %}), and NAIA ({% stat "soccer.2025-26.w.naia.intl_share", "pct" %} against {% stat "soccer.2025-26.m.naia.intl_share", "pct" %}).
 
 Conference-level patterns matter more than division-level averages.
 
@@ -166,3 +167,5 @@ That's why we built RosterWise — to replace assumptions with analysis, and to 
 ---
 
 *Recruiting rules, roster limits, and the composition of college rosters all change year to year. The roster-composition figures on this page come from RosterWise's analysis of **2025-26** rosters, computed 2026-08-26; the rule references reflect the landscape as of April 2026. Verify current rules at NCAA.org and NAIA.org, confirm league structures with ECNL and MLS NEXT, and treat roster-composition figures as descriptions of the season RosterWise analyzed rather than fixed rates.*
+
+*Updated October 24, 2026: the division figures on this page now print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle. They leave out Mercyhurst University and the University of New Haven, mid-transition from Division II to Division I that season, so the D1 men's share is {% stat "soccer.2025-26.m.d1.intl_share", "pct" %} (it read 33.8% with them).*

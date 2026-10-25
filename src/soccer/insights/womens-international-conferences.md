@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Women's Soccer Conferences with the Highest International Roster Composition — 2025 Season Analysis | RosterWise™"
 description: "Which college soccer conferences have the most international players on women's rosters? Conference-by-conference international composition data for NCAA and NAIA women's soccer, 2025 season."
-date: 2026-05-17
+date: 2026-10-24
 breadcrumbs:
   - text: Home
     url: /
@@ -10,7 +10,13 @@ breadcrumbs:
     url: /soccer/
   - text: Insights
   - text: Women's International Conferences
-summary: "Based on RosterWise™'s analysis of every published 2025 NCAA season women's college soccer roster, international players make up 12.5% of D1 women's soccer rosters, 11.3% of D2, 2.1% of D3, and 19.5% of NAIA. These numbers are substantially lower than men's soccer — but the variation between conferences is dramatic, and some conferences carry international percentages that approach men's levels."
+eleventyComputed:
+  summary: "Based on RosterWise™'s analysis of every settled 2025 NCAA season women's college soccer roster, international players make up {{ 'soccer.2025-26.w.d1.intl_share' | stat('pct') }} of D1 women's soccer rosters, {{ 'soccer.2025-26.w.d2.intl_share' | stat('pct') }} of D2, {{ 'soccer.2025-26.w.d3.intl_share' | stat('pct') }} of D3, and {{ 'soccer.2025-26.w.naia.intl_share' | stat('pct') }} of NAIA. These numbers are substantially lower than men's soccer — but the variation between conferences is dramatic, and some conferences carry international percentages that approach men's levels."
+  sources:
+    - "{{ 'soccer' | statSource('2025-26') | safe }}"
+    - '<a href="https://web3.ncaa.org/lsdbi/reports/getReport/90010">2026-27 NCAA Division II Manual</a> — Bylaw 15.4.2, equivalency limits'
+    - '<a href="https://web3.ncaa.org/lsdbi/reports/getReport/90011">2026-27 NCAA Division III Manual</a> — Bylaw 15.01.3, no aid on the basis of athletics'
+    - '<a href="/methodology/data-and-analysis/">RosterWise — Data and Analysis Methodology</a> (how a player is classified as international, and how conferences are assigned)'
 related:
   - title: "Men's International Conference Composition"
     url: /soccer/insights/mens-international-conferences/
@@ -24,10 +30,6 @@ related:
   - title: "International Student-Athletes Guide"
     url: /guide/international-student-athletes/
     status: live
-sources:
-  - "RosterWise 2025 roster dataset — publicly available college athletics websites, captured April–May 2026"
-  - "Roster hometown and country data parsed from official athletics websites"
-  - '<a href="https://www.ncaa.org">NCAA.org</a> — Division membership and conference listings'
 cta:
   heading: "RosterWise™ shows you international composition for every program."
   text: "See the international makeup of every women's soccer program in the country — by conference, by program, and by position. Know exactly what the competitive landscape looks like before you reach out."
@@ -40,71 +42,39 @@ ${toc}
 
 ## International recruiting in women's soccer: a different picture than men's
 
-Women's college soccer has historically had lower international roster composition than men's — and the 2025 data confirms this pattern persists across every division. Across all 1,223 women's programs, 3,337 players are classified as international (9.8% overall), compared to 33.6% in D1 men's soccer and 48.1% in NAIA men's soccer.
+Women's college soccer rosters carry a lower international share than men's in every division. Across all {% stat "soccer.2025-26.w.all.intl_share", "players" %} players on {% stat "soccer.2025-26.w.all.programs", "programs" %} women's rosters, {% stat "soccer.2025-26.w.all.intl_share", "international" %} are classified as international ({% stat "soccer.2025-26.w.all.intl_share", "pct" %} overall), compared to {% stat "soccer.2025-26.m.d1.intl_share", "pct" %} in D1 men's soccer and {% stat "soccer.2025-26.m.naia.intl_share", "pct" %} in NAIA men's soccer.
 
 But division-level averages mask significant conference-by-conference variation. Some D1 women's conferences carry international percentages above 20%, while others are below 5%. For domestic recruits and their families, understanding these patterns helps build a smarter target list.
 
 ## D1 women's soccer: conference-level international composition
 
-Across 347 D1 women's soccer programs, international players make up **12.5%** of all roster spots. The conference-by-conference variation ranges from 2.5% to 33.4%.
+Across {% stat "soccer.2025-26.w.d1.intl_share", "n.programs" %} D1 women's soccer programs, international players make up **{% stat "soccer.2025-26.w.d1.intl_share", "pct" %}** of all roster spots. The conference-by-conference variation ranges from {% statRowRange "soccer.2025-26.w.d1.intl_share_by_conference" %}.
 
-Many conferences in women's soccer are separated by fewer than two percentage points, so we group them into tiers rather than strict rankings.
+Many conferences in women's soccer are separated by fewer than two percentage points, so we group them into bands rather than strict rankings. Each table lists the conferences whose share falls in its band, highest first. One D1 program competes as an independent and is counted in the division total but sits in no band.
 
-### Notably high international composition (20%+)
+### Notably high international composition (20% or more)
 
-| Conference | Programs | Players | Intl Players | Intl % |
-|------------|----------|---------|-------------|--------|
-| Sun Belt Conference | 14 | 359 | 120 | 33.4% |
-| American Conference | 11 | 305 | 64 | 21.0% |
+{% statConferenceTable "soccer.2025-26.w.d1.intl_share_by_conference", 20 %}
 
-The Sun Belt stands out as the only D1 women's conference where international players make up roughly one in three roster spots — a level that approaches D1 men's averages.
+The Sun Belt stands out as the only D1 women's conference where international players make up roughly one in three roster spots ({% stat "soccer.2025-26.w.d1.intl_share_by_conference", "rows[Sun Belt Conference].pct" %}) — a level that approaches the D1 men's share.
 
-### Above D1 average (12–20%)
+### From 12.5% to 20%
 
-| Conference | Programs | Players | Intl Players | Intl % |
-|------------|----------|---------|-------------|--------|
-| Southwestern Athletic Conf. | 9 | 228 | 45 | 19.7% |
-| Metro Atlantic Athletic Conf. | 13 | 365 | 68 | 18.6% |
-| Conference USA | 12 | 329 | 59 | 17.9% |
-| America East Conference | 9 | 243 | 42 | 17.3% |
-| NEC | 12 | 369 | 62 | 16.8% |
-| Southland Conference | 11 | 302 | 46 | 15.2% |
-| Mid-American Conference | 13 | 358 | 54 | 15.1% |
-| BIG EAST Conference | 11 | 303 | 43 | 14.2% |
-| CAA | 12 | 311 | 40 | 12.9% |
-| Ohio Valley Conference | 10 | 274 | 35 | 12.8% |
-| Atlantic Sun Conference | 12 | 349 | 44 | 12.6% |
-| Atlantic Coast Conference | 17 | 471 | 59 | 12.5% |
+{% statConferenceTable "soccer.2025-26.w.d1.intl_share_by_conference", 12.5, 20 %}
 
-Note: The middle of this tier — from CAA (12.9%) through ACC (12.5%) — is a cluster of conferences separated by fractions of a percentage point.
+Note: from the Coastal Athletic Association ({% stat "soccer.2025-26.w.d1.intl_share_by_conference", "rows[Coastal Athletic Association].pct" %}) through the Atlantic Coast Conference ({% stat "soccer.2025-26.w.d1.intl_share_by_conference", "rows[Atlantic Coast Conference].pct" %}), the conferences in this band are separated by fractions of a percentage point.
 
-### Near or below D1 average (6–12%)
+### From 5% to 12.5%
 
-| Conference | Programs | Players | Intl Players | Intl % |
-|------------|----------|---------|-------------|--------|
-| The Summit League | 9 | 245 | 30 | 12.2% |
-| Western Athletic Conference | 6 | 156 | 18 | 11.5% |
-| Big Ten Conference | 18 | 502 | 57 | 11.4% |
-| Big South Conference | 9 | 266 | 29 | 10.9% |
-| The Ivy League | 8 | 221 | 23 | 10.4% |
-| Big 12 Conference | 16 | 437 | 44 | 10.1% |
-| Missouri Valley Conference | 10 | 277 | 28 | 10.1% |
-| Atlantic 10 Conference | 14 | 384 | 31 | 8.1% |
-| Southern Conference | 10 | 277 | 22 | 7.9% |
-| Horizon League | 11 | 309 | 24 | 7.8% |
-| Southeastern Conference | 16 | 436 | 34 | 7.8% |
-| Patriot League | 10 | 285 | 19 | 6.7% |
-| West Coast Conference | 12 | 346 | 22 | 6.4% |
-| Mountain West Conference | 13 | 349 | 22 | 6.3% |
+{% statConferenceTable "soccer.2025-26.w.d1.intl_share_by_conference", 5, 12.5 %}
 
-### Lowest international composition (<5%)
+### Lowest international composition (under 5%)
 
-| Conference | Programs | Players | Intl Players | Intl % |
-|------------|----------|---------|-------------|--------|
-| Big West Conference | 11 | 326 | 16 | 4.9% |
-| Big Sky Conference | 9 | 276 | 7 | 2.5% |
+{% statConferenceTable "soccer.2025-26.w.d1.intl_share_by_conference", 0, 5 %}
 
-The Big Sky Conference has the lowest international composition of any D1 women's conference — just 7 international players across 9 programs.
+*{% statNote "soccer.2025-26.w.d1.intl_share_by_conference" %}. Conferences as of the 2025-26 season. Mercyhurst University and the University of New Haven are left out of the D1 figures for 2025-26: both were mid-transition from Division II to Division I that season, so the NEC row counts its other programs.*
+
+The Big Sky Conference has the lowest international composition of any D1 women's conference — just {% stat "soccer.2025-26.w.d1.intl_share_by_conference", "rows[Big Sky Conference].international" %} international players across {% stat "soccer.2025-26.w.d1.intl_share_by_conference", "rows[Big Sky Conference].programs" %} programs.
 
 ## How this compares to men's soccer
 
@@ -112,36 +82,28 @@ Women's soccer international composition is lower than men's at every division l
 
 | Division | Women's Intl % | Men's Intl % | Gap |
 |----------|---------------|-------------|-----|
-| D1 | 12.5% | 33.6% | 21.1 pts |
-| D2 | 11.3% | 37.4% | 26.1 pts |
-| D3 | 2.1% | 11.2% | 9.1 pts |
-| NAIA | 19.5% | 48.1% | 28.6 pts |
+| D1 | {% stat "soccer.2025-26.w.d1.intl_share", "pct" %} | {% stat "soccer.2025-26.m.d1.intl_share", "pct" %} | {% statDiff "soccer.2025-26.m.d1.intl_share", "pct", "soccer.2025-26.w.d1.intl_share", "pct" %} pts |
+| D2 | {% stat "soccer.2025-26.w.d2.intl_share", "pct" %} | {% stat "soccer.2025-26.m.d2.intl_share", "pct" %} | {% statDiff "soccer.2025-26.m.d2.intl_share", "pct", "soccer.2025-26.w.d2.intl_share", "pct" %} pts |
+| D3 | {% stat "soccer.2025-26.w.d3.intl_share", "pct" %} | {% stat "soccer.2025-26.m.d3.intl_share", "pct" %} | {% statDiff "soccer.2025-26.m.d3.intl_share", "pct", "soccer.2025-26.w.d3.intl_share", "pct" %} pts |
+| NAIA | {% stat "soccer.2025-26.w.naia.intl_share", "pct" %} | {% stat "soccer.2025-26.m.naia.intl_share", "pct" %} | {% statDiff "soccer.2025-26.m.naia.intl_share", "pct", "soccer.2025-26.w.naia.intl_share", "pct" %} pts |
 
-The gap is largest in NAIA (28.6 percentage points) and smallest in D3 (9.1 points). The men's-women's gap in international recruiting is a consistent structural feature of college soccer across all four divisions.
+*{% statNote "soccer.2025-26.w.all.intl_share" %}.*
 
-## Why women's international composition is growing
-
-Several trends are driving the increase in international recruiting for women's college soccer:
-
-**Growth of women's soccer globally.** The international women's game has expanded dramatically. Countries that historically did not have strong women's soccer development pipelines now produce talented players who view American college soccer as an attractive pathway.
-
-**The scholarship draw.** For international female athletes, an American college soccer scholarship represents an opportunity that may not exist in their home country. The combination of high-level competition and a college degree is a powerful recruiting proposition.
-
-**Competitive pressure.** As with men's soccer, once a few programs in a conference begin successfully recruiting international players, others follow. The Sun Belt's 33.4% international composition reflects this dynamic.
+The gap is largest in NAIA ({% statDiff "soccer.2025-26.m.naia.intl_share", "pct", "soccer.2025-26.w.naia.intl_share", "pct" %} percentage points) and smallest in D3 ({% statDiff "soccer.2025-26.m.d3.intl_share", "pct", "soccer.2025-26.w.d3.intl_share", "pct" %} points). The men's-women's gap in international recruiting is a consistent structural feature of college soccer across all four divisions.
 
 ## D2, D3, and NAIA patterns
 
-**D2 women's soccer** carries an overall international percentage of **11.3%** — similar to D1. The equivalency scholarship model gives D2 coaches flexibility to distribute financial aid across more players, which can make international recruits practical for building roster depth.
+**D2 women's soccer** carries an overall international percentage of **{% stat "soccer.2025-26.w.d2.intl_share", "pct" %}** — similar to D1. Women's soccer in D2 is an equivalency sport, so coaches can divide athletic aid across more players.
 
-**D3 women's soccer** averages just **2.1%** international. Without athletic scholarships, D3 programs attract international players through academic reputation and institutional financial aid. The programs with the highest D3 international percentages tend to be schools with strong international student recruitment overall.
+**D3 women's soccer** averages just **{% stat "soccer.2025-26.w.d3.intl_share", "pct" %}** international. D3 programs offer no athletic scholarships, so any aid an international player receives is academic or need-based.
 
-**NAIA women's soccer** averages **19.5%** international — the highest of any women's division, reflecting the NAIA's distinct institutional profile and scholarship model.
+**NAIA women's soccer** averages **{% stat "soccer.2025-26.w.naia.intl_share", "pct" %}** international — the highest of any women's division.
 
 ## What this means for domestic women's soccer recruits
 
 For families with a domestic women's soccer recruit, the international composition data helps in several practical ways:
 
-**Targeting conferences where your athlete's pathway is most common.** If your athlete comes through ECNL Girls, Girls Academy, or a strong high school program, conferences with lower international composition are those where the domestic pipeline dominates. Your athlete's visibility in that ecosystem carries more weight.
+**Targeting conferences where your athlete's pathway is most common.** If your athlete comes through ECNL Girls, Girls Academy, or a strong high school program, conferences with lower international composition are those where the domestic pipeline dominates.
 
 **Understanding the competitive landscape.** In conferences with higher international composition — particularly the Sun Belt and American Conference — your athlete may be competing for spots against players from international development programs. This is not a reason to avoid those conferences, but it is context worth having.
 
@@ -155,4 +117,6 @@ A program with higher-than-average international composition may still be the pe
 
 ---
 
-*Data reflects 2025 NCAA season rosters as published on official athletics websites, captured April–May 2026. See [methodology](/methodology/data-and-analysis/) for full documentation.*
+*Figures on this page print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle; each table carries the date its rosters were read. See [methodology](/methodology/data-and-analysis/) for full documentation.*
+
+*Corrected October 24, 2026: every figure on this page now comes from that file. Earlier versions used an April–May 2026 capture and differed in two rows: the NEC row counted Mercyhurst and New Haven, which the page's own note left out (now {% stat "soccer.2025-26.w.d1.intl_share_by_conference", "rows[NEC].programs" %} programs, was 12), and the Southeastern Conference's international share is {% stat "soccer.2025-26.w.d1.intl_share_by_conference", "rows[Southeastern Conference].pct" %}, not the 7.8% published before. Several other cells moved by a few players. A section on why women's international composition is growing was removed: no data behind it measures growth.*

@@ -2,6 +2,7 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItTocDoneRight = require("markdown-it-toc-done-right");
 const apps = require("./src/_data/apps.json");
+const rosterStats = require("./lib/roster-stats");
 
 module.exports = function (eleventyConfig) {
   // --- Passthrough copies ---
@@ -151,6 +152,20 @@ module.exports = function (eleventyConfig) {
       value === undefined || value === null ? "" : String(value)
     ).replace(/</g, "\\u003c")
   );
+
+  // --- Roster stats ---
+  // Pages print roster figures from their ids in src/_data/rosterStats/, never
+  // as typed numbers; an unknown id or field stops the build. See
+  // lib/roster-stats.js. The filters serve front matter (eleventyComputed).
+  for (const name of [
+    "stat", "statDiff", "statShare", "statRatio", "statNote", "statSource",
+    "statConferenceTable", "statCountAbove", "statRowRange", "statStateTable", "statStateAt",
+    "statBundle", "statRead", "statLeftOut",
+  ]) {
+    eleventyConfig.addShortcode(name, rosterStats[name]);
+  }
+  eleventyConfig.addFilter("stat", rosterStats.stat);
+  eleventyConfig.addFilter("statSource", rosterStats.statSource);
 
   return {
     dir: {
