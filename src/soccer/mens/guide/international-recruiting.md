@@ -1,8 +1,8 @@
 ---
 layout: content.njk
 title: "International Recruiting for Men's College Soccer | RosterWise™"
-description: "How international recruiting works in men's college soccer — why programs recruit internationally, how it affects domestic recruits, and what families should know about roster composition."
-date: 2026-08-26
+description: "How international players show up on men's college soccer rosters — the share by division, their home countries, what it means for domestic recruits, and how to read a roster."
+date: 2026-10-24
 breadcrumbs:
   - text: Home
     url: /
@@ -12,7 +12,6 @@ breadcrumbs:
     url: /soccer/mens/
   - text: Guide
   - text: International Recruiting
-summary: "International recruiting is a bigger factor in men's college soccer than in almost any other college sport. This isn't good or bad — it's a program-level decision driven by coaching philosophy, competitive goals, institutional identity, and recruiting networks. But for domestic families navigating the recruiting process, understanding international roster composition matters. It affects the number of available spots, the competition for those spots, and the overall recruiting dynamic at each program."
 related:
   - title: "Men's College Soccer Recruiting Timeline"
     url: /soccer/mens/guide/recruiting-timeline/
@@ -30,54 +29,23 @@ related:
     url: /soccer/womens/guide/international-recruiting/
     status: live
 eleventyComputed:
+  summary: "On RosterWise's 2025-26 rosters, international players held {{ 'soccer.2025-26.m.all.intl_share' | stat('pct') }} of men's college soccer roster spots across the NCAA and the NAIA — and the share was highest at NAIA, not Division I. For a domestic family, a program's international composition shapes how many of its roster spots domestic players hold, which position groups are contested, and how the roster will turn over. This guide sets out the division figures and the players' home countries, and shows how to read a program's roster for yourself."
   sources:
     - "{{ 'soccer' | statSource('2025-26') | safe }}"
-    - "NCAA.org, international student-athlete eligibility requirements"
-    - "NCAA Eligibility Center, international student guidelines"
+    - '<a href="https://web3.ncaa.org/lsdbi/reports/getReport/90008">2026-27 NCAA Division I Manual</a> — Bylaw 17.2, Roster Limitations (men''s soccer 28; who must be on the submitted roster, Bylaw 17.2.2)'
+    - '<a href="https://web3.ncaa.org/lsdbi/reports/getReport/90011">2026-27 NCAA Division III Manual</a> — Bylaw 15.01.3, no financial aid on the basis of athletics'
+    - '<a href="/guide/international-student-athletes/">RosterWise — International Student-Athletes</a> (universal guide: NCAA Eligibility Center steps for international students)'
 cta:
   heading: "See exactly how international each program's roster is."
-  text: "RosterWise tracks international player composition at every D1, D2, D3, and NAIA men's soccer program — so families can see which programs recruit heavily internationally, which build primarily from domestic talent, and what that means for roster opportunities at each school."
+  text: "RosterWise tracks international player composition at D1, D2, D3, and NAIA men's soccer programs — so families can see which rosters are heavily international, which are mostly domestic, and what that means for roster opportunities at each school."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}
 
-## The big picture: international players in men's college soccer
+## International players in men's college soccer, by division
 
-Men's college soccer has a higher percentage of international players than most other NCAA sports. This is a well-known characteristic of the college game, and it's driven by several factors:
-
-- Soccer is the world's most popular sport, and the US college system offers a combination of education and competitive play that attracts talented international players.
-- Recruiting networks between college coaches and international academies, clubs, and scouts have deepened over decades.
-- International players often arrive with professional academy training backgrounds that are difficult to replicate in the US youth development system.
-- Some programs have built institutional identities around international recruiting — it's a deliberate competitive strategy.
-
-## Why this matters for domestic recruits and their families
-
-For a domestic family navigating men's college soccer recruiting, international roster composition is practically relevant:
-
-**It affects the number of available spots.** A program with a 28-player D1 roster and 10 international players has 18 spots for domestic recruits. A program with 3 international players has 25. The math shapes opportunity.
-
-**It affects positional competition.** International recruiting patterns are not evenly distributed across positions. Some programs recruit international players heavily at specific positions — attacking positions are common — while building other position groups from domestic talent. Understanding these patterns helps families assess positional opportunity more accurately.
-
-**It affects team culture and experience.** Programs with significant international populations often have a different locker room culture, practice environment, and social dynamic than programs that are primarily domestic. This isn't better or worse — it's a factor in fit that some families care about and others don't.
-
-**It affects scholarship distribution.** International players receive the same scholarship dollars as domestic players. At programs with significant international rosters, scholarship money is distributed across a more diverse talent pool.
-
-## How programs recruit internationally
-
-International recruiting works differently from domestic recruiting:
-
-**Scouting networks:** Many coaches have established relationships with international academies, clubs, coaches, and scouts — particularly in Western Europe, Latin America, and parts of Africa. These networks produce a pipeline of recruits who may never attend a US-based showcase or ID camp.
-
-**Video and referrals:** International recruits are often initially identified through video, recommendations from trusted contacts in their home country, and online recruiting platforms. In-person evaluation may happen later — sometimes at international showcases, sometimes when the player arrives on campus for an official visit.
-
-**Timing:** International recruiting often happens on a different timeline than domestic recruiting. Some international players commit in the spring or summer before their first fall semester, well after domestic recruits have committed. Others are identified and recruited over longer periods through ongoing international scouting.
-
-**Academic eligibility:** International students must meet NCAA eligibility requirements, which include transcript evaluation through the NCAA Eligibility Center. The process is more complex than for domestic students — course-by-course evaluation of international transcripts, English proficiency requirements, and amateurism certification all apply. This complexity can affect timing but doesn't prevent international recruiting.
-
-## Patterns across divisions
-
-International recruiting patterns differ by division — and not in the order most families assume. Across the rosters RosterWise analysed for the 2025-26 season, the international share of men's soccer roster spots ran:
+Across the rosters RosterWise analysed for the 2025-26 season, international players held {% stat "soccer.2025-26.m.all.intl_share", "international" %} of {% stat "soccer.2025-26.m.all.intl_share", "players" %} men's soccer roster spots — {% stat "soccer.2025-26.m.all.intl_share", "pct" %}. The share differs by division, and not in the order most families assume:
 
 | Division | International share of roster spots |
 | --- | --- |
@@ -90,9 +58,29 @@ International recruiting patterns differ by division — and not in the order mo
 
 **NAIA is the highest, not D1.** Nearly half of all men's soccer roster spots at NAIA programs went to international players, and D2 sat above D1 as well. If you have been told that international recruiting is a Division I phenomenon, the data says otherwise.
 
-**D3 is the outlier in the other direction** at just over one spot in nine — unsurprising, since D3 offers no athletic scholarships and international students are rarely in a position to fund four years without them.
+**D3 is the outlier in the other direction** at just over one spot in nine. Division III awards no financial aid on the basis of athletics, so any aid an international player receives there is not athletic aid.
 
-**The variance within each division is larger than the gaps between them.** Individual programs run the full range, from no international players at all to nearly the whole roster. The only way to know a specific program's composition is to look at its roster.
+**A division figure is an average.** It describes a division's programs taken together, and a single program can sit well above or below it. Within Division I the share also differs by conference — see [international composition by conference](/soccer/insights/mens-international-conferences/). The only way to know a specific program's composition is to read its roster.
+
+## Where international players come from
+
+Of the international players on 2025-26 men's rosters who list a home country, the most common were {% statCountryList "soccer.2025-26.m.all.top_countries", 10 %}. In Division I alone, the five most common were {% statCountryList "soccer.2025-26.m.d1.top_countries", 5 %}.
+
+*Shares are of the international players who list a home country. {% statNote "soccer.2025-26.m.all.top_countries" %}.*
+
+These are national totals. A program's own roster shows where its international players are from.
+
+## Why this matters for domestic recruits and their families
+
+**It sets how many spots domestic players hold.** Say a Division I program carries 28 players — the men's soccer roster limit at schools in the five defendant conferences and those that opt in to the House settlement — and 10 of them are international. Domestic players hold 18 of the spots. With 3 international players, they hold 25.
+
+**Look by position, not only in total.** The overall share doesn't say where a program's international players play. The roster lists each player's position and hometown, so you can count by position group — and the group your athlete would compete in is the count that applies to them.
+
+**Look at class years.** International players graduate like everyone else. A program whose international players are mostly seniors has spots to fill next year; whether it fills them internationally again is a question for the coach.
+
+## How eligibility works for international recruits
+
+International recruits go through the NCAA Eligibility Center, with steps of their own for international coursework and for amateurism certification. Our [universal guide to international student-athletes](/guide/international-student-athletes/) sets them out, with the NCAA's own sources.
 
 ## What families should consider
 
@@ -100,56 +88,57 @@ International roster composition is a data point, not a judgment. Here's how fam
 
 ### When evaluating programs
 
-- **Look at the roster.** Count the international players. Look at their positions. Look at their class years. This tells you how the program uses international recruiting and where domestic opportunities exist.
-- **Consider the trend.** A program that has been increasing its international recruiting over the past few years may continue to do so. A program that has been building domestically probably will continue that approach.
-- **Ask the coaching staff.** During conversations with coaches, it's appropriate to ask about the program's recruiting philosophy — domestic vs. international, positional priorities, and how the roster is expected to evolve.
+- **Read the roster.** Count the international players, and note their positions and class years. That tells you how the program uses international recruiting and where domestic spots exist.
+- **Compare seasons.** Look at last season's roster beside this one to see whether the international share is changing — then ask the coach how they expect it to change.
+- **Ask the coaching staff.** It's appropriate to ask about the program's recruiting approach — domestic and international, positional priorities, and how the roster is expected to change.
 
 ### When building a target list
 
-- **Don't automatically eliminate programs with high international composition.** If a program has 35% international players but three of its international forwards are graduating, there may be significant domestic opportunity in the next recruiting class — or the program may fill those spots with new international recruits. Ask.
-- **Don't assume programs with low international composition are "easier" to get into.** Low international percentage doesn't mean less competition — it may mean the program draws from a deep domestic talent pool.
-- **Use roster data alongside other factors.** International composition is one factor among many — academic fit, geographic preference, scholarship availability, coaching style, and competitive level all matter more than international percentage in isolation.
+- **Don't automatically eliminate programs with high international composition.** Say a program has 35% international players and three of its international forwards are graduating: there may be room in the next recruiting class for a domestic forward — or the program may recruit internationally again. Ask.
+- **Don't assume a low international share means less competition.** A mostly domestic roster still has to be earned.
+- **Weigh it with everything else.** International composition is one factor among many, alongside academic fit, location, cost and level of play.
 
-### When competing for roster spots
+### When looking at your athlete's position
 
-- **International players are teammates, not competitors.** Once on a roster, the distinction between domestic and international players matters for research purposes but not for the team experience. Programs that successfully integrate diverse rosters often have strong team cultures.
-- **Position-specific analysis is more useful than overall percentage.** A program might be 30% international overall but have zero international goalkeepers and five international forwards. The positional breakdown matters more than the headline number.
-- **Class-year timing matters.** International players graduate and move on just like domestic players. A program with a high international percentage but multiple senior internationals will have different needs next year.
+- **The positional count says more than the headline number.** A program might be 30% international overall with no international goalkeepers and five international forwards. For your athlete, the count at their position is the one that applies.
+- **Class-year timing matters.** A program with several senior internationals at your athlete's position will have different needs next year.
 
 ## Common questions families ask
 
 **"Is it harder for my son to get recruited because of international players?"**
 
-It depends entirely on the program. At programs that recruit heavily internationally, there are fewer spots for domestic recruits. At programs that recruit primarily domestically, international recruiting isn't a factor. The key is identifying programs where the opportunity exists for your player's position and profile — which requires looking at actual rosters, not making assumptions.
+It depends on the program. Where a roster has many international players, domestic players hold fewer of its spots; where it has few, international recruiting takes few of them. The way to know is to read the rosters of the programs on your list.
 
 **"Are international players getting all the scholarships?"**
 
-International players receive scholarships on the same terms as domestic players. At programs with high international composition, scholarship dollars are distributed across both populations. At programs with lower international composition, the dynamic is different. The total scholarship pool and roster size matter more than the international composition for understanding scholarship availability.
+A roster shows how many international players a program carries, not who receives athletic aid or how much. Ask the coach how aid is awarded across the roster. At Division III there is no athletic aid for anyone.
 
 **"Should we avoid programs with lots of international players?"**
 
-Not necessarily. Some of the best men's college soccer programs in the country have significant international representation. The question isn't "should we avoid these programs" but "does my player have a realistic opportunity at this specific program, given its roster composition, positional needs, and recruiting plans?" That's a data question, not a philosophical one.
+Not necessarily. The useful question is whether your athlete has a realistic opportunity at that specific program, given its roster, its positional needs and its recruiting plans — and the roster and the coach can answer it.
 
 **"Do international players take walk-on spots?"**
 
-Under the House settlement, D1 roster limits have reduced walk-on opportunities broadly — for both domestic and international players. International students are less likely to walk on because of visa and financial considerations, but the dynamic varies by program.
+At Division I schools under the House settlement's roster limits, anyone who practices after the roster deadline must be on the submitted roster, and the roster limit counts everyone on it, with or without aid, apart from narrow exceptions such as designated student-athletes. So the question is how many of its 28 spots a program leaves for players without aid — international or domestic. Ask the coach.
 
 ## How RosterWise helps
 
-International roster composition is exactly the kind of program-level intelligence that's hard for families to compile on their own. Checking 200+ program rosters manually, counting international players, tracking their positions and class years — it's a significant research burden.
+International roster composition is exactly the kind of program-level intelligence that's hard for families to compile on their own. Checking {% stat "soccer.2025-26.m.all.programs", "programs" %} men's rosters by hand, counting international players and tracking their positions and class years, is a significant research burden.
 
-RosterWise tracks international player percentage at every D1, D2, D3, and NAIA men's soccer program. Families can filter programs by international composition, see positional breakdowns, and identify where domestic opportunity aligns with their player's profile.
+RosterWise tracks the international share at D1, D2, D3, and NAIA men's soccer programs. Families can filter programs by international composition, see positional breakdowns, and identify where domestic opportunity aligns with their player's profile.
 
-This doesn't replace conversations with coaches — nothing does. But it helps families ask better questions, target the right programs, and approach the recruiting process with clear-eyed understanding of each program's roster dynamics.
+This doesn't replace conversations with coaches — nothing does. But it helps families ask better questions and decide where to look.
 
 ## Women's recruiting works differently
 
-International recruiting in women's college soccer has different patterns, percentages, and dynamics. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/international-recruiting/).
+International recruiting in women's college soccer has different percentages and a different mix of home countries. If you're navigating women's recruiting, [here's the women's version](/soccer/womens/guide/international-recruiting/).
 
 ---
 
-*Eligibility, amateurism, and visa rules for international recruits change independently of one another. This article reflects the landscape as of **April 2026**. Verify current eligibility rules at NCAA.org and NAIA.org, confirm amateurism certification with the NCAA Eligibility Center, and consult a qualified immigration attorney for visa questions.*
+*Eligibility, amateurism, and visa rules for international recruits change independently of one another. Verify current eligibility rules at NCAA.org and NAIA.org, confirm amateurism certification with the NCAA Eligibility Center, and consult a qualified immigration attorney for visa questions.*
 
 *Updated October 24, 2026: the division figures on this page now print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle. They leave out Mercyhurst University and the University of New Haven, mid-transition from Division II to Division I that season, so the D1 men's share is {% stat "soccer.2025-26.m.d1.intl_share", "pct" %} (it read 33.8% with them).*
 
 *Corrected October 24, 2026: claims that some D1 programs carry "30-40%" or "40% or more" international players and others "fewer than 10%" were removed; no RosterWise figure computes a range across programs.*
+
+*Corrected October 24, 2026, after a fact check of the whole page: unsourced statements were removed — why programs recruit internationally ("the world's most popular sport", academy backgrounds "difficult to replicate"), how international players are scouted and when they commit, that attacking positions are where they are common, that they receive "the same scholarship dollars" as domestic players, that D3 international students are "rarely in a position to fund four years", that variation within a division is "larger than the gaps between them", that international students are "less likely to walk on", locker-room culture, and "some of the best programs". The home countries now print from the roster stats, and the walk-on answer states Bylaw 17.2.*

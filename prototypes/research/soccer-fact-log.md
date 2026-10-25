@@ -584,6 +584,38 @@ pages, as its own PR stacked on rosterwise.app#13, priority A first. The invento
 | CTA "2,200+ men's and women's rosters" | soccer/guide/recruiting-myths | Typed round number (§4.3) |
 | "replacing scholarship caps with roster limits for schools that opted in" | soccer (hub) | Scope narrower than Bylaw 17.2; replaced |
 
+### Priority B — the three international pages, rewritten 2026-10-24
+
+| Claim | Primary source | Verified | Articles |
+| --- | --- | --- | --- |
+| `soccer.2025-26.m.d1.top_countries` (top five): GB **11.1%**, CA **11.1%**, DE **9.2%**, ES **7.6%**, FR **4.9%** | RosterWise roster stats (see §U), `{% statCountryList %}` | 2026-10-24 | soccer/mens/guide/international-recruiting |
+| `soccer.2025-26.w.d1.top_countries` (top five): CA **34.4%**, GB **12.9%**, DE **6.7%**, ES **4.5%**, SE **4.1%** | Same | 2026-10-24 | soccer/womens/guide/international-recruiting |
+| Men's and women's all-division top ten (rows above, §W priority A): printed in full | Same | 2026-10-24 | soccer/mens/guide/international-recruiting, soccer/womens/guide/international-recruiting, soccer/methodology/international-composition |
+| "Canada's share of women's international players is far larger than its share of men's" — **19.6%** against **5.0%** | `.w.all.top_countries` vs `.m.all.top_countries` | 2026-10-24 | soccer/womens/guide/international-recruiting, soccer/methodology/international-composition |
+| Women's international share, two seasons: **9.9%** (2025-26, 3,329 of 33,762) and **9.3%** (2026-27, 3,199 of 34,216; Rosters as of Sep 29, 2026 · 2026-27 season); "two seasons aren't a trend" | `soccer.2025-26.w.all.intl_share`, `soccer.2026-27.w.all.intl_share` | 2026-10-24 | soccer/womens/guide/international-recruiting |
+| D1 men's conference range **11.3%** to **62.3%** (independents left out) | `.m.d1.intl_share_by_conference` (`statRowRange`; §U row) | 2026-10-24 | soccer/methodology/international-composition |
+| Men's and women's international totals: men's **9,435** of **32,959**; women's **3,329** of **33,762**; rosters checked: **1,008** men's, **1,218** women's | `.{m,w}.all.intl_share`, `.{m,w}.all.programs` | 2026-10-24 | soccer/mens/guide/international-recruiting, soccer/womens/guide/international-recruiting |
+| **Who counts against a D1 roster limit:** "Beginning the day after an institution's deadline for roster submission, an individual must be on the sport's submitted roster to participate in athletically related activities"; a designated student-athlete on the roster "may continue to participate … without counting toward the sport's roster limitation, provided the student-athlete has athletics eligibility remaining." The limit applies to the submitted roster, aid or no aid; season-ending-injury and medical exceptions also exist (17.2.2.3-.4) | **2026-27 NCAA Division I Manual (dated 10/24/26), Bylaws 17.2.2 and 17.2.2.2**, LSDBi `getReport/90008`, verbatim | 2026-10-24 | soccer/mens/guide/international-recruiting, soccer/womens/guide/international-recruiting |
+| D3 awards no aid on the basis of athletics, so any aid an international player receives there is not athletic aid | §B row "D3 institutions may not award financial aid on the basis of athletics" (Bylaw 15.01.3); the consequence is the bylaw's own | 2026-10-24 | soccer/mens/guide/international-recruiting, soccer/womens/guide/international-recruiting |
+| RosterWise classifies a player as international from the roster's hometown and country; where the roster is unclear the player is not classified international, so the figure leans toward understating | RosterWise's own method (product description, §3); the location repairs in pipeline RS-2 work the same way (unclear rows go to a review list, not to international) | 2026-10-24 | soccer/methodology/international-composition |
+
+| Cut 2026-10-24 | Page | Why |
+| --- | --- | --- |
+| "bigger factor … than in almost any other college sport"; "than most other NCAA sports … well-known" | mens guide | §N row is PENDING/unsourced |
+| Why programs recruit internationally: "the world's most popular sport", networks "deepened over decades", academy training "difficult to replicate", "a deliberate competitive strategy"; women's: global growth, pro opportunities "limited", the NWSL's effect; methodology: "Why men's programs recruit more internationally", "Why the pattern differs", "the US is the dominant country in women's soccer globally" | all three | Causal claims with no source (§3); the same class was cut from the insights pages (§U) |
+| "enriches the college game, raises competitive levels", "raises the level of play", "tactical diversity", "play differently", "lower-risk", "different locker room culture/dynamic", "Some of the best men's college soccer programs", "equally competitive" | all three | Evaluative (§4.1) |
+| How international players are scouted (video, referrals, "online recruiting platforms"), when they commit ("well after domestic recruits"), visa "established processes", "exchange programs" | all three | Distributional, no rows |
+| "attacking positions are common" / "cluster at attacking positions" | mens guide, methodology | No id splits international players by position |
+| "receive the same scholarship dollars" / "athletic aid on the same terms" | mens guide, womens guide | A rule with no row |
+| "rarely in a position to fund four years without them" | mens guide | Causal, no row (open item 27) |
+| "The variance within each division is larger than the gaps between them … from no international players at all to nearly the whole roster" | mens guide, womens guide | No per-program id (open item 27 named the men's page only) |
+| "growing", "the trend has been increasing", "this is changing gradually", "Growing but from a lower base", "Is international recruiting growing? Generally, yes." | womens guide | No time series; §U cut the same claim. The FAQ now prints both seasons and says they aren't a trend |
+| "probably will continue that approach" | mens guide, womens guide | Prediction (§4.2); replaced with "compare seasons and ask" |
+| "roster limits have reduced walk-on opportunities broadly"; "less likely to walk on because of visa and financial considerations" | mens guide, womens guide | Causal, no row; replaced with Bylaw 17.2.2 |
+| "a longer history and higher volume … draws from different source countries" | womens guide | "Longer history" has no row; volume and countries now print from ids |
+| "generally conservative … may be slightly higher" | methodology | Replaced by a description of the method's direction of error |
+| Sources "NCAA.org, international student-athlete eligibility requirements", "NCAA Eligibility Center, international student guidelines", "Publicly available college soccer rosters …", "NCAA.org — Division membership and program listings" | all three | Named no document, or supported nothing on the page; replaced with the Manuals and the universal guide that carry the rules |
+
 ### Open items to re-check before/at publish
 
 **Must fix before this content set can pass §7 again**
