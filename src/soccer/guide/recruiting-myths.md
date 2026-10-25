@@ -1,8 +1,8 @@
 ---
 layout: content.njk
 title: "9 Common Soccer Recruiting Myths (And What's Actually True) | RosterWise™"
-description: "The recruiting process is full of conventional wisdom that doesn't hold up. Here are nine common soccer recruiting myths — and what the data and experience actually show."
-date: 2026-08-26
+description: "The recruiting process is full of conventional wisdom that doesn't hold up. Here are nine common soccer recruiting myths — and what the rules and the roster data actually show."
+date: 2026-10-24
 breadcrumbs:
   - text: Home
     url: /
@@ -10,7 +10,7 @@ breadcrumbs:
     url: /soccer/
   - text: Guide
   - text: Recruiting Myths
-summary: "The college soccer recruiting process is full of conventional wisdom — advice passed around at tournaments, shared in parent group chats, and repeated so often it starts to sound like fact. Some of it is helpful. Some of it is misleading. And some of it can steer families in the wrong direction at a critical time. This guide breaks down nine of the most common soccer recruiting myths and replaces them with what families actually need to know."
+summary: "The college soccer recruiting process is full of conventional wisdom — advice passed around at tournaments, shared in parent group chats, and repeated so often it starts to sound like fact. This guide takes nine of the most common soccer recruiting myths and sets each against what the NCAA's rules and RosterWise's roster data actually say — and, where neither settles it, the question to ask instead."
 related:
   - title: "How to Read a College Soccer Roster Like a Recruiter"
     url: /soccer/guide/reading-rosters/
@@ -24,9 +24,9 @@ related:
     url: /guide/division-differences/
 eleventyComputed:
   sources:
-    - "NCAA.org, Division III Facts and Figures"
-    - "NCAA.org, Recruiting Rules by Division"
-    - "United Soccer Coaches Annual Survey Data"
+    - '<a href="https://web3.ncaa.org/lsdbi/reports/getReport/90011">2026-27 NCAA Division III Manual</a> — Bylaws 15.01.3 (no aid on the basis of athletics) and 15.01.4 (consistent financial aid package)'
+    - '<a href="https://web3.ncaa.org/lsdbi/reports/getReport/90008">2026-27 NCAA Division I Manual</a> — Bylaws 13.1.3.1 (telephone calls), 13.4.1 (recruiting materials), 13.1.1.1 (off-campus contact) and 13.12.1.5.1 (recruiting conversations at camps)'
+    - '<a href="https://www.ncaa.org/student-athletes/scholarships-and-financial-aid/">NCAA.org — Scholarships & Financial Aid</a>; NCAA Division I Council action of October 9, 2024 (written offers of athletics aid replace the NLI)'
     - "{{ 'soccer' | statSource('2025-26') | safe }}"
 cta:
   heading: "Replace myths with data."
@@ -38,11 +38,11 @@ ${toc}
 
 The college soccer recruiting process generates a lot of advice. Some of it comes from coaches. Some comes from club directors. A lot of it comes from other parents — well-meaning families sharing what they've heard, not necessarily what they've verified.
 
-The problem with recruiting myths isn't that they're completely invented. Most have a kernel of truth that made them credible at some point. The problem is that they oversimplify a process that is, by nature, highly individual. When families treat myths as rules, they narrow their options, misallocate their time, or feel unnecessarily anxious about their athlete's path.
+The problem with recruiting myths isn't that they're completely invented. Most have a kernel of truth. The problem is that they oversimplify a process that is, by nature, highly individual. When families treat myths as rules, they narrow their options, misallocate their time, or feel unnecessarily anxious about their athlete's path.
 
 Here are nine of the most persistent myths in soccer recruiting — and what's actually true.
 
-> **A note on individual variation:** Every recruiting journey is different. The "realities" below reflect general patterns across thousands of programs. Your athlete's experience may differ based on position, development trajectory, geography, academic profile, and a dozen other factors. Use this as a framework for thinking, not a substitute for doing your own research.
+> **How to read the answers:** each one rests on an NCAA rule or on RosterWise's own roster figures, where those exist. Where neither settles a question, we say so and give you the question to ask instead. Your athlete's experience will depend on position, development, geography, academic profile and much else. Use this as a framework for thinking, not a substitute for doing your own research.
 
 ## Myth: "D3 schools don't offer money for athletes"
 
@@ -50,11 +50,11 @@ This one comes up constantly. Parents hear "Division III" and assume it means ze
 
 ### What's actually true
 
-D3 schools cannot offer athletic scholarships. That part is accurate. But many D3 institutions are generous with academic merit scholarships, need-based financial aid, and institutional grants that can significantly reduce the cost of attendance. A strong student-athlete at a D3 program can receive a financial aid package that rivals or exceeds what a partial D1 athletic scholarship would cover.
+D3 schools cannot offer athletic scholarships: a Division III school "shall not award financial aid to any student on the basis of athletics leadership, ability, participation or performance." That part is accurate. But the same rules leave a D3 athlete's other aid alone: the financial aid package offered to a student-athlete must be "consistent with the established policy of the institution's financial aid office … for all students." Academic merit and need-based aid are open to an athlete on the same terms as any other student.
 
 ### What this means for your family
 
-Don't dismiss D3 programs on cost alone. Ask each school's financial aid office what aid your athlete qualifies for. The net cost of a D3 school with strong institutional aid can be lower than a D1 school offering a 25% athletic scholarship.
+Don't dismiss D3 programs on cost alone. Ask each school's financial aid office what aid your athlete qualifies for, and compare net costs — what you would actually pay — across every school on your list, whatever its division.
 
 ## Myth: "D1 = best soccer, D3 = worst soccer"
 
@@ -62,19 +62,19 @@ This is the division hierarchy myth — the assumption that divisions are neatly
 
 ### What's actually true
 
-Division classification is primarily about institutional size, scholarship structure and athletic department philosophy — not a ranking of playing quality. The range of quality *within* each division is wide, and it overlaps across divisions. We will not tell you which specific programs or conferences would beat which: that is a judgment, not a fact, and RosterWise does not rank programs. What the roster data does show is that players at the top of D3 frequently held offers at higher divisions and chose D3 for academic, financial or personal reasons.
+A division is a set of rules, not a ranking of playing quality. The most visible difference is athletic aid: Division I and II programs may award it, Division III programs may not, and NAIA programs may under the NAIA's own limits. We will not tell you which specific programs or conferences would beat which: that is a judgment, not a fact, and RosterWise does not rank programs.
 
 ### What this means for your family
 
-Focus on program quality, not division label. Watch game film, visit campus, look at roster depth and recruiting patterns. The best fit for your athlete might be a top D3 program, a mid-level D1, or a strong NAIA school. Division alone tells you very little about the level of soccer.
+Focus on program fit, not division label. Watch game film, visit campus, look at roster depth and recruiting patterns. A division label tells you which rules a program works under, not whether it suits your athlete.
 
 ## Myth: "Recruiting starts junior year"
 
-This myth leads families to believe they have plenty of time — and then feel blindsided when they realize evaluation was happening before they were paying attention.
+This myth leads families to believe they have plenty of time — and then feel blindsided when they realize interest was building before they were paying attention.
 
 ### What's actually true
 
-NCAA rules restrict when coaches can initiate contact (June 15 after sophomore year for D1 soccer), but evaluation starts much earlier. D1 coaches attend showcases, MLS Next events, and ECNL matches during a player's freshman and sophomore years. By the time a coach can legally call your athlete, they may have already been watching for a year or more. That said, the majority of verbal commitments in men's soccer still happen in junior and senior year — so "starting late" doesn't mean it's too late.
+NCAA rules restrict when Division I soccer coaches can contact a recruit: no telephone calls, recruiting materials or electronic correspondence before June 15 at the end of sophomore year, and no in-person, off-campus contact before August 1 at the start of junior year. Those dates limit contact. They don't start the clock on your athlete's play: by the time a coach is allowed to call, your athlete's film, results and club season are what that coach has to go on.
 
 ### What this means for your family
 
@@ -86,11 +86,11 @@ This myth creates anxiety among domestic families — the sense that programs ar
 
 ### What's actually true
 
-International recruiting varies dramatically by program, division, conference, and gender — and it is more common than most families assume. Across the {% stat "soccer.2025-26.m.d1.intl_share", "n.programs" %} Division I men's soccer programs RosterWise analyzed for the 2025-26 season, international players held {% stat "soccer.2025-26.m.d1.intl_share", "international" %} of {% stat "soccer.2025-26.m.d1.intl_share", "players" %} roster spots — {% stat "soccer.2025-26.m.d1.intl_share", "pct" %}, or about one in three. Recruiting heavily from overseas is not the exception at that level: in {% statCountAbove "soccer.2025-26.m.d1.intl_share_by_conference", 30 %} D1 men's conferences, international players hold more than 30% of roster spots. Individual programs still run the full range, from none at all to nearly the entire roster.
+International recruiting varies by division, by conference and by gender. Across the {% stat "soccer.2025-26.m.d1.intl_share", "n.programs" %} Division I men's soccer programs RosterWise analyzed for the 2025-26 season, international players held {% stat "soccer.2025-26.m.d1.intl_share", "international" %} of {% stat "soccer.2025-26.m.d1.intl_share", "players" %} roster spots — {% stat "soccer.2025-26.m.d1.intl_share", "pct" %}, or about one in three. In {% statCountAbove "soccer.2025-26.m.d1.intl_share_by_conference", 30 %} D1 men's conferences, international players hold more than 30% of roster spots.
 
 Women's soccer is lower at every division. Across {% stat "soccer.2025-26.w.d1.intl_share", "n.programs" %} D1 women's programs the international share is {% stat "soccer.2025-26.w.d1.intl_share", "pct" %}, against {% stat "soccer.2025-26.m.d1.intl_share", "pct" %} for D1 men; the same gap holds at D2 ({% stat "soccer.2025-26.w.d2.intl_share", "pct" %} against {% stat "soccer.2025-26.m.d2.intl_share", "pct" %}), D3 ({% stat "soccer.2025-26.w.d3.intl_share", "pct" %} against {% stat "soccer.2025-26.m.d3.intl_share", "pct" %}), and NAIA ({% stat "soccer.2025-26.w.naia.intl_share", "pct" %} against {% stat "soccer.2025-26.m.naia.intl_share", "pct" %}).
 
-Conference-level patterns matter more than division-level averages.
+These are averages: a conference's figure can differ a long way from its division's, and a program's from its conference's — see the [men's](/soccer/insights/mens-international-conferences/) and [women's](/soccer/insights/womens-international-conferences/) conference tables.
 
 ### What this means for your family
 
@@ -98,27 +98,27 @@ Don't assume international recruiting is a blanket obstacle. Use data to see whi
 
 ## Myth: "You need a paid recruiting service to get noticed"
 
-This one persists because the recruiting service industry has a financial incentive to promote it. Parents worry that without a service, their athlete will be invisible.
+Parents worry that without a paid service, their athlete will be invisible.
 
 ### What's actually true
 
-College coaches recruit primarily through direct evaluation — attending events, reviewing game film, and responding to athlete-initiated outreach. A well-written email from a recruit with a solid highlight video and academic transcript is how the vast majority of recruiting conversations begin. No coach has ever said "I would have offered that player, but they weren't in my recruiting service's database."
+No NCAA rule routes recruiting through a service. The contact rules govern what coaches may do, and when: in Division I soccer, calls and recruiting materials from June 15 after sophomore year, in-person contact from August 1 before junior year. Your family can research programs and write to coaches directly.
 
 ### What this means for your family
 
-Invest your time in direct outreach. Research programs that fit, write personalized emails to coaches, and include quality game film. If a recruiting service helps you stay organized, it can be a useful tool — but it's not the gateway to being recruited. The gateway is your athlete's play and your family's initiative.
+Invest your time in direct outreach. Research programs that fit, write personalized emails to coaches, and include game film.
 
 ## Myth: "Showcase tournaments are how you get recruited"
 
-This myth leads families to spend thousands on showcase tournaments under the assumption that attending enough of them guarantees exposure.
+This myth leads families to spend heavily on showcase tournaments under the assumption that attending enough of them guarantees exposure.
 
 ### What's actually true
 
-Showcases can be valuable — but only if the coaches your athlete is targeting are actually attending. Many showcase tournaments advertise a long list of colleges that "have been invited," which is very different from coaches who are confirmed to attend and are actively evaluating players at your athlete's position and level. The most effective exposure often comes through targeted ID camps at specific schools, regular club competition where coaches evaluate over multiple games, and direct outreach with game film.
+A showcase helps your athlete's recruiting only if the coaches your athlete is targeting are there, watching your athlete's position and year. A list of colleges "invited" to an event is not a list of coaches who will attend. A school's own ID camp is another route, with a rule attached: at a Division I school's camp, coaches may not hold recruiting conversations with your athlete before August 1 at the start of junior year.
 
 ### What this means for your family
 
-Before paying for a showcase, verify which coaches will actually be there and whether they're recruiting your athlete's position at your athlete's level. One ID camp at a target school where your athlete gets 90 minutes of direct evaluation is often worth more than three showcases with hundreds of players competing for attention.
+Before paying for a showcase, verify which coaches will actually be there and whether they're recruiting your athlete's position at your athlete's level. Before paying for a camp, check the date against your athlete's year.
 
 ## Myth: "Once a coach offers, you have to commit"
 
@@ -126,11 +126,11 @@ This myth creates unnecessary pressure, especially on younger recruits who recei
 
 ### What's actually true
 
-Verbal offers are non-binding for both the athlete and the coach. An offer is the beginning of a conversation, not a deadline. Coaches may set timelines for responses, but a coach who gives your athlete 48 hours to decide on a life-changing decision is telling you something about how they operate. Programs that are genuinely interested will give your family reasonable time to evaluate the opportunity. A signed written offer of athletics aid (which replaced the NLI in Division I) commits the school to the aid it specifies — a verbal offer commits no one to anything.
+A verbal offer is a conversation, not a signed document; the NCAA's published rules attach their effect to a signed written offer of athletics aid, which replaced the National Letter of Intent in Division I. That effect is on other schools: "After a prospect signs a written offer of athletics aid, other schools that offer athletically related financial aid will be prohibited from recruiting communications with that prospect." Coaches may still set timelines for an answer.
 
 ### What this means for your family
 
-Take the time you need to make a thoughtful decision. Visit campus, talk to current players, evaluate the academic fit, and compare the offer against your full list of options. A verbal offer is a positive signal, not a ticking clock. If a coach pressures your family into an immediate commitment, that's worth noting as part of your evaluation of the program.
+Take the time you need to make a thoughtful decision. Visit campus, talk to current players, evaluate the academic fit, and compare the offer against your full list of options. If a coach sets a short deadline, ask why, and weigh the answer as part of your evaluation of the program.
 
 ## Myth: "Highlight videos need to be flashy"
 
@@ -138,11 +138,11 @@ Parents and players sometimes invest heavily in polished, music-driven highlight
 
 ### What's actually true
 
-College coaches want to see game footage — real competition that shows your athlete's decision-making, positioning, work rate, and technical ability in context. A simple, well-edited video with clear clips from actual games is far more useful than a heavily produced reel of isolated touches set to music. Coaches are evaluating how your athlete plays the game, not how well your video editor works. Include your athlete's name, jersey number, position, and graduation year. Let the play speak for itself.
+No rule sets what a recruiting video must look like, and coaches differ in what they want to see. What a video can always do is show your athlete in real games — decision-making, positioning, work rate, technique — and make it easy to tell who your athlete is. Include your athlete's name, jersey number, position, and graduation year.
 
 ### What this means for your family
 
-Save the production budget. Use a free video editor, pull your best clips from game footage, and focus on showing the qualities that matter for your athlete's position.
+Before spending on production, ask the coaches on your list what they want to see. Pull clips from game footage, and focus on the qualities that matter for your athlete's position.
 
 ## Myth: "If a coach hasn't responded, they're not interested"
 
@@ -150,24 +150,26 @@ This myth leads families to cross programs off their list prematurely, interpret
 
 ### What's actually true
 
-College coaches receive hundreds — sometimes thousands — of recruiting emails per year. Non-response does not equal disinterest. Coaches may not have seen the email, may be in-season and focused on competition, may be waiting until your athlete's class year enters their active recruiting window, or may need a follow-up before engaging. The recruiting process rewards persistent, polite follow-up. A second or third email — especially one with updated film or academic information — often gets the response that the first email didn't.
+Silence has more than one possible cause. A coach may not have seen the email, may be in season, may not yet be recruiting your athlete's class year — or may not be allowed to reply yet: a Division I soccer coach can't send recruiting materials or electronic correspondence before June 15 after sophomore year.
 
 ### What this means for your family
 
-Follow up. If you don't hear back after two to three weeks, send a brief, professional follow-up email with any new information (updated film, recent results, academic updates). If you still don't hear back after multiple attempts over several months, it may be time to focus elsewhere — but one unanswered email is not a closed door.
+Follow up. If you don't hear back, send a brief, professional follow-up email with any new information (updated film, recent results, academic updates). One unanswered email is not a closed door; a long silence after several attempts is a reason to put more time into other programs.
 
 ## The pattern behind the myths
 
 If you look across these nine myths, a pattern emerges: they all treat the recruiting process as more rigid, more binary, and more predetermined than it actually is. D3 is "bad." D1 is "good." You need a service or you're invisible. Silence means no.
 
-The reality is that college soccer recruiting is highly individual, deeply variable, and full of opportunity that conventional wisdom obscures. The families who navigate it best are the ones who do their own research, make decisions based on data rather than assumptions, and stay open to paths they didn't originally consider.
+The rules are narrower than the myths, and the rosters are more varied. Your own research — the rules for your athlete's division, and the rosters of the programs on your list — is the way to see past them.
 
 That's why we built RosterWise — to replace assumptions with analysis, and to give every family the kind of roster intelligence that used to require hours of manual research or an inside connection.
 
 ---
 
-*Recruiting rules, roster limits, and the composition of college rosters all change year to year. The roster-composition figures on this page come from RosterWise's analysis of **2025-26** rosters, computed 2026-08-26; the rule references reflect the landscape as of April 2026. Verify current rules at NCAA.org and NAIA.org, confirm league structures with ECNL and MLS NEXT, and treat roster-composition figures as descriptions of the season RosterWise analyzed rather than fixed rates.*
+*Recruiting rules, roster limits, and the composition of college rosters all change year to year. The roster-composition figures on this page print from RosterWise's roster stats for the **2025-26** season, computed {% statRead "soccer", "2025-26", "computed" %}; the rules are from the 2026-27 Division I and Division III Manuals. Verify current rules at NCAA.org and NAIA.org, and treat roster-composition figures as descriptions of the season RosterWise analyzed rather than fixed rates.*
 
 *Updated October 24, 2026: the division figures on this page now print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle. They leave out Mercyhurst University and the University of New Haven, mid-transition from Division II to Division I that season, so the D1 men's share is {% stat "soccer.2025-26.m.d1.intl_share", "pct" %} (it read 33.8% with them).*
 
 *Corrected October 24, 2026: four unsourced statements were removed — that some D3 schools meet 100% of demonstrated financial need, that paid recruiting services "can be useful for organization and structure," a five-minute limit for highlight videos, and a prediction about which video gets more interest. The count of rosters in the closing panel was a typed round number and was removed.*
+
+*Corrected October 24, 2026, after a fact check of the whole page: each answer now rests on an NCAA rule or a roster figure. Unsourced statements were removed — that D3 aid "rivals or exceeds" a partial D1 scholarship, that division is "primarily about institutional size", that quality "overlaps across divisions", that top D3 players "frequently held offers at higher divisions", "a top D3 program, a mid-level D1, or a strong NAIA school", that D1 coaches watch freshmen and sophomores at named events, that most men's commitments happen in junior and senior year, that programs "run the full range", why the recruiting-service myth persists, how "the vast majority of recruiting conversations begin", "spend thousands", "90 minutes … worth more than three showcases", what coaches who set short deadlines are "telling you", what coaches want in a video, "hundreds — sometimes thousands" of emails, and that follow-up "often gets the response". Sources that named no document were replaced with the Manuals and the NCAA's own pages.*

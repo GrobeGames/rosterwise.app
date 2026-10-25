@@ -42,14 +42,14 @@ These articles present findings from RosterWise's analysis of {% stat "soccer.20
 
 ## What makes this different
 
-RosterWise analyzes published rosters directly — every player on every settled roster, in every division — and every figure carries the date its rosters were read.
+RosterWise analyzes published rosters directly — every player on every settled roster it counts, in D1, D2, D3, and NAIA — and every figure carries the date its rosters were read.
 
 ## How families can use this
 
 These insights help with context-setting during the recruiting process:
 
-- **Roster size data** tells you how many spots exist at different levels — and how the House settlement is changing D1
-- **International composition** shows which conferences and divisions recruit heavily from abroad, affecting domestic opportunity
+- **Roster size data** tells you how many spots exist at different levels — and, in Division I, how rosters sit against the House settlement's roster limits
+- **International composition** shows how the share of roster spots held by international players differs by conference and division
 - **Division comparisons** help families understand what's actually different between D1, D2, D3, and NAIA beyond name recognition
 
 ## Methodology
@@ -57,3 +57,5 @@ These insights help with context-setting during the recruiting process:
 All data is drawn from the 2025-26 season rosters as published on official athletics websites, as the RosterWise Soccer app ships them. Our [methodology section](/soccer/methodology/) explains in detail how we collect, normalize, and analyze this data.
 
 **Want personalized analysis?** [RosterWise Soccer](/app/) applies these same data techniques to your athlete's specific profile — $39.99, one time.
+
+*Updated October 24, 2026, after a fact check of the page: "how the House settlement is changing D1" became "how rosters sit against the House settlement's roster limits" (RosterWise holds one season of rosters under the limits and none from before), the international line no longer says conferences recruit from abroad "affecting domestic opportunity", and "in every division" now names the four divisions RosterWise counts.*
