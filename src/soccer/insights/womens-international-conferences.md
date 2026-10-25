@@ -1,7 +1,7 @@
 ---
 layout: content.njk
 title: "Women's Soccer Conferences with the Highest International Roster Composition — 2025 Season Analysis | RosterWise™"
-description: "Which college soccer conferences have the most international players on women's rosters? Conference-by-conference international composition data for NCAA and NAIA women's soccer, 2025 season."
+description: "Which college soccer conferences have the most international players on women's rosters? Conference-by-conference international composition for Division I women's soccer, with division shares for D2, D3, and NAIA, 2025 season."
 date: 2026-10-24
 breadcrumbs:
   - text: Home
@@ -120,3 +120,5 @@ A program with higher-than-average international composition may still be the pe
 *Figures on this page print from RosterWise's roster stats for the 2025-26 season, computed from the rosters in the RosterWise Soccer app's own bundle; each table carries the date its rosters were read. See [methodology](/methodology/data-and-analysis/) for full documentation.*
 
 *Corrected October 24, 2026: every figure on this page now comes from that file. Earlier versions used an April–May 2026 capture and differed in two rows: the NEC row counted Mercyhurst and New Haven, which the page's own note left out (now {% stat "soccer.2025-26.w.d1.intl_share_by_conference", "rows[NEC].programs" %} programs, was 12), and the Southeastern Conference's international share is {% stat "soccer.2025-26.w.d1.intl_share_by_conference", "rows[Southeastern Conference].pct" %}, not the 7.8% published before. Several other cells moved by a few players. A section on why women's international composition is growing was removed: no data behind it measures growth.*
+
+*Corrected October 24, 2026: the page description promised conference-by-conference data for the NAIA, which this page gives only as a division share, as it does D2 and D3.*

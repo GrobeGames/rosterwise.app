@@ -90,7 +90,7 @@ Each sport now has a **roster limit** — the maximum number of athletes on the 
 
 ### Not all schools opted in
 
-Schools in the five defendant conferences (the ACC, Big Ten, Big 12, Pac-12 and SEC) are bound by the settlement as defendants rather than by opting in. Every other D1 school chooses: non-defendant institutions had until June 30, 2025 to opt in for 2025-26, and from 2026-27 onward must give notice of intent by March 1 each year. Schools that did not opt in retain the traditional scholarship structure (sport-specific equivalency/head count caps) but cannot share revenue with athletes.
+Schools in the five defendant conferences (the ACC, Big Ten, Big 12, Pac-12 and SEC) are bound by the settlement as defendants rather than by opting in. Every other D1 school chooses: non-defendant institutions had until June 30, 2025 to opt in for 2025-26, and may opt in for any later year of the settlement's ten-year term; for 2026-27, the NCAA's current Q&A says the College Sports Commission would circulate the opt-in process by March 1, 2026. A school that does not opt in may give athletic aid up to the old 2024-25 limits (in a former head-count sport, their value in equivalencies) without opting in; providing the settlement's payments would make it a Participating Institution.
 
 **Families must ask each D1 program directly:** "Has your school opted into the House settlement? How does this affect the scholarship offer you're making?"
 
@@ -188,3 +188,5 @@ The best financial decisions in college recruiting are made with complete inform
 ---
 
 *Scholarship structures changed with the House settlement and continue to change each legislative cycle. This article reflects the **2025-26** academic year. Verify current scholarship and roster limits at NCAA.org, NAIA.org, and NJCAA.org, and confirm what a specific program actually funds with its coaching staff.*
+
+*Corrected October 24, 2026: an earlier version said that from 2026-27 a school's notice of intent to opt in is due to the NCAA by March 1 each year (the June 2025 edition of the NCAA's House implementation Q&A; the current edition, February 11, 2026, replaced it), and that schools that don't opt in keep the old sport-by-sport scholarship limits. The Division I Manual no longer has those limits for any school; a school outside the settlement may give aid up to their value without opting in.*

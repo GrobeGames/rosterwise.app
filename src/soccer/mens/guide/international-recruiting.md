@@ -29,7 +29,7 @@ related:
     url: /soccer/womens/guide/international-recruiting/
     status: live
 eleventyComputed:
-  summary: "On RosterWise's 2025-26 rosters, international players held {{ 'soccer.2025-26.m.all.intl_share' | stat('pct') }} of men's college soccer roster spots across the NCAA and the NAIA — and the share was highest at NAIA, not Division I. For a domestic family, a program's international composition shapes how many of its roster spots domestic players hold, which position groups are contested, and how the roster will turn over. This guide sets out the division figures and the players' home countries, and shows how to read a program's roster for yourself."
+  summary: "On RosterWise's 2025-26 rosters, international players held {{ 'soccer.2025-26.m.all.intl_share' | stat('pct') }} of men's college soccer roster spots across the NCAA and the NAIA — and the share was highest at NAIA, not Division I. For a domestic family, a program's international composition shapes how many of its roster spots domestic players hold, which position groups are contested, and — through class years — when spots open. This guide sets out the division figures and the players' home countries, and shows how to read a program's roster for yourself."
   sources:
     - "{{ 'soccer' | statSource('2025-26') | safe }}"
     - '<a href="https://web3.ncaa.org/lsdbi/reports/getReport/90008">2026-27 NCAA Division I Manual</a> — Bylaw 17.2, Roster Limitations (men''s soccer 28; who must be on the submitted roster, Bylaw 17.2.2)'
@@ -45,7 +45,7 @@ ${toc}
 
 ## International players in men's college soccer, by division
 
-Across the rosters RosterWise analysed for the 2025-26 season, international players held {% stat "soccer.2025-26.m.all.intl_share", "international" %} of {% stat "soccer.2025-26.m.all.intl_share", "players" %} men's soccer roster spots — {% stat "soccer.2025-26.m.all.intl_share", "pct" %}. The share differs by division, and not in the order most families assume:
+Across the rosters RosterWise analysed for the 2025-26 season, international players held {% stat "soccer.2025-26.m.all.intl_share", "international" %} of {% stat "soccer.2025-26.m.all.intl_share", "players" %} men's soccer roster spots — {% stat "soccer.2025-26.m.all.intl_share", "pct" %}. The share differs by division, and NAIA, not D1, is the highest:
 
 | Division | International share of roster spots |
 | --- | --- |
@@ -74,13 +74,13 @@ These are national totals. A program's own roster shows where its international 
 
 **It sets how many spots domestic players hold.** Say a Division I program carries 28 players — the men's soccer roster limit at schools in the five defendant conferences and those that opt in to the House settlement — and 10 of them are international. Domestic players hold 18 of the spots. With 3 international players, they hold 25.
 
-**Look by position, not only in total.** The overall share doesn't say where a program's international players play. The roster lists each player's position and hometown, so you can count by position group — and the group your athlete would compete in is the count that applies to them.
+**Look by position, not only in total.** The overall share doesn't say where a program's international players play. Where a roster lists positions and hometowns, you can count by position group — and the group your athlete would compete in is the count that applies to them.
 
 **Look at class years.** International players graduate like everyone else. A program whose international players are mostly seniors has spots to fill next year; whether it fills them internationally again is a question for the coach.
 
 ## How eligibility works for international recruits
 
-International recruits go through the NCAA Eligibility Center, with steps of their own for international coursework and for amateurism certification. Our [universal guide to international student-athletes](/guide/international-student-athletes/) sets them out, with the NCAA's own sources.
+International recruits to NCAA programs go through the NCAA Eligibility Center, with steps of their own for international coursework and for amateurism certification. Our [universal guide to international student-athletes](/guide/international-student-athletes/) sets them out, with the NCAA's own sources. The NAIA has its own eligibility process; ask an NAIA program about it directly.
 
 ## What families should consider
 
@@ -141,4 +141,4 @@ International recruiting in women's college soccer has different percentages and
 
 *Corrected October 24, 2026: claims that some D1 programs carry "30-40%" or "40% or more" international players and others "fewer than 10%" were removed; no RosterWise figure computes a range across programs.*
 
-*Corrected October 24, 2026, after a fact check of the whole page: unsourced statements were removed — why programs recruit internationally ("the world's most popular sport", academy backgrounds "difficult to replicate"), how international players are scouted and when they commit, that attacking positions are where they are common, that they receive "the same scholarship dollars" as domestic players, that D3 international students are "rarely in a position to fund four years", that variation within a division is "larger than the gaps between them", that international students are "less likely to walk on", locker-room culture, and "some of the best programs". The home countries now print from the roster stats, and the walk-on answer states Bylaw 17.2.*
+*Corrected October 24, 2026, after a fact check of the whole page: unsourced statements were removed — why programs recruit internationally ("the world's most popular sport", academy backgrounds "difficult to replicate"), how international players are scouted and when they commit, that attacking positions are where they are common, that they receive "the same scholarship dollars" as domestic players, that D3 international students are "rarely in a position to fund four years", that variation within a division is "larger than the gaps between them", that international students are "less likely to walk on", locker-room culture, and "some of the best programs". The home countries now print from the roster stats, and the walk-on answer states Bylaw 17.2. Also removed: that men's soccer has a higher international share "than almost any other college sport", that a domestic program "probably will continue that approach", that roster limits "have reduced walk-on opportunities broadly", that integrated rosters "often have strong team cultures", and "equally competitive". The RS-1 update also moved the NAIA share in the table from 48.2% to 48.3%.*

@@ -10,7 +10,7 @@ breadcrumbs:
     url: /soccer/
   - text: Methodology
   - text: International Composition
-summary: "International players hold a larger share of men's college soccer roster spots than women's at every division, and on RosterWise's 2025-26 rosters the share was highest at NAIA for both. Women's international players also come from a different mix of countries, with Canada far ahead. This page sets out those patterns and how a domestic or international recruit can use them to read a specific program's roster."
+summary: "International players hold a larger share of men's college soccer roster spots than women's at every division, and on RosterWise's 2025-26 rosters the share was highest at NAIA for both. Women's international players also come from a different mix of countries, with Canada first. This page sets out those patterns and how a domestic or international recruit can use them to read a specific program's roster."
 related:
   - title: "What Is Roster Composition Analysis"
     url: /soccer/methodology/roster-composition/
@@ -46,13 +46,13 @@ For an international recruit the question turns around: a roster with internatio
 
 ## Men's vs. women's: different patterns
 
-The most important thing to understand about international composition in college soccer is that men's and women's rosters differ — in how many international players they carry and in where those players are from.
+The first thing to understand about international composition in college soccer is that men's and women's rosters differ — in how many international players they carry and in where those players are from.
 
 ### Men's college soccer
 
 International players held {% stat "soccer.2025-26.m.all.intl_share", "pct" %} of men's college soccer roster spots on RosterWise's 2025-26 rosters. By division the share was highest at NAIA ({% stat "soccer.2025-26.m.naia.intl_share", "pct" %}) and lowest at D3 ({% stat "soccer.2025-26.m.d3.intl_share", "pct" %}).
 
-Within Division I it also differs by conference: the [conference table](/soccer/insights/mens-international-conferences/) runs from {% statRowRange "soccer.2025-26.m.d1.intl_share_by_conference" %}. A division or conference figure is an average; a single program can sit well above or below it.
+Within Division I it also differs by conference: the [conference table](/soccer/insights/mens-international-conferences/) runs from {% statRowRange "soccer.2025-26.m.d1.intl_share_by_conference" %}. A division or conference figure is an average; a single program can sit above or below it.
 
 **Home countries:** of the international players on 2025-26 men's rosters who list a home country, the most common were {% statCountryList "soccer.2025-26.m.all.top_countries", 10 %}.
 
@@ -68,7 +68,7 @@ International players held {% stat "soccer.2025-26.w.all.intl_share", "pct" %} o
 
 Beyond "how many spots are held by domestic players", a roster can show you:
 
-**Where the international players are.** The roster lists each player's position and hometown, so you can count international players by position group. A program whose international players are concentrated at one position offers a different picture at that position from the overall share.
+**Where the international players are.** Where a roster lists positions and hometowns, you can count international players by position group. A program whose international players are concentrated at one position offers a different picture at that position from the overall share.
 
 **When they leave.** Class years tell you when a program's international players will graduate, and so where spots may open.
 
@@ -86,7 +86,7 @@ Beyond "how many spots are held by domestic players", a roster can show you:
 
 ### For international recruits
 
-**Ask how the program supports international players.** How do international players settle into the team? What support is there for adjusting to the American academic system? How does arriving on campus and getting set up work? Programs answer these questions differently, and the answers are more useful than rankings.
+**Ask how the program supports international players.** How do international players settle into the team? What support is there for adjusting to the American academic system? How does arriving on campus and getting set up work? Ask them of each program you consider.
 
 **Look at which countries are represented.** If a program has players from your country or region, ask the coaches how they found them.
 
@@ -106,7 +106,7 @@ RosterWise uses the hometown and country information on each program's roster to
 
 **Conference-level patterns.** International shares differ by conference as well as by division — see the [men's](/soccer/insights/mens-international-conferences/) and [women's](/soccer/insights/womens-international-conferences/) conference tables. They give you context for evaluating individual programs.
 
-**Division-level patterns.** On the 2025-26 rosters RosterWise analysed, the international share of men's soccer roster spots was highest at **NAIA ({% stat "soccer.2025-26.m.naia.intl_share", "pct" %})**, then D2 ({% stat "soccer.2025-26.m.d2.intl_share", "pct" %}), then D1 ({% stat "soccer.2025-26.m.d1.intl_share", "pct" %}), with D3 far lower ({% stat "soccer.2025-26.m.d3.intl_share", "pct" %}). The women's ordering differs — NAIA ({% stat "soccer.2025-26.w.naia.intl_share", "pct" %}), D1 ({% stat "soccer.2025-26.w.d1.intl_share", "pct" %}), D2 ({% stat "soccer.2025-26.w.d2.intl_share", "pct" %}), D3 ({% stat "soccer.2025-26.w.d3.intl_share", "pct" %}) — and every women's figure sits below the men's at the same division. Note that NAIA leads on both sides: international composition is not a Division I phenomenon. These are averages, not rules — a single program can sit well above or below its division's figure.
+**Division-level patterns.** On the 2025-26 rosters RosterWise analysed, the international share of men's soccer roster spots was highest at **NAIA ({% stat "soccer.2025-26.m.naia.intl_share", "pct" %})**, then D2 ({% stat "soccer.2025-26.m.d2.intl_share", "pct" %}), then D1 ({% stat "soccer.2025-26.m.d1.intl_share", "pct" %}), with D3 far lower ({% stat "soccer.2025-26.m.d3.intl_share", "pct" %}). The women's ordering differs — NAIA ({% stat "soccer.2025-26.w.naia.intl_share", "pct" %}), D1 ({% stat "soccer.2025-26.w.d1.intl_share", "pct" %}), D2 ({% stat "soccer.2025-26.w.d2.intl_share", "pct" %}), D3 ({% stat "soccer.2025-26.w.d3.intl_share", "pct" %}) — and every women's figure sits below the men's at the same division. Note that NAIA leads on both sides: international composition is not a Division I phenomenon. These are averages, not rules — a single program can sit above or below its division's figure.
 
 **Position-specific composition.** For a recruit evaluating fit, the count of international players at their own position is more useful than the team's overall share.
 
@@ -124,4 +124,4 @@ The data is on the rosters. Knowing how to read it — and that the patterns dif
 
 *Corrected October 24, 2026: an earlier version said men's and women's international shares were highest "at D1 and D2"; on RosterWise's 2025-26 rosters NAIA is highest for both. Claims that some programs run 30-50% (men's) or 20-30% (women's) international were removed, because no RosterWise figure computes a range across programs, and the home countries now print from the roster stats.*
 
-*Corrected October 24, 2026, after a fact check of the whole page: unsourced statements were removed — that international recruiting "enriches the college game, raises competitive levels" and "raises the level of play", why men's and women's programs recruit internationally (including that the US is "the dominant country in women's soccer"), what international recruiting says about coaching philosophy and playing style, that programs "typically have established processes for visas", that some international players come "on exchange programs", that they "cluster at attacking positions", that programs with international recruiting are "lower-risk", that conferences are higher "across most of their programs", and that the figures are "generally conservative". The men's home-country list, which named regions the roster data doesn't show, now prints from the roster stats.*
+*Corrected October 24, 2026, after a fact check of the whole page: unsourced statements were removed — that international recruiting "enriches the college game, raises competitive levels" and "raises the level of play", why men's and women's programs recruit internationally (including that the US is "the dominant country in women's soccer"), what international recruiting says about coaching philosophy and playing style, that programs "typically have established processes for visas", that some international players come "on exchange programs", that they "cluster at attacking positions", that programs with international recruiting are "lower-risk", that conferences are higher "across most of their programs", and that the figures are "generally conservative". The men's home-country list, which named regions the roster data doesn't show, now prints from the roster stats. Also removed: that reading the data "gives families an advantage in a process where information is power" and that "many programs … actively want domestic players". The RS-1 update also moved the NAIA men's share this page prints from 48.2% to 48.3%.*

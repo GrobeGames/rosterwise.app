@@ -29,7 +29,7 @@ related:
     url: /soccer/mens/guide/international-recruiting/
     status: live
 eleventyComputed:
-  summary: "On RosterWise's 2025-26 rosters, international players held {{ 'soccer.2025-26.w.all.intl_share' | stat('pct') }} of women's college soccer roster spots across the NCAA and the NAIA — lower than in men's soccer at every division, and highest at NAIA. Canada was the most common home country. For a domestic family, a program's international composition shapes how many of its roster spots domestic players hold, which position groups are contested, and how the roster will turn over. This guide sets out the figures and shows how to read a program's roster for yourself."
+  summary: "On RosterWise's 2025-26 rosters, international players held {{ 'soccer.2025-26.w.all.intl_share' | stat('pct') }} of women's college soccer roster spots across the NCAA and the NAIA — lower than in men's soccer at every division, and highest at NAIA. Canada was the most common home country. For a domestic family, a program's international composition shapes how many of its roster spots domestic players hold, which position groups are contested, and — through class years — when spots open. This guide sets out the figures and shows how to read a program's roster for yourself."
   sources:
     - "{{ 'soccer' | statSource('2025-26') | safe }}"
     - "{{ 'soccer' | statSource('2026-27') | safe }}"
@@ -46,7 +46,7 @@ ${toc}
 
 ## International players in women's college soccer, by division
 
-Across the rosters RosterWise analysed for the 2025-26 season, international players held {% stat "soccer.2025-26.w.all.intl_share", "international" %} of {% stat "soccer.2025-26.w.all.intl_share", "players" %} women's soccer roster spots — {% stat "soccer.2025-26.w.all.intl_share", "pct" %}. The share differs by division, and not in the order most families assume:
+Across the rosters RosterWise analysed for the 2025-26 season, international players held {% stat "soccer.2025-26.w.all.intl_share", "international" %} of {% stat "soccer.2025-26.w.all.intl_share", "players" %} women's soccer roster spots — {% stat "soccer.2025-26.w.all.intl_share", "pct" %}. The share differs by division, and NAIA, not D1, is the highest:
 
 | Division | International share of roster spots |
 | --- | --- |
@@ -77,13 +77,13 @@ These are national totals. A program's own roster shows where its international 
 
 **It sets how many spots domestic players hold.** Say a Division I program carries 28 players — the women's soccer roster limit at schools in the five defendant conferences and those that opt in to the House settlement — and 4 of them are international. Domestic players hold 24 of the spots. With none, they hold all 28.
 
-**Look by position, not only in total.** The overall share doesn't say where a program's international players play. The roster lists each player's position and hometown, so you can count by position group — and the group your daughter would compete in is the count that applies to her.
+**Look by position, not only in total.** The overall share doesn't say where a program's international players play. Where a roster lists positions and hometowns, you can count by position group — and the group your daughter would compete in is the count that applies to her.
 
 **Look at class years.** International players graduate like everyone else. A program whose international players are mostly seniors has spots to fill next year; whether it fills them internationally again is a question for the coach.
 
 ## How eligibility works for international recruits
 
-International recruits go through the NCAA Eligibility Center, with steps of their own for international coursework and for amateurism certification. Our [universal guide to international student-athletes](/guide/international-student-athletes/) sets them out, with the NCAA's own sources.
+International recruits to NCAA programs go through the NCAA Eligibility Center, with steps of their own for international coursework and for amateurism certification. Our [universal guide to international student-athletes](/guide/international-student-athletes/) sets them out, with the NCAA's own sources. The NAIA has its own eligibility process; ask an NAIA program about it directly.
 
 ## What families should consider
 
@@ -144,4 +144,4 @@ International players hold a larger share of men's roster spots at every divisio
 
 *Corrected October 24, 2026: the list of source countries was wrong against RosterWise's own rosters — Canada, the most common home country of international players on women's rosters, was missing, and New Zealand is not among the ten most common. Both lists now print from the roster stats. A claim that some D1 men's programs carry 30-40% international rosters was removed; no RosterWise figure computes a range across programs.*
 
-*Corrected October 24, 2026, after a fact check of the whole page: unsourced statements were removed — that international recruiting in women's soccer is "growing" or "increasing" (the page now gives RosterWise's two seasons of figures and says they aren't a trend), why programs recruit internationally, how international players are scouted and when they commit, the NWSL's effect on recruiting, that international players receive athletic aid "on the same terms", that variation within a division is "larger than the gaps between them", that international students are "less likely to walk on", that men's soccer has "a longer history" of international recruiting, and locker-room culture. The walk-on answer now states Bylaw 17.2.*
+*Corrected October 24, 2026, after a fact check of the whole page: unsourced statements were removed — that international recruiting in women's soccer is "growing" or "increasing" (the page now gives RosterWise's two seasons of figures and says they aren't a trend), why programs recruit internationally, how international players are scouted and when they commit, the NWSL's effect on recruiting, that international players receive athletic aid "on the same terms", that variation within a division is "larger than the gaps between them", that international students are "less likely to walk on", that men's soccer has "a longer history" of international recruiting, and locker-room culture. The walk-on answer now states Bylaw 17.2. Also removed: that a domestic program "probably will continue that approach", that roster limits "have reduced walk-on opportunities broadly", "equally competitive", and "teammates, not competitors".*

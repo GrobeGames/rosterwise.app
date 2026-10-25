@@ -652,6 +652,30 @@ pages, as its own PR stacked on rosterwise.app#13, priority A first. The invento
 | "how the House settlement is changing D1"; "recruit heavily from abroad, affecting domestic opportunity"; "in every division" | soccer/insights (hub) | One season and no pre-House rosters (§P, `roster-data-fact-log.md`); causal; NJCAA isn't counted |
 | "every NCAA and NAIA college soccer program in the United States" (and "every settled roster", "every program" in the description, summary and panel); "(common for international players)"; "may offer more playing time"; "may provide a better overall experience"; the two-point grouping threshold; bare `ncaa.org` / `naia.org` sources | methodology/data-and-analysis | Contradicted by the left-out list and the NAIA's British Columbia members; distributional; §4.1; inconsistent with the insights pages; §R bare domains |
 
+### Second check, 2026-10-24 (a fresh read of the soccer pages)
+
+| Claim | Primary source | Verified | Articles |
+| --- | --- | --- | --- |
+| **172** of the 2025-26 rosters carry no read date (`rosters_read.undated_programs`) | `soccer.2025-26.all.all.programs` (§U); printed by `{% stat %}` | 2026-10-24 | methodology/data-and-analysis |
+| The men's conference page breaks international share down by conference for **D1, D2 and NAIA** (`.m.{d1,d2,naia}.intl_share_by_conference`); the women's page for **D1** only | The pages' own ids | 2026-10-24 | soccer/insights (hub), soccer/insights/mens-international-conferences, soccer/insights/womens-international-conferences |
+| The sport-by-sport aid limits are gone from the Division I Manual for every school; roster limits (28 in soccer) apply at defendant-conference and opt-in schools | `guide-fact-log.md` §H (Q&A B2) and §A (Bylaw 17.2) | 2026-10-24 | soccer (hub) |
+| International recruits to NCAA programs use the NCAA Eligibility Center; the NAIA has its own eligibility process | `guide-fact-log.md` (registration rows); NAIA: the row "NAIA coaches may contact prospects at any time …; NAIA runs its own eligibility centre" (structural, carried from copy) — copy only says the process is the NAIA's own and to ask | 2026-10-24 | soccer/mens/guide/international-recruiting, soccer/womens/guide/international-recruiting |
+
+| Corrected or cut 2026-10-24 (second check) | Page | Why |
+| --- | --- | --- |
+| "with Canada far ahead" | soccer/methodology/international-composition | Canada 19.6% against the UK 14.5%: "first" is what the data shows |
+| "a single program can sit well above or below it"; "and a program's from its conference's" | soccer/methodology/international-composition, soccer/guide/recruiting-myths | No per-program id; the magnitude is unsupported |
+| "The roster lists each player's position and hometown" | all three international pages | Overstated: some rosters list neither (the completeness table) |
+| "not in the order most families assume" | both international guides | A claim about what families think; now "NAIA, not D1, is the highest" |
+| "International recruits go through the NCAA Eligibility Center" (unscoped) | both international guides | The NAIA division the pages put highest has its own process |
+| "the same gap holds at D2 … D3 … NAIA" | soccer/guide/recruiting-myths | The gaps differ (21.2, 26.0, 9.1, 28.3 points); only the direction holds |
+| "most common", "most persistent", "comes up constantly", "Most have a kernel of truth", "The most visible difference", "No NCAA rule routes recruiting through a service", "No rule sets what a recruiting video must look like, and coaches differ" | soccer/guide/recruiting-myths | Distributional or negative claims with no row |
+| "Every number comes from real roster data"; "All data is drawn from … rosters"; "Every figure on the Insights pages prints from that file" | soccer/insights (hub), methodology/data-and-analysis | False since §V: the women's roster-size page prints NCAA team counts with their own source |
+| "from every settled 2025-26 … roster"; "Conference-by-conference data for NCAA D1, D2, D3, and NAIA" (and the two conference pages' descriptions) | soccer/insights (hub), the two conference pages | The left-out list; the conference breakdowns above |
+| "captures the full published roster for every program"; conferences "as those bodies published it"; "a little more than the roster"; "for every D1, D2, D3, and NAIA … program" | methodology/data-and-analysis | Overstated against the left-out list; the figures use the season's affiliation (§U rules); hedged quantity |
+| "Everything families need to know"; "roster composition trends, recruiting patterns"; "rewards preparation"; "varies by program"; "the leading youth club pathways"; "replacing scholarship caps with roster limits at … schools" | soccer (hub) | Overclaim; one season (no trends); causal; unmeasured; ranking; the aid limits are gone for every D1 school |
+| "a larger factor … than in women's" (no season); "at every program" | soccer/mens/index | Season anchor (§5.5); product overstatement |
+
 ### Open items to re-check before/at publish
 
 **Must fix before this content set can pass §7 again**
