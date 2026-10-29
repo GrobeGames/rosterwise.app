@@ -8,7 +8,7 @@ pagination:
 permalink: "{{ sport.downloadPage }}"
 eleventyComputed:
   title: "RosterWise™ {{ sport.name }} — College {{ sport.name }} Recruiting Intelligence App | $39.99 One-Time"
-  description: "RosterWise™ {{ sport.name }} analyzes every college {{ sport.name | lower }} program — roster depth by {{ sport.analysisAxis }}, class-year gaps, recruiting patterns, and personalized My RosterFit™ scores. {{ sport.subtext }}. One-time $39.99, lifetime access."
+  description: "RosterWise™ {{ sport.name }} analyzes every college {{ sport.name | lower }} program — roster depth by {{ sport.analysisAxis }}, class-year gaps, recruiting patterns, and personalized My RosterFit™ fit bands. {{ sport.subtext }}. One-time $39.99, lifetime access."
   breadcrumbs:
     - text: Home
       url: /
@@ -134,7 +134,7 @@ eleventyComputed:
       </div>
       <div class="feature-card">
         <h3>My RosterFit&trade; Personalized Scoring</h3>
-        <p>Enter your athlete&rsquo;s profile — {{ axis }}, size, class year, GPA, test scores, geographic preferences — and RosterFit scores every program by how well they align with the actual roster. Not a generic match list. A personalized fit analysis built on real data.</p>
+        <p>Enter your athlete&rsquo;s profile — {{ sport.rosterFitProfile }} — and RosterFit checks every program on {{ sport.rosterFitFactors }}. Each factor gets a light, and each program one fit band: Strong, Good, Mixed or Weak fit. Not a generic match list. A personalized fit analysis built on real data.</p>
       </div>
     </div>
   </div>
@@ -186,7 +186,7 @@ eleventyComputed:
       </details>
       <details class="faq-item">
         <summary>What is My RosterFit&trade;?</summary>
-        <div class="faq-answer"><p>A personalized scoring system. Enter your athlete&rsquo;s {{ axis }}, size, graduation year, GPA, test scores, and geographic preferences, and RosterFit scores every {{ lname }} program by how well your athlete&rsquo;s profile aligns with the program&rsquo;s actual roster. <a href="/roster-intelligence/">Learn more about our methodology.</a></p></div>
+        <div class="faq-answer"><p>A personalized fit check. Enter your athlete&rsquo;s {{ sport.rosterFitProfile }}, and RosterFit checks every {{ lname }} program on {{ sport.rosterFitFactors }}. Each factor gets a light, Strong, Moderate or Low, and each program one fit band: Strong, Good, Mixed or Weak fit. There&rsquo;s no single number, and programs are never ranked. <a href="/roster-intelligence/">Learn more about our methodology.</a></p></div>
       </details>
       <details class="faq-item">
         <summary>Will it tell me which schools will recruit my athlete?</summary>

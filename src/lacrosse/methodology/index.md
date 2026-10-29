@@ -25,9 +25,9 @@ children:
     url: /lacrosse/methodology/coach-tenure/
     summary: "What a head coach's time at a lacrosse program can and can't tell you, and how RosterWise shows it."
     status: live
-  - title: "RosterFit™ Score in College Lacrosse: Six Factors for Men's, Five for Women's"
+  - title: "How My RosterFit™ Works in College Lacrosse: Six Factors for Men's, Five for Women's"
     url: /lacrosse/methodology/rosterfit-score/
-    summary: "How RosterWise calculates personalized fit scores for lacrosse recruits — the six factors scored for men's programs and five for women's, and their standard weights."
+    summary: "How My RosterFit™ reads a fit band for lacrosse recruits — the six factors it checks for men's programs and five for women's, and their standard weights."
     status: live
 ---
 

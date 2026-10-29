@@ -1,8 +1,8 @@
 ---
 layout: content.njk
-title: "RosterFit™ Score in College Lacrosse: Six Factors for Men's, Five for Women's | RosterWise™"
-description: "How My RosterFit™ works in RosterWise Lacrosse — the six factors scored for men's programs and five for women's, their standard weights, and what each one compares."
-date: 2026-06-14
+title: "How My RosterFit™ Works in College Lacrosse: Six Factors for Men's, Five for Women's | RosterWise™"
+description: "How My RosterFit™ works in RosterWise Lacrosse: the six factors it checks for men's programs and five for women's, their standard weights, what each compares, and how the lights become a fit band."
+date: 2026-10-29
 breadcrumbs:
   - text: Home
     url: /
@@ -10,8 +10,8 @@ breadcrumbs:
     url: /lacrosse/
   - text: Methodology
     url: /lacrosse/methodology/
-  - text: RosterFit Score
-summary: "My RosterFit™ is the scoring system at the heart of RosterWise. It compares a specific recruit's profile with a specific college lacrosse program. The scoring engine behind every RosterWise app has seven components; for lacrosse, the app scores six of them for men's programs — Position Need, Academic Match, Roster Composition, Height Fit, Geographic Fit, and Financial Fit — and five for women's programs, where Roster Composition carries no weight. Competitive Level is switched off for lacrosse. This page explains what each factor compares, how much it counts, how the factors combine, and how to read the result."
+  - text: My RosterFit
+summary: "My RosterFit™ checks how a college lacrosse program lines up with one recruit, factor by factor. The engine behind every RosterWise app has seven factors; for lacrosse, the app scores six of them for men's programs (Room at your position, Academic Match, Roster Composition, Height Fit, Geographic Fit and Financial Fit) and five for women's, where Roster Composition carries no weight. Competitive Level is switched off for lacrosse. Each factor gets a light, Strong, Moderate or Low, and from the lights, weighed by how much each factor counts, the program gets one band: Strong, Good, Mixed or Weak fit. This page explains what each factor compares, how much it counts, and how to read a band."
 related:
   - title: "What Is Roster Composition Analysis"
     url: /lacrosse/methodology/roster-composition/
@@ -29,7 +29,7 @@ related:
     url: /guide/building-your-list/
     status: live
 sources:
-  - "RosterWise Lacrosse app — the shared scoring engine and the lacrosse configuration (components, standard weights for men's and women's, and the factors switched off for lacrosse), read October 9, 2026"
+  - "RosterWise Lacrosse app — the shared scoring engine and the lacrosse configuration (components, standard weights for men's and women's, and the factors switched off for lacrosse), read October 29, 2026"
   - "Publicly available college lacrosse rosters from institutional athletics websites"
   - "NCAA.org — Division membership and program data"
   - "House v. NCAA settlement (approved June 6, 2025) — D1 roster cap framework"
@@ -39,7 +39,7 @@ sources:
   - "U.S. Department of Education — IPEDS data (admissions test-score ranges and published tuition)"
 cta:
   heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program, plus NJCAA men's. See it in the app."
-  text: "My RosterFit scores for every college lacrosse program in the app — personalized to your athlete's position (attack, midfield, defense, and goalie, plus long-stick midfield and face-off for men's), graduation year, height, test scores, home state, and budget. Men's and women's. See where your athlete fits."
+  text: "A My RosterFit™ band for every college lacrosse program in the app, personalized to your athlete's position (attack, midfield, defense, and goalie, plus long-stick midfield and face-off for men's), graduation year, height, test scores, home and travel distance, and budget. Men's and women's. See where your athlete fits."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -47,21 +47,21 @@ ${toc}
 
 ## What My RosterFit is (and isn't)
 
-My RosterFit™ is a scoring system that evaluates how well a specific recruit's profile aligns with a specific college lacrosse program. It's personalized — the same program will receive different RosterFit scores for different recruits, because fit depends on the individual.
+My RosterFit™ checks how a specific college lacrosse program lines up with a specific recruit. It's personalized: the same program can read a Strong fit for one recruit and a Mixed fit for another, because fit depends on the individual.
 
-**What it is:** A structured, data-driven assessment of fit across multiple dimensions. It helps families prioritize which programs to investigate further and which programs to deprioritize.
+**What it is:** a factor-by-factor check. RosterFit gives each factor a light, Strong, Moderate or Low, and reads one band from the lights: **Strong, Good, Mixed or Weak fit**. Every band comes with its lights and the reason behind each, so you can see why a program reads the way it does.
 
-**What it isn't:** A prediction of whether a recruit will be offered a spot, a ranking of programs, or a guarantee of anything. Recruiting involves human decisions, subjective evaluations, and factors that no algorithm can capture — like a coach's impression during a conversation, or team chemistry, or a recruit's intangible qualities.
+**What it isn't:** a prediction of whether a recruit will be offered a spot, a ranking of programs, or a guarantee of anything. There's no 0–100 number: roster data can't honestly tell a 98 from an 88, so the app doesn't pretend to. Inside a band, programs are listed nearest first, never ranked. Recruiting involves human decisions, subjective evaluations, and factors that no algorithm can capture — like a coach's impression during a conversation, or team chemistry, or a recruit's intangible qualities.
 
 RosterFit is a tool for making smarter decisions, not a replacement for the recruiting process itself.
 
 ## The factors lacrosse scores
 
-The scoring engine behind every RosterWise app has seven components. Each sport's app decides which of them it scores and how much each one counts. In RosterWise Lacrosse, the standard weights (out of 100) are:
+The engine behind every RosterWise app has seven factors. Each sport's app decides which of them it scores and how much each one counts toward the band. In RosterWise Lacrosse, the standard weights (out of 100) are:
 
 | Factor | Men's programs | Women's programs |
 | --- | --- | --- |
-| Position Need | 28 | 30 |
+| Room at your position | 28 | 30 |
 | Academic Match | 20 | 20 |
 | Roster Composition | 6 | not scored |
 | Competitive Level | not scored | not scored |
@@ -69,36 +69,47 @@ The scoring engine behind every RosterWise app has seven components. Each sport'
 | Geographic Fit | 24 | 26 |
 | Financial Fit | 16 | 18 |
 
-So a men's lacrosse score is built from six factors and a women's score from five. These are the app's standard weights as of October 2026. You can see them in the app, and change them, under Settings › My RosterFit™ › Customize Score Weights; a score calculated with weights you've changed is marked as using your weights.
+So a men's lacrosse band is read from six factors and a women's from five. These are the app's standard weights as of October 2026. You can see them on the app's My RosterFit™ page, and change them under **Customize Weights**; once you've changed them, your bands use your weights and say so.
 
 **Why Competitive Level is off for lacrosse.** In some other RosterWise sports, this component grades a recruit's club or school pathway against a program's division. We found no sound way to grade lacrosse club and school pathways against division, so the lacrosse app doesn't score it for either gender. The app still shows each roster's pathways as information (see Roster Composition below and the program page's Recruiting Pipeline).
 
-**Why Roster Composition is men's only.** For women's programs the standard weight is zero: for a domestic recruit, the factor rated almost every women's program the same way, so it carries no weight there and drops out of the score and the breakdown.
+**Why Roster Composition is men's only.** For women's programs the standard weight is zero: for a domestic recruit, the factor rated almost every women's program the same way, so it carries no weight there and drops out of the band and the breakdown.
 
 > **Correction, October 9, 2026.** An earlier version of this page was titled "The Eight Factors" and said My RosterFit evaluates eight factors, including "Pathway Alignment" and "Division Level." The app has neither. Its scoring engine has seven components; the lacrosse app scores six for men's programs and five for women's, and does not score Competitive Level. The page also said we don't publish the weights — the app shows every weight and lets you change it — and listed SSDM (short-stick defensive midfielder) among the positions Position Need reads; the app has no SSDM position, and counts a player a roster lists as an SSDM under another position, usually midfield. We rewrote the factor descriptions below from the app itself, and changed the page title to match.
 
-### 1. Position Need
+### 1. Room at your position
 
-**What it compares:** the players a program lists at your athlete's position, and when they're due to leave. It needs your athlete's position and graduation year.
+**What it compares:** how many players a program lists at your athlete's position in its last two seasons' rosters (or the one season the app has). It needs your athlete's position and graduation year.
 
-- **If your athlete would arrive in the class right after the roster the app holds,** it counts how many players at the position will have departed by then and how many will remain.
-- **If your athlete is further out,** nobody can know who will be on that future roster. Instead, the app uses the program's typical yearly intake at the position — the players it carries there, divided by four years (two at NJCAA programs) — and compares it with what reads as a deep pipeline at that position for men's or women's lacrosse.
+A bigger group turns over more places a year. The app divides the group by four years (two at NJCAA programs) for a typical yearly intake, and compares it with what reads as a deep pipeline at that position for men's or women's lacrosse:
 
-**Why it matters:** A program with three senior close defenders graduating next spring has a visible need at defense. A program with two freshman defenders and a sophomore does not.
+- **Strong:** a deep group in both seasons
+- **Moderate:** in between, or borderline, when the two seasons fall on different sides of the line
+- **Low:** a small group in both seasons
 
-**The nuance:** Position Need reads the positions the roster lists. Men's positions in the app are attack, midfield, long-stick midfield, face-off, defense, and goalie; women's are attack, midfield, defense, and goalie. When a group is small, a single departure moves the need more than it would in a large group. The factor can't account for players the coach plans to move from another position, recruits who have committed but aren't on the roster yet, or transfer portal additions. If players with no published class year would change the answer, the app doesn't grade it. It's an indicator of likely need, not a guarantee.
+**If your athlete would join the class right after the newest rosters,** the app also counts who's due to leave before then. When at least half the group, and at least two players, is leaving, the light goes one step up, never down. Players with no published class year don't count toward that step.
+
+**Why it matters:** a program that keeps a deep group of defenders has more places turning over each year than one that carries a handful.
+
+**The nuance:** Room reads the positions the roster lists, and a player listed at two positions counts at both. Men's positions in the app are attack, midfield, long-stick midfield, face-off, defense, and goalie; women's are attack, midfield, defense, and goalie. When a group is small, a single departure moves the need more than it would in a large group. The factor can't account for players the coach plans to move from another position, recruits who have committed but aren't on the roster yet, or transfer portal additions. It's an indicator, not a guarantee.
 
 ### 2. Academic Match
 
-**What it compares:** your athlete's ACT or SAT score with the range the school reports to the federal IPEDS database — whether the score sits at or above the 75th percentile, at or above the median, inside the middle 50%, or below it. Open-admission schools count as a match. Without a test score from your athlete, or a published range from the school, there's nothing to compare, and the app says which one is missing.
+**What it compares:** your athlete's SAT or ACT score with the scores of the students the school admitted, as it reports them to the federal IPEDS database. If your athlete gives both, the better result counts.
+
+- **Strong:** at or above the school's median score
+- **Moderate:** inside the middle 50%, below the median
+- **Low:** below the middle 50% (under the 25th percentile)
+
+Open-admission schools rate Strong. GPA isn't part of this check. Without a test score from your athlete, or a published range from the school, there's nothing to compare, and the app says which one is missing.
 
 **Why it matters:** College is a four-year academic commitment, not just an athletic one. A recruit whose scores are well below an institution's range may face admissions challenges. A recruit whose profile significantly exceeds an institution's range might find a better academic match elsewhere.
 
-**The nuance:** Academic Match uses institution-wide admissions data, not program-specific practices. Some programs have admissions flexibility for recruited athletes; others do not. The score reflects general alignment, not a specific admissions prediction.
+**The nuance:** Academic Match uses institution-wide admissions data, not program-specific practices. Some programs have admissions flexibility for recruited athletes; others do not. The light reflects general alignment, not a specific admissions prediction.
 
 ### 3. Roster Composition (men's programs only)
 
-**What it compares:** the domestic and international share of a program's roster against your athlete's background. For a domestic recruit, a roster that is at least 70% domestic rates as a match, 50–70% as mixed, and under 50% as a mismatch. For an international recruit — including a Canadian — a roster that is at least 25% international rates as a match, 10–25% as mixed, and under 10% as a mismatch.
+**What it compares:** the domestic and international share of a program's roster against your athlete's background. For a domestic recruit, a roster that is at least 70% domestic rates Strong, 50–70% Moderate, and under 50% Low. For an international recruit — including a Canadian — a roster that is at least 25% international rates Strong, 10–25% Moderate, and under 10% Low.
 
 **Why it matters:** At a fixed roster size, international and domestic players compete for the same spots. For an international recruit, a roster that already includes international players shows the program has recruited them before. See [International Composition](/lacrosse/methodology/international-composition/).
 
@@ -106,7 +117,7 @@ So a men's lacrosse score is built from six factors and a women's score from fiv
 
 ### 4. Height Fit
 
-**What it compares:** your athlete's height with the average and spread of the heights a program publishes at the same position. At defense, long-stick midfield, and goalie, only being shorter than the program's players counts against your athlete; at other positions, a large difference either way does. If a program publishes fewer than three heights at the position, the app doesn't grade it.
+**What it compares:** your athlete's height with the typical height a program's roster lists at the same position. Close to it rates Strong, somewhat outside the usual range Moderate, and well outside it Low. At defense, long-stick midfield, and goalie, only being shorter than the program's players counts against your athlete; at other positions, a large difference either way does. If a program publishes fewer than three heights at the position, the app doesn't grade it.
 
 **Why it matters:** A program's current roster shows the heights of the players it has at each position. If those players are consistently taller or shorter than your athlete, that's worth knowing — and worth asking the coach about.
 
@@ -116,8 +127,8 @@ So a men's lacrosse score is built from six factors and a women's score from fiv
 
 **What it compares:** one of two things, depending on what your athlete tells the app.
 
-- **With a distance preference:** how far the school is from home. Within your maximum rates as a match; up to one and a half times it as mixed; beyond that as a mismatch.
-- **If distance isn't a factor:** where the program's current players come from. Three or more players from your athlete's home state rates as a match; one or two as mixed; none from your state but three or more from your region as mixed; none from either as a mismatch.
+- **With a distance preference:** how far the school is from home. Within your maximum rates Strong; up to one and a half times it Moderate; beyond that Low.
+- **If distance isn't a factor:** where the program's current players come from. Three or more players from your athlete's home state rates Strong; one or two Moderate; none from your state but three or more from your region Moderate; none from either Low.
 
 **Why it matters:** A program's roster hometowns show whether it draws mostly from nearby states or recruits more widely. Say a program's roster comes almost entirely from New England: a recruit from Massachusetts and a recruit from Georgia are in different positions there.
 
@@ -125,7 +136,7 @@ So a men's lacrosse score is built from six factors and a women's score from fiv
 
 ### 6. Financial Fit
 
-**What it compares:** the school's published tuition — in-state if your athlete's state matches the school's, out-of-state otherwise — with the maximum you set. Within your budget rates as a match; up to 25% over as mixed; more than that as a mismatch. If you choose no limit, the app treats cost as not a factor for you.
+**What it compares:** the school's published tuition — in-state if your athlete's state matches the school's, out-of-state otherwise — with the maximum you set. Within your budget rates Strong; up to 25% over Moderate; more than that Low. If you choose no limit, cost is the same at every program, so the app lists it as "not a factor for you" and leaves it out of the band.
 
 **Why it matters:** A program that's a perfect athletic and academic fit but financially out of reach isn't actually a fit. Financial Fit helps families factor cost into their prioritization from the beginning rather than discovering affordability issues late in the process.
 
@@ -133,26 +144,33 @@ So a men's lacrosse score is built from six factors and a women's score from fiv
 
 > **Correction, October 9, 2026.** An earlier version of the factor descriptions on this page said position conversions are "a common practice in lacrosse"; that lacrosse has "a strong concentration of programs at highly academic institutions" and that academic alignment is "more often a deciding factor" than in other sports; that named school leagues and club groups "all have established relationships with specific college programs"; that women's height preferences are "typically less pronounced"; that lacrosse has "more pronounced geographic recruiting patterns than many sports"; that academic merit aid at D3 schools "can produce competitive financial outcomes"; and that "top D3 programs … play at very high levels — sometimes higher than the bottom of D1." None of it had a source, and ranking programs is outside what we publish. We rewrote those passages to describe what the roster shows. The descriptions of what each factor measures were unchanged in that edit; they were rewritten from the app on the same day (see the correction above).
 
-## How the factors combine
+## How the lights become a band
 
-Each factor is rated green, yellow, or red for your athlete at that program, and the app combines them into one score from 0 to 100 as a weighted average, using the weights above. Green counts 5, yellow 2.5, and red 1, so a red factor pulls the score down hard.
+RosterFit weighs each light by how much its factor counts, then reads one band:
 
-**Missing data doesn't move the basis.** When the app can't verify a factor — a school doesn't publish heights at your athlete's position, say, or you haven't entered a test score — that factor still counts at its full weight, at a neutral value, so every program is scored on the same weights. The app won't give a score at all for a program whose roster it doesn't hold, or when less than half of the weight could be verified.
+| Band | The rule |
+| --- | --- |
+| **Strong fit** | Nothing Low, and Strong on 70% or more of the weight |
+| **Good fit** | Nothing Low, and Strong on less than 70% |
+| **Mixed fit** | Low on less than 30% of the weight |
+| **Weak fit** | Low on 30% or more of the weight |
 
-**Red factors cap the score.** Two red factors cap the score at 49, and three or more at 35. Only a red the app actually verified counts toward a cap.
+**A Low is weighed, not counted.** A Low on a light factor (Height Fit, at 6) matters less than one on a heavy factor (Room at your position, at 28 or 30).
 
-**Every score shows its coverage.** Each score comes with a line saying how many of its factors were scored — for example, "5 of 6 factors scored" — and the breakdown shows each factor's rating and the reason for it, so families can see why a program scored the way it did and apply their own judgment. A family that prioritizes academics above all else can weigh Academic Match more heavily than the standard weights do; a family focused on playing time can weight Position Need.
+**A factor the app couldn't check** (a school doesn't publish heights at your athlete's position, say, or you haven't entered a test score) counts against Strong, because it isn't Strong, and never toward Weak, because it isn't Low. If less than half the weight could be checked, the app says "Not enough to judge" instead of giving a band. It won't give a band at all for a program whose roster it doesn't hold.
 
-**The combined score is a starting point for exploration, not a definitive ranking.** Programs with high RosterFit scores deserve a closer look. Programs with low scores might not be the best use of time. But no algorithm replaces the judgment of a family that knows their athlete, their values, and their priorities.
+**Every band shows its coverage.** Each band comes with a line saying how many of its factors were scored, for example "5 of 6 factors scored," and the breakdown shows each factor's light and the reason for it, so families can see why a program reads the way it does and apply their own judgment. A family that prioritizes academics above all else can weigh Academic Match more heavily than the standard weights do; a family focused on playing time can weight Room at your position.
+
+**The fit band replaced a number.** Before RosterWise 2.1, the app combined the factors into a score from 0 to 100. Roster data can't honestly tell a 98 from an 88, so the app now reads a band instead.
 
 ## What RosterFit cannot capture
 
-We believe in being transparent about the limits of any scoring system:
+We believe in being transparent about the limits of any fit check:
 
 - **Playing ability.** RosterFit compares roster data, academics, geography, and cost. It does not evaluate stick skills, dodging, shooting, face-off ability, lacrosse IQ, or any other on-field performance — often the most important parts of a coach's evaluation.
 - **A coach's subjective evaluation.** Coaches recruit based on film, in-person evaluation, personal interaction, and factors no database captures.
 - **Team chemistry.** Some recruits will thrive in a program's culture; others won't. This is invisible to data analysis.
-- **Incoming recruiting class.** RosterFit is based on the current roster. Recruits who have already committed but aren't yet on the roster can change the picture.
+- **Incoming recruiting class.** RosterFit is based on the rosters the app holds. Recruits who have already committed but aren't yet on the roster can change the picture.
 - **Transfer portal dynamics.** Programs actively recruiting the transfer portal may fill needs that the current roster suggests exist.
 - **Position conversions.** A coach may move a player to a different position — midfielder to LSM, attacker to midfielder, and so on. RosterFit reads stated positions, not conversion plans.
 - **Personal preferences.** Campus feel, social environment, and other personal factors that matter enormously to individual families.
@@ -161,14 +179,14 @@ We believe in being transparent about the limits of any scoring system:
 
 RosterFit provides a structured, data-driven foundation. The best recruiting decisions combine that foundation with personal judgment, campus visits, coach conversations, and family values.
 
-## How to use RosterFit scores
+## How to use the bands
 
-**High RosterFit scores (strong fit):** These programs deserve priority in your outreach and research. The data suggests meaningful alignment across multiple dimensions. Start your recruiting communication here.
+**Strong and Good fits:** nothing reads Low for your athlete at these programs. They're the natural place to start your research and outreach.
 
-**Medium RosterFit scores (moderate fit):** Worth investigating but not automatic priorities. Look at the individual factor ratings to understand why the overall score is moderate — it might be one factor pulling the score down, and that factor might not matter to your family.
+**Mixed fits:** something reads Low, but on a small part of what counts. Open the lights to see which factor it is. It might be one your family doesn't weigh heavily, and you can change the weights to say so.
 
-**Low RosterFit scores (weaker fit):** The data suggests limited alignment. This doesn't mean the program is impossible, but it means the path is steeper and other programs may be a better use of time and energy.
+**Weak fits:** Lows on a large part of what counts. This doesn't mean the program is impossible, but the path is steeper, and other programs may be a better use of time and energy.
 
-**Always look at the individual factors, not just the combined score.** A program with a high Position Need but low Academic Match tells a different story than a program with moderate scores across the board. The factor breakdown is where the actionable intelligence lives.
+**Always read the lights, not just the band.** A Good fit with a Moderate on Room tells a different story than a Good fit with a Moderate on cost. The factor breakdown is where the useful detail lives.
 
-RosterFit is designed to help families allocate their recruiting effort more effectively. It's a compass, not a GPS — it points you in productive directions and helps you avoid unproductive ones. The journey is still yours to navigate.
+RosterFit is designed to help families spend their recruiting effort where it counts. It's a compass, not a GPS: it points you in productive directions and helps you avoid unproductive ones. The journey is still yours to navigate.

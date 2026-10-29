@@ -83,6 +83,6 @@ We went through this process ourselves — visiting roster pages one at a time, 
 
 RosterWise was born from that frustration. We built a data pipeline that reads every public roster page across NCAA D1, D2, D3, and NAIA — more than 2,200 men's and women's soccer programs — and normalizes the data into a consistent format. Position depth, class-year composition, international percentage, hometown patterns, club affiliations, and physical profiles, all comparable across every program in the country.
 
-Then we added My RosterFit scoring: enter your athlete's profile and see a personalized fit score for every program based on how their roster aligns with your athlete's position, physical profile, and preferences. It's the analysis we wished existed when we were the ones sitting at a tournament, wondering where our kid actually fit.
+Then we added My RosterFit scoring: enter your athlete's profile and see a fit band for every program, with a light for each factor: how its roster lines up with your athlete's position, physical profile, and preferences. It's the analysis we wished existed when we were the ones sitting at a tournament, wondering where our kid actually fit.
 
 The roster data is already out there. Every athletics website publishes it. RosterWise just makes it useful — so families can spend less time in spreadsheets and more time having the conversations that actually matter.

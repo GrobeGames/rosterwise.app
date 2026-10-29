@@ -1,8 +1,8 @@
 ---
 layout: content.njk
-title: "How RosterFit™ Scoring Works for Wrestling — Methodology | RosterWise™"
-description: "A transparent explanation of how RosterWise calculates personalized fit for wrestling recruits — built around projected weight class, class-year timing, level, geography, and program direction."
-date: 2026-07-07
+title: "How My RosterFit™ Works for Wrestling: Four Factors and a Fit Band"
+description: "How My RosterFit™ works in RosterWise Wrestling: the four factors it checks, room at your weight class, academics, distance and cost, their standard weights, and how the lights become a fit band."
+date: 2026-10-29
 breadcrumbs:
   - text: Home
     url: /
@@ -10,8 +10,8 @@ breadcrumbs:
     url: /wrestling/
   - text: Methodology
     url: /wrestling/methodology/
-  - text: RosterFit Score
-summary: "RosterFit is our personalized fit score for wrestling — a transparent way to rank how well a recruit matches each program, built from the roster signals that actually matter in a weight-class sport. It combines the athlete's projected weight class and class-year timing with each program's depth, level, geography, and direction. This page explains the factors that feed the score, what it deliberately does not do, and how to use it as a decision-support tool rather than a verdict."
+  - text: My RosterFit
+summary: "My RosterFit™ checks how a college wrestling program lines up with one wrestler, factor by factor. RosterWise Wrestling scores four factors for men's and women's programs: Room at your weight class, Academic Match, Geographic Fit and Financial Fit. Each gets a light, Strong, Moderate or Low, and from the lights, weighed by how much each factor counts, the program gets one band: Strong, Good, Mixed or Weak fit. It reads the weight class your athlete wrestles and never projects a future one. This page explains what each factor compares, how much it counts, and how to read a band."
 related:
   - title: "Roster Composition Analysis by Weight Class"
     url: /wrestling/methodology/roster-composition/
@@ -26,72 +26,123 @@ related:
     url: /wrestling/guide/what-college-coaches-evaluate/
     status: live
 sources:
-  - "Publicly available college wrestling rosters and coaching information from institutional athletics websites"
-  - '<a href="https://www.ncaa.org">NCAA.org</a> — division membership and the roster/eligibility framework'
-  - "House v. NCAA settlement (effective July 1, 2025) — D1 roster-cap framework (wrestling cap of 30)"
+  - "RosterWise Wrestling app: the shared RosterFit engine and the wrestling configuration (factors, standard weights, the room rule by weight class, the band rules), read October 29, 2026"
+  - "Publicly available college wrestling rosters from institutional athletics websites"
+  - "U.S. Department of Education — IPEDS data (admissions test-score ranges and published tuition)"
 cta:
-  heading: "Get a personalized fit score for every program"
-  text: "RosterFit ranks how well your athlete matches each program — by projected weight class, timing, level, geography, and direction — across every NCAA D1, D2, D3, NAIA, and NJCAA wrestling program. Personalized, transparent, and built for wrestling."
+  heading: "See a fit band for every program"
+  text: "A My RosterFit™ band for every NCAA D1, D2, D3, NAIA, and NJCAA wrestling program in the app, with the light behind it for each factor: room at your athlete's weight class, academics, distance and cost. Men's and women's."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
 ${toc}
 
-## What RosterFit is (and isn't)
+## What My RosterFit is (and isn't)
 
-RosterFit is a **personalized fit score**: given your athlete's profile, it ranks how well they match each college wrestling program. It exists to turn a thousand programs into a **prioritized list** — where to focus outreach, visits, and energy — based on the roster signals that actually matter in a weight-class sport.
+My RosterFit™ checks how a specific college wrestling program lines up with a specific wrestler. It's personalized: the same program can read a Strong fit for one wrestler and a Weak fit for another, because fit depends on the individual.
 
-What it **isn't**: a prediction that your athlete will be recruited, a ranking of program quality, or a substitute for coach conversations and visits. It's **decision support** — a data-driven starting point, transparently built, that you refine with judgment.
+**What it is:** a factor-by-factor check. RosterFit gives each factor a light, Strong, Moderate or Low, and reads one band from the lights: **Strong, Good, Mixed or Weak fit**. Every band comes with its lights and the reason behind each, so you can see why a program reads the way it does.
 
-## The inputs: your athlete's profile
+**What it isn't:** a prediction that your athlete will be recruited, a ranking of programs, or a guarantee of anything. There's no 0–100 number: roster data can't honestly tell a 98 from an 88, so the app doesn't pretend to. Inside a band, programs are listed nearest first, never ranked.
 
-RosterFit starts with the athlete, not the program:
+**The weight class it reads is the one your athlete wrestles.** You pick it in the app. RosterFit never projects a future weight class: there's no reliable way to know whether a young wrestler is done growing, and the app won't guess at an athlete's body weight.
 
-- **Projected weight class** (a band, not just today's high-school class — see [what coaches evaluate](/wrestling/guide/what-college-coaches-evaluate/))
-- **Graduation year / college class year**
-- **Gender** (which sets the weight-class map, the style, and — for women — the [unified-championship](/wrestling/womens/guide/ncaa-championship/) level caveat)
-- **Target level(s)** and geographic preferences
-- **Academic profile**
+## The four factors wrestling scores
 
-## The factors that feed the score
+RosterWise Wrestling checks four factors, for both men's and women's programs. These are the app's standard weights (out of 100):
 
-RosterFit weighs a transparent set of factors for each program:
+| Factor | Weight |
+| --- | --- |
+| Room at your weight class | 34 |
+| Academic Match | 22 |
+| Geographic Fit | 22 |
+| Financial Fit | 22 |
 
-1. **Weight-class match.** Does the program have a genuine opening at the athlete's **projected** weight — or is it stacked there? This is the heaviest signal.
-2. **Class-year timing at that weight.** Does the opening arrive in the athlete's **college class year** (a graduating senior at the weight, thin depth behind), so the timing works? See [weight-class depth](/wrestling/methodology/weight-class-depth/).
-3. **Level fit.** Is the program's competitive level a realistic match — with the women's **unified-championship** caveat built in, so "level" means the right thing for each gender (see [divisions](/wrestling/guide/divisions-explained/))?
-4. **Recruiting-geography fit.** Does the athlete's region fit the program's [pipeline](/wrestling/methodology/recruiting-geography/), or would they be extending its map?
-5. **Program direction.** What do [coach tenure](/wrestling/methodology/coach-tenure/) and roster construction say about where the program is heading?
-6. **Roster-cap room (D1).** Under the House-era 30-cap, how much room does the program realistically have?
-7. **Pathway mix.** Does the program develop high-school recruits or reload through the [transfer portal](/wrestling/guide/transfer-portal/) at the athlete's weight?
-8. **Academic fit.** Does the school align with the athlete's academic profile and goals?
+The shared engine behind every RosterWise app has three more factors, Height Fit, Roster Composition and Competitive Level. The wrestling app switches all three off, so they carry no weight and don't appear.
 
-No single factor decides the score; weight-class match and class-year timing carry the most, because in wrestling they most directly determine opportunity.
+These are the app's standard weights as of October 2026. You can see them on the app's My RosterFit™ page, and change them under **Customize Weights**; once you've changed them, your bands use your weights and say so.
 
-## Why transparency matters
+### 1. Room at your weight class
 
-We tell you what goes into the score because a fit tool you can't interrogate isn't trustworthy. When RosterFit ranks a program highly, you should be able to see *why* — "open at your projected weight in your class year, at a fitting level, within the program's recruiting region." When it ranks one low, you should see that too — "stacked at your weight with two returning underclassmen." The score is a **summary of readable signals**, not a black box.
+**What it compares:** how many wrestlers a program lists at your athlete's weight class in its last two seasons' rosters (or the one season the app has). It needs your athlete's weight class and graduation year.
+
+A weight class is one place in the lineup, so fewer wrestlers there means more room:
+
+| | Men's programs | Women's programs |
+| --- | --- | --- |
+| **Strong** | 2 or fewer at the weight, in both seasons | 1 or fewer, in both seasons |
+| **Low** | 5 or more, in both seasons | 4 or more, in both seasons |
+| **Moderate** | in between, or borderline: the two seasons fall on different sides of a line | the same |
+
+**If your athlete would join the class right after the newest rosters,** the app also counts who's due to leave before then. When at least half the wrestlers at the weight, and at least two, are leaving, the light goes one step up, never down. Wrestlers with no published class year don't count toward that step.
+
+**The nuance:** a wrestler a roster lists at two weights (149/157, say) counts at both. Room reads the weights the roster lists. It can't see a staff's plan to move a wrestler up or down a class, recruits who have committed but aren't on the roster yet, or transfer portal additions. See [Weight-Class Depth](/wrestling/methodology/weight-class-depth/).
+
+### 2. Academic Match
+
+**What it compares:** your athlete's SAT or ACT score with the scores of the students the school admitted, as it reports them to the federal IPEDS database. If your athlete gives both, the better result counts.
+
+- **Strong:** at or above the school's median score
+- **Moderate:** inside the middle 50%, below the median
+- **Low:** below the middle 50% (under the 25th percentile)
+
+Open-admission schools rate Strong. GPA isn't part of this check. Without a test score from your athlete, or a published range from the school, there's nothing to compare, and the app says which one is missing.
+
+**The nuance:** Academic Match uses institution-wide admissions data, not program-specific practices.
+
+### 3. Geographic Fit
+
+**What it compares:** one of two things, depending on what your athlete tells the app.
+
+- **With a maximum distance:** within it rates Strong, up to one and a half times it Moderate, and beyond that Low.
+- **If distance isn't a factor:** where the program's current wrestlers come from. Three or more from your athlete's home state rates Strong; one or two from the state, or three or more from the region, Moderate; none from either, Low.
+
+**The nuance:** geographic patterns describe tendencies, not rules. See [Recruiting Geography](/wrestling/methodology/recruiting-geography/).
+
+### 4. Financial Fit
+
+**What it compares:** the school's published tuition (in-state if it's your state's school, out-of-state otherwise) against the budget you set.
+
+- **Strong:** within your budget, or you chose "Cost is not a factor"
+- **Moderate:** up to 25% over your budget
+- **Low:** more than 25% over
+
+**The nuance:** this is the sticker price. Athletic, merit, and need-based aid all lower what a family actually pays, and none of them is in this check. If you chose "Cost is not a factor," the factor is the same at every program, so the app lists it as "not a factor for you" and leaves it out of the band.
+
+## How the lights become a band
+
+RosterFit weighs each light by how much its factor counts, then reads one band:
+
+| Band | The rule |
+| --- | --- |
+| **Strong fit** | Nothing Low, and Strong on 70% or more of the weight |
+| **Good fit** | Nothing Low, and Strong on less than 70% |
+| **Mixed fit** | Low on less than 30% of the weight |
+| **Weak fit** | Low on 30% or more of the weight |
+
+**A Low is weighed, not counted.** With room at your weight class carrying 34 of the 100, a Low there weighs more than a Low on any other factor.
+
+**An example, on the standard weights.** Say Room and Financial Fit are Strong, and Academic Match and Geographic Fit are Moderate. The Strong factors carry 56% of the weight (34 + 22), and nothing is Low, so the program is a **Good fit**. Strong would need 70%.
+
+**A factor the app couldn't check** (your athlete hasn't entered a test score, say) counts against Strong, because it isn't Strong, and never toward Weak, because it isn't Low. If less than half the weight could be checked, the app says "Not enough to judge" instead of giving a band. Every band shows how many of its factors were scored, for example "4 of 4 factors scored."
+
+> **Correction, October 29, 2026.** An earlier version of this page said RosterFit was built around a "projected weight class" and listed eight factors: weight-class match, class-year timing, level fit, recruiting-geography fit, program direction, roster-cap room, pathway mix and academic fit. The app doesn't project a weight class; it scores the weight class your athlete picks. It scores four factors: room at that weight class, academics, distance and cost. The page also called RosterFit a score that "ranks" programs, but the app gives each program a fit band and doesn't rank them. We rewrote the page from the app itself.
 
 ## The limits, stated honestly
 
 - **It's built on public roster snapshots,** which change through the season and the portal.
-- **Projection is an estimate,** so weight-class match is a band, not a certainty.
-- **It can't see coaching intent** — a staff may plan to bump a wrestler up a class or chase a transfer.
-- **It doesn't measure intangibles** — a coach's belief in an athlete, a campus visit that just feels right, the chemistry of a room.
-- **A high score is an opportunity, not an outcome.** Recruiting still runs on relationships and performance.
+- **It can't see coaching intent:** a staff may plan to bump a wrestler up a class or chase a transfer.
+- **It doesn't measure ability or intangibles:** results, a coach's belief in an athlete, a campus visit that just feels right, the chemistry of a room.
+- **A Strong fit is an opportunity, not an outcome.** Recruiting still runs on relationships and performance.
 
-## How families use RosterFit
+## How families use the bands
 
-1. **Sort the universe.** Use the score to turn every program into a prioritized shortlist.
-2. **Read the "why."** Look at the factors behind each ranking, not just the number.
-3. **Focus outreach** on high-fit programs where the weight-class and timing signals are strong.
-4. **Refine with judgment.** Layer in the intangibles — visits, conversations, gut — that no score captures.
-5. **Revisit as things change** — projection, rosters, and coaching all move.
+1. **Start with the weight class your athlete wrestles today,** and look again if that changes.
+2. **Read the lights, not just the band.** A Good fit with a Moderate on Room tells a different story than a Good fit with a Moderate on cost.
+3. **Focus outreach** where nothing reads Low, especially Room at your weight class.
+4. **Refine with judgment.** Layer in the intangibles, visits, conversations, gut, that no fit check captures.
+5. **Revisit as things change:** rosters and coaching staffs move every season.
 
 ## Every recruit's journey is different
 
-RosterFit stacks the odds and saves enormous time, but wrestling recruiting is still human. Athletes land at programs that scored modestly because a coach believed in their ceiling; others pass on their highest-fit program for reasons only their family understands. Use the score to focus your effort where the data says opportunity is real — then let relationships, development, and fit finish the job.
-
----
-
-*This methodology reflects the 2025-26 season, including the House settlement's D1 roster cap. RosterFit is decision support built from public data, not a guarantee of recruiting outcomes.*
+RosterFit saves enormous time, but wrestling recruiting is still human. An athlete can land at a program that reads a Mixed fit because a coach believes in them, and another can pass on a Strong fit for reasons only their family understands. Use the bands to focus your effort where the roster says the room is real, then let relationships, development, and fit finish the job.

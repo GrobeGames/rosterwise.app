@@ -25,9 +25,9 @@ children:
     url: /soccer/methodology/coach-tenure/
     summary: "What coaching tenure tells you about a program's stability, recruiting philosophy, and likely direction."
     status: live
-  - title: "How My RosterFit™ Scoring Works: The Eight Factors"
+  - title: "How My RosterFit™ Works in College Soccer: Seven Factors and a Fit Band"
     url: /soccer/methodology/rosterfit-score/
-    summary: "A transparent explanation of how RosterWise calculates personalized fit scores — the eight factors that determine how well a recruit fits a program."
+    summary: "How My RosterFit™ reads a fit band for each program — the seven factors it checks for men's and women's soccer, and how much each counts."
     status: live
 ---
 

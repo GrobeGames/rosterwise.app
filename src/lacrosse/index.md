@@ -21,7 +21,7 @@ children:
     status: live
   - title: "How RosterWise Analyzes College Lacrosse Rosters"
     url: /lacrosse/methodology/
-    summary: "A transparent look at our data sources, analysis methods, and what RosterFit scores actually measure for lacrosse."
+    summary: "A transparent look at our data sources, analysis methods, and what RosterFit actually measures for lacrosse."
     status: live
 sources:
   - "<strong>2026-27 NCAA Division I Manual</strong> — Bylaw 17.2 (Roster Limitations: men's lacrosse 48, women's lacrosse 38), Bylaws 13.1.1.1.7 and 13.1.1.1.8 (initial contact dates) and the related telephone, materials, visit and camp provisions, and Bylaws 13.1.3.1 and 13.4.1 (the general June 15 rule for calls and electronic correspondence) — read via the NCAA Legislative Services Database, web3.ncaa.org/lsdbi"

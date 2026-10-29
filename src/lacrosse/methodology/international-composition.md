@@ -36,7 +36,7 @@ sources:
   - '<a href="/lacrosse/mens/guide/international-recruiting/">RosterWise — International Recruiting in Men''s College Lacrosse</a> — what the NCAA does and does not publish about international lacrosse players'
 cta:
   heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program, plus NJCAA men's. See it in the app."
-  text: "See the international players on every college lacrosse roster in the app — how many, what share of the roster, and which countries they come from — and, for men's programs, how that share figures in your athlete's My RosterFit score. Men's and women's."
+  text: "See the international players on every college lacrosse roster in the app — how many, what share of the roster, and which countries they come from — and, for men's programs, how that share figures in your athlete's My RosterFit™ fit band. Men's and women's."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 

@@ -31,7 +31,7 @@ sources:
   - '<a href="https://nces.ed.gov/ipeds/">U.S. Department of Education IPEDS</a> — Institutional data (enrollment, location, academic profiles)'
 cta:
   heading: "See roster intelligence in action"
-  text: "The RosterWise apps analyze every men's and women's program in your sport — position depth, class-year gaps, international composition, recruiting pathways, coach tenure, and personalized My RosterFit scores. One app per sport. Every program."
+  text: "The RosterWise apps analyze every men's and women's program in your sport — position depth, class-year gaps, international composition, recruiting pathways, coach tenure, and personalized My RosterFit™ fit bands. One app per sport. Every program."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -109,7 +109,7 @@ Roster intelligence incorporates institutional data — school size, academic st
 
 All of the dimensions above become most powerful when they're combined against a specific athlete's profile.
 
-RosterWise's My RosterFit&trade; scoring does exactly this. Enter your athlete's position, height, graduation year, club background, GPA, and test scores, and the system generates a personalized fit score for every program — combining athletic and academic dimensions into a single, comparable metric.
+RosterWise's My RosterFit&trade; scoring does exactly this. Enter your athlete's position, graduation year, test scores, home and travel distance, and budget (and height and pathway, in the sports that score them), and RosterFit gives every program a light for each factor, Strong, Moderate or Low, and one fit band: Strong, Good, Mixed or Weak fit. Athletic and academic factors are read together, and there's no single number: programs are grouped by band, never ranked.
 
 My RosterFit isn't a guarantee of admission or a roster spot. It's a data-informed starting point for building a smart, realistic recruiting list — one that accounts for what the roster data actually says about opportunity at each program.
 
