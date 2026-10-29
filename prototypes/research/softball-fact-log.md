@@ -318,9 +318,11 @@ All in S1 (2026-27 D1 Manual, printed 10/26/26), each stamped "(Adopted: 6/24/26
   hub, the NAIA page and the 1,527 total together.
 - **After deploy (site fix §L2):** confirm a request to `https://rosterwise-app.pages.dev/` returns `X-Robots-Tag: noindex`
   and a request to `https://rosterwise.app/` returns no `X-Robots-Tag`.
-- **Navigation:** the softball pages are linked from nothing outside `/softball/` until the six-sport navigation commit
-  (rowing session) adds the sidebar, header and homepage entries and sets `apps.json` `hub`. The sitemap picks them up
-  through its catch-all on the next build.
+- **Navigation (done on the branch, `c075cb0`):** rebased onto rowing's six-sport navigation (`rowing/w1a-nav` `c3fe4c4`,
+  itself on `claude/site-reels`); softball's `apps.json` `hub` is `/softball/` (the Sports menu links it, still "Coming
+  soon") and `sportNav.json` has a softball entry. The sitemap picks the pages up through its catch-all. W1 merges only
+  after site-reels and the nav branch. When the app ships: `live`, `appStoreUrl`, `downloadPage`, the CTA copy on every
+  softball page and the FAQ's sport list.
 - **2027-28 rollover (Aug. 2027):** the 2027-28 D1 softball calendar replaces §C; the class sentence in §B moves to
   the class of 2029; re-read Bylaw 13 for any further softball change (the softball committee's January 2026 report
   shows it was still discussing the definition of a prospect and transfer dates).
