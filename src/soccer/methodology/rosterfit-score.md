@@ -1,7 +1,7 @@
 ---
 layout: content.njk
 title: "How My RosterFit™ Works in College Soccer: Seven Factors and a Fit Band"
-description: "How My RosterFit™ works in RosterWise Soccer: the seven factors it checks for men's and women's programs, their standard weights, what each compares, and how the lights become a fit band."
+description: "How My RosterFit™ works in RosterWise Soccer: the seven factors it checks for men's and women's programs, what each compares, and how the lights become a fit band."
 date: 2026-10-29
 breadcrumbs:
   - text: Home
@@ -11,7 +11,7 @@ breadcrumbs:
   - text: Methodology
     url: /soccer/methodology/
   - text: My RosterFit
-summary: "My RosterFit™ checks how a college soccer program lines up with one recruit, factor by factor. RosterWise Soccer scores seven factors for men's and women's programs: Room at your position, Academic Match, Roster Composition, Competitive Level, Height Fit, Geographic Fit and Financial Fit. Each gets a light, Strong, Moderate or Low, and from the lights, weighed by how much each factor counts, the program gets one band: Strong, Good, Mixed or Weak fit. There's no 0–100 number. This page explains what each factor compares, how much it counts, and how to read a band."
+summary: "My RosterFit™ checks how a college soccer program lines up with one recruit, factor by factor. RosterWise Soccer scores seven factors for men's and women's programs: Room at your position, Academic Match, Roster Composition, Competitive Level, Height Fit, Geographic Fit and Financial Fit. Each gets a light, Strong, Moderate or Low, and from the lights, weighed by how much each factor counts, the program gets one band: Strong, Good, Mixed or Weak fit. There's no 0–100 number. This page explains what each factor compares and how to read a band."
 related:
   - title: "What Is Roster Composition Analysis"
     url: /soccer/methodology/roster-composition/
@@ -26,7 +26,7 @@ related:
     url: /soccer/guide/evaluating-programs/
     status: live
 sources:
-  - "RosterWise Soccer app: the shared RosterFit engine and the soccer configuration (factors, standard weights for men's and women's, the band rules), read October 29, 2026"
+  - "RosterWise Soccer app: the shared RosterFit engine and the soccer configuration (factors, what each compares, the band rules), read October 29, 2026"
   - "Publicly available college soccer rosters from institutional athletics websites"
   - "U.S. Department of Education — IPEDS data (admissions test-score ranges and published tuition)"
 cta:
@@ -49,19 +49,7 @@ RosterFit is a tool for making smarter decisions, not a replacement for the recr
 
 ## The seven factors soccer scores
 
-RosterWise Soccer checks seven factors for both men's and women's programs. Each one counts for part of the band, and these are the app's standard weights (out of 100):
-
-| Factor | Men's programs | Women's programs |
-| --- | --- | --- |
-| Room at your position | 22 | 26 |
-| Academic Match | 14 | 16 |
-| Roster Composition | 20 | 8 |
-| Competitive Level | 16 | 16 |
-| Height Fit | 6 | 6 |
-| Geographic Fit | 12 | 14 |
-| Financial Fit | 10 | 14 |
-
-These are the app's standard weights as of October 2026. You can see them on the app's My RosterFit™ page, and change them under **Customize Weights**; once you've changed them, your bands use your weights and say so.
+RosterWise Soccer checks seven factors for both men's and women's programs: Room at your position, Academic Match, Roster Composition, Competitive Level, Height Fit, Geographic Fit and Financial Fit. Each counts for part of the band, some more than others. The app's My RosterFit™ page shows how much each one counts, and you can change that under **Customize Weights**; once you have, your bands use your weights and say so.
 
 ### 1. Room at your position
 
@@ -156,11 +144,9 @@ RosterFit weighs each light by how much its factor counts, then reads one band:
 
 **A Low is weighed, not counted.** A Low on a light factor matters less than one on a heavy factor.
 
-**An example, on men's soccer's standard weights.** Say every factor is Strong except Academic Match and Roster Composition, which are Moderate. The Strong factors carry 66% of the weight (22 + 16 + 6 + 12 + 10), and nothing is Low, so the program is a **Good fit**. Strong would need 70%.
+**An example.** Say every factor is Strong for your athlete except Academic Match and Roster Composition, which are Moderate. Nothing is Low, but on men's soccer's standard weights the Strong factors carry less than 70% of the weight, so the program is a **Good fit**.
 
 **A factor the app couldn't check** (the school doesn't publish heights at the position, say, or your athlete hasn't entered a test score) counts against Strong, because it isn't Strong, and never toward Weak, because it isn't Low. If less than half the weight could be checked, the app says "Not enough to judge" instead of giving a band. Every band shows how many of its factors were scored, for example "6 of 6 factors scored."
-
-> **Correction, October 29, 2026.** An earlier version of this page was titled "The Eight Factors" and said My RosterFit evaluates eight factors, including "Pathway Alignment" and "Division Level." The app has neither: it scores seven factors for soccer. The page also described four factors wrongly. Roster Composition is how international the roster is, not class-year balance. Academic Match is test scores against admitted students, not admission rates. Financial Fit is sticker tuition against your budget, not cost of attendance and average aid. Geographic Fit is distance against your maximum, or where the roster comes from, not a recruiting radius. It also said we don't publish the weights, but the app shows every weight and lets you change it. And it described a single 0–100 score, which the app has replaced with the fit band. We rewrote the page from the app itself.
 
 ## What RosterFit cannot capture
 

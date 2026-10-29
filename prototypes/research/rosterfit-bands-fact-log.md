@@ -31,15 +31,20 @@ as one number or a ranking changes.
 | A factor that couldn't be checked counts against Strong (it isn't Strong) and never toward Weak (it isn't Low) | `FitScore.band` doc comment | 2026-10-29 | the three rosterfit-score pages |
 | A Low is weighed, not counted: a Low on a light factor matters less than one on a heavy factor | `FitScoreExplanationView.keyCard` | 2026-10-29 | the three rosterfit-score pages |
 | There is **no 0–100 number** ("the data can't honestly tell a 98 from an 88") | `FitScoreExplanationView.howItWorks`; `FitBand` doc comment (Scott, board rosterfit-audit, 2026-10-17) | 2026-10-29 | the three rosterfit-score pages; home FAQ |
-| Before RosterWise 2.1 the app combined the factors into a **score from 0 to 100**; 2.1 replaces it with the band | 2.0.2's Core c96f29a: `RWFitScoreBadge` ("My RosterFit score \(overall) out of 100"); the band in Core e953913 (2026-10-17, F9d), which ships first in 2.1.0 | 2026-10-29 | lacrosse rosterfit-score; soccer and wrestling correction notes |
+| Before RosterWise 2.1 the app combined the factors into a **score from 0 to 100**; 2.1 replaces it with the band | 2.0.2's Core c96f29a: `RWFitScoreBadge` ("My RosterFit score \(overall) out of 100"); the band in Core e953913 (2026-10-17, F9d), which ships first in 2.1.0 | 2026-10-29 | lacrosse rosterfit-score |
 | Inside a band, programs are listed **nearest first, never ranked**; Match groups every program by band | `FitScoreExplanationView.keyCard`; `FitScore.milesFromHome` doc; store copy `copy-2.1.0.json` ("Match groups every program by band") | 2026-10-29 | the three rosterfit-score pages; home |
 | A factor that is the same Strong at every program for this recruit — Competitive Level when the pathway's table rates every division alike, Financial Fit when "Cost is not a factor" — is listed as **"not a factor for you"** and left out of the band | `FitComponent.sameEverywhere`; `FitScore.bandComponents`, `notAFactorComponents` | 2026-10-29 | soccer and wrestling rosterfit-score |
 | Each band shows how many of its factors were scored, e.g. "6 of 6 factors scored" | `RWFitScoreBadge`; the Fit video's fit card (draft 3 frame) | 2026-10-29 | the three rosterfit-score pages |
-| Worked example, men's soccer standard weights: every factor Strong except Academic Match and Roster Composition (Moderate) is Strong on **66%** of the weight (22 + 16 + 6 + 12 + 10) with nothing Low: a **Good fit**; Strong would need 70% | `FitFactorCopy.example`, `exampleSentence`; soccer `defaultFitWeights(.mens)` | 2026-10-29 | soccer rosterfit-score |
-| Worked example, wrestling: Academic Match and Geographic Fit Moderate, the rest Strong: Strong on **56%** (34 + 22) with nothing Low: a **Good fit** | `FitFactorCopy` doc ("Wrestling's four factors: Academic and Geographic Moderate, Strong on 56%"); wrestling `defaultFitWeights` | 2026-10-29 | wrestling rosterfit-score |
+| Worked example, men's soccer: every factor Strong except Academic Match and Roster Composition (Moderate): nothing Low, and on the standard weights Strong carries **less than 70%** of the weight (66%: 22 + 16 + 6 + 12 + 10), so a **Good fit**. Published as the outcome only, without the weights (Scott, 2026-10-29, §E) | `FitFactorCopy.example`, `exampleSentence`; soccer `defaultFitWeights(.mens)` | 2026-10-29 | soccer rosterfit-score |
+| Worked example, wrestling: Academic Match and Geographic Fit Moderate, the rest Strong: nothing Low, and on the standard weights Strong carries **less than 70%** (56%: 34 + 22), so a **Good fit**; Room at your weight class counts most. Published without the weights (§E) | `FitFactorCopy` doc ("Wrestling's four factors: Academic and Geographic Moderate, Strong on 56%"); wrestling `defaultFitWeights` | 2026-10-29 | wrestling rosterfit-score |
 | The weights can be seen and changed under **Customize Weights** (the app's My RosterFit™ page, and Settings › My RosterFit™); bands worked out with changed weights say so | `FitScoreExplanationView` ("Customize Weights", "You've changed your weights, so your bands use yours"); `SettingsView` | 2026-10-29 | the three rosterfit-score pages |
 
 ## B. The factors each app scores, and their standard weights
+
+**The weights are logged for the record and NOT published** (Scott, board `site-reels-3`, 2026-10-29; §E). The
+pages name each sport's factors and say each counts for part of the band, some more than others; the only
+comparisons they make are that Room counts most in wrestling, and that Height Fit is a light factor and Room a
+heavy one in lacrosse, both true on every standard weight below. The app's My RosterFit™ page shows the weights.
 
 | Claim | Source | Verified | Articles |
 | --- | --- | --- | --- |
@@ -80,12 +85,31 @@ From `FitFactorCopy` (checked against `FitScoreService` on 2026-10-26, per its h
 - Wrestling `rosterfit-score`: "projected weight class" as an input, eight factors (class-year timing, level
   fit, program direction, roster-cap room, pathway mix), "ranks", "the score".
 - Lacrosse `rosterfit-score`: the 0–100 weighted average, the red caps at 49 and 35, Position Need's 2.0.2
-  rules, Academic Match's 75th-percentile tier, "Customize Score Weights" (now Customize Weights).
+  rules, Academic Match's 75th-percentile tier, "Customize Score Weights" (now Customize Weights), and its three
+  October 9 correction notes (§E).
+- All three rosterfit-score pages: the standard-weights tables and the worked examples' arithmetic (§E).
 - Site-wide: "a single score", "one personalized score", "a single, comparable metric", "a My RosterFit
   score for every program", "RosterFit scores every program", "fit score(s)" as a number, and GPA as an input.
 
+## E. Scott's rulings on these pages (board `site-reels-3`, 2026-10-29)
+
+His notes, quoted as he wrote them:
+- r3-soccer-factors (17:06Z): "Let's remove the percentage weighting table -- we don'tneed to provide that much
+  detail and I think it confuses things."
+- r3-wrestling (17:17Z): "Remove the weightings"
+- r3-soccer-band (17:07Z): "We can remove the "Correction" note as well.  Just mark the page as to when it was
+  last updated."
+- r3-lacrosse (17:24Z): "remove the correction if there is one"
+
+**Ruling: the RosterFit pages carry no weights and no correction notes; the "Last updated" date (front-matter
+`date:`, rendered by content.njk) marks the change.** This departs from the content standards' corrections protocol
+(§9), which asks for a visible note. What was wrong is still recorded, as §9 requires ("never quietly rewrite
+history"): in §D above and in the website commits that made the change (94076d1 names RW-182 and RW-183 and every
+wrong claim; the weights-and-notes removal commit cites this section). Wrestling's correction note went too, by the
+same ruling. Lacrosse's methodology hub keeps its own October 9 note: it is a different page, which he didn't mark.
+
 ### Open items to re-check before/at publish
 - **Release day:** re-read every row against the Core commit and app commits that ship in 2.1.0, then set the
-  three rosterfit-score pages' `date:` and their correction notes to that day if anything moved.
+  three rosterfit-score pages' `date:` (their public "Last updated") to that day.
 - The live app until then is 2.0.2 (a score out of 100): nothing in this log may go live before 2.1.0 does.
 - Volleyball has no rosterfit-score page; its pages say only "personalized fit scoring" (kept, q2).

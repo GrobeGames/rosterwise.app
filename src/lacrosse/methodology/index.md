@@ -27,7 +27,7 @@ children:
     status: live
   - title: "How My RosterFit™ Works in College Lacrosse: Six Factors for Men's, Five for Women's"
     url: /lacrosse/methodology/rosterfit-score/
-    summary: "How My RosterFit™ reads a fit band for lacrosse recruits — the six factors it checks for men's programs and five for women's, and their standard weights."
+    summary: "How My RosterFit™ reads a fit band for lacrosse recruits — the six factors it checks for men's programs and five for women's."
     status: live
 ---
 

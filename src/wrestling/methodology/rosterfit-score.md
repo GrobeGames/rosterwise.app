@@ -1,7 +1,7 @@
 ---
 layout: content.njk
 title: "How My RosterFit™ Works for Wrestling: Four Factors and a Fit Band"
-description: "How My RosterFit™ works in RosterWise Wrestling: the four factors it checks, room at your weight class, academics, distance and cost, their standard weights, and how the lights become a fit band."
+description: "How My RosterFit™ works in RosterWise Wrestling: the four factors it checks, room at your weight class, academics, distance and cost, and how the lights become a fit band."
 date: 2026-10-29
 breadcrumbs:
   - text: Home
@@ -11,7 +11,7 @@ breadcrumbs:
   - text: Methodology
     url: /wrestling/methodology/
   - text: My RosterFit
-summary: "My RosterFit™ checks how a college wrestling program lines up with one wrestler, factor by factor. RosterWise Wrestling scores four factors for men's and women's programs: Room at your weight class, Academic Match, Geographic Fit and Financial Fit. Each gets a light, Strong, Moderate or Low, and from the lights, weighed by how much each factor counts, the program gets one band: Strong, Good, Mixed or Weak fit. It reads the weight class your athlete wrestles and never projects a future one. This page explains what each factor compares, how much it counts, and how to read a band."
+summary: "My RosterFit™ checks how a college wrestling program lines up with one wrestler, factor by factor. RosterWise Wrestling scores four factors for men's and women's programs: Room at your weight class, Academic Match, Geographic Fit and Financial Fit. Each gets a light, Strong, Moderate or Low, and from the lights, weighed by how much each factor counts, the program gets one band: Strong, Good, Mixed or Weak fit. It reads the weight class your athlete wrestles and never projects a future one. This page explains what each factor compares and how to read a band."
 related:
   - title: "Roster Composition Analysis by Weight Class"
     url: /wrestling/methodology/roster-composition/
@@ -26,7 +26,7 @@ related:
     url: /wrestling/guide/what-college-coaches-evaluate/
     status: live
 sources:
-  - "RosterWise Wrestling app: the shared RosterFit engine and the wrestling configuration (factors, standard weights, the room rule by weight class, the band rules), read October 29, 2026"
+  - "RosterWise Wrestling app: the shared RosterFit engine and the wrestling configuration (factors, the room rule by weight class, the band rules), read October 29, 2026"
   - "Publicly available college wrestling rosters from institutional athletics websites"
   - "U.S. Department of Education — IPEDS data (admissions test-score ranges and published tuition)"
 cta:
@@ -49,18 +49,11 @@ My RosterFit™ checks how a specific college wrestling program lines up with a 
 
 ## The four factors wrestling scores
 
-RosterWise Wrestling checks four factors, for both men's and women's programs. These are the app's standard weights (out of 100):
-
-| Factor | Weight |
-| --- | --- |
-| Room at your weight class | 34 |
-| Academic Match | 22 |
-| Geographic Fit | 22 |
-| Financial Fit | 22 |
+RosterWise Wrestling checks four factors, for both men's and women's programs: Room at your weight class, Academic Match, Geographic Fit and Financial Fit. Each counts for part of the band, and Room at your weight class counts most.
 
 The shared engine behind every RosterWise app has three more factors, Height Fit, Roster Composition and Competitive Level. The wrestling app switches all three off, so they carry no weight and don't appear.
 
-These are the app's standard weights as of October 2026. You can see them on the app's My RosterFit™ page, and change them under **Customize Weights**; once you've changed them, your bands use your weights and say so.
+The app's My RosterFit™ page shows how much each factor counts, and you can change that under **Customize Weights**; once you have, your bands use your weights and say so.
 
 ### 1. Room at your weight class
 
@@ -120,13 +113,11 @@ RosterFit weighs each light by how much its factor counts, then reads one band:
 | **Mixed fit** | Low on less than 30% of the weight |
 | **Weak fit** | Low on 30% or more of the weight |
 
-**A Low is weighed, not counted.** With room at your weight class carrying 34 of the 100, a Low there weighs more than a Low on any other factor.
+**A Low is weighed, not counted.** Room at your weight class counts most, so a Low there weighs more than a Low on any other factor.
 
-**An example, on the standard weights.** Say Room and Financial Fit are Strong, and Academic Match and Geographic Fit are Moderate. The Strong factors carry 56% of the weight (34 + 22), and nothing is Low, so the program is a **Good fit**. Strong would need 70%.
+**An example.** Say Room and Financial Fit are Strong, and Academic Match and Geographic Fit are Moderate. Nothing is Low, but on the standard weights the Strong factors carry less than 70% of the weight, so the program is a **Good fit**.
 
 **A factor the app couldn't check** (your athlete hasn't entered a test score, say) counts against Strong, because it isn't Strong, and never toward Weak, because it isn't Low. If less than half the weight could be checked, the app says "Not enough to judge" instead of giving a band. Every band shows how many of its factors were scored, for example "4 of 4 factors scored."
-
-> **Correction, October 29, 2026.** An earlier version of this page said RosterFit was built around a "projected weight class" and listed eight factors: weight-class match, class-year timing, level fit, recruiting-geography fit, program direction, roster-cap room, pathway mix and academic fit. The app doesn't project a weight class; it scores the weight class your athlete picks. It scores four factors: room at that weight class, academics, distance and cost. The page also called RosterFit a score that "ranks" programs, but the app gives each program a fit band and doesn't rank them. We rewrote the page from the app itself.
 
 ## The limits, stated honestly
 
