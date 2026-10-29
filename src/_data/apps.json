@@ -113,6 +113,22 @@
       "positionsExample": "pitchers, catchers, infielders, and outfielders",
       "scenario": [],
       "live": false
+    },
+    {
+      "slug": "rowing",
+      "name": "Rowing",
+      "appId": null,
+      "appStoreUrl": null,
+      "logo": "/assets/rosterwise-rowing-app-logo.png",
+      "downloadPage": null,
+      "hub": "/rowing/",
+      "genders": "Men's & Women's",
+      "subtext": "Men's & Women's · varsity crews",
+      "analysisAxis": "role",
+      "axisVerb": "rows as",
+      "positionsExample": "rowers and coxswains",
+      "scenario": [],
+      "live": false
     }
   ]
 }

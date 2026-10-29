@@ -620,5 +620,76 @@
     ]
    }
   ]
+ },
+ {
+  "slug": "rowing",
+  "name": "Rowing",
+  "subtitle": "Men's &amp; Women's",
+  "hub": "/rowing/",
+  "logo": "/assets/rosterwise-rowing-app-logo.png",
+  "groups": [
+   {
+    "key": "rowing-mens",
+    "label": "Men's Rowing",
+    "links": [
+     {
+      "href": "/rowing/mens/",
+      "label": "Men's College Rowing"
+     }
+    ]
+   },
+   {
+    "key": "rowing-womens",
+    "label": "Women's Rowing",
+    "links": [
+     {
+      "href": "/rowing/womens/",
+      "label": "Women's College Rowing"
+     }
+    ]
+   },
+   {
+    "key": "rowing-guides",
+    "label": "Rowing Guides",
+    "links": [
+     {
+      "href": "/rowing/guide/",
+      "label": "All Rowing Guides"
+     },
+     {
+      "href": "/rowing/guide/governing-bodies/",
+      "label": "Who Governs College Rowing"
+     },
+     {
+      "href": "/rowing/guide/scholarships-and-the-house-settlement/",
+      "label": "Scholarships &amp; the House Settlement"
+     },
+     {
+      "href": "/rowing/guide/recruiting-timeline/",
+      "label": "Recruiting Timeline"
+     },
+     {
+      "href": "/rowing/guide/boats-seats-and-sides/",
+      "label": "Boats, Seats &amp; Sides"
+     },
+     {
+      "href": "/rowing/guide/lightweight-and-openweight/",
+      "label": "Lightweight &amp; Openweight"
+     },
+     {
+      "href": "/rowing/guide/the-2k-erg/",
+      "label": "The 2k Erg"
+     },
+     {
+      "href": "/rowing/guide/coxswain-recruiting/",
+      "label": "Coxswain Recruiting"
+     },
+     {
+      "href": "/rowing/guide/walk-ons-and-novices/",
+      "label": "Walk-Ons &amp; Novices"
+     }
+    ]
+   }
+  ]
  }
 ]
