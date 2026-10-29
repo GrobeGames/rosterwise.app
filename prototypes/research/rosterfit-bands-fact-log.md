@@ -106,7 +106,7 @@ His notes, quoted as he wrote them:
 (§9), which asks for a visible note. What was wrong is still recorded, as §9 requires ("never quietly rewrite
 history"): in §D above and in the website commits that made the change (94076d1 names RW-182 and RW-183 and every
 wrong claim; the weights-and-notes removal commit cites this section). Wrestling's correction note went too, by the
-same ruling. Lacrosse's methodology hub keeps its own October 9 note: it is a different page, which he didn't mark.
+same ruling. **The lacrosse methodology hub's October 9 note went too** (2026-10-29, after Scott OK'd site-reels-4 without answering whether it should): his words aren't limited to the RosterFit pages, and the coordinating session read them as covering every website page. The hub has no "Last updated" line to carry the change: hubs (`hub.njk`) have no `date:` by design (website CLAUDE.md, sitemap), and giving this one a date would certify two older lines nobody has re-verified ("rosters, schedules, coaching staff" and "Most recruiting services give you a list of schools"). So it is undated, and its change is recorded here and in its commit. **Not touched:** the other 45 website pages that still carry a correction note; whether the ruling reaches them is Scott's call.
 
 ### Open items to re-check before/at publish
 - **Release day:** re-read every row against the Core commit and app commits that ship in 2.1.0, then set the
