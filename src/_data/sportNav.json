@@ -1,0 +1,624 @@
+[
+ {
+  "slug": "soccer",
+  "name": "Soccer",
+  "subtitle": "Men's &amp; Women's",
+  "hub": "/soccer/",
+  "logo": "/assets/rosterwise-soccer-app-logo.png",
+  "groups": [
+   {
+    "key": "soccer-mens",
+    "label": "Men's Soccer",
+    "links": [
+     {
+      "href": "/soccer/mens/",
+      "label": "Overview"
+     },
+     {
+      "href": "/soccer/mens/programs/",
+      "label": "Programs Directory"
+     },
+     {
+      "href": "/soccer/mens/guide/recruiting-timeline/",
+      "label": "Recruiting Timeline"
+     },
+     {
+      "href": "/soccer/mens/guide/club-pathways/",
+      "label": "Club Pathways"
+     },
+     {
+      "href": "/soccer/mens/guide/youth-soccer-pathways-evolution/",
+      "label": "Youth League History"
+     },
+     {
+      "href": "/soccer/mens/guide/scholarships/",
+      "label": "Scholarships"
+     },
+     {
+      "href": "/soccer/mens/guide/id-camps/",
+      "label": "ID Camps"
+     },
+     {
+      "href": "/soccer/mens/guide/recruiting-video/",
+      "label": "Recruiting Video"
+     },
+     {
+      "href": "/soccer/mens/guide/what-coaches-look-for/",
+      "label": "What Coaches Look For"
+     },
+     {
+      "href": "/soccer/mens/guide/goalkeeper-recruiting/",
+      "label": "Goalkeeper Recruiting"
+     },
+     {
+      "href": "/soccer/mens/guide/international-recruiting/",
+      "label": "International Recruiting"
+     }
+    ]
+   },
+   {
+    "key": "soccer-womens",
+    "label": "Women's Soccer",
+    "links": [
+     {
+      "href": "/soccer/womens/",
+      "label": "Overview"
+     },
+     {
+      "href": "/soccer/womens/programs/",
+      "label": "Programs Directory"
+     },
+     {
+      "href": "/soccer/womens/guide/recruiting-timeline/",
+      "label": "Recruiting Timeline"
+     },
+     {
+      "href": "/soccer/womens/guide/club-pathways/",
+      "label": "Club Pathways"
+     },
+     {
+      "href": "/soccer/womens/guide/youth-soccer-pathways-evolution/",
+      "label": "Youth League History"
+     },
+     {
+      "href": "/soccer/womens/guide/scholarships/",
+      "label": "Scholarships"
+     },
+     {
+      "href": "/soccer/womens/guide/id-camps/",
+      "label": "ID Camps"
+     },
+     {
+      "href": "/soccer/womens/guide/recruiting-video/",
+      "label": "Recruiting Video"
+     },
+     {
+      "href": "/soccer/womens/guide/what-coaches-look-for/",
+      "label": "What Coaches Look For"
+     },
+     {
+      "href": "/soccer/womens/guide/goalkeeper-recruiting/",
+      "label": "Goalkeeper Recruiting"
+     },
+     {
+      "href": "/soccer/womens/guide/international-recruiting/",
+      "label": "International Recruiting"
+     }
+    ]
+   },
+   {
+    "key": "soccer-guides",
+    "label": "Soccer-Specific Guides",
+    "links": [
+     {
+      "href": "/soccer/guide/junior-college/",
+      "label": "Junior College Soccer"
+     },
+     {
+      "href": "/soccer/guide/evaluating-programs/",
+      "label": "Evaluating Programs"
+     },
+     {
+      "href": "/soccer/guide/reading-rosters/",
+      "label": "Reading Rosters"
+     },
+     {
+      "href": "/soccer/guide/d3-recruiting-reality/",
+      "label": "D3 Recruiting Reality"
+     },
+     {
+      "href": "/soccer/guide/walk-on-pathways/",
+      "label": "Walk-On Pathways"
+     },
+     {
+      "href": "/soccer/guide/odp/",
+      "label": "ODP Explained"
+     },
+     {
+      "href": "/soccer/guide/recruiting-myths/",
+      "label": "Recruiting Myths"
+     }
+    ]
+   },
+   {
+    "key": "soccer-methodology",
+    "label": "How We Analyze Soccer",
+    "links": [
+     {
+      "href": "/soccer/methodology/roster-composition/",
+      "label": "Roster Composition"
+     },
+     {
+      "href": "/soccer/methodology/rosterfit-score/",
+      "label": "My RosterFit"
+     },
+     {
+      "href": "/soccer/methodology/class-year-gaps/",
+      "label": "Class-Year Gaps"
+     },
+     {
+      "href": "/soccer/methodology/international-composition/",
+      "label": "International Composition"
+     },
+     {
+      "href": "/soccer/methodology/coach-tenure/",
+      "label": "Coach Tenure"
+     }
+    ]
+   },
+   {
+    "key": "soccer-insights",
+    "label": "Data Insights",
+    "links": [
+     {
+      "href": "/soccer/insights/mens-roster-size/",
+      "label": "Men's Roster Sizes"
+     },
+     {
+      "href": "/soccer/insights/womens-roster-size/",
+      "label": "Women's Roster Sizes"
+     },
+     {
+      "href": "/soccer/insights/mens-international-conferences/",
+      "label": "Men's International Conferences"
+     },
+     {
+      "href": "/soccer/insights/womens-international-conferences/",
+      "label": "Women's International Conferences"
+     },
+     {
+      "href": "/soccer/insights/mens-vs-womens-comparison/",
+      "label": "Men's vs. Women's Comparison"
+     },
+     {
+      "href": "/soccer/insights/division-by-numbers/",
+      "label": "Divisions by the Numbers"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "volleyball",
+  "name": "Volleyball",
+  "subtitle": "Men's &amp; Women's",
+  "hub": "/volleyball/",
+  "logo": "/assets/rosterwise-volleyball-app-logo.png",
+  "groups": [
+   {
+    "key": "volleyball-mens",
+    "label": "Men's Volleyball",
+    "links": [
+     {
+      "href": "/volleyball/mens/",
+      "label": "Overview"
+     },
+     {
+      "href": "/volleyball/mens/guide/recruiting-timeline/",
+      "label": "Recruiting Timeline"
+     },
+     {
+      "href": "/volleyball/mens/guide/scholarships/",
+      "label": "Scholarships"
+     },
+     {
+      "href": "/volleyball/mens/guide/club-pathways/",
+      "label": "Club Pathways"
+     },
+     {
+      "href": "/volleyball/mens/guide/id-camps/",
+      "label": "ID Camps"
+     },
+     {
+      "href": "/volleyball/mens/guide/recruiting-video/",
+      "label": "Recruiting Video"
+     },
+     {
+      "href": "/volleyball/mens/guide/what-coaches-look-for/",
+      "label": "What Coaches Look For"
+     },
+     {
+      "href": "/volleyball/mens/guide/position-specific-recruiting/",
+      "label": "Position-Specific Recruiting"
+     },
+     {
+      "href": "/volleyball/mens/guide/international-recruiting/",
+      "label": "International Recruiting"
+     },
+     {
+      "href": "/volleyball/mens/guide/national-collegiate-championship/",
+      "label": "National Collegiate Championship"
+     }
+    ]
+   },
+   {
+    "key": "volleyball-womens",
+    "label": "Women's Volleyball",
+    "links": [
+     {
+      "href": "/volleyball/womens/",
+      "label": "Overview"
+     },
+     {
+      "href": "/volleyball/womens/guide/recruiting-timeline/",
+      "label": "Recruiting Timeline"
+     },
+     {
+      "href": "/volleyball/womens/guide/scholarships/",
+      "label": "Scholarships"
+     },
+     {
+      "href": "/volleyball/womens/guide/club-pathways/",
+      "label": "Club Pathways"
+     },
+     {
+      "href": "/volleyball/womens/guide/id-camps/",
+      "label": "ID Camps"
+     },
+     {
+      "href": "/volleyball/womens/guide/recruiting-video/",
+      "label": "Recruiting Video"
+     },
+     {
+      "href": "/volleyball/womens/guide/what-coaches-look-for/",
+      "label": "What Coaches Look For"
+     },
+     {
+      "href": "/volleyball/womens/guide/position-specific-recruiting/",
+      "label": "Position-Specific Recruiting"
+     },
+     {
+      "href": "/volleyball/womens/guide/international-recruiting/",
+      "label": "International Recruiting"
+     }
+    ]
+   },
+   {
+    "key": "volleyball-guides",
+    "label": "Volleyball-Specific Guides",
+    "links": [
+     {
+      "href": "/volleyball/guide/evaluating-programs/",
+      "label": "Evaluating Programs"
+     },
+     {
+      "href": "/volleyball/guide/reading-rosters/",
+      "label": "Reading Rosters"
+     },
+     {
+      "href": "/volleyball/guide/recruiting-myths/",
+      "label": "Recruiting Myths"
+     },
+     {
+      "href": "/volleyball/guide/juco-pathway/",
+      "label": "Junior College"
+     },
+     {
+      "href": "/volleyball/guide/juco-pathway/",
+      "label": "JUCO Pathway"
+     },
+     {
+      "href": "/volleyball/guide/walk-on-pathways/",
+      "label": "Walk-On Pathways"
+     }
+    ]
+   },
+   {
+    "key": "volleyball-methodology",
+    "label": "How We Analyze Volleyball",
+    "links": [
+     {
+      "href": "/volleyball/methodology/roster-composition/",
+      "label": "Roster Composition"
+     },
+     {
+      "href": "/volleyball/methodology/position-depth/",
+      "label": "Position Depth"
+     },
+     {
+      "href": "/volleyball/methodology/class-year-gaps/",
+      "label": "Class-Year Gaps"
+     },
+     {
+      "href": "/volleyball/methodology/coach-tenure/",
+      "label": "Coach Tenure"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "lacrosse",
+  "name": "Lacrosse",
+  "subtitle": "Men's &amp; Women's",
+  "hub": "/lacrosse/",
+  "logo": "/assets/rosterwise-lacrosse-app-logo.png",
+  "groups": [
+   {
+    "key": "lacrosse-mens",
+    "label": "Men's Lacrosse",
+    "links": [
+     {
+      "href": "/lacrosse/mens/",
+      "label": "Overview"
+     },
+     {
+      "href": "/lacrosse/mens/guide/recruiting-timeline/",
+      "label": "Recruiting Timeline"
+     },
+     {
+      "href": "/lacrosse/mens/guide/scholarships-after-house-settlement/",
+      "label": "Scholarships After House Settlement"
+     },
+     {
+      "href": "/lacrosse/mens/guide/international-recruiting/",
+      "label": "International Recruiting"
+     },
+     {
+      "href": "/lacrosse/mens/guide/recruiting-video/",
+      "label": "Recruiting Video"
+     },
+     {
+      "href": "/lacrosse/mens/guide/coaches-look-for-by-position/",
+      "label": "What Coaches Look For"
+     },
+     {
+      "href": "/lacrosse/mens/guide/club-pathways/",
+      "label": "Club Pathways"
+     },
+     {
+      "href": "/lacrosse/mens/guide/id-camps-and-tournaments/",
+      "label": "ID Camps &amp; Tournaments"
+     },
+     {
+      "href": "/lacrosse/mens/guide/",
+      "label": "All Men's Guides"
+     }
+    ]
+   },
+   {
+    "key": "lacrosse-womens",
+    "label": "Women's Lacrosse",
+    "links": [
+     {
+      "href": "/lacrosse/womens/",
+      "label": "Overview"
+     },
+     {
+      "href": "/lacrosse/womens/guide/recruiting-timeline/",
+      "label": "Recruiting Timeline"
+     },
+     {
+      "href": "/lacrosse/womens/guide/scholarships-after-house-settlement/",
+      "label": "Scholarships After House Settlement"
+     },
+     {
+      "href": "/lacrosse/womens/guide/international-recruiting/",
+      "label": "International Recruiting"
+     },
+     {
+      "href": "/lacrosse/womens/guide/recruiting-video/",
+      "label": "Recruiting Video"
+     },
+     {
+      "href": "/lacrosse/womens/guide/coaches-look-for-by-position/",
+      "label": "What Coaches Look For"
+     },
+     {
+      "href": "/lacrosse/womens/guide/club-pathways/",
+      "label": "Club Pathways"
+     },
+     {
+      "href": "/lacrosse/womens/guide/id-camps-and-tournaments/",
+      "label": "ID Camps &amp; Tournaments"
+     },
+     {
+      "href": "/lacrosse/womens/guide/",
+      "label": "All Women's Guides"
+     }
+    ]
+   },
+   {
+    "key": "lacrosse-guides",
+    "label": "Lacrosse-Specific Guides",
+    "links": [
+     {
+      "href": "/lacrosse/guide/",
+      "label": "All Guides"
+     },
+     {
+      "href": "/lacrosse/guide/september-1-junior-year-rule/",
+      "label": "September 1 Junior Year Rule"
+     },
+     {
+      "href": "/lacrosse/guide/house-settlement-and-lacrosse/",
+      "label": "House Settlement &amp; Lacrosse"
+     }
+    ]
+   },
+   {
+    "key": "lacrosse-methodology",
+    "label": "How We Analyze Lacrosse",
+    "links": [
+     {
+      "href": "/lacrosse/methodology/",
+      "label": "Overview"
+     },
+     {
+      "href": "/lacrosse/methodology/roster-composition/",
+      "label": "Roster Composition"
+     },
+     {
+      "href": "/lacrosse/methodology/class-year-gaps/",
+      "label": "Class-Year Gaps"
+     },
+     {
+      "href": "/lacrosse/methodology/international-composition/",
+      "label": "International Composition"
+     },
+     {
+      "href": "/lacrosse/methodology/coach-tenure/",
+      "label": "Coach Tenure"
+     },
+     {
+      "href": "/lacrosse/methodology/rosterfit-score/",
+      "label": "My RosterFit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "wrestling",
+  "name": "Wrestling",
+  "subtitle": "Men's &amp; Women's",
+  "hub": "/wrestling/",
+  "logo": "/assets/rosterwise-wrestling-app-logo.png",
+  "groups": [
+   {
+    "key": "wrestling-mens",
+    "label": "Men's Wrestling",
+    "links": [
+     {
+      "href": "/wrestling/mens/",
+      "label": "Overview"
+     },
+     {
+      "href": "/wrestling/mens/guide/mens-college-wrestling-landscape/",
+      "label": "The Men's Landscape"
+     },
+     {
+      "href": "/wrestling/mens/guide/freestyle-greco-offseason/",
+      "label": "Freestyle, Greco &amp; Offseason"
+     },
+     {
+      "href": "/wrestling/mens/guide/",
+      "label": "All Men's Guides"
+     }
+    ]
+   },
+   {
+    "key": "wrestling-womens",
+    "label": "Women's Wrestling",
+    "links": [
+     {
+      "href": "/wrestling/womens/",
+      "label": "Overview"
+     },
+     {
+      "href": "/wrestling/womens/guide/ncaa-championship/",
+      "label": "NCAA Championship"
+     },
+     {
+      "href": "/wrestling/womens/guide/freestyle-and-the-olympic-pathway/",
+      "label": "Freestyle &amp; Olympic Pathway"
+     },
+     {
+      "href": "/wrestling/womens/guide/",
+      "label": "All Women's Guides"
+     }
+    ]
+   },
+   {
+    "key": "wrestling-guides",
+    "label": "Wrestling-Specific Guides",
+    "links": [
+     {
+      "href": "/wrestling/guide/",
+      "label": "All Guides"
+     },
+     {
+      "href": "/wrestling/guide/understanding-wrestling-weight-classes/",
+      "label": "Weight Classes"
+     },
+     {
+      "href": "/wrestling/guide/recruiting-timeline/",
+      "label": "Recruiting Timeline"
+     },
+     {
+      "href": "/wrestling/guide/weight-management-and-safety/",
+      "label": "Weight Management &amp; Safety"
+     },
+     {
+      "href": "/wrestling/guide/scholarships-and-the-house-settlement/",
+      "label": "Scholarships &amp; House"
+     },
+     {
+      "href": "/wrestling/guide/divisions-explained/",
+      "label": "Divisions Explained"
+     },
+     {
+      "href": "/wrestling/guide/folkstyle-freestyle-and-greco/",
+      "label": "Folkstyle, Freestyle &amp; Greco"
+     },
+     {
+      "href": "/wrestling/guide/what-college-coaches-evaluate/",
+      "label": "What Coaches Evaluate"
+     },
+     {
+      "href": "/wrestling/guide/recruiting-video/",
+      "label": "Recruiting Video"
+     },
+     {
+      "href": "/wrestling/guide/contacting-college-coaches/",
+      "label": "Contacting Coaches"
+     },
+     {
+      "href": "/wrestling/guide/transfer-portal/",
+      "label": "Transfer Portal"
+     }
+    ]
+   },
+   {
+    "key": "wrestling-methodology",
+    "label": "How We Analyze Wrestling",
+    "links": [
+     {
+      "href": "/wrestling/methodology/",
+      "label": "Overview"
+     },
+     {
+      "href": "/wrestling/methodology/roster-composition/",
+      "label": "Roster Composition"
+     },
+     {
+      "href": "/wrestling/methodology/weight-class-depth/",
+      "label": "Weight-Class Depth"
+     },
+     {
+      "href": "/wrestling/methodology/coach-tenure/",
+      "label": "Coach Tenure"
+     },
+     {
+      "href": "/wrestling/methodology/recruiting-geography/",
+      "label": "Recruiting Geography"
+     },
+     {
+      "href": "/wrestling/methodology/rosterfit-score/",
+      "label": "My RosterFit"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -50,6 +50,12 @@ npm run check-seo            # assert robots.txt + sitemap.xml exist and are val
 - **Per-sport content:** `src/{soccer,lacrosse,volleyball,wrestling}/` — each
   with `mens/` and `womens/` subtrees containing `guide/`, `methodology/`, and
   (soccer) `programs/` hubs. E.g. `/soccer/mens/guide/recruiting-timeline/`.
+- **Navigation for every sport is DATA, not markup** (2026-10-29, six sports no longer fit the header):
+  the header's **Sports menu** (`_includes/nav-sports.njk`, used by `base.njk`, `index.html` and
+  `start-here/index.html`, which keep their own headers) lists `src/_data/apps.json`'s sports: a sport
+  with a `hub` links to it, one without `live: true` reads "Coming soon". The **sidebar's sport
+  sections** come from `src/_data/sportNav.json` (groups and links), with the reader's own sport
+  first. A new sport adds an entry to each file; never hand-write a sport block or a header link.
 - **Program pages (programmatic SEO):** `src/program-pages.njk` paginates over
   `src/_data/programs.json` (one page per program via
   `permalink: "{{ program.page_url }}"`), with per-page `title_tag`,

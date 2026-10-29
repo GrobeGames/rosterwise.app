@@ -131,6 +131,8 @@
 {% endif %}
 
 <link rel="stylesheet" href="/assets/content.css?v=10">
+<link rel="stylesheet" href="/assets/nav-sports.css?v=1">
+<script src="/assets/nav-sports.js?v=1" defer></script>
 <link rel="stylesheet" href="/assets/reels.css?v=1">
 <script src="/assets/reels.js?v=1" defer></script>
 {% block head %}{% endblock %}
@@ -381,10 +383,7 @@
       </button>
       <ul class="nav-links" id="navLinks">
         <li><a href="/guide/">Guides</a></li>
-        <li><a href="/soccer/">Soccer</a></li>
-        <li><a href="/volleyball/">Volleyball</a></li>
-        <li><a href="/lacrosse/">Lacrosse</a></li>
-        <li><a href="/wrestling/">Wrestling</a></li>
+        {% include "nav-sports.njk" %}
         <li><a href="/roster-intelligence/">Methodology</a></li>
         <li><button type="button" class="nav-search-btn" aria-label="Search the site"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>Search<span class="rw-search-kbd">/</span></button></li>
         <li><a href="/app/" class="nav-cta">Get the App</a></li>
