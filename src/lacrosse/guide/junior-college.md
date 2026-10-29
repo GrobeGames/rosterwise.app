@@ -2,7 +2,7 @@
 layout: content.njk
 title: "NJCAA Lacrosse: The Junior College (JUCO) Pathway, Explained | RosterWise™"
 description: "An honest guide to junior college lacrosse — the NJCAA men's national championship, why women's NJCAA lacrosse was discontinued, what isn't published, and how four-year recruiting and transfer rules work."
-date: 2026-08-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -53,8 +53,6 @@ For a full primer on the NJCAA — how it relates to the NCAA and NAIA, and whet
 
 **1. On the men's side, it's a real national championship.** The NJCAA crowns a men's lacrosse national champion each spring. Unlike wrestling (which splits into three divisional championships), NJCAA men's lacrosse is contested as a **single national-championship field**. We don't quote a program count or describe where the programs are concentrated: the men's lacrosse team list on NJCAA.org carries no season label, and that number moves year to year. Check the current list on NJCAA.org to see which colleges field a team and where they are.
 
-> **Correction, October 9, 2026.** An earlier version of this guide said recent champions such as Harford, "which has strung together consecutive titles," show "genuine quality at the top," and described NJCAA men's lacrosse as played at a "relatively small, geographically concentrated set of programs" in New York, Maryland, and the Northeast/Mid-Atlantic — here, in the summary, and in the limitations and closing sections. We had not verified the championship record or the programs' locations against an NJCAA source, and judging quality is outside what we publish, so we removed those statements.
-
 **2. On the women's side, the NJCAA discontinued lacrosse.** Per an official NJCAA release dated **July 11, 2024**, the association discontinued Women's Lacrosse as an NJCAA-sponsored sport **beginning with the 2024-25 academic year**. In plain terms: for women's lacrosse recruits, the NJCAA is **not currently a pathway**. Women's lacrosse families should focus on NCAA (D-I, D-II, D-III) and NAIA programs. If you see a JUCO women's lacrosse option, verify its current governing body and status directly before counting on it.
 
 The rest of this guide is therefore about **men's** junior-college lacrosse.
@@ -83,8 +81,6 @@ Whether a JUCO player is immediately eligible at an NCAA Division I program depe
 Junior-college transfer rules are being loosened. Adopted by the NCAA Division I Cabinet on **June 24, 2026** — the product of an NJCAA advocacy campaign — a reform **lowers the transferable GPA requirement for two-year transfers from 2.5 to 2.0** and restructures transferable credit-hour requirements to align junior-college transfers with standard four-year transfer standards.
 
 The **exact implementation timing had not been publicly finalized** at the time of writing. Confirm the effective year with the NCAA Eligibility Center before relying on it for a specific athlete.
-
-> **Correction, October 9, 2026.** An earlier version of this section said the reform "removes a penalty band that previously forced some academically borderline JUCO transfers to sit out a year" and called its direction "favorable for JUCO players." We had no source for that consequence, and the evaluation was ours, so we removed both.
 
 ## A note on California
 

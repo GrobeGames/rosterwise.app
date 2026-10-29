@@ -2,7 +2,7 @@
 layout: content.njk
 title: "How to Read a College Soccer Roster Like a Recruiter"
 description: "What college soccer rosters reveal about recruiting opportunities — class-year gaps, position depth, international composition, hometown patterns, and what smart families look for."
-date: 2026-08-26
+date: 2026-10-08
 breadcrumbs:
   - text: Home
     url: /
@@ -76,8 +76,6 @@ Conversely, a roster with twelve freshmen and eleven sophomores may be stacked w
 **Look for class-year gaps at specific positions.** A program might have a balanced overall roster but a significant gap at one position. If there are three senior midfielders, one sophomore midfielder, and no junior or freshman midfielders, that program has a clear positional need emerging.
 
 **Class-year labels don't tell you how much eligibility a player has left.** You'll still see "R-" (redshirt) prefixes on rosters for players who sat out a season under the NCAA's previous rules, and "Gr." for graduate students, but neither label tells you when a player will leave. The rules behind them have also changed. Under the NCAA's age-based eligibility model — adopted by Division I in June 2026 and by Division II (announced August 5, 2026) — athletics redshirt rules and the cap on seasons of competition are gone. Each athlete instead has a five-year window that starts at the earlier of full-time college enrollment or the academic year after their 19th birthday, and it does not pause for a season sat out. Athletes first enrolling in fall 2027 or later are under the new model only; current athletes and 2026-27 enrollees are evaluated under whichever rules are more beneficial to them. Division III and the NAIA have not adopted the model. As of October 8, 2026 the model is in force: a lower-court injunction covering one group of athletes was stayed by the Tenth Circuit on August 21, and the appeal is set for oral argument on October 13, 2026. Our [age-based eligibility guide](/guide/age-based-eligibility/) explains the details. Understanding who is actually leaving and who might return means asking the coach, not reading the label.
-
-> **Correction, October 8, 2026.** An earlier version of this section said a player listed as a senior who is "actually a redshirt junior has another year of eligibility" and that a graduate transfer "will be gone after one year." Both statements described the NCAA's previous eligibility rules, which Division I replaced in June 2026 (Division II followed, announced August 5, 2026). We rewrote the section to reflect the age-based model.
 
 We go deeper on class-year analysis in [Why Class-Year Gaps Are the Most Overlooked Recruiting Signal](/soccer/methodology/class-year-gaps/).
 

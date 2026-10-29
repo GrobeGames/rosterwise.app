@@ -2,7 +2,7 @@
 layout: content.njk
 title: "International Student-Athletes: The Recruiting Process for Non-US Families | RosterWise™"
 description: "A guide to the US college recruiting process for international student-athletes — visa requirements, eligibility differences, recruiting timelines, and what non-US families need to know."
-date: 2026-04-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -94,8 +94,6 @@ The F-1 is the standard student visa for academic studies in the US. Most intern
 - F-1 visa holders can participate in college athletics as part of their educational program
 - Employment is tightly restricted: federal regulation allows F-1 students only specific categories of work, such as limited on-campus employment and authorized practical training (8 CFR 214.2(f)(9)–(10)), and any unauthorized employment is a failure to maintain status (8 CFR 214.1(e))
 - **NIL is an open question, not a settled yes.** The NCAA's *International Student-Athlete Handbook* states that international student-athletes with an F-1 visa "are prohibited from engaging in NIL deals while on U.S. land." That is the NCAA's statement: the F-1 regulations themselves do not mention name, image or likeness, and the Student and Exchange Visitor Program said in July 2021 that it was still assessing "whether regulatory guidance is required." We have not found later federal guidance. Treat NIL income as unavailable unless the school's compliance office and an immigration lawyer tell you otherwise, and see our [NIL and revenue sharing guide](/guide/nil-and-revenue-sharing/)
-
-> **Correction, October 9, 2026.** An earlier version of this list said that "most NIL activities are classified as employment under federal regulations." No federal regulation says that: the F-1 rules bar unauthorized employment but do not mention NIL, and the immigration agency has not issued guidance on it. The prohibition families hear about is the NCAA's own statement in its International Student-Athlete Handbook. We rewrote the item to separate the two.
 
 ### J-1 exchange visitor visa
 

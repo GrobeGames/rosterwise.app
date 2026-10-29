@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Women's Lacrosse ID Camps and Tournaments: A Family Orientation | RosterWise™"
 description: "A family-friendly orientation to college ID camps, prospect days, and major women's lacrosse tournaments. NCAA rules, official IWLCA Tournament Series events, and the broader independent showcase ecosystem."
-date: 2026-08-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -63,8 +63,6 @@ The women's lacrosse event landscape — including both college ID camps and ind
 - **Events change** as they are added, dropped, rebranded, or restructured
 - **The "right" events for any specific recruit** depend on her position, competitive level, geography, recruiting timeline, and the specific programs she's targeting
 
-> **Correction, October 9, 2026.** An earlier version of this list counted NJCAA programs among those holding women's lacrosse ID camps. The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only. The same list also said "hundreds" of college ID camps are held each year and that "dozens of major tournament organizers" operate; neither count had a source, and we removed both.
-
 This guide focuses on the official structures and major operators we can verify from primary sources. It does NOT attempt to rank events, recommend specific tournaments, or provide the kind of granular guidance about "which camps to attend at which programs" that should come from people closer to your specific situation.
 
 ## NCAA Rules Specific to Lacrosse ID Camps
@@ -78,8 +76,6 @@ Per **NCAA Division I Bylaw 13.12.1.5.2, "Exception — Recruiting Conversations
 The camp-conversation date and the women's lacrosse initial contact date are the same: **September 1 of junior year at 12 p.m. Eastern.** See the [women's recruiting timeline](/lacrosse/womens/guide/recruiting-timeline/) for the contact rule in full.
 
 Men's lacrosse has its own version, Bylaw 13.12.1.5.3, which as of August 1, 2026 uses **7 a.m. on the Wednesday immediately following Labor Day** instead. The two genders no longer share a camp-conversation date.
-
-> **Correction.** An earlier version of this page attributed a September 1 camp-conversation rule to "NCAA Bylaw 13.12.1.5.1." That is the wrong bylaw: 13.12.1.5.1 is the exception for "sports other than baseball, basketball, football, men's ice hockey, *lacrosse*, softball and men's wrestling" — it names lacrosse only to exclude it, and its date is August 1 of junior year. The lacrosse provisions are 13.12.1.5.2 and 13.12.1.5.3, quoted above. Corrected 2026-08-26 against the 2026-27 Division I Manual.
 
 **What the bylaw does and does not reach.** The restriction is on *recruiting conversations*. Reading the bylaw text against Bylaw 13.12.1.5 (Recruiting Calendar Exceptions), which states that camp interaction is generally not subject to recruiting-calendar restrictions but that staff "are prohibited from recruiting any prospective student-athlete during the time period that the camp or clinic is conducted":
 
@@ -288,8 +284,6 @@ A practical framework for thinking about ID camps and tournaments together:
 
 We don't have data on how families sequence camps and tournaments from grade to grade, so we won't suggest a typical pattern. The questions above, asked of people who know your daughter, are the better guide.
 
-> **Correction, October 9, 2026.** An earlier version of this section said ID camps are "typically MORE useful AFTER September 1 of junior year" and laid out "a common general pattern" of events by grade. Neither had a source. We replaced the first with what the rule changes on that date and removed the second.
-
 ## Pre-September 1 ID Camps: A Specific Strategic Question
 
 A practical question: **Is it worth attending an ID camp before September 1 of junior year, when coaches can't have recruiting conversations?**
@@ -313,13 +307,9 @@ A practical question: **Is it worth attending an ID camp before September 1 of j
 
 The [House v. NCAA settlement](/lacrosse/womens/guide/scholarships-after-house-settlement/) (approved June 6, 2025) reshaped the women's lacrosse scholarship and roster framework: D1 schools that opted in can fund up to 38 scholarships, up from 12 equivalencies before, and carry up to 38 players. We don't have data on how that has changed which events coaches attend or when recruits commit, so ask the programs you meet at camps and tournaments how they are funding scholarships under the settlement.
 
-> **Correction, October 9, 2026.** An earlier version of this section said the settlement "may affect" which programs become more competitive targets, which events coaches prioritize, and commitment timing, and that "these shifts continue to play out." Those were forecasts, which we don't publish. We replaced them with what the settlement sets.
-
 ## Every recruit's event journey is different
 
 The ID camp and tournament path for any specific women's lacrosse recruit varies based on her position, her competitive level, her family's resources and geography, her target programs, and dozens of other factors. Some recruits attend many ID camps in a recruiting year; others attend few. Some find their best fit through one specific tournament where a coach saw them; others build their recruiting profile across many events over years. The honest reality is that there is no "correct" event calendar — there is only the calendar that makes sense for your daughter's specific situation. Use this guide as context. Treat decisions about specific events as ones that should be informed by people closer to your specific local situation.
-
-> **Correction, October 9, 2026.** An earlier version of this paragraph said some recruits attend "8-10 ID camps in a recruiting year" and others "2-3," and that some play in "6-8 tournaments a summer." Those figures had no source, and we removed them.
 
 ---
 

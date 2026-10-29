@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Women's College Soccer Goalkeeper Recruiting | RosterWise™"
 description: "GK-specific guidance for women's college soccer recruiting — evaluation criteria, film considerations, roster dynamics, and what families of goalkeepers need to know."
-date: 2026-08-26
+date: 2026-10-08
 breadcrumbs:
   - text: Home
     url: /
@@ -136,8 +136,6 @@ When building a target list, understanding each program's GK situation is critic
 - **Class-year distribution** — If a program has a junior and senior GK, they'll likely recruit for the following year. If they have a freshman and sophomore starter, their GK needs are minimal for the near term.
 - **Incoming transfers** — The transfer portal can change a program's GK needs quickly. A program that seemed like it had an opening may fill it via transfer.
 - **Redshirt patterns are changing** — Rosters may still show goalkeepers who redshirted under the NCAA's previous rules. Under the NCAA's age-based eligibility model — adopted by Division I in June 2026 and by Division II (announced August 5, 2026) — athletics redshirt rules and the cap on seasons of competition are gone. Each athlete instead has a five-year window that starts at the earlier of full-time college enrollment or the academic year after their 19th birthday, and it does not pause for a season sat out. Athletes first enrolling in fall 2027 or later are under the new model only; current athletes and 2026-27 enrollees are evaluated under whichever rules are more beneficial to them. Division III and the NAIA have not adopted the model. As of October 8, 2026 the model is in force: a lower-court injunction covering one group of athletes was stayed by the Tenth Circuit on August 21, and the appeal is set for oral argument on October 13, 2026. Our [age-based eligibility guide](/guide/age-based-eligibility/) explains the details. For a young goalkeeper, that means asking each program how it plans to develop and play a freshman, rather than assuming a redshirt year.
-
-> **Correction, October 8, 2026.** An earlier version of this list said "Some GK recruits redshirt their first year." That described the NCAA's previous eligibility rules, which Division I replaced in June 2026 (Division II followed, announced August 5, 2026), and we had no source for how often it happened. We replaced it with the current rule.
 
 **This is exactly the kind of analysis RosterWise provides** — showing families which programs have GK roster openings, which class years are graduating, and where positional need exists.
 

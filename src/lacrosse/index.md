@@ -33,8 +33,6 @@ sources:
 
 College lacrosse recruiting rewards preparation, realistic self-assessment, and knowing where to look. RosterWise&trade; Lacrosse exists to give families the intelligence they need to navigate it with confidence — across every men's and women's program at the NCAA Division I, II, and III and NAIA levels, plus men's programs in the NJCAA. (The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year.)
 
-> **Correction, October 9, 2026.** An earlier version of this page said RosterWise Lacrosse covers NJCAA women's programs and described the women's game as including the NJCAA. It does not: the NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024).
-
 Lacrosse also follows its own recruiting rhythm. Under Division I's general rules, coaches' calls and electronic correspondence may begin June 15 after a recruit's sophomore year; lacrosse holds contact back to the start of junior year. Women's lacrosse opens **September 1 at 12 p.m. Eastern**; men's lacrosse, following a rule change effective August 1, 2026, opens at **7 a.m. on the Wednesday immediately following Labor Day**. That difference changes the whole timeline, and it's one of several lacrosse-specific realities families need to understand.
 
 RosterWise Lacrosse is one of the RosterWise apps, alongside [Soccer](/soccer/), [Volleyball](/volleyball/), and [Wrestling](/wrestling/). Every recruit's journey is different — timelines vary, development curves differ, and the right program depends on factors no checklist can capture. Use these resources as a starting point, not a script.
@@ -44,8 +42,6 @@ RosterWise Lacrosse is one of the RosterWise apps, alongside [Soccer](/soccer/),
 Men's and women's lacrosse share a name, but they are meaningfully different games with different recruiting landscapes. The rules diverge in several ways — different field dimensions, different stick and equipment rules, different levels of permitted contact, and different position structures. Men's lacrosse includes specialist roles like the long-stick midfielder (LSM) and the face-off specialist (FOGO); women's lacrosse centers the draw control specialist and plays without the same body-checking rules.
 
 The recruiting landscape differs too. Since August 1, 2026 the two genders have had different Division I contact dates, and the NCAA publishes a separate recruiting calendar for each. The pool of programs differs as well: the NCAA projects **112** Division II women's lacrosse programs for 2025-26, against **80** men's (projected numbers only; actual numbers may change). These differences matter when evaluating opportunity and fit.
-
-> **Correction, October 9, 2026.** An earlier version of this paragraph said both men's and women's lacrosse "historically saw extremely early recruiting," that men's college lacrosse "has a significant international presence" with Canada having "long influenced men's rosters," and that women's lacrosse has "a meaningfully larger pool of Division II programs" without a figure. We had no source for the first two, so we removed them, and we replaced the third with the NCAA's projected counts. We also removed unsourced statements below that lacrosse has "a growing presence" outside the Mid-Atlantic and Northeast and that "many" recruits commit later.
 
 Explore the gender-specific sections: [Men's College Lacrosse](/lacrosse/mens/) and [Women's College Lacrosse](/lacrosse/womens/).
 
@@ -60,8 +56,6 @@ RosterWise applies [roster intelligence](/roster-intelligence/) — systematic a
 - **International players** — how many, what share of the roster, and which countries they come from, Canada included.
 - **Transfers** — players whose roster entry lists a previous college, and the colleges they came from.
 - **Coach tenure** — how long the head coach has been in place.
-
-> **Correction, October 9, 2026.** An earlier version of this list named a "Draw specialist" position for women's lacrosse, described "pathway analysis" of the summer tournament circuit and recruiting showcases, and promised "transfer portal patterns" (the page description said "transfer portal activity"). The app's women's positions are attack, midfield, defense, and goalie — a player a roster lists as a draw specialist is counted under another position; its pathway view is built from the last school each roster lists, not from events; and it shows the transfers listed on each roster, not transfer-portal data. We rewrote the list from the app.
 
 ## Universal recruiting context vs. lacrosse-specific
 

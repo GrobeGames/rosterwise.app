@@ -54,8 +54,6 @@ Second, men's college rosters include international players, including Canadians
 
 Third, where a program recruits matters. Each program's roster lists hometowns, which shows you where its players come from.
 
-> **Correction, October 9, 2026.** An earlier version of this section said Canada "has long shaped men's college rosters," with box-lacrosse players "valued for their stick skills and finishing," that "some programs carry a notable Canadian contingent; others recruit almost entirely domestically," and that the Mid-Atlantic and Northeast "remain the sport's heartland, though the game continues to grow" elsewhere. We have no data supporting those statements, so we removed them.
-
 *Researching women's lacrosse instead? Here's the [women's version of this guide](/lacrosse/womens/).*
 
 ## What roster intelligence covers for men's college lacrosse
@@ -69,8 +67,6 @@ RosterWise applies [roster intelligence](/roster-intelligence/) — systematic a
 - **International players** — how many, their share of the roster, and which countries they come from. Canadian players are counted under Canada, not by province.
 - **Transfers** — players whose roster entry lists a previous college, and the colleges they came from.
 - **Coach tenure** — how long the head coach has been in place.
-
-> **Correction, October 9, 2026.** An earlier version of this list said RosterWise shows "which Canadian provinces a program draws from," promised "transfer portal patterns," described pathway analysis of "the summer tournament circuit, and recruiting showcases," said specialist roles like FOGO and LSM "carry small numbers, so a single graduation can open real opportunity," and described coach tenure as a signal of "program direction." The app groups international players by country, not province; it shows the transfers listed on each roster, not transfer-portal data; its pathway view comes from the last school each roster lists; we had no source for the claim about specialist group sizes; and tenure describes time in the job, not where a program is headed. We rewrote the list from the app.
 
 ## Every recruit's timeline is different
 

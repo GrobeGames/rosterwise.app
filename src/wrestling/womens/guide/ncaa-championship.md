@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Women's College Wrestling Is Now an NCAA Championship Sport | RosterWise™"
 description: "Women's wrestling is the NCAA's 91st championship sport. The January 2025 vote, the March 2026 inaugural National Collegiate championship (McKendree over Iowa), the unified D1/D2/D3 format, the 2028 Division III split, and what the growth means for recruiting families."
-date: 2026-07-07
+date: 2026-10-08
 breadcrumbs:
   - text: Home
     url: /
@@ -135,4 +135,3 @@ Women's wrestling is expanding so quickly that the map is being redrawn season t
 
 *Women's wrestling governance is changing quickly. This article reflects facts confirmed as of the 2025-26 season and the 2026 inaugural championship; the 2027 championship details, the end of the combined Division III field, and the sponsorship figures were re-verified on October 8, 2026. Verify current figures at NCAA.org and NCAA.com for the relevant year.*
 
-*Correction, October 8, 2026: an earlier version of this page said women's wrestling had grown to roughly 95 schools and 1,700-plus athletes in 2024-25, gave a 59% Division III / 35% Division II / 5% Division I split, and called it the fastest-growing sport in college athletics. Newer NCAA documents give different and larger counts. The division split came from a March 2026 NCAA article that does not say which season it measured, and the school and athlete totals could not be traced to a specific NCAA document, so we replaced all of them with dated figures attributed to their sources. The "fastest-growing" description appears in our sources only as a characterization by coaches and administrators, not as an NCAA measurement, so we removed it.*

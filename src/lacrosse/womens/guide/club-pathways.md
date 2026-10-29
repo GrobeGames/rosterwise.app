@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Women's Lacrosse Club Pathways: A Family Orientation | RosterWise™"
 description: "The women's club lacrosse landscape is regional and complex. Here's a framework to understand the major organizing structures — IWLCA Tournament Series, USA Lacrosse, and the broader ecosystem — plus the questions families should ask local sources."
-date: 2026-08-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -112,8 +112,6 @@ For families researching women's club lacrosse pathways, this matters because:
 - College coaches also attend events outside the IWLCA Tournament Series, so ask the coaches at your target programs which events they plan to attend
 - The right club for an athlete depends on the specific competitive structures operating in her region
 
-> **Correction, October 9, 2026.** An earlier version of this section said regional club coalitions "typically form" to "combine their top players into elite teams," that they "exist in many regions — Midwest, Mountain West, Southeast, Pacific Northwest," and that "strong club programs and elite recruits exist well beyond the established lacrosse hotbeds." We couldn't source any of it, and rating clubs and recruits is outside what we publish, so we removed it.
-
 This is another reason why the questions in the next section ("Questions families should ask local sources") matter so much. The structures we can verify from primary sources are a starting framework — not a complete map.
 
 ## The broader club landscape: what we can and can't say
@@ -189,8 +187,6 @@ A few important framing points for families thinking about how club selection af
 
 **Club affiliation does not determine recruiting outcomes.** Two athletes with identical skills at the same club program can have completely different recruiting experiences based on their academic profiles, geographic preferences, communication, position, and dozens of other factors. The club is one input, not the determining factor.
 
-> **Correction, October 9, 2026.** An earlier version of this section said "top D1 programs typically have broad recruiting reach," that "established lacrosse hotbeds produce a disproportionate share of D1 talent," and that D2, D3 and NAIA programs "may recruit more regionally." An earlier version of the section above also named Maryland, Long Island, Pennsylvania, Connecticut and Massachusetts as "major lacrosse hotbeds." We have no data supporting these statements, and ranking programs and clubs is outside what we publish, so we removed them.
-
 ## What the post-September 1 reality means for clubs
 
 As discussed in [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/) and the [Women's Recruiting Timeline](/lacrosse/womens/guide/recruiting-timeline/), Division I coaches cannot initiate recruiting contact with women's lacrosse recruits before September 1 (12 p.m. Eastern) of junior year (Bylaw 13.1.1.1.7). That shapes how club teams and tournament series fit with the recruiting calendar.
@@ -216,8 +212,6 @@ The [House v. NCAA settlement](/lacrosse/womens/guide/scholarships-after-house-s
 - Participating D1 schools may now fund up to 38 scholarships, up from 12 equivalencies, but are not required to; ask each program what it funds
 - The same schools are limited to 38 players on the roster
 - We don't have data on how the settlement has changed which events coaches attend, so ask the coaches at your target programs
-
-> **Correction, October 9, 2026.** An earlier version of this section said that "competition for D1 roster spots remains intense," that D2, D3 and NAIA pathways "become relatively more attractive for some recruits," and that "the overall club ecosystem continues to evolve in response." These were unsourced characterizations and forecasts, which we don't publish. We replaced them with what the settlement sets.
 
 ## Every recruit's club pathway is different
 

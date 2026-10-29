@@ -84,8 +84,6 @@ The NCAA addressed this in 2018 by imposing contact restrictions. But the cultur
 
 > **A note for women's soccer families.** The 2026-27 calendar puts a dead period on **July 28–31, 2027**, and a dead period bars campus visits while it runs. Men's soccer has no July dead period. Check the current calendar for your gender before booking summer visits.
 
-> **Correction.** An earlier version of this page said athletes can take unofficial visits "at any time" and that recruits cannot take unofficial visits during July without a signed written offer or a financial deposit. Both were wrong. Athletics-involved unofficial visits are gated at August 1 of junior year (Bylaw 13.7.1.1), and the July condition is a **basketball-only** rule (Bylaws 13.7.2.1 and 13.7.2.2) that has never applied to soccer. The general rule, Bylaw 13.7.2, is that a prospect "may visit a member institution's campus at the prospective student-athlete's own expense an unlimited number of times." Corrected 2026-08-26 against the 2026-27 Division I Manual.
-
 **The D1 women's soccer signing period:** Begins on **the second Wednesday in November**. Final date is based on each school's institutional policy. **Men's and women's soccer do not have an early signing period** — there is one signing window. Football and basketball have early periods; soccer does not.
 
 **Dead periods affecting D1 women's soccer for 2026-27:**

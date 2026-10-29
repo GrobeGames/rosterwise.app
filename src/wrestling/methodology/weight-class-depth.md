@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Weight-Class Depth & Class-Year Gaps — Wrestling Methodology | RosterWise™"
 description: "The core fit question in wrestling is who occupies your weight and when they graduate. How RosterWise analyzes weight-class depth and class-year gaps to reveal where a program actually needs to recruit."
-date: 2026-07-07
+date: 2026-10-08
 breadcrumbs:
   - text: Home
     url: /
@@ -60,8 +60,6 @@ Reading depth well requires looking past the visible starter:
 - **The starter's class year.** A senior signals a coming opening; a freshman signals a closed door.
 - **Who's behind the starter.** A backup junior is different from a backup freshman — and different from *no one* behind the starter.
 - **Wrestlers you won't see in a lineup.** A weight that looks open because the starter graduated may actually have a younger wrestler ready to step in. True depth includes wrestlers you won't see in a lineup. Rosters may still label some of them redshirts — athletes who sat out a season under the NCAA's previous rules. Under the NCAA's age-based eligibility model — adopted by Division I in June 2026 and by Division II (announced August 5, 2026) — athletics redshirt rules and the cap on seasons of competition are gone. Each athlete instead has a five-year window that starts at the earlier of full-time college enrollment or the academic year after their 19th birthday, and it does not pause for a season sat out. Athletes first enrolling in fall 2027 or later are under the new model only; current athletes and 2026-27 enrollees are evaluated under whichever rules are more beneficial to them. Division III and the NAIA have not adopted the model. As of October 8, 2026 the model is in force: a lower-court injunction covering one group of athletes was stayed by the Tenth Circuit on August 21, and the appeal is set for oral argument on October 13, 2026. Our [age-based eligibility guide](/guide/age-based-eligibility/) explains the details.
-
-> **Correction, October 8, 2026.** An earlier version of this list said "wrestling uses redshirts heavily." That described the NCAA's previous eligibility rules, which Division I replaced in June 2026 (Division II followed, announced August 5, 2026), and we had no source for how heavily it was used. We rewrote the item.
 
 - **Incoming transfers.** A hole a program is filling through the [portal](/wrestling/guide/transfer-portal/) isn't the opening it appears to be.
 - **The projected class, not the current one.** Because wrestlers grow through weights, the analysis has to sit at the athlete's **projected** college weight and **college class year** (see [what coaches evaluate](/wrestling/guide/what-college-coaches-evaluate/)), not their current high-school class.

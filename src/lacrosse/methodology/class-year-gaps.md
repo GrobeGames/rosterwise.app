@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Class-Year Gaps in College Lacrosse Recruiting | RosterWise™"
 description: "How class-year gap analysis reads a college lacrosse roster for where a program may need to recruit next — and what that signal can and cannot tell you."
-date: 2026-06-14
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -106,8 +106,6 @@ The counting works the same way at every division. What differs is the rule fram
 
 **D2, D3, NAIA, and NJCAA programs** (NJCAA lacrosse is men's only) are not under those Division I roster limits. Class-year gaps read the same way, but what a gap means for a particular program is a question for its coach.
 
-> **Correction, October 9, 2026.** An earlier version of this section said class-year gaps at D1 programs are "more likely to translate directly into recruiting activity," that D2 programs "generally have more roster flexibility," that D3 programs "often carry larger rosters" and that "top D3 lacrosse programs … compete at very high levels," and that NAIA and NJCAA programs "vary widely in roster size." None of it had a source, and ranking programs is outside what we publish. We replaced it with the roster-limit rule and the question to ask.
-
 ## Complications that affect class-year analysis
 
 Honest assessment of the limitations matters:
@@ -116,11 +114,7 @@ Honest assessment of the limitations matters:
 
 **Graduate students and fifth-year players.** They're listed on the roster, but how many seasons each has left depends on which eligibility rules apply to them, so don't assume they leave after one year — ask the coach. A program with several graduate students can show a senior-heavy count that doesn't reflect one recruiting class. And Designated Student-Athletes — players protected under the House settlement — let a Division I program carry more than its roster limit, by the number of them on its roster (NCAA House settlement implementation Q&A, updated February 11, 2026).
 
-> **Correction, October 8, 2026.** An earlier version of this section said a redshirt sophomore has "three years of eligibility remaining," that graduate students and fifth-year seniors "will be gone after one year," and that extra-year players were common after COVID-era eligibility extensions. The first two described the NCAA's previous eligibility rules, which Division I replaced in June 2026 (Division II followed, announced August 5, 2026); the third was a claim we had no source for. We rewrote the section to reflect the age-based model.
-
 **Transfer portal activity.** A class-year gap that exists on the current roster might already be addressed by an incoming transfer who hasn't appeared on the roster yet. See our [Transfer Portal guide](/guide/transfer-portal/).
-
-> **Correction, October 9, 2026.** An earlier version of this paragraph said the House settlement "has accelerated transfer activity in lacrosse" and that programs are using the portal "more aggressively than before." We have no source for that trend, so we removed it.
 
 **Incoming recruiting class.** Similarly, high school recruits who have committed but haven't enrolled yet don't appear on the current roster. A program with a class-year gap at goalie might have a committed freshman goalie arriving in the fall.
 
@@ -137,8 +131,6 @@ How much a gap matters depends on the size of the position group, and group size
 **Large groups.** When a position group is large, one graduation changes it less, and a gap has to be wider before it stands out.
 
 **Listed positions are approximate.** A midfielder on the roster might play attack or LSM in the coach's system, so a gap at one listed position may be covered from another. Ask the coach how they count the position.
-
-> **Correction, October 9, 2026.** An earlier version of this section said how many goalies, close defenders, FOGOs, LSMs, and women's defenders programs "typically" carry, that women's teams "typically use five midfielders on the field," and that gaps at FOGO "almost always drive recruiting activity." We had no source for those counts or patterns, so we removed them and describe how to read the roster instead.
 
 ## A practical example
 
@@ -159,9 +151,5 @@ All three programs might be willing to recruit a close defender. On class-year c
 A coaching staff knows its own roster plans. Families see only the public roster — and even that has been hard to use, not because the data is hidden, but because it's scattered across hundreds of websites in inconsistent formats and requires systematic effort to compile.
 
 RosterWise automates this analysis for every D1, D2, D3, and NAIA lacrosse program (men's and women's), plus NJCAA men's. For each program, you can see how many players at each position leave after this season and how many return, and a grid of the whole roster by position and class year — including long-stick midfield and face-off in men's lacrosse — so you can spot where gaps exist and what that means for your athlete's timing. It's based on a concept that's deceptively simple: count the players, note their years, and look for the gaps.
-
-> **Correction, October 9, 2026.** An earlier version of this paragraph and the call-to-action listed SSDM (short-stick defensive midfielder) among the positions RosterWise breaks class years down by. The app has no SSDM position: a player a roster lists as an SSDM is counted under another position — usually midfield, sometimes defense. The app's men's positions are attack, midfield, long-stick midfield, face-off, defense, and goalie.
-
-> **Correction, October 9, 2026.** An earlier version of this paragraph and the call-to-action said RosterWise covers NJCAA lacrosse programs for both men and women. The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only. RosterWise Lacrosse covers NJCAA men's programs.
 
 The signal has always been there. Now families can see it.

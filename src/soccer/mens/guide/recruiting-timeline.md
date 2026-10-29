@@ -79,8 +79,6 @@ This is an observed pattern, not a rule. Individual programs and coaches vary si
 
 **Unofficial visits:** An athlete and family can walk a campus at their own expense at any time. But an unofficial visit **with athletics-department involvement** — contact with athletics staff, an athletics-specific tour, complimentary admission to a game — may not occur before **August 1 at the beginning of junior year** (NCAA Division I Bylaw 13.7.1.1). Dead periods on the recruiting calendar bar campus visits outright while they run.
 
-> **Correction.** An earlier version of this page said athletes can take unofficial visits "at any time" and that recruits cannot take unofficial visits during July without a signed written offer or a financial deposit. Both were wrong. Athletics-involved unofficial visits are gated at August 1 of junior year (Bylaw 13.7.1.1), and the July condition is a **basketball-only** rule (Bylaws 13.7.2.1 and 13.7.2.2) that has never applied to soccer. The general rule, Bylaw 13.7.2, is that a prospect "may visit a member institution's campus at the prospective student-athlete's own expense an unlimited number of times." Corrected 2026-08-26 against the 2026-27 Division I Manual.
-
 **The D1 men's soccer signing period:** Begins on **the second Wednesday in November**. Final date is based on each school's institutional policy. **Men's and women's soccer do not have an early signing period** — there is one signing window. Football and basketball have early periods; soccer does not.
 
 **Dead and quiet periods affecting D1 men's soccer for 2026-27:**

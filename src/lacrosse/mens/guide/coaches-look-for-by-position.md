@@ -2,7 +2,7 @@
 layout: content.njk
 title: "What Men's Lacrosse College Coaches Look For By Position | RosterWise™"
 description: "What each men's college lacrosse position does under the NCAA rules — attack, midfield, defense, LSM, FOGO and goalie — and the questions to ask coaches about how they evaluate it."
-date: 2026-08-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -65,8 +65,6 @@ Under the 2027 and 2028 NCAA Men's Lacrosse Rules (published August 2026), the r
 
 **Faceoffs and substitution**: Absent certain penalty situations, play starts at the beginning of each of the four 15-minute periods, and restarts after each goal, with a faceoff at the center of the field (Rules 3-1 and 4-3). Teams may substitute during live play through the substitution area (Rule 4-23). Together, those two rules are what make the faceoff specialist (FOGO) possible: a player can come on for the faceoff and leave the field after it.
 
-> **Correction, October 9, 2026.** An earlier version of this section described long poles as "6-foot sticks"; the rules set a long crosse at 52 to 72 inches. It also stated a fixed line-up of three attackers, three midfielders, three defenders and a goalie, and that "the 3 close defenders typically all carry long poles." The rules designate the positions but do not fix those numbers. We now cite the rules book for each statement.
-
 ## Questions that apply at every position
 
 Before the position-specific detail, a few things come up at every position. Ask each coaching staff how much weight they put on them — staffs differ, and we don't publish a ranking.
@@ -74,8 +72,6 @@ Before the position-specific detail, a few things come up at every position. Ask
 **Two-handed play.** A player who can receive, carry, dodge, shoot and feed with either hand gives a defense more to cover than one who goes to one hand. Ask: *"How much does his off hand matter at his position in your system?"*
 
 **How he competes, not just what he finishes.** Ground balls, communication on defense, riding and effort off the ball all show up on film. Ask: *"Beyond the highlight plays, what do you watch for when you evaluate him in a game?"*
-
-> **Correction, October 9, 2026.** An earlier version of this section called two-handed play "probably the single most repeated evaluation point in men's lacrosse" and listed qualities that "coaches describe wanting to see." Neither had a source we could name, so we turned them into questions to ask coaches.
 
 ## Attackers
 
@@ -277,15 +273,11 @@ Goalies are the last line of defense. A goalkeeper's crosse head is 10 to 12 inc
 - Inside vs. outside shots
 - Free-position saves
 
-> **Correction, October 9, 2026.** Earlier versions of the position sections above made claims we could not source: that the midfield "demands the highest fitness level in the game," that LSMs are "typically among the most athletic players on the field," that the midfield and FOGO positions have become "increasingly specialized," that faceoff percentage is "the single most important FOGO statistic," and that "lacrosse balls can travel 80-100 miles per hour." We removed them and kept the descriptions of what each position does, with the rules and official statistics behind them.
-
 ## How recruiting profiles differ by position
 
 The NCAA recruiting rules are the same at every position, and the [scholarship and roster framework](/lacrosse/mens/guide/scholarships-after-house-settlement/) applies across the whole roster. How recruiting plays out at a given position is not set by the rules, and we don't have data on it — how deep the recruiting pool is, how many players at each position a program carries, or when players at a given position commit.
 
 The useful question for each coach is how many players at your son's position the program expects to add in his class. The program's current roster shows who is already there, by class year.
-
-> **Correction, October 9, 2026.** An earlier version of this section described the recruiting market at each position — "deep recruiting pools" at attack and midfield, LSMs "highly sought," FOGOs committing early, programs "typically" needing one or two FOGOs per class and rostering two or three goalies. None of it had a source, so we removed it.
 
 ## Specific position evaluation guidance
 
@@ -303,13 +295,9 @@ Questions worth asking each coaching staff, by position:
 
 **For goalies**: *"How do you evaluate a goalie beyond save percentage — clearing, communication? How many goalies do you plan to add in his class?"*
 
-> **Correction, October 9, 2026.** An earlier version of this section told families what to prioritize at each position — for example, that attackers should "develop two-handed dexterity above almost everything else" and that for goalies "leadership presence matters as much as save percentage." Those were unsourced judgments about how coaches weigh skills, so we replaced them with questions for coaches.
-
 ## Special considerations for Canadian recruits
 
 Canadian recruits (see [International Recruiting in Men's College Lacrosse](/lacrosse/mens/guide/international-recruiting/)) may have box lacrosse experience as well as field lacrosse. The position descriptions above are for the NCAA field game. Ask each coach how they evaluate box lacrosse experience at your son's position, and what field footage they want to see alongside it.
-
-> **Correction, October 9, 2026.** An earlier version of this section described how box lacrosse shapes Canadian players at each position — that box skills "translate exceptionally well" at attack, that two-handed play is "particularly strong in many Canadian players," and that box goalies face "higher-volume shots from shorter distances." We have no source for those statements, so we removed them.
 
 ## Common questions about position-based evaluation
 
@@ -332,8 +320,6 @@ The NCAA playing rules set no height or weight requirement at any position, and 
 **"My son is a late developer at his position. Are there still opportunities?"**
 
 Nothing in the NCAA rules ends recruiting in junior year: Division I coaches can recruit from the Wednesday after Labor Day of junior year through senior year, and programs outside Division I recruit under their own, separate rules. We don't have data on which positions or divisions late developers end up at, so ask each coach how they handle players who are still developing.
-
-> **Correction, October 9, 2026.** Earlier versions of these answers said FOGOs with a "60%+ win rate against quality competition" can still find paths to competitive programs, that "modern coaches increasingly want FOGOs who can also contribute as field midfielders," gave size guidance for each position, and said late developers "often find their best fits at D2, D3, NAIA, and NJCAA programs." None of it had a source, so we replaced it with what the rules set and questions for coaches.
 
 ## Every recruit's position story is different
 

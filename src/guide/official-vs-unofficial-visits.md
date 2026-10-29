@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Official Visits vs. Unofficial Visits: What to Expect | RosterWise™"
 description: "The difference between official and unofficial college visits — rules, limits, timing, what to look for, and how to make the most of campus visits during the recruiting process."
-date: 2026-04-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -56,8 +56,6 @@ An official visit is a campus visit where the **school pays for some or all of t
 - Recruits typically stay with a current team member ("host")
 - The school arranges meetings with coaches, academic advisors, and tours of facilities
 - At least one parent or guardian may accompany the recruit, and some expenses may be covered
-
-> **Correction, October 9, 2026.** An earlier version of this page said a recruit may take up to five official visits across all Division I schools and that an official visit is limited to 48 hours. Both rules were changed by Division I Proposal 2022-32, adopted in final form on June 24, 2023 and effective July 1, 2023: it deleted the five-visit limit on recruits and replaced the 48-hour limit with the two-night lodging limit. Corrected against the 2026-27 Division I Manual, Bylaws 13.6.2.2 and 13.6.4.
 
 ### NCAA Division II rules
 

@@ -2,7 +2,7 @@
 layout: content.njk
 title: "What Women's Lacrosse College Coaches Look For By Position | RosterWise™"
 description: "Attackers, midfielders, defenders and goalies do different jobs in women's college lacrosse. What each position does, what film can show, and what to ask coaches about how they evaluate it."
-date: 2026-08-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -78,8 +78,6 @@ Per the IWLCA (iwlca.org) and the NCAA Women's Lacrosse Rules 2026-2027 (publish
 **Field size** (per USA Lacrosse Girls Youth Rule Book): maximum playing area 140 × 70 yards, minimum 110 × 60 yards.
 
 Each position does a different job, so the sections below describe each one. How heavily a given coach weighs each skill is not something we can source, so the page closes with questions to ask.
-
-> **Correction, October 9, 2026.** An earlier version of this page said evaluation by position is "more granular" at the NCAA level than internationally, that coaches evaluate "specifically against the 4-3-4-1 positional framework," and presented the lists below as what coaches "evaluate," including qualities that "come up across every position in published coaching guidance." We could not name the guidance behind those statements. The lists now describe each position's job, and the weighting is a question for the coaches you talk to.
 
 ## Qualities that show at every position
 
@@ -172,8 +170,6 @@ A team may use a dedicated draw specialist who comes in primarily for draws. If 
 - Whether she also plays in the field — ask each coach how draw specialists fit their roster
 
 Include draw footage from real games, so coaches can see her mechanics against live opponents.
-
-> **Correction, October 9, 2026.** An earlier version of this section said the draw specialist "holds one of the most influential roles in women's lacrosse," that "many draw specialists also contribute as field players," and that coaches "actively look for" the items listed. It also said the midfielders "cover the most ground in the game" and that "the midfield demands the highest fitness level." None of it had a source, and we rewrote it as a description of the job and questions to ask.
 
 ## Defenders (4 positions)
 
@@ -268,8 +264,6 @@ For families with athletes at each position, questions worth asking each coachin
 
 **For goalies**: How many goalies do you carry, and how many do you expect to add in her class? How do you weigh saves, clearing, and communication?
 
-> **Correction, October 9, 2026.** An earlier version of these two sections said attackers and midfielders "typically face the deepest recruiting pools," that each team "typically rosters only 2-3" goalies, that "communication ability is often the difference between top defenders and average ones," that "leadership presence matters as much as save percentage," that "draw control is a meaningful differentiator," and that goalie recruiting "can be more relationship-driven." None of it had a source, so we replaced it with the questions to ask.
-
 ## Common questions about position-based evaluation
 
 **"My daughter plays midfield but mainly focuses on scoring. Should she be listed as an attacker?"**
@@ -284,8 +278,6 @@ That's worth showing. Highlight that versatility in recruiting materials — but
 
 It depends on the program, and no rule settles it. We don't have data on how programs value draw specialists, so ask each coach how draw specialists fit their roster, and whether they want the player taking the draw to play in the field as well.
 
-> **Correction, October 9, 2026.** An earlier version of this answer said top D1 programs "typically" want draw specialists who play field minutes and that "lower competitive levels (D3, NAIA, NJCAA)" may roster pure specialists. Neither statement had a source, and ranking divisions is outside what we publish. It also named the NJCAA, which discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only. It also said a draw specialist who can only win draws "has a more limited recruiting market"; that had no source either, and we removed it.
-
 **"How important is height for women's lacrosse positions?"**
 
 No rule sets a height requirement for any position, and we haven't published figures on height by position across women's college lacrosse. Each program's page in RosterWise shows the heights its roster lists at each position, where the school publishes them. Ask coaches directly whether height factors into how they evaluate your daughter at her position.
@@ -294,13 +286,9 @@ No rule sets a height requirement for any position, and we haven't published fig
 
 We haven't published figures on how many goalies programs carry or recruit, so we won't characterize the market. Each program's roster — and its page in RosterWise — shows how many goalies it has now, by class year; ask its coaches how many it expects to add in your daughter's class.
 
-> **Correction, October 9, 2026.** An earlier version of the last two answers said height "matters more for goalies," that defenders "benefit from height," that each team "rosters few" goalies, and that "strong goalies can find competitive recruiting opportunities at all division levels." None of it had a source, and we rewrote both answers.
-
 ## Every recruit's position story is different
 
 Position evaluation is a starting framework, not a rigid prescription. Some athletes transition between positions during their development. Some are recruited as one position and end up playing another in college. Some athletes have skills that don't fit neatly into traditional position categories (athletic, versatile midfielders who can be deployed offensively or defensively, for example). Use this position-based framework to understand what coaches are evaluating, but treat your daughter's actual development as the driver — not a position label. Talk with her coaches about what positions match her current development and where she might be most competitive in the recruiting process.
-
-> **Correction, October 9, 2026.** An earlier version of this page's call-to-action said RosterWise analyzes position depth "including the specialized draw specialist role." The RosterWise Lacrosse app's women's positions are attack, midfield, defense, and goalie; a player a roster lists as a draw specialist is counted under another position, so the app has no draw-specialist depth view. We corrected the call-to-action.
 
 ---
 

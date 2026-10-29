@@ -60,8 +60,6 @@ What the 14-equivalency ceiling did mean is that scholarship dollars were spread
 
 The House settlement removed the ceiling for opt-in schools, as described below.
 
-> **Correction.** An earlier version of this page described women's D1 soccer as a "head count" sport in which every scholarship was a full scholarship. That was wrong. Women's soccer has always been an equivalency sport; the 14 figure was an equivalency limit, not a count of full rides. Corrected 2026-08-26 against NCAA Division I Bylaws 15.5.2.1 and 15.5.3.1.2.
-
 ## D1 women's soccer: the House settlement era
 
 The House v. NCAA settlement, approved in June 2025, fundamentally changed how D1 women's soccer scholarships work for schools that opted in.

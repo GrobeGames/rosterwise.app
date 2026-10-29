@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Junior College Soccer: An Overlooked Path to D1"
 description: "How NJCAA junior college soccer works for men and women — structure, transfer rules, and why JUCO is a legitimate pathway to four-year programs at every NCAA division."
-date: 2026-08-26
+date: 2026-10-08
 breadcrumbs:
   - text: Home
     url: /
@@ -77,8 +77,6 @@ JUCO soccer serves a wide range of players. There's no single profile, but commo
 **Gap-year alternatives.** For players who don't want to take a year off from competitive soccer but aren't ready for a four-year commitment, JUCO offers structured competition and continued development. Know the eligibility trade-off, though: for an athlete headed to NCAA Division I or II, full-time enrollment at a two-year college starts the same five-year eligibility window a four-year school would, and that window also starts at the academic year after the athlete's 19th birthday whether or not they are enrolled. See our [age-based eligibility guide](/guide/age-based-eligibility/).
 
 **Transfer opportunities.** Players who started at a four-year school and it didn't work out — whether due to fit, playing time, coaching changes, or personal reasons — sometimes transfer to a JUCO to improve their visibility before transferring again. A JUCO stop does not reset an NCAA eligibility clock. Under the NCAA's age-based eligibility model — adopted by Division I in June 2026 and by Division II (announced August 5, 2026) — athletics redshirt rules and the cap on seasons of competition are gone. Each athlete instead has a five-year window that starts at the earlier of full-time college enrollment or the academic year after their 19th birthday, and it does not pause for a season sat out. Athletes first enrolling in fall 2027 or later are under the new model only; current athletes and 2026-27 enrollees are evaluated under whichever rules are more beneficial to them. Division III and the NAIA have not adopted the model. As of October 8, 2026 the model is in force: a lower-court injunction covering one group of athletes was stayed by the Tenth Circuit on August 21, and the appeal is set for oral argument on October 13, 2026. Our [age-based eligibility guide](/guide/age-based-eligibility/) explains the details. The NCAA says that window keeps running through transfers, and full-time enrollment at a two-year college counts.
-
-> **Correction, October 8, 2026.** An earlier version of this section said players sometimes transfer to a JUCO "to reset their eligibility clock." Under the NCAA's age-based eligibility model, which Division I adopted in June 2026 (Division II followed, announced August 5, 2026), the five-year window does not pause or restart for a transfer, and two-year colleges count toward it. We removed that statement and added the current rule.
 
 Every player's situation is different. JUCO works for some and isn't the right fit for others. The point is that it deserves consideration, not dismissal.
 

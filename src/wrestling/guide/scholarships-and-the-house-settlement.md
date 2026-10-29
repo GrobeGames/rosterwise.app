@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Wrestling Scholarships & the House Settlement (Men's & Women's) | RosterWise™"
 description: "How college wrestling scholarships work after the House v. NCAA settlement — the D1 roster-cap era (wrestling's cap is 30), D2 equivalencies, D3's no-athletic-aid model, NAIA, and the evolving women's picture. An honest, division-by-division guide for families."
-date: 2026-07-07
+date: 2026-10-08
 breadcrumbs:
   - text: Home
     url: /
@@ -107,4 +107,3 @@ Two wrestlers with identical records can end up with completely different schola
 
 *House settlement implementation and scholarship rules are evolving. This article reflects the picture as of the 2025-26 season and the settlement's July 1, 2025 effective date; the Division I wrestling roster limits were re-verified against NCAA Bylaw 17.2 on October 8, 2026. Verify current specifics against the NCAA House Q&A and each association's materials for the relevant year.*
 
-*Correction, October 8, 2026: earlier versions of this page cited an NCAA news release for wrestling's roster cap of 30. That release does not list sport-by-sport limits, so the figure is now cited to NCAA Division I Bylaw 17.2, which sets 30 for both men's and women's wrestling. Earlier versions also described the caps as applying only to schools that opt in; under the bylaw they also apply to members of the settlement's defendant conferences. The number itself has not changed.*

@@ -2,7 +2,7 @@
 layout: content.njk
 title: "How to Read a College Volleyball Roster | RosterWise™"
 description: "A guide for families on how to read college volleyball rosters — position abbreviations, class-year distribution, transfer patterns, and the signals that reveal recruiting opportunity."
-date: 2026-08-26
+date: 2026-10-08
 breadcrumbs:
   - text: Home
     url: /
@@ -70,8 +70,6 @@ The class-year column (Fr., So., Jr., Sr., or variations like R-Fr. for redshirt
 - **A freshman-heavy roster** suggests the program recently reloaded through a large recruiting class. This can mean more competition for playing time in the short term but stability in the medium term.
 - **A balanced distribution** (roughly equal numbers across class years) suggests consistent, sustainable recruiting. These programs tend to have more predictable roster turnover.
 - **Redshirt labels come from the previous rules.** You'll still see "R-" prefixes for players who sat out a season under the NCAA's previous rules, but a label doesn't tell you how much eligibility a player has left. Under the NCAA's age-based eligibility model — adopted by Division I in June 2026 and by Division II (announced August 5, 2026) — athletics redshirt rules and the cap on seasons of competition are gone. Each athlete instead has a five-year window that starts at the earlier of full-time college enrollment or the academic year after their 19th birthday, and it does not pause for a season sat out. Athletes first enrolling in fall 2027 or later are under the new model only; current athletes and 2026-27 enrollees are evaluated under whichever rules are more beneficial to them. Division III and the NAIA have not adopted the model. As of October 8, 2026 the model is in force: a lower-court injunction covering one group of athletes was stayed by the Tenth Circuit on August 21, and the appeal is set for oral argument on October 13, 2026. Our [age-based eligibility guide](/guide/age-based-eligibility/) explains the details. To learn how a program plans to develop and play freshmen, ask the coach.
-
-> **Correction, October 8, 2026.** An earlier version of this list said redshirt patterns "reveal coaching philosophy" and that programs which regularly redshirt freshmen "are investing in long-term player development." That treated redshirting as a current option under the NCAA's previous eligibility rules, which Division I replaced in June 2026 (Division II followed, announced August 5, 2026), and it characterized programs without a source. We replaced it with the current rule.
 
 **The key question:** How many players at your athlete's position are in the same class year or one year ahead? If a program has two sophomore outside hitters and your athlete is a current junior, those sophomores will be juniors and seniors during your athlete's freshman and sophomore years — meaning the path to playing time at that position may be longer.
 

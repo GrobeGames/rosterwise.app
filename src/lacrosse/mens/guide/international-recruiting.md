@@ -2,7 +2,7 @@
 layout: content.njk
 title: "International Recruiting in Men's College Lacrosse: A Family Guide | RosterWise™"
 description: "What Canadian and other international families need to know about NCAA men's lacrosse recruiting — the contact rules, F-1 visas, amateurism, and the Canadian box lacrosse pathway."
-date: 2026-08-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -81,8 +81,6 @@ Figures that circulate — a Division I total of Canadian players with a provinc
 
 **Box lacrosse.** Lacrosse Canada governs box lacrosse, the indoor game, alongside field lacrosse. A Canadian recruit may have played box lacrosse as well as field lacrosse, or mostly box. How a program weighs box experience is a question for each coach; the program's roster lists hometowns, which shows you where its current players come from.
 
-> **Correction, October 9, 2026.** An earlier version of this section called the Canadian presence "the single most important fact about international recruiting" in men's lacrosse and described why Canadian players are "so prominent": box lacrosse as "more creative," its skills translating "well to the field game," named programs as "notable" or "top" recruiters of Canadian players, and named current college players as having played in the Ontario Junior Lacrosse League, concluding that the link between the Canadian box system and "elite NCAA men's lacrosse is established and well-documented." It also said a circulating count of Canadians in Division I was "probably in the right range." None of that has a source we have logged, and characterizing programs is outside what we publish, so we removed it. The NCAA figures above are unchanged.
-
 ## The Canadian box-to-field pathway
 
 Understanding the Canadian path into NCAA men's lacrosse requires understanding the structure of Canadian lacrosse development.
@@ -100,8 +98,6 @@ Understanding the Canadian path into NCAA men's lacrosse requires understanding 
 - The **Maritime University Field Lacrosse League (MUFLL)** serves the Atlantic provinces
 - Provincial programs such as Team BC and Team Ontario also exist; ask them directly what their programs involve
 
-> **Correction, October 9, 2026.** An earlier version of this section said BC Junior A box lacrosse and provincial teams "feed" NCAA pipelines, that field lacrosse in Canada has "growing club and high school programs," that a Canadian player heading to the NCAA "typically" develops through provincial box systems, and that "many" have played at a "National Lacrosse League youth/junior level" before NCAA recruiting. None of it had a source, so we removed it.
-
 ## Recruiting Canadian players: how it actually works
 
 For Canadian families researching NCAA men's lacrosse, several practical realities differentiate the Canadian recruiting pathway from the American pathway:
@@ -115,8 +111,6 @@ For Canadian families researching NCAA men's lacrosse, several practical realiti
 **Academic and eligibility considerations**: Canadian recruits must register with the NCAA Eligibility Center (eligibilitycenter.org) and meet the same academic and amateurism standards as American recruits. Canadian high school transcripts must be evaluated through the Eligibility Center process.
 
 **Box-to-field transition**: ask each coach how their program works with a player whose experience is mostly box lacrosse, and what field footage they want to see from him.
-
-> **Correction, October 9, 2026.** An earlier version of this section called the Ontario Junior Lacrosse League "the documented top source of NLL talent" — a superlative we had already removed from this page in August 2026 because it was evaluative — and said programs that recruit Canadians are "typically prepared" to help with the box-to-field transition. It also said the U.S. recruiting class system is "birthdate-driven." None of it had a source; we replaced it with what the rule says and questions for coaches.
 
 ## The Haudenosaunee Nationals and indigenous lacrosse
 
@@ -132,15 +126,11 @@ Per the Haudenosaunee Nationals' own published materials at [haudenosauneenation
 
 **Recruiting implications**: Indigenous lacrosse players from Haudenosaunee communities (which include the Mohawk, Oneida, Onondaga, Cayuga, Seneca, and Tuscarora nations across New York State, Ontario, and Quebec) are recruited by NCAA programs through standard recruiting channels.
 
-> **Correction, October 9, 2026.** An earlier version of this paragraph named three brothers as "among the most prominent examples of indigenous players who have had major impact on NCAA lacrosse" and said players from indigenous communities "often compete in both U.S. and Canadian club systems." Neither statement had a logged source, and ranking individual players is outside what we publish, so we removed them.
-
 ## England, Israel, Australia, and beyond
 
 Beyond Canada, the NCAA's published research does not break out lacrosse players by country, and we don't publish figures on how many players from any other country are on men's college lacrosse rosters. Each program's roster lists hometowns, which shows you where its players come from.
 
 **The international game**: World Lacrosse currently has **97 member nations across four continental federations** — Asia-Pacific, Europe, Pan-America and Africa — and describes the sport as played in all five of its continental regions. Its membership stood at 45 at the end of 2008. National governing bodies, such as England Lacrosse ([englandlacrosse.co.uk](https://www.englandlacrosse.co.uk)) in England, run the sport in their own countries and are the place to ask about development programs there.
-
-> **Correction, October 9, 2026.** An earlier version of this section said Canada "dominates" international representation, that "smaller but growing pipelines" exist from England, Israel and Australia, that Israeli players have entered NCAA programs "in growing numbers," that Israel finished seventh at three World Championships, that 46 nations competed in 2018 ("the largest number ever"), and that programs recruiting beyond Canada "often" have specific infrastructure. We could not source those statements, so we removed them. The World Lacrosse membership figures are unchanged.
 
 ## The F-1 visa reality: a critical context
 
@@ -181,8 +171,6 @@ Per World Lacrosse:
 
 **For NCAA recruiting**: we won't predict how the Olympics will affect international recruiting.
 
-> **Correction, October 9, 2026.** An earlier version of this section said the Olympics are "dramatically increasing global investment in lacrosse" and discussed the Haudenosaunee Nationals' "potential Olympic participation" and its "significant implications." Those were unsourced predictions, so we removed them.
-
 ## Common questions about international men's lacrosse recruiting
 
 **"Does my son need to play box lacrosse to be recruited from Canada?"**
@@ -204,8 +192,6 @@ This depends on specific circumstances. Some Canadian Junior A box lacrosse cont
 **"Do indigenous lacrosse players have unique NCAA recruiting considerations?"**
 
 Indigenous players from Haudenosaunee communities and other indigenous nations are recruited through standard NCAA processes. The Haudenosaunee Nationals are an international team, not a U.S. or Canadian national team — meaning indigenous players have access to multiple national team pathways including the Haudenosaunee Nationals, the U.S. or Canadian national teams (depending on citizenship), and standard NCAA recruiting.
-
-> **Correction, October 9, 2026.** Earlier versions of these answers said "the documented pattern is that most Canadian recruits at top NCAA programs have meaningful box lacrosse experience," that "many top programs have specific recruiting infrastructure for Canadian players," and that "F-1 visa restrictions make NIL income largely unavailable," advising families to "plan as if NIL income will not be a meaningful component." The first two had no source. The third went further than the sources do: the prohibition is the NCAA's own position, and no federal source has addressed NIL. We rewrote all three to match what is sourced on this page.
 
 ## Every international recruit's journey is different
 

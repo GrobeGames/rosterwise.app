@@ -135,6 +135,21 @@ https://code.claude.com/docs/en/claude-code-on-the-web for where that's
 configured) — this file documents which domains legitimate research here
 needs; it cannot itself grant access.
 
+## Corrections: no notes on the page (Scott, 2026-10-29)
+
+**Pages carry no visible "Correction" notes.** When a published claim is fixed,
+the page's front-matter `date:` (its public "Last updated") moves to that day,
+and the record of what was wrong goes in the commit message and the fact log —
+never in a `> **Correction …**` block on the page. Scott, Review Board
+`site-reels-3`: "We can remove the "Correction" note as well. Just mark the page
+as to when it was last updated", and for the rest of the site, "Just a
+last-updated date is fine". This overrides the content-standards skill's
+corrections protocol on that one point; its other duties (fix the page and its
+fact-log row together, trace every page carrying the claim, say what was wrong
+in the commit) still apply. The 144 notes removed on 2026-10-29 are kept word
+for word in `prototypes/research/correction-notes-removed-2026-10-29.md`. Hubs
+have no `date:`, so a hub fix is recorded only in its commit and fact log.
+
 ## Brand
 
 RosterWise™ · Grobe Games LLC · rosterwise.app · Navy `#1a2744` + Gold `#c8a44e`.

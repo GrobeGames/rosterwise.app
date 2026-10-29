@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Why Class-Year Gaps Are the Most Overlooked Recruiting Signal"
 description: "How class-year gap analysis reveals where college soccer programs need to recruit — and why most families miss this critical signal."
-date: 2026-04-26
+date: 2026-10-08
 breadcrumbs:
   - text: Home
     url: /
@@ -108,8 +108,6 @@ Honest assessment of the limitations matters:
 **Redshirt labels and remaining eligibility.** A player listed as a "sophomore" might be a redshirt sophomore (one who sat out a season under the NCAA's previous rules) or a true sophomore. Roster data doesn't always distinguish between the two, which means class-year counts can be slightly off — and a class-year label is not a count of seasons left. Under the NCAA's age-based eligibility model — adopted by Division I in June 2026 and by Division II (announced August 5, 2026) — athletics redshirt rules and the cap on seasons of competition are gone. Each athlete instead has a five-year window that starts at the earlier of full-time college enrollment or the academic year after their 19th birthday, and it does not pause for a season sat out. Athletes first enrolling in fall 2027 or later are under the new model only; current athletes and 2026-27 enrollees are evaluated under whichever rules are more beneficial to them. Division III and the NAIA have not adopted the model. As of October 8, 2026 the model is in force: a lower-court injunction covering one group of athletes was stayed by the Tenth Circuit on August 21, and the appeal is set for oral argument on October 13, 2026. Our [age-based eligibility guide](/guide/age-based-eligibility/) explains the details.
 
 **Graduate students and fifth-year players.** They're listed on the roster, but how many seasons each has left depends on which eligibility rules apply to them, so don't assume they leave after one year — ask the coach. Some programs have multiple graduate students who inflate the senior count without representing recruiting-class investments.
-
-> **Correction, October 8, 2026.** An earlier version of this section said a redshirt sophomore has "three years of eligibility remaining," that graduate students and fifth-year seniors "will be gone after one year," and that extra-year players were common after COVID-era eligibility extensions. The first two described the NCAA's previous eligibility rules, which Division I replaced in June 2026 (Division II followed, announced August 5, 2026); the third was a claim we had no source for. We rewrote the section to reflect the age-based model.
 
 **Transfer portal activity.** A class-year gap that exists on the current roster might already be addressed by an incoming transfer who hasn't appeared on the roster yet. Transfer announcements are often made publicly, but the timing varies, and not all transfers are widely publicized.
 
