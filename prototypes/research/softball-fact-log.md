@@ -94,7 +94,8 @@ yields, working shown), **pending** (not stated on any page until resolved).
 | The report counts **21,933** NCAA softball players in 2025-26 | SB15 sheet "8. Women's Sports -Participants", 2025-26 softball row: 7,229 / 6,376 / 8,328 / 21,933 | 2026-10-29 | hub |
 | The report includes **only active NCAA members**, and the NCAA says its 2025-26 figures **may not be directly comparable** with earlier years | SB15 Intro: "Only active NCAA member institutions are included"; "data beginning with 2025-26 may not be directly comparable to figures published in earlier reports" | 2026-10-29 | hub |
 | **No NAIA document we read states how many NAIA schools sponsor softball** | S13 and SB17 searched; no count. (The NAIA's statistics site sits behind a bot challenge and is never fetched.) | 2026-10-29 | hub, naia |
-| **NAIA softball count for 2026-27** | **PENDING.** The softball M1 session counted **190** teams in **19** conferences from the conferences' own pages (`shared/plans/softball-research/naia_softball_notes.md`, softball board tab `sb-m1`): **84** on a 2026-27 conference page, **106** from 2025-26 (spring 2026) standings of schools still on their conference's member list, **5** held until their conference confirms them (an open question to Scott on `sb-m1`), Cal Pac **0** (its softball page stops at 2024-25), independents **not counted**. Because 106 rest on last season's standings and 5 await his answer, **no number is printed** until he marks the wording (W1 board tab, question 1); the hub and NAIA page say the count is not yet published here | 2026-10-29 (M1 notes read; counts not re-derived here) | hub, naia |
+| **By our count, 190 NAIA softball teams in 19 conferences for 2026-27**, read Oct. 29, 2026 from each conference's own softball pages: **84** on a 2026-27 conference page, **106** from spring 2026 (2025-26) standings, each school checked against its conference's current member list. **Not counted:** 5 held schools (Trinity Christian, Lourdes, Alice Lloyd, Westcliff, Washington Adventist) until a page shows a 2026-27 team; NAIA schools in no conference; and one conference (Cal Pac) whose softball pages stop at 2024-25. **Always worded as our count of the conferences' pages, never "the NAIA has 190"** | The softball M1 session's count, delivered to this session 2026-10-29 by message, with its rows: `shared/plans/softball-research/naia_softball_2026-27.csv` and notes `naia_softball_notes.md` (umbrella `8e393a4`). Every row read by M1 through `rosterwise.fetch` (`fetched_with: fetch_url`) from the conference URL in its `source_url`. Re-tallied here from the CSV: 195 rows, 5 `HOLD`, 190 counted (84 `2026-27`, 106 `2025-26`), 19 distinct conferences. The 19 conference URLs are listed in the NAIA page's sources. **Not re-fetched by this session** (rowing held the athletics-host network window, and the PrestoSports one-site-at-a-time rule applies to these hosts) | 2026-10-29 | hub, naia |
+| **1,527** programs in all for 2026-27: NCAA 977 + NAIA 190 + NJCAA 360, carrying the NAIA count's limits | Derived: 977 + 190 + 360 = 1,527 | 2026-10-29 | hub |
 | California's community colleges play softball in the **CCCAA** (3C2A), which ran a 2026 state championship | SB18: "3C2A SOFTBALL STATE CHAMPIONSHIPS"; "STATE CHAMPION - Palomar" | 2026-10-29 | hub, juco |
 | Northwest two-year colleges play softball in the **NWAC**, which ran a 2026 softball championship | SB19: "NWAC Softball Championship commences on Thursday, May 14 at Delta Park" (2026 release) | 2026-10-29 | hub, juco |
 
@@ -292,7 +293,8 @@ All in S1 (2026-27 D1 Manual, printed 10/26/26), each stamped "(Adopted: 6/24/26
 
 ### Claims cut for lack of a primary source (reported to Scott)
 
-- **How many NAIA schools sponsor softball** — pending from the M1 session (§A). No estimate is printed.
+- **An NAIA-published softball total** — none exists in what was read. The pages print the M1 session's count of the
+  conferences' own pages instead, always worded as our count (§A).
 - **NJCAA per-team softball scholarships, Letter of Intent date, game limit and roster limit** — on the NJCAA Sports
   Procedures Chart, which was not reachable in the plan's research pass (njcaa.org's handbook index is
   client-rendered and came back "unavailable"). Not re-attempted.
@@ -311,8 +313,9 @@ All in S1 (2026-27 D1 Manual, printed 10/26/26), each stamped "(Adopted: 6/24/26
 
 ### Open items to re-check before/at publish
 
-- **NAIA count** (§A): fill the hub's NAIA row and the NAIA page's count section, dated, in the wording Scott marks on
-  the W1 board tab, after his answer on M1's five held teams. Until then both pages say the count is not yet published here.
+- **NAIA count** (§A): 106 of the 190 rest on spring 2026 standings. Re-count at the M2/M3 roster passes, when each
+  school's own 2026-27 roster is read, and when the five held schools are settled (Scott's `sb-m1` question); update the
+  hub, the NAIA page and the 1,527 total together.
 - **After deploy (site fix §L2):** confirm a request to `https://rosterwise-app.pages.dev/` returns `X-Robots-Tag: noindex`
   and a request to `https://rosterwise.app/` returns no `X-Robots-Tag`.
 - **Navigation:** the softball pages are linked from nothing outside `/softball/` until the six-sport navigation commit

@@ -1,7 +1,7 @@
 ---
 layout: hub.njk
 title: "College Softball Recruiting: How Many Programs There Are in 2026-27, by Division | RosterWise™"
-description: "How many college softball programs are there in 2026-27? The NCAA's and NJCAA's own lists, dated: 308 D1, 274 D2, 395 D3 and 360 NJCAA teams, plus our guides."
+description: "How many college softball programs are there in 2026-27? Dated counts: NCAA 977 (308 D1, 274 D2, 395 D3), NAIA 190 and NJCAA 360, each with its source."
 breadcrumbs:
   - text: Home
     url: /
@@ -37,11 +37,12 @@ sources:
   - '<a href="https://ncaaorg.s3.amazonaws.com/research/sportpart/RES_SportsSponsorshipParticipationRatesReport.xlsx">NCAA — Sports Sponsorship and Participation Rates, 2000-01 through 2025-26</a> (published October 2026)'
   - '<a href="https://media.ardorsportshub.com/files/404933495157163011/0cf650c00ce14f37b778323691d5ab75-NJCAA-Handbook---Sport-Codes-9-9-26.pdf">NJCAA Handbook — Sport Codes</a> (9-9-26): Division I and II Softball and Baseball Postseason Model, effective spring 2028'
   - '<a href="https://www.naia.org/wp-content/uploads/2026/08/2026.27-Coaches-Manual-Softball-Combined.pdf">NAIA — 2026-27 Softball Coaches Manual</a>'
+  - 'The softball pages of 19 NAIA conferences, read Oct. 29, 2026 (RosterWise count; each conference''s page is listed on <a href="/softball/guide/naia-softball/">our NAIA softball guide</a>)'
   - '<a href="https://www.cccaasports.org/sports/sball/Championships">CCCAA (3C2A) — Softball Championships</a> and <a href="https://www.nwacsports.org/sports/sball/2025-26/releases/202605130jk32r">NWAC — 2026 Softball Championship release</a> (May 2026)'
   - '<a href="/guide/division-differences/">RosterWise — D1 vs. D2 vs. D3 vs. NAIA</a> (universal guide)'
 ---
 
-College softball program counts are easy to find and hard to check. A count only means something with a season and a source attached, so here are the governing bodies' own lists for **2026-27**, as each body published them when we read them on **October 29, 2026**.
+College softball program counts are easy to find and hard to check. A count only means something with a season and a source attached, so here are the governing bodies' own lists for **2026-27**, as each body published them when we read them on **October 29, 2026**. None of the NAIA documents we read lists its softball teams, so the NAIA figure is our own count of its conferences' pages, read the same day.
 
 | Governing body | Level | Programs, 2026-27 | Whose list |
 |---|---|---|---|
@@ -49,16 +50,23 @@ College softball program counts are easy to find and hard to check. A count only
 | NCAA | Division II | **274** | NCAA directory |
 | NCAA | Division III | **395** | NCAA directory |
 | **NCAA** | **All divisions** | **977** | |
-| NAIA | — | Not yet published here | See below |
+| NAIA | — | **190** | Our count of 19 conferences' pages (below) |
 | NJCAA | Division I | **136** | NJCAA 2026-27 team roll |
 | NJCAA | Division II | **160** | NJCAA 2026-27 team roll |
 | NJCAA | Division III | **60** | NJCAA 2026-27 team roll |
 | NJCAA | No division shown on the roll | **4** | NJCAA 2026-27 team roll |
 | **NJCAA** | **All divisions** | **360** | |
+| **All three** | | **1,527** | |
 
 In the NCAA directory, Division I softball teams play in **32 conferences**. Division II has **23 conferences** plus one independent team, and Division III **43 conferences** plus one independent team. The NJCAA's roll places its softball teams in **24 regions**.
 
-**The NAIA count isn't on this page yet.** The NAIA sponsors softball, and its 2027 national championship is a 48-team tournament, but none of the NAIA documents we read says how many of its schools field a team. We are counting them from the NAIA conferences' own pages and will add the figure here, dated, once that count is complete. We won't print an estimate in the meantime.
+**The NAIA figure is our count, not the NAIA's.** The NAIA sponsors softball, and its 2027 national championship is a 48-team tournament, but none of the NAIA documents we read says how many of its schools field a team. So on October 29, 2026 we read each NAIA conference's own softball pages. The **190** teams play in **19** conferences:
+
+- **84** were already listed on a 2026-27 conference page.
+- **106** come from the conferences' spring 2026 standings, each school checked against its conference's current member list.
+- **Not counted:** five schools that played in 2025-26 but aren't on their conference's current list (or had no games), until a page shows a 2026-27 team; NAIA schools that belong to no conference; and one conference whose softball pages stop at 2024-25.
+
+The conference pages we read are listed on our [NAIA softball guide](/softball/guide/naia-softball/). The **1,527** total adds the three counts above, so it carries the NAIA count's limits too.
 
 ## Why the counts you find don't agree
 

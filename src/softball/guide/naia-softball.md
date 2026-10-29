@@ -11,7 +11,7 @@ breadcrumbs:
   - text: Guides
     url: /softball/guide/
   - text: NAIA Softball
-summary: "The NAIA runs its own softball rules, separate from the NCAA's. Its upper limit for institutional aid in softball is 10, and that limit counts academic and leadership scholarships the school funds as well as athletic awards. It places no limit on roster size. A player has four seasons within 10 semesters, playing in 11 games uses one of them, and a first-time NAIA athlete needs a decision from the NAIA Eligibility Center before she competes. The NAIA sets no national date for first contact; each school's practices and its conference's rules apply. Teams may play 50 games, and the 2027 national championship has a new shape: 48 teams at eight opening-round sites, then an eight-team World Series ending in a best-of-three final."
+summary: "The NAIA runs its own softball rules, separate from the NCAA's. By our count of its conferences' own pages, 190 NAIA teams play softball in 2026-27, in 19 conferences. Its upper limit for institutional aid in softball is 10, and that limit counts academic and leadership scholarships the school funds as well as athletic awards. It places no limit on roster size. A player has four seasons within 10 semesters, playing in 11 games uses one of them, and a first-time NAIA athlete needs a decision from the NAIA Eligibility Center before she competes. The NAIA sets no national date for first contact; each school's practices and its conference's rules apply. Teams may play 50 games, and the 2027 national championship has a new shape: 48 teams at eight opening-round sites, then an eight-team World Series ending in a best-of-three final."
 related:
   - title: "Softball Scholarships After the House Settlement"
     url: /softball/guide/scholarships-and-the-house-settlement/
@@ -29,6 +29,8 @@ related:
     url: /guide/stacking-financial-aid/
     status: live
 faq:
+  - q: "How many NAIA softball programs are there?"
+    a: "No NAIA document we read states a total. Our count of the NAIA conferences' own softball pages, read October 29, 2026, is 190 teams in 19 conferences for 2026-27. It leaves out NAIA schools that belong to no conference, one conference whose softball pages stop at 2024-25, and five schools whose 2026-27 team we couldn't confirm."
   - q: "How many scholarships does NAIA softball allow?"
     a: "The NAIA's upper limit for institutional aid in softball is 10 (NAIA Official & Policy Handbook 2026-2027, Council of Presidents policy XIII). Countable aid includes academic, leadership and performance scholarships the school funds or controls, not only athletic awards."
   - q: "Is there a roster limit in NAIA softball?"
@@ -40,6 +42,7 @@ faq:
 sources:
   - '<a href="https://www.naia.org/wp-content/uploads/2026/07/2026_Official_Handbook.pdf">NAIA — Official &amp; Policy Handbook 2026-2027</a>: Council of Presidents policy XIII (institutional financial aid, softball 10; countable aid; roster size); Constitution (student recruiting); Bylaws Article I (contest limits, first dates) and Article V (eligibility, seasons of competition); the NAIA Eligibility Center requirement; 2026-27 conference tournament deadlines'
   - '<a href="https://www.naia.org/wp-content/uploads/2026/08/2026.27-Coaches-Manual-Softball-Combined.pdf">NAIA — 2026-27 Softball Coaches Manual</a> (championship format, automatic qualification, roster of 22, World Series dates)'
+  - 'NAIA conferences'' own softball pages, read Oct. 29, 2026 (the RosterWise count). 2026-27 team lists: <a href="https://www.heartofamericaconference.com/sports/sball/2026-27/teams">Heart of America</a>, <a href="https://www.hbcuac.org/sports/sball/2026-27/teams">HBCU Athletic</a>, <a href="https://aacsports.com/sports/sball/2026-27/teams">Appalachian</a>, <a href="https://redriverconference.com/sports/sball/2026-27/teams">Red River</a>, <a href="https://crossroadsleague.com/sports/sball/2026-27/teams">Crossroads League</a>, <a href="https://kcacsports.com/standings.aspx?path=softball">Kansas Collegiate</a> (2027 standings), <a href="https://ssacsports.com/sports/2025/7/29/ssacmembers.aspx">Southern States</a> (members page). Spring 2026 standings: <a href="https://ccacsports.com/sports/sball/2025-26/standings">Chicagoland</a>, <a href="https://gpacsports.com/sports/sball/2025-26/standings">Great Plains</a>, <a href="https://whac.net/sports/sball/2025-26/standings">Wolverine-Hoosier</a>, <a href="https://amcsportsonline.com/sports/sball/2025-26/standings">American Midwest</a>, <a href="https://continentalathletics.com/sports/sball/2025-26/standings">Continental</a>, <a href="https://fcsports.org/standings.aspx?path=softball">Frontier</a>, <a href="https://cascadeconference.org/standings.aspx?path=softball">Cascade</a>, <a href="https://gsacsports.org/standings.aspx?path=softball">Great Southwest</a>, <a href="https://soonerathletic.org/standings.aspx?path=softball">Sooner</a>, <a href="https://mid-southconference.org/standings.aspx?path=softball">Mid-South</a>, <a href="https://riverstatesconference.com/standings.aspx?path=softball">River States</a>, <a href="https://thesunconference.com/standings.aspx?path=softball">The Sun</a>'
   - '<a href="/guide/division-differences/">RosterWise — D1 vs. D2 vs. D3 vs. NAIA</a> (universal guide)'
 cta:
   heading: "RosterWise Softball is in development"
@@ -52,7 +55,13 @@ The National Association of Intercollegiate Athletics (NAIA) is its own governin
 
 ## How many NAIA schools play softball
 
-We haven't published this number yet. None of the NAIA documents we read states how many of its schools field a softball team, so we are counting them from the NAIA conferences' own pages. The count will appear here and on the [softball hub](/softball/), dated, once it is complete. We won't print an estimate in the meantime.
+**By our count, 190 teams in 19 conferences for 2026-27** (read October 29, 2026). None of the NAIA documents we read states how many of its schools field a softball team, so the number is ours, counted from each NAIA conference's own softball pages:
+
+- **84** teams were already listed on a 2026-27 conference page.
+- **106** come from the conferences' spring 2026 standings, each school checked against its conference's current member list.
+- **Not counted:** five schools that played in 2025-26 but aren't on their conference's current list (or had no games), until a page shows a 2026-27 team; NAIA schools that belong to no conference; and one conference whose softball pages stop at 2024-25.
+
+The conference pages we read are in the sources at the end of this page. For every level side by side, see the [softball hub](/softball/).
 
 ## Scholarships: an aid limit of 10, and no roster limit
 
