@@ -7,3 +7,10 @@
 # Client-side search index — fetched by the search box, not a page to index
 /search-index.json
   X-Robots-Tag: noindex
+
+# The Cloudflare Pages production host serves the same build as rosterwise.app
+# and was being indexed in its place. A rule with a full URL matches that host
+# only, so rosterwise.app never receives this header. Preview deployments
+# (<hash>.rosterwise-app.pages.dev) already get noindex from Cloudflare.
+https://rosterwise-app.pages.dev/*
+  X-Robots-Tag: noindex
