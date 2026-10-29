@@ -12,3 +12,10 @@
 # file never changes once published (src/_data/previews.json points at them)
 /assets/video/*
   Cache-Control: public, max-age=31536000, immutable
+
+# The Cloudflare Pages production host serves the same build as rosterwise.app
+# and was being indexed in its place. A rule with a full URL matches that host
+# only, so rosterwise.app never receives this header. Preview deployments
+# (<hash>.rosterwise-app.pages.dev) already get noindex from Cloudflare.
+https://rosterwise-app.pages.dev/*
+  X-Robots-Tag: noindex
