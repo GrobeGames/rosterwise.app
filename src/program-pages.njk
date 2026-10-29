@@ -540,6 +540,7 @@ eleventyExcludeFromCollections: true
     <p>{% if program.status == "suspended" %}This program is suspended{% else %}This program is no longer active{% endif %}, but 2,200+ others are. RosterWise&trade; Soccer gives you <strong>comprehensive roster analysis</strong> for every D1, D2, D3, and NAIA {{ program.gender_display | lower }} program — plus a <strong>personalized RosterFit&trade; score</strong> that shows which programs match your athlete's position, size, pathway, and academic profile. One payment of $39.99. No subscriptions. Lifetime access.</p>
     {% endif %}
     <a href="/app/" class="program-cta-btn">Get the full analysis &rarr;</a>
+    {% set pillSport = page.url | sportForUrl %}{% include "reels-pill.njk" %}
   </div>
 </section>
 

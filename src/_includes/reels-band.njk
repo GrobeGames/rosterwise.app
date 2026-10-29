@@ -1,0 +1,46 @@
+{#- The App Preview videos, side by side (board site-reels, option A; Scott, 2026-10-29).
+    Set `reelSports` (sport entries from apps.json, already passed through `withPreviews`) before including.
+    One sport: its videos. Several (the home page): a chip per sport, the first shown.
+    Poster first, nothing else loads; a tap plays the video in the page with sound (src/assets/reels.js).
+    The words on screen are under "Read what each video shows", generated with the videos (previews.json). -#}
+{% if reelSports and reelSports.length %}
+<div class="rw-reels" data-reels>
+  {% if reelSports.length > 1 %}
+  <div class="rw-reels-chips" role="group" aria-label="Choose a sport">
+    {% for s in reelSports %}
+    <button type="button" class="rw-reels-chip" data-reels-chip="{{ s.slug }}" aria-pressed="{{ 'true' if loop.first else 'false' }}">{{ s.name }}</button>
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% for s in reelSports %}
+  {% set reelSet = previews[s.slug] %}
+  <div class="rw-reels-set" data-reels-set="{{ s.slug }}"{% if not loop.first %} hidden{% endif %}>
+    <ul class="rw-reels-row" aria-label="RosterWise {{ s.name }}, {{ reelSet.videos.length }} videos">
+      {% for v in reelSet.videos %}
+      <li class="rw-reel">
+        <div class="rw-reel-media" style="aspect-ratio: {{ v.width }} / {{ v.height }};">
+          <button type="button" class="rw-reel-play" data-reel-src="{{ v.src }}" data-reel-poster="{{ v.poster }}"
+                  aria-label="Play the {{ v.title }} video ({{ v.seconds | clock }}, with music)">
+            <img src="{{ v.poster }}" alt="" width="{{ v.width }}" height="{{ v.height }}" loading="lazy" decoding="async">
+            <span class="rw-reel-icon" aria-hidden="true"></span>
+            <span class="rw-reel-len" aria-hidden="true">{{ v.seconds | clock }}</span>
+          </button>
+        </div>
+        <p class="rw-reel-cap"><b>{{ v.title }}</b>{{ v.headline }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+    {% if reelSet.videos.length > 1 %}
+    <div class="rw-reels-dots" aria-hidden="true">{% for v in reelSet.videos %}<i{% if loop.first %} class="on"{% endif %}></i>{% endfor %}</div>
+    {% endif %}
+    <details class="rw-reels-words">
+      <summary>Read what each video shows</summary>
+      {% for v in reelSet.videos %}
+      {% include "reels-words.njk" %}
+      {% endfor %}
+    </details>
+  </div>
+  {% endfor %}
+  <p class="rw-reels-note">The videos use the app&rsquo;s sample programs.</p>
+</div>
+{% endif %}

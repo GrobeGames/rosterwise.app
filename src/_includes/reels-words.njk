@@ -1,0 +1,10 @@
+{#- One video's words, in order: the opening card, each beat's question and its gold line, the close.
+    Expects `v`, a video from previews.json. Used under the band and in the player. -#}
+<div class="rw-words">
+  <h3>{{ v.title }}: what the video shows</h3>
+  <ol>
+    {% for w in v.words %}
+    <li><span class="rw-words-kicker">{{ w.kicker }}</span> {{ w.text }}{% if w.kind == "beat" %}<span class="rw-words-line">{{ w.line }}</span>{% elif w.line %}{{ " " if w.line[0] == (w.line[0] | lower) else ". " }}{{ w.line }}{% endif %}</li>
+    {% endfor %}
+  </ol>
+</div>

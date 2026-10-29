@@ -119,6 +119,23 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  // The live sports whose App Preview videos are on the site, in apps.json
+  // order: the "See it in action" band and the "Watch it in action" pill show
+  // only these. `previews` is src/_data/previews.json, written by the
+  // umbrella's shared/release/<release>/export_site_previews.py — a sport
+  // without an entry shows no videos rather than another sport's.
+  eleventyConfig.addFilter("withPreviews", (sports, previews) =>
+    (sports || []).filter(
+      (s) => s && s.live && previews && previews[s.slug] && (previews[s.slug].videos || []).length
+    )
+  );
+
+  // Seconds → "0:29", as a video player shows a length (whole seconds, rounded down).
+  eleventyConfig.addFilter("clock", (seconds) => {
+    const s = Math.floor(Number(seconds) || 0);
+    return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+  });
+
   // Sitemap lastmod map: page URL → front-matter `date:` (YYYY-MM-DD) for
   // every page that sets one. `date:` is the public "Last updated" stamp,
   // bumped only on real re-verification, which is exactly what <lastmod>

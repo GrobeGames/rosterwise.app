@@ -5,3 +5,6 @@
 node_modules/
 _site/
 .claude/
+
+# App Preview drafts: only the release's final web copies are committed
+src/assets/video/*-draft.*

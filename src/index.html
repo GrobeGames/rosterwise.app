@@ -403,6 +403,8 @@
   .footer-bottom a:hover{color:var(--gold)}
 
 </style>
+<link rel="stylesheet" href="/assets/reels.css?v=1">
+<script src="/assets/reels.js?v=1" defer></script>
 </head>
 <body>
 
@@ -499,9 +501,11 @@
   <!-- PROOF BAND -->
   <section class="section proof">
     <div class="container">
-      <span class="section-label">The Depth</span>
+      {% set reelSports = apps.sports | withPreviews(previews) %}
+      <span class="section-label">{{ "See it in action" if reelSports.length else "The Depth" }}</span>
       <h2 class="section-title">Understand any program in seconds.</h2>
       <p class="section-sub">Type a school name and instantly see the intelligence that used to take weeks of spreadsheet work &mdash; the full roster, who's graduating, the academic and financial picture, and a personalized fit score.</p>
+      {% include "reels-band.njk" %}
       <p class="ph-cap">Plus recruiting geography, height by position, coach tenure &amp; more &mdash; for every program in the country.</p>
 
       <!-- DEPTH: every school / every roster -->

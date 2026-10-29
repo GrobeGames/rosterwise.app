@@ -43,6 +43,19 @@ eleventyComputed:
   </div>
 </section>
 
+{% set reelSports = [sport] | withPreviews(previews) %}
+{% if reelSports.length %}
+<!-- See it in action: the App Preview videos (board site-reels, option A) -->
+<section class="product-section product-section--white">
+  <div class="container" style="text-align: center;">
+    <h2>See RosterWise&trade; {{ sport.name }} in action</h2>
+    {% set reelCount = previews[sport.slug].videos.length %}
+    <p style="max-width: 600px; margin: 0 auto 18px;">{{ ["No", "One", "Two", "Three", "Four", "Five"][reelCount] or reelCount }} short tour{{ "s" if reelCount != 1 }} of the app.</p>
+    {% include "reels-band.njk" %}
+  </div>
+</section>
+{% endif %}
+
 <!-- The Problem -->
 <section class="product-section product-section--cream">
   <div class="container">
