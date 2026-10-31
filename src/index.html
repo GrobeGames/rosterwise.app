@@ -405,6 +405,8 @@
 </style>
 <link rel="stylesheet" href="/assets/reels.css?v=1">
 <script src="/assets/reels.js?v=1" defer></script>
+<link rel="stylesheet" href="/assets/nav-sports.css?v=1">
+<script src="/assets/nav-sports.js?v=1" defer></script>
 </head>
 <body>
 
@@ -431,10 +433,7 @@
             <a href="/blog/">Blog</a>
           </div>
         </li>
-        <li><a href="/soccer/">Soccer</a></li>
-        <li><a href="/volleyball/">Volleyball</a></li>
-        <li><a href="/lacrosse/">Lacrosse</a></li>
-        <li><a href="/wrestling/">Wrestling</a></li>
+        {% include "nav-sports.njk" %}
         <li><a href="/roster-intelligence/">Methodology</a></li>
         <li><button type="button" class="nav-search-btn" aria-label="Search the site"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>Search<span class="rw-search-kbd">/</span></button></li>
         <li><a href="/start-here/" class="nav-cta">Start Here</a></li>
@@ -492,6 +491,12 @@
           <img src="/assets/rosterwise-softball-app-logo.png" alt="RosterWise Softball">
           <span class="st-name">Softball</span>
           <span class="st-cov">Women's<br>D1, D2, D3, NAIA, NJCAA</span>
+          <span class="st-soon">Coming Soon</span>
+        </div>
+        <div class="sport-tile coming">
+          <img src="/assets/rosterwise-rowing-app-logo.png" alt="RosterWise Rowing">
+          <span class="st-name">Rowing</span>
+          <span class="st-cov">Men's &amp; Women's<br>Varsity crews</span>
           <span class="st-soon">Coming Soon</span>
         </div>
       </div>
@@ -681,6 +686,10 @@
         <div class="sport-tile coming">
           <img src="/assets/rosterwise-softball-app-logo.png" alt="RosterWise Softball">
           <span class="st-name">Softball</span><span class="st-cov">Coming soon</span>
+        </div>
+        <div class="sport-tile coming">
+          <img src="/assets/rosterwise-rowing-app-logo.png" alt="RosterWise Rowing">
+          <span class="st-name">Rowing</span><span class="st-cov">Coming soon</span>
         </div>
       </div>
       <p style="text-align:center;color:rgba(255,255,255,.45);font-size:13px;margin-top:32px">Field hockey, baseball &amp; more on the way.</p>

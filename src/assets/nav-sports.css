@@ -1,0 +1,33 @@
+/* The Sports menu in the site header (src/_includes/nav-sports.njk). Rowing board m1, pick B. */
+.nav-sports { position: relative; }
+.nav-sports-btn {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: none; border: 0; padding: 0; cursor: pointer;
+  font: inherit; font-size: 14px; font-weight: 500; letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.7); transition: color 0.3s ease;
+}
+.nav-sports-btn:hover, .nav-sports-btn[aria-expanded="true"] { color: #c8a44e; }
+.nav-sports-btn svg { transition: transform 0.2s ease; }
+.nav-sports-btn[aria-expanded="true"] svg { transform: rotate(180deg); }
+.nav-sports-panel {
+  display: none; position: absolute; top: calc(100% + 14px); left: -18px; width: 420px;
+  grid-template-columns: 1fr 1fr; gap: 4px; padding: 10px;
+  background: #0f1a2e; border: 1px solid rgba(200, 164, 78, 0.25); border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+.nav-sports-panel.open { display: grid; }
+.nav-links .nav-sport, .nav-sport {
+  display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 8px;
+  color: #ffffff; text-decoration: none; letter-spacing: 0;
+}
+.nav-links a.nav-sport:hover, .nav-links a.nav-sport:focus-visible { background: #243352; color: #ffffff; }
+.nav-sport img { width: 28px; height: 28px; border-radius: 7px; flex: none; }
+.nav-sport b { display: block; font-size: 14px; font-weight: 600; }
+.nav-sport small { display: block; font-size: 11px; color: rgba(255, 255, 255, 0.6); }
+.nav-sport.is-soon { cursor: default; }
+.nav-sport.is-soon img { opacity: 0.55; }
+
+/* Inside the open mobile menu (each page folds its menu at its own width), the panel is a plain list. */
+.nav-links.open .nav-sports-btn { cursor: default; font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #c8a44e; }
+.nav-links.open .nav-sports-btn svg { display: none; }
+.nav-links.open .nav-sports-panel { display: grid; position: static; width: auto; margin-top: 10px; padding: 0; background: none; border: 0; box-shadow: none; }

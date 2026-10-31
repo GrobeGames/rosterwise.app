@@ -82,7 +82,7 @@
     { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "$39.99 one time. No subscriptions, no monthly fees, no ads, with access for your entire recruiting journey." } },
     { "@type": "Question", "name": "Is there a free version?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The entire guide library and every sport section on this site are free, with no signup. The app is the paid tool ($39.99 once) that adds the per-program data and fit bands." } },
     { "@type": "Question", "name": "Do I need to create an account?", "acceptedAnswer": { "@type": "Answer", "text": "No. There is no login or registration. Your athlete's profile stays on your device." } },
-    { "@type": "Question", "name": "What sports do you cover?", "acceptedAnswer": { "@type": "Answer", "text": "Apps for Soccer, Volleyball, Lacrosse, and Wrestling are available now, with Softball on the way. This site has full recruiting sections for all four current sports." } }
+    { "@type": "Question", "name": "What sports do you cover?", "acceptedAnswer": { "@type": "Answer", "text": "Apps for Soccer, Volleyball, Lacrosse, and Wrestling are available now, with Softball and Rowing on the way. This site has full recruiting sections for all four current sports." } }
   ]
 }
 </script>
@@ -280,6 +280,8 @@
   }
   @media(max-width:560px){.trust-grid{grid-template-columns:1fr}}
 </style>
+<link rel="stylesheet" href="/assets/nav-sports.css?v=1">
+<script src="/assets/nav-sports.js?v=1" defer></script>
 </head>
 <body>
 
@@ -294,10 +296,7 @@
     </button>
     <ul class="nav-links" id="navLinks">
       <li><a href="/guide/">Guides</a></li>
-      <li><a href="/soccer/">Soccer</a></li>
-      <li><a href="/volleyball/">Volleyball</a></li>
-      <li><a href="/lacrosse/">Lacrosse</a></li>
-      <li><a href="/wrestling/">Wrestling</a></li>
+      {% include "nav-sports.njk" %}
       <li><a href="/roster-intelligence/">Methodology</a></li>
       <li><button type="button" class="nav-search-btn" aria-label="Search the site"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>Search<span class="rw-search-kbd">/</span></button></li>
       <li><a href="/app/" class="nav-cta">Get the App</a></li>
@@ -459,7 +458,7 @@
       </div>
       <div class="price-line">$39.99 once. <span>No subscriptions. No ads. Lifetime access.</span></div>
       <a class="spot-btn" href="/app/">See everything the app does &rarr;</a>
-      <div class="coming-line">RosterWise Softball is on the way.</div>
+      <div class="coming-line">RosterWise Softball and RosterWise Rowing are on the way.</div>
       <div class="honest">My RosterFit&trade; is a data-informed starting point &mdash; not a guarantee of admission or a roster spot. But it turns overwhelming guesswork into a shortlist you can trust.</div>
     </div>
   </div>
@@ -617,7 +616,7 @@
       </details>
       <details>
         <summary>What sports do you cover?</summary>
-        <div class="ans">Apps for Soccer, Volleyball, Lacrosse, and Wrestling are available now, with Softball on the way. This site has full recruiting sections for all four current sports.</div>
+        <div class="ans">Apps for Soccer, Volleyball, Lacrosse, and Wrestling are available now, with Softball and Rowing on the way. This site has full recruiting sections for all four current sports.</div>
       </details>
     </div>
     <div class="faq-more"><a href="/faq/">Read the full FAQ &rarr;</a></div>

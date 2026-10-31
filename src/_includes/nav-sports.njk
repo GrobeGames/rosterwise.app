@@ -1,0 +1,17 @@
+{#- The Sports menu in the site header: one entry per sport in src/_data/apps.json. A sport with a hub
+    links to it; one without a live app reads "Coming soon" (Scott's pick B, rowing board m1). Styles:
+    /assets/nav-sports.css; behaviour: /assets/nav-sports.js. Included by base.njk, index.html and
+    start-here/index.html, each of which keeps its own header. #}
+<li class="nav-sports">
+  <button type="button" class="nav-sports-btn" id="navSportsBtn" aria-expanded="false" aria-controls="navSports">Sports<svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 3.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <div class="nav-sports-panel" id="navSports">
+    {%- for sp in apps.sports %}
+    {%- set sub = sp.genders if sp.live else "Coming soon" %}
+    {%- if sp.hub %}
+    <a class="nav-sport" href="{{ sp.hub }}"><img src="{{ sp.logo }}" alt="" width="28" height="28" loading="lazy"><span><b>{{ sp.name }}</b><small>{{ sub }}</small></span></a>
+    {%- else %}
+    <span class="nav-sport is-soon"><img src="{{ sp.logo }}" alt="" width="28" height="28" loading="lazy"><span><b>{{ sp.name }}</b><small>{{ sub }}</small></span></span>
+    {%- endif %}
+    {%- endfor %}
+  </div>
+</li>
