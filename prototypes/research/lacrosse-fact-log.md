@@ -674,3 +674,12 @@ valued roles", "named-coach guidance" removed. `methodology/international-compos
 hometowns and the app's by-country grouping (no province view exists, §Q item 3); "there may be a direct connection … can facilitate"
 cut as speculation.
 
+
+**§R re-check (softball W1 session, 2026-10-29): Bylaw 13.12.1.5.3 is men's lacrosse; no change needed.** The NCAA LSDBi page for
+Division I Proposal 2026-16 (softball, adopted June 24, 2026) names the softball camp-conversation rule **13.12.1.5.3**, which looked
+like a conflict with the men's lacrosse citations above. Re-read against the **2026-27 D1 Manual printed 10/26/26** (LSDBi report
+90008, through `rosterwise.fetch`): 13.12.1.5.2 is baseball and women's lacrosse, **13.12.1.5.3 is men's lacrosse** (Adopted 6/29/26
+effective 8/1/26) and **13.12.1.5.4 is softball** (Adopted 6/24/26). The proposal text inserted softball as 13.12.1.5.3; the men's
+lacrosse legislation adopted five days later took that number, and the proposal page keeps its as-adopted numbering. The lacrosse
+pages (`guide/september-1-junior-year-rule`, `mens/guide/recruiting-timeline`, `mens/guide/id-camps-and-tournaments`,
+`womens/guide/id-camps-and-tournaments`) are correct as written. Detail: `softball-fact-log.md` §L.

@@ -105,7 +105,7 @@
       "appStoreUrl": null,
       "logo": "/assets/rosterwise-softball-app-logo.png",
       "downloadPage": null,
-      "hub": null,
+      "hub": "/softball/",
       "genders": "Women's",
       "subtext": "Women's · D1, D2, D3, NAIA, NJCAA",
       "analysisAxis": "position",

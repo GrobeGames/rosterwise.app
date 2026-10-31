@@ -622,6 +622,53 @@
   ]
  },
  {
+  "slug": "softball",
+  "name": "Softball",
+  "subtitle": "Women's",
+  "hub": "/softball/",
+  "logo": "/assets/rosterwise-softball-app-logo.png",
+  "groups": [
+   {
+    "key": "softball-guides",
+    "label": "Softball Guides",
+    "links": [
+     {
+      "href": "/softball/",
+      "label": "Programs by Division"
+     },
+     {
+      "href": "/softball/guide/",
+      "label": "All Guides"
+     },
+     {
+      "href": "/softball/guide/recruiting-timeline/",
+      "label": "Recruiting Timeline &amp; Sept. 1 Rule"
+     },
+     {
+      "href": "/softball/guide/scholarships-and-the-house-settlement/",
+      "label": "Scholarships &amp; House"
+     },
+     {
+      "href": "/softball/guide/camps-before-junior-year/",
+      "label": "Camps Before Junior Year"
+     },
+     {
+      "href": "/softball/guide/naia-softball/",
+      "label": "NAIA Softball"
+     },
+     {
+      "href": "/softball/guide/junior-college/",
+      "label": "Junior College (NJCAA)"
+     },
+     {
+      "href": "/softball/guide/travel-ball-and-college-recruiting/",
+      "label": "Travel Ball"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "slug": "rowing",
   "name": "Rowing",
   "subtitle": "Men's &amp; Women's",
