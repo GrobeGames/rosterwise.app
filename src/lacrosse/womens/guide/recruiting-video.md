@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Recruiting Video for Women's Lacrosse: A Family Guide | RosterWise™"
 description: "A women's lacrosse recruiting video can be a college coach's first look at a recruit. How to build one by position, what to include, when to send it, and what to ask coaches."
-date: 2026-08-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -58,15 +58,11 @@ This matters because:
 
 For families with women's lacrosse recruits, this means the recruiting video is not a checkbox to complete — it's a tool that can affect which programs decide to recruit your daughter seriously.
 
-> **Correction, October 9, 2026.** An earlier version of this section said coaches "typically begin the recruiting process with a large group of athletes — sometimes hundreds, sometimes thousands." That figure had no source, and we removed it.
-
 ## How long should the video be?
 
 Families ask this a lot, and the honest answer is that there is no NCAA rule on it and we can't point you to a number coaches agree on. We are not going to invent a consensus that does not exist. Ask the coaches at the programs your daughter is targeting what they prefer.
 
 Until you know, **err on the shorter side** and cut the filler. A coach who wants more footage can ask for it; a coach who stops watching partway through may not tell you.
-
-> **Correction, October 9, 2026.** An earlier version of this section said "published guidance from different programs ranges from about a minute to about five" and that a 1-2 minute video "is almost always more effective" than a 5-minute one. We could not name the guidance behind either statement, so we removed them.
 
 A practical guideline: **front-load your best plays in the first 30 seconds.** If a coach is going to stop watching after a minute, that minute needs to be your strongest material.
 
@@ -115,8 +111,6 @@ Clips that show:
 - **Communication** — organizing the defense, where it shows on film
 - **Body and foot positioning** that demonstrates fundamentals
 
-> **Correction, October 9, 2026.** An earlier version of this section presented these lists as what college coaches "want to see," "per published coaching guidance," and said draw control "is often the single most evaluated skill," that two-handed skills matter "enormously," and that "the midfield demands the highest fitness level in the game." We could not name the guidance behind those statements, so we now describe each position's job and leave the weighting to the coaches you talk to.
-
 ## What to prioritise in the video
 
 Two things are worth showing deliberately:
@@ -145,8 +139,6 @@ Skills footage can still fill specific gaps:
 - Specific specialized skills (draw control technique, for example) can be supplemented with controlled-environment footage
 
 If you're unsure whether to include skills footage at all, ask the coaches you're sending the video to.
-
-> **Correction, October 9, 2026.** An earlier version of this section described "the clearest published consensus across coaching guidance" and said a video that is "80%+ game footage" is "almost always stronger." We could not name the guidance or source the threshold, so we removed both.
 
 ## What to include alongside the clips
 
@@ -180,8 +172,6 @@ College coaches' preferences on update frequency vary, but practical guidance:
 - **End of summer club season**: Add any standout clips from summer tournaments
 - **Before fall recruiting events**: Refresh with the most recent material to send to coaches you'll see at fall events
 - **Whenever you have meaningful new footage**: If you have 1-2 minutes of new content that's stronger than what's in your current video, refresh
-
-> **Correction, October 9, 2026.** An earlier version of this section described the update schedule as "a practical cadence many programs describe" and referred to a men's coach, "Coach Gorrow," whose quote had already been removed from this page. We couldn't source the "many programs" claim, and we removed the paragraph.
 
 ## Technical considerations
 

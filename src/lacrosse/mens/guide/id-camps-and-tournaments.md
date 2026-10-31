@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Men's Lacrosse ID Camps and Tournaments: A Family Orientation | RosterWise™"
 description: "A family-friendly orientation to college ID camps, prospect days, and major men's lacrosse tournaments. NCAA rules, the NLF and IMLCA Players Summit, plus the broader independent showcase ecosystem."
-date: 2026-08-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -67,8 +67,6 @@ The men's lacrosse event landscape — including both college ID camps and indep
 
 This guide focuses on the official structures and the operators we can verify from primary sources.
 
-> **Correction, October 9, 2026.** An earlier version of this section said "hundreds of college ID camps and prospect days are held annually" and that "dozens of major tournament organizers" operate events. Neither count had a source, so we removed them. It does NOT attempt to rank events, recommend specific tournaments, or provide the kind of granular guidance about "which camps to attend at which programs" that should come from people closer to your specific situation.
-
 ## NCAA Rules Specific to Lacrosse ID Camps
 
 A lacrosse-specific NCAA bylaw governs what coaches can and cannot do at their own institutional camps and clinics.
@@ -80,8 +78,6 @@ Per **NCAA Division I Bylaw 13.12.1.5.3, "Exception — Men's Lacrosse"** (2026-
 That bylaw was **adopted June 29, 2026 and took effect August 1, 2026** — the same legislation that moved the men's lacrosse initial contact date off September 1. The camp rule and the contact rule now share one date: **7 a.m. on the Wednesday immediately following Labor Day of junior year.** See the [men's recruiting timeline](/lacrosse/mens/guide/recruiting-timeline/) for the contact rule in full.
 
 Women's lacrosse has its own version, Bylaw 13.12.1.5.2, which keeps **September 1 at 12 p.m. Eastern**. The two genders no longer share a camp-conversation date.
-
-> **Correction.** An earlier version of this page attributed a September 1 camp-conversation rule to "NCAA Bylaw 13.12.1.5.1." That is the wrong bylaw: 13.12.1.5.1 is the exception for "sports other than baseball, basketball, football, men's ice hockey, *lacrosse*, softball and men's wrestling" — it names lacrosse only to exclude it, and its date is August 1 of junior year. The lacrosse provisions are 13.12.1.5.2 and 13.12.1.5.3, quoted above. Corrected 2026-08-26 against the 2026-27 Division I Manual.
 
 **What the bylaw does and does not reach.** The restriction is on *recruiting conversations*. Reading the bylaw text against Bylaw 13.12.1.5 (Recruiting Calendar Exceptions), which states that camp interaction is generally not subject to recruiting-calendar restrictions but that staff "are prohibited from recruiting any prospective student-athlete during the time period that the camp or clinic is conducted":
 
@@ -186,8 +182,6 @@ Per the IMLCA (imlcacoaches.com), the IMLCA Players Summit is an annual recruiti
 
 Per IMLCARecruits (imlcarecruits.org): 750+ collegiate men's lacrosse coaches use the platform. That is the platform's own marketing figure, not an audited or association-published one.
 
-> **Correction, October 9, 2026.** An earlier version of this section relayed the IMLCA's description of the Players Summit as "the only event in the country that all NCAA Men's [Lacrosse coaches can attend]," tied to "NCAA legislation adopted in October 2023." We could not locate the legislation, and an organization's description of its own event as the only one of its kind is a promotional claim, so we removed it. For the same reason we removed the NLF's description of its events as "elite teams" and Adrenaline's description of the Platinum Cup as "one of the premier invite-only club lacrosse tournaments in the country."
-
 ### National Lacrosse Federation (NLF) Events
 
 Per the National Lacrosse Federation (nationallacrossefederation.com), the NLF runs events including:
@@ -266,8 +260,6 @@ Men's lacrosse has several specialized positions, and the questions to ask about
 
 **For goalies**: Does the event or camp include goalie-specific evaluation? Ask target programs whether their ID camps give the staff a close look at goalies.
 
-> **Correction, October 9, 2026.** An earlier version of this section said that "most major team tournaments offer strong evaluation opportunities," that team tournaments are "essential" for defenders, and that ID camps "can be particularly valuable for goalies" because "each program rosters few." We have no source for those statements, so we turned them into questions.
-
 ## Special Considerations for Canadian Recruits
 
 For Canadian men's lacrosse recruits (see [International Recruiting in Men's College Lacrosse](/lacrosse/mens/guide/international-recruiting/)):
@@ -327,8 +319,6 @@ A practical framework for thinking about ID camps and tournaments together:
 
 We don't publish a grade-by-grade event plan, because we have no data on how recruits actually spread their events across high school. Ask the coaches at your target programs which events they attend for your son's class, and plan from there.
 
-> **Correction, October 9, 2026.** An earlier version of this section said ID camps are "typically MORE useful AFTER the contact date," that communication "accelerates" after it, and laid out "a common general pattern" of events by grade. None of it had a source; the bylaw itself is what changes at the contact date, so we now say that instead.
-
 ## ID Camps Before the Contact Date: A Specific Strategic Question
 
 A practical question: **Is it worth attending an ID camp before the contact date (the Wednesday after Labor Day of junior year), when coaches can't have recruiting conversations?**
@@ -352,13 +342,9 @@ A practical question: **Is it worth attending an ID camp before the contact date
 
 The [House v. NCAA settlement](/lacrosse/mens/guide/scholarships-after-house-settlement/) (approved June 6, 2025) changed the men's lacrosse scholarship landscape at schools covered by it: D1 scholarship potential expanded from 12.6 equivalencies to as many as the roster limit, and the roster is capped at 48 players (NCAA Division I Bylaw 17.2). Ask each program how those limits affect how many players it plans to add in your son's class, and which events its coaches plan to attend.
 
-> **Correction, October 9, 2026.** An earlier version of this section said the settlement left "4.7 fewer roster spots per team on average." That figure is USA Lacrosse magazine's June 2025 forecast of what the 48-player limit would mean, not a count of what happened, and RosterWise has no pre-settlement roster data to check it. The section also predicted effects on recruiting targets, events, commitment timing and lower-division competition that we can't source. We removed them.
-
 ## Every recruit's event journey is different
 
 The ID camp and tournament path for any specific men's lacrosse recruit varies based on his position, his competitive level, his family's resources and geography, his target programs, and dozens of other factors. Some recruits attend many ID camps; others attend a few. Some find their best fit through one specific tournament where a coach saw them; others build their recruiting profile across many events over years. Specialized position recruits (FOGOs, goalies, LSMs) may follow event paths that look quite different from an attacker's. The honest reality is that there is no "correct" event calendar — there is only the calendar that makes sense for your son's specific situation. Use this guide as context. Treat decisions about specific events as ones that should be informed by people closer to your specific local situation.
-
-> **Correction, October 9, 2026.** An earlier version of this paragraph said "some recruits attend 8-10 ID camps in a recruiting year; others attend 2-3" and "some recruits play in 6-8 tournaments a summer; others play in 2-3." Those ranges had no source, so we removed them.
 
 ---
 

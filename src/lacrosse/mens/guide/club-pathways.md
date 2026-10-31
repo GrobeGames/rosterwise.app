@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Men's Lacrosse Club Pathways: A Family Orientation | RosterWise™"
 description: "The men's club lacrosse landscape is regional, complex, and constantly evolving. Here's a framework to understand the major organizing structures — National Lacrosse Federation, IMLCA Players Summit, USA Lacrosse, and the broader ecosystem — plus the questions families should ask local sources."
-date: 2026-08-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -145,8 +145,6 @@ Per imlcacoaches.com and the IMLCA's published descriptions, the IMLCA Players S
 - **IMLCA Winter Players Summit**: Held annually in Orlando, Florida. Coaches attend coaches' professional development sessions during the day and watch a recruiting tournament.
 - **IMLCA Summer Players Summit**: For 2026, scheduled in the greater Philadelphia area July 9-10, in partnership with NXTsports and HoganLax.
 
-> **Correction, October 9, 2026.** An earlier version of this section relayed the IMLCA's description of the Players Summit as "NOW the only event in the country that all NCAA Men's [Lacrosse coaches can attend]," tied to "NCAA legislation adopted in October 2023," and gave the Winter Players Summit's tournament as "approximately 96 teams." We could not locate the legislation or verify the figure, and an organization's description of its own event as the only one of its kind is a promotional claim, so we removed them. The same correction removed the NLF's promotional descriptions of its own events ("the country's top clubs," "the best college coaches in the country," "elite teams") from the NLF section, and a description of regional club coalitions that had no source.
-
 ### IMLCARecruits platform
 
 IMLCARecruits is the IMLCA's official recruiting platform. The platform serves as the home base for IMLCA coaches to find and evaluate prospective student-athletes through profile information, event film, and personal highlight reels.
@@ -232,8 +230,6 @@ Men's lacrosse has specialized roles (attack, midfield, defense, LSM, FOGO, goal
 
 **For goalies**: Ask whether the club has a dedicated goalie coach, or whether goalie development comes from the general coaching staff.
 
-> **Correction, October 9, 2026.** An earlier version of this section said that most competitive clubs "offer strong development" at attack and midfield because those players "make up the largest portion of any roster," and that goalie-specific coaching "is often a significant differentiator between clubs." We have no source for either statement, so we replaced them with questions to ask clubs.
-
 ## Canadian considerations
 
 For Canadian families researching NCAA men's lacrosse pathways (see [International Recruiting in Men's College Lacrosse](/lacrosse/mens/guide/international-recruiting/) for broader context), the club pathway runs through a different system from the U.S. landscape:
@@ -258,16 +254,12 @@ A critical recent context: as discussed in [The September 1 Junior Year Rule](/l
 - Coaches can initiate substantive communication
 - Ask your son's club coach how the club supports players once college coaches can contact them
 
-> **Correction, October 9, 2026.** An earlier version of this list said that after the contact date club tournament participation "often shifts" to particular events and that "the recruiting cycle accelerates significantly." Neither had a source, so we removed them.
-
 ## House Settlement implications for club pathways
 
 The [House v. NCAA settlement](/lacrosse/mens/guide/scholarships-after-house-settlement/) (approved June 6, 2025) has reshaped the scholarship landscape but has not directly changed club lacrosse organization. The implications for club selection:
 
 - The expanded D1 scholarship potential (from 12.6 equivalencies to as many as the 48-player roster limit) at schools covered by the settlement means some recruits may receive larger scholarships — though how much any program funds varies, so ask each one
 - The 48-player roster limit (NCAA Division I Bylaw 17.2) applies at schools covered by the settlement; ask each program how it affects the number of players it adds in your son's class
-
-> **Correction, October 9, 2026.** An earlier version of this section said D1 men's lacrosse rosters were reduced by "4.7 fewer per team on average." That figure is USA Lacrosse magazine's June 2025 forecast of what the 48-player limit would mean, not a count of what happened, and RosterWise has no pre-settlement roster data to check it. It also said D2, D3 and NAIA pathways "become relatively more attractive" and that the club ecosystem "continues to evolve in response," which were unsourced predictions. We removed all three.
 
 ## Every recruit's club pathway is different
 

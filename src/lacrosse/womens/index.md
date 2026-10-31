@@ -48,15 +48,11 @@ sources:
 
 Women's college lacrosse recruiting has its own rhythm, its own rules, and its own competitive landscape. This section covers what families of women's lacrosse recruits need to know — written honestly, backed by data, and organized for clarity — across NCAA Division I, II, and III and the NAIA. The NJCAA no longer sponsors women's lacrosse: it discontinued the sport beginning with the 2024-25 academic year.
 
-> **Correction, October 9, 2026.** An earlier version of this page listed the NJCAA among women's college lacrosse levels — in its title, its description and its text — and described NAIA and NJCAA participation as "growing." The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only. The growth claim had no source and has been removed, as has an unsourced statement that lower-division programs "often have later timelines and can be outstanding fits."
-
 ## What makes women's college lacrosse recruiting different
 
 Two things stand out. First, the recruiting calendar: like all of lacrosse, the women's game uses a junior-year initial-contact date — **September 1 of junior year, at 12 p.m. Eastern** — rather than Division I's general rule, under which coaches' telephone calls may begin June 15 at the conclusion of sophomore year (Bylaw 13.1.3.1). (Men's lacrosse moved off September 1 as of August 1, 2026; the women's date is unchanged.) Before that date, athletes can reach out to coaches, but coaches' responses are limited.
 
 Second, the number of programs. The NCAA projects **134** Division I, **112** Division II and **279** Division III women's lacrosse programs for 2025-26, against **77**, **80** and **236** on the men's side (the NCAA notes these are projected numbers only, and actual numbers may change). With the NAIA, which also sponsors women's lacrosse, that gives women's recruits programs at four levels to consider.
-
-> **Correction, October 9, 2026.** An earlier version of this section said women's lacrosse "historically saw some of the most extreme early recruiting in all of college athletics," with verbal commitments in eighth and ninth grade, and that "that history still shapes the culture of early identification." None of it had a source, and we removed it. It also said women's lacrosse fields "a meaningfully larger pool of Division II programs than the men's game"; that comparison now gives the NCAA's projected 2025-26 program counts.
 
 *Researching men's lacrosse instead? Here's the [men's version of this guide](/lacrosse/mens/).*
 
@@ -72,13 +68,9 @@ RosterWise applies [roster intelligence](/roster-intelligence/) — systematic a
 - **Transfers** — players whose roster entry lists a previous college, and the colleges they came from.
 - **Coach tenure** — how long the head coach has been in place.
 
-> **Correction, October 9, 2026.** An earlier version of this list (and the page description) said RosterWise shows position depth for "draw control specialists," promised "transfer portal patterns," described pathway analysis of "the summer tournament circuit, and recruiting showcases," and described coach tenure as a signal of "program direction." The app's women's positions are attack, midfield, defense, and goalie — a player a roster lists as a draw specialist is counted under another position; it shows the transfers listed on each roster, not transfer-portal data; its pathway view comes from the last school each roster lists; and tenure describes time in the job, not where a program is headed. We rewrote the list from the app.
-
 ## Every recruit's timeline is different
 
 Nothing in the NCAA rules ends recruiting in junior year: Division I coaches can extend offers from September 1 of junior year onward, and programs outside Division I recruit under their own, separate rules. Development curves vary, and the right program depends on factors no timeline can predict. Families who feel behind can ask D2, D3, and NAIA programs directly how their recruiting timelines work. Use these guides as context — not a checklist.
-
-> **Correction, October 9, 2026.** An earlier version of this page said "the draw specialist role in particular carries small numbers and outsized value," that women's lacrosse "remains concentrated in the Mid-Atlantic and Northeast, with strong growth elsewhere," and that "programs across all divisions actively recruit through senior year and beyond." We have no data supporting those statements, so we removed them and stated what the rules establish instead.
 
 ## Women's lacrosse content
 

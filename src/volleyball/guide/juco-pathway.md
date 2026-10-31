@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Junior College (JUCO) Volleyball Recruiting: A Real Pathway Most Families Misunderstand | RosterWise™"
 description: "An honest look at junior college (JUCO) volleyball as a recruiting pathway — NJCAA divisions, California's 3C2A, transfer rules to NCAA D-I/D-II, and how recent NCAA changes affect the JUCO opportunity for volleyball families."
-date: 2026-08-26
+date: 2026-10-08
 breadcrumbs:
   - text: Home
     url: /
@@ -187,8 +187,6 @@ Per NCAA.org and the NCAA Eligibility Center, two-year college transfers must:
 For athletes headed to NCAA Division I or II, eligibility now runs on a clock, not a count of seasons. Under the NCAA's age-based eligibility model — adopted by Division I in June 2026 and by Division II (announced August 5, 2026) — athletics redshirt rules and the cap on seasons of competition are gone. Each athlete instead has a five-year window that starts at the earlier of full-time college enrollment or the academic year after their 19th birthday, and it does not pause for a season sat out. Athletes first enrolling in fall 2027 or later are under the new model only; current athletes and 2026-27 enrollees are evaluated under whichever rules are more beneficial to them. Division III and the NAIA have not adopted the model. As of October 8, 2026 the model is in force: a lower-court injunction covering one group of athletes was stayed by the Tenth Circuit on August 21, and the appeal is set for oral argument on October 13, 2026. Our [age-based eligibility guide](/guide/age-based-eligibility/) explains the details. The NCAA names two-year colleges explicitly: full-time enrollment at a junior college starts the same five-year window a four-year school would, and the window keeps running through a transfer. Division III and NAIA transfers follow their own rules, so confirm with the receiving school's compliance office.
 
 This is also an area of active litigation. A federal court order from October 2, 2026 describes a group of pending lawsuits that challenge the NCAA bylaws counting seasons of competition at junior colleges and NAIA schools against an athlete's NCAA eligibility. Those cases are unresolved.
-
-> **Correction, October 8, 2026.** An earlier version of this section said that "per current NCAA rules, athletes generally have a maximum of four years of athletic eligibility," that JUCO years count "typically year-for-year," and that an athlete transferring after two JUCO years "typically has two years of eligibility remaining." Division I replaced the four-seasons rule with the age-based model in June 2026 (Division II followed, announced August 5, 2026), so those statements no longer describe Division I or II. We replaced them with the current rule.
 
 ### The recruiting reality
 

@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Women's Lacrosse Scholarships After the House Settlement: An Honest Family Guide | RosterWise™"
 description: "The House settlement changed NCAA D1 women's lacrosse scholarships from 12 to up to 38, but the reality is more complex. Here's what scholarship offers actually look like across D1, D2, D3, and NAIA."
-date: 2026-08-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -81,15 +81,11 @@ At a school that opted in, that is a potential increase of 26 scholarships for t
 
 **3. Title IX still applies.** Per USA Lacrosse magazine's coverage, schools must meet Title IX rules for equitable scholarship allotment. Football's limit at opt-in schools is now 105, 20 more than the previous 85. How a school balances that across its women's sports is its own decision, so ask each program how it is approaching it.
 
-> **Correction, October 9, 2026.** An earlier version of this section and the one above said that under the old cap "most athletes received partial scholarships," called the change "one of the largest proportional scholarship increases of any sport under the settlement," said women's lacrosse programs "are expected to distribute across multiple funding tiers," said the women's side "stands to gain meaningfully," and called Title IX "a structural tailwind" from which women's lacrosse "may benefit." The comparison had no source, and the rest were forecasts, which we don't publish. We kept what is on the record: the 12 and 38 limits, the 105 football limit, and North Carolina's stated hope.
-
 ## What scholarship offers actually look like in 2025-26 and beyond
 
 The settlement set a ceiling, not a funding level. Each school that opted in decides how many women's lacrosse scholarships it funds, and we don't have program-by-program funding figures. So we can't tell you how many programs have moved toward 38, stayed near the old 12, or done something else, and we won't guess. What is on the record: USA Lacrosse reported that North Carolina hopes to sustain 38 scholarships on the women's side.
 
 **The implication for families**: The answer to "How much will a scholarship be worth at this program?" depends on the school. Families should ask each program directly: *How is your program funding women's lacrosse scholarships under the House settlement framework?* The answer may differ across programs at the same competitive level.
-
-> **Correction, October 9, 2026.** An earlier version of this section sorted D1 programs into three funding groups — those "investing heavily" (described as "particularly those at major conferences with revenue resources"), those "maintaining previous levels," and those "in transition" — said "partial scholarships remain the dominant pattern," and said Virginia was "expected to use portions of the settlement's $2.5 million permitted for new scholarships." None of it had a source we could verify, and the Virginia statement was a forecast. We replaced the section with what is on the record.
 
 ## How D1 women's lacrosse scholarships actually work
 
@@ -98,8 +94,6 @@ A few mechanical realities about D1 women's lacrosse scholarships under the new 
 **Equivalency remains**: D1 women's lacrosse is an equivalency sport. This means a program's total scholarship allotment can be split into partial scholarships in any combination — full scholarships, half scholarships, quarter scholarships, etc. — as long as the total doesn't exceed the program's funded equivalent.
 
 **Walk-ons exist but face tighter constraints**: Division I's roster limits (Bylaw 17.2) took effect July 1, 2025. Under the 38-player roster cap, walk-on opportunities are within the same total roster — meaning some walk-on spots at programs operating at the cap may no longer exist. In RosterWise's 2025-26 data, 84% of Division I women's lacrosse programs were at or below the 38-player cap (see above).
-
-> **Correction, October 9, 2026.** An earlier version of this paragraph said women's lacrosse rosters "often included walk-ons" under the previous framework, gave an average 2024 Division I women's roster of 34.7 without a source, and concluded that "most women's programs face less acute roster compression than men's programs." We couldn't verify the 34.7 figure against a primary source, and the rest had no source. We now point to RosterWise's own 2025-26 roster figures above.
 
 **Designated Student-Athletes (DSAs)**: Per USA Lacrosse magazine, the settlement's transition provision allowed schools to identify rostered athletes (or incoming 2025-26 freshmen) who would have been cut under the new roster limits and grandfather them in. These DSAs do not count against the roster cap during their remaining eligibility. DSA designation transfers with the athlete if they move to another school. This was a one-time exemption tied to identification by the July 6, 2025 deadline.
 
@@ -129,8 +123,6 @@ What a D3 school can offer is aid that isn't tied to athletics:
 
 That is one coach's read of the post-settlement landscape. We don't have data on how the settlement has changed where recruits commit.
 
-> **Correction, October 9, 2026.** An earlier version of the Division II and Division III sections said "most awards are partial," that "few D2 women's lacrosse athletes receive full athletic scholarships," that families "typically" combine aid, that "many D3 women's lacrosse programs offer substantial academic merit aid" (naming NESCAC schools and "top liberal arts colleges"), that "the competitive level at top D3 women's lacrosse programs is genuinely elite," that Middlebury "has won NCAA D3 women's lacrosse championships," and that D1 and D3 "are now competing more directly for the same recruits." None of these had a source we could verify, and rating programs is outside what we publish. We kept the 9.9-equivalency limit, the Division III rule, and the coach's attributed quote.
-
 ## NAIA women's lacrosse scholarships (and why the NJCAA is not an option)
 
 **NAIA women's lacrosse**: NAIA.org states that "NAIA Women's Lacrosse, first recognized as an official association sport in 2016," is an official association sport, and the NAIA runs a national championship in it — Benedictine (Kan.) won back-to-back titles, completing an unbeaten season in the most recent final.
@@ -140,8 +132,6 @@ On aid, the NAIA Handbook 2025-2026 (Council of Presidents, "Upper Limits for In
 Confirm the current limit and how a specific school applies it with the program and at [NAIA.org](https://www.naia.org), since these limits are set by the Council of Presidents and can change by handbook cycle.
 
 **NJCAA women's lacrosse**: not an option. The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year, per its July 11, 2024 release, and its 2026-27 sports list carries men's lacrosse only. That matches the NJCAA's Sports Procedures Chart, which sets the per-sport cap on Letter of Intent signees and **carries a men's lacrosse row and no women's lacrosse row**. Junior-college lacrosse — and the NJCAA scholarship structure described in our [JUCO lacrosse guide](/lacrosse/guide/junior-college/) — applies to men's programs only.
-
-> **Correction, October 9, 2026.** An earlier version of this section treated the status of NJCAA women's lacrosse as unclear and advised families to confirm it, and this page's description listed the NJCAA among women's lacrosse levels. The NJCAA discontinued women's lacrosse beginning in 2024-25 (NJCAA release, July 11, 2024); we have updated the section and the description.
 
 ## What this means for family scholarship planning
 
@@ -174,8 +164,6 @@ There's no single answer. A good offer is one that fits your family's financial 
 **"If a D3 school doesn't offer athletic scholarships, why should we consider it?"**
 
 Division III schools cannot award aid on the basis of athletics, but they can offer academic merit and need-based aid. Depending on the school and your family's finances, a D3 package can cost less than a partial athletic scholarship elsewhere, or more. The net cost of attendance, not the scholarship percentage, is what matters, so compare actual offers.
-
-> **Correction, October 9, 2026.** An earlier version of these answers said "most athletes — even at well-funded programs — receive partial rather than full scholarships," that academic merit aid "at many D3 schools" can match or exceed partial athletic scholarships, and that "many families discover that the best financial outcome comes from a strong D3 program with substantial merit aid." None of it had a source, and we rewrote the answers to what the rules allow.
 
 ## Every recruit's financial journey is different
 

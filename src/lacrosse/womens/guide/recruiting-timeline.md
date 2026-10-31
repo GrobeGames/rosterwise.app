@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Women's College Lacrosse Recruiting Timeline: A Family Guide | RosterWise™"
 description: "The complete women's college lacrosse recruiting timeline — from freshman year preparation through senior year commitment. Built around the September 1 junior year contact date with grade-by-grade family guidance."
-date: 2026-08-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -68,8 +68,6 @@ Per the 2026-27 NCAA Division I Women's Lacrosse Recruiting Calendar (published 
 - **Senior year spring**: Final commitments, signings, and admissions paperwork.
 
 > **One wrinkle worth knowing for 2026-27.** The bylaw date and the recruiting calendar are two separate gates, and this cycle they do not line up. September 1, 2026 falls inside a **dead period that runs August 28 – September 3, 2026**, and a dead period bars in-person contact and campus visits outright. So calls, texts, emails and offers can start on September 1 at noon Eastern, but in-person off-campus contact and visits have to wait until the contact period opens on **September 4, 2026**. Check both the bylaw and the current calendar each year.
-
-> **Correction.** An earlier version of this page said D1 official visits in women's lacrosse begin January 1 of junior year. That is the **Division III** rule (D3 Bylaw 13.6.1.1.1). In Division I women's lacrosse, official visits open on the same day as initial contact — September 1 of junior year at 12 p.m. Eastern (D1 Bylaw 13.6.2.1.2). Corrected 2026-08-26 against the 2026-27 Division I and III Manuals.
 
 Note the **noon Eastern** detail — the women's rule now names a time of day, so the window does not open at midnight. Note also that women's lacrosse and men's lacrosse no longer share a contact date: as of August 1, 2026, men's lacrosse opens at 7 a.m. on the Wednesday immediately following Labor Day. See [The September 1 Junior Year Rule](/lacrosse/guide/september-1-junior-year-rule/) for the comparison.
 
@@ -205,8 +203,6 @@ For a family that hasn't prepared, September 1 can feel sudden. A target list, c
 
 How fast things move after that differs from athlete to athlete and program to program. Some recruits hear from coaches right away; others build their recruiting across junior and senior year. We have no data on how those timelines are distributed, and both are consistent with the rules.
 
-> **Correction, October 8, 2026.** An earlier version of this section said some recruits "receive multiple calls within minutes of midnight on September 1." Under Division I Bylaw 13.1.1.1.7 as revised effective August 1, 2026, women's lacrosse contact opens at 12 p.m. Eastern, so there are no midnight calls. We also removed unsourced statements about how quickly "elite" recruits receive offers, and when the "most competitive recruiting happens."
-
 ### Junior year (11th grade) — active recruiting
 
 Junior year is the heart of the women's lacrosse recruiting process. The athlete is now actively engaging with college coaches, evaluating programs, and, for some, making verbal commitments.
@@ -220,8 +216,6 @@ Junior year is the heart of the women's lacrosse recruiting process. The athlete
 - Schedule unofficial visits to programs of genuine interest
 - Per NCAA Division I Bylaw 13.6.2.1.2, official visits become permissible starting **September 1 of junior year at 12 p.m. Eastern** — the same date as initial contact
 - Plan visits strategically. Under the 2026-27 Division I Manual there is no limit on how many schools you visit officially, but each school can pay for only one official visit during high school (Bylaw 13.6.2.2) — see [Official vs. Unofficial Visits](/guide/official-vs-unofficial-visits/)
-
-> **Correction, October 9, 2026.** An earlier version of this page said athletes have a cap of five official visits across all Division I schools combined. That limit no longer exists: Division I Proposal 2022-32 deleted it effective July 1, 2023. The current limit is per school (Bylaw 13.6.2.2 of the 2026-27 Division I Manual).
 
 **Evaluation events**:
 - Continue participating in tournaments and showcases
@@ -266,8 +260,6 @@ Recruiting plays out differently for every athlete, and we don't have data on ho
 - **From September 1 of junior year,** Division I coaches can initiate contact and extend offers, and they can keep recruiting through senior year.
 - **Outside Division I,** programs recruit under their own rules. Division III, for example, has no recruiting calendar at all (see the question below on Division II and III).
 - **Athletes who develop later** can still reach out, update their film, and ask coaches to take another look; nothing in the rules closes that door in junior year.
-
-> **Correction, October 8, 2026.** An earlier version of this section sorted recruits into "elite-level," "high-level" and "developmental" tiers and described what "often" happens to each — including immediate offers "from multiple top programs" on September 1. None of it had a source, and ranking recruits and programs is outside what we publish. It also listed NJCAA programs as an option in women's lacrosse; the NJCAA discontinued women's lacrosse as a sponsored sport beginning in 2024-25 (NJCAA release, July 11, 2024). We replaced the section with what the rules establish.
 
 None of these pathways is inherently better. The "right" recruiting outcome is the one that matches the athlete's actual fit and circumstances — not the one that matches a generic timeline.
 

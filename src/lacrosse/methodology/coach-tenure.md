@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Coach Tenure in College Lacrosse | RosterWise™"
 description: "What head coach tenure can and can't tell you about a college lacrosse program, how RosterWise shows it, and the questions it raises for recruiting families."
-date: 2026-06-14
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -83,8 +83,6 @@ Coaches in their first one to three years present a different picture:
 
 **Something to ask about:** a program that has had several head coaches in a short period. The reasons vary, and the roster won't tell you what they are — ask the current coach or the athletic department what has changed and what the program's plans are.
 
-> **Correction, October 9, 2026.** An earlier version of these sections said that "many head coaches have long tenures (15+ years at one program is not unusual)," that a new lacrosse coach "often brings a known philosophy from previous stops," that long-tenured coaches "generally provide" established pipelines and institutional support, that new coaches "typically bring in their own recruits" with turnover the House-settlement transfer environment "has made … more pronounced," and that several coaching changes may signal "institutional problems" that the coaching community "often signals … before they become public." We had no source for any of these statements about how coaches and programs behave, so we removed them and describe what the roster and the coach can tell you instead.
-
 ## What a coaching transition means for current recruits
 
 This is the scenario that families fear most: your athlete commits to a program, and the head coach leaves.
@@ -101,8 +99,6 @@ This is the scenario that families fear most: your athlete commits to a program,
 
 RosterWise includes head coach tenure data for every program we cover — D1, D2, D3, and NAIA, both men's and women's, plus NJCAA men's. (The NJCAA discontinued women's lacrosse beginning with the 2024-25 academic year.) This data is sourced from publicly available coaching biographies on institutional athletics websites, which may state the year the coach was hired or the number of years they've been at the program.
 
-> **Correction, October 9, 2026.** An earlier version of this paragraph and the call-to-action said RosterWise covers NJCAA lacrosse programs, "both men's and women's." The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only. RosterWise Lacrosse covers NJCAA men's programs.
-
 We present tenure alongside roster composition, class-year analysis, and other metrics. For a head coach whose start year we have, the app shows which season they are in — for example, "5th season (2025-26)" — and a stage label based only on that count: **New Era** (first season), **Developing** (second through fourth), **Building** (fifth and sixth), **Established** (seventh through eleventh), **Program Pillar** (twelfth and beyond), or **Incoming** for an announced hire who hasn't started yet. The labels describe length, not quality: none of them says a program is good or bad, and what a given length means depends on the family's priorities and risk tolerance.
 
 **What we show:**
@@ -118,8 +114,6 @@ We present tenure alongside roster composition, class-year analysis, and other m
 - Assistant coach tenure (this is informative but inconsistently published)
 - Previous coaching positions as a separate item (a head coach's biography summary may mention them)
 - Win-loss record under the current coach (the program page shows the most recent completed season's record, labeled with that season)
-
-> **Correction, October 9, 2026.** An earlier version of this section said the app shows each head coach's start year and "tenure in years," and that "we don't assign a 'good' or 'bad' label to any tenure length." The app shows the season a head coach is in and attaches a stage label based on that count (New Era through Program Pillar); it also shows assistant coaches, a biography summary, and conference-level tenure figures. We rewrote the list from the app. The page title, which said tenure "predicts program direction," was also changed — tenure describes time in the job, not where a program is headed.
 
 ## How to factor tenure into your evaluation
 

@@ -72,10 +72,6 @@ The other two governing bodies:
 - **NAIA:** the NAIA's 2025-26 Administrator Manual states that "a total of **66** member institutions sponsor Men's Volleyball." The NAIA's men's volleyball national championship had a 12-team field in 2026; for 2026-27, the NAIA has approved expanding it to a 16-team, single-elimination format.
 - **NJCAA:** 22 men's volleyball teams across all divisions on the NJCAA's 2026-27 team list, concentrated in the Northeast. 2026 was the first year NJCAA men's volleyball was an official national championship sport (an 8-team double-elimination bracket); it had previously been run as an invitational. Finger Lakes (NY) won the inaugural title at College of DuPage, April 23-25, 2026.
 
-> **Correction.** An earlier version of this page said the NAIA "runs a national championship with a 12-team field." That was the 2026 format. The NAIA has approved a 16-team, single-elimination championship effective 2026-27. Corrected 2026-10-08 against the NAIA's "2026-27 Men's Volleyball Policy Updates" (last modified 8/20/26).
-
-> **Correction.** An earlier version of this page said the NAIA publishes no men's volleyball program count, used a count of roughly 46 NAIA teams taken from its statistics, and put the all-divisions total in the mid-260s to mid-270s. The NAIA's 2025-26 Administrator Manual (men's volleyball fact sheet) states that 66 member institutions sponsor the sport, which puts the total at 286 to 294. Corrected 2026-10-08.
-
 Adding the NAIA's 66 and the NJCAA's 22 to the NCAA figures puts the all-divisions total at **286** (using the NCAA's 2024-25 actual count) to **294** (using its 2025-26 projection) — not the "roughly 200" that circulates widely, which counts only part of the NCAA and none of the rest.
 
 Compared to women's volleyball — **1,055** NCAA programs on both the actual and projected figures, of which **338** (actual, 2024-25) or **348** (projected, 2025-26) are Division I — every level of men's volleyball is smaller. This affects the recruiting math in several ways we'll discuss throughout this guide.

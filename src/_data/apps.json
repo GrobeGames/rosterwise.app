@@ -15,12 +15,14 @@
       "analysisAxis": "position",
       "axisVerb": "plays",
       "positionsExample": "goalkeepers, center backs, outside backs, holding mids, and strikers",
+      "rosterFitProfile": "position, graduation year, height, test scores, club or school pathway, home and travel distance, and budget",
+      "rosterFitFactors": "seven factors: room at your athlete's position, academics, roster make-up, your pathway's level, height, distance and cost",
       "scenario": [
         "Say your athlete is a 2027 center back. Open a program and RosterWise lays out the whole picture — not a schedule and a coach's email, but the roster itself.",
         "You see the center backs already there and their class years, so you know whether a spot opens in your athlete's window or whether they'd sit behind two returning juniors — and the size and physical profile the program actually recruits at the position, so you know whether your athlete fits inside it.",
         "You see where the roster is built from — the states and countries, the specific clubs and academies its players came through, and how much of it is international — so you can tell whether your athlete's pathway is one this staff already trusts. You see whether the program reloads through high-school recruiting or the transfer portal, and how long the head coach has been building it.",
         "And you see the school behind the team: its academic strength, size, campus setting, and how well it graduates its students — because fit is academic, not just athletic.",
-        "Then My RosterFit™ folds all of it — athletic and academic — into a single score you can line up across every program on your list."
+        "Then My RosterFit™ checks all of it, athletic and academic, against your athlete: a light for each factor and one fit band, Strong, Good, Mixed or Weak, for every program on your list."
       ],
       "live": true
     },
@@ -37,12 +39,14 @@
       "analysisAxis": "position",
       "axisVerb": "plays",
       "positionsExample": "setters, liberos, outside hitters, middles, and right sides",
+      "rosterFitProfile": "position, graduation year, height, test scores, club or school pathway, home and travel distance, and budget",
+      "rosterFitFactors": "seven factors: room at your athlete's position, academics, roster make-up, your pathway's level, height, distance and cost",
       "scenario": [
         "Say your athlete is a 2027 setter. Open a program and RosterWise shows you the full picture, not just a roster page.",
         "You see the setters already there and when they graduate — whether your athlete steps into an opening or sits behind a returning starter — plus the size and physical profile the program recruits at the position, so you know where your athlete lines up against who's already there.",
         "You see which clubs, regions, and states the roster is built from, and how much of it is international, so you know whether your athlete's pathway is one the staff already recruits. You see whether the program reloads through high-school recruiting or the transfer portal, and how long the coaching staff has been in place.",
         "And you see the school behind the team: its academic strength, size, campus setting, and how well it graduates its students — the fit that outlasts the sport.",
-        "Then My RosterFit™ turns all of it — athletic and academic — into one personalized score you can compare across your whole target list."
+        "Then My RosterFit™ turns all of it, athletic and academic, into a fit band for every program on your target list, Strong, Good, Mixed or Weak, with the light behind it for each factor."
       ],
       "live": true
     },
@@ -59,12 +63,14 @@
       "analysisAxis": "position",
       "axisVerb": "plays",
       "positionsExample": "attack, midfield, defense, goalie, and LSM",
+      "rosterFitProfile": "position, graduation year, height, test scores, home and travel distance, and budget",
+      "rosterFitFactors": "six factors for men's programs (room at your athlete's position, academics, roster make-up, height, distance and cost) and five for women's, without roster make-up",
       "scenario": [
         "Say your athlete is a 2027 attackman. Open a program and RosterWise gives you the whole picture instead of a name on a bracket.",
         "You see the attackmen on the roster and their class years — how many graduate before or during your athlete's window, and how many would still be ahead of them — plus the listed heights at the position.",
         "You see where the roster is built from: the states and countries, and the last school each player lists — club, prep school, high school, or a previous college — so you know whether your athlete's background fits. You see which players arrived as transfers, from the previous colleges their roster entries list, and how long the head coach has been there.",
         "And you see the school itself: its academic strength, size, campus setting, and how well it graduates its students — the part of the decision that lasts four years, not one season.",
-        "Then My RosterFit™ folds position need, academics, location, cost, and the rest of the fit picture into a single score you can line up across every program you're considering."
+        "Then My RosterFit™ checks room at your athlete's position, academics, location, cost, and the rest of the fit picture, and gives every program you're considering one fit band, Strong, Good, Mixed or Weak, with the reasons behind it."
       ],
       "live": true
     },
@@ -81,12 +87,14 @@
       "analysisAxis": "weight class",
       "axisVerb": "wrestles",
       "positionsExample": "every weight class — men's 125 to 285 and women's 103 to 207",
+      "rosterFitProfile": "weight class, graduation year, test scores, home and travel distance, and budget",
+      "rosterFitFactors": "four factors: room at your athlete's weight class, academics, distance and cost",
       "scenario": [
         "Say your athlete wrestles 149. Open a program and RosterWise answers the question that actually decides fit — who wrestles 149, and when do they graduate? — and then keeps going.",
         "You see who's stacked at the weight and their class years, so you know whether a lineup spot opens in your athlete's window rather than guessing from a schedule.",
         "You see the program's recruiting geography and the high schools and clubs its wrestlers came through, whether it builds through high-school recruiting or the transfer portal, and how long the head coach has been building the room.",
         "And you see the school behind the singlet: its academic strength, size, campus setting, and how well it graduates its students — because a wrestling career is four years and a degree is forever.",
-        "Then My RosterFit™ turns athletic and academic fit into one personalized score you can compare across every program on your board."
+        "Then My RosterFit™ checks room at your athlete's weight class, academics, distance and cost, and gives every program on your board one fit band, Strong, Good, Mixed or Weak, with the reasons behind it."
       ],
       "live": true
     },

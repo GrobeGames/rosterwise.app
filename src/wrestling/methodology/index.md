@@ -27,7 +27,7 @@ children:
     status: live
   - title: "How RosterFit™ Scoring Works for Wrestling"
     url: /wrestling/methodology/rosterfit-score/
-    summary: "A transparent explanation of how RosterWise calculates personalized fit for wrestling recruits — built around your weight class, class year, level, and geography."
+    summary: "How My RosterFit™ reads a fit band for wrestlers — the four factors it checks: room at your weight class, academics, distance and cost."
     status: live
 ---
 
@@ -45,7 +45,7 @@ RosterWise analyzes every college wrestling program across five dimensions:
 2. **[Weight-class depth & class-year gaps](/wrestling/methodology/weight-class-depth/)** — who wrestles your weight, and when they graduate
 3. **[Coach tenure](/wrestling/methodology/coach-tenure/)** — stability and program-direction signals
 4. **[Recruiting geography](/wrestling/methodology/recruiting-geography/)** — the pipelines a program draws from
-5. **[RosterFit scoring](/wrestling/methodology/rosterfit-score/)** — personalized fit based on your athlete's weight, class year, level, and location
+5. **[RosterFit scoring](/wrestling/methodology/rosterfit-score/)** — personalized fit from four factors: room at your athlete's weight class, academics, distance and cost
 
 Together, these produce a complete picture of every program's recruiting landscape — not from rankings or reputation, but from what the roster data actually shows. Where "level" is involved, our analysis carries the women's unified-championship caveat so it means the right thing for each gender. For the approach that applies across every sport, see our [roster intelligence methodology](/roster-intelligence/).
 

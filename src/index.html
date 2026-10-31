@@ -14,14 +14,14 @@
 </script>
 
 <title>College Sports Recruiting Intelligence &mdash; Roster Analysis for D1, D2, D3, NAIA Programs | RosterWise&trade;</title>
-<meta name="description" content="RosterWise™ analyzes every college sports program — position depth, class year gaps, and personalized fit scores for recruiting families. $39.99 one-time.">
+<meta name="description" content="RosterWise™ analyzes every college sports program — position depth, class year gaps, and personalized fit bands for recruiting families. $39.99 one-time.">
 <meta name="author" content="Grobe Games LLC">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://rosterwise.app">
 
 <!-- Open Graph -->
 <meta property="og:title" content="College Sports Recruiting Intelligence | RosterWise™">
-<meta property="og:description" content="RosterWise™ analyzes every college sports program — position depth, class year gaps, and personalized fit scores for recruiting families. $39.99 one-time.">
+<meta property="og:description" content="RosterWise™ analyzes every college sports program — position depth, class year gaps, and personalized fit bands for recruiting families. $39.99 one-time.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://rosterwise.app">
 <meta property="og:image" content="https://rosterwise.app/assets/rosterwise-og-banner.jpg">
@@ -34,7 +34,7 @@
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="College Sports Recruiting Intelligence | RosterWise™">
-<meta name="twitter:description" content="RosterWise™ analyzes every college sports program — position depth, class year gaps, international composition, and personalized fit scores. $39.99 one-time.">
+<meta name="twitter:description" content="RosterWise™ analyzes every college sports program — position depth, class year gaps, international composition, and personalized fit bands. $39.99 one-time.">
 <meta name="twitter:image" content="https://rosterwise.app/assets/rosterwise-og-banner.jpg">
 
 <!-- Favicon -->
@@ -140,10 +140,10 @@
     },
     {
       "@type": "Question",
-      "name": "What is RosterWise's My RosterFit score?",
+      "name": "What is RosterWise's My RosterFit?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "My RosterFit is a personalized score that compares your athlete's profile — position, height, graduation year, club background, GPA, and test scores — against the roster data at every college program. It combines athletic fit (how your athlete compares to current roster players at their position) with academic fit (how your profile aligns with the institution's academic profile) into a single, comparable metric. It's not a guarantee of admission or a roster spot — it's a data-informed starting point for building a smarter recruiting list."
+        "text": "My RosterFit checks how each program lines up with your athlete, factor by factor: room at your athlete's position, academics, distance and cost, plus height, roster make-up and your pathway's level in the sports that score them. Each factor gets a light, Strong, Moderate or Low, and each program gets one fit band from the lights: Strong, Good, Mixed or Weak fit. It reads your athlete's position, graduation year, test scores, home and travel distance, and budget, and height and pathway where the sport scores them. There's no single number, and programs are never ranked. It's not a guarantee of admission or a roster spot — it's a data-informed starting point for building a smarter recruiting list."
       }
     },
     {
@@ -403,6 +403,8 @@
   .footer-bottom a:hover{color:var(--gold)}
 
 </style>
+<link rel="stylesheet" href="/assets/reels.css?v=1">
+<script src="/assets/reels.js?v=1" defer></script>
 </head>
 <body>
 
@@ -499,68 +501,11 @@
   <!-- PROOF BAND -->
   <section class="section proof">
     <div class="container">
-      <span class="section-label">The Depth</span>
+      {% set reelSports = apps.sports | withPreviews(previews) %}
+      <span class="section-label">{{ "See it in action" if reelSports.length else "The Depth" }}</span>
       <h2 class="section-title">Understand any program in seconds.</h2>
-      <p class="section-sub">Type a school name and instantly see the intelligence that used to take weeks of spreadsheet work &mdash; the full roster, who's graduating, the academic and financial picture, and a personalized fit score.</p>
-      <div class="proof-phones">
-        <!-- Phone 1: RosterFit -->
-        <div class="ph"><div class="ph-screen">
-          <div class="ph-hdr"><div class="ph-logo"><span>Roster</span>Wise</div><div class="ph-pill">My RosterFit</div></div>
-          <div class="ph-body">
-            <div class="vlabel">&#127919; My RosterFit Scores</div>
-            <div class="pr"><div class="pr-bar" style="background:#0C2340"></div><div class="pr-info"><div class="pr-name">Notre Dame Fighting Irish</div><div class="pr-meta">D1 ACC &middot; 4 Sr MF graduating</div></div><div class="pr-score sg">94</div></div>
-            <div class="pr"><div class="pr-bar" style="background:#C6AA76"></div><div class="pr-info"><div class="pr-name">Centre College Colonels</div><div class="pr-meta">D3 SAA &middot; Academic: 95%</div></div><div class="pr-score sg">92</div></div>
-            <div class="pr"><div class="pr-bar" style="background:#003DA5"></div><div class="pr-info"><div class="pr-name">Saint Louis Billikens</div><div class="pr-meta">D1 A-10 &middot; Pathway match</div></div><div class="pr-score sg">87</div></div>
-            <div class="pr"><div class="pr-bar" style="background:#003366"></div><div class="pr-info"><div class="pr-name">Villanova Wildcats</div><div class="pr-meta">D1 Big East &middot; Height: 98%</div></div><div class="pr-score sy">79</div></div>
-            <div class="pr"><div class="pr-bar" style="background:#862334"></div><div class="pr-info"><div class="pr-name">Loyola Chicago Ramblers</div><div class="pr-meta">D1 A-10 &middot; 3 Sr MF</div></div><div class="pr-score sy">74</div></div>
-          </div>
-        </div></div>
-        <!-- Phone 2: Roster Composition -->
-        <div class="ph"><div class="ph-screen">
-          <div class="ph-hdr"><div class="ph-logo"><span>Roster</span>Wise</div><div class="ph-pill">Roster</div></div>
-          <div class="ph-body">
-            <div class="vlabel">&#128202; Roster by Class Year</div>
-            <div class="stk">
-              <div class="stk-col"><div class="stk-seg" style="height:18px;background:#e8a838"></div><div class="stk-seg" style="height:24px;background:#5b8fb9"></div><div class="stk-seg" style="height:20px;background:#4caf50"></div><div class="stk-seg" style="height:22px;background:#e05555"></div></div>
-              <div class="stk-col"><div class="stk-seg" style="height:12px;background:#e8a838"></div><div class="stk-seg" style="height:18px;background:#5b8fb9"></div><div class="stk-seg" style="height:16px;background:#4caf50"></div><div class="stk-seg" style="height:14px;background:#e05555"></div></div>
-              <div class="stk-col"><div class="stk-seg" style="height:10px;background:#e8a838"></div><div class="stk-seg" style="height:28px;background:#5b8fb9"></div><div class="stk-seg" style="height:32px;background:#4caf50"></div><div class="stk-seg" style="height:26px;background:#e05555"></div></div>
-              <div class="stk-col"><div class="stk-seg" style="height:8px;background:#e8a838"></div><div class="stk-seg" style="height:16px;background:#5b8fb9"></div><div class="stk-seg" style="height:22px;background:#4caf50"></div><div class="stk-seg" style="height:20px;background:#e05555"></div></div>
-              <div class="stk-col"><div class="stk-seg" style="height:4px;background:#5b8fb9"></div><div class="stk-seg" style="height:8px;background:#4caf50"></div><div class="stk-seg" style="height:12px;background:#e05555"></div></div>
-            </div>
-            <div class="stk-x"><span>FR</span><span>SO</span><span>JR</span><span>SR</span><span>GR</span></div>
-            <div class="stk-lg"><div class="stk-lg-i"><span class="stk-dot" style="background:#e8a838"></span>GK</div><div class="stk-lg-i"><span class="stk-dot" style="background:#5b8fb9"></span>DEF</div><div class="stk-lg-i"><span class="stk-dot" style="background:#4caf50"></span>MID</div><div class="stk-lg-i"><span class="stk-dot" style="background:#e05555"></span>FWD</div></div>
-            <div style="margin-top:10px;font-size:9px;color:#888;line-height:1.5"><strong style="color:var(--navy)">27 players</strong> &middot; GK 3 &middot; DEF 9 &middot; MID 8 &middot; FWD 7 &middot; 22% international</div>
-          </div>
-        </div></div>
-        <!-- Phone 3: Openings -->
-        <div class="ph"><div class="ph-screen">
-          <div class="ph-hdr"><div class="ph-logo"><span>Roster</span>Wise</div><div class="ph-pill">Openings</div></div>
-          <div class="ph-body">
-            <div class="vlabel">&#128203; Positions Opening Next Season</div>
-            <div class="openings">
-              <div class="op-col"><div class="op-num" style="color:#e8a838">1</div><div class="op-lbl">leaving</div><div class="op-pos" style="background:#e8a838">GK</div><div class="op-ret">2 return</div></div>
-              <div class="op-col"><div class="op-num" style="color:#5b8fb9">2</div><div class="op-lbl">leaving</div><div class="op-pos" style="background:#5b8fb9">DEF</div><div class="op-ret">8 return</div></div>
-              <div class="op-col" style="border:1.5px solid #4caf50;border-radius:6px"><div class="op-num" style="color:#4caf50">2</div><div class="op-lbl">leaving</div><div class="op-pos" style="background:#4caf50">MID</div><div class="op-ret">6 return</div></div>
-              <div class="op-col"><div class="op-num" style="color:#e05555">3</div><div class="op-lbl">leaving</div><div class="op-pos" style="background:#e05555">FWD</div><div class="op-ret">4 return</div></div>
-            </div>
-            <div class="tf-row"><div class="tf-badge">8 transfers</div><div class="tf-text">28% from portal &middot; <strong>Transfer-Friendly</strong></div></div>
-            <div style="font-size:9px;color:#888;line-height:1.5;margin-top:10px"><strong style="color:var(--navy)">Why it matters:</strong> 2 senior midfielders graduating means real opportunity for an incoming MID recruit.</div>
-          </div>
-        </div></div>
-        <!-- Phone 4: School profile -->
-        <div class="ph"><div class="ph-screen">
-          <div class="ph-hdr"><div class="ph-logo"><span>Roster</span>Wise</div><div class="ph-pill">School</div></div>
-          <div class="ph-body">
-            <div class="vlabel">&#127891; School Profile</div>
-            <div class="sd-row"><div class="sd-card"><div class="sd-val">D1</div><div class="sd-lbl">Division</div></div><div class="sd-card"><div class="sd-val">ACC</div><div class="sd-lbl">Conference</div></div><div class="sd-card"><div class="sd-val">8,971</div><div class="sd-lbl">Undergrad</div></div></div>
-            <div class="sd-title">Academics</div>
-            <div class="sd-row"><div class="sd-card gold"><div class="sd-val">1470&ndash;1560</div><div class="sd-lbl">SAT Range</div></div><div class="sd-card gold"><div class="sd-val">33&ndash;35</div><div class="sd-lbl">ACT Range</div></div></div>
-            <div class="sd-row"><div class="sd-card"><div class="sd-val">12%</div><div class="sd-lbl">Accept Rate</div></div><div class="sd-card green"><div class="sd-val">97%</div><div class="sd-lbl">Grad Rate</div></div></div>
-            <div class="sd-title">Financial</div>
-            <div class="sd-row"><div class="sd-card"><div class="sd-val">$62,693</div><div class="sd-lbl">Tuition / yr</div></div><div class="sd-card green"><div class="sd-val">$42,100</div><div class="sd-lbl">Avg Aid</div></div></div>
-          </div>
-        </div></div>
-      </div>
+      <p class="section-sub">Type a school name and instantly see the intelligence that used to take weeks of spreadsheet work &mdash; the full roster, who's graduating, the academic and financial picture, and how your athlete fits, factor by factor.</p>
+      {% include "reels-band.njk" %}
       <p class="ph-cap">Plus recruiting geography, height by position, coach tenure &amp; more &mdash; for every program in the country.</p>
 
       <!-- DEPTH: every school / every roster -->
@@ -591,7 +536,7 @@
             <li><b>Transfer-portal pipeline</b> &mdash; how many transferred in &amp; how transfer-friendly</li>
             <li><b>Recruiting pathways</b> &mdash; clubs, academies &amp; high schools</li>
             <li><b>Head coach tenure &amp; program stability</b></li>
-            <li>Your personalized <b>My RosterFit&trade; score</b> vs. that roster</li>
+            <li>Your <b>My RosterFit&trade; fit band</b> against that roster, factor by factor</li>
           </ul>
         </div>
       </div>
@@ -606,7 +551,7 @@
       <h2 class="section-title">Everything you need to target the right programs.</h2>
       <p class="section-sub">One app. Every D1, D2, D3, NAIA &amp; NJCAA program. Rosters refreshed every year.</p>
       <div class="grid grid-3">
-        <div class="card"><div class="card-ico">&#127919;</div><h3>Personalized fit scores</h3><p>Enter your athlete's profile once and get a My RosterFit&trade; score for every program &mdash; athletic <em>and</em> academic. Sort, filter, build a smart list.</p></div>
+        <div class="card"><div class="card-ico">&#127919;</div><h3>Personalized fit bands</h3><p>Enter your athlete's profile once and get a My RosterFit&trade; fit band for every program &mdash; athletic <em>and</em> academic, factor by factor. Sort, filter, build a smart list.</p></div>
         <div class="card"><div class="card-ico">&#128203;</div><h3>Position depth &amp; openings</h3><p>See how many players are at your athlete's position and exactly which seniors graduate next &mdash; the class-year gaps that create real playing-time opportunity.</p></div>
         <div class="card"><div class="card-ico">&#127891;</div><h3>The full school picture</h3><p>Test-score ranges, acceptance &amp; graduation rates, tuition and average aid, enrollment, and setting &mdash; fit on and off the field.</p></div>
         <div class="card"><div class="card-ico">&#128205;</div><h3>Recruiting pathways</h3><p>The clubs, academies, and high schools each program actually recruits from &mdash; so you know whether your athlete's pathway lines up.</p></div>
@@ -639,7 +584,7 @@
           <div class="cmp-li"><span class="ic">&#10003;</span><span><strong>$39.99 once</strong> &mdash; no subscription, no sales call, no ads. Yours for the whole journey.</span></div>
           <div class="cmp-li"><span class="ic">&#10003;</span><span>Deep roster intelligence on <strong>every</strong> program &mdash; depth, openings, size, academics, pathways, transfers, coaches.</span></div>
           <div class="cmp-li"><span class="ic">&#10003;</span><span>Focus outreach on the <em>few</em> programs that genuinely fit &mdash; so your emails actually land.</span></div>
-          <div class="cmp-li"><span class="ic">&#10003;</span><span>A personalized fit score answers the real question: <strong>where does my athlete belong?</strong></span></div>
+          <div class="cmp-li"><span class="ic">&#10003;</span><span>A personalized fit band answers the real question: <strong>where does my athlete belong?</strong></span></div>
         </div>
       </div>
       <p class="cmp-note">Use an exposure service if you want one &mdash; RosterWise makes it work harder by telling you which coaches are worth contacting in the first place.</p>
@@ -654,7 +599,7 @@
       <div class="steps">
         <div class="step"><h3>Enter your profile</h3><p>Position, height, grad year, club, GPA, and test scores. About 60 seconds &mdash; optional, and it stays private on your device.</p></div>
         <div class="step"><h3>Explore every program</h3><p>Browse every D1&ndash;D3, NAIA &amp; NJCAA program with deep roster analytics. Filter by division, conference, state, and more.</p></div>
-        <div class="step"><h3>Build your target list</h3><p>See personalized My RosterFit&trade; scores, find where your athlete can contribute, and focus outreach where it counts.</p></div>
+        <div class="step"><h3>Build your target list</h3><p>See your My RosterFit&trade; fit band at every program, find where your athlete can contribute, and focus outreach where it counts.</p></div>
       </div>
     </div>
   </section>
@@ -671,7 +616,7 @@
         <a href="/roster-intelligence/" class="lib-card"><div class="lc-top"><span class="lc-ico">&#128202;</span><h3>Our Methodology</h3></div><p>Exactly how we analyze rosters &mdash; class-year gaps, international composition, coach tenure, and how My RosterFit&trade; is scored.</p><div class="lc-go">See the methodology &rarr;</div></a>
         <a href="/faq/" class="lib-card"><div class="lc-top"><span class="lc-ico">&#10067;</span><h3>FAQ</h3></div><p>Straight answers on recruiting timing, divisions, the NLI change, the House settlement, pricing, and data accuracy.</p><div class="lc-go">Read the FAQ &rarr;</div></a>
         <a href="/blog/" class="lib-card"><div class="lc-top"><span class="lc-ico">&#9998;</span><h3>Blog</h3></div><p>Practical reads like "How to read a college roster (what coaches don't tell you)" and recruiting insights for families.</p><div class="lc-go">Read the blog &rarr;</div></a>
-        <a href="#download" class="lib-card"><div class="lc-top"><span class="lc-ico">&#128241;</span><h3>The App</h3></div><p>When you're ready to go program-by-program, the app puts every roster and fit score in your pocket &mdash; $39.99, once.</p><div class="lc-go">Get RosterWise &rarr;</div></a>
+        <a href="#download" class="lib-card"><div class="lc-top"><span class="lc-ico">&#128241;</span><h3>The App</h3></div><p>When you're ready to go program-by-program, the app puts every roster and fit band in your pocket &mdash; $39.99, once.</p><div class="lc-go">Get RosterWise &rarr;</div></a>
       </div>
     </div>
   </section>
@@ -754,7 +699,7 @@
         <div class="faq-item"><button class="faq-q">What's the difference between D1, D2, D3, and NAIA? <span class="chev">&#9662;</span></button><div class="faq-a"><p>NCAA Division I programs generally have the largest athletic budgets, most scholarships, and highest competitive intensity. Division II balances athletics and academics with partial scholarships. Division III does not offer athletic scholarships but provides competitive athletics within an academics-first model. NAIA programs are typically smaller institutions that can offer athletic scholarships and often have more flexible recruiting rules. Each division offers legitimate competitive experiences &mdash; the right fit depends on your athlete's goals, abilities, and priorities. Read our <a href="/guide/division-differences/">full guide to division differences</a>.</p></div></div>
         <div class="faq-item"><button class="faq-q">What happened to the National Letter of Intent? <span class="chev">&#9662;</span></button><div class="faq-a"><p>The NCAA eliminated the National Letter of Intent (NLI) in October 2024. It was replaced by the Written Offer of Athletics Aid, which serves a similar function &mdash; formalizing a school's commitment to provide financial aid for athletics &mdash; but with some structural differences in how commitments work. Families navigating the recruiting process should be aware that the terminology and process have changed from what older guides and resources may describe. See our <a href="/guide/verbal-commitment-vs-nli/">commitment guide</a> for more detail.</p></div></div>
         <div class="faq-item"><button class="faq-q">How does the House settlement affect college recruiting? <span class="chev">&#9662;</span></button><div class="faq-a"><p>The House v. NCAA settlement, approved June 6, 2025, introduced significant changes to college athletics. For recruiting families, the most relevant changes include roster limits at opt-in D1 schools and the elimination of sport-specific scholarship caps at those schools. These changes affect roster construction, scholarship distribution, and competitive dynamics. The full impact is still developing, and families should expect ongoing adjustments as schools adapt.</p></div></div>
-        <div class="faq-item"><button class="faq-q">What is RosterWise's My RosterFit&trade; score? <span class="chev">&#9662;</span></button><div class="faq-a"><p>My RosterFit&trade; is a personalized score that compares your athlete's profile &mdash; position, height, graduation year, club background, GPA, and test scores &mdash; against the roster data at every college program. It combines athletic fit (how your athlete compares to current roster players at their position) with academic fit (how your profile aligns with the institution's academic profile) into a single, comparable metric. It's not a guarantee of admission or a roster spot &mdash; it's a data-informed starting point for building a smarter recruiting list. <a href="/soccer/methodology/rosterfit-score/">Learn how it works</a>.</p></div></div>
+        <div class="faq-item"><button class="faq-q">What is RosterWise's My RosterFit&trade;? <span class="chev">&#9662;</span></button><div class="faq-a"><p>My RosterFit&trade; checks how each program lines up with your athlete, factor by factor: room at your athlete's position, academics, distance and cost, plus height, roster make-up and your pathway's level in the sports that score them. Each factor gets a light, Strong, Moderate or Low, and each program gets one fit band from the lights: Strong, Good, Mixed or Weak fit. It reads your athlete's position, graduation year, test scores, home and travel distance, and budget, and height and pathway where the sport scores them. There's no single number, and programs are never ranked. It's not a guarantee of admission or a roster spot &mdash; it's a data-informed starting point for building a smarter recruiting list. <a href="/soccer/methodology/rosterfit-score/">Learn how it works</a>.</p></div></div>
         <div class="faq-item"><button class="faq-q">Is RosterWise a subscription? <span class="chev">&#9662;</span></button><div class="faq-a"><p>No. RosterWise is a one-time purchase of $39.99 &mdash; no subscriptions, no monthly fees, no ads, and no upsells. You pay once and have access for your athlete's entire recruiting journey. That's less than the cost of a single training session, and a fraction of what legacy recruiting services charge.</p></div></div>
       </div>
     </div>

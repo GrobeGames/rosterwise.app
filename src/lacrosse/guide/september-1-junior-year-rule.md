@@ -2,7 +2,7 @@
 layout: content.njk
 title: "The September 1 Junior Year Rule: Why Lacrosse Recruiting Is Different | RosterWise™"
 description: "Division I lacrosse is an exception to the general June 15 contact rule — and as of August 1, 2026 men's lacrosse no longer uses September 1. Here's the current rule for each gender, the history, and what it means for recruiting families."
-date: 2026-08-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -106,8 +106,6 @@ The men's date has since moved again. Legislation adopted June 29, 2026 and effe
 
 The result is that the lacrosse recruiting timeline runs on different dates from sports under Division I's general rule.
 
-> **Correction, October 9, 2026.** An earlier version of this section said that in 2018 the NCAA Division I Council "moved the initial contact date for most sports" to June 15 after sophomore year to address early recruiting that "had become particularly extreme in sports like soccer, softball, and lacrosse, where verbal commitments were happening as early as 7th and 8th grade," that "the reasoning reported at the time was that lacrosse's later date was working," and that lacrosse has "one of the latest initial contact dates of any major NCAA Division I sport." We have not located a primary source for that account of the 2018 action or for those characterizations, so we replaced them with the current general rule and the Manual's own revision history.
-
 ## Why general recruiting content can mislead lacrosse families
 
 A genuine challenge for families researching lacrosse recruiting is that general recruiting content may describe a June 15 contact date as if it applied to every sport. For lacrosse families, that is misleading: families who expect coach communication in June after sophomore year may spend months wondering why coaches haven't reached out, when coaches are not yet permitted to do so under NCAA rules.
@@ -154,15 +152,11 @@ The junior-year contact date described above is the **Division I** rule. Other d
 
 For families considering programs across NCAA divisions, Division I has the latest communication start for lacrosse: Division II places no timing restriction on staff communication, and Division III has no recruiting calendar.
 
-> **Correction, October 9, 2026.** An earlier version of this section said NAIA rules are "generally more permissive" than Division I's, that communication with NJCAA coaches "generally is permissible across timeframes," and that recruits at other divisions "often have more direct communication with coaches earlier." We had no source for those statements about NAIA and NJCAA rules or recruiting patterns, so we replaced them with what the NCAA rules establish and a pointer to each body's own rules.
-
 ## The history of the junior-year rule
 
 The women's lacrosse contact bylaw that now carries the September 1 date (13.1.1.1.7) was first adopted in January 2013 and has been revised several times since, including in April 2017 and April 2018 — the revision history quoted above. We have not located a primary source that explains the reasons for the 2017 and 2018 changes, so we don't characterize them.
 
 For the 2026 men's change, the NCAA committee that proposed it set out its reasons itself — see [the last section of this page](#why-the-mens-date-moved-in-the-ncaas-own-words). In both genders, a junior-year date remains the formal start of coach-initiated recruiting communication in Division I lacrosse; the 2026 men's legislation pushed the men's date slightly later and tied it to Labor Day rather than to a fixed calendar day.
-
-> **Correction, October 9, 2026.** An earlier version of this section said that through the early 2010s lacrosse "developed a culture of extreme early recruiting," with verbal commitments from athletes "as young as 7th and 8th grade" and programs "locking in 13-year-old players"; that families and coaches described the pressure in particular ways; that "the NCAA recognized the problem and progressively tightened recruiting rules"; and that the 2018 reform "moved most sports to June 15." We have not located a primary source for that history, so we removed it and kept what the bylaw's own revision history shows.
 
 ## The role of the recruiting calendar in your family's planning
 
@@ -225,9 +219,6 @@ This is later than Division I's general rule, under which coaches' telephone cal
 ## Every recruiting journey is different
 
 The junior-year contact date is the NCAA's formal framework. How it unfolds varies from athlete to athlete: some hear from coaches as soon as the rules allow, and for others recruiting continues into senior year. We have no data on how common each pattern is. The contact date is the formal start, not the formal finish. Use this guide as context for understanding what's possible — not as a roadmap that fits every athlete the same way.
-
-> **Correction, October 9, 2026.** An earlier version of this paragraph said "some elite recruits have multiple coaches calling within minutes of the window opening, with verbal offers extended within the first week," contrasted them with recruits "at programs at slightly different competitive levels," and described when athletes commit. Those were unsourced characterizations, and sorting recruits and programs into tiers is outside what we publish, so we rewrote the paragraph.
-
 
 ## Why the men's date moved, in the NCAA's own words
 

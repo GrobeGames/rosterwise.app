@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Men's Lacrosse Scholarships After the House Settlement: An Honest Family Guide | RosterWise™"
 description: "The House settlement changed NCAA D1 men's lacrosse from a 12.6-equivalency cap to a 48-player roster limit. What that means for scholarships in every division, and what to ask each program."
-date: 2026-08-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -118,8 +118,6 @@ Tampa men's lacrosse coach J.B. Clarke, quoted by USA Lacrosse magazine in Augus
 
 The question that matters is the one for each program: *How is your program funding men's lacrosse scholarships under the House settlement, and what would an offer to my son look like?*
 
-> **Correction, October 9, 2026.** An earlier version of this section sorted D1 programs into four groups — "programs investing heavily," "maintaining previous levels," "reducing or transitioning," and "at risk" — and said programs "at major conferences with revenue resources are the most likely candidates" for the first group and that "partial scholarships remain dominant" in the second. It also called the settlement "one of the largest proportional scholarship increases of any sport," described Bill Tierney's forecast as "a key reality," and said the "competitive gap between these tiers may widen." None of that had a source, and it treated forecasts as facts. We kept the coaches' attributed quotes, labeled them as what they are, and removed the rest. The page summary also said the roster cap "reduced the average D1 men's lacrosse roster by several players"; that was USA Lacrosse magazine's June 2025 forecast, not a measured result, and the summary no longer says it.
-
 ## How D1 men's lacrosse scholarships actually work
 
 Several mechanical realities under the new framework:
@@ -142,8 +140,6 @@ Practical realities at the D2 men's lacrosse level:
 - **Funding is each program's decision**: 10.8 is a maximum. Ask each program how many equivalencies it actually funds.
 - **Partial awards combine with other aid**: a partial athletic scholarship can combine with academic merit aid, need-based aid, and outside scholarships to form a total package; ask for a net-cost estimate.
 
-> **Correction, October 9, 2026.** An earlier version of this section said "many D2 men's lacrosse programs operate below the maximum scholarship allotment," that partial scholarships "are the norm," and that "few D2 men's lacrosse athletes receive full athletic scholarships." We have no data on D2 funding or award sizes, so we replaced those statements with what the 10.8 limit allows.
-
 ## D3 men's lacrosse — no athletic scholarships, but...
 
 NCAA Division III men's lacrosse programs do not offer athletic scholarships. This rule has not changed with the House settlement.
@@ -153,8 +149,6 @@ D3 men's lacrosse, however, remains a meaningful pathway:
 - **D3 is the largest men's lacrosse division by program count** — **236** NCAA D3 men's lacrosse programs projected for 2025-26, against 80 at D2 and 77 at D1
 - **No athletics-based aid**: D3 schools may not award financial aid on the basis of athletics (NCAA Division III Bylaw 15.01.3). A D3 package is built from academic, need-based and outside aid, and what each school offers differs, so ask each school's financial aid office for a net-cost estimate
 - **The "harder to pass up" view**: Middlebury women's lacrosse coach Kate Livesay, quoted by USA Lacrosse magazine in August 2024: "Now with the scholarship money that's out there, it makes our job harder to pull in that person who's teetering on the fence of D-I or D-III. It becomes harder to go D-III and pass up on what could be a really nice scholarship."
-
-> **Correction, October 9, 2026.** An earlier version of this section said "many D3 schools offer substantial academic merit aid," named NESCAC schools as offering it, called the NESCAC "elite competition," said "Middlebury, Tufts, RIT, and other top D3 programs have produced NCAA D3 men's lacrosse champions," and said Kate Livesay's point "applies to both men's and women's lacrosse." None of that is in our fact log, and ranking programs is outside what we publish. It also described Livesay as "Middlebury head coach" on a men's page; she coaches Middlebury's women's team. We corrected the attribution and removed the rest. The section on NAIA below also said NAIA limits "operate as equivalency awards similar to NCAA D2"; we replaced that with a pointer to the NAIA's own handbook.
 
 ## NAIA and NJCAA men's lacrosse scholarships
 
@@ -177,8 +171,6 @@ Several practical implications shape how families should approach scholarship co
 **Consider the total financial picture, not just athletic aid**: A scholarship offer is only one component of the total cost of college. Academic merit aid, need-based aid (FAFSA), the Pell Grant exception (which allows Pell to stack on top of full athletic aid per NCAA Bylaw 15.1.1), and outside scholarships can all change the net cost. See [How Athletic, Academic, Need-Based, and Outside Aid Actually Stack](/guide/stacking-financial-aid/) for the integrated approach.
 
 **The transfer portal**: if a program's roster or funding changes after your son enrolls, the transfer portal is the standard pathway to another program. See [The Transfer Portal Explained](/guide/transfer-portal/).
-
-> **Correction, October 9, 2026.** An earlier version of this section said D2 and D3 "may be in some ways more stable than the bottom tier of D1," attributing that framing to J.B. Clarke, and predicted the transfer portal "may see more men's lacrosse activity than before." Clarke's quoted words compare Division II and III with Division I as a whole; "bottom tier" was ours. The portal prediction had no source. We quote Clarke directly elsewhere on this page and removed the rest.
 
 ## Common questions about men's lacrosse scholarships
 
@@ -205,8 +197,6 @@ That's your family's call, and every division is worth understanding. Tampa men'
 **"Are there walk-on or developmental opportunities for late-developing recruits?"**
 
 This depends on the specific program, and we don't have data on how programs use their roster spots. Nothing in the NCAA rules ends recruiting in junior year, and programs outside Division I recruit under their own rules. Ask each coach how they handle players who are still developing.
-
-> **Correction, October 9, 2026.** Earlier versions of these answers said actual program funding "varies dramatically," that "programs that previously carried 50-55 players may now cap at 48," that "most athletes … likely will continue to receive partial rather than full scholarships," that "a small number of D1 men's lacrosse programs may eliminate the sport," that "for many families" the answer to considering D2 or D3 "is yes," and that late developers "often find better opportunities at D2, D3, NAIA, and NJCAA programs." None of it had a source, and some of it told families what to choose. We rewrote the answers around the rules and the questions to ask.
 
 ## Every recruit's financial journey is different
 

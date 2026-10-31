@@ -21,7 +21,7 @@ children:
     status: live
   - title: "How RosterWise Analyzes College Soccer Rosters"
     url: /soccer/methodology/
-    summary: "A transparent look at our data sources, analysis methods, and what RosterFit scores actually measure."
+    summary: "A transparent look at our data sources, analysis methods, and what RosterFit actually measures."
     status: live
   - title: "College Soccer Insights & Trends"
     url: /soccer/insights/

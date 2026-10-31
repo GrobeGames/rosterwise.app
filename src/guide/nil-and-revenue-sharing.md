@@ -103,10 +103,6 @@ This section matters especially for soccer families. Across the **{% stat "socce
 
 **For families with international athletes:** no agency has said that NIL or revenue-share income is available to an athlete on an F-1 visa. The people who can answer for a specific athlete are the school's compliance office and an immigration lawyer — not any website, including this one.
 
-> **Correction, October 24, 2026.** An earlier version of this page said participation in revenue sharing was voluntary and that "most Power Four schools have opted in." Schools in the five defendant conferences are bound by the settlement as defendants; they did not opt in. It also gave NIL earnings figures — per-team totals from a news analysis, and averages and medians ($7,947, $1,425, $55-$60 per deal) from an NIL marketplace company and a recruiting-news site — and a recruiting-inducement rule from a law firm's summary. None is a primary source, and all were removed.
-
-> **Correction, October 9, 2026.** An earlier version of this section said that "most international student-athletes cannot legally receive NIL compensation under current U.S. immigration law" and that NIL activities are "typically classified as employment under federal regulations (8 CFR § 274a.1)." Neither regulation mentions NIL, and no federal agency has classified it. The prohibition is the NCAA's own statement. We also removed unsourced statements about visa penalties and about O-1 and P-1 eligibility, and two law-firm and law-journal citations that were standing in for primary sources.
-
 ## The NIL Go portal and what it means for new recruits
 
 The reporting rules matter for families to understand, even if your athlete's deals are small. Under the NCAA's House implementation Q&A (updated February 11, 2026):

@@ -1,16 +1,17 @@
 ---
 layout: content.njk
-title: "How My RosterFit™ Scoring Works: The Eight Factors"
-description: "A transparent explanation of how RosterWise calculates My RosterFit scores — the eight factors that determine how well a recruit fits a college soccer program."
-date: 2026-04-26
+title: "How My RosterFit™ Works in College Soccer: Seven Factors and a Fit Band"
+description: "How My RosterFit™ works in RosterWise Soccer: the seven factors it checks for men's and women's programs, what each compares, and how the lights become a fit band."
+date: 2026-10-29
 breadcrumbs:
   - text: Home
     url: /
   - text: Soccer
     url: /soccer/
   - text: Methodology
-  - text: RosterFit Score
-summary: "My RosterFit™ is the scoring system at the heart of RosterWise. It evaluates how well a specific recruit's profile matches a specific college soccer program across eight factors: Position Need, Academic Match, Roster Composition, Pathway Alignment, Height Fit, Geographic Fit, Financial Fit, and Division Level. This page explains what each factor measures, why it matters, and how families should interpret the results."
+    url: /soccer/methodology/
+  - text: My RosterFit
+summary: "My RosterFit™ checks how a college soccer program lines up with one recruit, factor by factor. RosterWise Soccer scores seven factors for men's and women's programs: Room at your position, Academic Match, Roster Composition, Competitive Level, Height Fit, Geographic Fit and Financial Fit. Each gets a light, Strong, Moderate or Low, and from the lights, weighed by how much each factor counts, the program gets one band: Strong, Good, Mixed or Weak fit. There's no 0–100 number. This page explains what each factor compares and how to read a band."
 related:
   - title: "What Is Roster Composition Analysis"
     url: /soccer/methodology/roster-composition/
@@ -25,13 +26,12 @@ related:
     url: /soccer/guide/evaluating-programs/
     status: live
 sources:
-  - "RosterWise internal methodology"
+  - "RosterWise Soccer app: the shared RosterFit engine and the soccer configuration (factors, what each compares, the band rules), read October 29, 2026"
   - "Publicly available college soccer rosters from institutional athletics websites"
-  - "NCAA.org — Division membership and program data"
-  - "U.S. Department of Education — IPEDS data"
+  - "U.S. Department of Education — IPEDS data (admissions test-score ranges and published tuition)"
 cta:
   heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program. See it in the app."
-  text: "My RosterFit scores for every college soccer program in the country — personalized to your athlete's position, size, academics, and preferences. See where your athlete fits."
+  text: "A My RosterFit™ band for every college soccer program in the app, with the light behind it for each factor: room at your athlete's position, academics, roster make-up, your pathway's level, height, distance and cost. Men's and women's. See where your athlete fits."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -39,128 +39,136 @@ ${toc}
 
 ## What My RosterFit is (and isn't)
 
-My RosterFit™ is a scoring system that evaluates how well a specific recruit's profile aligns with a specific college soccer program. It's personalized — the same program will receive different RosterFit scores for different recruits, because fit depends on the individual.
+My RosterFit™ checks how a specific college soccer program lines up with a specific recruit. It's personalized: the same program can read a Strong fit for one recruit and a Mixed fit for another, because fit depends on the individual.
 
-**What it is:** A structured, data-driven assessment of fit across multiple dimensions. It helps families prioritize which programs to investigate further and which programs to deprioritize.
+**What it is:** a factor-by-factor check. RosterFit gives each factor a light, Strong, Moderate or Low, and reads one band from the lights: **Strong, Good, Mixed or Weak fit**. Every band comes with its lights and the reason behind each, so you can see why a program reads the way it does.
 
-**What it isn't:** A prediction of whether a recruit will be offered a spot, a ranking of programs, or a guarantee of anything. Recruiting involves human decisions, subjective evaluations, and factors that no algorithm can capture — like a coach's impression during a conversation, or team chemistry, or a recruit's intangible qualities.
+**What it isn't:** a prediction of whether a recruit will be offered a spot, a ranking of programs, or a guarantee of anything. There's no 0–100 number: roster data can't honestly tell a 98 from an 88, so the app doesn't pretend to. Inside a band, programs are listed nearest first, never ranked.
 
 RosterFit is a tool for making smarter decisions, not a replacement for the recruiting process itself.
 
-## The eight factors
+## The seven factors soccer scores
 
-My RosterFit evaluates eight factors. Each factor captures a different dimension of fit between a recruit and a program. We describe each factor conceptually here — what it measures and why it matters — without revealing the exact mathematical weights, which are calibrated based on the relative importance of each dimension.
+RosterWise Soccer checks seven factors for both men's and women's programs: Room at your position, Academic Match, Roster Composition, Competitive Level, Height Fit, Geographic Fit and Financial Fit. Each counts for part of the band, some more than others. The app's My RosterFit™ page shows how much each one counts, and you can change that under **Customize Weights**; once you have, your bands use your weights and say so.
 
-### 1. Position Need
+### 1. Room at your position
 
-**What it measures:** How much the program needs players at the recruit's position, based on current roster composition and class-year distribution.
+**What it compares:** how many players a program lists at your athlete's position in its last two seasons' rosters (or the one season the app has). It needs your athlete's position and graduation year.
 
-**Why it matters:** A program with three senior center backs graduating next spring has a demonstrable need for a center back. A program with two freshman center backs and a sophomore does not. Position Need captures the gap between where the roster is and where it needs to be at the recruit's position.
+A bigger group turns over more places a year. The app divides the group by four years, or two at a two-year college, for a typical yearly intake, and compares it with what reads as a deep pipeline at that position for men's or women's soccer:
 
-**What we look at:** Number of players at the position, their class years, how many are likely departing (graduation, typical transfer rates), and the resulting depth after departures.
+- **Strong:** a deep group in both seasons
+- **Moderate:** in between, or borderline, when the two seasons fall on different sides of the line
+- **Low:** a small group in both seasons
 
-**The nuance:** Position Need is based on publicly available roster data. It cannot account for players the coach plans to convert from another position, recruits who have already committed but aren't yet on the roster, or transfer portal additions. It's an indicator of likely need, not a guarantee.
+**If your athlete would join the class right after the newest rosters,** the app also counts who's due to leave before then. When at least half the group, and at least two players, is leaving, the light goes one step up, never down. Players with no published class year don't count toward that step.
+
+**Why it matters:** a program that keeps a deep group of center backs has more places turning over each year than one that carries three.
+
+**The nuance:** Room reads the positions the roster lists. A player listed at two positions counts at both. The factor can't account for players the coach plans to move from another position, recruits who have committed but aren't on the roster yet, or transfer portal additions. It's an indicator, not a guarantee.
 
 ### 2. Academic Match
 
-**What it measures:** How well the recruit's academic profile aligns with the institution's academic profile.
+**What it compares:** your athlete's SAT or ACT score with the scores of the students the school admitted, as it reports them to the federal IPEDS database. If your athlete gives both, the better result counts.
 
-**Why it matters:** College is a four-year academic commitment, not just an athletic one. A recruit whose academic profile is well below an institution's typical range will face admissions challenges. A recruit whose profile significantly exceeds an institution's range might find a better academic match elsewhere. The sweet spot is alignment — where the recruit is academically competitive and the institution offers the academic experience the recruit wants.
+- **Strong:** at or above the school's median score
+- **Moderate:** inside the middle 50%, below the median
+- **Low:** below the middle 50% (under the 25th percentile)
 
-**What we look at:** Publicly available institutional data on admission rates, academic profiles, and available programs of study.
+Open-admission schools rate Strong. GPA isn't part of this check. Without a test score from your athlete, or a published range from the school, there's nothing to compare, and the app says which one is missing.
 
-**The nuance:** Academic Match is based on institutional-level data, not program-specific admissions practices. Some programs have admissions flexibility for recruited athletes; others do not. The score reflects general alignment, not a specific admissions prediction.
+**Why it matters:** college is a four-year academic commitment, not just an athletic one.
+
+**The nuance:** Academic Match uses institution-wide admissions data, not program-specific practices. Some programs have admissions flexibility for recruited athletes; others do not.
 
 ### 3. Roster Composition
 
-**What it measures:** The overall structural fit between the recruit's profile and the program's roster — beyond just position. This includes class-year balance, roster size relative to limits, and the general health of the roster's composition.
+**What it compares:** how international a program's roster is, against your athlete's background.
 
-**Why it matters:** A program with a well-balanced roster (even distribution across class years, healthy depth at all positions) is a different environment for an incoming recruit than a program with significant imbalances. Roster Composition captures the broader structural picture that Position Need alone doesn't address.
+- **For a domestic recruit:** a roster 70% or more domestic rates Strong, 50–70% Moderate, under 50% Low.
+- **For an international recruit:** a roster 25% or more international rates Strong, 10–25% Moderate, under 10% Low.
 
-**What we look at:** Class-year distribution across the full roster, total roster size, and the balance of returning players versus expected departures.
+**Why it matters:** at a fixed roster size, domestic and international players compete for the same spots. For an international recruit, a roster that already includes international players shows the program has recruited them before. See [International Composition](/soccer/methodology/international-composition/).
 
-### 4. Pathway Alignment
+### 4. Competitive Level
 
-**What it measures:** How well the recruit's development pathway (club, high school, academy) aligns with the pathways that have historically fed into the program.
+**What it compares:** where players from your athlete's pathway (their club or school background) typically compete, against this program's division. It reads your pathway, not anything the school publishes.
 
-**Why it matters:** Programs develop relationships with specific clubs, academies, and regions. A recruit from a club that has sent multiple players to a program benefits from an existing relationship between the club coach and the college coach. Pathway Alignment identifies these connections.
+- **Strong:** players from your pathway often compete at this level
+- **Moderate:** a stretch: many step up, but it's a reach
+- **Low:** fewer players from your pathway reach this level
 
-**What we look at:** The previous schools and clubs listed for current roster players, identifying patterns in where the program recruits from.
-
-**The nuance:** Pathway Alignment reflects historical patterns, not predictions. A program that has never recruited from a specific club might be open to doing so; a program with a strong pipeline from a specific club might already have filled its needs from that pipeline. The score identifies alignment, not certainty.
+**The nuance:** this is about where players from a pathway tend to land, never a judgment of your athlete. If your pathway rates every division alike, the factor is the same at every program, so the app lists it as "not a factor for you" and leaves it out of the band.
 
 ### 5. Height Fit
 
-**What it measures:** How the recruit's height compares to the program's roster at the same position group.
+**What it compares:** your athlete's height against the roster's typical height at the same position.
 
-**Why it matters:** Different coaches and programs have different physical profiles they prefer at each position. A coach who consistently recruits 6'2"+ center backs has a preference that's reflected in the roster data. Height Fit tells the recruit whether their physical profile matches what the program has historically valued at their position.
+- **Strong:** close to the typical height at your position
+- **Moderate:** somewhat outside the usual range there
+- **Low:** well outside the usual range there
 
-**What we look at:** Heights of current roster players at the recruit's position, compared to the recruit's height.
+For goalkeepers, only being shorter counts against your athlete; at the other positions, a large difference either way does. If a program publishes fewer than three heights at the position, the app doesn't grade it.
 
-**The nuance:** Height is one physical dimension among many. A program that has historically recruited taller players at a position might still value a shorter player with exceptional technical ability. Height Fit is a data point, not a disqualifier. It matters more at some positions (goalkeeper, center back) than others.
+**The nuance:** height is one physical dimension among many, and a data point, not a disqualifier.
 
 ### 6. Geographic Fit
 
-**What it measures:** The geographic relationship between the recruit's location and the program's location and recruiting patterns.
+**What it compares:** one of two things, depending on what your athlete tells the app.
 
-**Why it matters:** Some programs recruit nationally; others recruit primarily from their region. A recruit from Georgia applying to a program in Oregon that recruits almost exclusively from the Pacific Northwest faces a different dynamic than a recruit from Washington applying to the same program. Geographic Fit identifies whether the recruit's location aligns with the program's typical geographic reach.
+- **With a maximum distance:** within it rates Strong, up to one and a half times it Moderate, and beyond that Low.
+- **If distance isn't a factor:** where the program's current players come from. Three or more from your athlete's home state rates Strong; one or two from the state, or three or more from the region, Moderate; none from either, Low.
 
-**What we look at:** Hometowns and states of current roster players, compared to the recruit's location. Also, the program's general geographic recruiting radius.
-
-**The nuance:** Geographic patterns describe tendencies, not rules. A program that recruits regionally will still recruit a special player from across the country. Geographic Fit captures the pattern, not the exception.
+**The nuance:** geographic patterns describe tendencies, not rules.
 
 ### 7. Financial Fit
 
-**What it measures:** The general affordability of the institution for the recruit's family, based on publicly available institutional data.
+**What it compares:** the school's published tuition (in-state if it's your state's school, out-of-state otherwise) against the budget you set.
 
-**Why it matters:** A program that's a perfect athletic and academic fit but financially out of reach isn't actually a fit. Financial Fit helps families factor cost into their prioritization from the beginning rather than discovering affordability issues late in the process.
+- **Strong:** within your budget, or you chose "Cost is not a factor"
+- **Moderate:** up to 25% over your budget
+- **Low:** more than 25% over
 
-**What we look at:** Publicly available data including published cost of attendance, average financial aid awards, and institutional financial aid generosity metrics. We use institutional-level data from federal sources.
+**The nuance:** this is the sticker price. Athletic, merit, and need-based aid all lower what a family actually pays, and none of them is in this check. If you chose "Cost is not a factor," the factor is the same at every program, so the app lists it as "not a factor for you" and leaves it out of the band.
 
-**The nuance:** Financial Fit is based on aggregate institutional data, not individual family circumstances. Actual financial aid offers depend on family income, assets, the FAFSA, and institutional policies. The score provides a general indicator, not a specific prediction. D3 programs (no athletic scholarships) and D1/D2 programs (with athletic scholarships) are assessed differently.
+## How the lights become a band
 
-### 8. Division Level
+RosterFit weighs each light by how much its factor counts, then reads one band:
 
-**What it measures:** How the recruit's competitive profile aligns with the program's competitive level and division.
+| Band | The rule |
+| --- | --- |
+| **Strong fit** | Nothing Low, and Strong on 70% or more of the weight |
+| **Good fit** | Nothing Low, and Strong on less than 70% |
+| **Mixed fit** | Low on less than 30% of the weight |
+| **Weak fit** | Low on 30% or more of the weight |
 
-**Why it matters:** The competitive level varies not just across divisions (D1, D2, D3, NAIA) but within them. A recruit who would start at a mid-tier D2 program but sit on the bench at a top D1 program needs to weigh the value of playing time against the division label. Division Level helps calibrate expectations about competitive fit.
+**A Low is weighed, not counted.** A Low on a light factor matters less than one on a heavy factor.
 
-**What we look at:** The program's division, recent competitive results, and conference strength — contextualized against the recruit's self-assessed competitive level.
+**An example.** Say every factor is Strong for your athlete except Academic Match and Roster Composition, which are Moderate. Nothing is Low, but on men's soccer's standard weights the Strong factors carry less than 70% of the weight, so the program is a **Good fit**.
 
-**The nuance:** Competitive level is the most subjective dimension because it depends on an honest self-assessment from the recruit and family. RosterWise cannot evaluate a player's talent from data alone. We provide the competitive context; the family provides the self-assessment.
-
-## How the factors combine
-
-The eight factors are combined into a single My RosterFit score for each program. The combination is not a simple average — some factors are weighted more heavily than others based on their relative importance in determining fit.
-
-We don't publish the exact weights for two reasons:
-
-**First, the weights are calibrated and subject to adjustment.** As we learn more about which factors are most predictive of genuine fit, we refine the model. Publishing exact weights would create false precision.
-
-**Second, the individual factor scores are more important than the combined score.** We display each factor's contribution so families can see why a program scored the way it did and apply their own judgment. A family that prioritizes academics above all else should weigh the Academic Match factor more heavily than the combined score does; a family focused on playing time should weight Position Need.
-
-**The combined score is a starting point for exploration, not a definitive ranking.** Programs with high RosterFit scores deserve a closer look. Programs with low scores might not be the best use of time. But no algorithm replaces the judgment of a family that knows their athlete, their values, and their priorities.
+**A factor the app couldn't check** (the school doesn't publish heights at the position, say, or your athlete hasn't entered a test score) counts against Strong, because it isn't Strong, and never toward Weak, because it isn't Low. If less than half the weight could be checked, the app says "Not enough to judge" instead of giving a band. Every band shows how many of its factors were scored, for example "6 of 6 factors scored."
 
 ## What RosterFit cannot capture
 
-We believe in being transparent about the limits of any scoring system:
+We believe in being transparent about the limits of any fit check:
 
+- **Playing ability.** RosterFit compares roster data, academics, geography and cost. It does not evaluate technique, speed, tactical understanding, or any other on-field performance — often the most important parts of a coach's evaluation.
 - **A coach's subjective evaluation.** Coaches recruit based on film, in-person evaluation, personal interaction, and factors no database captures.
 - **Team chemistry.** Some recruits will thrive in a program's culture; others won't. This is invisible to data analysis.
-- **Incoming recruiting class.** RosterFit is based on the current roster. Recruits who have already committed but aren't yet on the roster can change the picture.
-- **Transfer portal dynamics.** Programs actively recruiting the transfer portal may fill needs that the current roster suggests exist.
-- **Personal preferences.** Campus feel, distance from home, social environment, and other personal factors that matter enormously to individual families.
+- **Incoming recruiting class.** RosterFit is based on the rosters the app holds. Recruits who have already committed but aren't yet on a roster can change the picture.
+- **Transfer portal dynamics.** Programs recruiting the transfer portal may fill places the current roster suggests are open.
+- **Personal preferences.** Campus feel, social environment, and other personal factors that matter enormously to individual families.
 
 RosterFit provides a structured, data-driven foundation. The best recruiting decisions combine that foundation with personal judgment, campus visits, coach conversations, and family values.
 
-## How to use RosterFit scores
+## How to use the bands
 
-**High RosterFit scores (strong fit):** These programs deserve priority in your outreach and research. The data suggests meaningful alignment across multiple dimensions. Start your recruiting communication here.
+**Strong and Good fits:** nothing reads Low for your athlete at these programs. They're the natural place to start your research and outreach.
 
-**Medium RosterFit scores (moderate fit):** Worth investigating but not automatic priorities. Look at the individual factor scores to understand why the overall score is moderate — it might be one factor pulling the score down, and that factor might not matter to your family.
+**Mixed fits:** something reads Low, but on a small part of what counts. Open the lights to see which factor it is. It might be one your family doesn't weigh heavily, and you can change the weights to say so.
 
-**Low RosterFit scores (weaker fit):** The data suggests limited alignment. This doesn't mean the program is impossible, but it means the path is steeper and other programs may be a better use of time and energy.
+**Weak fits:** Lows on a large part of what counts. This doesn't mean the program is impossible, but the path is steeper, and other programs may be a better use of time and energy.
 
-**Always look at the individual factors, not just the combined score.** A program with a high Position Need but low Academic Match tells a different story than a program with moderate scores across the board. The factor breakdown is where the actionable intelligence lives.
+**Always read the lights, not just the band.** A Good fit with a Moderate on Room tells a different story than a Good fit with a Moderate on cost. The factor breakdown is where the useful detail lives.
 
-RosterFit is designed to help families allocate their recruiting effort more effectively. It's a compass, not a GPS — it points you in productive directions and helps you avoid unproductive ones. The journey is still yours to navigate.
+RosterFit is designed to help families spend their recruiting effort where it counts. It's a compass, not a GPS: it points you in productive directions and helps you avoid unproductive ones. The journey is still yours to navigate.

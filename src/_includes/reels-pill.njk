@@ -1,0 +1,17 @@
+{#- "Watch it in action": a pill in every app spotlight that opens a full-screen player (board site-reels; Scott's note
+    on option C, 2026-10-29: "We also have 'app' spotlights / ads at the end of every content page -- can we update
+    this with the 'watch it in action' pill as well on every page").
+    Set `pillSport` to the page's sport (`page.url | sportForUrl`, or null) before including. On a sport's page the
+    player shows that sport's videos, and nothing shows if they aren't on the site yet; elsewhere it shows every
+    sport's, with a chip for each. The player is built by src/assets/reels.js from the JSON below. -#}
+{% if pillSport %}{% set pillSports = [pillSport] | withPreviews(previews) %}{% else %}{% set pillSports = apps.sports | withPreviews(previews) %}{% endif %}
+{% if pillSports.length %}
+{% set pillCount = previews[pillSports[0].slug].videos.length %}
+{% set comma = joiner() %}
+<div class="rw-watch-wrap">
+  <button type="button" class="rw-watch" data-reels-open aria-haspopup="dialog">
+    <span class="rw-watch-icon" aria-hidden="true"></span>Watch it in action &middot; {{ pillCount }} short video{{ "s" if pillCount != 1 }}
+  </button>
+  <script type="application/json" class="rw-player-data">{"sports":[{% for s in pillSports %}{{ comma() }}{"slug":{{ s.slug | dump | safe }},"name":{{ s.name | dump | safe }},"appStoreUrl":{{ s.appStoreUrl | dump | safe }},"videos":{{ previews[s.slug].videos | dump | safe }}}{% endfor %}]}</script>
+</div>
+{% endif %}

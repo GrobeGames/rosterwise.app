@@ -2,7 +2,7 @@
 layout: content.njk
 title: "Recruiting Video for Men's Lacrosse: A Family Guide | RosterWise™"
 description: "How to build a men's lacrosse recruiting video: what each position's footage can show, including FOGO and LSM, what to include, how the contact date affects it, and what to ask coaches."
-date: 2026-08-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -55,8 +55,6 @@ This matters because:
 
 For men's lacrosse families, this means the recruiting video isn't a checkbox to complete — it is one of the ways coaches can decide whether to see your son in person.
 
-> **Correction, October 9, 2026.** An earlier version of this section said coaches "typically begin the recruiting process with a large group of athletes — sometimes hundreds, sometimes thousands," and called the video "a primary marketing tool that can substantially affect which programs decide to recruit your son." We have no source for either, so we removed them.
-
 ## How long should the video be?
 
 There is no NCAA rule on video length, and we have no published consensus to point you to. We are not going to invent one.
@@ -64,8 +62,6 @@ There is no NCAA rule on video length, and we have no published consensus to poi
 The practical approach: **ask the coaches you're contacting what length they prefer**, and cut filler clips — any clip that doesn't show a strength costs a coach time. A coach who wants more can ask for more.
 
 **Put your best plays first.** If a coach stops watching early, the part they saw should be your strongest material.
-
-> **Correction, October 9, 2026.** An earlier version of this section said "published guidance from different programs ranges from about a minute to about five," without naming that guidance, and that a 1-2 minute video "is almost always more effective" than a 5-minute one. Neither had a source we could name, so we removed both.
 
 ## What the footage can show — by position
 
@@ -148,8 +144,6 @@ Two points are worth thinking about whatever your son's position:
 
 Ask coaches what they want to see beyond finishing plays — ground balls, riding, effort off the ball, communication. A highlight reel that shows only finishing plays leaves those out.
 
-> **Correction, October 9, 2026.** An earlier version of this page described what coaches "want to see" at each position as fact, said two-handed play "matters enormously," and listed qualities that "coaches describe wanting to see," citing "published coaching guidance and direct coach quotes" that the page no longer named. The page description also promised "direct quotes from named D1 head coaches"; those quotes were removed in August 2026 because of where they were published. We now describe what each position's footage can show and point families to the questions to ask coaches.
-
 ## Game footage vs. skills footage
 
 **Game footage and skills footage show different things**, and you should ask each coach which they want.
@@ -168,8 +162,6 @@ Where skills footage can help:
 - **New or transferred positions** may need skills footage to demonstrate fundamentals
 
 We don't publish a game-to-skills ratio; ask the coaches you're contacting whether they want skills footage at all.
-
-> **Correction, October 9, 2026.** An earlier version of this section called game footage "the clearest published consensus across coaching guidance" and said a video that is "80%+ game footage" is "almost always stronger." Neither had a named source, so we removed them.
 
 ## What to include alongside the clips
 

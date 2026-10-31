@@ -2,7 +2,7 @@
 layout: content.njk
 title: "NCAA Recruiting Rules Explained: Contact Periods, Dead Periods, Quiet Periods | RosterWise™"
 description: "A plain-language guide to NCAA recruiting rules — contact periods, dead periods, quiet periods, evaluation periods, and how they differ across D1, D2, and D3."
-date: 2026-04-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -141,8 +141,6 @@ After the initial contact date, coaches can engage in full recruiting communicat
 - **There is no Division I limit on how many schools a recruit can visit officially.** The limit is per school: under Bylaw 13.6.2.2 of the 2026-27 Division I Manual, a school may pay for **one** official visit before October 15 following completion of high school, and one more beginning on that date (including a visit related to a possible transfer). In practice, that is one paid visit to each school during high school. A school that hires a new head coach may pay for one additional visit for a recruit who already took one (Bylaw 13.6.2.2.1)
 - An official visit is defined as a visit to campus where the school pays for transportation, meals, and/or lodging
 - A school may provide no more than **two consecutive nights** of lodging on an official visit (Bylaw 13.6.4)
-
-> **Correction, October 9, 2026.** An earlier version of this page said a recruit may take up to five official visits across all Division I schools and that an official visit is limited to 48 hours. Both rules were changed by Division I Proposal 2022-32, adopted in final form on June 24, 2023 and effective July 1, 2023: it deleted the five-visit limit on recruits and replaced the 48-hour limit with the two-night lodging limit. Corrected against the 2026-27 Division I Manual, Bylaws 13.6.2.2 and 13.6.4.
 
 ### Unofficial visits
 

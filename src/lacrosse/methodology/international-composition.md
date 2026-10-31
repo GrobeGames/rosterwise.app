@@ -2,7 +2,7 @@
 layout: content.njk
 title: "What International Roster Composition Tells You (Especially in Men's Lacrosse)"
 description: "How to read the international players on a college lacrosse roster — what the share can tell a domestic or Canadian recruit, what it can't, and what to ask coaches."
-date: 2026-08-26
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -36,7 +36,7 @@ sources:
   - '<a href="/lacrosse/mens/guide/international-recruiting/">RosterWise — International Recruiting in Men''s College Lacrosse</a> — what the NCAA does and does not publish about international lacrosse players'
 cta:
   heading: "RosterWise gives you this analysis for every D1, D2, D3, and NAIA program, plus NJCAA men's. See it in the app."
-  text: "See the international players on every college lacrosse roster in the app — how many, what share of the roster, and which countries they come from — and, for men's programs, how that share figures in your athlete's My RosterFit score. Men's and women's."
+  text: "See the international players on every college lacrosse roster in the app — how many, what share of the roster, and which countries they come from — and, for men's programs, how that share figures in your athlete's My RosterFit™ fit band. Men's and women's."
   price: "One payment of $39.99. No subscriptions. No ads. Lifetime access."
 ---
 
@@ -52,8 +52,6 @@ Say one men's program's roster is a quarter Canadian and another's has almost no
 
 For international recruits — including Canadians considering NCAA lacrosse — the question runs the other way. A roster that already includes players from your country shows that the program has recruited and enrolled international students before. Ask any program how it supports them: visa and I-20 paperwork, academic advising, and, for a player whose background is mainly box lacrosse, the move to the field game.
 
-> **Correction, October 9, 2026.** An earlier version of this section said international recruiting "raises competitive levels," that since the House settlement "the competition for finite roster positions has intensified," and that a program with a history of international recruiting "is more likely to have the infrastructure" to support international players. We had no source for those statements, so we removed them.
-
 ## Canada and college lacrosse
 
 **Lacrosse in Canada.** Lacrosse is Canada's national **summer** sport, declared as such by the *National Sports of Canada Act* (1994), which recognises ice hockey as the national winter sport and "the game commonly known as lacrosse" as the national summer sport. The Act does not distinguish box from field lacrosse — a box-specific version of this claim is not in the legislation.
@@ -62,13 +60,9 @@ For international recruits — including Canadians considering NCAA lacrosse —
 
 **What is published, and what isn't.** The NCAA does not publish a count of Canadian or international players on college lacrosse rosters; its research on international student-athletes covers first-year players only. Our [International Recruiting in Men's College Lacrosse guide](/lacrosse/mens/guide/international-recruiting/) sets out what the NCAA's own research does report.
 
-> **Correction, October 9, 2026.** An earlier version of this section called the Canadian pipeline "the single most important international dynamic in college lacrosse"; said box lacrosse "develops elite stick skills" that translate "particularly well to attack and midfield"; named The Hill Academy and Ohio State, Duke, Denver and Albany as having prominent Canadian pipelines or rosters; said the National Lacrosse League has 14 teams; and said programs without Canadian pipelines "may struggle to integrate Canadian recruits." We had no logged source for those statements, and ranking programs is outside what we publish, so we removed them.
-
 ## Men's and women's rosters
 
 We don't publish a men's-versus-women's comparison of international players in college lacrosse, because we don't have a sourced figure for either. Each program's roster lists its players' hometowns, so the roster itself is the place to look — for men's and women's programs alike.
-
-> **Correction, October 9, 2026.** An earlier version of this section said international players are "a meaningful … portion" of men's rosters and that "the overwhelming majority" are Canadian; that "some men's D1 programs have rosters with 20% or more Canadian representation"; that Ontario and British Columbia are "the most heavily represented provinces"; that women's programs "recruit internationally at substantially lower rates"; and that "a women's program with 10%+ international representation stands out." None of these figures or patterns had a source — RosterWise has not published international figures for lacrosse — so we removed them.
 
 ## What international composition tells you about a program
 
@@ -79,8 +73,6 @@ Beyond the simple "how many spots are available for domestic recruits" question,
 **Experience with international students.** A program that has enrolled international players has been through the paperwork before. Ask how it supports international students now.
 
 **Which positions.** Look at which positions a program's international players hold, not just how many there are.
-
-> **Correction, October 9, 2026.** An earlier version of this section said men's programs with large Canadian contingents "often play differently," that programs recruiting heavily from Canada "typically have established processes" for visas and orientation, and that international players "sometimes have different retention patterns." We had no source for those statements, so we removed them.
 
 ## How to use this information
 
@@ -102,8 +94,6 @@ Beyond the simple "how many spots are available for domestic recruits" question,
 
 **Understand the academic side.** Ask how the school's admissions office and the NCAA Eligibility Center will evaluate your athlete's Canadian (or other international) high school record. See our [International Recruiting in Men's College Lacrosse guide](/lacrosse/mens/guide/international-recruiting/) for more detail.
 
-> **Correction, October 9, 2026.** An earlier version of this section said Canadian players are concentrated at "attack or midfield, typically"; that "many programs with significant international rosters actively want domestic players"; that programs with established international recruiting "are lower-risk"; and that programs experienced in Canadian recruiting "know how to work through" the academic side while others "may not." We had no source for those statements about how programs behave, so we rewrote them as questions to ask.
-
 ## The data challenge
 
 Determining whether a player is international from roster data isn't always straightforward. Roster pages vary in how they present this information:
@@ -118,8 +108,6 @@ This means a program's international count can understate its international play
 
 **What the app shows.** On each program's page, the app gives the number of international players and their share of the roster, and lists them by country, with counts, in its "Where Players Come From" breakdown. It groups international players by country only: it does not break Canadian players down by province. Each player's hometown appears in the roster list as the school published it, so a province shows there when the roster gives one. For men's programs, the international share also feeds the Roster Composition factor in [My RosterFit](/lacrosse/methodology/rosterfit-score/); for women's programs that factor isn't scored.
 
-> **Correction, October 9, 2026.** An earlier version of this page's call-to-action said the app shows the provinces represented on each roster, and its footer referred to "the international-composition figures here." The app groups international players by country and does not break Canadian players down by province, and this page publishes no international figures. We corrected both, described what the app does show, and replaced "generally conservative … may be slightly higher" with how an unclear hometown entry is actually counted.
-
 ## Patterns worth watching
 
 **Change over time.** If a program's recent classes include more or fewer international players than its older classes, ask the coach whether that reflects a change in where they recruit.
@@ -127,8 +115,6 @@ This means a program's international count can understate its international play
 **Position-specific composition.** The international share at your athlete's position tells you more than the share across the whole team.
 
 **Roster limits.** At Division I schools covered by the House settlement, the roster limit is fixed, so international and domestic players are drawing on the same 48 or 38 spots. How programs are responding is not something we have data on — ask.
-
-> **Correction, October 9, 2026.** An earlier version of this section said some men's D1 conferences "tend to have higher international composition," that international composition "tends to be highest at D1 and D2 men's programs," and that "Canadians cluster at attack and midfield" at many programs. We had no source for those patterns, so we removed them.
 
 ## The bigger picture
 

@@ -2,7 +2,7 @@
 layout: content.njk
 title: "The Transfer Portal in College Wrestling: What Families Should Know | RosterWise™"
 description: "How the transfer portal reshapes college wrestling lineups weight by weight — what it means for high-school recruits, what the end of redshirt rules means for reading depth, and how to read a roster that's built through the portal."
-date: 2026-07-07
+date: 2026-10-08
 breadcrumbs:
   - text: Home
     url: /
@@ -76,8 +76,6 @@ The takeaway for families: don't evaluate a program's opportunity from its reput
 A lineup shows a program's starters; it hides the rest of its depth. A weight that looks "open" because the senior starter is graduating might actually have a **younger wrestler** or a **developing transfer** ready to step in. Conversely, real opportunity can hide behind a starter who's about to move up a class.
 
 Rosters may still label some wrestlers as **redshirts** — athletes who sat out a season under the NCAA's previous rules. Under the NCAA's age-based eligibility model — adopted by Division I in June 2026 and by Division II (announced August 5, 2026) — athletics redshirt rules and the cap on seasons of competition are gone. Each athlete instead has a five-year window that starts at the earlier of full-time college enrollment or the academic year after their 19th birthday, and it does not pause for a season sat out. Athletes first enrolling in fall 2027 or later are under the new model only; current athletes and 2026-27 enrollees are evaluated under whichever rules are more beneficial to them. Division III and the NAIA have not adopted the model. As of October 8, 2026 the model is in force: a lower-court injunction covering one group of athletes was stayed by the Tenth Circuit on August 21, and the appeal is set for oral argument on October 13, 2026. Our [age-based eligibility guide](/guide/age-based-eligibility/) explains the details.
-
-> **Correction, October 8, 2026.** An earlier version of this page said "wrestling uses redshirts heavily" and treated redshirting as a current part of roster-building. That described the NCAA's previous eligibility rules, which Division I replaced in June 2026 (Division II followed, announced August 5, 2026), and we had no source for how heavily it was used. We rewrote this section, the FAQ answer, and the checklist below.
 
 Reading depth accurately means counting **more than the visible starter** — the wrestlers behind the starter, their class years, and any incoming transfers. That fuller read is exactly what our [weight-class depth methodology](/wrestling/methodology/weight-class-depth/) is built to capture.
 

@@ -2,7 +2,7 @@
 layout: content.njk
 title: "What Is Roster Composition Analysis and Why It Matters"
 description: "How roster composition analysis works, what a college lacrosse roster can and can't tell you about a program, and how families can use it alongside conversations with coaches."
-date: 2026-06-14
+date: 2026-10-09
 breadcrumbs:
   - text: Home
     url: /
@@ -89,8 +89,6 @@ A program's win-loss record tells you about last season's results. Roster compos
 
 None of these observations are definitive. They're starting points for conversations, investigations, and decisions. But they're starting points rooted in data rather than assumption.
 
-> **Correction, October 9, 2026.** An earlier version of these examples said programs "typically carry only two or three" goalies, that "very few families look" at goalie class years, that face-off specialists are "irreplaceable in the modern game" and programs with FOGO gaps "tend to recruit aggressively," and that a program with Canadian players has "a coaching staff that values that style of play." We had no source for those counts and patterns, so we removed them.
-
 ## How RosterWise approaches roster composition
 
 RosterWise collects and analyzes publicly available roster data from every NCAA D1, D2, D3, and NAIA lacrosse program in the country, men's and women's, plus every NJCAA men's program. (The NJCAA discontinued women's lacrosse beginning with the 2024-25 academic year.) The process involves:
@@ -104,10 +102,6 @@ RosterWise collects and analyzes publicly available roster data from every NCAA 
 **Presentation.** The analysis is presented in the RosterWise app in a format designed for families — clear, visual, and actionable. We show you where a program has depth and where it has gaps, how your athlete's profile compares to the current roster, and what the data suggests about opportunity.
 
 **Transparency.** We use only publicly available data from official institutional sources. We don't scrape behind logins, access private databases, or use information that isn't available to any member of the public who visits an athletics website.
-
-> **Correction, October 9, 2026.** An earlier version of this page listed SSDMs (short-stick defensive midfielders) among the men's positions RosterWise counts and normalizes, said the analysis compares a program's position counts with its "typical playing rotation," said it covers "more than a thousand programs," and named specific prep-school leagues among the pathways it identifies. The app has no SSDM position — a player a roster lists as an SSDM is counted under another position, usually midfield and sometimes defense — and no playing-rotation data; it sorts pathways into categories such as club, prep school, high school, and college transfer rather than by league; and its current database holds 998 men's and women's programs. We rewrote those lines from the app.
-
-> **Correction, October 9, 2026.** An earlier version of this page said RosterWise covers every NJCAA lacrosse program, "both men's and women's" — here and in the closing section and call-to-action. The NJCAA discontinued women's lacrosse as a sponsored sport beginning with the 2024-25 academic year (NJCAA release, July 11, 2024), and its 2026-27 sport list carries men's lacrosse only. RosterWise Lacrosse covers NJCAA men's programs.
 
 ## The limits of roster composition analysis
 
@@ -150,8 +144,6 @@ This process doesn't replace the human elements of recruiting — the campus vis
 Roster composition analysis has always been possible. The data is public. But doing it manually — visiting hundreds of athletics websites, transcribing roster data, normalizing inconsistent formats, cross-referencing across programs — takes a great deal of time.
 
 A coaching staff knows its own roster. Families have had to assemble the picture themselves, one athletics website at a time.
-
-> **Correction, October 9, 2026.** An earlier version of this page said roster intelligence "used to be available only to coaching staffs and expensive recruiting consultants," that consultants charge "four-figure fees," and that "most families have been left with rankings, word of mouth, and hope." We had no source for those statements, so we removed them.
 
 RosterWise exists to democratize access to roster intelligence. We believe every family — regardless of their club connections, their proximity to college programs, or their budget — should be able to make recruiting decisions based on data. That's why the app covers every D1, D2, D3, and NAIA lacrosse program (men's and women's) plus NJCAA men's, and why it costs $39.99 with no subscriptions.
 

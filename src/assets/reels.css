@@ -1,0 +1,121 @@
+/* The App Preview videos: the "See it in action" band, the "Watch it in action" pill and its player.
+   Board site-reels (Scott's picks, 2026-10-29). Markup: src/_includes/reels-*.njk; behaviour: reels.js. */
+
+.rw-reels { --rw-gold: #c8a44e; --rw-gold-ink: #8a6d2b; --rw-navy: #1a2744; margin: 8px auto 0; max-width: 1000px; }
+
+.rw-reels-chips { display: flex; gap: 6px; justify-content: center; flex-wrap: wrap; margin: 0 0 18px; }
+.rw-reels-chip {
+  font-family: inherit; font-weight: 600; font-size: 14px; line-height: 1; padding: 9px 13px; min-height: 40px; border-radius: 999px;
+  border: 1.5px solid rgba(26, 39, 68, .25); background: #fff; color: var(--rw-navy); cursor: pointer;
+}
+.rw-reels-chip[aria-pressed="true"] { background: var(--rw-navy); border-color: var(--rw-navy); color: #fff; }
+
+/* Phones: one video fills most of the width, the next peeks in, and the row swipes. */
+.rw-reels-row {
+  list-style: none; margin: 0 -20px; padding: 4px 20px 10px; display: flex; gap: 16px;
+  overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+}
+.rw-reels-row::-webkit-scrollbar { display: none; }
+.rw-reel { flex: 0 0 72%; max-width: 300px; scroll-snap-align: center; text-align: center; }
+
+.rw-reel-media {
+  position: relative; border-radius: 22px; overflow: hidden; background: #1c4a35;
+  box-shadow: 0 10px 30px rgba(10, 20, 40, .28);
+}
+.rw-reel-media video, .rw-reel-play, .rw-reel-play img { display: block; width: 100%; height: 100%; }
+.rw-reel-media video { object-fit: cover; background: #1c4a35; }
+.rw-reel-play { position: relative; padding: 0; margin: 0; border: 0; background: none; cursor: pointer; }
+.rw-reel-play img { object-fit: cover; }
+.rw-reel-icon {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 68px; height: 68px;
+  border-radius: 50%; background: var(--rw-gold); box-shadow: 0 4px 18px rgba(0, 0, 0, .35);
+}
+.rw-reel-icon::after {
+  content: ""; position: absolute; left: 50%; top: 50%; transform: translate(-36%, -50%);
+  border-style: solid; border-width: 13px 0 13px 21px; border-color: transparent transparent transparent var(--rw-navy);
+}
+.rw-reel-play:hover .rw-reel-icon, .rw-reel-play:focus-visible .rw-reel-icon { background: #d8b866; }
+.rw-reel-play:focus-visible { outline: 3px solid var(--rw-gold); outline-offset: -3px; }
+.rw-reel-len {
+  position: absolute; right: 10px; bottom: 10px; font: 600 12px/1 system-ui, -apple-system, sans-serif; color: #fff;
+  background: rgba(0, 0, 0, .55); padding: 5px 8px; border-radius: 6px;
+}
+.rw-reel-cap { margin: 12px 0 0; font-size: 15px; line-height: 1.35; color: #41506b; }
+.rw-reel-cap b { display: block; font-size: 17px; color: var(--rw-navy); margin-bottom: 2px; }
+
+.rw-reels-dots { display: flex; gap: 7px; justify-content: center; margin-top: 14px; }
+.rw-reels-dots i { width: 7px; height: 7px; border-radius: 4px; background: rgba(26, 39, 68, .25); }
+.rw-reels-dots i.on { width: 20px; background: var(--rw-gold); }
+@media (prefers-reduced-motion: no-preference) { .rw-reels-dots i { transition: width .2s, background-color .2s; } }
+
+/* Wider screens: all of a sport's videos side by side, no swiping. */
+@media (min-width: 760px) {
+  .rw-reels-row { margin: 0; padding: 4px 0 10px; justify-content: center; overflow: visible; gap: 28px; }
+  .rw-reel { flex: 0 1 280px; }
+  .rw-reels-dots { display: none; }
+}
+
+.rw-reels-words { max-width: 560px; margin: 16px auto 0; text-align: left; }
+.rw-reels-words summary {
+  cursor: pointer; text-align: center; font-weight: 600; font-size: 15px; color: var(--rw-gold-ink, #8a6d2b);
+  list-style: none; padding: 8px 0;
+}
+.rw-reels-words summary::-webkit-details-marker { display: none; }
+.rw-reels-words[open] summary { margin-bottom: 8px; }
+.rw-words {
+  background: #fff; border: 1px solid rgba(26, 39, 68, .14); border-radius: 14px; padding: 14px 16px; margin-top: 10px;
+  font-size: 15px; line-height: 1.45; color: #2a3550;
+}
+.rw-words h3 { margin: 0 0 8px; font-size: 16px; font-weight: 700; color: #1a2744; font-family: inherit; }
+.rw-words ol { margin: 0; padding-left: 22px; }
+.rw-words li { margin: 0 0 8px; }
+.rw-words-kicker { display: block; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: #6b7690; }
+.rw-words-line { display: block; color: #8a6d2b; font-weight: 600; }
+.rw-reels-note { text-align: center; font-size: 13px; color: #6b7690; margin: 10px 0 0; }
+
+/* The pill, under the App Store button in every app spotlight (navy cards). */
+.rw-watch-wrap { margin-top: 14px; }
+.rw-watch {
+  display: inline-flex; align-items: center; gap: 10px; padding: 11px 18px; min-height: 44px; border-radius: 10px;
+  border: 1.5px solid #c8a44e; background: rgba(200, 164, 78, .1); color: #e2c77f; font: inherit; font-weight: 700;
+  font-size: 15px; cursor: pointer;
+}
+.rw-watch:hover, .rw-watch:focus-visible { background: rgba(200, 164, 78, .2); }
+.rw-watch:focus-visible { outline: 2px solid #e2c77f; outline-offset: 2px; }
+.rw-watch-icon { position: relative; width: 24px; height: 24px; border-radius: 50%; background: #c8a44e; flex: none; }
+.rw-watch-icon::after {
+  content: ""; position: absolute; left: 50%; top: 50%; transform: translate(-36%, -50%);
+  border-style: solid; border-width: 6px 0 6px 9px; border-color: transparent transparent transparent #1a2744;
+}
+
+/* The player: full screen on a phone, a tall sheet on a desktop. */
+.rw-player {
+  border: 0; padding: 14px 16px 18px; margin: auto; width: 100%; max-width: 520px; max-height: 100%; height: 100%;
+  background: #0c1222; color: #fff; display: none; flex-direction: column; align-items: center; gap: 10px; overflow-y: auto;
+}
+.rw-player[open] { display: flex; }
+.rw-player::backdrop { background: rgba(6, 10, 20, .88); }
+@media (min-width: 760px) { .rw-player { height: auto; max-height: 94vh; border-radius: 18px; } }
+.rw-player-top { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.rw-player-top h2 { margin: 0; font-size: 16px; font-weight: 700; color: #fff; font-family: inherit; }
+.rw-player-x {
+  width: 40px; height: 40px; flex: none; border-radius: 50%; border: 0; background: rgba(255, 255, 255, .14);
+  color: #fff; font-size: 24px; line-height: 1; cursor: pointer;
+}
+.rw-player-chips, .rw-player-tabs { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; }
+.rw-player-chips[hidden] { display: none; }
+.rw-player-chips button, .rw-player-tabs button {
+  font: inherit; font-size: 14px; font-weight: 600; padding: 8px 13px; min-height: 38px; border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, .28); background: transparent; color: rgba(255, 255, 255, .85); cursor: pointer;
+}
+.rw-player-chips button[aria-pressed="true"], .rw-player-tabs button[aria-pressed="true"] {
+  background: #c8a44e; border-color: #c8a44e; color: #1a2744;
+}
+.rw-player-stage { height: min(64vh, 640px); aspect-ratio: 590 / 1280; max-width: 100%; }
+.rw-player-stage video { width: 100%; height: 100%; border-radius: 18px; background: #1c4a35; object-fit: contain; display: block; }
+.rw-player-dl {
+  display: inline-block; background: #fff; color: #111; border-radius: 10px; padding: 12px 18px; font-weight: 700;
+  font-size: 14px; text-decoration: none;
+}
+.rw-player-words { width: 100%; margin-top: 4px; }
+.rw-player-words summary { color: #e2c77f; }

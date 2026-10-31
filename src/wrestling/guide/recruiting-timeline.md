@@ -2,7 +2,7 @@
 layout: content.njk
 title: "The College Wrestling Recruiting Timeline & the June 15 Rule | RosterWise™"
 description: "When college wrestling recruiting actually happens — the June 15 after sophomore year contact date, August 1 visits, the new cohort-gated men's wrestling dates for the class of 2028, how it contrasts with lacrosse, division-by-division norms, and the post-NLI signing landscape."
-date: 2026-07-07
+date: 2026-10-08
 breadcrumbs:
   - text: Home
     url: /
@@ -75,8 +75,6 @@ For that cohort, the men's wrestling dates are:
 - **April 1 of junior year** — coaches may begin phone calls and send recruiting materials.
 - **June 15 after junior year** — in-person off-campus contact opens.
 - **August 15 of senior year** — official visits open, and so do **unofficial visits that involve the athletics department**. Under the general rules, both open earlier.
-
-> **Correction, October 8, 2026.** An earlier version of this section listed August 15 of senior year as the date for official visits only. The adopted legislation (Division I Proposal 2026-12, adopted April 15, 2026) applies the same date to unofficial visits with athletics department involvement. We added it.
 
 **The class of 2027 is not affected.** Wrestlers enrolling before August 1, 2028 continue to follow the general rules described above — June 15 after sophomore year for calls and materials, August 1 of junior year for off-campus contact and official visits. If your athlete is a current junior or senior, the older framework is still the one that governs your recruiting.
 

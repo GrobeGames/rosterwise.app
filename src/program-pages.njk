@@ -533,13 +533,14 @@ eleventyExcludeFromCollections: true
   <div class="program-cta-card">
     {% if program.status == "active" or program.status == "new" %}
     <h2>Go deeper than a directory.</h2>
-    <p>This page is just the starting point. RosterWise&trade; Soccer gives you the <strong>comprehensive roster analysis</strong> for {{ program.display_name }} and 2,200+ other programs — position depth charts, class-year gap opportunities, geographic recruiting patterns, transfer portal trends, academic fit, and a <strong>personalized RosterFit&trade; score</strong> matched to your athlete's specific profile.</p>
+    <p>This page is just the starting point. RosterWise&trade; Soccer gives you the <strong>comprehensive roster analysis</strong> for {{ program.display_name }} and 2,200+ other programs — position depth charts, class-year gap opportunities, geographic recruiting patterns, transfer portal trends, academic fit, and a <strong>personalized RosterFit&trade; fit band</strong> matched to your athlete's specific profile.</p>
     <p>See which programs are actually recruiting players like yours. One payment of $39.99. No subscriptions. Lifetime access to every program.</p>
     {% else %}
     <h2>Find the programs that are actively recruiting your athlete.</h2>
-    <p>{% if program.status == "suspended" %}This program is suspended{% else %}This program is no longer active{% endif %}, but 2,200+ others are. RosterWise&trade; Soccer gives you <strong>comprehensive roster analysis</strong> for every D1, D2, D3, and NAIA {{ program.gender_display | lower }} program — plus a <strong>personalized RosterFit&trade; score</strong> that shows which programs match your athlete's position, size, pathway, and academic profile. One payment of $39.99. No subscriptions. Lifetime access.</p>
+    <p>{% if program.status == "suspended" %}This program is suspended{% else %}This program is no longer active{% endif %}, but 2,200+ others are. RosterWise&trade; Soccer gives you <strong>comprehensive roster analysis</strong> for every D1, D2, D3, and NAIA {{ program.gender_display | lower }} program — plus a <strong>personalized RosterFit&trade; fit band</strong> that shows which programs match your athlete's position, size, pathway, and academic profile. One payment of $39.99. No subscriptions. Lifetime access.</p>
     {% endif %}
     <a href="/app/" class="program-cta-btn">Get the full analysis &rarr;</a>
+    {% set pillSport = page.url | sportForUrl %}{% include "reels-pill.njk" %}
   </div>
 </section>
 

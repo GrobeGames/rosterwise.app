@@ -25,9 +25,9 @@ children:
     url: /lacrosse/methodology/coach-tenure/
     summary: "What a head coach's time at a lacrosse program can and can't tell you, and how RosterWise shows it."
     status: live
-  - title: "RosterFit™ Score in College Lacrosse: Six Factors for Men's, Five for Women's"
+  - title: "How My RosterFit™ Works in College Lacrosse: Six Factors for Men's, Five for Women's"
     url: /lacrosse/methodology/rosterfit-score/
-    summary: "How RosterWise calculates personalized fit scores for lacrosse recruits — the six factors scored for men's programs and five for women's, and their standard weights."
+    summary: "How My RosterFit™ reads a fit band for lacrosse recruits — the six factors it checks for men's programs and five for women's."
     status: live
 ---
 
@@ -48,8 +48,6 @@ RosterWise analyzes every college lacrosse program across five key dimensions:
 3. **[International composition](/lacrosse/methodology/international-composition/)** — the international players on a roster, by country, and what they mean for opportunity
 4. **[Coach tenure](/lacrosse/methodology/coach-tenure/)** — how long the head coach has been in place, and what that can and can't tell you
 5. **[RosterFit scoring](/lacrosse/methodology/rosterfit-score/)** — personalized fit based on your athlete's profile: six factors for men's programs, five for women's
-
-> **Correction, October 9, 2026.** An earlier version of this page described the RosterFit page as covering "the eight factors that determine fit." The RosterWise Lacrosse app scores six factors for men's programs and five for women's; see the [RosterFit page](/lacrosse/methodology/rosterfit-score/).
 
 Together, these dimensions produce a complete picture of every program's recruiting landscape — not based on rankings or reputation, but on what the roster data actually shows. For the underlying approach that applies across every sport, see our [roster intelligence methodology](/roster-intelligence/).
 
