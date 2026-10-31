@@ -88,8 +88,15 @@
 
   <section class="hub-cta">
     {% include "app-logos.njk" %}
+    {#- A sport with no app yet (rowing) sets hub_cta in front matter: the default
+        line describes the live apps and would be false on its hubs. #}
+    {%- if hub_cta %}
+    <h2>{{ hub_cta.heading }}</h2>
+    <p>{{ hub_cta.text }}</p>
+    {%- else %}
     <h2>Find your athlete&rsquo;s best-fit programs</h2>
     <p>RosterWise&trade; analyzes every roster at every NCAA and NAIA program &mdash; position depth, recruiting patterns, international composition, and more &mdash; so families can target the right schools with confidence.</p>
+    {%- endif %}
     {% set hubSport = page.url | sportForUrl %}
     {% if hubSport %}
     <a href="{{ hubSport.appStoreUrl }}" class="hub-cta-btn" target="_blank" rel="noopener">Download RosterWise&trade; {{ hubSport.name }} on the App Store &rarr;</a>
