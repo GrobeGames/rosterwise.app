@@ -620,5 +620,123 @@
     ]
    }
   ]
+ },
+ {
+  "slug": "softball",
+  "name": "Softball",
+  "subtitle": "Women's",
+  "hub": "/softball/",
+  "logo": "/assets/rosterwise-softball-app-logo.png",
+  "groups": [
+   {
+    "key": "softball-guides",
+    "label": "Softball Guides",
+    "links": [
+     {
+      "href": "/softball/",
+      "label": "Programs by Division"
+     },
+     {
+      "href": "/softball/guide/",
+      "label": "All Guides"
+     },
+     {
+      "href": "/softball/guide/recruiting-timeline/",
+      "label": "Recruiting Timeline &amp; Sept. 1 Rule"
+     },
+     {
+      "href": "/softball/guide/scholarships-and-the-house-settlement/",
+      "label": "Scholarships &amp; House"
+     },
+     {
+      "href": "/softball/guide/camps-before-junior-year/",
+      "label": "Camps Before Junior Year"
+     },
+     {
+      "href": "/softball/guide/naia-softball/",
+      "label": "NAIA Softball"
+     },
+     {
+      "href": "/softball/guide/junior-college/",
+      "label": "Junior College (NJCAA)"
+     },
+     {
+      "href": "/softball/guide/travel-ball-and-college-recruiting/",
+      "label": "Travel Ball"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "rowing",
+  "name": "Rowing",
+  "subtitle": "Men's &amp; Women's",
+  "hub": "/rowing/",
+  "logo": "/assets/rosterwise-rowing-app-logo.png",
+  "groups": [
+   {
+    "key": "rowing-mens",
+    "label": "Men's Rowing",
+    "links": [
+     {
+      "href": "/rowing/mens/",
+      "label": "Men's College Rowing"
+     }
+    ]
+   },
+   {
+    "key": "rowing-womens",
+    "label": "Women's Rowing",
+    "links": [
+     {
+      "href": "/rowing/womens/",
+      "label": "Women's College Rowing"
+     }
+    ]
+   },
+   {
+    "key": "rowing-guides",
+    "label": "Rowing Guides",
+    "links": [
+     {
+      "href": "/rowing/guide/",
+      "label": "All Rowing Guides"
+     },
+     {
+      "href": "/rowing/guide/governing-bodies/",
+      "label": "Who Governs College Rowing"
+     },
+     {
+      "href": "/rowing/guide/scholarships-and-the-house-settlement/",
+      "label": "Scholarships &amp; the House Settlement"
+     },
+     {
+      "href": "/rowing/guide/recruiting-timeline/",
+      "label": "Recruiting Timeline"
+     },
+     {
+      "href": "/rowing/guide/boats-seats-and-sides/",
+      "label": "Boats, Seats &amp; Sides"
+     },
+     {
+      "href": "/rowing/guide/lightweight-and-openweight/",
+      "label": "Lightweight &amp; Openweight"
+     },
+     {
+      "href": "/rowing/guide/the-2k-erg/",
+      "label": "The 2k Erg"
+     },
+     {
+      "href": "/rowing/guide/coxswain-recruiting/",
+      "label": "Coxswain Recruiting"
+     },
+     {
+      "href": "/rowing/guide/walk-ons-and-novices/",
+      "label": "Walk-Ons &amp; Novices"
+     }
+    ]
+   }
+  ]
  }
 ]
