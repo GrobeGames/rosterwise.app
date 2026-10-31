@@ -41,287 +41,43 @@
 
     <div class="sidebar-divider"></div>
 
-    <!-- ===== SOCCER ===== -->
+    {# ===== SPORTS =====
+       Generated from src/_data/sportNav.json, one entry per sport (a new sport adds
+       an entry there, not a block of markup here). The sport the reader is in comes
+       first; the script below opens the current page's groups. #}
+    {%- set navSport = page.url.split('/')[1] if (page and page.url) else '' %}
+    {%- macro sportSection(sp) %}
+    <!-- ===== {{ sp.name | upper }} ===== -->
     <div class="sidebar-section">
-      <div class="sidebar-group sidebar-sport" data-sidebar-group="soccer">
+      <div class="sidebar-group sidebar-sport" data-sidebar-group="{{ sp.slug }}">
         <div class="sidebar-group-header">
-          <a href="/soccer/" class="sidebar-sport-link">
-            <img class="sidebar-sport-ico" src="/assets/rosterwise-soccer-app-logo.png" alt="" width="22" height="22" loading="lazy">
-            <span class="sidebar-sport-name">Soccer<small>Men's &amp; Women's</small></span>
+          <a href="{{ sp.hub }}" class="sidebar-sport-link">
+            <img class="sidebar-sport-ico" src="{{ sp.logo }}" alt="" width="22" height="22" loading="lazy">
+            <span class="sidebar-sport-name">{{ sp.name }}<small>{{ sp.subtitle | safe }}</small></span>
           </a>
-          <button class="sidebar-group-toggle sidebar-chev-btn" aria-expanded="false" aria-label="Expand Soccer">
+          <button class="sidebar-group-toggle sidebar-chev-btn" aria-expanded="false" aria-label="Expand {{ sp.name }}">
             <span class="sidebar-chevron">&#9654;</span>
           </button>
         </div>
         <ul>
-          <li class="sidebar-group" data-sidebar-group="soccer-mens">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>Men's Soccer</span><span class="sidebar-chevron">&#9654;</span></button>
+          {%- for g in sp.groups %}
+          <li class="sidebar-group" data-sidebar-group="{{ g.key }}">
+            <button class="sidebar-group-toggle" aria-expanded="false"><span>{{ g.label | safe }}</span><span class="sidebar-chevron">&#9654;</span></button>
             <ul>
-              <li><a href="/soccer/mens/">Overview</a></li>
-              <li><a href="/soccer/mens/programs/">Programs Directory</a></li>
-              <li><a href="/soccer/mens/guide/recruiting-timeline/">Recruiting Timeline</a></li>
-              <li><a href="/soccer/mens/guide/club-pathways/">Club Pathways</a></li>
-              <li><a href="/soccer/mens/guide/youth-soccer-pathways-evolution/">Youth League History</a></li>
-              <li><a href="/soccer/mens/guide/scholarships/">Scholarships</a></li>
-              <li><a href="/soccer/mens/guide/id-camps/">ID Camps</a></li>
-              <li><a href="/soccer/mens/guide/recruiting-video/">Recruiting Video</a></li>
-              <li><a href="/soccer/mens/guide/what-coaches-look-for/">What Coaches Look For</a></li>
-              <li><a href="/soccer/mens/guide/goalkeeper-recruiting/">Goalkeeper Recruiting</a></li>
-              <li><a href="/soccer/mens/guide/international-recruiting/">International Recruiting</a></li>
+              {%- for l in g.links %}
+              <li><a href="{{ l.href }}">{{ l.label | safe }}</a></li>
+              {%- endfor %}
             </ul>
           </li>
-          <li class="sidebar-group" data-sidebar-group="soccer-womens">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>Women's Soccer</span><span class="sidebar-chevron">&#9654;</span></button>
-            <ul>
-              <li><a href="/soccer/womens/">Overview</a></li>
-              <li><a href="/soccer/womens/programs/">Programs Directory</a></li>
-              <li><a href="/soccer/womens/guide/recruiting-timeline/">Recruiting Timeline</a></li>
-              <li><a href="/soccer/womens/guide/club-pathways/">Club Pathways</a></li>
-              <li><a href="/soccer/womens/guide/youth-soccer-pathways-evolution/">Youth League History</a></li>
-              <li><a href="/soccer/womens/guide/scholarships/">Scholarships</a></li>
-              <li><a href="/soccer/womens/guide/id-camps/">ID Camps</a></li>
-              <li><a href="/soccer/womens/guide/recruiting-video/">Recruiting Video</a></li>
-              <li><a href="/soccer/womens/guide/what-coaches-look-for/">What Coaches Look For</a></li>
-              <li><a href="/soccer/womens/guide/goalkeeper-recruiting/">Goalkeeper Recruiting</a></li>
-              <li><a href="/soccer/womens/guide/international-recruiting/">International Recruiting</a></li>
-            </ul>
-          </li>
-          <li class="sidebar-group" data-sidebar-group="soccer-guides">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>Soccer-Specific Guides</span><span class="sidebar-chevron">&#9654;</span></button>
-            <ul>
-              <li><a href="/soccer/guide/junior-college/">Junior College Soccer</a></li>
-              <li><a href="/soccer/guide/evaluating-programs/">Evaluating Programs</a></li>
-              <li><a href="/soccer/guide/reading-rosters/">Reading Rosters</a></li>
-              <li><a href="/soccer/guide/d3-recruiting-reality/">D3 Recruiting Reality</a></li>
-              <li><a href="/soccer/guide/walk-on-pathways/">Walk-On Pathways</a></li>
-              <li><a href="/soccer/guide/odp/">ODP Explained</a></li>
-              <li><a href="/soccer/guide/recruiting-myths/">Recruiting Myths</a></li>
-            </ul>
-          </li>
-          <li class="sidebar-group" data-sidebar-group="soccer-methodology">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>How We Analyze Soccer</span><span class="sidebar-chevron">&#9654;</span></button>
-            <ul>
-              <li><a href="/soccer/methodology/roster-composition/">Roster Composition</a></li>
-              <li><a href="/soccer/methodology/rosterfit-score/">My RosterFit</a></li>
-              <li><a href="/soccer/methodology/class-year-gaps/">Class-Year Gaps</a></li>
-              <li><a href="/soccer/methodology/international-composition/">International Composition</a></li>
-              <li><a href="/soccer/methodology/coach-tenure/">Coach Tenure</a></li>
-            </ul>
-          </li>
-          <li class="sidebar-group" data-sidebar-group="soccer-insights">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>Data Insights</span><span class="sidebar-chevron">&#9654;</span></button>
-            <ul>
-              <li><a href="/soccer/insights/mens-roster-size/">Men's Roster Sizes</a></li>
-              <li><a href="/soccer/insights/womens-roster-size/">Women's Roster Sizes</a></li>
-              <li><a href="/soccer/insights/mens-international-conferences/">Men's International Conferences</a></li>
-              <li><a href="/soccer/insights/womens-international-conferences/">Women's International Conferences</a></li>
-              <li><a href="/soccer/insights/mens-vs-womens-comparison/">Men's vs. Women's Comparison</a></li>
-              <li><a href="/soccer/insights/division-by-numbers/">Divisions by the Numbers</a></li>
-            </ul>
-          </li>
+          {%- endfor %}
         </ul>
       </div>
     </div>
 
     <div class="sidebar-divider"></div>
-
-    <!-- ===== VOLLEYBALL ===== -->
-    <div class="sidebar-section">
-      <div class="sidebar-group sidebar-sport" data-sidebar-group="volleyball">
-        <div class="sidebar-group-header">
-          <a href="/volleyball/" class="sidebar-sport-link">
-            <img class="sidebar-sport-ico" src="/assets/rosterwise-volleyball-app-logo.png" alt="" width="22" height="22" loading="lazy">
-            <span class="sidebar-sport-name">Volleyball<small>Men's &amp; Women's</small></span>
-          </a>
-          <button class="sidebar-group-toggle sidebar-chev-btn" aria-expanded="false" aria-label="Expand Volleyball">
-            <span class="sidebar-chevron">&#9654;</span>
-          </button>
-        </div>
-        <ul>
-          <li class="sidebar-group" data-sidebar-group="volleyball-mens">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>Men's Volleyball</span><span class="sidebar-chevron">&#9654;</span></button>
-            <ul>
-              <li><a href="/volleyball/mens/">Overview</a></li>
-              <li><a href="/volleyball/mens/guide/recruiting-timeline/">Recruiting Timeline</a></li>
-              <li><a href="/volleyball/mens/guide/scholarships/">Scholarships</a></li>
-              <li><a href="/volleyball/mens/guide/club-pathways/">Club Pathways</a></li>
-              <li><a href="/volleyball/mens/guide/id-camps/">ID Camps</a></li>
-              <li><a href="/volleyball/mens/guide/recruiting-video/">Recruiting Video</a></li>
-              <li><a href="/volleyball/mens/guide/what-coaches-look-for/">What Coaches Look For</a></li>
-              <li><a href="/volleyball/mens/guide/position-specific-recruiting/">Position-Specific Recruiting</a></li>
-              <li><a href="/volleyball/mens/guide/international-recruiting/">International Recruiting</a></li>
-              <li><a href="/volleyball/mens/guide/national-collegiate-championship/">National Collegiate Championship</a></li>
-            </ul>
-          </li>
-          <li class="sidebar-group" data-sidebar-group="volleyball-womens">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>Women's Volleyball</span><span class="sidebar-chevron">&#9654;</span></button>
-            <ul>
-              <li><a href="/volleyball/womens/">Overview</a></li>
-              <li><a href="/volleyball/womens/guide/recruiting-timeline/">Recruiting Timeline</a></li>
-              <li><a href="/volleyball/womens/guide/scholarships/">Scholarships</a></li>
-              <li><a href="/volleyball/womens/guide/club-pathways/">Club Pathways</a></li>
-              <li><a href="/volleyball/womens/guide/id-camps/">ID Camps</a></li>
-              <li><a href="/volleyball/womens/guide/recruiting-video/">Recruiting Video</a></li>
-              <li><a href="/volleyball/womens/guide/what-coaches-look-for/">What Coaches Look For</a></li>
-              <li><a href="/volleyball/womens/guide/position-specific-recruiting/">Position-Specific Recruiting</a></li>
-              <li><a href="/volleyball/womens/guide/international-recruiting/">International Recruiting</a></li>
-            </ul>
-          </li>
-          <li class="sidebar-group" data-sidebar-group="volleyball-guides">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>Volleyball-Specific Guides</span><span class="sidebar-chevron">&#9654;</span></button>
-            <ul>
-              <li><a href="/volleyball/guide/evaluating-programs/">Evaluating Programs</a></li>
-              <li><a href="/volleyball/guide/reading-rosters/">Reading Rosters</a></li>
-              <li><a href="/volleyball/guide/recruiting-myths/">Recruiting Myths</a></li>
-              <li><a href="/volleyball/guide/juco-pathway/">Junior College</a></li>
-              <li><a href="/volleyball/guide/juco-pathway/">JUCO Pathway</a></li>
-              <li><a href="/volleyball/guide/walk-on-pathways/">Walk-On Pathways</a></li>
-            </ul>
-          </li>
-          <li class="sidebar-group" data-sidebar-group="volleyball-methodology">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>How We Analyze Volleyball</span><span class="sidebar-chevron">&#9654;</span></button>
-            <ul>
-              <li><a href="/volleyball/methodology/roster-composition/">Roster Composition</a></li>
-              <li><a href="/volleyball/methodology/position-depth/">Position Depth</a></li>
-              <li><a href="/volleyball/methodology/class-year-gaps/">Class-Year Gaps</a></li>
-              <li><a href="/volleyball/methodology/coach-tenure/">Coach Tenure</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="sidebar-divider"></div>
-
-    <!-- ===== LACROSSE ===== -->
-    <div class="sidebar-section">
-      <div class="sidebar-group sidebar-sport" data-sidebar-group="lacrosse">
-        <div class="sidebar-group-header">
-          <a href="/lacrosse/" class="sidebar-sport-link">
-            <img class="sidebar-sport-ico" src="/assets/rosterwise-lacrosse-app-logo.png" alt="" width="22" height="22" loading="lazy">
-            <span class="sidebar-sport-name">Lacrosse<small>Men's &amp; Women's</small></span>
-          </a>
-          <button class="sidebar-group-toggle sidebar-chev-btn" aria-expanded="false" aria-label="Expand Lacrosse">
-            <span class="sidebar-chevron">&#9654;</span>
-          </button>
-        </div>
-        <ul>
-          <li class="sidebar-group" data-sidebar-group="lacrosse-mens">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>Men's Lacrosse</span><span class="sidebar-chevron">&#9654;</span></button>
-            <ul>
-              <li><a href="/lacrosse/mens/">Overview</a></li>
-              <li><a href="/lacrosse/mens/guide/recruiting-timeline/">Recruiting Timeline</a></li>
-              <li><a href="/lacrosse/mens/guide/scholarships-after-house-settlement/">Scholarships After House Settlement</a></li>
-              <li><a href="/lacrosse/mens/guide/international-recruiting/">International Recruiting</a></li>
-              <li><a href="/lacrosse/mens/guide/recruiting-video/">Recruiting Video</a></li>
-              <li><a href="/lacrosse/mens/guide/coaches-look-for-by-position/">What Coaches Look For</a></li>
-              <li><a href="/lacrosse/mens/guide/club-pathways/">Club Pathways</a></li>
-              <li><a href="/lacrosse/mens/guide/id-camps-and-tournaments/">ID Camps &amp; Tournaments</a></li>
-              <li><a href="/lacrosse/mens/guide/">All Men's Guides</a></li>
-            </ul>
-          </li>
-          <li class="sidebar-group" data-sidebar-group="lacrosse-womens">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>Women's Lacrosse</span><span class="sidebar-chevron">&#9654;</span></button>
-            <ul>
-              <li><a href="/lacrosse/womens/">Overview</a></li>
-              <li><a href="/lacrosse/womens/guide/recruiting-timeline/">Recruiting Timeline</a></li>
-              <li><a href="/lacrosse/womens/guide/scholarships-after-house-settlement/">Scholarships After House Settlement</a></li>
-              <li><a href="/lacrosse/womens/guide/international-recruiting/">International Recruiting</a></li>
-              <li><a href="/lacrosse/womens/guide/recruiting-video/">Recruiting Video</a></li>
-              <li><a href="/lacrosse/womens/guide/coaches-look-for-by-position/">What Coaches Look For</a></li>
-              <li><a href="/lacrosse/womens/guide/club-pathways/">Club Pathways</a></li>
-              <li><a href="/lacrosse/womens/guide/id-camps-and-tournaments/">ID Camps &amp; Tournaments</a></li>
-              <li><a href="/lacrosse/womens/guide/">All Women's Guides</a></li>
-            </ul>
-          </li>
-          <li class="sidebar-group" data-sidebar-group="lacrosse-guides">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>Lacrosse-Specific Guides</span><span class="sidebar-chevron">&#9654;</span></button>
-            <ul>
-              <li><a href="/lacrosse/guide/">All Guides</a></li>
-              <li><a href="/lacrosse/guide/september-1-junior-year-rule/">September 1 Junior Year Rule</a></li>
-              <li><a href="/lacrosse/guide/house-settlement-and-lacrosse/">House Settlement &amp; Lacrosse</a></li>
-            </ul>
-          </li>
-          <li class="sidebar-group" data-sidebar-group="lacrosse-methodology">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>How We Analyze Lacrosse</span><span class="sidebar-chevron">&#9654;</span></button>
-            <ul>
-              <li><a href="/lacrosse/methodology/">Overview</a></li>
-              <li><a href="/lacrosse/methodology/roster-composition/">Roster Composition</a></li>
-              <li><a href="/lacrosse/methodology/class-year-gaps/">Class-Year Gaps</a></li>
-              <li><a href="/lacrosse/methodology/international-composition/">International Composition</a></li>
-              <li><a href="/lacrosse/methodology/coach-tenure/">Coach Tenure</a></li>
-              <li><a href="/lacrosse/methodology/rosterfit-score/">My RosterFit</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="sidebar-divider"></div>
-
-    <!-- ===== WRESTLING ===== -->
-    <div class="sidebar-section">
-      <div class="sidebar-group sidebar-sport" data-sidebar-group="wrestling">
-        <div class="sidebar-group-header">
-          <a href="/wrestling/" class="sidebar-sport-link">
-            <img class="sidebar-sport-ico" src="/assets/rosterwise-wrestling-app-logo.png" alt="" width="22" height="22" loading="lazy">
-            <span class="sidebar-sport-name">Wrestling<small>Men's &amp; Women's</small></span>
-          </a>
-          <button class="sidebar-group-toggle sidebar-chev-btn" aria-expanded="false" aria-label="Expand Wrestling">
-            <span class="sidebar-chevron">&#9654;</span>
-          </button>
-        </div>
-        <ul>
-          <li class="sidebar-group" data-sidebar-group="wrestling-mens">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>Men's Wrestling</span><span class="sidebar-chevron">&#9654;</span></button>
-            <ul>
-              <li><a href="/wrestling/mens/">Overview</a></li>
-              <li><a href="/wrestling/mens/guide/mens-college-wrestling-landscape/">The Men's Landscape</a></li>
-              <li><a href="/wrestling/mens/guide/freestyle-greco-offseason/">Freestyle, Greco &amp; Offseason</a></li>
-              <li><a href="/wrestling/mens/guide/">All Men's Guides</a></li>
-            </ul>
-          </li>
-          <li class="sidebar-group" data-sidebar-group="wrestling-womens">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>Women's Wrestling</span><span class="sidebar-chevron">&#9654;</span></button>
-            <ul>
-              <li><a href="/wrestling/womens/">Overview</a></li>
-              <li><a href="/wrestling/womens/guide/ncaa-championship/">NCAA Championship</a></li>
-              <li><a href="/wrestling/womens/guide/freestyle-and-the-olympic-pathway/">Freestyle &amp; Olympic Pathway</a></li>
-              <li><a href="/wrestling/womens/guide/">All Women's Guides</a></li>
-            </ul>
-          </li>
-          <li class="sidebar-group" data-sidebar-group="wrestling-guides">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>Wrestling-Specific Guides</span><span class="sidebar-chevron">&#9654;</span></button>
-            <ul>
-              <li><a href="/wrestling/guide/">All Guides</a></li>
-              <li><a href="/wrestling/guide/understanding-wrestling-weight-classes/">Weight Classes</a></li>
-              <li><a href="/wrestling/guide/recruiting-timeline/">Recruiting Timeline</a></li>
-              <li><a href="/wrestling/guide/weight-management-and-safety/">Weight Management &amp; Safety</a></li>
-              <li><a href="/wrestling/guide/scholarships-and-the-house-settlement/">Scholarships &amp; House</a></li>
-              <li><a href="/wrestling/guide/divisions-explained/">Divisions Explained</a></li>
-              <li><a href="/wrestling/guide/folkstyle-freestyle-and-greco/">Folkstyle, Freestyle &amp; Greco</a></li>
-              <li><a href="/wrestling/guide/what-college-coaches-evaluate/">What Coaches Evaluate</a></li>
-              <li><a href="/wrestling/guide/recruiting-video/">Recruiting Video</a></li>
-              <li><a href="/wrestling/guide/contacting-college-coaches/">Contacting Coaches</a></li>
-              <li><a href="/wrestling/guide/transfer-portal/">Transfer Portal</a></li>
-            </ul>
-          </li>
-          <li class="sidebar-group" data-sidebar-group="wrestling-methodology">
-            <button class="sidebar-group-toggle" aria-expanded="false"><span>How We Analyze Wrestling</span><span class="sidebar-chevron">&#9654;</span></button>
-            <ul>
-              <li><a href="/wrestling/methodology/">Overview</a></li>
-              <li><a href="/wrestling/methodology/roster-composition/">Roster Composition</a></li>
-              <li><a href="/wrestling/methodology/weight-class-depth/">Weight-Class Depth</a></li>
-              <li><a href="/wrestling/methodology/coach-tenure/">Coach Tenure</a></li>
-              <li><a href="/wrestling/methodology/recruiting-geography/">Recruiting Geography</a></li>
-              <li><a href="/wrestling/methodology/rosterfit-score/">My RosterFit</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="sidebar-divider"></div>
+    {%- endmacro %}
+    {%- for sp in sportNav %}{% if sp.slug == navSport %}{{ sportSection(sp) }}{% endif %}{% endfor %}
+    {%- for sp in sportNav %}{% if sp.slug != navSport %}{{ sportSection(sp) }}{% endif %}{% endfor %}
 
     <!-- ===== FAQ & BLOG (bottom) ===== -->
     <div class="sidebar-section sidebar-section--secondary">
@@ -356,7 +112,7 @@
   }
 
   // Sport-level groups that should accordion (collapse siblings when one opens)
-  const sportGroups = ['soccer', 'lacrosse', 'volleyball', 'softball', 'wrestling'];
+  const sportGroups = [{% for sp in sportNav %}'{{ sp.slug }}', {% endfor %}];
 
   // Find the toggle that belongs directly to a group (handles both the sport
   // header pattern — toggle nested in .sidebar-group-header — and plain groups).
