@@ -7,8 +7,8 @@ pagination:
   alias: sport
 permalink: "{{ sport.downloadPage }}"
 eleventyComputed:
-  title: "RosterWise™ {{ sport.name }} — College {{ sport.name }} Recruiting Intelligence App | $39.99 One-Time"
-  description: "RosterWise™ {{ sport.name }} analyzes every college {{ sport.name | lower }} program — roster depth by {{ sport.analysisAxis }}, class-year gaps, recruiting patterns, and personalized My RosterFit™ fit bands. {{ sport.subtext }}. One-time $39.99, lifetime access."
+  title: "RosterWise™ {{ sport.name }} — College {{ sport.name }} Recruiting Intelligence App | Free to Try"
+  description: "RosterWise™ {{ sport.name }} lays out college {{ sport.name | lower }} rosters program by program — roster depth by {{ sport.analysisAxis }}, class-year gaps, recruiting patterns, and My RosterFit™ fit bands. {{ sport.subtext }}. Free to try; $39.99 once for full access."
   breadcrumbs:
     - text: Home
       url: /
@@ -20,41 +20,59 @@ eleventyComputed:
 {% set verb = sport.axisVerb %}
 {% set lname = sport.name | lower %}
 
-<!-- Hero -->
-<section class="product-hero">
-  <div class="product-hero-inner">
-    <a href="{{ sport.appStoreUrl }}" target="_blank" rel="noopener" style="text-decoration: none;">
-      <img src="{{ sport.logo }}" alt="RosterWise {{ sport.name }} App" width="180" height="180" style="border-radius: 24px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); margin-bottom: 24px;" loading="eager">
-    </a>
-    <h1>Find the College {{ sport.name }} Programs<br>Where Your Athlete Actually Fits</h1>
-    <p class="tagline">RosterWise&trade; {{ sport.name }} — deep roster intelligence for college {{ lname }} recruiting families, in a dedicated {{ lname }} app.</p>
-    <p style="color: rgba(255,255,255,0.6); font-size: 14px; margin-top: -8px;">{{ sport.subtext }}</p>
-    <div class="product-price-badge">
-      <strong>$39.99 one-time</strong> &mdash; No subscriptions &middot; No ads &middot; Lifetime access
-    </div>
+{% import "app-macros.njk" as ap %}
+{% set s = sport %}
+{% set floor = sport.slug | teamFloor(previews) %}
+{% set hasTours = previews[sport.slug] and previews[sport.slug].videos.length %}
+<link rel="stylesheet" href="/assets/app-page.css?v=2">
 
-    <div class="product-store-btns" style="margin-top: 28px; justify-content: center;">
-      <a href="{{ sport.appStoreUrl }}" class="store-btn" target="_blank" rel="noopener">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 384 512" fill="currentColor"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5c0 26.2 4.8 53.3 14.4 81.2 12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
-        <span>Download RosterWise {{ sport.name }}</span>
-      </a>
+<!-- Hero: the Fit tour looping silently beside one App Store badge (board app-page, M3; Scott's marks, 2026-11-01) -->
+<section class="product-hero ap-hero">
+  <div class="ap-hero-grid">
+    <div class="ap-hero-copy">
+      <p class="ap-eyebrow"><img class="ap-eyebrow-icon" src="{{ sport.logo }}" alt="" width="28" height="28" loading="eager">RosterWise&trade; {{ sport.name }} &middot; iPhone &amp; iPad</p>
+      <h1>Find the College {{ sport.name }} Programs<br>Where Your Athlete Actually Fits</h1>
+      <p class="tagline">Deep roster intelligence for college {{ lname }} recruiting families, in a dedicated {{ lname }} app.</p>
+      <p class="ap-hero-cov">{{ sport.subtext }}</p>
+      <div class="ap-cta">
+        <div class="ap-cta-set">
+          <a class="ap-badge" href="{{ sport.appStoreUrl }}" target="_blank" rel="noopener">
+            <img src="/assets/badges/download-on-the-app-store-black.svg" alt="Download RosterWise {{ sport.name }} on the App Store" width="150" height="50">
+          </a>
+          {{ ap.rating(sport, "ap-rating--hero", appRatings) }}
+        </div>
+        <p class="ap-offer"><b>Free to try.</b> $39.99 once for full access. No subscription.</p>
+        {% if hasTours %}<a class="ap-watch" href="#tours">&#9654;&ensp;Watch the three tours with sound</a>{% endif %}
+        <p class="ap-hero-explore"><a href="{{ sport.hub }}">Or explore college {{ lname }} recruiting&nbsp;&rarr;</a></p>
+      </div>
     </div>
-    <p style="margin-top: 16px; font-size: 14px;"><a href="{{ sport.hub }}" style="color: var(--gold);">Or explore college {{ lname }} recruiting &rarr;</a></p>
+    <div class="ap-hero-media">
+      {% set loopFor = false %}{% set loopHidden = false %}{% include "app-loop.njk" %}
+    </div>
   </div>
 </section>
 
-{% set reelSports = [sport] | withPreviews(previews) %}
-{% if reelSports.length %}
-<!-- See it in action: the App Preview videos (board site-reels, option A) -->
-<section class="product-section product-section--white">
-  <div class="container" style="text-align: center;">
-    <h2>See RosterWise&trade; {{ sport.name }} in action</h2>
-    {% set reelCount = previews[sport.slug].videos.length %}
-    <p style="max-width: 600px; margin: 0 auto 18px;">{{ ["No", "One", "Two", "Three", "Four", "Five"][reelCount] or reelCount }} short tour{{ "s" if reelCount != 1 }} of the app.</p>
-    {% include "reels-band.njk" %}
+<!-- Proof: this sport's team floor (never a total across sports: Scott, board app-page-2) and the terms -->
+<section class="ap-proof">
+  <div class="ap-proof-inner">
+    {% if floor %}<ul class="ap-stats ap-stats--one"><li><b>{{ floor }}</b><span>college {{ lname }} teams</span></li></ul>{% endif %}
+    <p class="ap-terms"><span>Rosters read from each school&rsquo;s own athletics site</span><span>No login</span><span>No ads</span><span>No subscription</span></p>
+  </div>
+</section>
+
+{% if hasTours %}
+<!-- The three tours, each beside the questions it answers -->
+<section class="product-section product-section--cream ap-tours" id="tours">
+  <div class="container">
+    <div class="ap-tour-set" data-reels>
+      {% include "app-tours.njk" %}
+    </div>
   </div>
 </section>
 {% endif %}
+
+<!-- Try it free -->
+{% set tfSports = [sport] %}{% include "app-try-free.njk" %}
 
 <!-- The Problem -->
 <section class="product-section product-section--cream">
@@ -130,7 +148,7 @@ eleventyComputed:
       </div>
       <div class="feature-card">
         <h3>Academic Fit &amp; School Profile</h3>
-        <p>It&rsquo;s not just athletics. See school size, academic strength, graduation rates, and setting for every program — so your athlete fits in the classroom, not just on the field.</p>
+        <p>It&rsquo;s not just athletics. See school size, academic strength, graduation rates, and setting for each program — so your athlete fits in the classroom, not just on the field.</p>
       </div>
       <div class="feature-card">
         <h3>My RosterFit&trade; Personalized Scoring</h3>
@@ -143,6 +161,7 @@ eleventyComputed:
 <!-- Trust -->
 <section class="product-section product-section--cream">
   <div class="container">
+    {% if appReviews[sport.slug] %}{% set rs = sport %}{% include "app-review.njk" %}{% endif %}
     <h2>Built by a recruiting family, for yours.</h2>
     <div class="founder-section">
       <div class="founder-text">
@@ -155,18 +174,6 @@ eleventyComputed:
   </div>
 </section>
 
-<!-- Pricing -->
-<section class="product-section product-section--white">
-  <div class="container" style="text-align: center;">
-    <h2>Real intelligence. Fair price. No tricks.</h2>
-    <p style="max-width: 640px; margin: 0 auto 20px;">Recruiting services charge $200&ndash;$2,000 for generic match lists. RosterWise {{ sport.name }} gives you deeper analysis — actual roster intelligence at the program level — for less than a single training session.</p>
-    <div class="product-price-badge" style="margin-bottom: 16px;">
-      <strong>$39.99</strong> &mdash; one-time purchase &middot; lifetime access
-    </div>
-    <p style="font-size: 15px; color: var(--text-muted); max-width: 540px; margin: 0 auto;">No subscriptions. No monthly fees. No ads. No account required. Your data stays on your device — available for your athlete&rsquo;s entire recruiting journey.</p>
-  </div>
-</section>
-
 <!-- FAQ -->
 <section class="product-section product-section--cream">
   <div class="container">
@@ -174,15 +181,27 @@ eleventyComputed:
     <div class="faq-list">
       <details class="faq-item">
         <summary>What does RosterWise {{ sport.name }} cover?</summary>
-        <div class="faq-answer"><p>Every college {{ lname }} program with a published roster — {{ sport.subtext }}. Each sport ships as its own dedicated app, so everything you see is {{ lname }}, with no other-sport clutter.</p></div>
+        <div class="faq-answer"><p>{% if floor %}{{ floor }} college {{ lname }} teams: {% endif %}{{ sport.subtext }}. Rosters are read from each school&rsquo;s own athletics site, and every roster is labeled with its season. Each sport ships as its own dedicated app, so everything you see is {{ lname }}, with no other-sport clutter.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Is RosterWise {{ sport.name }} free?</summary>
+        <div class="faq-answer"><p>Free to try. Download the app and open three programs in full, plus one conference, and browse every program on the map and in the list before you decide. Full access is one in-app purchase of $39.99.</p></div>
       </details>
       <details class="faq-item">
         <summary>Is this a subscription?</summary>
-        <div class="faq-answer"><p>No. RosterWise {{ sport.name }} is a one-time purchase of $39.99 — no monthly fees, no renewals, no ads. Pay once and get lifetime access for your athlete&rsquo;s entire recruiting journey.</p></div>
+        <div class="faq-answer"><p>No. Full access to RosterWise {{ sport.name }} is a one-time purchase of $39.99: no subscription, no renewals, no ads. You pay once and keep it for your athlete&rsquo;s whole recruiting journey, with each season&rsquo;s new rosters arriving in the app&rsquo;s updates.</p></div>
       </details>
       <details class="faq-item">
-        <summary>How current is the roster data?</summary>
-        <div class="faq-answer"><p>Roster data is refreshed regularly through the recruiting cycle, captured from each program&rsquo;s official athletics website — so the analysis reflects the current state of each roster.</p></div>
+        <summary>How current are the rosters?</summary>
+        <div class="faq-answer"><p>Rosters are read from each school&rsquo;s own athletics site, and every roster is labeled with its season. A program whose newest roster isn&rsquo;t complete yet keeps showing its last complete one, so a half-posted roster never stands in for the real team. New rosters arrive with app updates.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Do I need an account? Where does my athlete&rsquo;s information go?</summary>
+        <div class="faq-answer"><p>No account and no login. Your athlete&rsquo;s My RosterFit&trade; profile stays on your device and in your own iCloud. It&rsquo;s never sent to us. <a href="/privacy/">Read the privacy policy.</a></p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Does it work on iPad?</summary>
+        <div class="faq-answer"><p>Yes. RosterWise {{ sport.name }} runs on iPhone and iPad.</p></div>
       </details>
       <details class="faq-item">
         <summary>What is My RosterFit&trade;?</summary>
@@ -200,20 +219,17 @@ eleventyComputed:
   </div>
 </section>
 
-<!-- Final CTA -->
+<!-- Final CTA (one App Store badge per page, in the hero: Apple's guidelines; this is a plain button) -->
 <section class="product-final-cta">
   <div class="inner">
     <a href="{{ sport.appStoreUrl }}" target="_blank" rel="noopener" style="text-decoration: none; display: inline-block;">
       <img src="{{ sport.logo }}" alt="RosterWise {{ sport.name }} App" width="132" height="132" style="border-radius: 22px; box-shadow: 0 8px 32px rgba(0,0,0,0.35); margin-bottom: 24px;" loading="lazy">
     </a>
     <h2>Ready to find your athlete&rsquo;s fit?</h2>
-    <p>Roster intelligence for every college {{ lname }} program — {{ sport.subtext }} — all for $39.99, one time.</p>
-    <div class="product-store-btns" style="margin-top: 24px; justify-content: center;">
-      <a href="{{ sport.appStoreUrl }}" class="store-btn" target="_blank" rel="noopener">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 384 512" fill="currentColor"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5c0 26.2 4.8 53.3 14.4 81.2 12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
-        <span>Download RosterWise {{ sport.name }}</span>
-      </a>
-    </div>
+    <p>Roster intelligence for college {{ lname }}{% if floor %} across {{ floor }} teams{% endif %}: {{ sport.subtext }}. Free to try; $39.99 once for full access.</p>
+    <p class="ap-final-cta"><a class="ap-btn ap-btn--gold" href="{{ sport.appStoreUrl }}" target="_blank" rel="noopener">Get RosterWise {{ sport.name }} free</a></p>
     <p style="margin-top: 20px; font-size: 14px;"><a href="{{ sport.hub }}" style="color: var(--gold);">Explore {{ sport.name }} &rarr;</a> &nbsp;&middot;&nbsp; <a href="/app/" style="color: var(--gold);">All RosterWise apps &rarr;</a> &nbsp;&middot;&nbsp; <a href="/guide/" style="color: var(--gold);">Recruiting Guides &rarr;</a></p>
   </div>
 </section>
+
+<script src="/assets/app-page.js?v=2" defer></script>

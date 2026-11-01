@@ -1,0 +1,34 @@
+{#- One sport's tours, each poster beside the questions it answers (previews.json). Set `s`. The wrapper that holds it
+    carries data-reels, so reels.js plays a tapped poster in place with sound. -#}
+{% set set = previews[s.slug] %}
+{% if set and set.videos.length %}
+<p class="ap-kicker">{{ set.videos.length | countWord | capitalize }} short tour{{ "s" if set.videos.length != 1 }}</p>
+<h2>See RosterWise&trade; {{ s.name }} in action</h2>
+<p class="ap-lead">Each tour asks the questions families bring and shows the screen that answers them. Tap a tour to play it with sound.</p>
+<ol class="ap-tour-list">
+  {% for v in set.videos %}
+  <li class="ap-tour">
+    <div class="rw-reel-media ap-tour-media" style="aspect-ratio: {{ v.width }} / {{ v.height }};">
+      <button type="button" class="rw-reel-play" data-reel-src="{{ v.src }}" data-reel-poster="{{ v.poster }}"
+              aria-label="Play the {{ v.title }} video ({{ v.seconds | clock }}, with music)">
+        <img src="{{ v.poster }}" alt="" width="{{ v.width }}" height="{{ v.height }}" loading="lazy" decoding="async">
+        <span class="rw-reel-icon" aria-hidden="true"></span>
+        <span class="rw-reel-len" aria-hidden="true">{{ v.seconds | clock }}</span>
+      </button>
+    </div>
+    <div class="ap-tour-text">
+      <h3><span>{{ v.title }}</span>{{ v.headline }}</h3>
+      <ul class="ap-qs">
+        {% for w in v.words %}{% if w.kind == "beat" %}
+        <li>{{ w.text }}<small>{{ w.line }}</small></li>
+        {% endif %}{% endfor %}
+      </ul>
+    </div>
+  </li>
+  {% endfor %}
+</ol>
+<p class="ap-note">The videos use the app&rsquo;s sample programs.</p>
+{% else %}
+<h2>RosterWise&trade; {{ s.name }}</h2>
+<p class="ap-lead">Tours of the {{ s.name | lower }} app are on the way. <a href="{{ s.downloadPage or s.appStoreUrl }}">See what it covers&nbsp;&rarr;</a></p>
+{% endif %}

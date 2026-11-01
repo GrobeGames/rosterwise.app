@@ -1,0 +1,8 @@
+{#- One App Store review, quoted word for word (src/_data/appReviews.json; fact log row D). Set `rs`, a sport with a
+    review. -#}
+{% set rv = appReviews[rs.slug] %}
+<p class="ap-kicker">From a family using it</p>
+<blockquote class="ap-quote">
+  <p>&ldquo;{{ rv.quote }}&rdquo;</p>
+  <footer><span class="ap-stars" style="--ap-stars: {{ (rv.stars / 5 * 100) | round(1) }}%" aria-hidden="true"></span> {{ rv.who }}, in an <a href="{{ rs.appStoreUrl }}" target="_blank" rel="noopener">App Store review</a> of RosterWise {{ rs.name }}</footer>
+</blockquote>

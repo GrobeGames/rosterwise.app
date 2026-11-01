@@ -172,6 +172,11 @@ module.exports = function (eleventyConfig) {
   // An App Store rating as Apple shows it: one decimal place ("5.0").
   eleventyConfig.addFilter("oneDecimal", (n) => (Number.isFinite(Number(n)) ? Number(n).toFixed(1) : ""));
 
+  // The live sports with an App Store review quoted on the site (src/_data/appReviews.json), in apps.json order.
+  eleventyConfig.addFilter("withReviews", (sports, reviews) =>
+    (sports || []).filter((s) => s && reviews && reviews[s.slug] && reviews[s.slug].quote)
+  );
+
   // Seconds → "0:29", as a video player shows a length (whole seconds, rounded down).
   eleventyConfig.addFilter("clock", (seconds) => {
     const s = Math.floor(Number(seconds) || 0);
