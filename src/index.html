@@ -13,15 +13,15 @@
   gtag('config', 'G-JDNR1HSPHW');
 </script>
 
-<title>College Sports Recruiting Intelligence &mdash; Roster Analysis for D1, D2, D3, NAIA Programs | RosterWise&trade;</title>
-<meta name="description" content="RosterWise™ analyzes every college sports program — position depth, class year gaps, and personalized fit bands for recruiting families. $39.99 one-time.">
+<title>College Sports Recruiting Intelligence &mdash; Roster Analysis for NCAA D1, D2, D3 &amp; NAIA Programs | RosterWise&trade;</title>
+<meta name="description" content="RosterWise™ apps lay out college {{ apps.sports | selectattr('live') | pluck('name') | andList | lower }} rosters program by program — position depth, class year gaps, and personalized fit bands for recruiting families. Free to try; $39.99 once.">
 <meta name="author" content="Grobe Games LLC">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://rosterwise.app">
 
 <!-- Open Graph -->
 <meta property="og:title" content="College Sports Recruiting Intelligence | RosterWise™">
-<meta property="og:description" content="RosterWise™ analyzes every college sports program — position depth, class year gaps, and personalized fit bands for recruiting families. $39.99 one-time.">
+<meta property="og:description" content="RosterWise™ apps lay out college {{ apps.sports | selectattr('live') | pluck('name') | andList | lower }} rosters program by program — position depth, class year gaps, and personalized fit bands for recruiting families. Free to try; $39.99 once.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://rosterwise.app">
 <meta property="og:image" content="https://rosterwise.app/assets/rosterwise-og-banner.jpg">
@@ -34,7 +34,7 @@
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="College Sports Recruiting Intelligence | RosterWise™">
-<meta name="twitter:description" content="RosterWise™ analyzes every college sports program — position depth, class year gaps, international composition, and personalized fit bands. $39.99 one-time.">
+<meta name="twitter:description" content="RosterWise™ apps lay out college {{ apps.sports | selectattr('live') | pluck('name') | andList | lower }} rosters program by program — position depth, class year gaps, international composition, and personalized fit bands. Free to try; $39.99 once.">
 <meta name="twitter:image" content="https://rosterwise.app/assets/rosterwise-og-banner.jpg">
 
 <!-- Favicon -->
@@ -143,7 +143,7 @@
       "name": "What is RosterWise's My RosterFit?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "My RosterFit checks how each program lines up with your athlete, factor by factor: room at your athlete's position, academics, distance and cost, plus height, roster make-up and your pathway's level in the sports that score them. Each factor gets a light, Strong, Moderate or Low, and each program gets one fit band from the lights: Strong, Good, Mixed or Weak fit. It reads your athlete's position, graduation year, test scores, home and travel distance, and budget, and height and pathway where the sport scores them. There's no single number, and programs are never ranked. It's not a guarantee of admission or a roster spot — it's a data-informed starting point for building a smarter recruiting list."
+        "text": {{ (rosterFit.answer + " " + rosterFit.headline + ": " + (rosterFit.disclaimer | join(" "))) | jsonLd | safe }}
       }
     },
     {
@@ -241,14 +241,10 @@
   .sport-tile.coming img{opacity:.85}
   .sport-tile .st-name{font-size:17px;font-weight:800;margin-top:14px}
   .sport-tile .st-cov{font-size:10.5px;color:rgba(255,255,255,.5);margin-top:3px;text-align:center;line-height:1.35}
-  .appstore-pill{display:inline-flex;align-items:center;gap:8px;margin-top:11px;background:#000;border:1px solid rgba(255,255,255,.22);color:#fff;border-radius:11px;padding:7px 14px;text-decoration:none}
-  .appstore-pill svg{width:18px;height:18px;fill:#fff;flex-shrink:0}
-  .appstore-pill .as-sm{display:block;font-size:8px;line-height:1.1;color:rgba(255,255,255,.75);font-weight:500;letter-spacing:.02em;text-align:left}
-  .appstore-pill .as-lg{display:block;font-size:13px;line-height:1.15;font-weight:700;letter-spacing:.01em;text-align:left}
-  .sport-tile:hover .appstore-pill{border-color:rgba(200,164,78,.55)}
-  .appstore-pill.soon-pill{background:rgba(255,255,255,.04);border-color:rgba(200,164,78,.4)}
-  .appstore-pill.soon-pill svg{fill:var(--gold)}
-  .appstore-pill.soon-pill .as-lg{color:var(--gold)}
+  .appstore-pill{display:inline-flex;flex-direction:column;align-items:center;margin-top:11px;background:rgba(200,164,78,.1);border:1px solid rgba(200,164,78,.55);color:#fff;border-radius:11px;padding:6px 14px}
+  .appstore-pill .as-sm{display:block;font-size:9px;line-height:1.2;color:var(--gold);font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+  .appstore-pill .as-lg{display:block;font-size:13px;line-height:1.2;font-weight:700}
+  .sport-tile:hover .appstore-pill{background:rgba(200,164,78,.2)}
   .st-soon{display:inline-block;margin-top:11px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);color:rgba(255,255,255,.6);border-radius:11px;padding:9px 16px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
 
   /* ===== PROOF BAND ===== */
@@ -377,7 +373,7 @@
   .faq-item.open .chev{transform:rotate(180deg)}
   .faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease}
   .faq-a p{padding:0 0 20px;font-size:15px;color:rgba(255,255,255,.7);line-height:1.7}
-  .faq-item.open .faq-a{max-height:360px}
+  .faq-item.open .faq-a{max-height:1600px}
 
   /* ===== FINAL CTA ===== */
   .final{background:linear-gradient(165deg,#0f1a2e,#243352);text-align:center}
@@ -402,6 +398,11 @@
   .footer-bottom a{font-size:12px;color:rgba(255,255,255,.28);text-decoration:none}
   .footer-bottom a:hover{color:var(--gold)}
 
+  /* RosterFit's disclaimer (_includes/rosterfit-answer.njk) on the dark FAQ: the apps' tan caution, dimmed */
+  .rf-note{margin:0 0 18px;padding:14px 16px;border-radius:12px;background:rgba(200,164,78,.12);border:1px solid rgba(200,164,78,.4)}
+  .faq-a .rf-note p{padding:0 0 8px;color:rgba(255,255,255,.82)}
+  .faq-a .rf-note p:last-child{padding-bottom:0}
+  .faq-a .rf-note .rf-note-head{font-weight:700;color:var(--gold)}
 </style>
 <link rel="stylesheet" href="/assets/reels.css?v=1">
 <script src="/assets/reels.js?v=1" defer></script>
@@ -452,54 +453,35 @@
         Look up any program in seconds &mdash; the complete <strong>school profile</strong>
         (academics, cost, size &amp; setting) <em>and</em> deep <strong>roster intelligence</strong>
         (every player, position depth, openings &amp; fit, transfer patterns, club pathways,
-        geographic recruiting &amp; international reliance) for every
-        <strong>NCAA (D1, D2, D3), NAIA, and NJCAA</strong> program. So you
+        geographic recruiting &amp; international reliance) for
+        <strong>{{ apps.sports | coverageSummary }}</strong>. So you
         can build a smarter target list and aim your outreach where it'll actually land.
       </p>
-      <div class="hero-coverage">Men's &amp; Women's &middot; <b>Every NCAA D1, D2, D3, NAIA &amp; NJCAA program</b></div>
-      <div class="hero-price"><b>$39.99 once.</b> No subscriptions. No ads. Yours for the entire recruiting journey.</div>
+      <div class="hero-coverage">Men's &amp; Women's &middot; <b>{{ apps.sports | coverageSummary }}</b></div>
+      <div class="hero-price"><b>Free to try.</b> $39.99 once for full access. No subscriptions. No ads. Yours for the entire recruiting journey.</div>
       <div class="hero-btns">
         <a href="#library" class="btn btn-ghost">Explore the free guides &rarr;</a>
       </div>
 
-      <!-- Sport tiles (app-store style) -->
+      <!-- Sport tiles, from apps.json: a live app links to its App Store page (a plain pill, never Apple's logo:
+           WEB-5); a coming one says so. -->
       <div class="sport-tiles">
-        <a class="sport-tile" href="https://apps.apple.com/us/app/rosterwise-soccer/id6763959341" target="_blank" rel="noopener">
-          <img src="/assets/rosterwise-soccer-app-logo.png" alt="RosterWise Soccer">
-          <span class="st-name">Soccer</span>
-          <span class="st-cov">Men's &amp; Women's<br>D1, D2, D3, NAIA</span>
-          <span class="appstore-pill"><svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span><span class="as-sm">Download on the</span><span class="as-lg">App Store</span></span></span>
+        {% for sp in apps.sports %}{% set cov = sp.subtext.split(" · ") %}
+        {% if sp.live and sp.appStoreUrl %}
+        <a class="sport-tile" href="{{ sp.appStoreUrl }}" target="_blank" rel="noopener">
+          <img src="{{ sp.logo }}" alt="RosterWise {{ sp.name }}">
+          <span class="st-name">{{ sp.name }}</span>
+          <span class="st-cov">{{ cov[0] }}<br>{{ cov.slice(1).join(" · ") | ucfirst }}</span>
+          <span class="appstore-pill"><span class="as-sm">Free to try</span><span class="as-lg">Get the app</span></span>
         </a>
-        <a class="sport-tile" href="https://apps.apple.com/us/app/rosterwise-volleyball/id6774745522" target="_blank" rel="noopener">
-          <img src="/assets/rosterwise-volleyball-app-logo.png" alt="RosterWise Volleyball">
-          <span class="st-name">Volleyball</span>
-          <span class="st-cov">Men's &amp; Women's<br>D1, D2, D3, NAIA, NJCAA</span>
-          <span class="appstore-pill"><svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span><span class="as-sm">Download on the</span><span class="as-lg">App Store</span></span></span>
-        </a>
-        <a class="sport-tile" href="https://apps.apple.com/us/app/rosterwise-lacrosse/id6778935432" target="_blank" rel="noopener">
-          <img src="/assets/rosterwise-lacrosse-app-logo.png" alt="RosterWise Lacrosse">
-          <span class="st-name">Lacrosse</span>
-          <span class="st-cov">Men's &amp; Women's<br>D1, D2, D3, NAIA &middot; NJCAA (men's)</span>
-          <span class="appstore-pill"><svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span><span class="as-sm">Download on the</span><span class="as-lg">App Store</span></span></span>
-        </a>
-        <a class="sport-tile" href="https://apps.apple.com/us/app/rosterwise-wrestling/id6785280841" target="_blank" rel="noopener">
-          <img src="/assets/rosterwise-wrestling-app-logo.png" alt="RosterWise Wrestling">
-          <span class="st-name">Wrestling</span>
-          <span class="st-cov">Men's &amp; Women's<br>D1, D2, D3, NAIA, NJCAA</span>
-          <span class="appstore-pill"><svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span><span class="as-sm">Download on the</span><span class="as-lg">App Store</span></span></span>
-        </a>
+        {% else %}
         <div class="sport-tile coming">
-          <img src="/assets/rosterwise-softball-app-logo.png" alt="RosterWise Softball">
-          <span class="st-name">Softball</span>
-          <span class="st-cov">Women's<br>D1, D2, D3, NAIA, NJCAA</span>
+          <img src="{{ sp.logo }}" alt="RosterWise {{ sp.name }}">
+          <span class="st-name">{{ sp.name }}</span>
+          <span class="st-cov">{{ cov[0] }}<br>{{ cov.slice(1).join(" · ") | ucfirst }}</span>
           <span class="st-soon">Coming Soon</span>
         </div>
-        <div class="sport-tile coming">
-          <img src="/assets/rosterwise-rowing-app-logo.png" alt="RosterWise Rowing">
-          <span class="st-name">Rowing</span>
-          <span class="st-cov">Men's &amp; Women's<br>Varsity crews</span>
-          <span class="st-soon">Coming Soon</span>
-        </div>
+        {% endif %}{% endfor %}
       </div>
     </div>
   </header>
@@ -512,7 +494,7 @@
       <h2 class="section-title">Understand any program in seconds.</h2>
       <p class="section-sub">Type a school name and instantly see the intelligence that used to take weeks of spreadsheet work &mdash; the full roster, who's graduating, the academic and financial picture, and how your athlete fits, factor by factor.</p>
       {% include "reels-band.njk" %}
-      <p class="ph-cap">Plus recruiting geography, height by position, coach tenure &amp; more &mdash; for every program in the country.</p>
+      <p class="ph-cap">Plus recruiting geography, height by position, coach tenure &amp; more &mdash; for every program in the app.</p>
 
       <!-- DEPTH: every school / every roster -->
       <div class="depth">
@@ -555,9 +537,9 @@
     <div class="container">
       <span class="section-label">What You Get</span>
       <h2 class="section-title">Everything you need to target the right programs.</h2>
-      <p class="section-sub">One app. Every D1, D2, D3, NAIA &amp; NJCAA program. Rosters refreshed every year.</p>
+      <p class="section-sub">One app for each sport: {{ apps.sports | coverageSummary }}. Rosters refreshed every year.</p>
       <div class="grid grid-3">
-        <div class="card"><div class="card-ico">&#127919;</div><h3>Personalized fit bands</h3><p>Enter your athlete's profile once and get a My RosterFit&trade; fit band for every program &mdash; athletic <em>and</em> academic, factor by factor. Sort, filter, build a smart list.</p></div>
+        <div class="card"><div class="card-ico">&#127919;</div><h3>Personalized fit bands</h3><p>Enter your athlete's profile once and get a My RosterFit&trade; fit band for every program &mdash; athletic <em>and</em> academic, factor by factor. Sort, filter, build a smart list. A data match, not a scouting report: it can&rsquo;t see how your athlete plays.</p></div>
         <div class="card"><div class="card-ico">&#128203;</div><h3>Position depth &amp; openings</h3><p>See how many players are at your athlete's position and exactly which seniors graduate next &mdash; the class-year gaps that create real playing-time opportunity.</p></div>
         <div class="card"><div class="card-ico">&#127891;</div><h3>The full school picture</h3><p>Test-score ranges, acceptance &amp; graduation rates, tuition and average aid, enrollment, and setting &mdash; fit on and off the field.</p></div>
         <div class="card"><div class="card-ico">&#128205;</div><h3>Recruiting pathways</h3><p>The clubs, academies, and high schools each program actually recruits from &mdash; so you know whether your athlete's pathway lines up.</p></div>
@@ -604,7 +586,7 @@
       <h2 class="section-title">Start finding your fit in minutes.</h2>
       <div class="steps">
         <div class="step"><h3>Enter your profile</h3><p>Position, height, grad year, club, GPA, and test scores. About 60 seconds &mdash; optional, and it stays private on your device.</p></div>
-        <div class="step"><h3>Explore every program</h3><p>Browse every D1&ndash;D3, NAIA &amp; NJCAA program with deep roster analytics. Filter by division, conference, state, and more.</p></div>
+        <div class="step"><h3>Explore every program</h3><p>Browse every program in your sport&rsquo;s app with deep roster analytics. Filter by division, conference, state, and more.</p></div>
         <div class="step"><h3>Build your target list</h3><p>See your My RosterFit&trade; fit band at every program, find where your athlete can contribute, and focus outreach where it counts.</p></div>
       </div>
     </div>
@@ -638,7 +620,7 @@
         <h3>What college sports roster intelligence really means</h3>
         <p><a href="/roster-intelligence/">Roster intelligence</a> is the systematic analysis of every roster at every program &mdash; not just who's on the team, but what the roster tells you about opportunity. When you look at a program through this lens, you're asking deeper questions: position depth and class-year gaps, height and physical profiles, international vs. domestic composition, recruiting pathway patterns, coach tenure and program stability, transfer-portal activity, academic fit, and personalized fit scoring.</p>
         <h3>A methodology that works across sports</h3>
-        <p>RosterWise applies this <a href="/roster-intelligence/">college sports roster intelligence</a> methodology across multiple sports. <a href="/soccer/">Soccer</a> and <a href="/volleyball/">volleyball</a> are available now &mdash; every men's and women's program across D1, D2, D3, NAIA (and NJCAA for volleyball). <a href="/lacrosse/">Lacrosse</a> and <a href="/wrestling/">wrestling</a> are now available too, with softball close behind. Explore our <a href="/guide/">recruiting guides</a> to go deeper.</p>
+        <p>RosterWise applies this <a href="/roster-intelligence/">college sports roster intelligence</a> methodology across multiple sports. {% set liveHubs = apps.sports | selectattr("live") %}{% set soonHubs = apps.sports | rejectattr("live") %}{% for sp in liveHubs %}<a href="{{ sp.hub }}">{{ sp.name if loop.first else sp.name | lower }}</a>{% if loop.revindex == 2 %} and {% elif not loop.last %}, {% endif %}{% endfor %} are available now, across {{ apps.sports | coverageSummary }}{% if soonHubs.length %}, with {% for sp in soonHubs %}<a href="{{ sp.hub }}">{{ sp.name | lower }}</a>{% if loop.revindex == 2 %} and {% elif not loop.last %}, {% endif %}{% endfor %} on the way{% endif %}. Explore our <a href="/guide/">recruiting guides</a> to go deeper.</p>
         <h3>Every recruiting journey is different</h3>
         <p>No two athletes follow the same path. A goalkeeper's timeline looks nothing like a striker's. A D3 walk-on opportunity may be a better fit than a D1 partial scholarship. Roster intelligence doesn't make decisions for your family &mdash; it gives you the information to make better ones.</p>
         <p style="margin-top:18px"><a href="/roster-intelligence/" class="btn btn-outline">Learn about our methodology &rarr;</a></p>
@@ -665,33 +647,21 @@
   <section class="section section-dark" id="sports" style="padding-top:0">
     <div class="container">
       <span class="section-label">Our Apps</span>
-      <h2 class="section-title">One platform. Every sport.</h2>
-      <p class="section-sub">Sport-specific apps, each with tailored analysis. Men's &amp; women's, every division.</p>
+      <h2 class="section-title">One platform. An app for each sport.</h2>
+      <p class="section-sub">Sport-specific apps, each with tailored analysis. Men's &amp; women's: {{ apps.sports | coverageSummary }}.</p>
       <div class="sport-tiles">
-        <a class="sport-tile" href="https://apps.apple.com/us/app/rosterwise-soccer/id6763959341" target="_blank" rel="noopener">
-          <img src="/assets/rosterwise-soccer-app-logo.png" alt="RosterWise Soccer">
-          <span class="st-name">Soccer</span><span class="st-cov">Available now</span>
+        {% for sp in apps.sports %}
+        {% if sp.live and sp.appStoreUrl %}
+        <a class="sport-tile" href="{{ sp.appStoreUrl }}" target="_blank" rel="noopener">
+          <img src="{{ sp.logo }}" alt="RosterWise {{ sp.name }}">
+          <span class="st-name">{{ sp.name }}</span><span class="st-cov">Available now</span>
         </a>
-        <a class="sport-tile" href="https://apps.apple.com/us/app/rosterwise-volleyball/id6774745522" target="_blank" rel="noopener">
-          <img src="/assets/rosterwise-volleyball-app-logo.png" alt="RosterWise Volleyball">
-          <span class="st-name">Volleyball</span><span class="st-cov">Available now</span>
-        </a>
-        <a class="sport-tile" href="https://apps.apple.com/us/app/rosterwise-lacrosse/id6778935432" target="_blank" rel="noopener">
-          <img src="/assets/rosterwise-lacrosse-app-logo.png" alt="RosterWise Lacrosse">
-          <span class="st-name">Lacrosse</span><span class="st-cov">Available now</span>
-        </a>
-        <a class="sport-tile" href="https://apps.apple.com/us/app/rosterwise-wrestling/id6785280841" target="_blank" rel="noopener">
-          <img src="/assets/rosterwise-wrestling-app-logo.png" alt="RosterWise Wrestling">
-          <span class="st-name">Wrestling</span><span class="st-cov">Available now</span>
-        </a>
+        {% else %}
         <div class="sport-tile coming">
-          <img src="/assets/rosterwise-softball-app-logo.png" alt="RosterWise Softball">
-          <span class="st-name">Softball</span><span class="st-cov">Coming soon</span>
+          <img src="{{ sp.logo }}" alt="RosterWise {{ sp.name }}">
+          <span class="st-name">{{ sp.name }}</span><span class="st-cov">Coming soon</span>
         </div>
-        <div class="sport-tile coming">
-          <img src="/assets/rosterwise-rowing-app-logo.png" alt="RosterWise Rowing">
-          <span class="st-name">Rowing</span><span class="st-cov">Coming soon</span>
-        </div>
+        {% endif %}{% endfor %}
       </div>
     </div>
   </section>
@@ -708,7 +678,7 @@
         <div class="faq-item"><button class="faq-q">What's the difference between D1, D2, D3, and NAIA? <span class="chev">&#9662;</span></button><div class="faq-a"><p>NCAA Division I programs generally have the largest athletic budgets, most scholarships, and highest competitive intensity. Division II balances athletics and academics with partial scholarships. Division III does not offer athletic scholarships but provides competitive athletics within an academics-first model. NAIA programs are typically smaller institutions that can offer athletic scholarships and often have more flexible recruiting rules. Each division offers legitimate competitive experiences &mdash; the right fit depends on your athlete's goals, abilities, and priorities. Read our <a href="/guide/division-differences/">full guide to division differences</a>.</p></div></div>
         <div class="faq-item"><button class="faq-q">What happened to the National Letter of Intent? <span class="chev">&#9662;</span></button><div class="faq-a"><p>The NCAA eliminated the National Letter of Intent (NLI) in October 2024. It was replaced by the Written Offer of Athletics Aid, which serves a similar function &mdash; formalizing a school's commitment to provide financial aid for athletics &mdash; but with some structural differences in how commitments work. Families navigating the recruiting process should be aware that the terminology and process have changed from what older guides and resources may describe. See our <a href="/guide/verbal-commitment-vs-nli/">commitment guide</a> for more detail.</p></div></div>
         <div class="faq-item"><button class="faq-q">How does the House settlement affect college recruiting? <span class="chev">&#9662;</span></button><div class="faq-a"><p>The House v. NCAA settlement, approved June 6, 2025, introduced significant changes to college athletics. For recruiting families, the most relevant changes include roster limits at opt-in D1 schools and the elimination of sport-specific scholarship caps at those schools. These changes affect roster construction, scholarship distribution, and competitive dynamics. The full impact is still developing, and families should expect ongoing adjustments as schools adapt.</p></div></div>
-        <div class="faq-item"><button class="faq-q">What is RosterWise's My RosterFit&trade;? <span class="chev">&#9662;</span></button><div class="faq-a"><p>My RosterFit&trade; checks how each program lines up with your athlete, factor by factor: room at your athlete's position, academics, distance and cost, plus height, roster make-up and your pathway's level in the sports that score them. Each factor gets a light, Strong, Moderate or Low, and each program gets one fit band from the lights: Strong, Good, Mixed or Weak fit. It reads your athlete's position, graduation year, test scores, home and travel distance, and budget, and height and pathway where the sport scores them. There's no single number, and programs are never ranked. It's not a guarantee of admission or a roster spot &mdash; it's a data-informed starting point for building a smarter recruiting list. <a href="/soccer/methodology/rosterfit-score/">Learn how it works</a>.</p></div></div>
+        <div class="faq-item"><button class="faq-q">What is RosterWise's My RosterFit&trade;? <span class="chev">&#9662;</span></button><div class="faq-a">{% set fitSport = null %}{% include "rosterfit-answer.njk" %}</div></div>
         <div class="faq-item"><button class="faq-q">Is RosterWise a subscription? <span class="chev">&#9662;</span></button><div class="faq-a"><p>No. RosterWise is a one-time purchase of $39.99 &mdash; no subscriptions, no monthly fees, no ads, and no upsells. You pay once and have access for your athlete's entire recruiting journey. That's less than the cost of a single training session, and a fraction of what legacy recruiting services charge.</p></div></div>
       </div>
     </div>
@@ -719,7 +689,7 @@
     <div class="container">
       <span class="section-label">Get Started</span>
       <h2 class="section-title">Ready to find your athlete's fit?</h2>
-      <p class="section-sub" style="color:rgba(255,255,255,.7)">Every program across D1, D2, D3, NAIA &amp; NJCAA. One payment of $39.99 &mdash; no subscriptions, no ads, ongoing access for your entire recruiting journey.</p>
+      <p class="section-sub" style="color:rgba(255,255,255,.7)">{{ apps.sports | coverageSummary | ucfirst }}. Free to try; one payment of $39.99 for full access &mdash; no subscriptions, no ads, ongoing access for your entire recruiting journey.</p>
       {# Data-driven from apps.json — every live app gets a download button. #}
       <div class="hero-btns" style="margin-top:30px">
         {% for sport in apps.sports %}{% if sport.live %}

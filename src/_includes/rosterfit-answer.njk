@@ -1,0 +1,16 @@
+{#- The "What is My RosterFit?" answer, with the apps' disclaimer under it (Scott, board app-page, 2026-11-01: "include a
+    disclaimer about this is a DATA MATCH … (we can borrow the language from our app)"). On a sport's own page set
+    `fitSport`: its factors (apps.json) and its app's fitScoreDisclaimer word for word (apps.json fitDisclaimer, copied
+    from the app's SportConfig). Elsewhere the sport-neutral answer and disclaimer (src/_data/rosterFit.json). -#}
+{% if fitSport %}
+<p>A personalized fit check. Enter your athlete&rsquo;s {{ fitSport.rosterFitProfile }}, and My RosterFit&trade; checks each {{ fitSport.name | lower }} program on {{ fitSport.rosterFitFactors }}. Each factor gets a light: Strong, Moderate or Low, or grey when it couldn&rsquo;t be checked. From the lights, each program gets one fit band: Strong, Good, Mixed or Weak fit, or &ldquo;Not enough to judge&rdquo; when too little could be checked. Each program is scored on its last complete roster, and the app names that roster&rsquo;s season. There&rsquo;s no single number, and programs are never ranked.</p>
+{% set rfParas = fitSport.fitDisclaimer or rosterFit.disclaimer %}
+{% else %}
+<p>{{ rosterFit.answer }}</p>
+{% set rfParas = rosterFit.disclaimer %}
+{% endif %}
+<div class="rf-note">
+  <p class="rf-note-head">{{ rosterFit.headline }}</p>
+  {% for p in rfParas %}<p>{{ p }}</p>{% endfor %}
+</div>
+<p><a href="/roster-intelligence/">Learn more about our methodology.</a></p>

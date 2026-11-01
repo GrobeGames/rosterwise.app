@@ -152,7 +152,7 @@ eleventyComputed:
       </div>
       <div class="feature-card">
         <h3>My RosterFit&trade; Personalized Scoring</h3>
-        <p>Enter your athlete&rsquo;s profile — {{ sport.rosterFitProfile }} — and RosterFit checks every program on {{ sport.rosterFitFactors }}. Each factor gets a light, and each program one fit band: Strong, Good, Mixed or Weak fit. Not a generic match list. A personalized fit analysis built on real data.</p>
+        <p>Enter your athlete&rsquo;s profile — {{ sport.rosterFitProfile }} — and RosterFit checks every program on {{ sport.rosterFitFactors }}. Each factor gets a light, and each program one fit band: Strong, Good, Mixed or Weak fit. Not a generic match list. A personalized fit analysis built on real data, and a data match, not a scouting report: it can&rsquo;t see how your athlete plays.</p>
       </div>
     </div>
   </div>
@@ -205,7 +205,7 @@ eleventyComputed:
       </details>
       <details class="faq-item">
         <summary>What is My RosterFit&trade;?</summary>
-        <div class="faq-answer"><p>A personalized fit check. Enter your athlete&rsquo;s {{ sport.rosterFitProfile }}, and RosterFit checks every {{ lname }} program on {{ sport.rosterFitFactors }}. Each factor gets a light, Strong, Moderate or Low, and each program one fit band: Strong, Good, Mixed or Weak fit. There&rsquo;s no single number, and programs are never ranked. <a href="/roster-intelligence/">Learn more about our methodology.</a></p></div>
+        <div class="faq-answer">{% set fitSport = sport %}{% include "rosterfit-answer.njk" %}</div>
       </details>
       <details class="faq-item">
         <summary>Will it tell me which schools will recruit my athlete?</summary>
