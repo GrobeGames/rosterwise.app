@@ -139,16 +139,12 @@ module.exports = function (eleventyConfig) {
     const m = open && /([\d,]+)\+\s+teams/.exec(open.kicker || "");
     return m ? Number(m[1].replace(/,/g, "")) : null;
   };
+  // Always one sport's floor, never a sum across sports: "A recruit is only going to care about their sport. Let's
+  // remove any totals ACROSS all sports" (Scott, board app-page-2, 2026-11-01).
   eleventyConfig.addFilter("teamFloor", (slug, previews) => {
     const n = floorOf(previews, slug);
     return n ? `${n.toLocaleString("en-US")}+` : null;
   });
-  // The floors summed and rounded down to hundreds: still a floor, since each part is one ("5,500+").
-  eleventyConfig.addFilter("teamFloorTotal", (sports, previews) => {
-    const sum = (sports || []).reduce((t, s) => t + (floorOf(previews, s.slug) || 0), 0);
-    return sum ? `${(Math.floor(sum / 100) * 100).toLocaleString("en-US")}+` : null;
-  });
-
   // [{name: "Soccer"}, …] | pluck("name") → ["Soccer", …] (Nunjucks has no map filter).
   eleventyConfig.addFilter("pluck", (items, key) => (items || []).map((o) => o && o[key]));
   // The apps.json entry for one sport slug, or null.
