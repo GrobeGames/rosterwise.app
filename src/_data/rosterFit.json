@@ -1,0 +1,11 @@
+{
+  "_note": "The one 'What is My RosterFit?' answer for the sport-agnostic pages (home, /app/), checked against Core's engine (FitScoreService, FitBand, RWFitDisclaimer) on 2026-11-01. The disclaimer is the apps' own fitScoreDisclaimer, made sport-neutral; each sport's app page uses its app's text word for word (apps.json fitDisclaimer). Scott, board app-page, 2026-11-01: 'include a disclaimer about this is a DATA MATCH that indicate a fit, but on field performance is most important (we can borrow the language from our app)'.",
+  "headline": "A data match, not a scouting report",
+  "answer": "My RosterFit™ checks how each program lines up with your athlete, factor by factor: room at your athlete's position, academics, distance and tuition, plus height, roster make-up and your pathway's level in the sports that score them. Each factor gets a light: Strong, Moderate or Low, or grey when it couldn't be checked. From the lights, each program gets one fit band: Strong, Good, Mixed or Weak fit, or “Not enough to judge” when too little could be checked. It reads your athlete's position, graduation year, test scores, home and travel distance, and budget, and height and pathway where the sport scores them. Each program is scored on its last complete roster, and the app names that roster's season. There's no single number, and programs are never ranked.",
+  "disclaimer": [
+    "My RosterFit™ compares roster and school data ONLY: the roster, your athlete's pathway and height where the sport scores them, test scores, location and tuition budget. It does NOT evaluate playing ability, skill, speed, sport IQ, coachability, or any other on-field performance factor. These are often the MOST CRITICAL elements in a coach's evaluation.",
+    "A strong RosterFit™ fit means the data suggests a statistical match — not that your athlete would earn a roster spot.",
+    "Equally important: a weak RosterFit™ fit does NOT mean your athlete can't earn a roster spot at that school.",
+    "Coaches recruit based on what they see in competition, not on data models. Use it as one input alongside direct coach contact, showcases, and recruiting services."
+  ]
+}

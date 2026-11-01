@@ -169,6 +169,20 @@ module.exports = function (eleventyConfig) {
     return out;
   });
 
+  // What the live apps cover, from apps.json's coverage lines, without claiming a division a sport doesn't carry
+  // (WEB-7: the home page said "Every NCAA D1, D2, D3, NAIA & NJCAA program"; soccer carries no NJCAA programs).
+  // → "D1, D2, D3 and NAIA programs, plus NJCAA in volleyball, men's lacrosse and wrestling".
+  eleventyConfig.addFilter("coverageSummary", (sports) => {
+    const live = (sports || []).filter((s) => s.live && s.subtext);
+    const base = ["D1", "D2", "D3", "NAIA"].filter((d) => live.every((s) => new RegExp(`\\b${d}\\b`).test(s.subtext)));
+    const juco = live
+      .filter((s) => /NJCAA/.test(s.subtext))
+      .map((s) => (/NJCAA \(men's\)/.test(s.subtext) ? `men's ${s.name.toLowerCase()}` : s.name.toLowerCase()));
+    return `${andList(base)} programs` + (juco.length ? `, plus NJCAA in ${andList(juco)}` : "");
+  });
+  // "varsity crews" → "Varsity crews" (Nunjucks' capitalize lowercases the rest: "D1, d2").
+  eleventyConfig.addFilter("ucfirst", (s) => (typeof s === "string" && s ? s[0].toUpperCase() + s.slice(1) : s));
+
   // An App Store rating as Apple shows it: one decimal place ("5.0").
   eleventyConfig.addFilter("oneDecimal", (n) => (Number.isFinite(Number(n)) ? Number(n).toFixed(1) : ""));
 

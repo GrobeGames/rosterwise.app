@@ -211,3 +211,9 @@
 .ap-final-cta { margin-top: 24px; }
 .product-page .ap-explore { margin-top: 22px; font-size: 14px; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; }
 .ap-explore a { color: var(--gold); }
+
+/* --- RosterFit's disclaimer (src/_includes/rosterfit-answer.njk): the apps' tan caution wash -------------------- */
+.rf-note { margin: 12px 0; padding: 14px 16px; border-radius: 12px; background: #f6ecd6; border: 1px solid #e3cf9f; }
+.product-page .rf-note p { font-size: 15px; line-height: 1.6; color: #4b3b16; margin: 0 0 8px; }
+.product-page .rf-note p:last-child { margin-bottom: 0; }
+.product-page .rf-note .rf-note-head { font-weight: 700; color: #3d2f0f; }

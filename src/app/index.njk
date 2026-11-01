@@ -24,7 +24,8 @@ eleventyComputed:
     - q: "Do I need an account? Where does my athlete's information go?"
       a: "No account and no login. Your athlete's My RosterFit™ profile stays on your device and in your own iCloud. It's never sent to us. <a href='/privacy/'>Read the privacy policy.</a>"
     - q: "What is My RosterFit™?"
-      a: "My RosterFit™ checks how each program lines up with your athlete, factor by factor: room at your athlete's position, academics, distance and cost, plus height, roster make-up and your pathway's level in the sports that score them. Each factor gets a light, Strong, Moderate or Low, and each program gets one fit band from the lights: Strong, Good, Mixed or Weak fit. It reads your athlete's position, graduation year, test scores, home and travel distance, and budget, and height and pathway where the sport scores them. There's no single number, and programs are never ranked. It's not a guarantee of admission or a roster spot — it's a data-informed starting point for building a smarter recruiting list. <a href='/roster-intelligence/'>Learn more about our roster intelligence methodology.</a>"
+      rf: true
+      a: "{{ rosterFit.answer | safe }} {{ rosterFit.headline }}: {{ rosterFit.disclaimer | join(' ') | safe }}"
     - q: "Will RosterWise tell me which schools will recruit my athlete?"
       a: "No — and we're upfront about that. No tool can predict recruiting outcomes, because they depend on individual circumstances, coach communication, timing, and many factors no dataset can capture. What RosterWise does is give families the analysis to make better-informed decisions about where to focus their recruiting effort. It's intelligence, not a crystal ball."
     - q: "Do you offer recruiting consulting or coach outreach?"
@@ -199,7 +200,7 @@ eleventyComputed:
       <div>
         <h3>For your athlete</h3>
         <ul>
-          <li><b>My RosterFit&trade;:</b> a fit band, with a light for each factor</li>
+          <li><b>My RosterFit&trade;:</b> a fit band, with a light for each factor. A data match, not a scouting report: it can&rsquo;t see how your athlete plays</li>
           <li><b>Compare</b> programs side by side, and save favorites with notes</li>
           <li><b>A recruiting timeline</b> that opens at your athlete&rsquo;s year</li>
         </ul>
@@ -218,7 +219,7 @@ eleventyComputed:
       <details class="faq-item">
         <summary>{{ item.q }}</summary>
         <div class="faq-answer">
-          <p>{{ item.a | safe }}</p>
+          {% if item.rf %}{% set fitSport = null %}{% include "rosterfit-answer.njk" %}{% else %}<p>{{ item.a | safe }}</p>{% endif %}
         </div>
       </details>
       {% endfor %}
