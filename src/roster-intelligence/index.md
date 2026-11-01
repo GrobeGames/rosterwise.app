@@ -2,7 +2,7 @@
 layout: content.njk
 title: "What Is College Sports Roster Intelligence? | RosterWise™ Methodology"
 description: "Roster intelligence analyzes every college sports program — position depth, class-year gaps, international composition, pathways, and fit scoring."
-date: 2026-05-17
+date: 2026-11-01
 breadcrumbs:
   - text: Home
     url: /
@@ -154,7 +154,7 @@ The same core methodology — depth analysis, class-year gaps, physical profiles
 
 Wrestling is the clearest example of why that adaptation matters. Fit in wrestling isn't a position question, it's a **weight-class** question: who wrestles your weight, and when do they graduate? The [wrestling methodology](/wrestling/methodology/) explains how the same roster-intelligence foundation is applied one weight at a time.
 
-Additional sports are planned — softball, rowing, field hockey, baseball, and more. Each ships as a dedicated app with tailored analysis, built on the same roster intelligence foundation.
+Softball and rowing are next. Each ships as a dedicated app with tailored analysis, built on the same roster intelligence foundation.
 
 ## Why this is different from recruiting profile services
 

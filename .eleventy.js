@@ -130,6 +130,52 @@ module.exports = function (eleventyConfig) {
     )
   );
 
+  // A sport's team floor ("2,200+"), read from the opening card of its first App Preview video in previews.json
+  // ("Men's & women's college soccer · 2,200+ teams"), so the site states exactly the floor the videos and the store
+  // state, counted from the shipping bundle by the release's fact log. null when the sport has no videos on the site.
+  const floorOf = (previews, slug) => {
+    const v = previews && previews[slug] && (previews[slug].videos || [])[0];
+    const open = v && (v.words || []).find((w) => w.kind === "open");
+    const m = open && /([\d,]+)\+\s+teams/.exec(open.kicker || "");
+    return m ? Number(m[1].replace(/,/g, "")) : null;
+  };
+  eleventyConfig.addFilter("teamFloor", (slug, previews) => {
+    const n = floorOf(previews, slug);
+    return n ? `${n.toLocaleString("en-US")}+` : null;
+  });
+  // The floors summed and rounded down to hundreds: still a floor, since each part is one ("5,500+").
+  eleventyConfig.addFilter("teamFloorTotal", (sports, previews) => {
+    const sum = (sports || []).reduce((t, s) => t + (floorOf(previews, s.slug) || 0), 0);
+    return sum ? `${(Math.floor(sum / 100) * 100).toLocaleString("en-US")}+` : null;
+  });
+
+  // [{name: "Soccer"}, …] | pluck("name") → ["Soccer", …] (Nunjucks has no map filter).
+  eleventyConfig.addFilter("pluck", (items, key) => (items || []).map((o) => o && o[key]));
+  // The apps.json entry for one sport slug, or null.
+  eleventyConfig.addFilter("sportBySlug", (sports, slug) => (sports || []).find((s) => s.slug === slug) || null);
+  // ["Soccer", "Volleyball", "Lacrosse"] → "Soccer, Volleyball and Lacrosse".
+  const andList = (items) => {
+    const a = (items || []).filter(Boolean);
+    return a.length < 2 ? a.join("") : `${a.slice(0, -1).join(", ")} and ${a[a.length - 1]}`;
+  };
+  eleventyConfig.addFilter("andList", andList);
+  // 4 → "four", for sentences like "across four sports".
+  eleventyConfig.addFilter("countWord", (n) =>
+    ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"][n] || String(n)
+  );
+  // The "which sports" answer, from apps.json: the live apps with their coverage lines, then the ones coming.
+  eleventyConfig.addFilter("coverageAnswer", (sports) => {
+    const live = (sports || []).filter((s) => s.live);
+    const soon = (sports || []).filter((s) => !s.live);
+    let out = `RosterWise ${andList(live.map((s) => s.name))} are available now, each as its own app. `;
+    out += live.map((s) => `${s.name}: ${s.subtext}.`).join(" ");
+    if (soon.length) out += ` ${andList(soon.map((s) => s.name))} ${soon.length > 1 ? "are" : "is"} coming next.`;
+    return out;
+  });
+
+  // An App Store rating as Apple shows it: one decimal place ("5.0").
+  eleventyConfig.addFilter("oneDecimal", (n) => (Number.isFinite(Number(n)) ? Number(n).toFixed(1) : ""));
+
   // Seconds → "0:29", as a video player shows a length (whole seconds, rounded down).
   eleventyConfig.addFilter("clock", (seconds) => {
     const s = Math.floor(Number(seconds) || 0);

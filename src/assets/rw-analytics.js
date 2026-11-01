@@ -27,7 +27,12 @@
   // (a dialog appended to <body>) and the end-of-page spotlight are found before the section they sit in.
   var PLACES = [
     [".rw-player", "player"],
+    ["[data-ap-loop]", "hero_loop"],
+    [".ap-tour-set", "tours"],
     ["[data-reels]", "band"],
+    [".ap-free", "try_free"],
+    [".ap-card", "sport_card"],
+    [".ap-quote", "review"],
     [".content-cta", "content_cta"],
     [".program-cta", "program_cta"],
     [".hub-cta", "hub_cta"],

@@ -1,0 +1,207 @@
+/* /app/, the apps' sales page (board app-page; Scott's marks, 2026-11-01). Phone first; two columns from 920 px.
+   Markup: src/app/index.njk; behaviour: app-page.js. Uses the site's tokens (--navy, --gold, --cream …). */
+
+.product-page [data-ap-for][hidden] { display: none !important; }
+
+.ap-kicker { font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--gold-dark); margin: 0 0 6px; }
+.product-section--navy .ap-kicker { color: var(--gold); }
+.ap-lead { color: var(--text-muted); }
+.product-page .ap-lead { margin-bottom: 8px; }
+
+.ap-btn {
+  display: inline-block; padding: 14px 26px; border-radius: 10px; font-weight: 700; font-size: 16px; line-height: 1.2;
+  text-decoration: none; text-align: center;
+}
+.ap-btn--gold { background: var(--gold); color: var(--navy-dark); }
+.ap-btn--gold:hover, .ap-btn--gold:focus-visible { background: var(--gold-light); }
+.ap-btn--ink { background: var(--navy); color: var(--white); }
+.ap-btn--ink:hover, .ap-btn--ink:focus-visible { background: var(--navy-light); }
+.ap-btn:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+
+/* --- Hero ------------------------------------------------------------------------------------------------------ */
+
+.ap-hero { padding-top: clamp(40px, 7vw, 88px); padding-bottom: clamp(36px, 6vw, 72px); }
+.ap-hero-grid { position: relative; z-index: 2; max-width: 1120px; margin: 0 auto; display: grid; gap: 28px; }
+.ap-eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; }
+.ap-hero .tagline { margin-bottom: 0; }
+
+.ap-chips { display: grid; grid-template-columns: repeat(auto-fit, minmax(72px, 1fr)); gap: 8px; max-width: 470px; margin: 24px auto 0; }
+.ap-chip {
+  display: flex; flex-direction: column; align-items: center; gap: 5px; padding: 10px 4px 8px; min-height: 44px;
+  border-radius: 14px; border: 1px solid rgba(255, 255, 255, .22); background: rgba(255, 255, 255, .04);
+  color: rgba(255, 255, 255, .88); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer;
+}
+.ap-chip img { width: 36px; height: 36px; border-radius: 9px; }
+.ap-chip:hover { border-color: rgba(200, 164, 78, .7); }
+.ap-chip[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: var(--navy-dark); }
+.ap-chip:focus-visible { outline: 3px solid var(--gold-light); outline-offset: 2px; }
+
+.ap-cta { margin-top: 22px; }
+.ap-cta-set { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+/* Apple: badge at least 40 px tall onscreen, clear space a quarter of its height, artwork unmodified. */
+.ap-badge { display: inline-block; padding: 13px; margin: -13px; line-height: 0; }
+.ap-badge img { height: 50px; width: auto; }
+.ap-offer { margin-top: 12px; font-size: 16px; color: rgba(255, 255, 255, .88); }
+.ap-offer b { color: var(--gold); }
+.ap-watch {
+  display: inline-block; margin-top: 14px; padding: 9px 16px; border-radius: 999px; font-size: 14px; font-weight: 600;
+  color: var(--gold-light); border: 1px solid rgba(200, 164, 78, .55); text-decoration: none;
+}
+.ap-watch:hover, .ap-watch:focus-visible { background: rgba(200, 164, 78, .14); }
+
+.ap-rating { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; margin: 0; }
+.ap-rating--hero { color: rgba(255, 255, 255, .78); }
+.ap-rating--hero b { color: var(--white); }
+.ap-rating--card { color: var(--text-muted); margin-top: 4px; font-size: 13px; }
+.ap-rating--card b { color: var(--navy); }
+.ap-stars { position: relative; display: inline-block; font-size: 15px; letter-spacing: 2px; line-height: 1; color: rgba(127, 127, 127, .35); }
+.ap-stars::before { content: "\2605\2605\2605\2605\2605"; }
+.ap-stars::after {
+  content: "\2605\2605\2605\2605\2605"; position: absolute; left: 0; top: 0; width: var(--ap-stars, 0%);
+  overflow: hidden; white-space: nowrap; color: #f2b01e;
+}
+
+.ap-hero-media { display: flex; justify-content: center; }
+.ap-loop { margin: 0; text-align: center; }
+.ap-loop-frame {
+  width: min(250px, 66vw); margin: 0 auto; border-radius: 24px; overflow: hidden; background: #1c4a35;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, .45); outline: 1px solid rgba(255, 255, 255, .14);
+}
+.ap-loop-frame video { display: block; width: 100%; height: 100%; object-fit: cover; }
+.ap-loop-ctl { display: flex; justify-content: center; gap: 8px; margin-top: 12px; }
+.ap-loop-ctl button {
+  font: inherit; font-size: 13px; font-weight: 600; color: var(--white); background: rgba(255, 255, 255, .08);
+  border: 1px solid rgba(255, 255, 255, .24); border-radius: 999px; padding: 7px 14px; min-height: 36px; cursor: pointer;
+}
+.ap-loop-ctl button:hover { background: rgba(255, 255, 255, .16); }
+.ap-loop-ctl button:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.ap-loop figcaption { margin-top: 8px; font-size: 12px; color: rgba(255, 255, 255, .55); }
+.ap-loop-icon { width: 200px; height: 200px; border-radius: 40px; box-shadow: 0 18px 50px rgba(0, 0, 0, .4); }
+
+.ap-soon {
+  position: relative; z-index: 2; max-width: 1120px; margin: 32px auto 0; padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, .12); display: flex; align-items: center; justify-content: center;
+  gap: 8px; flex-wrap: wrap; font-size: 14px; color: rgba(255, 255, 255, .7);
+}
+.ap-soon img { width: 28px; height: 28px; border-radius: 7px; opacity: .8; }
+.ap-soon a { color: var(--gold); font-weight: 600; margin-left: 6px; }
+
+@media (min-width: 920px) {
+  .ap-hero { text-align: left; }
+  .ap-hero-grid { grid-template-columns: minmax(0, 1fr) 320px; gap: 64px; align-items: center; }
+  .ap-chips { margin-left: 0; }
+  .ap-cta-set { flex-direction: row; gap: 22px; }
+  .ap-loop-frame { width: 300px; }
+  .ap-soon { justify-content: flex-start; }
+}
+
+/* --- Proof ----------------------------------------------------------------------------------------------------- */
+
+.ap-proof { background: var(--white); padding: 28px clamp(20px, 5vw, 40px); }
+.ap-proof-inner { max-width: 1000px; margin: 0 auto; }
+.ap-stats { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+.ap-stats li { background: var(--cream); border-radius: 14px; padding: 14px 16px; }
+.ap-stats b { display: block; font-family: 'Playfair Display', serif; font-size: 28px; line-height: 1.1; color: var(--navy); }
+.ap-stats span { font-size: 13px; color: var(--text-muted); }
+.ap-terms { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; margin-top: 14px; font-size: 14px; color: var(--text-muted); }
+.ap-terms span::before { content: "\2713"; color: var(--gold-dark); font-weight: 700; margin-right: 6px; }
+
+/* --- Tours ----------------------------------------------------------------------------------------------------- */
+
+/* reels.css sets these on .rw-reels; the tours reuse its poster button outside that wrapper. */
+.ap-tours { --rw-gold: #c8a44e; --rw-gold-ink: #8a6d2b; --rw-navy: #1a2744; }
+.ap-tours .container { max-width: 1080px; }
+.ap-tour-list { list-style: none; display: grid; gap: 30px; margin-top: 26px; }
+.ap-tour { display: grid; grid-template-columns: 124px minmax(0, 1fr); gap: 16px; align-items: start; }
+.ap-tour-media { border-radius: 16px; }
+.ap-tour .rw-reel-icon { width: 46px; height: 46px; }
+.ap-tour .rw-reel-icon::after { border-width: 9px 0 9px 15px; }
+.ap-tour-text h3 { font-size: 17px; line-height: 1.3; color: var(--navy); margin-bottom: 4px; }
+.ap-tour-text h3 span {
+  display: block; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--gold-dark);
+}
+.ap-qs { list-style: none; }
+.ap-qs li { padding: 7px 0; border-top: 1px solid #e4dfd2; font-size: 14px; font-weight: 600; color: var(--text-dark); line-height: 1.35; }
+.ap-qs li small { display: block; font-size: 13px; font-weight: 400; color: var(--text-muted); }
+.ap-note { margin-top: 18px; font-size: 13px; color: var(--text-muted); text-align: center; }
+
+@media (min-width: 900px) {
+  .ap-tour-set > h2, .ap-tour-set > .ap-kicker, .ap-tour-set > .ap-lead { text-align: center; }
+  .ap-tour-list { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; }
+  .ap-tour { grid-template-columns: 1fr; gap: 14px; }
+  .ap-tour-media { width: min(100%, 250px); margin: 0 auto; border-radius: 22px; }
+  .ap-tour .rw-reel-icon { width: 64px; height: 64px; }
+  .ap-tour .rw-reel-icon::after { border-width: 12px 0 12px 20px; }
+}
+
+/* --- Try it free ----------------------------------------------------------------------------------------------- */
+
+.ap-steps { list-style: none; counter-reset: ap-step; margin: 18px 0 0; max-width: 640px; }
+.ap-steps li {
+  counter-increment: ap-step; display: grid; grid-template-columns: 34px 1fr; column-gap: 14px; padding: 14px 0;
+  border-top: 1px solid rgba(255, 255, 255, .12);
+}
+.ap-steps li::before {
+  content: counter(ap-step); grid-row: span 2; width: 32px; height: 32px; border-radius: 50%; background: var(--gold);
+  color: var(--navy-dark); font-weight: 700; display: flex; align-items: center; justify-content: center;
+}
+.ap-steps b { color: var(--white); font-size: 17px; }
+.ap-steps span { color: rgba(255, 255, 255, .78); font-size: 15px; }
+.product-page .ap-compare { margin: 18px 0 0; font-size: 15px; color: rgba(255, 255, 255, .7); }
+.ap-free-cta { margin-top: 22px; }
+
+/* --- Sport cards ----------------------------------------------------------------------------------------------- */
+
+.ap-sports .container { max-width: 1080px; }
+.ap-cards { list-style: none; display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; margin-top: 24px; }
+/* Two across from tablet width, so four apps make a square and six make three rows. */
+@media (min-width: 720px) { .ap-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.ap-card {
+  display: flex; flex-direction: column; background: var(--white); border: 1px solid #e4dfd2; border-radius: 18px;
+  overflow: hidden; box-shadow: 0 6px 22px rgba(15, 26, 46, .1);
+}
+.ap-card-art { display: block; width: 100%; height: auto; aspect-ratio: 960 / 411; object-fit: cover; }
+.ap-card-art--plain { display: flex; align-items: center; justify-content: center; background: var(--navy); }
+.ap-card-art--plain img { width: 96px; height: 96px; border-radius: 22px; }
+.ap-card-body { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 12px; align-items: center; padding: 14px 16px 6px; }
+.ap-card-icon { width: 52px; height: 52px; border-radius: 12px; }
+.ap-card h3 { font-size: 17px; color: var(--navy); line-height: 1.25; }
+.product-page .ap-card-cov { font-size: 13px; line-height: 1.4; color: var(--text-muted); margin: 2px 0 0; }
+.ap-card-acts { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; padding: 10px 16px 4px; margin-top: auto; }
+.ap-card-acts .ap-btn { padding: 12px 20px; font-size: 15px; }
+.ap-card-acts .rw-watch-wrap { margin-top: 0; }
+.ap-card .rw-watch { color: #6b5420; background: rgba(200, 164, 78, .12); font-size: 14px; padding: 10px 14px; }
+.ap-card .rw-watch:hover, .ap-card .rw-watch:focus-visible { background: rgba(200, 164, 78, .24); }
+.ap-card-more { display: block; padding: 8px 16px 16px; font-size: 14px; font-weight: 600; color: var(--gold-dark); text-decoration: none; }
+.ap-card-more:hover { text-decoration: underline; }
+
+.ap-soon-tiles { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 18px; }
+.ap-soon-tiles li { display: flex; gap: 12px; align-items: flex-start; background: var(--cream); border-radius: 14px; padding: 14px; }
+.ap-soon-tiles img { width: 44px; height: 44px; border-radius: 10px; opacity: .85; flex: none; }
+.ap-soon-tiles b { display: block; color: var(--navy); font-size: 15px; }
+.ap-soon-tiles span { display: block; font-size: 13px; color: var(--text-muted); }
+.ap-soon-tiles a { display: inline-block; margin-top: 4px; font-size: 13px; font-weight: 600; color: var(--gold-dark); }
+
+/* --- From families --------------------------------------------------------------------------------------------- */
+
+.ap-quote { background: var(--white); border: 1px solid #e4dfd2; border-radius: 16px; padding: 20px 22px; margin: 10px 0 34px; }
+.product-page .ap-quote p { font-family: 'Playfair Display', serif; font-size: clamp(20px, 3vw, 26px); line-height: 1.35; color: var(--navy); margin: 0; }
+.ap-quote footer { margin-top: 10px; font-size: 14px; color: var(--text-muted); display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.ap-quote footer a { color: var(--gold-dark); }
+
+/* --- Everything about a program ------------------------------------------------------------------------------- */
+
+.product-page .ap-depth-lead { font-size: 17px; color: var(--text-dark); }
+.ap-lists { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px 28px; margin-top: 10px; }
+.ap-lists h3 { font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--gold-dark); margin: 14px 0 6px; }
+.ap-lists ul { list-style: none; }
+.ap-lists li { padding: 8px 0; border-top: 1px solid #e4dfd2; font-size: 15px; line-height: 1.45; color: var(--text-dark); }
+.ap-lists li b { color: var(--navy); }
+.product-page .ap-limits { margin-top: 24px; padding: 4px 0 4px 14px; border-left: 3px solid var(--gold); font-size: 15px; color: var(--text-muted); }
+.ap-limits a { color: var(--gold-dark); font-weight: 600; }
+
+/* --- Close ----------------------------------------------------------------------------------------------------- */
+
+.ap-final-cta { margin-top: 24px; }
+.product-page .ap-explore { margin-top: 22px; font-size: 14px; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; }
+.ap-explore a { color: var(--gold); }

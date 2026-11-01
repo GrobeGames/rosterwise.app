@@ -1,183 +1,291 @@
 ---
 layout: product.njk
-title: "RosterWise™ — College Recruiting Intelligence Apps | $39.99 One-Time"
-description: "RosterWise™ apps analyze every college program — roster depth, class year gaps, recruiting pathways, and personalized fit bands. Soccer, Volleyball, Lacrosse, and Wrestling available now; Softball and Rowing coming soon. $39.99 one-time."
 og_type: website
 breadcrumbs:
   - text: Home
     url: /
   - text: RosterWise Apps
-faq:
-  - q: "What sports does RosterWise currently cover?"
-    a: "RosterWise Soccer, Volleyball, Lacrosse, and Wrestling are available now. Soccer covers men's and women's NCAA D1, D2, D3, and NAIA programs; Volleyball and Wrestling cover men's and women's NCAA D1, D2, D3, NAIA, and NJCAA programs; Lacrosse covers men's and women's NCAA D1, D2, D3, and NAIA programs, plus men's NJCAA programs. Softball, rowing, field hockey, and more are planned. Each sport launches as its own app."
-  - q: "Is this a subscription?"
-    a: "No. RosterWise is a one-time purchase of $39.99. No monthly fees, no annual renewals, no ads. You pay once and get lifetime access for your athlete's entire recruiting journey."
-  - q: "What divisions does RosterWise cover?"
-    a: "Soccer covers NCAA Division I, II, III, and NAIA. Volleyball and Wrestling cover NCAA Division I, II, III, NAIA, and NJCAA — both men's and women's programs. Lacrosse covers NCAA Division I, II, III, and NAIA for both men's and women's, plus NJCAA on the men's side. Every program with a published roster is included."
-  - q: "How current is the roster data?"
-    a: "Roster data is refreshed regularly throughout the recruiting cycle. Each data refresh is captured from the official athletics website of every program, so the analysis reflects the current state of each roster."
-  - q: "Will I get future updates?"
-    a: "Yes. Lifetime access includes ongoing data refreshes for the sport you purchase. As rosters change each season, RosterWise updates the analysis automatically."
-  - q: "What is My RosterFit™?"
-    a: "My RosterFit™ checks how each program lines up with your athlete, factor by factor: room at your athlete's position, academics, distance and cost, plus height, roster make-up and your pathway's level in the sports that score them. Each factor gets a light, Strong, Moderate or Low, and each program gets one fit band from the lights: Strong, Good, Mixed or Weak fit. It reads your athlete's position, graduation year, test scores, home and travel distance, and budget, and height and pathway where the sport scores them. There's no single number, and programs are never ranked. It's not a guarantee of admission or a roster spot — it's a data-informed starting point for building a smarter recruiting list. <a href='/roster-intelligence/'>Learn more about our roster intelligence methodology.</a>"
-  - q: "Will RosterWise tell me which schools will recruit my athlete?"
-    a: "No — and we're upfront about that. No tool can predict recruiting outcomes, because they depend on individual circumstances, coach communication, timing, and many factors no dataset can capture. What RosterWise does is give families the analysis to make better-informed decisions about where to focus their recruiting effort. It's intelligence, not a crystal ball."
-  - q: "Do you offer recruiting consulting or coach outreach?"
-    a: "No. RosterWise is a self-service intelligence tool, not a recruiting service. We focus on giving families the data and analysis to do their own research — because nobody knows your athlete's situation better than your family."
+eleventyComputed:
+  title: "RosterWise™ — College Recruiting Intelligence Apps | Free to Try"
+  description: "RosterWise™ apps for college {{ apps.sports | selectattr('live') | pluck('name') | andList | lower }} recruiting: roster depth, class-year gaps, recruiting pathways and My RosterFit™ fit bands for each program. Free to try; $39.99 once for full access."
+  faq:
+    - q: "Is RosterWise free?"
+      a: "Free to try. Download the app and open three programs in full, plus one conference, and browse every program on the map and in the list before you decide. Full access is one in-app purchase of $39.99."
+    - q: "Is this a subscription?"
+      a: "No. Full access is a one-time purchase of $39.99: no subscription, no renewals, no ads. You pay once and keep it for your athlete's whole recruiting journey."
+    - q: "Which sports and divisions does RosterWise cover?"
+      a: "{{ apps.sports | coverageAnswer | safe }}"
+    - q: "How current are the rosters?"
+      a: "Rosters are read from each school's own athletics site, and every roster is labeled with its season. A program whose newest roster isn't complete yet keeps showing its last complete one, so a half-posted roster never stands in for the real team. New rosters arrive with app updates."
+    - q: "Will I get future updates?"
+      a: "Yes. Your purchase includes the app's updates for the sport you buy, and each season's new rosters arrive in them."
+    - q: "Does it work on iPad?"
+      a: "Yes. Each app runs on iPhone and iPad."
+    - q: "Do I need an account? Where does my athlete's information go?"
+      a: "No account and no login. Your athlete's My RosterFit™ profile stays on your device and in your own iCloud. It's never sent to us. <a href='/privacy/'>Read the privacy policy.</a>"
+    - q: "What is My RosterFit™?"
+      a: "My RosterFit™ checks how each program lines up with your athlete, factor by factor: room at your athlete's position, academics, distance and cost, plus height, roster make-up and your pathway's level in the sports that score them. Each factor gets a light, Strong, Moderate or Low, and each program gets one fit band from the lights: Strong, Good, Mixed or Weak fit. It reads your athlete's position, graduation year, test scores, home and travel distance, and budget, and height and pathway where the sport scores them. There's no single number, and programs are never ranked. It's not a guarantee of admission or a roster spot — it's a data-informed starting point for building a smarter recruiting list. <a href='/roster-intelligence/'>Learn more about our roster intelligence methodology.</a>"
+    - q: "Will RosterWise tell me which schools will recruit my athlete?"
+      a: "No — and we're upfront about that. No tool can predict recruiting outcomes, because they depend on individual circumstances, coach communication, timing, and many factors no dataset can capture. What RosterWise does is give families the analysis to make better-informed decisions about where to focus their recruiting effort. It's intelligence, not a crystal ball."
+    - q: "Do you offer recruiting consulting or coach outreach?"
+      a: "No. RosterWise is a self-service intelligence tool, not a recruiting service. We focus on giving families the data and analysis to do their own research — because nobody knows your athlete's situation better than your family."
 ---
+{#- The apps' sales page (board app-page; Scott's marks, 2026-11-01). One sport is "chosen" at a time: the hero's
+    chips, its video, the tours, the try-free button and the closing button all follow it (src/assets/app-page.js).
+    Without JavaScript the first live sport shows, and every link still works. Everything per sport comes from
+    apps.json (names, coverage, store links, art) and previews.json (videos, their questions, the team floors), so a
+    sport that goes live, or gets its videos, appears here with no edit to this page. -#}
+{% set live = apps.sports | selectattr("live") %}
+{% set soon = apps.sports | rejectattr("live") %}
+{% set reel = apps.sports | withPreviews(previews) %}
+<link rel="stylesheet" href="/assets/app-page.css?v=1">
 
-<!-- Hero -->
-<section class="product-hero">
-  <div class="product-hero-inner">
-    <h1>Find the College Programs<br>Where Your Athlete Actually Fits</h1>
-    <p class="tagline">RosterWise&trade; &mdash; deep roster intelligence for recruiting families, in a dedicated app for every sport</p>
-    <div class="product-price-badge">
-      <strong>$39.99 one-time</strong> &mdash; No subscriptions &middot; No ads &middot; Lifetime access
-    </div>
+{%- macro rating(s, cls, ratings) -%}
+{% set r = ratings.sports[s.slug] %}
+{% if r and r.count >= ratings.minCount %}
+<p class="ap-rating {{ cls }}" title="App Store rating, read {{ r.read }}">
+  <span class="ap-stars" style="--ap-stars: {{ (r.rating / 5 * 100) | round(1) }}%" aria-hidden="true"></span>
+  <span><b>{{ r.rating | oneDecimal }}</b> on the App Store · {{ r.count }} ratings</span>
+</p>
+{% endif %}
+{%- endmacro -%}
 
-    <!-- App Logos — data-driven from apps.json (coverage strings included). -->
-    <div style="display: flex; justify-content: center; gap: 36px; flex-wrap: wrap; margin: 40px auto 0; max-width: 860px;">
-      {% for sport in apps.sports %}
-      {% if sport.live %}
-      <a href="{{ sport.appStoreUrl }}" target="_blank" rel="noopener" style="text-decoration: none; text-align: center;">
-        <img src="{{ sport.logo }}" alt="RosterWise {{ sport.name }} App" width="220" height="220" style="border-radius: 24px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 12px 40px rgba(0,0,0,0.45)';" onmouseout="this.style.transform='';this.style.boxShadow='0 8px 32px rgba(0,0,0,0.3)';" loading="eager">
-        <div style="margin-top: 14px;">
-          <span style="display: inline-block; background: var(--gold); color: var(--navy-dark); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 14px; border-radius: 12px;">Available Now</span>
-        </div>
-        <h3 style="color: var(--white); font-size: 17px; margin-top: 10px;">RosterWise&trade; {{ sport.name }}</h3>
-        <p style="font-size: 13px; color: rgba(255,255,255,0.6); margin-top: 2px;">{{ sport.subtext }}</p>
-      </a>
-      {% else %}
-      <div style="text-align: center;">
-        <img src="{{ sport.logo }}" alt="RosterWise {{ sport.name }} App" width="220" height="220" style="border-radius: 24px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); opacity: 0.6;" loading="lazy">
-        <div style="margin-top: 14px;">
-          <span style="display: inline-block; background: rgba(255,255,255,0.12); color: rgba(255,255,255,0.7); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 14px; border-radius: 12px;">Coming Soon</span>
-        </div>
-        <h3 style="color: var(--white); font-size: 17px; margin-top: 10px;">RosterWise&trade; {{ sport.name }}</h3>
-        <p style="font-size: 13px; color: rgba(255,255,255,0.6); margin-top: 2px;">{{ sport.subtext }}</p>
+<!-- Hero: choose a sport, see its Fit tour, one App Store badge -->
+<section class="product-hero ap-hero" id="top">
+  <div class="ap-hero-grid">
+    <div class="ap-hero-copy">
+      <p class="ap-eyebrow">RosterWise&trade; apps &middot; iPhone &amp; iPad</p>
+      <h1>Find the College Programs<br>Where Your Athlete Actually Fits</h1>
+      <p class="tagline">Deep roster intelligence for recruiting families, in a dedicated app for each sport.</p>
+
+      {% if live.length > 1 %}
+      <div class="ap-chips" role="group" aria-label="Choose a sport">
+        {% for s in live %}
+        <button type="button" class="ap-chip" data-ap-sport="{{ s.slug }}" aria-pressed="{{ 'true' if loop.first else 'false' }}">
+          <img src="{{ s.logo }}" alt="" width="36" height="36" loading="eager"><span>{{ s.name }}</span>
+        </button>
+        {% endfor %}
       </div>
       {% endif %}
+
+      <div class="ap-cta">
+        {% for s in live %}
+        <div class="ap-cta-set" data-ap-for="{{ s.slug }}"{% if not loop.first %} hidden{% endif %}>
+          <a class="ap-badge" href="{{ s.appStoreUrl }}" target="_blank" rel="noopener">
+            <img src="/assets/badges/download-on-the-app-store-black.svg" alt="Download RosterWise {{ s.name }} on the App Store" width="150" height="50">
+          </a>
+          {{ rating(s, "ap-rating--hero", appRatings) }}
+        </div>
+        {% endfor %}
+        <p class="ap-offer"><b>Free to try.</b> $39.99 once for full access. No subscription.</p>
+        {% if reel.length %}<a class="ap-watch" href="#tours">&#9654;&ensp;Watch the three tours with sound</a>{% endif %}
+      </div>
+    </div>
+
+    <div class="ap-hero-media">
+      {% for s in live %}
+      {% set fit = previews[s.slug].videos[0] if previews[s.slug] else null %}
+      <figure class="ap-loop" data-ap-for="{{ s.slug }}"{% if not loop.first %} hidden{% endif %}>
+        {% if fit %}
+        <div class="ap-loop-frame" style="aspect-ratio: {{ fit.width }} / {{ fit.height }};">
+          <video data-ap-loop muted playsinline loop preload="none" poster="{{ fit.poster }}" data-src="{{ fit.src }}"
+                 width="{{ fit.width }}" height="{{ fit.height }}"
+                 aria-label="The {{ fit.title }} tour of RosterWise {{ s.name }}, playing without sound"></video>
+        </div>
+        <div class="ap-loop-ctl">
+          <button type="button" data-ap-pause aria-pressed="false">Pause</button>
+          <button type="button" data-ap-sound aria-pressed="false">Sound on</button>
+        </div>
+        <figcaption>The {{ fit.title }} tour &middot; {{ fit.seconds | clock }} &middot; sample programs</figcaption>
+        {% else %}
+        <img class="ap-loop-icon" src="{{ s.logo }}" alt="RosterWise {{ s.name }}" width="220" height="220">
+        {% endif %}
+      </figure>
       {% endfor %}
     </div>
   </div>
+
+  {% if soon.length %}
+  <p class="ap-soon">
+    {% for s in soon %}<img src="{{ s.logo }}" alt="" width="28" height="28" loading="lazy">{% endfor %}
+    <span>{{ soon | pluck("name") | andList }} {{ "are" if soon.length > 1 else "is" }} on the way.
+    {% for s in soon %}{% if s.hub %}<a href="{{ s.hub }}">{{ s.name }} guides&nbsp;&rarr;</a> {% endif %}{% endfor %}</span>
+  </p>
+  {% endif %}
 </section>
 
-<!-- The Problem -->
-<section class="product-section product-section--cream">
+<!-- Proof: the team floors the videos and the store state, and the terms -->
+<section class="ap-proof">
+  <div class="ap-proof-inner">
+    {% if reel.length %}
+    <ul class="ap-stats">
+      {% for s in reel %}{% set floor = s.slug | teamFloor(previews) %}{% if floor %}
+      <li><b>{{ floor }}</b><span>college {{ s.name | lower }} teams</span></li>
+      {% endif %}{% endfor %}
+    </ul>
+    {% endif %}
+    <p class="ap-terms"><span>Rosters read from each school&rsquo;s own athletics site</span><span>No login</span><span>No ads</span><span>No subscription</span></p>
+  </div>
+</section>
+
+<!-- The three tours, each beside the questions it answers (previews.json) -->
+{% if reel.length %}
+<section class="product-section product-section--cream ap-tours" id="tours">
   <div class="container">
-    <h2>College recruiting shouldn&rsquo;t feel like guesswork.</h2>
-    <p>Families spend thousands on showcases and recruiting services, yet still can&rsquo;t answer the most basic question: <strong>where does my athlete actually fit?</strong></p>
-    <div class="problem-grid">
-      <div class="problem-card">
-        <h3>Rosters Are Scattered</h3>
-        <p>Figuring out who&rsquo;s on a team means visiting hundreds of college athletics websites one by one, copying roster data into a spreadsheet, and trying to make sense of it all. Nobody has time for that.</p>
-      </div>
-      <div class="problem-card">
-        <h3>No Real Analysis</h3>
-        <p>Existing tools list schools but don&rsquo;t analyze rosters. They can&rsquo;t tell you which programs have depth gaps at your athlete&rsquo;s position, who&rsquo;s graduating, or how your athlete&rsquo;s profile compares to who&rsquo;s already there.</p>
-      </div>
-      <div class="problem-card">
-        <h3>Expensive &amp; Shallow</h3>
-        <p>Paid recruiting services charge hundreds of dollars for generic match lists that any Google search could produce. Real roster intelligence &mdash; the kind that actually informs decisions &mdash; doesn&rsquo;t exist anywhere else.</p>
-      </div>
+    {% for s in live %}{% set set = previews[s.slug] %}
+    <div class="ap-tour-set" data-ap-for="{{ s.slug }}" data-reels{% if not loop.first %} hidden{% endif %}>
+      {% if set and set.videos.length %}
+      <p class="ap-kicker">{{ set.videos.length | countWord | capitalize }} short tour{{ "s" if set.videos.length != 1 }}</p>
+      <h2>See RosterWise&trade; {{ s.name }} in action</h2>
+      <p class="ap-lead">Each tour asks the questions families bring and shows the screen that answers them. Tap a tour to play it with sound.</p>
+      <ol class="ap-tour-list">
+        {% for v in set.videos %}
+        <li class="ap-tour">
+          <div class="rw-reel-media ap-tour-media" style="aspect-ratio: {{ v.width }} / {{ v.height }};">
+            <button type="button" class="rw-reel-play" data-reel-src="{{ v.src }}" data-reel-poster="{{ v.poster }}"
+                    aria-label="Play the {{ v.title }} video ({{ v.seconds | clock }}, with music)">
+              <img src="{{ v.poster }}" alt="" width="{{ v.width }}" height="{{ v.height }}" loading="lazy" decoding="async">
+              <span class="rw-reel-icon" aria-hidden="true"></span>
+              <span class="rw-reel-len" aria-hidden="true">{{ v.seconds | clock }}</span>
+            </button>
+          </div>
+          <div class="ap-tour-text">
+            <h3><span>{{ v.title }}</span>{{ v.headline }}</h3>
+            <ul class="ap-qs">
+              {% for w in v.words %}{% if w.kind == "beat" %}
+              <li>{{ w.text }}<small>{{ w.line }}</small></li>
+              {% endif %}{% endfor %}
+            </ul>
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
+      <p class="ap-note">The videos use the app&rsquo;s sample programs.</p>
+      {% else %}
+      <h2>RosterWise&trade; {{ s.name }}</h2>
+      <p class="ap-lead">Tours of the {{ s.name | lower }} app are on the way. <a href="{{ s.downloadPage or s.appStoreUrl }}">See what it covers&nbsp;&rarr;</a></p>
+      {% endif %}
     </div>
+    {% endfor %}
   </div>
 </section>
+{% endif %}
 
-<!-- What RosterWise Analyzes -->
-<section class="product-section product-section--navy">
+<!-- Try it free -->
+<section class="product-section product-section--navy ap-free">
   <div class="container">
-    <h2>What RosterWise analyzes &mdash; at every program.</h2>
-    <p>RosterWise goes beyond school lists. It applies <a href="/roster-intelligence/" style="color: var(--gold); font-weight: 600;">roster intelligence</a> &mdash; systematic analysis of who is actually on each team &mdash; to help families understand where their athlete fits, in every sport we cover.</p>
-
-    <div class="feature-grid">
-      <div class="feature-card">
-        <h3>Position Depth &amp; Class-Year Gaps</h3>
-        <p>See who plays your athlete&rsquo;s position at every program, what class year they are, and when roster spots are opening. Graduating seniors create real opportunity &mdash; RosterWise surfaces it.</p>
-      </div>
-      <div class="feature-card">
-        <h3>Height &amp; Physical Profile by Position</h3>
-        <p>How does each program build by position? See average heights and size profiles so you know where your athlete&rsquo;s physical profile aligns with the players already on the roster.</p>
-      </div>
-      <div class="feature-card">
-        <h3>Geographic Recruiting Patterns</h3>
-        <p>What states, regions, and countries does each program recruit from? Some programs recruit nationally; others draw heavily from specific regions. See the geographic patterns behind every roster.</p>
-      </div>
-      <div class="feature-card">
-        <h3>Pathway &amp; Club Analysis</h3>
-        <p>What clubs, academies, and high schools did current players come from? Pathway data helps you understand which development pipelines each program draws from &mdash; and whether your athlete&rsquo;s background aligns.</p>
-      </div>
-      <div class="feature-card">
-        <h3>Transfer Portal Activity</h3>
-        <p>Does this program build primarily through high-school recruiting or through the transfer portal? Understanding a program&rsquo;s transfer patterns tells you how it fills roster spots &mdash; and what that means for a high-school recruit&rsquo;s path.</p>
-      </div>
-      <div class="feature-card">
-        <h3>International Composition</h3>
-        <p>What portion of the roster is domestic vs. international, and what countries are represented? International recruiting varies dramatically by division and conference &mdash; this analysis helps you understand the competitive landscape at each program.</p>
-      </div>
-      <div class="feature-card">
-        <h3>Coach Tenure &amp; Program Direction</h3>
-        <p>How long has the head coach been building this program? Coaching stability tells you something about program culture and direction. RosterWise includes coach tenure data for every program where available.</p>
-      </div>
-      <div class="feature-card">
-        <h3>Academic Fit &amp; School Profile</h3>
-        <p>It&rsquo;s not just athletics. See school size, academic strength, graduation rates, and campus setting for every program. Find schools where your athlete fits in the classroom, not just on the field.</p>
-      </div>
-      <div class="feature-card">
-        <h3>My RosterFit&trade; Personalized Scoring</h3>
-        <p>Enter your athlete&rsquo;s profile &mdash; position, class year, test scores, distance, budget, and height and pathway where the sport scores them &mdash; and RosterFit gives every program a light for each factor and one fit band: Strong, Good, Mixed or Weak fit. Not a generic match list. A personalized fit analysis based on real roster data.</p>
-      </div>
-    </div>
+    <p class="ap-kicker">No risk</p>
+    <h2>Try it free before you pay</h2>
+    <ol class="ap-steps">
+      <li><b>Download it free</b><span>No account, no login, nothing to sign up for.</span></li>
+      <li><b>Open three programs in full</b><span>Plus one conference. Browse every program on the map and in the list before you decide.</span></li>
+      <li><b>Unlock everything once</b><span>$39.99, one time. No subscription, no renewals, no ads.</span></li>
+    </ol>
+    <p class="ap-compare">Paid recruiting services charge $200&ndash;$2,000 for generic match lists. RosterWise is $39.99, once.</p>
+    {% for s in live %}
+    <p class="ap-free-cta" data-ap-for="{{ s.slug }}"{% if not loop.first %} hidden{% endif %}>
+      <a class="ap-btn ap-btn--gold" href="{{ s.appStoreUrl }}" target="_blank" rel="noopener">Get RosterWise {{ s.name }} free</a>
+    </p>
+    {% endfor %}
   </div>
 </section>
 
-<!-- Sport Availability -->
-<section class="product-section product-section--cream">
-  <div class="container" style="text-align: center;">
-    <h2>More Sports on the Way</h2>
-    <p>Each sport ships as its own app with sport-specific <a href="/roster-intelligence/">roster intelligence</a>, position or weight-class taxonomies, and recruiting analysis. After Soccer, Volleyball, Lacrosse, and Wrestling, these sports are planned next.</p>
-
-    <!-- Additional Planned Sports — single-line pills -->
-    <div style="display: flex; justify-content: center; align-items: center; gap: 14px; flex-wrap: wrap; margin: 32px auto 0;">
-      <span class="planned-pill">Field Hockey</span>
-      <span class="planned-pill">Baseball</span>
-      <span class="planned-pill">&amp; More</span>
-    </div>
-  </div>
-</section>
-
-<!-- Founder Story -->
-<section class="product-section product-section--white">
+<!-- One app for each sport -->
+<section class="product-section product-section--white ap-sports" id="sports">
   <div class="container">
-    <h2>Built by a soccer family, for every recruiting family.</h2>
-    <div class="founder-section">
-      <div class="founder-text">
-        <p>RosterWise started because of a conversation at a tournament &mdash; a parent asking another parent: <em>&ldquo;How do you even figure out where your kid fits?&rdquo;</em></p>
-        <p>The honest answer was: you don&rsquo;t. You visit hundreds of roster pages, take notes in a spreadsheet, and hope you&rsquo;re not missing something. Or you pay a recruiting service hundreds of dollars for a list of schools you could have Googled yourself.</p>
-        <p>We built RosterWise because we wanted the tool we couldn&rsquo;t find &mdash; one that goes deeper than school lists and actually analyzes rosters, identifies opportunity, and gives families real intelligence to work with. Every family&rsquo;s recruiting journey is different, and no tool can predict outcomes &mdash; but the right data can help you ask better questions and focus your effort where it matters most.</p>
-        <p>RosterWise isn&rsquo;t a matchmaking service or a recruiting platform. It&rsquo;s roster intelligence &mdash; deep analysis for the price of a tank of gas to the next showcase.</p>
-        <p><strong>RosterWise is built by Grobe Games LLC.</strong></p>
-      </div>
-    </div>
+    <p class="ap-kicker">Pick your sport</p>
+    <h2>One app for each sport</h2>
+    <p class="ap-lead">Each app is built for its sport: its positions or weight classes, its divisions, its recruiting.</p>
+    <ul class="ap-cards">
+      {% for s in live %}
+      <li class="ap-card">
+        {% if s.storeArt %}<img class="ap-card-art" src="{{ s.storeArt }}" alt="" width="960" height="411" loading="lazy" decoding="async">
+        {% else %}<div class="ap-card-art ap-card-art--plain"><img src="{{ s.logo }}" alt="" width="96" height="96" loading="lazy"></div>{% endif %}
+        <div class="ap-card-body">
+          <img class="ap-card-icon" src="{{ s.logo }}" alt="" width="52" height="52" loading="lazy">
+          <div>
+            <h3>RosterWise&trade; {{ s.name }}</h3>
+            <p class="ap-card-cov">{{ s.subtext }}</p>
+            {{ rating(s, "ap-rating--card", appRatings) }}
+          </div>
+        </div>
+        <div class="ap-card-acts">
+          <a class="ap-btn ap-btn--ink" href="{{ s.appStoreUrl }}" target="_blank" rel="noopener">Get the app</a>
+          {% set pillSport = s %}{% include "reels-pill.njk" %}
+        </div>
+        {% if s.downloadPage %}<a class="ap-card-more" href="{{ s.downloadPage }}">More about RosterWise {{ s.name }}&nbsp;&rarr;</a>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% if soon.length %}
+    <ul class="ap-soon-tiles">
+      {% for s in soon %}
+      <li>
+        <img src="{{ s.logo }}" alt="" width="44" height="44" loading="lazy">
+        <div><b>RosterWise&trade; {{ s.name }}</b><span>Coming soon &middot; {{ s.subtext }}</span>
+        {% if s.hub %}<a href="{{ s.hub }}">Read the {{ s.name | lower }} guides&nbsp;&rarr;</a>{% endif %}</div>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
   </div>
 </section>
 
-<!-- Pricing Reinforcement -->
-<section class="product-section product-section--cream">
-  <div class="container" style="text-align: center;">
-    <h2>Real intelligence. Fair price. No tricks.</h2>
-    <p style="max-width: 640px; margin: 0 auto 20px;">Paid recruiting services charge $200&ndash;$2,000 for generic match lists. RosterWise gives you deeper analysis &mdash; actual roster intelligence at the program level &mdash; for less than a single training session.</p>
-    <div class="product-price-badge" style="margin-bottom: 16px;">
-      <strong>$39.99</strong> &mdash; one-time purchase &middot; lifetime access
+<!-- From families, and who built it -->
+<section class="product-section product-section--cream ap-trust">
+  <div class="container">
+    <p class="ap-kicker">From a family using it</p>
+    <blockquote class="ap-quote">
+      <p>&ldquo;I actually learned of programs in my own state I didn&rsquo;t know about.&rdquo;</p>
+      <footer><span class="ap-stars" style="--ap-stars: 100%" aria-hidden="true"></span> A soccer parent, in an <a href="{{ (apps.sports | sportBySlug('soccer')).appStoreUrl }}" target="_blank" rel="noopener">App Store review</a> of RosterWise Soccer</footer>
+    </blockquote>
+    <h2>Built by a soccer family, for every recruiting family</h2>
+    <p>RosterWise started with a question at a tournament, one parent asking another: <em>&ldquo;How do you even figure out where your kid fits?&rdquo;</em> The honest answer was hundreds of roster pages and a spreadsheet. We built the tool we couldn&rsquo;t find, one that reads the rosters themselves. RosterWise is built by Grobe Games LLC.</p>
+  </div>
+</section>
+
+<!-- Everything about a program, in one place (Scott's note on ap-trust, 2026-11-01) -->
+<section class="product-section product-section--white ap-depth">
+  <div class="container">
+    <p class="ap-kicker">In every app</p>
+    <h2>Everything about a program, in one place</h2>
+    <p class="ap-depth-lead">Open a program and it&rsquo;s all there: the roster by position and class year, the room at your athlete&rsquo;s position, where the players come from, the clubs and high schools that feed the roster, who transferred in and from where, the school&rsquo;s admit rate, test scores and cost, and how long the head coach has been there. The same depth, program after program{% if reel.length %}, across {{ reel | teamFloorTotal(previews) }} college teams in {{ reel.length | countWord }} sports{% endif %}, all in one app. What used to take a weekend of roster pages and spreadsheets is a tap away, so your family&rsquo;s time goes to the programs that fit.</p>
+    <div class="ap-lists">
+      <div>
+        <h3>On every roster</h3>
+        <ul>
+          <li><b>Room at your position:</b> who&rsquo;s listed, who leaves after this season, who&rsquo;s new</li>
+          <li><b>Class years</b> and openings by position</li>
+          <li><b>Where players come from:</b> states, countries, clubs and high schools</li>
+          <li><b>Transfers</b>, matched to the college they left</li>
+          <li><b>What changed</b> since the last roster</li>
+        </ul>
+      </div>
+      <div>
+        <h3>On every school</h3>
+        <ul>
+          <li><b>Admit rate and test scores</b></li>
+          <li><b>Cost</b>, campus size and setting</li>
+          <li><b>Conference</b> standings, and the head coach&rsquo;s tenure</li>
+        </ul>
+      </div>
+      <div>
+        <h3>For your athlete</h3>
+        <ul>
+          <li><b>My RosterFit&trade;:</b> a fit band, with a light for each factor</li>
+          <li><b>Compare</b> programs side by side, and save favorites with notes</li>
+          <li><b>A recruiting timeline</b> that opens at your athlete&rsquo;s year</li>
+        </ul>
+      </div>
     </div>
-    <p style="font-size: 15px; color: var(--text-muted); max-width: 540px; margin: 0 auto;">No subscriptions. No monthly fees. No ads. No account required. Your data stays on your device. Available for your athlete&rsquo;s entire recruiting journey.</p>
+    <p class="ap-limits">RosterWise reports what the rosters show. It doesn&rsquo;t rank programs or predict recruiting outcomes. <a href="/roster-intelligence/">How roster intelligence works&nbsp;&rarr;</a></p>
   </div>
 </section>
 
 <!-- FAQ -->
-<section class="product-section product-section--white">
+<section class="product-section product-section--cream">
   <div class="container">
-    <h2 style="text-align: center;">Frequently Asked Questions</h2>
+    <h2 style="text-align: center;">Questions families ask</h2>
     <div class="faq-list">
       {% for item in faq %}
       <details class="faq-item">
@@ -191,45 +299,21 @@ faq:
   </div>
 </section>
 
-<!-- Every Recruiting Journey Is Different -->
-<section class="product-section product-section--cream">
-  <div class="container">
-    <h2 style="text-align: center;">Every recruiting journey is different.</h2>
-    <p style="max-width: 700px; margin: 0 auto; text-align: center;">No two athletes have the same path. Timelines vary, priorities differ, and what matters most to one family may be secondary to another. RosterWise provides the analysis &mdash; you and your family make the decisions. We believe informed families make better decisions, and that starts with understanding the landscape your athlete is actually navigating.</p>
-  </div>
-</section>
-
-<!-- Final CTA -->
+<!-- Final call to action, for the chosen sport -->
 <section class="product-final-cta">
   <div class="inner">
     <h2>Ready to find your athlete&rsquo;s fit?</h2>
-    <p>Roster intelligence for every college program. Position depth, class-year gaps, recruiting patterns, geographic analysis, and personalized My RosterFit&trade; scoring &mdash; all for $39.99, one time. RosterWise Soccer, Volleyball, Lacrosse, and Wrestling are available now.</p>
-
-    <!-- App Logos — data-driven from apps.json. -->
-    <div style="display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; margin: 32px auto 8px; max-width: 720px;">
-      {% for sport in apps.sports %}
-      {% if sport.live %}
-      <a href="{{ sport.appStoreUrl }}" target="_blank" rel="noopener" style="text-decoration: none; text-align: center;">
-        <img src="{{ sport.logo }}" alt="RosterWise {{ sport.name }} App" width="150" height="150" style="border-radius: 20px; box-shadow: 0 6px 24px rgba(0,0,0,0.35); transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';" onmouseout="this.style.transform='';" loading="lazy">
-        <div style="margin-top: 10px; font-size: 10px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold);">Available Now</div>
-      </a>
-      {% else %}
-      <div style="text-align: center;">
-        <img src="{{ sport.logo }}" alt="RosterWise {{ sport.name }} App" width="150" height="150" style="border-radius: 20px; box-shadow: 0 6px 24px rgba(0,0,0,0.35); opacity: 0.6;" loading="lazy">
-        <div style="margin-top: 10px; font-size: 10px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.55);">Coming Soon</div>
-      </div>
-      {% endif %}
-      {% endfor %}
-    </div>
-
-    <div class="product-store-btns" style="margin-top: 28px;">
-      {% for sport in apps.sports %}{% if sport.live %}
-      <a href="{{ sport.appStoreUrl }}" class="store-btn" target="_blank" rel="noopener">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 384 512" fill="currentColor"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5c0 26.2 4.8 53.3 14.4 81.2 12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
-        <span>Download RosterWise {{ sport.name }}</span>
-      </a>
-      {% endif %}{% endfor %}
-    </div>
-    <p style="margin-top: 20px; font-size: 14px;"><a href="/soccer/" style="color: var(--gold);">Explore Soccer &rarr;</a> &nbsp;&middot;&nbsp; <a href="/volleyball/" style="color: var(--gold);">Explore Volleyball &rarr;</a> &nbsp;&middot;&nbsp; <a href="/lacrosse/" style="color: var(--gold);">Explore Lacrosse &rarr;</a> &nbsp;&middot;&nbsp; <a href="/wrestling/" style="color: var(--gold);">Explore Wrestling &rarr;</a> &nbsp;&middot;&nbsp; <a href="/guide/" style="color: var(--gold);">Recruiting Guides &rarr;</a></p>
+    <p>{{ live | pluck("name") | andList }} {{ "are" if live.length > 1 else "is" }} available now, each in its own app. Free to try; $39.99 once for full access.</p>
+    {% for s in live %}
+    <p class="ap-final-cta" data-ap-for="{{ s.slug }}"{% if not loop.first %} hidden{% endif %}>
+      <a class="ap-btn ap-btn--gold" href="{{ s.appStoreUrl }}" target="_blank" rel="noopener">Get RosterWise {{ s.name }} free</a>
+    </p>
+    {% endfor %}
+    <p class="ap-explore">
+      {% for s in apps.sports %}{% if s.hub %}<a href="{{ s.hub }}">Explore {{ s.name }}&nbsp;&rarr;</a>{% endif %}{% endfor %}
+      <a href="/guide/">Recruiting guides&nbsp;&rarr;</a>
+    </p>
   </div>
 </section>
+
+<script src="/assets/app-page.js?v=1" defer></script>
