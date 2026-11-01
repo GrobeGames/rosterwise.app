@@ -1,0 +1,14 @@
+{#- Pieces shared by /app/ and the four /<sport>/app/ pages (board app-page). Import with
+    {% import "app-macros.njk" as ap %}. -#}
+
+{#- A sport's App Store rating, read from Apple at build (src/_data/appRatings.js), shown only at minCount ratings or
+    more (Scott, board app-page q1, 2026-11-01). Pass appRatings: a macro sees only its arguments. -#}
+{%- macro rating(s, cls, ratings) -%}
+{% set r = ratings.sports[s.slug] %}
+{% if r and r.count >= ratings.minCount %}
+<p class="ap-rating {{ cls }}" title="App Store rating, read {{ r.read }}">
+  <span class="ap-stars" style="--ap-stars: {{ (r.rating / 5 * 100) | round(1) }}%" aria-hidden="true"></span>
+  <span><b>{{ r.rating | oneDecimal }}</b> on the App Store · {{ r.count }} ratings</span>
+</p>
+{% endif %}
+{%- endmacro -%}

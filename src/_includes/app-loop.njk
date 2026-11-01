@@ -1,0 +1,20 @@
+{#- The hero's silent Fit tour for one sport; src/assets/app-page.js plays it while on screen. Set `s` (the sport);
+    on /app/ also `loopFor` (the figure follows the sport chips) and `loopHidden`. A sport with no videos on the site
+    shows its app icon. -#}
+{% set fit = previews[s.slug].videos[0] if previews[s.slug] else null %}
+<figure class="ap-loop"{% if loopFor %} data-ap-for="{{ s.slug }}"{% endif %}{% if loopHidden %} hidden{% endif %}>
+  {% if fit %}
+  <div class="ap-loop-frame" style="aspect-ratio: {{ fit.width }} / {{ fit.height }};">
+    <video data-ap-loop muted playsinline loop preload="none" poster="{{ fit.poster }}" data-src="{{ fit.src }}"
+           width="{{ fit.width }}" height="{{ fit.height }}"
+           aria-label="The {{ fit.title }} tour of RosterWise {{ s.name }}, playing without sound"></video>
+  </div>
+  <div class="ap-loop-ctl">
+    <button type="button" data-ap-pause aria-pressed="false">Pause</button>
+    <button type="button" data-ap-sound aria-pressed="false">Sound on</button>
+  </div>
+  <figcaption>The {{ fit.title }} tour &middot; {{ fit.seconds | clock }} &middot; sample programs</figcaption>
+  {% else %}
+  <img class="ap-loop-icon" src="{{ s.logo }}" alt="RosterWise {{ s.name }}" width="220" height="220">
+  {% endif %}
+</figure>

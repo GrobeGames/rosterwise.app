@@ -1,0 +1,20 @@
+{#- Try it free: Core FreeTierService's allowance, said as "three programs" (Scott, board app-page, 2026-11-01: "a
+    recruit is only interested in their gender"), and the price comparison he kept (WEB-1). Set `tfSports`: one sport,
+    or every live sport on /app/, where the button follows the sport chips. -#}
+<section class="product-section product-section--navy ap-free">
+  <div class="container">
+    <p class="ap-kicker">No risk</p>
+    <h2>Try it free before you pay</h2>
+    <ol class="ap-steps">
+      <li><b>Download it free</b><span>No account, no login, nothing to sign up for.</span></li>
+      <li><b>Open three programs in full</b><span>Plus one conference. Browse every program on the map and in the list before you decide.</span></li>
+      <li><b>Unlock everything once</b><span>$39.99, one time. No subscription, no renewals, no ads.</span></li>
+    </ol>
+    <p class="ap-compare">Paid recruiting services charge $200&ndash;$2,000 for generic match lists. RosterWise is $39.99, once.</p>
+    {% for s in tfSports %}
+    <p class="ap-free-cta"{% if tfSports.length > 1 %} data-ap-for="{{ s.slug }}"{% if not loop.first %} hidden{% endif %}{% endif %}>
+      <a class="ap-btn ap-btn--gold" href="{{ s.appStoreUrl }}" target="_blank" rel="noopener">Get RosterWise {{ s.name }} free</a>
+    </p>
+    {% endfor %}
+  </div>
+</section>

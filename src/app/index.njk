@@ -38,17 +38,9 @@ eleventyComputed:
 {% set live = apps.sports | selectattr("live") %}
 {% set soon = apps.sports | rejectattr("live") %}
 {% set reel = apps.sports | withPreviews(previews) %}
-<link rel="stylesheet" href="/assets/app-page.css?v=1">
+<link rel="stylesheet" href="/assets/app-page.css?v=2">
 
-{%- macro rating(s, cls, ratings) -%}
-{% set r = ratings.sports[s.slug] %}
-{% if r and r.count >= ratings.minCount %}
-<p class="ap-rating {{ cls }}" title="App Store rating, read {{ r.read }}">
-  <span class="ap-stars" style="--ap-stars: {{ (r.rating / 5 * 100) | round(1) }}%" aria-hidden="true"></span>
-  <span><b>{{ r.rating | oneDecimal }}</b> on the App Store · {{ r.count }} ratings</span>
-</p>
-{% endif %}
-{%- endmacro -%}
+{% import "app-macros.njk" as ap %}
 
 <!-- Hero: choose a sport, see its Fit tour, one App Store badge -->
 <section class="product-hero ap-hero" id="top">
@@ -74,7 +66,7 @@ eleventyComputed:
           <a class="ap-badge" href="{{ s.appStoreUrl }}" target="_blank" rel="noopener">
             <img src="/assets/badges/download-on-the-app-store-black.svg" alt="Download RosterWise {{ s.name }} on the App Store" width="150" height="50">
           </a>
-          {{ rating(s, "ap-rating--hero", appRatings) }}
+          {{ ap.rating(s, "ap-rating--hero", appRatings) }}
         </div>
         {% endfor %}
         <p class="ap-offer"><b>Free to try.</b> $39.99 once for full access. No subscription.</p>
@@ -84,23 +76,7 @@ eleventyComputed:
 
     <div class="ap-hero-media">
       {% for s in live %}
-      {% set fit = previews[s.slug].videos[0] if previews[s.slug] else null %}
-      <figure class="ap-loop" data-ap-for="{{ s.slug }}"{% if not loop.first %} hidden{% endif %}>
-        {% if fit %}
-        <div class="ap-loop-frame" style="aspect-ratio: {{ fit.width }} / {{ fit.height }};">
-          <video data-ap-loop muted playsinline loop preload="none" poster="{{ fit.poster }}" data-src="{{ fit.src }}"
-                 width="{{ fit.width }}" height="{{ fit.height }}"
-                 aria-label="The {{ fit.title }} tour of RosterWise {{ s.name }}, playing without sound"></video>
-        </div>
-        <div class="ap-loop-ctl">
-          <button type="button" data-ap-pause aria-pressed="false">Pause</button>
-          <button type="button" data-ap-sound aria-pressed="false">Sound on</button>
-        </div>
-        <figcaption>The {{ fit.title }} tour &middot; {{ fit.seconds | clock }} &middot; sample programs</figcaption>
-        {% else %}
-        <img class="ap-loop-icon" src="{{ s.logo }}" alt="RosterWise {{ s.name }}" width="220" height="220">
-        {% endif %}
-      </figure>
+      {% set loopFor = true %}{% set loopHidden = not loop.first %}{% include "app-loop.njk" %}
       {% endfor %}
     </div>
   </div>
@@ -132,39 +108,9 @@ eleventyComputed:
 {% if reel.length %}
 <section class="product-section product-section--cream ap-tours" id="tours">
   <div class="container">
-    {% for s in live %}{% set set = previews[s.slug] %}
+    {% for s in live %}
     <div class="ap-tour-set" data-ap-for="{{ s.slug }}" data-reels{% if not loop.first %} hidden{% endif %}>
-      {% if set and set.videos.length %}
-      <p class="ap-kicker">{{ set.videos.length | countWord | capitalize }} short tour{{ "s" if set.videos.length != 1 }}</p>
-      <h2>See RosterWise&trade; {{ s.name }} in action</h2>
-      <p class="ap-lead">Each tour asks the questions families bring and shows the screen that answers them. Tap a tour to play it with sound.</p>
-      <ol class="ap-tour-list">
-        {% for v in set.videos %}
-        <li class="ap-tour">
-          <div class="rw-reel-media ap-tour-media" style="aspect-ratio: {{ v.width }} / {{ v.height }};">
-            <button type="button" class="rw-reel-play" data-reel-src="{{ v.src }}" data-reel-poster="{{ v.poster }}"
-                    aria-label="Play the {{ v.title }} video ({{ v.seconds | clock }}, with music)">
-              <img src="{{ v.poster }}" alt="" width="{{ v.width }}" height="{{ v.height }}" loading="lazy" decoding="async">
-              <span class="rw-reel-icon" aria-hidden="true"></span>
-              <span class="rw-reel-len" aria-hidden="true">{{ v.seconds | clock }}</span>
-            </button>
-          </div>
-          <div class="ap-tour-text">
-            <h3><span>{{ v.title }}</span>{{ v.headline }}</h3>
-            <ul class="ap-qs">
-              {% for w in v.words %}{% if w.kind == "beat" %}
-              <li>{{ w.text }}<small>{{ w.line }}</small></li>
-              {% endif %}{% endfor %}
-            </ul>
-          </div>
-        </li>
-        {% endfor %}
-      </ol>
-      <p class="ap-note">The videos use the app&rsquo;s sample programs.</p>
-      {% else %}
-      <h2>RosterWise&trade; {{ s.name }}</h2>
-      <p class="ap-lead">Tours of the {{ s.name | lower }} app are on the way. <a href="{{ s.downloadPage or s.appStoreUrl }}">See what it covers&nbsp;&rarr;</a></p>
-      {% endif %}
+      {% include "app-tours.njk" %}
     </div>
     {% endfor %}
   </div>
@@ -172,23 +118,7 @@ eleventyComputed:
 {% endif %}
 
 <!-- Try it free -->
-<section class="product-section product-section--navy ap-free">
-  <div class="container">
-    <p class="ap-kicker">No risk</p>
-    <h2>Try it free before you pay</h2>
-    <ol class="ap-steps">
-      <li><b>Download it free</b><span>No account, no login, nothing to sign up for.</span></li>
-      <li><b>Open three programs in full</b><span>Plus one conference. Browse every program on the map and in the list before you decide.</span></li>
-      <li><b>Unlock everything once</b><span>$39.99, one time. No subscription, no renewals, no ads.</span></li>
-    </ol>
-    <p class="ap-compare">Paid recruiting services charge $200&ndash;$2,000 for generic match lists. RosterWise is $39.99, once.</p>
-    {% for s in live %}
-    <p class="ap-free-cta" data-ap-for="{{ s.slug }}"{% if not loop.first %} hidden{% endif %}>
-      <a class="ap-btn ap-btn--gold" href="{{ s.appStoreUrl }}" target="_blank" rel="noopener">Get RosterWise {{ s.name }} free</a>
-    </p>
-    {% endfor %}
-  </div>
-</section>
+{% set tfSports = live %}{% include "app-try-free.njk" %}
 
 <!-- One app for each sport -->
 <section class="product-section product-section--white ap-sports" id="sports">
@@ -206,7 +136,7 @@ eleventyComputed:
           <div>
             <h3>RosterWise&trade; {{ s.name }}</h3>
             <p class="ap-card-cov">{{ s.subtext }}</p>
-            {{ rating(s, "ap-rating--card", appRatings) }}
+            {{ ap.rating(s, "ap-rating--card", appRatings) }}
           </div>
         </div>
         <div class="ap-card-acts">
@@ -234,11 +164,8 @@ eleventyComputed:
 <!-- From families, and who built it -->
 <section class="product-section product-section--cream ap-trust">
   <div class="container">
-    <p class="ap-kicker">From a family using it</p>
-    <blockquote class="ap-quote">
-      <p>&ldquo;I actually learned of programs in my own state I didn&rsquo;t know about.&rdquo;</p>
-      <footer><span class="ap-stars" style="--ap-stars: 100%" aria-hidden="true"></span> A soccer parent, in an <a href="{{ (apps.sports | sportBySlug('soccer')).appStoreUrl }}" target="_blank" rel="noopener">App Store review</a> of RosterWise Soccer</footer>
-    </blockquote>
+    {% set reviewed = live | withReviews(appReviews) %}
+    {% if reviewed.length %}{% set rs = reviewed[0] %}{% include "app-review.njk" %}{% endif %}
     <h2>Built by a soccer family, for every recruiting family</h2>
     <p>RosterWise started with a question at a tournament, one parent asking another: <em>&ldquo;How do you even figure out where your kid fits?&rdquo;</em> The honest answer was hundreds of roster pages and a spreadsheet. We built the tool we couldn&rsquo;t find, one that reads the rosters themselves. RosterWise is built by Grobe Games LLC.</p>
   </div>
@@ -316,4 +243,4 @@ eleventyComputed:
   </div>
 </section>
 
-<script src="/assets/app-page.js?v=1" defer></script>
+<script src="/assets/app-page.js?v=2" defer></script>

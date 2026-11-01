@@ -1,0 +1,10 @@
+{
+  "_note": "App Store reviews quoted on /app/ and a sport's app page: one sentence, word for word, read on the app's App Store page (fact log: prototypes/research/app-page-fact-log.md, row D). Remove an entry if Apple removes the review.",
+  "soccer": {
+    "quote": "I actually learned of programs in my own state I didn’t know about.",
+    "who": "A soccer parent",
+    "stars": 5,
+    "review": "“Super helpful”, May 24",
+    "read": "2026-11-01"
+  }
+}

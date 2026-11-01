@@ -24,6 +24,11 @@
 .ap-hero-grid { position: relative; z-index: 2; max-width: 1120px; margin: 0 auto; display: grid; gap: 28px; }
 .ap-eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; }
 .ap-hero .tagline { margin-bottom: 0; }
+/* A sport's own app page (/<sport>/app/): its icon in the eyebrow, its coverage line, a link to its guides. */
+.ap-eyebrow-icon { width: 28px; height: 28px; border-radius: 7px; vertical-align: middle; margin: -4px 10px 0 0; }
+.ap-hero-cov { margin-top: 10px; font-size: 14px; color: rgba(255, 255, 255, .6); }
+.ap-hero-explore { margin-top: 14px; font-size: 14px; }
+.ap-hero-explore a { color: var(--gold); }
 
 .ap-chips { display: grid; grid-template-columns: repeat(auto-fit, minmax(72px, 1fr)); gap: 8px; max-width: 470px; margin: 24px auto 0; }
 .ap-chip {
@@ -103,6 +108,7 @@
 .ap-stats li { background: var(--cream); border-radius: 14px; padding: 14px 16px; }
 .ap-stats b { display: block; font-family: 'Playfair Display', serif; font-size: 28px; line-height: 1.1; color: var(--navy); }
 .ap-stats span { font-size: 13px; color: var(--text-muted); }
+.ap-stats--one { max-width: 280px; margin: 0 auto; text-align: center; }
 .ap-terms { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; margin-top: 14px; font-size: 14px; color: var(--text-muted); }
 .ap-terms span::before { content: "\2713"; color: var(--gold-dark); font-weight: 700; margin-right: 6px; }
 
