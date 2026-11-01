@@ -249,7 +249,7 @@ eleventyComputed:
   <div class="container">
     <p class="ap-kicker">In every app</p>
     <h2>Everything about a program, in one place</h2>
-    <p class="ap-depth-lead">Open a program and it&rsquo;s all there: the roster by position and class year, the room at your athlete&rsquo;s position, where the players come from, the clubs and high schools that feed the roster, who transferred in and from where, the school&rsquo;s admit rate, test scores and cost, and how long the head coach has been there. The same depth, program after program{% if reel.length %}, across {{ reel | teamFloorTotal(previews) }} college teams in {{ reel.length | countWord }} sports{% endif %}, all in one app. What used to take a weekend of roster pages and spreadsheets is a tap away, so your family&rsquo;s time goes to the programs that fit.</p>
+    <p class="ap-depth-lead">Open a program and it&rsquo;s all there: the roster by position and class year, the room at your athlete&rsquo;s position, where the players come from, the clubs and high schools that feed the roster, who transferred in and from where, the school&rsquo;s admit rate, test scores and cost, and how long the head coach has been there. The same depth, program after program{% for s in live %}{% set floor = s.slug | teamFloor(previews) %}<span data-ap-for="{{ s.slug }}"{% if not loop.first %} hidden{% endif %}>{% if floor %}, across {{ floor }} college {{ s.name | lower }} teams{% endif %}</span>{% endfor %}, all in one app. What used to take a weekend of roster pages and spreadsheets is a tap away, so your family&rsquo;s time goes to the programs that fit.</p>
     <div class="ap-lists">
       <div>
         <h3>On every roster</h3>
